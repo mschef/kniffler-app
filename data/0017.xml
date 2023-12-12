@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 4. Februar 1862</title>
+            <title type="file">0017.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-19</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Seite mit
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-02-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-02-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-26" who="TP">diplomatische Transkription</change>
+         <change when="2020-10-08" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+         <change when="2020-11-30" who="MS">ergänzende Auszeichnung, Verknüpfung der
+                Faksimiles</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">p <hi rend="underline">
+                     <name type="ship" ref="K01676">Spray</name>
+                  </hi>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>, <date when="1862-02-04">4
+                                Febr. 1862</date>.</hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+               </hi>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Auf unsern letzten Brief vom <date when="1862-01-21">21</date>/<date when="1862-01-25">25<hi rend="superscript">ten</hi>
+                  <lb/>
+                  <choice>
+                     <abbr>vor. Mts.</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date> Bezug nehmend zeigen wir Ihnen den<lb/>Empfang des <choice>
+                  <abbr>w.</abbr>
+                  <expan>werten</expan>
+               </choice> Ihrigen vom <date when="1862-01-23">23 Janr</date> an, welchen<lb/>
+                    wir diesen Morgen p. ”<name type="ship" ref="K01677">Horatio</name>„ erhalten
+                    haben.<lb/> Die für Herrn <hi rend="latintype">
+                  <persName ref="K00016">Morf</persName>
+               </hi> begebenen <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="1500" unit="britPound">1500.-</measure>
+               <lb/> sind zum Course von 6/2½ <hi rend="underline">d</hi> mit <hi rend="latintype">
+                  <term type="commercial" ref="K01504">T<hi rend="underline">s</hi>
+                  </term>
+                  <measure type="currency" unit="tael" quantity="4832.22">4832.2.2</measure>
+               </hi>
+               <lb/> begeben worden. Entschuldigen Sie <choice>
+                  <abbr>gef.</abbr>
+                  <expan>gefällig</expan>
+               </choice> daß wir<lb/> übersehen haben, Ihnen diese Aufgabe am Fuße<lb/> unseres
+                    Briefes vom <date when="1862-01-21">21 Janr.</date> zu machen.<lb/> Des
+                    Neujahrsfestes wegen hat auch hier<lb/> seit 8 Tagen das Geschäft gänzlich
+                    geruht nur wir<lb/> können Ihnen als Neuigkeit vom hiesigen<lb/> Markte nur
+                    mittheilen, daß die <term type="goods" ref="K01501">Steinkohlen</term> ⅌<lb/>
+               <hi rend="latintype">”<name type="ship" ref="K01679">Bar. F. van
+                        Dambenoy</name>„</hi> zu <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="9" unit="tael">9.-</measure>.</hi>
+                    verkauft sein<lb/> sollen.- Schiffs Ankünfte bleiben selten und<lb/> da Amerik.
+                    Fahrzeuge schwerlich gechartert werden,<lb/> so lange die Differenz zwischen
+                        <placeName ref="K00556">Nord Amerika</placeName> und<lb/>
+               <placeName ref="K00512">England</placeName> nicht friedlich beigelegt sind,
+                    werden frachten <lb/> sich mindestens auf ihrem jetzigen Standpunkte
+                    erhalten<lb/> wenn nicht steigen.- Das nächste Schiff für dort<lb/> wird wohl
+                    die <hi rend="latintype">
+                  <name type="ship" ref="K01689">Armistici</name>
+               </hi> sein.<lb/>
+               <seg rend="center">Wir zeichnen</seg>
+               <lb/>
+               <seg rend="right">achtungsvoll u. ergebendst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01011">Bourjau Hubener + Co.</orgName>
+                     <lb/>
+                     <persName ref="K00071">Ernst Behre</persName>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_2.tif" n="2"/>
+            <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_4.tif" n="4"/>
+            <p>
+               <seg rend="right">
+                  <add resp="other" style="textOrientation: straight">
+                     <hi rend="underline">1862</hi>
+                     <lb/>
+                     <hi rend="latintype">
+                        <placeName ref="K00503">Shanghai</placeName> 4 Febr.<lb/>
+                        <orgName type="firm" ref="K01011">Bourjau Hübener &amp;
+                                    Co.</orgName>
+                        <lb/> r/ <date when="1862-02-12">12/2 62</date>
+                        <lb/>b/<date when="1862-02-14">14/2 62</date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_1.tif" n="1"/>
+         <p>Per Spray<lb/>Shanghai, 4th Feb. 1862.<lb/>Messrs. L. Kniffler +
+                Co.<lb/>Nagasaki<lb/> With reference to our last letter from 21st/25th<lb/>of last
+                month we notify you of our <lb/> receiving your esteemed letter from 23rd Jan.,
+                which<lb/>we recived this morning by means of “Horatio”.<lb/>The £1,500 instructed
+                for Mr. Morf<lb/>have been passed to him at a rate of 6/2½ d with <lb/> Ts
+                4,832.2.2. Kindly excuse that we <lb/> omitted to provide you with this
+                information<lb/> at the end of our letter of 21st Jan. <lb/>Because of New Year
+                business here, too,<lb/> has been resting entirely for the last 8 days,<lb/> the
+                only news we can tell you about the <lb/> market here is that stone
+                coal⅌[?]<lb/>“Bar. F. van Dambenoy” shall be sold for <lb/> Ts 9. Arrivals of ships
+                remain rare and, <lb/>because Americ. vessels are hard to charter, <lb/>for as long
+                as the differences between North America <lb/>and England have not been settled
+                peacefully, cargoes <lb/>will at least remain at their current level<lb/> or even
+                rise. – The next ship to go there <lb/>will probably be the Armistici.<lb/>We
+                sign<lb/> respectfully and devotedly<lb/> Bourjau Hubener + Co.<lb/>Ernst Behre</p>
+         <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_2.tif" n="2"/>
+         <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_02_04_Kniffler_Nagasaki_von_Bourjau_Hubener_Shanghai_4.tif" n="4"/>
+         <p>⟨1862<lb/>Shanghai 4th Feb.<lb/>Bourjau Hübener &amp; Co.<lb/>r[eceived]/ 12/2
+                62<lb/>a[nswered]/14/2 62⟩<lb/>
+         </p>
+      </body>
+   </text>
+</TEI>

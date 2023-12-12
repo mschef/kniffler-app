@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. Bonnike &amp; Zoonen in Amsterdam an L. Kniffler &amp; Co. in Yokohama am 16.
+               Juli 1866</title>
+            <title type="file">0078.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-77</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seitem Anschreiben und eine Umschlagsseite</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01148">G. Bonnike &amp; Zoonen</orgName>
+               <settlement ref="K00529">Amsterdam</settlement>
+               <date when="1866-07-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement>Yokohama</settlement>
+               <date when="1866-09-07"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="nl-NL"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-29" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-02" who="MS">Ergänzung der Transkription; Überarbeitung des
+            TEI-Headers</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_07_16_Kniffler_Yokohama_von_Bonnicki_Zonen_Amsterdam_1.tif" n="envelope"/>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other" place="marginLeft">1866<lb/>
+               <placeName ref="K00529">Amsterdam</placeName> 16 Juli<lb/>
+               <orgName type="firm" ref="K01148">Bonnike + Zoonen</orgName>
+               <lb/>
+               <date when="1866-09-07">7 Sep</date>
+               <lb/>
+               <date when="1866-09-10">10<hi rend="underline">Sept</hi>
+               </date>
+            </add>
+         </p>
+         <p>
+            <seg rend="center">via <placeName ref="K00515">Marseille</placeName>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00549">PAYS-BA<gap unit="char" quantity="1"/>
+                  </placeName>
+                  <lb/>
+                  <date when="1866-07-18">18<lb/>JUIL.<lb/>66</date>
+                  <lb/>VA<gap quantity="3" unit="char"/>
+               </stamp>
+               <lb/> De Heeren <orgName type="firm" ref="K01004">l. Kniffler+ Co.</orgName>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00529">AMSTERDAM</placeName>
+                  <lb/>16/7<lb/>5-9</stamp>
+               <lb/>to<lb/>
+               <stamp style="rectangular" type="postal">FRANCO</stamp>
+               <lb/>
+               <placeName ref="K00525">Yokohama</placeName>
+            </seg>
+            <seg rend="right">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>7<lb/>SEPT.<lb/>66<lb/>BAU FRANCAIS</stamp>
+            </seg>
+         </p>
+         <pb facs="1866_07_16_Kniffler_Yokohama_von_Bonnicki_Zonen_Amsterdam_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00529">Amsterdam</placeName>
+               <date when="1866-07-16">16 July 1866</date>
+            </seg>
+            <lb/> De Heeren <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00525">Yokohama</placeName>
+            </seg>
+            <lb/> Wel Ed: Heeren<lb/> Oder referte aan ommestaand duplicaat<lb/> onzer laatsten ann
+            UEd <del rend="overstrike">00</del>
+            <date when="1866-05-08">8 Mai</date> lh, erkennen wij sedert<lb/> achtereen volgens den
+            goeden ontvangst uwed letteren <del rend="overstrike">00</del>
+            <date when="1866-03-30">30 Maart</date>
+            <lb/>
+            <date when="1866-04-16">16</date> a <date when="1866-04-28">28 April</date> en <date when="1866-05-11">11 Mai</date> lh. met welken eerstgenadden voor<lb/> rekening van
+            uw <placeName ref="K00514">Naagasaki</placeName> huis remise ontvingen ten<lb/> bedrage
+            van <unclear reason="eccentric_ductus">£</unclear> 51.10.10._ 6 Maanden Tigt of de
+               <orgName type="firm" ref="K01072">Union Bank<lb/> te London</orgName>, waarvoor de
+            rekening van uw <placeName ref="K00514">Nagasaki</placeName> huis<lb/> onder gewoon
+            voorbehoud hebben erkend._<lb/> Wij bemerketen ons tevens, U het bedrag der betaalde
+            on-<lb/> -kosten, over de ten uwent nog geloste goederen hadden<lb/> afgehokken. hetwelk
+            wij accoord bevonden._ en tevens dat<lb/> UEd accoord gingen, met onze bemerkingen in
+            ons schrijven<lb/> va <date when="1866-02-21">21e Feb<hi rend="superscript">r</hi>
+            </date> lh. vervat, en zien wij dis de avise over det bedrag<lb/> $ 108.66½ met een umed
+            eerstoogende te genwet:_ berded be-<lb/> -merken UEd ons van de ondere onder te vor o/kg
+            berustende<lb/> goederen geken opgaaf kunnen geven, door dezelve allen op-<lb/> naam van
+            den Heer W. Brummer in uwe coeken genoteerd<lb/> staan, en van de teep omdat gij daaraan
+            de opkening<lb/>binnen kort hoopten te onder._ wat nu hat eerst behefd,<lb/> zoo zonden
+            wij u daaran in der tijd faktuur en Connossement.<lb/> met vermelding voor welk aandeel
+            wij daarbij geenteresseerd<lb/> waren, dus valt het naar ons inriens niet nievijelik
+            ons<lb/> dit aadeel der onkosten in rekening te belasten mogt die U<lb/> achter niet
+            dventlijk wezen, too tullen wij wachten tot dat<lb/> de gvederen verkocht zijn, het ons
+            dan competeerende<lb/> aandeel an het Netto Provenu verzoeken wij U dan echter<lb/>
+            direct aan ons te remitteeren.=<lb/> Met uwen laatst gemelde, geven UEd ons kennis
+            een<lb/> gedeelte der <term type="goods" ref="K01514">Semen Cÿnae</term> verkocht te
+            hebben, de bedon-<lb/> -gen prijs is helaas wederom zou als allen <add style="textOrientation: straight" resp="writer" place="above">der</add> in den
+            laatsten<lb/> tijd ten uwent verkochtte gwederen._<lb/>
+         </p>
+         <pb facs="1866_07_16_Kniffler_Yokohama_von_Bonnicki_Zonen_Amsterdam_3.tif" n="3"/>
+         <p> Ontemt het Toerwert en Nailroo hpen wij ook<lb/> spoedig gunstigere berigten te
+            vernemen._<lb/> De politieke toestand van <placeName ref="K00511">Europa</placeName>,
+            blijft voor de<lb/> handel zeer ongunstig, Pruissen heeft Oosterijk tot zoo<lb/> verre
+            terug geslagen, dat wij spoedig zijne komst voor de<lb/> Hoofdstad kunnen vernemen , het
+            is en blijft nu altijd nog<lb/> maar de vraag of de anden vragend heden zich niet
+            met<lb/> de zaak zullen bemoeijen in wek geval nog geen einde<lb/> te vermaachten is._
+            de kataen makrt hondt zich onder<lb/> deze omstandin heden steeds zeer vast. of is
+            deselve in de<lb/> laatsten tijd iets in prijs voornitgegaan._<lb/> In Ofwachting uwer
+            gelerden berigten. Teekenen<lb/>
+            <seg rend="right">UEd Dienaaren</seg>
+         </p>
+         <p>
+            <seg rend="left">Met het schief <name type="ship" ref="K01833">Fagel</name> zonden wij U
+               in der<lb/> tijd voor ½ Kehj, door hemiddeling van den Heer<lb/>
+               <orgName type="firm" ref="K01026">W. Brummer</orgName> een party Xood van 812 R<hi rend="superscript">a</hi>
+               <lb/> Lood, waarvan 342 P<hi rend="superscript">r</hi> sedert verkocht zijn<lb/>
+               geworden. Kan dit restant oder der gunstige<lb/> omstandig heden;- het artikel was
+                  <add style="textOrientation: straight" resp="writer" place="above">ter
+                  minste</add> in de laatste<lb/> tijd altijd in goede vraag,- nog niet
+               opgerimd<lb/> worden, get het <unclear reason="illegible">Pcipaij</unclear> ut dat
+               ondere altijd goede<lb/> prijzen gedingen.-</seg>
+            <lb/>
+            <add style="transformRotateZ(-45deg)" resp="other" place="marginLeft">muss in <placeName ref="K00514">Nagazakie</placeName>
+               <lb/>liegen!</add>
+         </p>
+      </body>
+   </text>
+</TEI>

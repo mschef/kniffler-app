@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</description>
+    <author>Tristan Pfeil; Marc Scheffer</author>
+    <website>https://www.ruhr-uni-bochum.de/gj/forschung.html</website>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>Kniffler</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions user="mscheffer" group="tei" mode="rw-r--r--"/>
+    
+
+
+<deployed>2022-03-16T12:56:13.838Z</deployed></meta>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an Louis Kniffler (L.
+                    Kniffler &amp; Co.) in Nagasaki am 2. Januar 1862</title>
+            <title type="file">0014.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-16</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben und eine Seite mit
+                            Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-01-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <persName ref="K00001">Kniffler, Louis</persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-01-09"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-01-09">diplomatische Transkription</change>
+         <change when="2020-10-07">Auszeichnung von Personen-, Orts- und Sachnamen; Korrektur der
+                Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName> d: <date when="1862-01-02">2<hi rend="superscript">ten</hi> Januar 62</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herrn <hi rend="latintype">
+                  <persName ref="K00001">Louis Kniffler</persName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">in Firma</hi> Herrn <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> An unsre verschiedentlichen<lb/> Unterredungen Zwecks Anknüpfung einer<lb/>
+                gegenseitigen Geschäftsverbindung Be-<lb/> zug nehmend, bestätigen wir Ihnen<lb/>
+                hierdurch unser mündlich getroffenes<lb/> Uebereinkommen wie folgt.<lb/> Wir
+                erklären uns bereit die <hi rend="latintype">
+               <term type="commercial" ref="K01534">Tratten</term>
+            </hi>
+            <lb/> Ihres Sie in <hi rend="latintype">
+               <placeName ref="K00521">Kanagawa</placeName>
+            </hi> vertreten-<lb/> den Herrn <hi rend="latintype">
+               <persName ref="K00016">H. C. Morff</persName>
+            </hi> auf uns<lb/> in üblicher Sicht, nicht kürzer als<lb/> 10 Tage (<mentioned>
+               <persName ref="K00016">Herr M.</persName>
+            </mentioned> würde bemüht sein<lb/> wenn möglich in längerer Sicht, <add style="textOrientation: straight" resp="writer" place="above">zu trassiren</add>
+                selbst<lb/> zu etwas ungünstigerem <hi rend="latintype">Course</hi>
+            <lb/> für Sie) zu honoriren, wenn solche<lb/> entweder von <hi rend="latintype">
+               <term type="commercial" ref="K01523">Remessen</term>
+            </hi> auf <hi rend="latintype">
+               <placeName ref="K00512">Eng-<lb/> land</placeName> / <placeName ref="K00523">London</placeName>/ blanco</hi> indossirt unter<lb/> Anheftung des
+                betreffenden <hi rend="latintype">
+               <placeName ref="K00523">Londoner</placeName>
+               <lb/> Credites</hi> begleitet sind, oder Sie uns<lb/>
+            <hi rend="latintype">Documente</hi> über <hi rend="latintype">directe</hi>
+                Abladun-<lb/> gen von <hi rend="latintype">
+               <placeName ref="K00521">Kanagawa</placeName>
+            </hi> nach <hi rend="latintype">
+               <placeName ref="K00512">England</placeName>
+            </hi>
+            <lb/> oder über Abladungen von <hi rend="latintype">
+               <placeName ref="K00521">Kana-<lb/> gawa</placeName>
+            </hi> auf hier deren <hi rend="latintype">Spedition</hi> wir<lb/> Ihren Vorschriften
+                gemäß zu besor-<lb/> gen hätten, einsenden.<lb/> In letzterem Falle würden Sie<lb/>
+                entweder selbst gegen die be-<lb/> treffenden Abladungen <add resp="writer" style="textOrientation: straight" place="above">auf <placeName ref="K00523">London</placeName>
+            </add> trassiren<lb/> lassen + uns Ihre Abgaben zur<lb/> Begebung einsenden, oder
+                würden<lb/> Sie Ihre <hi rend="latintype">Credite</hi> auf unsre Firma </p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>transferiren + uns weitere In<lb/> struktionen über zu trassiren<lb/> de Beträge +
+                Negaciirung der<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01534">Tratten</term>
+            </hi> ergeben.<lb/> Um Ihren Wünschen ferner zu<lb/> genügen gestatten wir
+                Ihrem<lb/> Herren <hi rend="latintype">
+               <persName ref="K00016">Morf</persName>
+            </hi> für den Fall daß<lb/> es ihm seine Dispositionen <hi rend="underlineDashed">aus-<lb/> nahmsweise</hi> nicht erlaubten obige<lb/> Bedingungen innezuhalten auch<lb/>
+            <hi rend="underline">Ohne</hi> Einsendung von <hi rend="latintype">
+               <term type="commercial" ref="K01523">Remessen</term>
+               <lb/> Documenten</hi> + mit der nämlichen Ge-<lb/> legenheit mit der seinen <hi rend="latintype">
+               <term type="commercial" ref="K01534">Tratten</term>
+               <lb/> Cours</hi> gegeben wird, <hi rend="latintype">blanco</hi> auf<lb/> uns zu
+                trassiren, indem Sie die<lb/> Verpflichtung eingehen, hier Nach-<lb/> lieferung der
+                nöthigen Deckung<lb/> in einer oder der anderen Weise<lb/> mit erster sich bietender
+                Gelegen<lb/> heit Sorge zu tragen + über<lb/> haupt von dieser Art + Weise<lb/> des
+                Trassirens nur im äußersten<lb/> Nothfalle Gebrauch zu machen.-<lb/> Für den
+                erstgenannten Fall er-<lb/> öffnen wir Ihnen einen <hi rend="latintype">Credit</hi>
+            <lb/> von <hi rend="latintype">
+               <term type="currency" ref="K01525">Taels</term>
+               <hi rend="underline">
+                  <measure type="currency" unit="tael" quantity="25000">25000.-</measure>
+               </hi> sage fünf und<lb/> Zwanzig tausend <placeName ref="K00503">Shanghae</placeName>
+               <term type="currency" ref="K01525">Taels</term>
+            </hi>,<lb/> für den letztgenannten einen<lb/>
+            <hi rend="latintype">Credit</hi> von <hi rend="latintype">T<hi rend="underline">aels
+                            <measure type="currency" unit="tael" quantity="10000">10000.-</measure>
+               </hi> sage Zehn<lb/> tausend <placeName ref="K00503">Shanghai</placeName>
+               <term type="currency" ref="K01525">Taels</term>
+            </hi>.<lb/>
+            <choice>
+               <abbr>u/.</abbr>
+               <expan> unsere</expan>
+            </choice>
+            <hi rend="latintype"> Acceptcommission</hi> für beide Fälle<lb/> mit resp. 1% + 1½%
+                + <choice>
+               <abbr>u/.</abbr>
+               <expan> unsere</expan>
+            </choice>
+            <hi rend="latintype"> Commission</hi>
+            <lb/> für <hi rend="latintype">Trassirung</hi> auf <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> gegen<lb/> auf uns zu übertragende <hi rend="latintype">Credite</hi>
+            <lb/> mit ½% feststellend: welches auch in An-<lb/> wendung kommt wenn wir Ihre
+                etwaigen <hi rend="latintype">
+               <term type="commercial" ref="K01523">Re-<lb/> messen</term>
+               <choice>
+                  <abbr>a/.</abbr>
+                  <expan> auf</expan>
+               </choice>
+               <placeName ref="K00523">London</placeName> mit <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unser</expan>
+               </choice> Endossement</hi> zu versehen haben. </p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <p>In Fällen wo wir in Vorschuß für<lb/> Sie treten, würde eine Zinsbe-<lb/> rechnung
+                von 9% <hi rend="latintype">pro Anno</hi> anzu-<lb/> wenden sein + im Falle von <hi rend="latintype">Speditionen</hi>
+            <lb/> von <hi rend="latintype">
+               <term type="goods" ref="K01524">Seide</term>
+            </hi> um die es sich ja haupt-<lb/> sächlich handeln wird, eine <hi rend="latintype">Spedi-<lb/> tionscommission</hi> von <hi rend="latintype">
+               <term type="currency" ref="K01525">Tael</term>/.. per<lb/>
+               <term type="logistic" ref="K01572">Ballen</term>
+            </hi> + übliche <hi rend="latintype">Speesen</hi> lt beilie<lb/> gender <hi rend="latintype">Scala</hi> zu berechnen sein.<lb/> Andre Güter im
+                Verhältniß.<lb/> Den nöthigen formellen <hi rend="latintype">Credit</hi>
+            <lb/> dessen Vorzeigung ja nur dann<lb/> nöthig wenn es verlangt würde<lb/>
+                schließen wir bei.- wir stellten<lb/> denselben Ihrem Wunsche gemäß.<lb/> auf den
+                Namen Ihres Herrn<lb/>
+            <hi rend="latintype">
+               <persName ref="K00016">Morf</persName>
+            </hi> natürlich unter Garantie<lb/> Ihrer Fima aus + Sie schließ-<lb/> lich um eine
+                Bestätigung des<lb/> Gegenwärtigen ersuchend, sprechen<lb/> wir den Wunsch aus eine
+                recht<lb/> ausgedehnte + angenehme Verbin-<lb/> dung zwischen uns ins Leben<lb/>
+                gerufen zu sehen + grüßen Sie<lb/>
+            <seg rend="right">Freundschaftlichst<lb/>
+               <hi rend="latintype">
+                  <choice>
+                     <abbr>pp</abbr>
+                     <expan>per Procura</expan>
+                  </choice>
+                  <orgName type="firm" ref="K01011">Bourjau Hübener + Co.</orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <persName ref="K00071">Ernst Behre</persName>
+                  </hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <hi rend="underline">1862</hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-01-02">2 Jan.</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau HubenerC</orgName>
+                     <lb/>empf <date when="1862-01-09">9 Jan</date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+         <p>Shanghai the 2nd of January 62<lb/>Mr. Louis Kniffler<lb/>at the firm Messrs. L.
+                Kniffler + Co<lb/>Nagasaki<lb/>
+            <lb/>With reference to our various <lb/>conversations with the aim of establishing
+                <lb/>a mutual business relationship, <lb/>we hereby confirm to you <lb/>by means of
+                this letter our orally agreed <lb/> arrangement as follows. <lb/>We agree to honour
+                the<lb/> bills of exchange of your representative<lb/> in Kanagawa, Mr. H. C. Morff,
+                in the <lb/> usual way, with no shorter term<lb/> than 10 days (Mr. M. would
+                endeavour<lb/> to draw a bill of exchange if possible in the <lb/> longer term, even
+                at a somewhat less<lb/> favourable rate for you) if these<lb/> are either
+                accompanied by remittances<lb/>endorsed by England / London/ in blank <lb/>with the
+                respective London credit <lb/> attached, or if you send in the<lb/> documents about
+                direct shipments <lb/> from Kanagawa to England<lb/>or about shipments from
+                Kana-<lb/>gawa to here, the forwarding of which<lb/> we would have to undertake
+                according<lb/> to your instructions. <lb/>In the latter case you would <lb/>either
+                against the respective <lb/> shipments have a bill of exchange drawn<lb/> in London
+                + send us your dues for<lb/>negotiation, or you would <lb/>transfer your loan to our </p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>company + give us further <lb/>instructions about the drawing of bills of<lb/>
+                exchange for the amounts + negotiation <lb/>of the bills of exchange. <lb/>To fulfil
+                your wishes further <lb/>we permit your Mr. Morf <lb/>in the exceptional case that
+                his <lb/> dispositions do not allow him to <lb/>keep to the allowed conditions,
+                <lb/> discussed above, even <lb/>without sending in remittance <lb/>documents + on
+                the named occasion<lb/>on which his bills of exchange are given <lb/>a rate, to draw
+                a bill of exhange<lb/>in blank, provided that you <lb/>take on the obligation to
+                take care<lb/> at the earliest possible occasion <lb/> to provide for this, albeit
+                at a delay,<lb/> the necessary cover in <lb/> one way or another + in any<lb/> case
+                to make use of this<lb/> way + means of drawing<lb/> a bill of exchange only in the
+                <lb/> utmost emergency.<lb/>For the first-mentioned case<lb/> we offer you a credit
+                <lb/>of Taels 25,000.- that is to say twenty- <lb/>five thousand Shanghai
+                Taels,<lb/>for the last-mentioned a <lb/>credit of Taels 10,000.- that is to say
+                <lb/>ten thousand Shanghai Taels.<lb/>Stating our acceptance commission for <lb/>
+                both cases of 1% + 1½% respectively + our <lb/> commission for drawing the bill of
+                exchange <lb/> in London against credits, which are to be transferred <lb/> onto us,
+                at ½%: which will also be <lb/> applied if we have to provide your
+                possible<lb/>remittancesin London with our endorsement. </p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <p>In cases where we step up to make <lb/> an advance payment for you, an interest<lb/>
+                calculation of 9% per year would be<lb/> applied + in the case of the shipping<lb/>
+                of silk, which is mainly what is <lb/> going to be dealt with, a shipping <lb/>
+                commission of Tael/.. per<lb/>bundle + the usual expenses are <lb/> to be calculated
+                acc. to <lb/>the enclosed scale. <lb/>Other goods proprtionally. <lb/>We include the
+                necessary<lb/> formal credit, which only <lb/> needs to be shownif it is <lb/>
+                demanded. We issue this<lb/> according to your wishes<lb/> in the name of your
+                Mr.<lb/> Morf, of course guaranteed<lb/> by your company + finally<lb/> asking you
+                to confirm this present<lb/> arrangement, we express<lb/> the wish for a rather<lb/>
+                extended + pleasurable<lb/> connection between us to be<lb/> brought into existence
+                + greet you<lb/> your dearest friends<lb/> pp Bourjau Hübener + Co.<lb/>Ernst
+                Behre</p>
+         <pb facs="1862_01_02_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="1"/>
+         <p>⟨1862<lb/>Shanghai 2nd Jan.<lb/> Bourjau Hubener C<lb/>received 9th Jan⟩</p>
+      </body>
+   </text>
+</TEI>

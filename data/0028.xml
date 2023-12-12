@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 22. März 1862</title>
+            <title type="file">0028.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-29</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            Siegelresten und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-03-22"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-03-27"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-12" who="TS">diplomatische Transkription</change>
+         <change when="2020-10-13" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">Mess<hi rend="superscript">s</hi>
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="latintype">
+                     <hi rend="underline">1862<lb/>
+                     </hi>Shanghai <date when="1862-03-22">22 März</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau Hübener<lb/> +Co</orgName>
+                     <lb/>r/ <date when="1862-03-27">27/3 62</date>
+                     <lb/>b <date when="1862-04-01">1/4 62</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghae</placeName>
+                     <date when="1862-03-22">22 Merz 1862</date>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co</orgName>
+                  <placeName ref="K00514">Nagasaki</placeName>.</hi>
+               <lb/> Wir bestätigen Ihnen unser Jüngstes vom<lb/>
+               <unclear reason="illegible" cert="low">
+                  <date when="1862-03-15">15</date>
+               </unclear> gelangten dagegen in Besitz Ihres Werthen<lb/> vom <date when="1862-03-13">13 <choice>
+                     <abbr>ds.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> deßen Inhalt wir uns bestens be-<lb/> merkten<lb/> Wir sind gerne
+                    geneigt mit Ihnen in Chin-<lb/> Artikeln <hi rend="latintype">
+                  <term type="commercial" ref="K01535">Conto meta</term>
+               </hi> Geschäft zu machen &amp; werden<lb/> stets so weit es in unserer Macht
+                    steht ihnen<lb/> Die Artikel aufgeben die die beste <hi rend="latintype">Chance</hi> zu<lb/> einem günstigen Resultat auf unserem Markt<lb/>
+                    haben.<lb/> Gegenwärtig würden wir Ihnen besonders<lb/>
+               <add resp="writer" place="marginLeft" style="textOrientation: straight">
+                  <hi rend="underline">prima</hi>
+               </add>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01685">Cuttlefish</term>
+               </hi> empfehlen wenn derselbe zu <term type="currency" ref="K01525">T<hi rend="superscript">s</hi>
+               </term>
+               <measure type="currency" unit="tael" quantity="10">10</measure>
+               <lb/> geliefert werden könnte zu diesem Preise herrscht<lb/> stets gute
+                    Nachfrage.<lb/> Für <unclear reason="illegible">
+                  <hi rend="latintype">
+                     <term type="goods" ref="K01675">Seaweed</term>
+                  </hi>
+               </unclear> haben zwar einige Leute<lb/> eine besonders gute Meinung, wir können
+                    dieselbe<lb/> jedoch für einen so prekären Artikel bei dem hohen<lb/> Preis
+                    dorten nicht theilen &amp; nur wenn Sie zu recht<lb/> billigen Preisen einkaufen
+                    können dürfen wir Sie<lb/> ruhig zu Sendungen Auffordern, denn Nachfrage &amp;<lb/>
+               <hi rend="latintype">Consum</hi> ist gut.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01654">Mushrooms</term>
+               </hi> könnten wir der Hohen Fracht &amp; des<lb/> Gewichtsverlustes wegen nicht
+                    recht empfehlen.<lb/> Für <term type="goods" ref="K01591">Oel</term> könnten wir
+                    Ihnen eine Sendung<lb/> empfehlen, wenn Sie dieselbe <hi rend="latintype">à
+                            <measure type="currency" quantity="6" unit="tael">6</measure>
+                  <term type="currency" ref="K01525">Ts.</term>
+                  <term type="measure" ref="K01504">
+                     <choice>
+                        <abbr>pp</abbr>
+                        <expan>per Picul</expan>
+                     </choice>
+                  </term>
+               </hi> hierherlegen<lb/> können; der Artikel scheint uns sehr empfehlens-<lb/>
+                    wert, </p>
+            <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>Können Sie <term type="goods" ref="K01501">Kohlen</term> als Balast
+                    hierherschicken so<lb/> können wir stets kleine Ladungen von <measure type="volume" quantity="50" unit="ton" commodity="coal">50</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01558">Tons</term>
+               </hi>
+               <lb/>
+               <unclear>C<hi rend="superscript">a.</hi>
+               </unclear> gut zu letzten Preisen placiren &amp; bitten Sie<lb/> den Artikel
+                    nicht aus dem Auge zu laßen der<lb/> in nächster Zeit wohl nicht mehr so viel
+                    von Ihrem<lb/> Platze hierherkommen wird.<lb/> Unsere Notirungen für Ihre
+                    Produkte sind!<lb/>
+               <hi rend="latintype">Pon Yue No. 1 <measure type="currency" unit="tael" quantity="30" commodity="unclear">30</measure>
+                  <term type="currency" ref="K01525">Taels</term> No. 2. <measure type="currency" quantity="25" unit="tael" commodity="unclear">25</measure>
+                  <term type="currency" ref="K01525">Taels</term> &amp; No. 3<lb/>
+                  <measure type="currency" quantity="20" unit="tael" commodity="unclear">20</measure>
+                  <term type="currency" ref="K01525">Taels</term> no. 4. <measure type="currency" quantity="26" unit="tael" commodity="unclear">16</measure>/<measure type="currency" quantity="17" unit="tael" commodity="unclear">17</measure> ＂ pps.<lb/>
+                  <term type="goods" ref="K01685">Cuttlefish</term> I<hi rend="superscript">a</hi>
+                  <measure type="currency" quantity="13" unit="taels" commodity="cuttlefish">13</measure>
+                  <term type="currency" ref="K01525">Taels</term> Cond d. <measure commodity="cuttlefish" type="currency" quantity="11" unit="tael">11</measure>
+                  <term type="currency" ref="K01525">Taels</term>
+               </hi> nach <hi rend="latintype">Curl<lb/>
+                  <term type="goods" ref="K01654">Mushrooms</term>
+                  <measure type="currency" unit="tael" quantity="18" commodity="mushrooms">18</measure>
+                            à <measure type="currency" unit="tael" quantity="22" commodity="mushrooms">22</measure>
+                  <term type="currency" ref="K01525">Taels</term>
+                  <term type="goods" ref="K01857">Sharkpins</term>
+                  <measure type="currency" unit="tael" quantity="9" commodity="sharkfins">9</measure> à <measure type="currency" quantity="13" unit="tael" commodity="sharkfins">13</measure>
+                  <term type="currency" ref="K01525">Taels</term>
+                  <lb/> Stingglass <measure type="currency" commodity="unclear" quantity="20" unit="tael">20</measure> à <measure type="currency" unit="tael" quantity="22" commodity="unclear">22</measure>
+                  <term type="currency" ref="K01525">Taels</term>.<lb/>
+                  <term type="goods" ref="K01719">Planken</term>:</hi> guten Begehr 7' lange <hi rend="latintype">à 1m 7 Cand.<lb/>
+                        12 à 3 m 4 Cand.<lb/>
+                  <hi rend="latintype">
+                     <term type="goods" ref="K01678">Charcoals</term>
+                     <measure type="currency" quantity="1.5" unit="tael" commodity="charcoal">1 ½</measure> à <measure commodity="charcoal" unit="tael" quantity="1.75" type="currency">1 ¾</measure>
+                     <term type="currency" ref="K01525">Taels</term>
+                  </hi> stets Begehr<lb/>
+                        Exchange 6/ 2 ¾<hi rend="superscript">ts</hi>
+                  <lb/>
+               </hi> Frachten Ihre <unclear reason="eccentric_ductus" cert="medium">£</unclear>
+                    5_ Seide <unclear reason="eccentric_ductus" cert="medium">£</unclear> 6_
+                        _<unclear reason="eccentric_ductus" cert="medium">£</unclear>6. <gap/>
+               <lb/> nach <placeName ref="K00523">London</placeName>.<lb/> Ihren angenehmen
+                    Berichten entgegensehend<lb/> grüßen achtungsvoll &amp; freundschaftlichst<lb/>
+               <choice>
+                  <abbr>pp</abbr>
+                  <expan>per Procura</expan>
+               </choice>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01011">Bourjau Hübener + Co.</orgName>
+                  <lb/>
+                  <persName ref="K00071">Ernst Bèhre</persName>
+               </hi>
+               <add style="textOrientation: straight" resp="writer"> Lieber Herr <persName ref="K00001">Kniffler</persName>!<lb/> Mit <term type="goods" ref="K01501">Kohlen</term>contrakten<lb/> habe ich leider noch
+                        nicht<lb/> zu Stande kommen können schreibe Ihnen in-<lb/> deß ehestens ein
+                        weiteres &amp; <hi rend="latintype">
+                     <term type="goods" ref="K01501">Kohlen</term>
+                  </hi> sind<lb/> ruhig. Der Ihrige <hi rend="underline">
+                     <persName ref="K00071">Ernst Bèhre</persName>
+                  </hi>
+                  <lb/>
+               </add> P. S. Die Briefe sind befördert, die Liste<lb/> dagegen kam zu spät &amp;
+                    geht mit nächster Mail </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler &amp; Co<lb/>Nagasaki<lb/>⟨1862<lb/>Shanghai 22nd
+                March<lb/>Bourjau Hübener<lb/>+Co<lb/>r[eceived]/ 27/3 62<lb/>a[nswered] 1/4 62⟩</p>
+         <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>Shanghai 22nd March 1862<lb/>Messrs. L. Kniffler &amp; Co Nagasaki. <lb/>We confirm
+                to you our most recent letter<lb/> from 15th[?] and came into possession of
+                your<lb/> esteemed letter from 13th of this month, the<lb/> contents of which we
+                noted with interest. <lb/>We are happy to do business with you<lb/> in Chinese
+                articles à conto meta &amp; will<lb/>as far as is possible for us always tell you
+                about <lb/>the articles that have the best chances of<lb/> a favourable result in
+                our market. <lb/>Currently we would particularly recommend <lb/>⟨prima⟩ cuttlefish
+                if it could be delivered<lb/> at Ts 10, at that price there is always<lb/> good
+                demand. <lb/>Although regarding seaweed[?] some people have<lb/> a particularly high
+                opinion, we cannot share this<lb/> for such a precarious article given the high<lb/>
+                price there &amp; can only ask you with good conscience<lb/> to send this if you can
+                buy it at quite a low<lb/> price, because demand &amp; consumption<lb/> are good.
+                <lb/>Mushrooms we cannot really recommend due <lb/> to the high volume of the cargo
+                and the weight loss. <lb/>With regard to oil we could recommend you make a<lb/>
+                shipment if you can send it here at 6 Ts. per <lb/> picul; this article appears to
+                us to be highly <lb/> recommendable. </p>
+         <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_03_22_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>If you can send coal here as ballast then we <lb/>can always place small shipments of
+                50 Tons<lb/>Ca.[?] well at recent prices &amp; ask you <lb/>not to take your eye off
+                this article, of which <lb/>there will probably not be as much coming here <lb/>from
+                your location. <lb/>Our notations for your products are: <lb/>Pon Yue No. 1 30
+                Taels, No. 2. 25 Taels &amp; No. 3<lb/> 20 Taels, no. 4. 16/17 ＂ per picul.<lb/>
+                Cuttlefish top-quality 13 Taels Cond d. 11 Taels to Curl<lb/> Mushrooms 18 to 22
+                Taels, Shark pins 9 à 13 Taels<lb/> Stingglass 20 to 22 Taels.<lb/> Planks: good
+                demand 7' long by 1m 7 Cand.<lb/> 12 by 3m 4 Cand.<lb/> Charcoal 1 ½ à 1 ¾ Taels
+                always in demand <lb/> Exchange 6/ 2 ¾ts<lb/> Shipments of your £[?] 5_ silk £[?] 6_
+                _£[?]6. [...]<lb/> to London.<lb/>Awaiting your pleasurable reports<lb/> we send our
+                respectful greetings<lb/> in deep friendship <lb/>p.p. Bourjau Hübener +
+                Co.<lb/>Ernst Bèhre<lb/> ⟨Dear Mr. Kniffler!<lb/>Regarding coal contracts <lb/>I
+                have unfortunately not been <lb/>able to make progress, but will<lb/> write more to
+                you soon &amp; coal<lb/>is calm. Your Ernst Bèhre⟩<lb/>P. S. The letters have been
+                sent, the list <lb/>however came too late &amp; will go with the next mail. </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Constant George Van Mansvelt</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00112">
+               <persName>
+                  <forename>Constant George</forename>
+                  <surname>Van Mansvelt</surname>
+               </persName>
+               <birth>
+                  <date when="1832-02-28"/>
+                  <placeName>Watergraafsmeer</placeName>
+               </birth>
+               <death>
+                  <date when="1912-10-17"/>
+               </death>
+               <note>Niederländischer Militärarzt, der als angestellter Lehrer an einer
+                  Medizinschule ab 1866 zunächst in Nagasaski tätig war. Zwischen 1871 und 1874 war
+                  er Arzt und Berater an einem Krankenhaus in Kumamoto. Seine Zeit in Japan führte
+                  ihn noch nach Kyoto und Osaka, bevor er 1879 in die Niederlande zurückkehrte und
+                  dort Leiter einer Impfanstalt in Den Haag wurde. </note>
+               <idno type="NDL" xml:base="https://id.ndl.go.jp/auth/ndlna/">00769168</idno>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_m.html">Meiji-Portraits</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

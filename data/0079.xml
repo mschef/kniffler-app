@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>E. Suermondt &amp; Zoonen in Amsterdam an L. Kniffler &amp; Co. in Yokohama
+                    am 25. Juli 1866</title>
+            <title type="file">0079.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-78</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben und eine Umschlagsseite mit
+                            einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01150">E. Suermondt &amp; Zoonen</orgName>
+               <settlement ref="K00513">Rotterdam</settlement>
+               <date when="1866-07-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-09-16"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="nl-NL"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-30" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-02" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+                Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_07_25_Kniffler_Yokohama_von_Suermondt_Zoonen_Co_Rotterdam_5.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOK<gap quantity="5" unit="char" agent="faded"/>
+                  </placeName>
+                  <lb/>
+                  <date when="1866-09-17">17<lb/>SEPT.</date>
+                  <lb/>BAU FRANCAIS</stamp>
+               <lb/> p<hi rend="underline">
+                  <hi rend="superscript">r</hi> Overlandmail via Marseilles</hi>
+               <lb/> Mess<hi rend="superscript">rs.</hi>
+               <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o</hi>
+               </orgName>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00516">PAYS-BAS</placeName>
+                  <lb/>
+                  <date when="1866-07-27">27<lb/>JUIL.<lb/>66</date>
+                  <lb/>VAL<gap quantity="3" unit="char"/>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00513">ROTTERDAM</placeName>
+                  <lb/>
+                  <date when="1866-07-25">25/7</date>
+                  <lb/>5-10<lb/>66</stamp>
+               <lb/>
+               <hi rend="underline">
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1866<lb/>
+               <orgName type="firm" ref="K01150">E Suermondt+Zoonen+Co.</orgName>
+               <lb/>
+               <placeName ref="K00513">Rotterdam</placeName>
+               <date when="1866-07-25">25 Juli</date>
+               <lb/>
+               <date when="1866-09-16">16 Sept</date>
+               <lb/> B. <date when="1866-09-29">29 Sept</date>
+               <lb/> E<lb/> ar<lb/> R<lb/> F</add>
+         </p>
+         <pb facs="1866_07_25_Kniffler_Yokohama_von_Suermondt_Zoonen_Co_Rotterdam_6.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00513">Rotterdam</placeName>
+               <date when="1866-07-25">25 July 1866</date>
+            </seg>
+            <lb/> De Heeren <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+            </orgName>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00525">Yokohama</placeName>.</seg>
+            <lb/> Mijneheeren!<lb/> Wij ontvingen laatstelijk uwe letteren van<lb/>
+            <unclear>ss</unclear> en <date when="1866-05-15">15 Mei</date>, eerstgenaande ons
+                behandigende verkooprekening<lb/> over 5 Kisten <term type="goods" ref="K01519">Taffachelassen</term> ex <name type="ship" ref="K01836">Bantam</name>
+                aantoonende een<lb/> netto farovenn van $ 1654„58 hetgeen accoord bevinden. Ter<lb/>
+                vereffening van dit montant behandigt UEd ons tot de<lb/> koers van 4/8 eenen wissel
+                op de London Joint Stock Bank<lb/> £ 386„<unclear reason="eccentric_ductus">1</unclear>„4. 6 m/ zicht, die wij under het gewaond reserve<lb/> in het credit
+                uwer rekening brengen.<lb/> Gaarne zullen wij vernemen, dat UEd de<lb/> resterende 7
+                Kisten <term type="goods" ref="K01519">Taffachelassen</term> ex <name type="ship" ref="K01836">Bantam</name> tot <unclear>Eevre-<lb/> -dingende</unclear> prijzen
+                geplaatst hebt en vertrouwen dat<lb/> UEd onze instructien getrouw nagekomen zult
+                zijn </p>
+         <pb facs="1866_07_25_Kniffler_Yokohama_von_Suermondt_Zoonen_Co_Rotterdam_7.tif" n="3"/>
+         <p> om niet te lang aan te honden. Uwe Firma te <placeName ref="K00514">Nagasaki</placeName>
+            <lb/> hopen wij dat even eens zal handelen met de 12 Kisten<lb/>
+            <term type="goods" ref="K01519">Taffachelassen</term> ex <name type="ship" ref="K01836">Bantam</name>; ter verkoop op genaande plaats<lb/> gehonden.<lb/>
+                Wij veronderstellen dat uw <persName ref="K00001">Heer Kniffler</persName> van
+                    <placeName ref="K00527">Dusseldorp</placeName> UEds<lb/> reeds mededeeling zal
+                gedaan hebben van de met UEds gemaakte<lb/> schikking wegens de commissie van remise
+                over consignatien<lb/> van guederen aan uwe firma op te dragen. Voor zoo ver
+                noodig<lb/> shippen wij aan, dat deze commissie van 2½% op 1½% terug<lb/> gebragt is
+                en van terug werkend bracht zal beschouwd<lb/> worden over onze consignatien van:<lb/>
+            <table>
+               <row>
+                  <cell>27</cell>
+                  <cell>Kisten</cell>
+                  <cell>
+                     <term type="goods" ref="K01519">Taffachelassen</term>
+                  </cell>
+                  <cell>per</cell>
+                  <cell>Julie</cell>
+               </row>
+               <row>
+                  <cell>24</cell>
+                  <cell>＂</cell>
+                  <cell>＂</cell>
+                  <cell>＂</cell>
+                  <cell>
+                     <name type="ship" ref="K01836">Bantam</name>
+                  </cell>
+               </row>
+            </table>
+            <lb/> te verrekenen met de eerste on toe te zenden verkooprekening,<lb/> waaraan wij
+                UEd verzoeken gevolgte geven.<lb/> Wij noemen ons met achting<lb/>
+            <seg rend="right">UEd Dw. Dienaren<lb/>
+               <orgName type="firm" ref="K01150">E. Suermondt+Zoonen +Co</orgName>
+            </seg>
+         </p>
+         <pb facs="1866_07_25_Kniffler_Yokohama_von_Suermondt_Zoonen_Co_Rotterdam_8.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

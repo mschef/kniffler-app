@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Harry Smith Parkes</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00118">
+               <persName>
+                  <forename>Harry Smith</forename>
+                  <surname>Parkes</surname>
+               </persName>
+               <birth>
+                  <date when="1828-02-24"/>
+                  <placeName>Walsall</placeName>
+               </birth>
+               <death>
+                  <date when="1885"/>
+               </death>
+               <note>Den Briten Harry Smith Parkes verschlug es bereits im Alter von 13 Jahren zum
+                  ersten Mal nach Ostasien, da seine Pflegeeltern in Macao residierten. Durch
+                  familiäre Kontakte kam er mit 14 Jahren zu seiner ersten Anstellung bei der
+                  britischen Gesandtschaft in China. Damit war sein Weg in die britische Diplomatie
+                  in Ostasien eröffnet. Bereits ein Jahr später wurde er Dolmetscher im Konsulat in
+                  Amoy (heut. Xiamen) und später in Fuzhou. Nach einer mehrjährigen Rückkehr nach
+                  England trat Parkes 1854 die Stelle als Konsul in Amoy an. 1856 wurde er Konsul in
+                  Kanton, 1864 in Shanghai. Schon längere Zeit liebäugelte Parkes mit einem
+                  Engagement in Japan und wurde im Jahre 1865 schließlich als Generalkonsul und
+                  Gesandter des Britischen Königreichs dorthin berufen. Diese Ämter übte er bis 1883
+                  aus. </note>
+               <bibl>Gordon Daniels: Sir Harry Parkes - British Representative in Japan 1865-1883,
+                  Richmond 1996</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">119456648</idno>
+               <idno type="NDL" xml:base="https://id.ndl.go.jp/auth/ndlna/">00621257</idno>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">822398</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

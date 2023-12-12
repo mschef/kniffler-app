@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deutsche Dampfschiffs-Rhederei in Hamburg an L. Kniffler &amp; Co. in
+                    Nagasaki am 8. Oktober 1873</title>
+            <title type="file">0151.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-141</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben mit Briefkopf; Stempel über der
+                            Unterschrift.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01077">Deutsche Dampfschiffs-Rhederei</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1873-10-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1873-12-05"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-07" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-29" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01077">DEUTSCHE DAMPFSCHIFFS-RHEDEREI</orgName>
+                  <lb/>ZU <placeName ref="K00522">HAMBURG</placeName>
+               </hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K005522">Hamburg</placeName>
+               </hi>, <date when="1873-10-08">8<hi rend="superscript">ten</hi>
+                  <hi rend="latintype">Octber 1873._</hi>
+               </date>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">Kniffler+Co</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir erlauben uns Ihnen mit<lb/> Gegenwärtigem die <choice>
+               <abbr>höfl</abbr>
+               <expan> höfliche</expan>
+            </choice> Anzeige zu<lb/> machen, daß wir <choice>
+               <abbr>uns</abbr>
+               <expan> unsere</expan>
+            </choice> Agenten in<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00504">China</placeName>
+            </hi> die Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01006">Siemssen+Co</orgName>
+            </hi> und<lb/>
+            <hi rend="latintype">H <orgName type="firm" ref="K01002">W. Pustau +Co</orgName>
+            </hi> beauftragt haben,<lb/> sämmtliche mit <choice>
+               <abbr>uns</abbr>
+               <expan> unseren</expan>
+            </choice>
+            <hi rend="latintype"> Steamern</hi> nach<lb/> dort in Durchfracht verladenen
+                Güter<lb/> von <hi rend="latintype">
+               <placeName ref="K00509">Hongkong</placeName>
+            </hi> und/oder <hi rend="latintype">
+               <placeName ref="K00503">Shanghai</placeName>
+            </hi> an<lb/> Ihre <choice>
+               <abbr>w/</abbr>
+               <expan> werte</expan>
+            </choice> Addresse zur <choice>
+               <abbr>gefl</abbr>
+               <expan> gefälligen</expan>
+            </choice> Auslieferung<lb/> an die Empfänger zu verladen und<lb/> bitten wir Sie <choice>
+               <abbr>uns</abbr>
+               <expan> unser</expan>
+            </choice> Interesse in<lb/> jeder Hinsicht dabei zu vertreten und<lb/> namentlich
+                was <unclear reason="illegible">
+               <placeName ref="K00504">China</placeName>
+            </unclear> etc. anbetrifft<lb/>
+            <choice>
+               <abbr>uns</abbr>
+               <expan> unser</expan>
+            </choice> Interesse im Auge zu haben._.<lb/> Wir haben mit <choice>
+               <abbr>uns</abbr>
+               <expan> unseren</expan>
+            </choice> anderen<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00502">Japan</placeName>
+            </hi> Freunden an anderen Plätzen<lb/> als Renummeration für obige Dienste<lb/> den
+                Commissionssatz von 2½ rh Stlg<lb/> p 40 Fuß <unclear>engl</unclear> festgesetzt und
+                hoffen<lb/> auch Sie hiermit einverstanden, indem<lb/> wir Sie ersuchen Sich darüber
+                mit<lb/> dem betreffenden <hi rend="latintype">
+               <placeName ref="K00504">China</placeName>
+            </hi> hause, </p>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_2.tif" n="2"/>
+         <p> welches Ihnen die Güter gesendet<lb/> jedesmal zu verrechnen._<lb/> Wir haben dieses
+                Arrangement<lb/> hauptsächlich eingeleitet um sämmtliche<lb/> Güter durch eine Firma
+                zur Auslieferung<lb/> zu bringen und zu vermeiden, daß<lb/> wie solches vielleicht
+                früher der<lb/> Fall gewesen ist, dieses von zwei<lb/> Häusern dort geschieht._<lb/>
+            <seg rend="right">Wir empfehlen uns Ihnen<lb/> hochachtend<lb/>
+               <stamp style="rectangular" type="commercial">
+                  <orgName type="firm" ref="K01077">DEUTSCHE DAMPFSCHIFFS-RHEDEREI</orgName>
+                  <lb/>ZU <placeName ref="K00522">HAMBURG</placeName>
+               </stamp>
+               <lb/>
+               <unclear>
+                  <persName ref="K00058">Adolph Petersen</persName>
+                  <hi rend="underline">
+                     <persName ref="K00059">A. Pristen</persName>
+                  </hi>
+               </unclear>
+            </seg>
+         </p>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_3.tif" n="3"/>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1873<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00522">Hamburg</placeName>
+                     <date when="1872-10-08">8. October</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01077">Deutsche Dampfschiffs<lb/>
+                                Rhederei</orgName>
+                     <lb/>
+                     <hi rend="underline">Recd</hi>
+                     <date when="1873-12-05">5. Dec</date>
+                     <lb/> Answ. <date when="1873-12-10">10 <choice>
+                           <abbr>＂</abbr>
+                           <expan>December</expan>
+                        </choice>
+                     </date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_1.tif" n="1"/>
+         <p>DEUTSCHE DAMPFSCHIFFS RHEDEREI<lb/>IN HAMBURG<lb/>Hamburg, 8th October
+                1873._<lb/>Messrs. Kniffler + Co<lb/>Nagasaki<lb/>We are taking the liberty of
+                informing <lb/>you politely with the present letter <lb/>that our agents in China
+                have <lb/>instructed Messrs. Siemssen+Co<lb/>and Messrs. W. Pustau +Co to send
+                <lb/>to your esteemed address all <lb/>of the goods shipped there on <lb/>our
+                steamers as through cargo from <lb/>Hong Kong and/or Shanghai for kind <lb/>delivery
+                by you to the recipients and<lb/>ask you to in this regard to represent <lb/>our
+                interest in every respect and to <lb/>keep an eye on our interest
+                particularly<lb/>as far as China[?] etc. is concerned._.<lb/>We have agreed with our
+                other<lb/>friends at different places in Japan <lb/>the commission rate of 2½ rh
+                Stlg <lb/> p 40 Engl.[?] feet as a reimbursement <lb/>for the above service and
+                hope<lb/>that you, too, will agree with this and <lb/>we would ask you to clear this
+                each<lb/>time with the respective China house </p>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_2.tif" n="2"/>
+         <p>that sent you the goods._<lb/>We have initiated this arrangement<lb/>mainly in order
+                to get the entirety <lb/>of the goods delivered by one<lb/>company and to avoid this
+                being<lb/>done, as maybe used to be the <lb/>case previously, by two houses
+                <lb/>there._<lb/>We take our leave <lb/>Yours respectfully <lb/>DEUTSCHE
+                DAMPFSCHIFFS RHEDEREI <lb/>IN HAMBURG<lb/>Adolph Petersen A. Pristen[?]</p>
+         <pb facs="1873_10_08_Kniffler_Nagasaki_von_Deutsche_Dampfschiffe_Rhederei_Hamburg_4.tif" n="4"/>
+         <p>⟨1873<lb/>Hamburg 8th October<lb/>German Steamboat <lb/>Company<lb/>Recd 5th
+                Dec<lb/>Answ. 10th ＂⟩</p>
+      </body>
+   </text>
+</TEI>

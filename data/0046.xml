@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. C. Im Thurn &amp; Co. in London an L. Kniffler &amp; Co. in Nagasaki am 4.
+                    Februar 1865</title>
+            <title type="file">0046.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-46</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben und eine Umschlagsseite mit
+                            einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01098">J. C. im Thurn &amp; Co.</orgName>
+               <settlement ref="K00523">London</settlement>
+               <date when="1865-02-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2019-07-01" who="TP">Diplomatische Transkription</change>
+         <change when="2020-11-03" who="MS">Anpassung des Headers; Auszeichnung von Personen-,
+                Orts- und Sachnamen; Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_1.tif" n="envelope"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">Mess<hi rend="superscript">rs</hi>
+                     <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o.</hi>
+                     </orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="underline">1864</hi>
+                  <lb/>London 4 Februar<lb/>
+                  <orgName type="firm" ref="K01098">J. C. Im Thurn + Co</orgName>
+                  <lb/>empfl. <persName ref="K00097">H. Spahn</persName>
+               </add>
+            </p>
+            <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">London 4 Februar 1865</hi>
+               </seg>
+               <lb/>
+               <hi rend="latintype">Herren <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o.</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Im Ueberreichen dieser Zeilen erlau-<lb/> ben uns Herren <hi rend="latintype">
+                  <persName ref="K00097">Heinr. Spahn</persName>
+               </hi> aus <hi rend="latintype">
+                  <placeName ref="K00573">Schaffhausen</placeName>
+               </hi>
+               <lb/> in der <hi rend="latintype">
+                  <placeName ref="K00572">Schweiz</placeName>
+               </hi> in Ihre werthe Bekanntschaft<lb/> einzuführen und Ihrer freundschaftlichen
+                    Auf-<lb/> nahme bestens zu empfehlen.<lb/> Herr <hi rend="latintype">
+                  <persName ref="K00097">Spahn</persName>
+               </hi>
+                    hat bereits einige Jahre in<lb/>
+               <placeName ref="K00561">Penang</placeName> zugebracht, und begiebt sich nach
+                    dorten<lb/> um in einem Hause Ihres Platzes eine An-<lb/> stellung zu
+                    finden.<lb/> Es würde uns sehr freuen, wenn Sie selbst<lb/> im Falle wären auf
+                    unseren Empfohlenen<lb/> zu reflaectiren, sollte dem nicht so sein,<lb/> dann
+                    würden es dankbar anerkennen wenn<lb/> Sie so gütig sein wollten Herrn <hi rend="latintype">
+                  <persName ref="K00097">Spahn</persName>
+               </hi> bei<lb/> Ihren Nachbarn einzuführen fest überzeugt<lb/>
+               <seg rend="right">daß</seg>
+            </p>
+            <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_3.tif" n="3"/>
+            <p>derselbe Ihren Empfehlungen alle Ehre machen<lb/> wird.<lb/> Stets zu
+                    Gegendiensten jeder Art mit<lb/> Vergnügen bereit, empfehlen uns Ihnen<lb/>
+               <seg rend="right">Achtungsvoll + Ergebenst<lb/>
+                  <orgName type="firm" ref="K01098">J. C. im Thurn + Co</orgName>
+               </seg>
+            </p>
+            <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_1.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler +Co.<lb/>Nagasaki<lb/>⟨1864<lb/>London 4th February<lb/>J. C. Im
+                Thurn + Co<lb/>Recommending H. Spahn⟩</p>
+         <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_2.tif" n="2"/>
+         <p>London 4th February 1865<lb/>Messrs. L. Kniffler + Co.<lb/>Nagasaki<lb/>In writing
+                you these lines, we are taking the <lb/>liberty of introducing into your esteemed
+                <lb/>acquaintanceship Mr. Heinrich Spahn from Schaffhausen <lb/>in Switzerland and
+                would commend him dearly to <lb/>your friendly acceptance.<lb/>Mr. Spahn has spent
+                some years <lb/>in Penang, and is going to Nagasaki <lb/>to find a position in a
+                house in your<lb/>town. <lb/>We would be delighted if you yourself <lb/>were able to
+                consider our recommended <lb/>candidate, but if this is not the case,<lb/>we would
+                note it gratefully if you were <lb/>kind enough to introduce Mr. Spahn <lb/>to your
+                neighbours and we are firmly convinced that</p>
+         <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_3.tif" n="3"/>
+         <p>he will be a credit to your <lb/>recommendations. <lb/>Always happy to repay you with
+                return favours of<lb/>all kinds, we take our leave from you <lb/>respectfully +
+                sincerely<lb/> J. C. Im Thurn + Co</p>
+         <pb facs="1865_02_04_Kniffler_Nagasaki_von_J_C_Im_Thurn_London_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>W. Brummer in Amsterdam an L. Kniffler &amp; Co. in Yokohama am 9. Februar
+                    1866</title>
+            <title type="file">0070.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-69</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben und eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz. Auf der ersten Seite in der
+                            oberen linken Ecke gedruckt der Firmenname. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01026">W. Brummer</orgName>
+               <settlement ref="K00529">Amsterdam</settlement>
+               <date when="1866-02-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-04-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-10" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-12" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_1.tif" n="1"/>
+         <p>
+            <hi rend="print">
+               <orgName type="firm" ref="K01026">W. Brummer</orgName>
+               <lb/>
+               <placeName ref="K00529">AMSTERDAM</placeName> - <placeName ref="K00513">ROTTERDAM</placeName>.</hi>
+            <lb/>
+            <seg rend="center">Herren<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00529">Amsterdam</placeName>
+                  <date when="1866-01-09">9. <add style="textOrientation: straight" resp="writer" place="inline">feb</add> Jan 1866</date>
+               </hi>
+            </seg>
+            <lb/> Seit <choice>
+               <abbr>m/.</abbr>
+               <expan> meinem</expan>
+            </choice> Letzten vom <date when="1866-01-25">25 <hi rend="latintype">Janr</hi>
+            </date> empfing ich Ihr Werthes<lb/> vom <date when="1865-12-01">1 <hi rend="latintype">Decemb,</hi>
+            </date> während die letzte Mail mir keine Briefe<lb/> von Ihnen brachte; allein
+                einen Bericht, woraus ich mit Ver-<lb/> gnügen bemerkte, daſ der Cours endlich mal
+                wieder in<lb/> die Höhe geht und daſ <hi rend="latintype">
+               <term type="goods" ref="K01519">Taffach</term> + <term type="goods" ref="K01569">Shirtings</term>
+            </hi> besser sind._<lb/> Die <term type="commercial" ref="K01523">
+               <choice>
+                  <abbr>
+                     <hi rend="latintype">R<hi rend="superscript">m</hi>
+                     </hi>
+                  </abbr>
+                  <expan> Rimesse</expan>
+               </choice>
+            </term>
+            <term type="commercial" ref="K01522">£</term>
+            <measure type="currency" quantity="1549.97" unit="britPound" commodity="taffachelassen">1549. 9/7.</measure> für Abrechnung von <measure type="volume" quantity="20" unit="box" commodity="taffachelassen">20</measure> Ks.<lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01519">Taffachelasse</term>
+            </hi> von der <hi rend="latintype">
+               <term type="logistic" ref="K01584">Consignation</term>
+            </hi> oben empfangen._<lb/>
+            <table>
+               <row>
+                  <cell>Der Verlust ist: <hi rend="latintype">
+                        <term type="commercial" ref="K01574">factura</term>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <term type="measure" ref="K01512">f</term>
+                     <measure type="currency" quantity="20008.55" unit="gulden">20008.
+                                55.</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="latintype">Netto <choice>
+                           <abbr>prov.</abbr>
+                           <expan cert="low">provision</expan>
+                        </choice>
+                        <choice>
+                           <abbr>excl.</abbr>
+                           <expan>exclusive</expan>
+                        </choice> Zinsen etc.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <measure type="currency" quantity="14468.03" unit="gulden">14468.
+                                    03</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <term type="measure" ref="K01512">f</term>
+                     <measure type="currency" quantity="5540.52" unit="gulden">5540.
+                                52</measure>
+                  </cell>
+               </row>
+            </table> Sie wollen hiervon <choice>
+               <abbr>gefl</abbr>
+               <expan>gefällig</expan>
+            </choice> Anmerkung nehmen, da ich unter<lb/> Ihrer Guarantie (<hi rend="latintype">Correspondenz <persName ref="K00011">Gildemeister</persName> / <persName ref="K00106">Schröder</persName>
+            </hi>) 100%<lb/> Vorschuss gab._ Ich habe zwar absolut keine Furcht,<lb/> daſ wir
+                dabei zu Schaden kommen, aber ordnungshalber<lb/> gebe ich es zu bemerken._ Sie
+                wissen, daſ außerdem<lb/> noch unter Ihrer Guarantie 100 % <hi rend="latintype">Vorschuss</hi> liegt auf<lb/>
+            <table>
+               <row>
+                  <cell>O;</cell>
+                  <cell>200 <hi rend="latintype">
+                        <term type="logistic" ref="K01585">Kelden</term>
+                        <term type="goods" ref="K01556">Genever</term>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <term type="measure" ref="K01512">f</term>
+                     <measure type="currency" quantity="1372.20" commodity="genever" unit="gulden">1372.20.</measure>
+                  </cell>
+                  <cell rows="4">
+                     <lb/>
+                     <hi rend="latintype"> p <name type="ship" ref="K01776">Minister
+                                        <unclear>Wall</unclear>
+                        </name>
+                        <lb/>für<lb/>
+                        <unclear reason="illegible">v.Baum</unclear>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. Rechts und links zwei Kreise durch einen Rhombus verbunden in den Kreisen V und D</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>3 4/7/2/5 <measure type="volume" quantity="11" unit="box" commodity="taffachelassen">11</measure> Ks. <hi rend="latintype">Taffachelassen</hi>
+                  </cell>
+                  <cell>
+                     <term type="measure" ref="K01522">"</term>
+                     <measure type="currency" quantity="10868.25" unit="gulden" commodity="taffachelassen">10868.25</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>W</cell>
+                  <cell>½ 2 " <hi rend="latintype">
+                        <unclear>Manna</unclear>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <term type="commercial" ref="K01522">"</term>
+                     <measure type="currency" quantity="227.35" unit="britPound">227.35.</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>B. C.</cell>
+                  <cell>
+                     <unclear reason="illegible">1/150</unclear>
+                     <measure type="currency" quantity="150" unit="britPound">150</measure>
+                     <term type="measure" ref="K01522">"</term>
+                     <hi rend="latintype">Blech</hi>
+                  </cell>
+                  <cell>
+                     <term type="commercial" ref="K01522">"</term>
+                     <measure type="currency" quantity="2472.75" unit="britPound">2472.75.</measure>
+                  </cell>
+               </row>
+            </table> Beigeschlossen finden Sie <choice>
+               <abbr>Rechn.</abbr>
+               <expan cert="high">Rechnungs</expan>
+            </choice> Auszug über<lb/>
+            <date when="1865">1865</date> mit einem <hi rend="latintype">Saldo</hi>
+            <unclear reason="eccentric_ductus"> von</unclear>
+            <lb/>
+            <hi rend="underline">
+               <term type="measure" ref="K01512">f</term>
+               <measure type="currency" quantity="10966.26" unit="gulden">10966.26.</measure>
+                    pr. <date when="1866-01-01">1. Janr</date>
+            </hi> zu meinen Gunsten._<lb/> Außerdem stehen noch offen die Commissionen <hi rend="latintype">
+               <orgName type="firm" ref="K01110">Bohlen + Co</orgName>
+            </hi>
+            <lb/> à <unclear>1½ + 1%</unclear> mit <term type="measure" ref="K01512">fl.</term>
+            <measure type="currency" quantity="505.46" unit="gulden">505.46.</measure>, sodann
+                die ganze Commission <date when="1865">1865</date>
+            <lb/>
+         </p>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_2.tif" n="2"/>
+         <p> die halbjährlich gegeben werden muss; außerdem recla<lb/> mire ich ernstlich d. h.
+                aber bittend die Restitution von <del rend="overstrike">den</del>
+            <lb/> Ihrer ganzen halben Commission + <hi rend="latintype">
+               <unclear reason="eccentric_ductus">Wechsel</unclear>
+            </hi>Commission sage<lb/> 3¾ % auf die Waaren, worauf ich unglücklicherweise
+                sitzen<lb/> geblieben und wovon bis jetzt <hi rend="latintype">
+               <term type="goods" ref="K01777">Stearin Lichte</term> pr <name type="ship" ref="K01778">Antie</name> + <term type="goods" ref="K01519">Taffache</term>
+               <lb/> pr. <name type="ship" ref="K01779">D. T. Visser</name>
+            </hi> abrechnete mit großem Verlust und wenn ich<lb/> dann bei all den
+                Unannehmlichkeiten und Verlüsten<lb/> auch noch <hi rend="latintype">c<hi rend="superscript">a</hi>
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="1000" unit="britPound">1000._</measure>
+               <unclear>Cashadvance</unclear>
+            </hi> seit fast einem ganzen<lb/> Jahre bemerke, da schwindelt es mir wirklich vor
+                den<lb/> Augen._<lb/> Ich habe das <hi rend="latintype">Conto Corrent</hi> vom <date when="1865">vorigen Jahre</date>
+            <unclear reason="eccentric_ductus">gefolgt</unclear> weil<lb/> schliesslich doch
+                bestimmt wurde, daſ die Buchungen sämmt-<lb/> lich auf <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> lauten sollten._ Die Commissions-<lb/>
+            <hi rend="latintype">NotaCredite</hi> über <date when="1864">1864</date> ist wie Sie
+                wissen von <hi rend="latintype">
+               <orgName type="firm" ref="K01008">Bollenh +Co</orgName>
+            </hi> aner-<lb/> kannt und sind<add style="textOrientation: straight" resp="writer" place="above"> von</add>
+            <term type="measure" ref="K01512">f</term>
+            <measure type="currency" quantity="40" unit="gulden">40</measure>
+            <hi rend="superscript">
+               <unclear>np</unclear>
+            </hi>
+            <hi rend="latintype">
+               <unclear reason="illegible"> Europ</unclear> Bank, </hi>, in <date when="1864">1<unclear reason="faded">8</unclear>64</date> nicht benutzt --<lb/> in
+                    <date when="1865">1865</date>. nur <term type="commercial" ref="K01522">£</term>
+            <measure type="currency" quantity="1700" unit="britPound">1700.</measure> oder <term type="measure" ref="K01512">f</term>
+            <measure type="currency" quantity="20400" unit="gulden">20,400</measure> benutzt._
+                Die <term type="measure" ref="K01512">f</term>
+            <measure type="currency" quantity="34.25" unit="gulden">34.25._</measure>
+            <lb/>
+            <hi rend="latintype">Porto <orgName type="firm" ref="K01008">Bollenhagen+Co</orgName>
+            </hi> sind auf deren <hi rend="latintype">
+               <unclear reason="eccentric_ductus">Ordre</unclear>
+            </hi> belastet._<lb/> Haben das <hi rend="latintype">
+               <unclear reason="eccentric_ductus">Ch/Ch</unclear>
+            </hi>
+            <choice cert="medium">
+               <abbr>sein.Z</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> von <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> empfangen, schrieb<lb/> ich Ihnen <choice>
+               <abbr>s. Z.</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> Sie begreifen, daſ ich keine <hi rend="latintype">Ch/Ch</hi> in <hi rend="latintype">
+               <term type="commercial" ref="K01508">Dollar</term>-</hi>
+            <lb/> halten kann, da mir für <choice>
+               <abbr>m/.</abbr>
+               <expan> meine</expan>
+            </choice>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01574">facturen</term> etc.</hi>
+            <hi rend="underline">
+               <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term>
+               </hi> werden<lb/> müssen!</hi> Die ausgleichende <hi rend="latintype">
+               <term type="commercial" ref="K01508">Dollar</term>
+            </hi> Rechnung für Verkäufe<lb/> lasse ich unberücksichtigt.<lb/> Sie wollen das <hi rend="latintype">Ch/Ch</hi>
+            <choice>
+               <abbr>gefl.</abbr>
+               <expan> gefällig</expan>
+            </choice> prüfen und erwerbe ich<lb/> nach Rechtfinden umgehend <term type="commercial" ref="K01523">Rimessen</term> für den <hi rend="latintype">Saldo</hi> + für<lb/> die <hi rend="latintype">Commissionen incl der pro <date when="1865">1865</date>._</hi>
+            <lb/> Die etwas günstigeren Berichte von dort sind noch<lb/> immer ungenügend für
+                weitere Einleitungen und<lb/> wird hier noch garnichts gemacht._<lb/>
+         </p>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_3.tif" n="3"/>
+         <p>
+            <term type="goods" ref="K01559">Bwolle</term> ist in den letzten 14 Tagen gefallen,
+                so daſ man<lb/> in voriger Woche <hi rend="latintype">
+               <term type="goods" ref="K01563">Midlupland</term>
+            </hi> zu <measure type="currency" quantity="18" unit="d" commodity="cotton">18</measure>
+            <hi rend="superscript">d</hi>, kaufen konnte,<lb/> welche Sorte aber heute wieder
+                auf <measure type="currency" quantity="19.25" unit="d" commodity="cotton">19¼</measure> steht.__<lb/> Geld etwas reichlicher aber <hi rend="latintype">Disconto</hi> immer noch<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> 8%, auch 6% à 7%___<lb/>
+            <seg rend="right">Hochachtungsvoll ergeben<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01026">W. Brummer</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_4.tif" n="envelope"/>
+         <p>
+            <stamp style="round" type="postal">
+               <placeName ref="K00525s">YOKOHAMA</placeName>
+               <lb/>
+               <date when="1866-04-12">12<lb/>AVRIL<lb/>66</date>
+               <lb/>BAU FRANCAIS</stamp>
+            <lb/>
+            <seg rend="center">
+               <stamp style="rectangular" type="commercial">
+                  <orgName type="firm" ref="K01026">W. BRUMMER</orgName>, AMSTERDAM.</stamp>
+               <hi rend="latintype">via Marseille<lb/> +Shanghaie<lb/>Mess<hi rend="superscript">rs</hi>
+                  <lb/>
+               </hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00529">AMSTERDAM</placeName>
+                  <lb/>9/2<lb/>5-9<lb/>66</stamp>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <del rend="overstrike">pd</del>
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <date when="1866">1866</date>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01026">WBrummer</orgName>
+                  <lb/>
+                  <placeName ref="K00529">Amsterdam</placeName>
+                  <date when="1866-02-09">9 Febr.</date>
+                  <lb/>
+                  <date when="1866-04-12">April 12</date>
+                  <lb/>Bt <date when="1866-04-16">" 16</date>
+                  <lb/>E</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_1.tif" n="1"/>
+         <p>W. Brummer<lb/>AMSTERDAM - ROTTERDAM.<lb/>Messrs<lb/>L. Kniffler +Co.
+                Yokohama<lb/>Amsterdam 9th ⟨Feb⟩ Jan 1866<lb/>Since my last letter from 25th Jan. I
+                have received your <lb/>esteemed letter from 1st Dec., but the last mail brought no
+                <lb/>letters from you; just a report from which I gather with<lb/>pleasure that the
+                rate is finally rising again and <lb/>that taffachelas + shirtings are better now.
+                _<lb/>We have received the remittance £1549. 9/7. for the calculation <lb/>of 20
+                boxes of taffachelas from the consignment above._<lb/>
+            <table>
+               <row>
+                  <cell>The loss is: invoice</cell>
+                  <cell>f 20,008. 55.</cell>
+               </row>
+               <row>
+                  <cell>Net prov. excl. interest etc.</cell>
+                  <cell>14,468. 03</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>f 5540. 52</cell>
+               </row>
+            </table> Please kindly take note of this because I provided a <lb/>100% advance
+                guaranteed by you (correspondence Gildemeister /<lb/>Schröder)._ While I harbour no
+                worries at all that we are<lb/>going to suffer in this respect, I ask to have this
+                noted as a <lb/>matter of form. _ You know that furthermore there is a <lb/>100%
+                advance under your guarantee on<lb/>
+            <table>
+               <row>
+                  <cell>O;</cell>
+                  <cell>200 kelden of jenever[?]</cell>
+                  <cell>f 1372.20.</cell>
+                  <cell> p Minister Wall<lb/>for<lb/>v.Baum</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Company sign. On the right and left two circles connected by a rhombus, in the circles the letters V and D</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>3 4/7/2/5 11 boxes taffachelas</cell>
+                  <cell>" 10868.25</cell>
+               </row>
+               <row>
+                  <cell>W</cell>
+                  <cell>½ 2 " manna</cell>
+                  <cell>" 227.35.</cell>
+               </row>
+               <row>
+                  <cell>B. C.</cell>
+                  <cell>1/150[?] 150 " metal sheets</cell>
+                  <cell>" 2472.75.</cell>
+               </row>
+            </table> Enclosed you will find the invoice extract for <lb/>1865 with a balance
+                of[?]<lb/>f 10,966.26 per 1st Jan.[?] in my favour._<lb/>Additionally, the
+                commissions Bohlen + Co at 1½ + 1%[?]<lb/>are outstanding with fl. 505.46.,
+                thereafter the entire commission</p>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_2.tif" n="2"/>
+         <p>for 1865, which is due semi-annually; furthermore I reclaim<lb/>seriously but
+                politely the restitution of <del rend="overstrike">the </del>
+            <del rend="overstrike"> your</del>
+            <lb/>whole half commission + bill of exchange[?] commission of<lb/> 3¾ % on the
+                wares, which I have unfortunately got stuck<lb/>with and for which I have so far
+                balanced the accounts for stearin <lb/>candles per “Antie” + taffachelas per “D. F.
+                Visser” at a great loss and <lb/>if then, with all these troubles and losses, I
+                further notice <lb/>an approx. £ 1,000_ cash advance[?] since almost a whole
+                <lb/>year ago, my head really starts swimming. _<lb/>I followed[?] last year’s
+                current account because it was<lb/>decided in the end that the entries as a whole
+                <lb/>were to be made out to Yokohama._ The commission<lb/>note credits for 1864
+                have, as you know, been accepted by Bollenh. <lb/>+ Co. and are by f40np[?] Europ[?]
+                Bank, were not used in 18[?]64 --<lb/>in 1865. only £1,700. or f20,400 have been
+                used._ The f 34.25_<lb/>postage by Bollenhagen+Co has been debited at their
+                instruction[?]._<lb/>We received the Ch/Ch[?]from Nagasaki (some time ago, I wrote
+                <lb/>to you (at the time) for you to understand that I cannot keep any <lb/>Ch/Ch in
+                dollars as my invoices have to paid be in Guilders! <lb/>The balancing dollar
+                invoice for sales I am disregarding. <lb/>Please kindly check the Ch/Ch and after
+                their verification I will<lb/>promptly acquire remittances for the balance +
+                for<lb/>the commissions incl. those for 1865._<lb/>The somewhat more favourable
+                reports from there <lb/>still do not suffice yet to make further shipments and
+                <lb/>nothing is being done here yet._</p>
+         <pb facs="1866_02_09_Kniffler_Yokohama_von_W_Brummer_Amsterdam_3.tif" n="3"/>
+         <p>Cotton has dropped in the last 14 days so that <lb/>last week one could buy
+                midlupland for 18d, <lb/>a type that today is back at 19¼.__<lb/>Money somewhat more
+                plentiful but discount in <lb/>London still 8%, also 6% to 7%___<lb/>Yours most
+                respectfully <lb/>W. Brummer</p>
+      </body>
+   </text>
+</TEI>

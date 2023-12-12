@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Jakob Bollenhagen</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00007">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Bollenhagen</surname>
+               </persName>
+               <birth>
+                  <date when="1812-03-20"/>
+                  <placeName>Holzwarden</placeName>
+               </birth>
+               <death>
+                  <date when="1876-07-20"/>
+                  <placeName>Pinneberg</placeName>
+               </death>
+               <note>Jakob Bollenhagen war der Gründer des Hamburger Unternehmens Bollenhagen &amp;
+                  Co. 1846 heiratete er Maria Lucia Frederika Watty, die Tochter eines Hamburger
+                  Goldschmieds. Bollenhagen war es, der, als der gute Geschäftsgang von Pandel &amp;
+                  Stiehaus diese dazu veranlasste, neues Personal zu suchen, L. Kniffler nach
+                  Batavia empfahl. Von Bollenhagen &amp; Co. kam dann auch im Jahre 1866 Carl Illies
+                  zur Firma Kniffler, der schließlich 1880 das Unternehmen übernahm. </note>
+               <bibl>Fred Watty: Die Hamburger Familie Watty. Mit ihren rheinisch-westfälischen,
+                  mexikanischen und US-amerikanischen Nebenlinien, Norderstedt 2008, S. 13.</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

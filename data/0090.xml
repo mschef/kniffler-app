@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. C. Smith (Glover &amp; Co.) in Nagasaki an Carl Illies o. O. am 5. Februar
+                    1869</title>
+            <title type="file">0090.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-90</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Auf der ersten Seite eine Eingangsnotiz. Eine Seite
+                            Anschreiben und eine Seite mit einer Versicherungsrechnung.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00123">Smith, J. C.</persName>
+               <orgName type="firm" ref="K01109">Glover &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-02-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="K00018">Illies, Carl</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-08-05" who="TP">Diplomatische Transkription</change>
+         <change when="2020-12-07" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription; Transkription der Tabellen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_02_05_Illies_n.a._von_Smith_Nagasaki_1.tif" n="1"/>
+         <p>
+            <add style="textOrientation: straight" resp="other" place="marginRight">
+               <hi rend="latintype">
+                  <persName ref="K00123">JC Smith</persName>
+                  <lb/>
+                  <orgName type="firm" ref="K01109">Glover+Co</orgName>
+                  <lb/>Insurance<lb/>
+                  <hi rend="underline">limits</hi>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1869_02_05_Illies_n.a._von_Smith_Nagasaki_2.tif" n="2"/>
+         <p> My dear M<hi rend="superscript">r</hi>
+            <persName ref="K00018">Illies</persName>
+            <lb/> I think that our offices can take any<lb/> fire risks that you should require.
+                I have not had<lb/> time just now to examine exactly how much we<lb/> have already
+                taken but underneath I give you the<lb/> limits to which we can insure the buildings
+                + contents<lb/> of your two stone <term type="logistic" ref="K01601">godowns</term>.<lb/> I just remembered about the plan<lb/> of <placeName ref="K00507">Decima</placeName> which I promised you and have sent<lb/> to the
+                painter to see if it ist finished<lb/>
+            <seg rend="right">Yours sincerely<lb/>
+               <persName ref="K00123">JCSmith</persName>
+            </seg>
+            <lb/>
+            <seg rend="left">
+               <placeName ref="K00514">Nagasaki</placeName>
+               <lb/>
+               <date when="1869-02-05">5<hi rend="superscript">th</hi>Feb<hi rend="underline">ruary</hi> 1869</date>.</seg>
+            <lb/>
+            <seg rend="right">
+               <choice>
+                  <abbr>P.T.O.</abbr>
+                  <expan>please turn over</expan>
+               </choice>
+            </seg>
+         </p>
+         <pb facs="1869_02_05_Illies_n.a._von_Smith_Nagasaki_3.tif" n="3"/>
+         <pb facs="1869_02_05_Illies_n.a._von_Smith_Nagasaki_4.tif" n="4"/>
+         <p>
+            <seg rend="center">On Stone <term type="logistic" ref="K01601">Godown</term>
+            </seg>
+            <lb/>
+            <table rows="6" cols="2">
+               <row>
+                  <cell>
+                     <seg rend="center">
+                        <hi rend="underline">Lot 23</hi>
+                     </seg>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">Limits</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <orgName type="firm" ref="K01083">Imperial Fire Insurance Co.</orgName>
+                  </cell>
+                  <cell>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="45000" unit="mex$" commodity="insuranceLimit">45000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <orgName type="firm" ref="K01075">London Assurance Corporation</orgName>
+                  </cell>
+                  <cell>
+                     <measure type="currency" quantity="45000" unit="mex$" commodity="insuranceLimit">45000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <orgName type="firm" ref="K01129">Northern Assurance Compy.</orgName>
+                  </cell>
+                  <cell>
+                     <measure type="currency" quantity="22000" unit="mex$" commodity="insuranceLimit">22000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <orgName type="firm" ref="K01130">Hongkong Fire Ins<hi rend="superscript">ce</hi> Co Lt<hi rend="superscript">d</hi>.</orgName>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <measure type="currency" quantity="20000" unit="mex$" commodity="insuranceLimit">20000.00</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <seg rend="right">Total</seg>
+                  </cell>
+                  <cell>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="132000" unit="mex$" commodity="insuranceLimit">
+                        <hi rend="underline" n="2">132,000.00</hi>
+                     </measure>
+                  </cell>
+               </row>
+            </table>
+            <lb/>
+            <seg rend="center">
+               <lb/> On Stone Godown<lb/>
+               <hi rend="underline">Lot 14</hi>
+            </seg>
+            <lb/>
+            <table rows="5" cols="2">
+               <row>
+                  <cell>Imperial Office</cell>
+                  <cell>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="45000" unit="mex$" commodity="insuranceLimit">45000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>London A.</cell>
+                  <cell>
+                     <measure type="currency" quantity="45000" unit="mex$" commodity="insuranceLimit">45000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Northern A.</cell>
+                  <cell>
+                     <measure type="currency" quantity="10000" unit="mex$" commodity="insuranceLimit">10000.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Hongkong A.</cell>
+                  <cell>
+                     <measure type="currency" quantity="20000" unit="mex$" commodity="insuranceLimit">
+                        <hi rend="underline">20000.00</hi>
+                     </measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <seg rend="right">Total</seg>
+                  </cell>
+                  <cell>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="120000" unit="mex$" commodity="insuranceLimit">
+                        <hi rend="underline" n="2">120,000.00</hi>
+                     </measure>
+                  </cell>
+               </row>
+            </table>
+         </p>
+      </body>
+   </text>
+</TEI>

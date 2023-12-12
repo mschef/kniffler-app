@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. Simonin &amp; Co. in Paris an L. Kniffler &amp; Co. in Yokohama am 5.
+                    November 1869</title>
+            <title type="file">0110.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-104</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt, beide Seiten beschrieben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01155">J. Simonin &amp; Co.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1869-11-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-12-27"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-13" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-06" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+                Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_11_05_Kniffler_Yokohama_von_Simonin_Co_Paris_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other" place="inline">
+                  <date>1869</date>
+               </add>
+               <lb/>
+               <placeName ref="K00534">Paris</placeName> le <date when="1869-11-05">5 Novembre
+                        1869</date>.<lb/>
+               <add style="textOrientation: straight" resp="other" place="inline">
+                  <orgName type="firm" ref="K01155">J. Simonin +Co.</orgName>
+               </add>
+               <lb/>
+            </seg>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp;
+                            C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other" place="inline">
+                  <choice>
+                     <abbr>Empf</abbr>
+                     <expan>Empfangen</expan>
+                  </choice>
+                  <date when="1869-11-05">27 dec</date>
+               </add>
+               <lb/>
+               <placeName ref="K00525">Yokohama</placeName>
+               <add style="textOrientation: straight" resp="other" place="inline">
+                  <choice>
+                     <abbr>ben</abbr>
+                     <expan>beantwortet</expan>
+                  </choice>
+                  <date when="1869-12-31">31 Dec.</date>
+               </add>
+            </seg>
+            <lb/> Nous vous confirmons, Messieurs, notre lettre du <date when="1869-10-29">29
+                    Octobre</date> Dernier qui vous remettair<lb/> Facture &amp; Connaissement à JS
+                831 &amp; 834 par le Vapeur Des <orgName type="firm" ref="K01111">Messageries
+                    Impériales</orgName> du<lb/>
+            <date when="1869-10-30">30 Octobre</date>. La première contenait 30 Pièces
+                Mousseline de Laine Imprimée, et la<lb/> seconde la Carte d'Echantillons; nous
+                espèrons que le tout vous est bien parvenu &amp; que<lb/> vous pouvez sous pen nour
+                donner avis du bon placement de ce petit lot. Ci-inclus<lb/> nous vous remettons les
+                Duplicata du Connaissement &amp; de la facture qui se monte à<lb/> P<hi rend="superscript">es</hi>2218/20, au Débit de votre Consignation.<lb/> Nous
+                avons recu depuis votre honoreé du 4 Septembre dernier dont le contenu nous<lb/> a
+                offert le plus grand intéret. Nous vous remercions sincèrement puor les
+                reseignements<lb/> qur vous avez bien voulu nous donner sur l'état de votre marché,
+                &amp; vouyons avec le<lb/> plus grand plaisir qu'une reprise générale commence à se
+                faire sentir sur toutes les<lb/> marchandises d'importation. Nous prenons bonne note
+                que vous espérez en profiter pour<lb/> solder notre ancien Stock à des conditions
+                avantagenses, &amp; votre prochaine sans doute nous<lb/> avisera des ventes
+                    importantes.<add style="textOrientation: straight" resp="other" place="inline">
+               <unclear>GB</unclear>
+            </add>
+            <lb/> Nous sommes heureux de pouvour aujourd'hui vous aviser d'une nouvelle
+                expedition<lb/> de 6 Caisses JS 846/51 de la même machandise par le Vapeur de la
+                    C<hi rend="superscript">iè</hi>
+            <orgName type="firm" ref="K01060">P &amp; O.</orgName> qui<lb/> partira de
+                    <placeName ref="K00515">Marseille</placeName> le 7 Courant. Vous recevrez encore
+                par le même Vapeur JS 856_<lb/> 1 Caissete contenam les Cartes d'Echantillons aux 6
+                Caisses précédentes. Nous vous<lb/> remettons sous pli la facture avec les frais
+                approximatifs pour vous faciliter la vente de la<lb/> marchandise. Notre prochaine
+                vous apportera le Duplicata avec les frais réels, Le Connaisse-<lb/> ment vous sera
+                envoyè directement de <placeName ref="K00515">Marseille</placeName>.<lb/>
+         </p>
+         <pb facs="1869_11_05_Kniffler_Yokohama_von_Simonin_Co_Paris_2.tif" n="2"/>
+         <p> Ne pouvions nous aussi faire quelques affaires ensemble en Mousseline de<lb/> Laine
+                unie de Couleurs; nous sommes aussi bien placés pur traiter cet article que<lb/> que
+                quique ce soit, et nous le croyons de grande vente sur votre marché- Sie vous<lb/>
+                en augrurez bien, soyez assez bons pour nous tenir au courant de la position de
+                ce<lb/> tissu sur votre marché, et nous remettre l'échautillon de la qualité
+                Demandée avec<lb/> l'assortiment de Couleurs &amp; le pric de Vente, nous verrons
+                alors s'il ne nous est pas<lb/> possible de vous faire quelques envois.<lb/> En
+                attendant le plaisir de recevoir de vos bonnes nouvelles, nous vous<lb/> prions
+                d'agréer, Messiuers, nos bien sincères salutations.<lb/>
+            <seg rend="right">
+               <hi rend="underline">
+                  <unclear>John</unclear>.Simonin+C<hi rend="superscript">ie.</hi>
+               </hi>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hellmann Bros. &amp; Co. in San Francisco an L. Kniffler &amp; Co. in
+                    Yokohama am 3. April 1865</title>
+            <title type="file">0050.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-50</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            Firmenstempel und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01106">Hellmann Bros. &amp; Co.</orgName>
+               <settlement ref="K00532">San Francisco</settlement>
+               <date when="1865-04-03"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2019-01-07" who="TP">diplomalische Transkription</change>
+         <change when="2020-11-09" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Mess<hi rend="superscript">rs</hi>
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+                  </hi>
+                  <lb/>
+                  <stamp type="commercial" style="oval">
+                     <orgName type="firm" ref="K01106">HELLMANN BROTHERS &amp; C<hi rend="superscript">O</hi>
+                     </orgName>. <lb/>
+                     <placeName ref="K00532">SAN FRANCISCO</placeName>
+                  </stamp>
+                  <hi rend="latintype">
+                     <placeName ref="K00525">Yokohama</placeName>
+                     <lb/>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </seg>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="latintype">1865<lb/>
+                     <orgName type="firm" ref="K01106">Hellmann Bros + Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00532">San Francisco</placeName>
+                     <date when="1865-04-03">3 April</date>
+                     <lb/>Bwt. A<lb/>E</hi>
+               </add>
+            </p>
+            <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">p<hi rend="superscript">r</hi> "<name type="ship" ref="K01770">Marmion</name>" via <placeName ref="K00509">Hongkong</placeName>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00532">San Francisco</placeName> d: <date when="1865-04-03">3 April 1865</date>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+               </hi>
+               <lb/>
+               <seg rend="center">
+                  <placeName ref="K00525">Yokohama</placeName>,</seg>
+               <lb/> Wir bestätigen unser Ergeb. v. <date when="1865-01-23">23 <hi rend="latintype">Januar</hi>
+               </date> und haben<lb/> das Vergnügen uns zum Empfange Ihres Geehrten v. <date when="1865-01-21">21. selbigen<lb/> Monats</date> zu bekennen, für dessen
+                    Inhalt wir Ihnen danken<lb/> Wir behändigen Ihnen nun einlg. <choice>
+                  <abbr>Verkf R</abbr>
+                  <expan>Verkaufsrechnung</expan>
+               </choice> über Ihre<lb/> Ladung <term type="goods" ref="K01571">Thee</term> ex
+                        <hi rend="latintype">"<name type="ship" ref="K01771">Emily
+                        Banning</name>"</hi>... <unclear reason="eccentric_ductus">f</unclear>
+               <choice>
+                  <abbr>Prov</abbr>
+                  <expan cert="low">Provenue</expan>
+               </choice>
+               <term type="commercial" ref="K01508">$</term>
+               <hi rend="underline" n="2">
+                  <measure type="currency" quantity="1649" unit="mex$">1649„-</measure>
+               </hi>
+               <lb/> wogegen wir mit der <hi rend="latintype">"<name type="ship" ref="K01770">Marmion</name>"</hi> nach <placeName ref="K00509">Hongkong</placeName>
+                    an die<lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen + Co</orgName>
+               </hi> - zu Ihrer Verfügung - <lb/>
+               <orgName type="firm" ref="K01004">L. K + C</orgName> 1 Kistchen = <measure type="currency" quantity="1460" unit="mex$">1460</measure>
+               <hi rend="latintype">Mexic:<add resp="other" place="inline" style="transformRotateZ(-45deg)">Num fol 371</add>
+                  <term type="commercial" ref="K01508">Dollars</term>,</hi> betragend<lb/>
+               <seg rend="right">
+                  <choice>
+                     <abbr>lt einl</abbr>
+                     <expan>laut einliegender</expan>
+                  </choice>
+                  <hi rend="latintype">
+                     <term type="commercial" ref="K01574">Factura</term>
+                  </hi>
+                  <term type="commercial" ref="K01508">$</term>
+                  <hi rend="underline" n="2">
+                     <measure type="currency" quantity="1649" unit="mex$">1649„-</measure>
+                  </hi>
+                  <lb/>
+               </seg>
+               <term type="commercial" ref="K01523">remittieren</term>, welche <term type="commercial" ref="K01523">Rimesse</term>, wie Sie aus der <term type="commercial" ref="K01574">Factura</term> ersehen<lb/> werden, wir hier
+                    im "<choice>
+                  <abbr>Califo</abbr>
+                  <expan cert="high">Californian</expan>
+               </choice> Lloyd" gegen Seegefahr versichert<lb/>
+                    haben.-<lb/> Wir bedauern herzlich das traurige Resultat Ihrer<lb/> ersten <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi> Ladung an uns, welches aber lediglich der schlechten<lb/> Condition
+                    zuzuschreiben ist, denn hätte der <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi> nicht vom<lb/> Schiffsdunst gelitten so wären wir wohl wenigstens auf<lb/>
+                    Kostenpreis gelangt.- Bei etwaigen ferneren Ladungen<lb/> empfehlen wir Ihnen
+                    sehr an die Verpackung in <term type="logistic" ref="K01772">Blei</term>
+               <lb/> zu besorgen.-<lb/> Das Schiff <hi rend="latintype">"<name type="ship" ref="K01773">Bachante</name>"</hi> kam hier gestern an.- Vorher<lb/> war
+                    der Vorrath von Japan: <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thees</term>
+               </hi> sehr reduzirt. Gute<lb/>
+               <hi rend="latintype">medium</hi> Sorte brachte 67½ - 70 ¢ <unclear reason="illegible">p<hi rend="superscript">r</hi> ℔</unclear> feiner 75 - 80
+                        <unclear reason="illegible">p<hi rend="superscript">r</hi> ℔.</unclear>
+               <lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01774">Mehl</term>
+               </hi> hielt sich hoch. Calif. in ½ Säcken <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="14.5" unit="mex$" commodity="flour">14<hi rend="superscript">50</hi>
+               </measure>
+               <lb/>
+               <hi rend="latintype">Chile</hi> in Bond <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="12.5" unit="mex$" commodity="flour">12<hi rend="superscript">50</hi>.-</measure> Die Aussichten sind<lb/> günstig
+                    für eine sehr große Erndte, und dürften<lb/> Preise im <date when="1865-08">August</date>- <date when="1865-09">Sept</date> sehr niedrig gehen. </p>
+            <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_3.tif" n="3"/>
+            <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_4.tif" n="4"/>
+            <p>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01716">Quecksilber</term>
+               </hi> 55¢ <unclear>p<hi rend="superscript">r</hi> ℔</unclear> - <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Mexc Dollars</term> 10½ - 11%-<lb/>
+                        Cours</hi> auf London To HS: 48½<lb/> Hoffend daß Sie sich
+                    veranlaßt fühlen mögen einen<lb/> neuen Versuch mit einer <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi> Ladung an uns zu machen,<lb/> bleiben zu Ihren Diensten<lb/>
+               <seg rend="right">Hochachtungsvoll<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01106">Hellmann Brothers &amp; Co.</orgName>
+                  </hi>
+               </seg>
+               <lb/> P. S. <date when="1865-04-04">4 April / 65</date> Telegraphische Berichten
+                    gestern Abend<lb/>melden die <hi rend="latintype">
+                  <orgName type="gov" ref="K01107">Federalen</orgName>
+               </hi> im Besitz von <hi rend="latintype">
+                  <placeName ref="K00583">Richmond</placeName>.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_1.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler + Co<lb/>HELLMANN BROTHERS &amp; Co. <lb/>SAN
+                FRANCISCO<lb/>Yokohama<lb/>Japan<lb/>⟨1865<lb/>Hellmann Bros + Co.<lb/>San Francisco
+                3rd April<lb/>Biot. AE⟩</p>
+         <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_2.tif" n="2"/>
+         <p>By means of "Marmion" via Hongkong<lb/>San Francisco, 3rd April 1865<lb/>Messrs. L.
+                Kniffler + Co.<lb/>Yokohama,<lb/>We confirm our respectful letter from 23rd January
+                and have<lb/>the pleasure of acknowledging receiving your esteemed letter <lb/>from
+                21st of that month, for the contents of which we thank you. <lb/>We are now
+                providing you with the enclosed sales invoice for <lb/>your shipment of tea on the
+                “Emily Banning”... f[?] provision $1649„-<lb/>whereas we remit with the “Marmion” to
+                Hongkong to Messrs. <lb/>Siemssen + Co – for your usage - <lb/> L K + C 1 small box
+                = 1,460 Mexic:⟨Num fol 371⟩ Dollars, amounting<lb/>according to the enclosed invoice
+                to $1,649„-,<lb/>a remittance which as you can see from the invoice <lb/>we have
+                insured here at the “Califo Lloyd” against marine<lb/>perils.-<lb/>We wholeheartedly
+                regret the sad result of your <lb/>first batch of tea for us, which, however, is
+                merely to be <lb/>attributed to its poor condition because if the tea had not
+                <lb/>suffered so much from the vapours onboard then we would at <lb/>least have
+                reached the cost price.- For any possible further <lb/>shipments we would strongly
+                recommend that you have it <lb/>packed in lead. -<lb/>The ship “Bachante” arrived
+                here yesterday.- Previous to that<lb/>the stock from Japan here was: teas, very
+                reduced. A good<lb/>medium type achieved 67½ - 70 ¢ pr ℔ [?], fine quality 75 - 80
+                pr ℔.[?]<lb/>Flour remained high. Calif. in ½ sacks $1450<lb/>Chile in bond $1250.-
+                The outlook is positive <lb/>for a very large harvest, and prices in August-
+                Sep<lb/>will probably drop very low. </p>
+         <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_3.tif" n="3"/>
+         <pb facs="1865_04_03_Kniffler_Yokohama_von_Hellmann_Bros_San_Francisco_4.tif" n="4"/>
+         <p>Quicksilver 55¢ pr ℔ [?] - Mexican Dollars 10½ - 11%-<lb/>rates in London 60
+                d[ays]/S[ight] 48½<lb/>In the hope that you may feel induced to attempt <lb/>a new
+                shipment of tea to us, <lb/>we remain at your service, <lb/>Yours
+                sincerely<lb/>Hellmann Brothers &amp; Co.<lb/> P. S. 4th April / 65 Reports by
+                telegram last night <lb/>announced the Federal Army as being in possession of
+                Richmond.</p>
+      </body>
+   </text>
+</TEI>

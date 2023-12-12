@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag William Gregson Aspinall</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00085">
+               <persName>
+                  <forename>William Gregson</forename>
+                  <surname>Aspinall</surname>
+               </persName>
+               <birth>
+                  <date when="1822"/>
+               </birth>
+               <death>
+                  <date when="1879-10-03"/>
+               </death>
+               <note> William Gregson Aspinall entstammte einer Kaufmannsfamilie aus Liverpool, die
+                  u.a. mit Sklavenhandel zu Reichtum gelangte und dadurch auch politischen Einfluss
+                  gewann. Bevor er im Mai 1860 nach Japan kam, war er Teilhaber der Firma Aspinall,
+                  Mackenzie &amp; Co. in Shanghai. In Yokohama betätigte er sich als zunächst
+                  zunächst im Teehandel. Zusammen mit Frederick Cornes gründete er im April 1861 die
+                  Handelsfirma Aspinall, Cornes &amp; Co., aus der Aspinall jedoch 1873 nach
+                  anhaltenden finanziellen und privaten Problemen wieder ausstieg. Während seiner
+                  Zeit bei der Firma betreute er die Filiale in Yokohama und handelte von dort aus
+                  vor allem mit Seide und Kohle. </note>
+               <bibl>Peter N. Davies: Frederick Cornes, 1837-1927. In: Cortazzi (Hrsg.): Britain and
+                  Japan - Biographical Portraits IV, Folkestone 2002, S. 120-123</bibl>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_a.html">Meiji-Portraits</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

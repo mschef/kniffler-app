@@ -1,0 +1,2063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html"
+view="page"?><?xml-model href="knifflerSchema/WarenUndSachregister.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/WarenUndSachregister.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Waren-, Sach- und Schiffsregister Kniffler-Briefe</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item xml:id="K01500">
+               <term type="goods">Sapanholz</term>
+               <note> Auch Japanholz, Sappanholz. Wegen des im Holz enthaltenen Farbstoffs Brasillin wurde es gemahlen zur Rotfärbung von Textilien verwandt. Die ost- und südostasiatischen Varianten
+                  galten als zum Färben weniger geeignet als das Holz aus anderen Rotholzbäumen, besonders der brasillianischen Arten. </note>
+               <bibl>Funke, Philipp / Lippold, Georg: neuestes Natur- und Kunstlexicon. enthaltend die meisten, insbesondere aber die gemeinnützigsten Gegenstände aus der Naturgeschichte, Naturlehre,
+                  Chemie, Technologie und Oeconomie, Wien 1825, S. 280-281.</bibl>
+               <bibl>McCulloch, John: Univeral-Lexikon für Kaufleute und Fabrikanten. oder vollständiges Handbuch des Handels-, Fabrik- und Manufakturwesens, der Schiffahrt und der Bankgeschäfte, mit
+                  besonderer Rücksicht auf National-Oekonomie und Finanzen, 2. Aufl., Augsburg 1842, S. 623.</bibl>
+            </item>
+            <item xml:id="K01501">
+               <term type="goods">Kohle</term>
+               <note>Mit dem Anstieg der Anzahl an Dampfern weltweit sowie in der ostasiatischen Küstenschifffahrt wurde es zunehmend bedeutend, entlang der Küste über ausreichend große Kohlenbunker
+                  zu verfügen. Nicht zuletzt wegen der Bereitstellung von Kohlen hatte Commodore Perry im Auftrag der amerikanischen Regierung mit dem Handelsvertrag die „Öffnung“ Japans erzwungen. Da
+                  besonders in den Anfängen die ostasiatischen Märkte wenig aufnahmefähig waren für europäische Waren, verschifften die Handelshäuser die Kohlen auf der Hinfahrt nach Asien als
+                  Ballast. Die Schiffe wurden in den europäischen Häfen gechartert, fuhren Häfen wie Cardiff oder an und segelten mit der Kohle zu ihrem Bestimmungort in Asien. Hier setzten sie die
+                  Kaufleute meist einige Monate in der Küstenschifffahrt ein, um sie dann mit asiatischen Waren beladen nach Europa zurück zu senden. So wurde nicht nur eine optimale Ausnutzung der
+                  Schiffskapazitäten erreicht, sondern die Händler konnten im Küstenhandel über das gesamte Jahr der Charter mit dem Schiff Geld verdienen. </note>
+               <bibl> Möring, Maria: Siemssen &amp; Co. (=Veröffentlichengen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg Bd. 33), Hamburg, 1971, S. 60. </bibl>
+            </item>
+            <item xml:id="K01502">
+               <term type="goods">Reis</term>
+               <note>Die Produktion von Reis der Sorte Indica und der Welthandel damit wurde seit den 1850er und -60er Jahren durch die Kolonisierung von Teilen Südostasiens durch europäische Mächte
+                  immens vorangetrieben. Indica-Reis wurde auch in Japan importiert. Der Handel mit der in Japan angebauten Sorte Japonica hingegen begann erst 1872, nachdem ein seit 1859 bestehendes
+                  Ausfuhrverbot aufgehoben wurde. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4049271-0</idno>
+               <bibl>Steven J. Ericson: Japonica, Indica - Rice and Foreign Trade in Meiji Japan, in: The Journal of Japanese Studies 41 (2), 2015, S. 321, 323.</bibl>
+            </item>
+            <item xml:id="K01503">
+               <term type="logistic">Bark</term>
+               <note>Mindestens dreimastiges Schiff. Als schnelle und verhältnismäßig zuverlässige Schiffe waren Barken auch nach dem Aufkommen der Dampfschiffe im 19. Jahrhundert eine häufig
+                  gebrauchte Schiffsart. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01504">
+               <term type="measure">Picul, Isikatz (Ishikatsu)</term>
+               <note>In Südostasien und China gebräuchliche Gewichtseinheit. Die verwendeten Umrechnungen waren in verschiedenen Ländern Ostasiens nicht einheitlich, entsprachen aber immer ca. 60 Kg.
+                  Trotzdem konnte es aufgrund der Unterschiede zu Schwierigkeiten im Seehandel kommen, etwa wenn Sender und Empfänger einer Ware verschiedene Maße verwendeten. Die Kniffler-Briefe
+                  offenbaren mehrere solcher Missverständnisse, in denen wahrscheinlich nicht, wie oft von den Briefschreibern angenommen, falsches Messen oder vorsätzlicher Betrug im Spiel waren,
+                  sondern vielmehr unterschiedliche Piculmaße angelegt wurden. Im Brief vom 30.11.1862 stellt dies die Firma Pandel &amp; Stiehaus fest, nachdem es zuvor Unklarheiten bezüglich einer
+                  Ladung Kupfer gegeben hatte. <table>
+                     <row>
+                        <cell>Batavia, Borneo, Malakka</cell>
+                        <cell>61,521 Kg</cell>
+                     </row>
+                     <row>
+                        <cell>China, Bangkok, Manila, Shanghai</cell>
+                        <cell>60.4688 Kg</cell>
+                     </row>
+                     <row>
+                        <cell>Japan</cell>
+                        <cell>60.104 Kg</cell>
+                     </row>
+                  </table> Das chinesische Pikul wird gerechnet zu 100 Kätti od. Catty = 1600 Tael od. Tail. Das japanische Pikal entsprach 16 Kwan à 6¼ Kin à 160 Monme od. Momme. </note>
+               <bibl> Krüger, Johann Friedrich: Vollständiges Handbuch der Münzen, Maße und Gewichte aller Länder der Erde, Quedlinburg, u.a. 1830, S. 230. </bibl>
+               <bibl> Silber, Franz: Die Münzen, Maße und Gewichte aller Länder der Erde. einzeln berechnet nach ihren Werthen und Verhältnissen zu allen deutschen Münzen, Maßen und Gewichten, Leipzig
+                  1861, S. 318-319. </bibl>
+               <bibl> Trapp, Wolfgang; Wallerus, Heinz: Handbuch der Maße, Zahlen, Gewichte und der Zeitrechnung, 6. Aufl., Stuttgart 2012, S. 272. </bibl>
+            </item>
+            <item xml:id="K01505">
+               <name type="ship">Postiljon</name>
+               <note>1856 im preußischen Elbing (heute: Elbląg) gebaute Bark von 183 Bruttoregistertonnen.</note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=14983">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01506">
+               <term type="logistic">Colli</term>
+               <note>Stückgut </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01507">
+               <name type="ship">Koophandel</name>
+               <note>1856 gebautes dreimastiges Segelschiff von 724 Bruttoregistertonnen. Die Koophandel fuhr unter verschiedenen Namen und im Auftrag verschiedener Unternehmen über 50 Jahre. Die
+                  letzte Aufzeichnung über das Schiff stammt aus dem Jahre 1907.</note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=15127">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01508">
+               <term type="commercial">Mexikanischer Dollar, mex. Silberdollar, Peso, Piastra, ($)</term>
+               <note> Auch: Säulenpiaster, Schiffspiaster, Achterstück, Colonnato (Italien), Piastra (Niederlande), Pilaer (engl. Sprachraum). Spanisch-amerikanische Münze. Ursprünglich 8 Reales
+                  entsprechend, wurde die Münze selbst immer mehr zur bestimmenden Einheit; besonders seit englische Händler dem „Piece of eight” den Namen „Spanish Dollar” gegeben hatten. Als
+                  spanische Münze wurde das 8-Reales-Stück seit der Entdeckung der großen Silbervorkommen in den spanischen Kolonien Lateinamerikas auch dort hergestellt. Daneben wurden auch nur dem
+                  Wert entprechende Klumpen Silber · hergestellt, die als Peso (= span. „Gewicht“) bezeichnet wurden, wodurch die Münzen einen weiteren Namen erhielten. Als spanisch-amerikanischer
+                  beziehungsweise mexikanischer Silberdollar wurde der Peso im 17./19 Jahrhundert, vor allem wegen seines konstanten und hohen Silbergehaltes, zu einer weltweit akzeptierten Münze. Der
+                  gleichbleibende Silbergehalt der Münzen gestattete es, etwa im Handel mit China, wo der aufgeprägte Wert nicht anerkannt wurde, mit dem Gewicht und Feingehalt der Münzen zu bezahlen.
+                  Nach der Unabhängigkeit von Spanien übernahm der mexikanische Dollar die Funktion seines spanischen Vorgängers als Zahlungsmittel auf den Philippinen und in China sowie im gesamten
+                  asiatischen Raum. Nach dem Ersten Weltkrieg wertete Mexiko den Silberdollar ab, sodass er seine internationale Bedeutung verlor. </note>
+               <bibl>Kahnt, Helmut; Knorr, Bernd: Alte Maße, Münzen und Gewichte. Ein Lexikon von Helmut Kahnt und Bernd Knorr, Mannheim 1986, S. 217.</bibl>
+               <bibl>Möring, Maria. Siemssen &amp; Co. Veröffentlichengen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg 33. Hamburg, 1971, S. 26.</bibl>
+               <bibl>Pond, Shepard: The Spanish Dollar. The World's Most Famous Silver Coin, in: Bulletin of the Business Historical Society 1 (1941), S. 12–16.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4576334-3</idno>
+            </item>
+            <item xml:id="K01509">
+               <term type="commercial">Real</term>
+               <note>Spanische Silbermünze. Der R. wurde bereits im 14. Jahrhundert in Spanien eingeführt. Seit der Einführung des Dezimalsystems in der spanischen Währung 1848 wurde der R. mit 100
+                  Centimos gerechnet. Seit der Einführung des Pesos waren 8 R. = 1 Peso. Wie der Peso, so wurde auch der R. in den süd- und mittelamerikanischen Kolonien Spaniens über die
+                  Unabhängigkeit hinaus anerkannt. </note>
+               <bibl>Kahnt, Helmut; Knorr, Bernd: Alte Maße, Münzen und Gewichte. Ein Lexikon von Helmut Kahnt und Bernd Knorr, Mannheim 1986, S. 246.</bibl>
+            </item>
+            <item xml:id="K01510">
+               <name type="ship">Nassau</name>
+               <note> 1837 gebaute dreimastige Fregatte von 466 Bruttoregistertonnen. Nur wenige Monate nach der Erwähnung in den Kniffler-Briefen, im Winter 1859, wurde es in Japan aus unbekannten
+                  Gründen beschlagnahmt und auf einer Auktion in Tokyo verkauft. Hiernach ist nichts bekannt. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=8790">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01511">
+               <term type="goods">Japanwachs</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01512">
+               <term type="measure">Gulden (f)</term>
+               <note>Ursprüngliche Bezeichnung für eine Goldmünze, später eine Rechnungseinheit für Währungen, international mit F abgekürzt. Die nächstkleinere Einheit war der Cent. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01513">
+               <name type="ship">A. R. Falck</name>
+               <note>Dreimastige Bark. 1846 von Cornelis Smit, Alblasserdam (Niederlande) gebaut. Bereits seit 1846 wurde sie wiederholt für den Verkehr zwischen den Niederlanden und Batavia
+                  eingesetzt. Die ersten Fahrten des Schiffes entsprachen nicht den kommerziellen Erwartungen der Schiffseigner, Boissevain &amp; Co., Amsterdam. Am 15. Juni 1868 wurde die F. an N.
+                  Brantjes, Purmerend (Niederlande) verkauft. </note>
+               <bibl source="http://www.marhisdata.nl/schip&amp;id=8405">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01514">
+               <term type="goods">Semen Cynae</term>
+               <note>Bezeichnung für das getrocknete Samen- und Blütenmaterial der Artemisia cina. Der in S. C. enthaltene medizinische Wirkstoff Santonin wurde zur Behandlung von Nervenleiden und bei
+                  Spulwurmbefall des Menschen eingesetzt. Wegen der hohen Toxizität kommt das Mittel beim Menschen heute nicht mehr zum Einsatz. </note>
+               <bibl>Mayer, Julius Robert: Ueber das Santonin, Heilbronn 1838, zugl. Diss. Univ. Tübingen 1838. </bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4386166-0</idno>
+            </item>
+            <item xml:id="K01515">
+               <term type="logistic">Konnossement</term>
+               <note> eng. Bill of Lading (B. / L.) Ein Frachtbrief, der die Ladung eines Schiffs dokumentiert. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4165052-9</idno>
+            </item>
+            <item xml:id="K01516">
+               <name type="ship">Schiller</name>
+               <note>Deutsche Brigg von 220 Bruttoregistertonnen, die unter niederländischer Flagge zwischen den verschiedenen Häfen Ostasiens fuhr. Nachdem zuvor schon Martin Gildemeister mit der
+                  Schiller von Hongkong nach Nagasaki gefahren war, erreichte auch Louis Kniffler pünktlich zur Öffnung des Hafens von Yokohama am 1. Juli 1859 Japan mit diesem Schiff. 1861 befand
+                  sich das Schiff im Besitz der Firma Pandel &amp; Stiehaus, die Kniffler jedoch mit dem Verkauf beauftragten, da der Unterhalt des Schiffes auf Dauer zu kostspielig geworden war. </note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 31-32, 276</bibl>
+            </item>
+            <item xml:id="K01517">
+               <term type="goods">Wachs</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4137154-9</idno>
+            </item>
+            <item xml:id="K01518">
+               <term type="commercial">Entrepôt</term>
+               <note>Zwischenlager</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01519">
+               <term type="goods">Taffachelass</term>
+               <note>Bunte Baumwollgewebe aus der Schweizer Region Toggenburg (St. Gallen). Taffachelassen machten in den 1860er Jahren den bedeutendsten Teil der Schweizer Exporte nach Japan aus. </note>
+               <bibl>Thomas Fischer: Toggenburger Buntweberei auf dem Weltmarkt, in: Schweizerisches Jahrbuch für Wirtschafts- und Sozialgeschichte 8, S. 183–205.</bibl>
+            </item>
+            <item xml:id="K01520">
+               <name type="ship">Princess Royal</name>
+               <note>Der Princess Royal als Schiff in Diensten des britischen Konsulats kam vor allem eine repräsentative Aufgabe zu. Regelmäßig wurden japanische Würdenträger an Bord eingeladen, um
+                  die militärische Macht Großbritanniens vor Augen geführt zu bekommen, bevor das Bakufu (Shogunat) diese Besuche verbot. Auf diese Weise gelang es unter anderem dem damaligen Konsul
+                  Harry Parkes im Jahre 1865, diplomatische und kommerzielle Interessen der britischen Vertretung gegenüber dem Gouverneur von Hakodate durchzusetzen. </note>
+               <bibl>Gordon Daniels: Sir Harry Parkes - British Representative in Japan 1865-1883, Richmond 1996, S. 38, 41-42, 44</bibl>
+            </item>
+            <item xml:id="K01521">
+               <term type="goods">Sojasoße</term>
+               <note>Von den chinesischen Häfen wurde Sojasoße vor allem in Richtung Indien und England verschifft. Im 19. Jahrhundert meist abgekürzt als "Soya" oder "Soy" bezeichnet.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4375343-7</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 168</bibl>
+            </item>
+            <item xml:id="K01522">
+               <term type="commercial">Britische Pfund (Währung; £)</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4174107-9</idno>
+            </item>
+            <item xml:id="K01523">
+               <term type="commercial">Rimesse</term>
+               <note>Wechsel, der dem Lieferanten gegen die Waren ausgestellt wird.</note>
+               <bibl source="https://www.gabler-banklexikon.de/definition/rimesse-61007/version-342293">Gabler Banklexikon</bibl>
+            </item>
+            <item xml:id="K01524">
+               <term type="goods">Seide</term>
+               <note>Seide war seit den Opiumkriegen ein beliebter Handelsgegenstand aus Ostasien. Vor allem aus China wurde Seide in großen Mengen exportiert. Mit der Qualität der europäischen
+                  Seidenerzeuger in Italien und Frankreich konnte aber vor allem die japanische Seide sehr lange nicht mithalten. In den frühen Jahren des Japanhandels machte Seide dennoch bis zu 80%
+                  des Exportvolumens aus und brachte hohe Gewinne für Händler. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4054289-0</idno>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 35</bibl>
+            </item>
+            <item xml:id="K01525">
+               <term type="currency">Tael, Tail, Thail</term>
+               <note>Chinesisches Silbergewicht, dessen Größe stark schwanken konnte. Auch als Zahlungsmittel verwendet.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01526">
+               <term type="goods">Medizin</term>
+               <note>Nicht näher bestimmte Medizin. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01527">
+               <term type="goods">Krapp</term>
+               <note>Färberpflanzen. Die Wurzeln enthalten den rotfärbenden Stoff Anzilin. Durch Beimischung von Salzen lassen sich Krapplacke herstellen zu denen auch der Farbstoff Türkisch Rot
+                  gehört. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4242177-9</idno>
+            </item>
+            <item xml:id="K01528">
+               <term type="goods">Tuch</term>
+               <note>Aus Wolle gefertigte Webwaren. Tuche waren in der frühen Zeit des Japanhandels wichtigste Importware. Durch die Verbindung zu den Tuchhändlern der Firma H. C. Bock in Hamburg
+                  konnte L. Kniffler &amp; Co. von der hohen Nachfrage in Japan profitieren. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4335100-1</idno>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 36-37</bibl>
+            </item>
+            <item xml:id="K01529">
+               <term type="commercial">Provenues</term>
+               <note>Erlöse, die ein Versicherer aus dem Verkauf von Gütern oder Sachwerten zieht, welche durch Begleichen des Schadensfalls zuvor in den Besitz des Versicherers übergegangen sind. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01530">
+               <name type="ship">Zwaluw</name>
+               <note>Niederländische Schooner-Brig (Brigantine). Die Zwaluw wurde zwischen 1849 und 1850 in der niederländischen Werft J.R. Boelen &amp; Zoonen, werf 't Fortuin, Amsterdam gebaut. Am
+                  27. Juni 1850 wurde die Z. an ihre ersten Besitzer, die Partenreederei Van Baggen &amp; Co., übergeben. Im Februar 1856 ging die Zwaluw in den Besitz der Partenreederei J. Rahder
+                  Hzn. über, in beiden Fällen war der Heimathafen Amsterdam. Mit dem erneuten Besitzerwechsel 1858 zur Partenreederei Haager &amp; Schuurmann wechselte der Heimathafen nach Batavia. In
+                  Batavia wurde die Zwaluw 1863 erneut verkauft. Am 08. Juli 1864 brach die Zwaluw unter ihrem neuen Kapitän zu einer Reise von Yokohama nach Hongkong auf und wird seitdem vermisst. </note>
+               <bibl source="https://www.marhisdata.nl/schip?id=9466">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01531">
+               <term type="goods">Campher</term>
+               <note>Harz, das im 19. Jahrhundert aus Kampferbäumen u.a. in Ostchina, auf Taiwan und Japan gewonnen und als Arzneimittel vielfältig verwendet wurde. Das Holz der Kampferbäume hingegen
+                  war wirtschaftlich eher unbedeutend. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4147225-1</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 162</bibl>
+            </item>
+            <item xml:id="K01532">
+               <term type="goods">Nashorn-Elfenbein</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01533">
+               <term type="logistic">Pakhuismeester</term>
+               <note>Ndl. Lagerverwalter. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01534">
+               <term type="commercial">Tratte</term>
+               <note>Wechsel </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4189324-4</idno>
+            </item>
+            <item xml:id="K01535">
+               <term type="commercial">Conto (a) metà</term>
+               <note>Für ein zeitlich oder auf eine Warenart beschränktes gemeinsames Geschäft mit einem Dritten eingerichtetes Konto in den Büchern. Gewinne und Verluste werden nach dem Abschluss des
+                  Geschäfts zur Hälfte geteilt. </note>
+               <bibl source="www.kruenitz1.uni-trier.de/xxx/c/kc01802.htm">Oekonomische Encyklopädie von J. G. Krünitz</bibl>
+            </item>
+            <item xml:id="K01536">
+               <term type="commercial">Memorial-Verweis</term>
+               <note>auch: Tagebuch, Prima Nota Vermutlich der Verweis auf die Doppelseite bzw. Folierung, auf der der Vorgang im Tagebuch / Memorial bei L. Kniffler &amp; Co. gebucht wurde. Beim
+                  Tagebuch oder Memorial handelt es sich um eines der Nebenbücher der Buchhaltung, dessen Führung relativ frei ist. Üblicherweise wurden die Seiten eines Memorials paginiert, nicht
+                  foliert. Dies scheint bei Kniffler anders gehandhabt worden zu sein. </note>
+               <bibl>Baum, Richard: Einfache, doppelte und amerikanische Buchführung. Mit Anhang Betriebsstatistik für Praxis und Selbstunterricht (Neue kaufmännische Bibliothek), 22. Aufl., Berlin
+                  1928.</bibl>
+            </item>
+            <item xml:id="K01537">
+               <term type="goods">Chinin</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4136724-8</idno>
+            </item>
+            <item xml:id="K01538">
+               <term type="logistic">Briefkopie</term>
+               <note>Die einliegende Briefkopie war eine im 19. Jahrhundert gängige Praxis der postalischen Kommunikation. Die oftmals mehrere Monate dauernde Unsicherheit über die Zustellung machte
+                  diese Praxis notwendig oder wenigstens ratsam. Durch die Übersendung der Kopie wurde sichergestellt, dass sich der Briefpartner auf dem gleichen Informationsstand befand wie der
+                  Absender, auch wenn ein Brief der Korrespondenz nicht zugestellt worden war. So wurde vermieden, dass der Briefpartner zunächst auf den Verlust des Briefes hinweisen musste, damit
+                  dieser dann erneut aufgegeben werden konnte und somit Wochen oder Monate verloren gingen, in denen ein Geschäft hätte abgeschlossen werden können.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01539">
+               <term type="logistic">Lossen</term>
+               <note> Niederländisch für "Löschen", Abladen eines Schiffes. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01540">
+               <name type="ship">Willem Eggerts</name>
+               <note>1854 in den Niederlanden erbaute Brig von 141 Lasten. Seit 1854 segelte die Willem Eggerts unter niederländischer Flagge. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=14645">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01541">
+               <term type="goods">Bienenwachs</term>
+               <note>In China war Bienenwachs als Einlegemittel für Medizin gefragt.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4006533-9</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S. 175</bibl>
+            </item>
+            <item xml:id="K01542">
+               <term type="measure">Tubbe</term>
+               <note> Hölzerner Kübel, auch hölzernes Waschfass. </note>
+               <bibl source="http://www.woerterbuchnetz.de/DWB?lemma=tubbe">Woerterbuchnetz.de</bibl>
+            </item>
+            <item xml:id="K01543">
+               <term type="measure">Britisches Pfund (Gewicht; ℔)</term>
+               <note>Britische Gewichtseinheit mit einem Gewicht von 453,59g pro Einheit. Das in der Schreibweise verwendete Librum-Zeichen, das mehr einem umschlängelten "U" gleicht, lässt sich in
+                  Unicode nicht darstellen, daher wird hier, auch für das preußische Pfund, "℔" verwendet. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01544">
+               <term type="goods">Surmé</term>
+               <note>Vermutlich eine Art von Kochzutat. Womöglich Pilze oder getrockneter Fisch, mit denen L. Kniffler &amp; Co. handelten (surume?).</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01545">
+               <term type="goods">Payong</term>
+               <note>Eine Art großer Sonnenschirm, der im frühen 19. Jahrhundert als Distinktionsmerkmal höherer Gesellschaftsschichten in Teilen Asiens fungierte. </note>
+               <bibl>Olivier, Johannes: Land- und Seereisen im Niederländischen Indien und einigen Britischen Niederlassungen, unternommen in dem Zeitraume von 1817 bis 1826, Weimar 1829, 342.</bibl>
+            </item>
+            <item xml:id="K01547">
+               <term type="goods">Lackwerk</term>
+               <note>Mit Lacken von Sumachbäumen gefertigte Waren aus China und Japan waren im 19. Jahrhundert in Europa hoch geschätztes Kunsthandwerk. Da Lackwerk aufgrund der aufwändigen
+                  Herstellungsverfahren nur zu hohen Preisen verfügbar war, ging seine wirtschaftliche Bedeutung hinter billiger hergestellten Luxus- und Dekoartikeln zurück. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 164</bibl>
+            </item>
+            <item xml:id="K01548">
+               <term type="measure">Packen</term>
+               <note>Nicht näher definiertes Bündel Waren.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01549">
+               <term type="goods">Tabak</term>
+               <note>Getrocknete und meist fermentierte Blätter der Nicotina.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4136670-0</idno>
+            </item>
+            <item xml:id="K01550">
+               <name type="ship">Tusnelda</name>
+               <note>Im Brief von Pandel &amp; Stiehhaus vom 15.12.1860 erwähnter Schiffsname.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01551">
+               <term type="goods">Betelnuss</term>
+               <note>Nussfrucht des auf Malaysia beheimateten Betelbaumes. Das Kauen der Nuss hat eine anregende Wirkung. Besonders wegen der färbenden Wirkung des Kauens der Betelnuss war diese
+                  Praxis den Europäern und Amerikanern sehr fremd. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S. 174</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4223395-1</idno>
+            </item>
+            <item xml:id="K01552">
+               <name type="ship">Ocean Queen</name>
+               <note>1868 in Glasgow gebautes Dampffrachtschiff, das sich ab November 1868 in Yokohama befand. Erlitt 1869 auf dem Weg von Niigata nach Hakodate Schiffbruch, wurde aber später
+                  geborgen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=9809">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01553">
+               <name type="ship">Marmora</name>
+               <note>Die Marmora war ein Schiff, das in Japan und China eingesetzt wurde. Kapitän war Anfang der 1860er Jahre ein gewisser Lyell. Außerhalb der Kniffler-Briefe ist sie in einem
+                  Zeitungsartikel von 1861 nachgewiesen, der von Schäden an der Ladung nach einem Unwetter berichtet.</note>
+               <bibl>The London and China telegraph. 1861 = Jg. 3/4 ## 27.08.1861</bibl>
+            </item>
+            <item xml:id="K01554">
+               <name type="ship">Heroes of Alma</name>
+               <note>Von der Firma Cowes gebautes Schiff mit Heimathafen London. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1866, S. 51.</bibl>
+            </item>
+            <item xml:id="K01555">
+               <term type="goods">Seife</term>
+               <note>Mittel zur Körperreinigung, dass spätestens seit den 1830er Jahren zur Cholera-Vorbeugung in den meisten bürgerlichen Haushalten vorhanden war. </note>
+               <bibl>Manuel Frey: Der reinliche Bürger. Entstehung und VErbreitung bürgerlicher Tugenden in Deutschland 1760-1860, Göttingen 1997, S. 266.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4126815-5</idno>
+            </item>
+            <item xml:id="K01556">
+               <term type="goods">Genever</term>
+               <note>Branntwein aus Wacholderbeeren. Der Schnaps war besonders unter den in Japan ansässigen Niederländern und Deutschen beliebt und wurde Tag und Nacht reichlich verzehrt, wodurch
+                  nicht wenige dem Alkoholismus verfielen. </note>
+               <bibl>Johann Carl Leuchs: Liköre, Punsch, Arak, Cardinal, Bischoff, Cognac, Rum, Limonade, Burgunder-Essig und feine Weine : Nach den neuesten Vorschriften aus J. C. Leuchs Haus- und
+                  Fabrikschaz mit einigen Verbesserungen, 1860, S. 42-43. </bibl>
+               <bibl>Adolf Mensing: An Bord der Gazelle nach Yokohama, Rostock 2000, S. 119</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4518019-2</idno>
+            </item>
+            <item xml:id="K01557">
+               <term type="goods">Eisen</term>
+               <note>Vorverarbeitetes Eisen war das im Asienhandel wirtschaftlich bedeutendste Metall. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S.183</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4014002-7</idno>
+            </item>
+            <item xml:id="K01558">
+               <term type="measure">Tonne</term>
+               <note> 1000 Kilogramm. Vielleicht nicht damals. Aber heute. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01559">
+               <term type="goods">Baumwolle</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4136931-2</idno>
+            </item>
+            <item xml:id="K01560">
+               <term type="goods">Tsatlee</term>
+               <note>Bezeichnung für chinesische Seide von hoher Qualität, die am Markt sehr erfolgreich und in Europa sehr gefragt war. </note>
+               <bibl>Fr. Wolff: Handelsberichte der kaufmännischen Begleiter der Ostasiatischen Expedition, Berlin 1861, S. 45</bibl>
+            </item>
+            <item xml:id="K01561">
+               <term type="goods">Red Peacock</term>
+               <note>Bezeichnung einer Sorte chinesischer Seide. </note>
+               <bibl>Wiener Volkswirthschaftliche Zeitung - Handels-Courier für den Orient vom 30. Oktober 1872, S. 3</bibl>
+            </item>
+            <item xml:id="K01562">
+               <term type="goods">Grèges</term>
+               <note>Bezeichnung einer Art von Seidenfäden. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 59</bibl>
+            </item>
+            <item xml:id="K01563">
+               <term type="goods">Upland-Baumwolle</term>
+               <note>Marktwirtschaftlich bedeutende Baumwollsorte, die ursprünglich aus Nordamerika stammte und zum Zweck der Standardisierung weltweit gezüchtet wurde. </note>
+               <bibl>August Schiebe: Universal-Lexikon der Handelswissenschaften, Zwickau 1837.</bibl>
+               <bibl>Sven Beckert: King Cotton. Eine Globalgeschichte des Kapitalismus, München 2014, S. 302.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4454913-1</idno>
+            </item>
+            <item xml:id="K01564">
+               <term type="goods">Sinchew</term>
+               <note>Bezeichnung für einen Seidentyp aus Südostasien. </note>
+               <bibl>Philipp Nemnich: Neues Waaren-Lexikon in zwölf Sprachen, Zweiter Band, Hamburg 1821, S. 803</bibl>
+            </item>
+            <item xml:id="K01565">
+               <term type="goods">Maybash</term>
+               <note>Bezeichnung für Seide aus dem japanischen Ort Maebashi. </note>
+               <bibl>Henri Silbermann: Die Seide - Ihre Geschichte, Gewinnung und Verarbeitung, Dresden 1897.</bibl>
+            </item>
+            <item xml:id="K01566">
+               <term type="goods">Satin</term>
+               <note>Ein Stoff mit glatter Oberfläche. </note>
+               <bibl>Brenda M. King: Silk and Empire, Oxford 2005, S. xiv.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4143311-7</idno>
+            </item>
+            <item xml:id="K01567">
+               <term type="goods">Velvet</term>
+               <note>Samtener Stoff aus Baumwolle. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 127</bibl>
+            </item>
+            <item xml:id="K01568">
+               <term type="goods">Twist</term>
+               <note>Gezwirnte Seide. </note>
+               <bibl>Philipp Nemnich: Neues Waaren-Lexikon in zwölf Sprachen, Zweiter Band, Hamburg 1821, S. 583</bibl>
+            </item>
+            <item xml:id="K01569">
+               <term type="goods">Shirtings</term>
+               <note>Hemdleinen. Besonders häufig in grauer Farbe gehandelt. </note>
+               <bibl>Philipp Nemnich: Neues Waaren-Lexikon in zwölf Sprachen, Zweiter Band, Hamburg 1821, S. 602.</bibl>
+            </item>
+            <item xml:id="K01570">
+               <term type="commercial">Manchester Goods, Manchester</term>
+               <note>Sammelbezeichnung eigentlich für in Manchester (GB) gefertigte Waren, womit jedoch zumeist Baumwollwaren gemeint waren. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01571">
+               <term type="goods">Tee</term>
+               <note>Tee war seit Beginn des 19. Jahrhunderts vor allem in Großbritannien eine der beliebtesten und umsatzstärksten Importwaren aus China. </note>
+               <bibl>Peter Rohrsen: Der Tee - Anbau, Sorten, Geschichte, München 2013.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4059283-2</idno>
+            </item>
+            <item xml:id="K01572">
+               <term type="logistic">Ballen</term>
+               <note>Nicht näher bestimmte Anhäufung von Stoffwaren, die zum Transport in runder oder eckiger Form zusammengebunden wird. </note>
+               <bibl>Carl Courtin: Allgemeiner Schlüssel zur kaufmännischen Terminologie, Stuttgart 1834, S. 82-83</bibl>
+            </item>
+            <item xml:id="K01573">
+               <name type="ship">Empress</name>
+               <note>Name mindestens dreier Handelsschiffe, die im Jahre 1869 in Großbritannien verkehrten. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1869, S. 65</bibl>
+            </item>
+            <item xml:id="K01574">
+               <term type="commercial">Factura</term>
+               <note>Rechnung über Versandwaren. "Facturirt" bezeichnet demnach, dass die jeweiligen Waren und Einzelheiten dazu auf einer Rechnung notiert wurden. </note>
+               <bibl>Heinrich Tecklenborg: Handlexikon für Rheder, Versicherer und Schiffscapitaine, Bremen 1863, S. 156-158</bibl>
+            </item>
+            <item xml:id="K01575">
+               <name type="ship">Kathleen</name>
+               <note>Dampfschiff mit Heimathafen Hongkong. </note>
+               <bibl source="http://www.crewlist.org.uk/data/vesselsnum/50688">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01576">
+               <term type="commercial">Itzebue, Isboe</term>
+               <note>Vom jap. Ausdruck Ichibugin abgeleitete Bezeichnung für eine japanische längliche Silbermünze des mittleren 19. Jahrhunderts. Ein Ichibugin entspricht dem Wert eines Viertel Mon.
+                  Der Ichibugin war für die ausländischen Händler insofern von Bedeutung, als dass in Japan eingeführte Fremdwährung umgehend in den Zollhäusern der Vertragshäfen in japanisches Geld
+                  umgetauscht werden musste. </note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 34</bibl>
+            </item>
+            <item xml:id="K01577">
+               <term type="commercial">Chemise</term>
+               <note>Frz. für Hemd. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01578">
+               <name type="ship">Leandro</name>
+               <note>Dampfschiff, erwähnt im Brief von 9.2.1869</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01579">
+               <term type="measure">Chest</term>
+               <note>Einheit, mit der Teeladungen gezählt wurden.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01580">
+               <term type="goods">Oolong-Tee</term>
+               <note>Teesorte aus teilfermentierten Teeblättern. </note>
+               <bibl>Peter Rohrsen: Der Tee - Anbau, Sorten, Geschichte, München 2013, S. 24-25</bibl>
+            </item>
+            <item xml:id="K01581">
+               <name type="ship">Scrawfell</name>
+               <note>Im Brief vom 5.12.1868 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01582">
+               <term type="goods">Sake</term>
+               <note>jap. Reiswein</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01583">
+               <term type="commercial">Au courant (sein)</term>
+               <note>Dt. "auf dem Laufenden sein" </note>
+               <bibl>Carl Courtin: Allgemeiner Schlüssel zur kaufmännischen Terminologie, Stuttgart 1834, S. 198-199</bibl>
+            </item>
+            <item xml:id="K01584">
+               <term type="logistic" ref="http://d-nb.info/gnd/4737909-1">Konsignation</term>
+               <note>Bezeichnung für eine Ware, die einem Lieferanten (üblicherweise per Schiff) zum späteren Verkauf übergeben wird. </note>
+               <bibl>August Schiebe: Universal-Lexikon der Handelswissenschaften, Leipzig 1837, 366.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4737909-1</idno>
+            </item>
+            <item xml:id="K01585">
+               <term type="logistic">Kelder</term>
+               <note>Kurzform von niederl. Kelderflesschen, einer viereckigen Flaschenform. </note>
+               <bibl>Philipp Nemnich: Neues Waaren-Lexikon in zwölf Sprachen, Zweiter Band, Hamburg 1821, S. 881</bibl>
+            </item>
+            <item xml:id="K01586">
+               <name type="ship">Professor Suringar</name>
+               <note>1857 in Amsterdam gebautes Frachtsegelschiff von 282 Bruttoregistertonnen. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=15299">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01587">
+               <term type="commercial">Assecuranz</term>
+               <note>Versicherung </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01588">
+               <name type="ship">Nippon</name>
+               <note>Erwähnt im Brief von W. Brummer vom 25.2.1869 </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01589">
+               <term type="goods">Cassia lignea</term>
+               <note>Eine Gewürzrinde mit starker Ähnlichkeit zum Zimt. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">7525111-5</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865</bibl>
+            </item>
+            <item xml:id="K01590">
+               <term type="goods">Rhabarber</term>
+               <note>Getrockneter Rhabarber für medizinische Zwecke wurde im 19. Jahrhundert von China und Sibirien nach Europa importiert.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4177974-5</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 167</bibl>
+            </item>
+            <item xml:id="K01591">
+               <term type="goods">Gewürzöle</term>
+               <note>Öle verschiedener Gewürze wie Zimt, Sternanis etc. erfreuten sich im 19. Jahrhundert großer Beliebtheit als Zutaten für z.B. Backwaren oder Parfüms. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 169</bibl>
+            </item>
+            <item xml:id="K01592">
+               <term type="goods">Anis</term>
+               <note>Gewürzpflanze, gelegentlich zu Öl verarbeitet. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4142493-1</idno>
+            </item>
+            <item xml:id="K01593">
+               <term type="commercial">Lot</term>
+               <note>Grundstück </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01594">
+               <term type="goods">Camlet</term>
+               <note>Gewobener, glatter Stoff. </note>
+               <bibl>August Schiebe: Universal-Lexikon der Handelswissenschaften, Leipzig 1837, S. 261</bibl>
+            </item>
+            <item xml:id="K01595">
+               <name type="ship">Denis</name>
+               <note>Bark mit Heimathafen Bordeaux. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1873, S. 65.</bibl>
+            </item>
+            <item xml:id="K01596">
+               <name type="ship">Albert Victor</name>
+               <note>1864 in Schleswig gebautes Schiff, sank 1877 vor Australien. </note>
+               <bibl source="http://museum.wa.gov.au/maritime-archaeology-db/wrecks/id-460">Western Australian Museum Shipwreck Database</bibl>
+            </item>
+            <item xml:id="K01597">
+               <name type="ship">Saturnus</name>
+               <note>Schiff mit Heimathafen Hamburg. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1869, S. 175.</bibl>
+            </item>
+            <item xml:id="K01598">
+               <term type="logistic">Tonnage</term>
+               <note>Last in Tonnen, die ein Schiff transportieren kann. </note>
+               <bibl>John MacCulloch: Handbuch für Kaufleute, Stuttgart 1837, S. 1184-1185</bibl>
+            </item>
+            <item xml:id="K01599">
+               <term type="measure">Fuß</term>
+               <note>Längeneinheit des 19. Jahrhunderts. Die Fuß-Maße in Deutschland waren nicht genormt und betrugen, je nach Region, zwischen 25,00 (in Hessen) und 31,39 (in Preußen) cm. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4577267-8</idno>
+               <bibl>Trapp &amp; Wallerus: Handbuch der Maße, Zahlen, Gewichte und der Zeitrechnung, Stuttgart 2012, S. 253-254</bibl>
+            </item>
+            <item xml:id="K01600">
+               <term type="goods">Zigarren</term>
+               <note>Zigarren waren im 19. Jahrhundert vor der Erfindung der Zigarette neben Schnupftabak die gängigste Art des Nikotinkonsums. Importierte Zigarren aus Amerika spielten in Deutschland
+                  eine wichtige Rolle, da der Geschmack der Blätter populärer bei Konsumenten war, als der einheimischer, denen ein unangenehmer Geruch nachgesagt wurde. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4222406-8</idno>
+               <bibl>John MacCulloch: Handbuch für Kaufleute, Stuttgart 1837, S. 1143-1144</bibl>
+            </item>
+            <item xml:id="K01601">
+               <term type="logistic">Godown</term>
+               <note>Unterirdisches Warenlager. Von Handelsfirmen in entsprechenden Anbaugebieten wurde Lagerfläche an Reisbauern verpachtet, die im eigenen Haus oft nicht über ausreichend Platz
+                  verfügten. </note>
+               <bibl>Norman G. Owen: The Rice Industry of Mainland South East Asia, 1850-1914. In: Journal of The Siam Society 59, S. 115</bibl>
+            </item>
+            <item xml:id="K01602">
+               <term type="commercial">Nibus, Niboos</term>
+               <note>Goldmünze, Abkürzung des jap. Ausdrucks "nibukin". Nibukin waren bis zur Währungsreform 1869 im Umlauf. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01603">
+               <name type="ship">Vulcan</name>
+               <note>1864 in Glasgow gebautes Dampfschiff, das sich ab 1868 zunächst in Besitz der Truppen des Tokugawa-Shogunats befand und vermutlich 1869, womöglich mit Beteiligung der Firma
+                  Kniffler &amp; Co., in den Besitz der kaiserlichen japanischen Armee überging. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=9975">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01604">
+               <term type="goods">Comblain Rifles</term>
+               <note>In den 1860er Jahren in Europa verbreitetes Gewehr.</note>
+               <bibl>W. W. Greener: Modern Breech Loaders, London 1870, S. 214</bibl>
+            </item>
+            <item xml:id="K01605">
+               <term type="goods">Enfield</term>
+               <note>Sammelbezeichnung für Schusswaffen, die in der seit 1815 von der britischen Regierung betriebenen Waffenfabrik im Londoner Stadtteil Enfield gefertigt wurden. </note>
+               <bibl>David Pam: The Royal Small Arms Factory Enfield &amp; Its Workers, Enfield 1998</bibl>
+            </item>
+            <item xml:id="K01606">
+               <term type="commercial">Promissory note</term>
+               <note>Eigenwechsel. Der Aussteller einer solchen Zahlungsanweisung verpflichtet sich selbst zur Überweisung einer Zahlung an einen Empfänger. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4373370-0</idno>
+            </item>
+            <item xml:id="K01607">
+               <term type="goods">Sohlleder</term>
+               <note>Verarbeitetes Leder für Schuhsohlen. Im 19. Jahrhundert galt besonders Sohlleder aus England und Belgien als hochwertig. </note>
+               <bibl>John MacCulloch: Handbuch für Kaufleute, Stuttgart 1837, S. 623</bibl>
+            </item>
+            <item xml:id="K01608">
+               <term type="goods">Musketen</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4493678-3</idno>
+            </item>
+            <item xml:id="K01609">
+               <name type="ship">Passa</name>
+               <note>Im Brief vom 5.5.1870 erwähnter Schiffsname. Kapitän war I. Piening. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01610">
+               <name type="ship">Tapanguyo</name>
+               <note>Schiff, das u.a. zwischen verschiedenen chinesischen Hafenstädten und Japan verkehrte. </note>
+               <bibl>Accounts and Papers of the House of Commons, Band 71, London 1866</bibl>
+            </item>
+            <item xml:id="K01611">
+               <term type="commercial">Zinsfuß</term>
+               <note>Veralteter Ausdruck für Zinssatz. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4190927-6</idno>
+            </item>
+            <item xml:id="K01612">
+               <name type="ship">Ariel</name>
+               <note>Dampfschiff der Pacific Mail Steamship Co., das auch 1867 und 1869 bereits in Hakodate anlegte. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871, S. 4</bibl>
+               <bibl source="http://archives.c.fun.ac.jp/hakodateshishi/tsuusetsu_02/shishi_04-07/shishi_04-07-01-01-02.htm">Stadtgeschichte von Hakodate online (函館市史通説編第2巻)</bibl>
+            </item>
+            <item xml:id="K01613">
+               <name type="ship">Parwan</name>
+               <note>Im Brief vom 29.9.1870 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01614">
+               <term type="goods">Bier</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4006537-6</idno>
+            </item>
+            <item xml:id="K01615">
+               <name type="ship">Yangtze</name>
+               <note>1863 in Aberdeen als Schiff für den britischen Teehandel gebaut. </note>
+               <bibl>William Armstrong Fairburn: Merchant Sail Vol. 4, Maine 1945-1955, S. 2208</bibl>
+            </item>
+            <item xml:id="K01616">
+               <term type="goods">Instrumente</term>
+               <note>Nicht näher bezeichnet. Es könnten Mess- oder Musikinstrumente gemeint sein. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01617">
+               <term type="commercial">Portefeuille</term>
+               <note>Eine Brief- oder Aktentasche, in der Kaufleute Geschäftsdokumente aufbewahrten. </note>
+               <bibl>Carl Courtin: Allgemeiner Schlüssel zur kaufmännischen Terminologie, Stuttgart 1834, S. 565</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4671756-0</idno>
+            </item>
+            <item xml:id="K01618">
+               <term type="goods">Narwalzähne</term>
+               <note>Narwalzähne wurden in Japan als Heilmittel angesehen. Niederländische Händler erzielten seit dem späten 18. Jahrhundert hohe Preise damit. </note>
+               <bibl>August Schiebe: Universal-Lexikon der Handelswissenschaften, Leipzig 1837, S. 471.</bibl>
+               <bibl>Daniel Trambaiolo: Writing, Authority and Practice in Tokugawa Medicine, 1650–1850. Diss. Princeton 2014, S. 241</bibl>
+            </item>
+            <item xml:id="K01619">
+               <name type="ship">Albatross</name>
+               <note>Erwähnung im Brief vom 4.10.1870. Beliebter Name für zahlreiche Schiffe, daher genaue Zuordnung unmöglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01620">
+               <term type="goods">Garn</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4019278-7</idno>
+            </item>
+            <item xml:id="K01621">
+               <name type="ship">Lord of the Isles</name>
+               <note>1870 in Govan/Schottland gebautes Dampfschiff, das im China- und Japanhandel eingesetzt wurde. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=18540">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01622">
+               <name type="ship">Acantha</name>
+               <note>1870 in Glasgow gebautes Dampfschiff, das ab 1871 in verschiedenen Häfen Asiens registriert war. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=10739">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01623">
+               <name type="ship">Excillia</name>
+               <note>Erwähnung im Brief vom 4.10.1870. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01624">
+               <name type="ship">Massilia</name>
+               <note>Dampfschiff der Peninsular " Oriental Steam Navigation Company. 1885 Umbau für militärische Zwecke infolge einer diplomatischen Krise zwischen den Kolonialmächten Großbritannien
+                  und Russland um Hoheitsansprüche in Zentralasien. </note>
+               <bibl>Boyd Cable: A Hundred Year History of the P. &amp; O., London 1937, S. 196</bibl>
+            </item>
+            <item xml:id="K01625">
+               <name type="ship">Bengal</name>
+               <note>1853 in Glasgow gebautes Dampfschiff der Peninsular " Oriental Steam Navigation Company. Im Juli 1870 wurde es an die London &amp; Steam Ship Company verkauft. 1885 vor Java
+                  zerstört. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=22554">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01626">
+               <name type="ship">Lothair</name>
+               <note>Erwähnung im Brief vom 4.10.1870. Beliebter Name für mehrerere Schiffe, daher genaue Zuordnung nicht möglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01627">
+               <name type="ship">Diomed</name>
+               <note>Dampfschiff mit Heimathafen Liverpool. Die Diomed befand sich in Besitz der Ocean Steam Ship Company und wurde im Teehandel zwischen China und England eingesetzt. </note>
+               <bibl source="http://www.crewlist.org.uk/data/vesselsnum/60046">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01628">
+               <term type="goods">Musselin</term>
+               <note>Leichter, meist bedruckter Baumwollstoff. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 88</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4436305-9</idno>
+            </item>
+            <item xml:id="K01629">
+               <term type="goods">Orléans</term>
+               <note>Webstoff aus Baumwolle und tierischer Wolle. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 93</bibl>
+            </item>
+            <item xml:id="K01630">
+               <term type="goods">Stiefeletten</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01631">
+               <name type="ship">Achilles</name>
+               <note>1866 in Greenock (GB) gebautes Dampffrachtschiff von 2362 Bruttoregistertonnen. Die Achilles in Diensten der Ocean Steam Ship Company galt als Vorzeigeschiff im Teehandel und
+                  hielt 1869 den Rekord für die schnellste Überfahrt von China nach England mit 61 Tagen. Diese teilweise in Form von "Tea races" genannten Wettrennen veranstalteten brachten zu jeder
+                  Jahreszeit Millionen Tonnen Tees von Asien nach England. </note>
+               <bibl>Crosbie Smith: Coal, Steam and Ships, Cambridge 2018, S. 342.</bibl>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=9289">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01632">
+               <name type="ship">Nestor</name>
+               <note>1868 gebautes Dampfschiff mit Heimathafen Liverpool. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/60078?data/vesselsnum/60078">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01633">
+               <term type="goods">Indigo</term>
+               <note>Stoff zur Blaufärbung von Baumwolle und Wolle. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4161503-7</idno>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 66</bibl>
+            </item>
+            <item xml:id="K01634">
+               <term type="goods">Marmor</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4168954-9</idno>
+            </item>
+            <item xml:id="K01635">
+               <term type="goods">Agar</term>
+               <note>Geliermittel, das sowohl in der Speisenzubereitung, als auch in der Papier- und Seidenindustrie Verwendung fand. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 172</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4260097-2</idno>
+            </item>
+            <item xml:id="K01636">
+               <term type="goods">Zucker</term>
+               <note> Zucker wurde in Japan seit Beginn der Meiji-Zeit im Zuge der Popularisierung europäischer Konsumgewohnheiten wie z.B. der Teepause mit dazugehörigen Süßigkeiten vermehrt
+                  nachgefragt. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4067990-1</idno>
+               <bibl>Barak Kushner: Sweetness Empire - Sugar Consumption in Imperial Japan. In: The Historical Consumer, New York 2012, S. 127-150</bibl>
+            </item>
+            <item xml:id="K01637">
+               <term type="commercial">Yashiki</term>
+               <note>Dt. "Anwesen"</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01638">
+               <term type="goods">Gewehre, Rifles</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4020851-5</idno>
+            </item>
+            <item xml:id="K01639">
+               <term type="goods">Munition</term>
+               <note>Nicht näher bezeichnete Munition für Schusswaffen. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4170760-6</idno>
+            </item>
+            <item xml:id="K01640">
+               <name type="ship">Oberon</name>
+               <note>Schiff mit Heimathafen Liverpool </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871, S. 87</bibl>
+            </item>
+            <item xml:id="K01641">
+               <term type="goods">Champagner</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4140686-2</idno>
+            </item>
+            <item xml:id="K01642">
+               <term type="goods">Wein</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4065133-2</idno>
+            </item>
+            <item xml:id="K01643">
+               <name type="ship">Glaucus</name>
+               <note>1871 gebautes Schiff mit Heimathafen Liverpool. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=2503">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01644">
+               <term type="logistic">Bouteille</term>
+               <note>Weinflasche </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01645">
+               <term type="commercial">Bonifikation</term>
+               <note>Preisnachlass für Waren </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01646">
+               <term type="commercial">Franc</term>
+               <note>Französische Währung. Nächstkleinere Einheit war Centime. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4193272-9</idno>
+            </item>
+            <item xml:id="K01647">
+               <name type="ship">Atalanta</name>
+               <note>1872 gebautes Dampfschiff im Japanhandel mit Heimathafen Hamburg. </note>
+               <bibl source="http://www.teesbuiltships.co.uk/view.php?ref=165786">Tees Built Ships</bibl>
+            </item>
+            <item xml:id="K01648">
+               <name type="ship">Indus</name>
+               <note>1871 gebautes Dampfschiff der Peninsular &amp; Oriental Steam Navigation Company mit Heimathafen London.</note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=14715">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01649">
+               <term type="goods">Wollwaren</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01650">
+               <term type="goods">Minon Cloth</term>
+               <note>Stoffsorte, die im Brief vom 3.7.1872 erwähnt wird.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01651">
+               <term type="measure">Elle</term>
+               <note>Längenmaß v.a. im deutschen Sprachraum. Betrug im 19. Jahrhundert zwischen 66,77 cm (in Bayern) und 77.92 cm (in Wien). </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4152023-3</idno>
+            </item>
+            <item xml:id="K01652">
+               <term type="commercial">A vista</term>
+               <note>Span. für "auf Sicht", d.h. Wechsel, der bei Vorlage bezahlt werden muss. </note>
+               <bibl>Heinrich Tecklenborg: Handlexikon für Rheder, Versicherer und Schiffscapitaine, Bremen 1863, S. 426</bibl>
+            </item>
+            <item xml:id="K01653">
+               <term type="commercial">Silbergroschen</term>
+               <note>Bis ins späte 19. Jahrhundert im deutschen Sprachraum gebrauchte Münze.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01654">
+               <term type="goods">Champignons</term>
+               <note>Pilze wurden in getrockneter Form (als sog. Chowchow-Artikel) von Japan nach China verschifft, um dort in der Lebensmittelherstellung eingesetzt zu werden. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4147556-2</idno>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 278</bibl>
+            </item>
+            <item xml:id="K01655">
+               <term type="goods">Besen</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4354672-9</idno>
+            </item>
+            <item xml:id="K01656">
+               <term type="measure">Catty, Cattie, Kätti</term>
+               <note>Asiatische Gewichtseinheit. 100 Catty entsprachen einem Picul, dementsprechend hatte ein Catty ein Gewicht von etwa 600 Gramm. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01657">
+               <term type="goods">Baumwachs</term>
+               <note>Gemisch aus Bienen- und Pflanzenwachs. Die Vorsilbe "Baum-" beschreibt den Verwendungszweck: Auch als "Impfwachs" bezeichnet, diente es dem Schutz vor Schädlingsbefall bei Bäumen. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01658">
+               <term type="goods">Teebretter</term>
+               <note>Tabletts zum servieren von Tee. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01659">
+               <term type="goods">Löffeldose</term>
+               <note>Dose zur Aufbewahrung von Kaffee- und Teelöffeln. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01660">
+               <term type="goods">Teedose</term>
+               <note>Dose zur Aufbewahrung von losen Teeblättern. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4404598-0</idno>
+            </item>
+
+            <item xml:id="K01661">
+               <term type="goods">Steinzeug</term>
+               <note>Hochwertiges, wasserfestes Material aus gebranntem Ton. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4183075-1</idno>
+            </item>
+
+            <item xml:id="K01662">
+               <term type="goods">Waschgestell</term>
+               <note>Konstruktion, auf der eine Waschschüssel und Artikel für die Körperhygiene abgelegt werden. </note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01663">
+               <term type="goods">Crêpe, Krepp</term>
+               <note>Oberbegriff für gewebte Stoffe mit "krausem, körnigem, genarbtem oder sandigem Aussehen und Griff". Crêpegewebe selbst werden noch einmal unterteilt in zahlreiche verschiedene
+                  Stile, die jeweils durch verschiedene Webtechniken erzeugt werden. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 32</bibl>
+            </item>
+
+            <item xml:id="K01664">
+               <term type="goods">Porzellan</term>
+               <note>Einst zu hohen Preisen gehandelte, aus China importierte Luxusware, verlor Porzellan im 19. Jahrhundert durch zunehmende Fertigung europäischer Imitationen stark an Wert, erfreute
+                  sich aber immer größerer Beliebtheit. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4046851-3</idno>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 157</bibl>
+            </item>
+
+            <item xml:id="K01665">
+               <term type="goods">Nähtische</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1107071356</idno>
+            </item>
+
+            <item xml:id="K01666">
+               <term type="goods">Zigarrenbecher</term>
+               <note>Schatullen zur Aufbewahrung von Zigarren.</note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01667">
+               <term type="goods">Gallnüsse, Pflanzengalle</term>
+               <note>In Asien vorkommende Pflanzengalle, die aufgrund ihres hohen Tanningehalts für die Färbung von Stoffen benutzt wird. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4155837-6</idno>
+            </item>
+
+            <item xml:id="K01668">
+               <name type="ship">Syrian</name>
+               <note>In mehreren Briefen erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01669">
+               <name type="ship">Princess Charlotte</name>
+               <note>In mehereren Briefen von Pandel &amp; Stiehaus erwähnter Schiffsname. Häufiger Name für Schiffe, weshalb eine eindeutige Zuordnung nicht möglich ist. </note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01670">
+               <term type="goods">Kebaya</term>
+               <note>Traditionelles indonesisches Kleidungsstück. </note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01671">
+               <name type="ship">Martha &amp; Emily</name>
+               <note>1858 gebaute englische Brigg. 1863 erlitt sie Schiffbruch vor Taiwan. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/20570?data/vesselsnum/20570">Crewlist Index Project</bibl>
+            </item>
+
+            <item xml:id="K01672">
+               <name type="ship">Gouverneur van Swieten</name>
+               <note>1857 gebaute niederländische Brigg mit Heimathafen Rotterdam. Auchals "Gouverneur van Sureten" registriert, vermutlich auf Grund eines Lesefehlers. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=15328">Maritiem-Historische Databank</bibl>
+            </item>
+
+            <item xml:id="K01673">
+               <term type="commercial">Contante</term>
+               <note>Ital. für Bargeld. </note>
+               <bibl/>
+            </item>
+
+            <item xml:id="K01674">
+               <term type="goods">Chowchow-Artikel</term>
+               <note>Getrocknete Pilze und Meeresfrüchte, die aufgrund ihrer Beliebtheit in der chinesischen Küche von Japan nach China exportiert wurden. Der Handel mit Chowchow-Artikeln reicht
+                  bereits zurück bis in die Zeit vor der Ankunft europäischer Händler in Japan. </note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 278</bibl>
+            </item>
+
+            <item xml:id="K01675">
+               <term type="goods">Seetang</term>
+               <note>Essbarer Seetang. Gemeint ist die in Japan als Konbu (bot. Saccharina japonica) bekannte lange Art, die den größten Anteil am zum Verzehr gebrauchten Seetang ausmacht. Der in den
+                  Briefen erwähnte Seetang aus Hokkaidô im Norden Japans galt als besonders hochwertig, erfreute sich großer Beliebtheit in der chinesischen Küche und wurde bereits seit dem
+                  ausgehenden 18. Jahrhundert von Nagasaki aus in Richtung China exportiert. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4202114-5</idno>
+               <bibl>Akira Shimizu: Eating Edo, Sensing Japan, Urban 2011, S. 81</bibl>
+            </item>
+            <item xml:id="K01676">
+               <name type="ship">Spray</name>
+               <note>Im Brief vom 4.2.1862 erwähnter Schiffsname. Zwischen 1861 und 1862 sind Fahrten einer gleichnamigen australischen Brigg zwischen Australien und Indonesien nachgewiesen,
+                  wahrscheinlich handelt es sich um dasselbe Schiff. </note>
+               <bibl source="http://marinersandships.com.au/1861/11/023spr.htm">Mariners and Ships in Australian Waters [1]</bibl>
+               <bibl source="http://marinersandships.com.au/1862/04/029spr.htm">Mariners and Ships in Australian Waters [2]</bibl>
+            </item>
+
+            <item xml:id="K01677">
+               <name type="ship">Horatio</name>
+               <note>Seit den 1830er Jahren im Chinahandel eingesetztes amerikanisches Schiff. </note>
+               <bibl>Arthur H. Clark: The Clipper Ship Era, New York 1910, S. 141</bibl>
+            </item>
+            <item xml:id="K01678">
+               <term type="goods">Holzkohle</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4126285-2</idno>
+            </item>
+            <item xml:id="K01679">
+               <name type="ship">Baron Forstner van Dambenoy</name>
+               <note>1858 gebaute niederländische Bark. 1864 in "Yokohama", 1868 in "Singapur" umbenannt. Seit dem Aufbruch von Saigon nach Hongkong am 23. März 1872 verschollen. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=17025">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01680">
+               <name type="ship">Eliza and Mary</name>
+               <note>Name zahlreicher Schiffe des 19. Jahrhunderts, sodass eine genaue Zuordnung nicht möglich ist. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01681">
+               <term type="goods">Schwefel</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4180380-2</idno>
+            </item>
+            <item xml:id="K01682">
+               <term type="goods">Salpeter</term>
+               <note>Im späten 19. Jahrhundert wurde Salpeter für die Produktion von Schießpulver zum Großteil aus Guano aus Südamerika gewonnen.Dies führte dazu, dass zu dieser Zeit in den
+                  chinesischen Vertragshäfen lediglich in geringen Mengen gehandelt werden, um einer massenhaften Vresorgung der ausländischen Bewohner mit Schießpulver vorzubeugen. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 S.188 </bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4412203-2</idno>
+            </item>
+            <item xml:id="K01683">
+               <term type="logistic">Contrebandegüter</term>
+               <note>Güter, auf die in einem bestimmten Gebiet ein Verbot sowohl auf Import als auch auf Export besteht. </note>
+               <bibl>August Schiebe: Universal-Lexikon der Handelswissenschaften, Leipzig 1837, S. 380.</bibl>
+            </item>
+            <item xml:id="K01684">
+               <name type="ship">Theodosius</name>
+               <note>In mehreren Briefen von Bourjau, Hubener &amp; Co. erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01685">
+               <term type="goods">Cuttlefish</term>
+               <note>Tintenfisch </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4239844-7</idno>
+            </item>
+            <item xml:id="K01686">
+               <name type="ship">Copernicus</name>
+               <note>1854 gebaute Brigg mit Heimathafen Rotterdam von 392 Bruttoregistertonnen. Unter anderem sind Fahrten zwischen Hamburg und Indonesien nachgewiesen. Bis 1876 war das Schiff in
+                  Besitz der niederländischen Firma E. Suermondt, die auch ein Geschäftspartner Knifflers war und wurde dann an F. Doose weiterverkauft. 1877 strandete die Copernicus vor Brasilien und
+                  wurde dabei zerstört. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=14630">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01687">
+               <name type="ship">Flora</name>
+               <note>Name zahlreicher Schiffe des 19. Jahrhunderts. Genaue Zuordnung aufgrund mangelnder Information nicht möglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01688">
+               <name type="ship">Water Witch</name>
+               <note>Vermutlich ist ein 1855 gebautes Segelschiff mit Heimathafen London gemeint. Ab 1870 ist als Heimathafen Hongkong angegeben. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/4662?data/vesselsnum/4662">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01689">
+               <name type="ship">Armistice</name>
+               <note>1855 in England gebaute Bark mit einem Gewicht von 358 Bruttoregistertonnen. Nach einer ersten Überfahrt nach Shanghai Ende 1860 wurde die Armistice fortan ausschließlich im
+                  Handel zwischen den ostasiatischen Seehäfen eingesetzt, vor allem zwischen Shanghai und Nagasaki. Im Jahre 1862 wurde sie an die japanische Regierung verkauft, zu einem Dampfschiff
+                  umgerüstet und fuhr fortan unter dem Namen "Senzaimaru". </note>
+               <bibl>Joshua A. Fogel: Maiden Voyage - The Senzaimaru and the Creation of Modern Sino-Japanese Relations, Berkeley 2014, S. 11-14</bibl>
+            </item>
+            <item xml:id="K01690">
+               <name type="ship">Pekin</name>
+               <note>1847 gebautes Dampfschiff. Mindestens seit 1848 fuhr es im asiastischen Raum. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=22529">Caledonian Maritime Research Trust</bibl>
+               <bibl>William Armstrong Fairburn: Merchant Sail Vol. 4, Maine 1945-1955, S. 2583</bibl>
+            </item>
+            <item xml:id="K01691">
+               <name type="ship">St. Louis</name>
+               <note>Im Brief vom 3.6.1862 erwähnter Name eines Dampfschiffs. Taucht auch im Brief vom 6.8.1862 auf. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01692">
+               <term type="goods">Schildpatt</term>
+               <note>Auch "Schildplatt". Aus den Rückenschildern in Südostasien vorkommender Schildkrötenarten gewonnener Stoff, der im 19. Jahrhundert viel im Kunsthandwerk gebraucht wurde. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4403338-2</idno>
+               <bibl>John McCulloch: Univeral-Lexikon für Kaufleute und Fabrikanten. oder vollständiges Handbuch des Handels-, Fabrik- und Manufakturwesens, der Schiffahrt und der Bankgeschäfte, mit
+                  besonderer Rücksicht auf National-Oekonomie und Finanzen, 2. Aufl., Augsburg 1842, S. 1023.</bibl>
+            </item>
+            <item xml:id="K01693">
+               <term type="goods">Essigsäure</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4153052-4</idno>
+            </item>
+            <item xml:id="K01694">
+               <name type="ship">Glendoveer</name>
+               <note>Segelschiff mit Heimathafen Plymouth. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/43542?data/vesselsnum/43542">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01695">
+               <term type="goods">Safran</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4438557-2</idno>
+            </item>
+            <item xml:id="K01696">
+               <term type="goods">Kupfer</term>
+               <note>Kupfer, das meist aus Südamerika stammte, wurde u.a. für Reparaturen europäischer Schiffe in Asien benötigt.</note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S.182</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4033734-0</idno>
+            </item>
+            <item xml:id="K01697">
+               <name type="ship">Malvern</name>
+               <note>Im Brief vom 1.11.1862 erwähnter Schiffsname. Vermutlich ein britisches Segelschiff von 428 Bruttoregistertonnen. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/20782?data/vesselsnum/20782">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01698">
+               <name type="ship">Julia S. Tyler</name>
+               <note>In mehreren Briefen erwähnter Name eines Schiffs. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01699">
+               <name type="ship">Independence</name>
+               <note>Im Brief vom 1.11.1862 erwähnter Schiffsname. Beliebter Name für zahlreiche Schiffe, daher genaue Zuordnung unmöglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01700">
+               <term type="commercial">Abatement</term>
+               <note>Preisnachlass, der bei Unzufriedenheit des Käufers mit der übergebenen Ware gewährt werden konnte. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01701">
+               <name type="ship">Mahe</name>
+               <note>1840 gebautes Schiff mit Heimathafen Havre von 524 Bruttoregistertonnen. </note>
+               <bibl>American Lloyd's Register of American and Foreign Shipping 1862, S. 65</bibl>
+            </item>
+            <item xml:id="K01702">
+               <name type="ship">Geelong</name>
+               <note>1847 in Glasgow gebaute dreimastige Bark von 392 Bruttoregistertonnen. Ab 1856 befand sie sich in Besitz einer Reederei in Singapur. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=23146">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01703">
+               <term type="goods">Getrocknete Seegurke</term>
+               <note>Trepang, getrocknete Seegurke. Trepang war im 19. Jahrhundert als Delikatesse im Asienhandel relevant geworden. Span. Bezeichnung: Bicho del mar. Jap. Bezeichnung: Iriko. </note>
+               <bibl>Kees van Dijk: Pacific Strife, Amsterdam 2015, S. 50</bibl>
+            </item>
+            <item xml:id="K01704">
+               <name type="ship">Alfred Ray</name>
+               <note>Schiff von 192 Bruttoregistertonnen. Baujahr und Heimathafen sind unbekannt. </note>
+               <bibl source="http://marinersandships.com.au/1866/02/078alf.htm">Mariners and Ships in Australian Waters</bibl>
+            </item>
+            <item xml:id="K01705">
+               <term type="goods">Tassen</term>
+               <note>Porzellantassen, wohl zur Dekoration benutzt. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4184488-9</idno>
+            </item>
+            <item xml:id="K01706">
+               <name type="ship">Anna Maria Wilhelmina</name>
+               <note>1853 in den Niederlanden gebaute Schoner-Brigg von 260 Bruttoregistertonnen. Im Jahre 1867 wurde das Schiff neu unter dem Namen "Energie" registriert. Nicht zu verwechseln mit der
+                  ebenfalls im Asienhandel eingesetzten "Odilia Margarietha", die erst ab 1867 unter dem Namen Anna Maria Wilhelmina fuhr. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=9193">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01707">
+               <name type="ship">Dominion</name>
+               <note>1857 gebautes Schiff von 583 Bruttoregistertonnen mit Heimathafen London . </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/26568?data/vesselsnum/26568">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01708">
+               <name type="ship">Marta Theresia</name>
+               <note>1860 in Norwegen gebaute Brigg von 260 Bruttoregistertonnen. Auch als "Marta &amp; Theresa" gelistet. </note>
+               <bibl source="https://www.scheepsindex.nl/schip.php?i=10464">Koloniaal Museum Veendam: Piet's Scheeps Index</bibl>
+            </item>
+            <item xml:id="K01709">
+               <name type="ship">City of Hankow</name>
+               <note>1861 in England gebautes Dampfschiff von 324 Bruttoregistertonnen. Vermutlich am 26.12.1862 wurde es an unbekannte Eigentümer nach Kaga in Japan verkauft und auf den Namen "Hakki
+                  Maru" neu getauft. Sämtliche folgende Besitzer waren japanische Firmen oder Regierungseinrichtungen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=21761">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01710">
+               <name type="ship">Nankin</name>
+               <note>Im Brief vom 2.12.1862 erwähnter Name eines Dampfschiffs. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01711">
+               <term type="goods">Safflor</term>
+               <note>Färberdistel. Als preiswerter Ersatz für Safran gebraucht. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4153527-3</idno>
+            </item>
+            <item xml:id="K01712">
+               <name type="ship">Sir Charles Forbes</name>
+               <note>Wahrscheinlich ist ein 1861 gebautes Dampfschiff mit Heimathafen Hongkong gemeint. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/41208?data/vesselsnum/41208">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01713">
+               <name type="ship">Helenslee</name>
+               <note>1862 gebautes dreimastiges Segelschiff von 798 Bruttoregistertonnen. Die Helenslee gilt seit Dezember 1876 als verschollen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=13753">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01714">
+               <name type="ship">Jeanne &amp; Joseph</name>
+               <note>Im Brief vom 2.12.1862 erwähnter Schiffsname </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01715">
+               <term type="goods">Rapsöl</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4259393-1</idno>
+            </item>
+            <item xml:id="K01716">
+               <term type="goods">Quecksilber</term>
+               <note>Quecksilber wurde im Asienhandel des 19. Jahrhunderts sowohl aus Europa importiert, als auch aus China exportiert.</note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S. 183</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4127830-6</idno>
+            </item>
+            <item xml:id="K01717">
+               <name type="ship">Tycoon</name>
+               <note>Segelschiff mit Heimathafen Hongkong von 271 Bruttoregistertonnen. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/41232?data/vesselsnum/41232">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01718">
+               <name type="ship">Lady Elizabeth</name>
+               <note>Gemeint ist vermutlich ein englisches Segelschiff von 467 Bruttoregistertonnen. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01719">
+               <term type="goods">Bauholz</term>
+               <note>Mit der Errichtung eigener Schiffswerften in den von Ausländern frequentierten chinesischen Häfen wurde der Handel mit Bauholz bedeutend. Nach China wurde etwa Bauholz aus
+                  Südostasien und Japan importiert. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S. 180</bibl>
+            </item>
+            <item xml:id="K01721">
+               <name type="ship">Lotus</name>
+               <note>1861 gebautes britisches Dampfschiff mit Heimathafen London von 595 Bruttoregistertonnen. 1864 wurde es in Shanghai an das japanische Lehnstum (Han) Satsuma verkauft und neu auf
+                  den Namen Shoho Maru getauft. Seit 1868 gilt es als verschollen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=9780">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01722">
+               <name type="ship">Rajah</name>
+               <note>1853 gebautes Dampfschiff von 537 Bruttoregistertonnen. Es wurde eigens für den Einsatz im Ostasienhandel Eine Erwähnung ist im Brief vom 17.1.1863 nachgewiesen, wurde aber wohl
+                  vom Verfasser irrtümlicherweise aufgeschrieben und von späterer Hand korrigiert. </note>
+               <bibl>Duncan Haws &amp; Stepehen Rabson: The Ships of the P&amp;O, Orient, and Blue Anchor Lines, Cambridge 1978, S. 44</bibl>
+            </item>
+            <item xml:id="K01723">
+               <term type="commercial">Middling</term>
+               <note> Bezeichnung für Waren mittlerer Qualität. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01724">
+               <name type="ship">Cadiz</name>
+               <note>1853 gebautes Dampfschiff mit Heimathafen London von 816 Bruttoregistertonnen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=22555">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01725">
+               <term type="goods">Opium</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4135009-1</idno>
+            </item>
+            <item xml:id="K01726">
+               <name type="ship">Trave</name>
+               <note>1853 gebautes Dampfschiff von 480 Bruttoregistertonnen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=19924">Trave</bibl>
+            </item>
+            <item xml:id="K01727">
+               <term type="goods">Tran</term>
+               <note>Aus Wal- oder Fischöl. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01728">
+               <term type="goods">Hirschfell</term>
+               <note>Zum Beispiel zur Herstellung von Kleidung. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01729">
+               <term type="logistic">Bündel</term>
+               <note>Nicht näher definierte Anhäufung zusammengebundener Waren. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4424675-4</idno>
+            </item>
+            <item xml:id="K01730">
+               <term type="commercial">Lloyd's Register of Ships</term>
+               <note>Ab 1764 erschienenes Verzeichnis, in dem sämtliche Verkehrsschiffe von mehr als 100 Bruttoregistertonnen aufgeführt wurden. Herausgegeben vom gleichnamigen Verlag. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">74024-X</idno>
+            </item>
+            <item xml:id="K01731">
+               <name type="ship">Dunmore</name>
+               <note>Vermutlich ist ein Segelschiff von 1267 Bruttoregistertonnen und Heimathafen Glasgow gemeint. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/43688?data/vesselsnum/43688">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01732">
+               <term type="goods">Young Haysan</term>
+               <note> Bezeichnung für eine Teesorte. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01733">
+               <term type="goods">Haysan</term>
+               <note> Bezeichnung für eine Teesorte. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01734">
+               <term type="goods">Gunpowder-Tee</term>
+               <note> Bezeichnung für eine Teesorte. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01735">
+               <term type="goods">Korallen</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01736">
+               <name type="ship">Syria</name>
+               <note>1863 gebautes Dampfschiff von 1932 Bruttoregistertonnen in Diensten der P&amp;O Company. 1880 im Atlantik versunken. </note>
+               <bibl>Duncan Haws &amp; Stepehen Rabson: The Ships of the P&amp;O, Orient, and Blue Anchor Lines, Cambridge 1978, S. 44</bibl>
+            </item>
+            <item xml:id="K01737">
+               <name type="ship">Amos</name>
+               <note>Schiff mit Heimathafen Genua von 321 Bruttoregistertonnen. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1865, S. 288</bibl>
+            </item>
+            <item xml:id="K01738">
+               <term type="goods">Flowery Pekoe</term>
+               <note>Bezeichnung für eine Teesorte.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01739">
+               <name type="ship">Southern Cross</name>
+               <note>Vermutlich ist ein Dampfschiff mit Heimathafen London von 640 Bruttoregistertonnen gemeint. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=22254">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01740">
+               <term type="goods">Gingham</term>
+               <note>Farbiger Baumwollstoff. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 58</bibl>
+            </item>
+            <item xml:id="K01741">
+               <term type="goods">Drill</term>
+               <note>Auch: Drillich, Drell. Besonders widerstandsfähige Textilien aus Leinen oder Baumwolle </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 40</bibl>
+            </item>
+            <item xml:id="K01742">
+               <term type="goods">Madapolam</term>
+               <note>Hemdentuch. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 82</bibl>
+            </item>
+            <item xml:id="K01743">
+               <term type="goods">Kaliko</term>
+               <note>Baumwollgewebe, heutzutage v. a. in der Buchbinderei verwendet. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 27</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">7604639-4</idno>
+            </item>
+            <item xml:id="K01744">
+               <name type="ship">Jacqueline en Elise</name>
+               <note>1851 in Amsterdam gebaute zweimastige Brigg von 287 Bruttoregistertonnen. Kapitän war ab 1862 Jan Harmen Krukkenberg. Die Jacqueline en Elise lief zu einem unbekannten Zeitpunkt
+                  im Jahre 1865, auf jeden Fall aber nach dem 5. April, in Niederländisch-Ostindien auf Grund und wurde dabei zerstört. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=7789">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01745">
+               <term type="goods">Hüte</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4160830-6</idno>
+            </item>
+            <item xml:id="K01746">
+               <name type="ship">Julie</name>
+               <note>1853 in Alblasserdam gebaute dreimastige Bark von 417 Bruttoregistertonnen. Kapitän war zwischen 1865 und 1871 F. J. Cherpion. 1889 wurde es wohl zerstört. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=9218">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01748">
+               <name type="ship">Kienlein</name>
+               <note>Im Brief vom 12.8.1865 erwähnter Schiffsname. Nicht nachgewiesen, da schwer leserlich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01749">
+               <name type="ship">Variag</name>
+               <note>1863 gebautes russisches Dampfschiff mit. 1890 wurde es aus dem Dienst genommen. </note>
+               <bibl>Roger Chesneau &amp; Eugene M. Kolesnik: Kriegsschiffe der Welt 1860-1905, Band 2, Koblenz 1984, S. 183</bibl>
+            </item>
+            <item xml:id="K01750">
+               <name type="ship">Lizzie Allen</name>
+               <note>1860 gebaute Bark von 300 Bruttoregistertonnen mit Heimathafen Shanghai. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1866, S. 213</bibl>
+            </item>
+            <item xml:id="K01751">
+               <name type="ship">Fusiyama</name>
+               <note>1864 gebautes Dampfschiff von 1000 Bruttoregistertonnen. Als Heimathafen ist lediglich "Japan" angegeben. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1865, S. 614.</bibl>
+            </item>
+            <item xml:id="K01752">
+               <name type="ship">Jacobus Martinus</name>
+               <note>1852 in Schiedam in den Niederlanden gebautes Schiff von 372 Bruttoregistertonnen. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=16544">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01753">
+               <name type="ship">Omer et Julie</name>
+               <note>Im Asienhandel eingesetztes Schiff von 289 Bruttoregistertonnen. </note>
+               <bibl source="http://marinersandships.com.au/1872/02/066ome.htm">Mariners and Ships in Australian Waters</bibl>
+            </item>
+            <item xml:id="K01754">
+               <name type="ship">Khankai</name>
+               <note>Schoner von 137 Bruttoregistertonnen mit Heimathafen Dundee. Die Khankai stand in Diensten der West Pacific Company aus Hakodate.</note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/45199?data/vesselsnum/45199">Crew List Index Project</bibl>
+               <bibl>Steven Ivings: Fostering a Trade in Japan's Northeast, in Commodities of Empire Working Papers 33, S. 10.</bibl>
+            </item>
+            <item xml:id="K01755">
+               <name type="ship">Devina</name>
+               <note>In mehreren Briefen von Wilkie &amp; Gärtner erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01756">
+               <name type="ship">William Cundall</name>
+               <note>1863 gebaute Brigg von 255 Bruttoregistertonnen. Heimathafen war die Prince-Edward-Insel. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1865 - Brigs, S. 402</bibl>
+            </item>
+            <item xml:id="K01757">
+               <term type="goods">Holz</term>
+               <note>Nicht näher bestimmtes Holz. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4025668-6</idno>
+            </item>
+            <item xml:id="K01759">
+               <term type="goods">Zinn</term>
+               <note>Aufgrund eher weniger erschlossener natürlicher Zinnvorkommen in China wurde dieses Metall meist aus Südostasien importiert.</note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S.183</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4190888-0</idno>
+            </item>
+            <item xml:id="K01760">
+               <term type="goods">Hotategai</term>
+               <note>Japanische Kammmuscheln, zum Verzehr gebraucht. Ähnelt der in Westeuropa geläufigeren Jakobsmuschel. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01761">
+               <name type="ship">Gazelle</name>
+               <note>Die Gazelle war ein Schiff der preußischen Marine, das 1863 im Rahmen einer preußischen Ostasienexpedition nach einem kurzen Abstecher in Singapur in Yokohama ankerte und bis 1864
+                  am dortigen Hafen stationiert war. Anlass für die Expedition war die Ratifikation des 1861 zwischen Preußen und Japan geschlossenen Handelsvertrags, zu der ein Kriegsschiff
+                  erscheinen sollte. Die Gazelle fuhr kurz nach der am 21.1.1864 erfolgten Ratifikation weiter nach Shanghai. In den Kniffler-Briefen wird das Schiff am 25.10.1865 und 15.11.1865
+                  erwähnt, es wurde also auch noch nach dieser ersten Ausfahrt in Ostasien eingesetzt. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4549174-4</idno>
+               <bibl>Adolf Mensing: An Bord der Gazelle nach Yokohama, Rostock 2000, S. 21-22</bibl>
+            </item>
+            <item xml:id="K01762">
+               <name type="ship">Ousuri</name>
+               <note>1863 gebaute schottische Bark von 363 Bruttoregistertonnen. Die Ousuri stand in Diensten der West Pacific Company aus Hakodate. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1869 - , S. 153.</bibl>
+               <bibl>Steven Ivings: Fostering a Trade in Japan's Northeast, in Commodities of Empire Working Papers 33, S. 10.</bibl>
+            </item>
+            <item xml:id="K01763">
+               <term type="goods">Congo</term>
+               <note>Name einer Schwarzteesorte.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01764">
+               <term type="commercial">Qualitätsbezeichnungen für Tee</term>
+               <note>Im Teehandel wurde und wird nicht nur allein nach der Sorte der Teeblätter unterschieden, sondern es wurden und werden auch je nach Beschaffenheit der Blätter unterschiedliche
+                  Prädikate zur Qualität vergeben. Im Brief vom 27.3.1865 werden einige dieser Begriffe genannt, wobei nicht alle davon heute noch gebräuchlich und auch die Unterschiede zwischen den
+                  einzelnen Bezeichnungen nicht eindeutig sind. Eine grobe Klassifizierung kann wie folgt vorgenommen werden: Niedere Qualität: dusty, broken (für Abfüllung in Teebeutel
+                  verwendet);mittlere Qualität: common, medium;hohe Qualität: superior, fair, fein, (Orange) Pekoe. </note>
+               <bibl>McCulloch, John: Univeral-Lexikon für Kaufleute und Fabrikanten. oder vollständiges Handbuch des Handels-, Fabrik- und Manufakturwesens, der Schiffahrt und der Bankgeschäfte, mit
+                  besonderer Rücksicht auf National-Oekonomie und Finanzen, 2. Aufl., Augsburg 1842, S. 720.</bibl>
+            </item>
+            <item xml:id="K01765">
+               <term type="commercial">Broken</term>
+               <note>Qualitätsbezeichnung für Teeblätter. Als Broken wurde Tee bezeichnet, der zur Abfüllung in Teebeutel zerstoßen wurde, wofür meistens Teeblätter geringerer Qualität verwendet
+                  wurden. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01766">
+               <term type="goods">Black Leaf</term>
+               <note>Nicht näher bezeichneter Schwarztee. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01767">
+               <term type="goods">Souchong</term>
+               <note>Sorte von Teeblättern. Für schwarzen Tee verwendet. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01768">
+               <term type="goods">Taysham, Taysaam</term>
+               <note>Bezeichnung für eine Seidensorte. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01769">
+               <name type="ship">Great Western</name>
+               <note>Wahrscheinlich ist eine Bark mit Heimathafen London und einem Gewicht von 416 Bruttoregistertonnen gemeint. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1865 - Barks, S. 183.</bibl>
+            </item>
+            <item xml:id="K01770">
+               <name type="ship">Marmion</name>
+               <note>Vermutlich gemeint ist ein Dampfschiff mit Heimathafen Liverpool und einem Gewicht von 784 Bruttoregistertonnen. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01771">
+               <name type="ship">Emily Banning</name>
+               <note>1851 in Philadelphia gebaute Bark mit Heimathafen San Francisco und einem Gewicht von 251 Bruttoregistertonnen. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1865 - Barks, S. 167.</bibl>
+            </item>
+            <item xml:id="K01772">
+               <term type="logistic">Blei</term>
+               <note>Blei wurde im 19. Jahrhundert vor allem aus England nach Asien importiert und als Verpackungsmaterial verwendet, um z.B. Teeblätter auf langen Schifffahrten vor
+                  Witterungseinflüssen zu schützen. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S.183</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4145879-5</idno>
+            </item>
+            <item xml:id="K01773">
+               <name type="ship">Bacchante</name>
+               <note>Vermutlich ist ein 1859 gebautes Schiff mit Heimathafen Portsmouth gemeint. </note>
+               <bibl source="http://gsn.ncl.ac.uk/?p=details&amp;gsn=20008778"/>
+            </item>
+            <item xml:id="K01774">
+               <term type="goods">Mehl</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">7678128-8</idno>
+            </item>
+            <item xml:id="K01775">
+               <name type="ship">Thomas Blythe</name>
+               <note>1859 in Preston in England gebautes Schiff mit Heimathafen Liverpool und einem Gewicht von 387 Bruttoregistertonnen. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1866 - Ships, S. 143</bibl>
+            </item>
+            <item xml:id="K01776">
+               <name type="ship">Minister van Hall</name>
+               <note>1854 in Amsterdam gebaute dreimastige Bark mit einem Gewicht von 415 Bruttoregistertonnen. 1867 wurde sie versteigert, danach ist nichts mehr darüber bekannt. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=14794">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01777">
+               <term type="goods">Stearinkerzen</term>
+               <note>Kerzen aus Stearin, einem Gemisch aus pflanzlichen und tierischen Fetten. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4638563-0</idno>
+            </item>
+            <item xml:id="K01778">
+               <name type="ship">Antje</name>
+               <note>Häufiger Schiffsname, daher genaue Zuordnung nicht möglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01779">
+               <name type="ship">D. T. Visser</name>
+               <note>1858 in den Niederlanden gebautes dreimastiges Segelschiff mit einem Gewicht von 305 Bruttoregistertonnen. 1870 verließ es Singapur in Richtung Hongkong und galt seitdem als
+                  vermisst. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=8205">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01780">
+               <term type="goods">Seidenkokons</term>
+               <note>Von Seidenraupen gebildete Gehäuse, aus denen Seide gewonnen wird. Aus einem Seidenkokon können zwischen 500 und 900 Meter Seidenfaden gewonnen werden. </note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 75</bibl>
+            </item>
+            <item xml:id="K01781">
+               <name type="ship">Cymbeline</name>
+               <note>Im Brief vom 16.02.1866 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01782">
+               <name type="ship">Scindia</name>
+               <note>Segelschiff mit einem Gewicht von 313 Bruttoregistertonnen. </note>
+               <bibl source="http://www.teesbuiltships.co.uk/view.php?ref=169540">Tees Built Ships</bibl>
+            </item>
+            <item xml:id="K01783">
+               <name type="ship">Bolivar</name>
+               <note>1858 in Aberdeen gebaute Brigg mit einem Gewicht von 200 Bruttoregistertonnen. 1867 erlitt sie auf dem Weg von New York nach Yokohama vor Brasilien Schiffbruch nach mehreren
+                  Sturmschäden.. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1867 - Brigs, S. 22</bibl>
+            </item>
+            <item xml:id="K01784">
+               <term type="ship">Costa Rica</term>
+               <note>Im Brief vom 12.9.1872 erwähnter Schiffsname. Beliebter Name für Schiffe, daher genaue Zuordnung unmöglich. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01785">
+               <term type="commercial">Hong</term>
+               <note>Sammelbezeichnung für in den chinesischen Handelshäfen ansässige Händler aus dem Ausland. Im 19. Jahrhundert wurde der Begriff auch für in Japan tätige internationale
+                  Handelshäuser verwendet. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4552499-3</idno>
+            </item>
+            <item xml:id="K01786">
+               <term type="goods">Dewhurst's Eagle</term>
+               <note>Bezeichnung für eine Sorte Baumwollstoff, vermutlich benannt nach der in Manchester ansässigen Baumwollspinnerei Dewhurst. </note>
+               <bibl>Estell &amp; Co.: The Manchester Commercial List 1873-1874, London 1873, o. S.</bibl>
+            </item>
+            <item xml:id="K01787">
+               <name type="ship">Kobe &amp; Victoria</name>
+               <note>Im Brief vom 26.10.1874 erwähnter Name eines Dampfschiffs. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01788">
+               <name type="ship">Condor</name>
+               <note>Im Brief vom 26.10.1874 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01789">
+               <term type="goods">Kanonen</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4311688-7</idno>
+            </item>
+            <item xml:id="K01790">
+               <term type="goods">Einhorn</term>
+               <note>Auch: Ainkhürn. Eigentlich das Horn eines Narwals, das aber für ein Einhornhorn gehalten wurde und das wegen seines Rufs als Wundermittel und seiner Seltenheit teuer gehandelt
+                  wurde. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01791">
+               <name type="ship">Hound</name>
+               <note>Im Brief vom 21. Februar 1862 erwähnter, schwer leserlicher Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01792">
+               <name type="ship">Scotland</name>
+               <note>1856 in London gebautes Dampfschiff von 976 Bruttoregistertonnen. 1861 ging es in den Besitz des in China ansässigen Handelshauses Russell &amp; Co. über. Nach zwei weiteren
+                  Verkäufen wurde es vom japanischen Lehenstum Satsuma, zu dem auch Nagasaki gehörte, übernommen und in "Heinanmaru" umgetauft. 1871 wurde die Heinanmaru aus dem Dienst genommen. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01793">
+               <name type="ship">Georges &amp; Tuciandra</name>
+               <note>Im Brief vom 17.2.1862 erwähtner Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01794">
+               <name type="ship">Caimir</name>
+               <note>Im Brief vom 1.3.1862 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01795">
+               <name type="ship">Heloise</name>
+               <note>1840 gebautes Segelschiff von 852 Bruttoregistertonnen. Der Heimathafen war Hamburg. </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1868 - Ships, S. 51.</bibl>
+            </item>
+            <item xml:id="K01796">
+               <name type="ship">Thomas</name>
+               <note>Name unterschiedlicher Brigs, die im Jahre 1862 verkehrten, weshalb eine genaue Zuordnung nicht möglich ist.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1862 - Brigs, S. 343.</bibl>
+            </item>
+            <item xml:id="K01797">
+               <name type="ship">Akindo</name>
+               <note>1863 gebaute schottische Bark von 369 Bruttoregistertonnen. Die Akindo war in Diensten der West Pacific Company aus Hakodate. </note>
+               <bibl>Steven Ivings: Fostering a Trade in Japan's Northeast, in Commodities of Empire Working Papers 33, S. 10.</bibl>
+            </item>
+            <item xml:id="K01798">
+               <term type="goods">Lefaucheux</term>
+               <note>Handfeuerwaffen, die nach ihrem Erfinder Casimir Lefaucheux benannt wurden. Lefaucheux baute die ersten Revolver, in denen die Patronen hinten statt vorne eingesetzt wurden. </note>
+               <bibl>W. W. Greener: Modern Breech Loaders, London 1870, S. 2</bibl>
+            </item>
+            <item xml:id="K01799">
+               <term type="goods">Kartuschbeutel</term>
+               <note>Beutel aus Stoff oder Papier, in denen Schießpulver zur leichteren Beladung von Vorderlader-Pistolen eingewickelt wurde. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01800">
+               <name type="ship">Japan</name>
+               <note>1858 gebautes Dampfschiff von 2667 Bruttoregistertonnen. Ab 1860 befand es sich im Einsatz für die französische Marine in Ostasien. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=3731#v">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01801">
+               <term type="logistic">Havariebericht</term>
+               <note>Aufschlüsselung über Transportschäden im Schiffsverkehr. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01802">
+               <term type="ship">Argus</term>
+               <note>Wahrscheinlich gemeint ist eine 1856 gebaute Bark von 310 Bruttoregistertonnen. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1865 - Barks, S. 134</bibl>
+            </item>
+            <item xml:id="K01803">
+               <name type="ship">Selina Jane</name>
+               <note>1859 in Liverpool gebautes Segelschiff von 216 Bruttoregistertonnen. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/27929?data/vesselsnum/27929">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01804">
+               <name type="ship">Louisa Braginton</name>
+               <note>1856 gebautes Segelschiff von 280 Bruttoregistertonnen. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/15587?data/vesselsnum/15587">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01805">
+               <name type="ship">Danzig</name>
+               <note>1864 gebautes Dampfschiff von 686 Bruttoregistertonnen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=1334">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01806">
+               <term type="goods">Awabi</term>
+               <note>Dt. Seeohren, Abalonen. Awabi wird im gesamten ostasiatischen Raum als Nahrungsmittel verwendet. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01807">
+               <term type="goods">Bettdecken</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4253024-6</idno>
+            </item>
+            <item xml:id="K01808">
+               <name type="ship">La Vierge</name>
+               <note>1864 gebaute Bark von 190 Bruttoregistertonnen. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871 - Barks, S. 128</bibl>
+            </item>
+            <item xml:id="K01809">
+               <name type="ship">Fanny</name>
+               <note>Im Brief von Wilkie &amp; Gärtner vom 15.11.1865 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01810">
+               <term type="goods">Muldenblei</term>
+               <note>In Blöcke gegossenes, ansonsten unbehandeltes Blei.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01811">
+               <name type="ship">Promise</name>
+               <note>1863 gebautes Dampfschiff von 591 Bruttoregistertonnen. </note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1866 - Steamers, S. 674</bibl>
+            </item>
+            <item xml:id="K01812">
+               <name type="ship">Child of the Ocean</name>
+               <note>In Briefen vom 10.01. und 22.01.1866 erwähnter Schiffsname </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01813">
+               <name type="ship">Chusan</name>
+               <note>1852 gebautes Dampfschiff von 699 Bruttoregistertonnen im Dienste der P&amp;O Company. 1868 wurde die Chusan an das Lehnstum Chôshû verkauft, in "Kayo Maru" umbenannt und zu einem
+                  Kriegsschiff umgerüstet. 1870 wurde das Schiff zerstört. </note>
+               <bibl>Duncan Haws &amp; Stepehen Rabson: The Ships of the P&amp;O, Orient, and Blue Anchor Lines, Cambridge 1978, S. 42</bibl>
+            </item>
+            <item xml:id="K01814">
+               <name type="ship">Zontag</name>
+               <note>Unleserliche Name eines im Brief vom 24.01.1866 erwähnten Schiffs. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01815">
+               <term type="commercial">Avanz</term>
+               <note>Gewinn </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01816">
+               <term type="goods">Ginseng</term>
+               <note>Da in China ein kaiserliches Monopol auf Ginseng herrschte und nur wenige Erträge dem freien Markt überlassen wurden, florierte bald der Import von in Nordamerika angebautem
+                  Ginseng. </note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865, S. 177</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4157355-9</idno>
+            </item>
+            <item xml:id="K01817">
+               <name type="ship">Pembroke</name>
+               <note>1864 gebautes Dampfschiff von 243 Bruttoregistertonnen. Heimathafen war Hongkong. </note>
+               <bibl source="https://www.crewlist.org.uk/data/vesselsnum/48327?data/vesselsnum/48327">Crew List Index Project</bibl>
+            </item>
+            <item xml:id="K01818">
+               <name type="ship">Chanticleer</name>
+               <note>1853 gebautes Dampfschiff von 539 Bruttoregistertonnen. </note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=5237">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01819">
+               <term type="goods">Schwarzer Pfeffer</term>
+               <note>Schwarzer Pfeffer aus Südostasien war ein beliebtes Importgut in China.</note>
+               <bibl>Karl von Scherzer: Reise der österreichischen Fregatte Novara um die Erde, Wien 1865 188</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4180344-9</idno>
+            </item>
+            <item xml:id="K01820">
+               <term type="ship">Stella Maris</term>
+               <note>1850 in den Niederlanden gebautes Schiff von 370 Bruttoregistertonnen. 1863 verunglückte es vor China. </note>
+               <bibl source="https://www.scheepsindex.nl/schip.php?i=8771">Koloniaal Museum Veendam: Piet's Scheeps Index</bibl>
+            </item>
+            <item xml:id="K01821">
+               <term type="goods">Gummi rubrum adstringens Gambiense</term>
+               <note>Es handelt sich um ein Gummi oder Baumharz, das zu medizinischen Anwendungen verwendet wurde. Die Bezeichnung Gambien rührt daher, dass dieses Baumharz zunächst in Gambia gewonnen
+                  wurde. Bereits im frühen 19. Jahrhundert wurde aber bereits der größte Teil in Ostindien gewonnen und gelangte von dort auf den englischen Markt. </note>
+               <bibl>Philipp Nemnich: Neues Waaren-Lexikon in zwölf Sprachen, Zweiter Band, Hamburg 1821, S. 526</bibl>
+            </item>
+            <item xml:id="K01822">
+               <term type="goods">Kaffee</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01823">
+               <term type="goods">Kakao</term>
+               <note> </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4270494-7</idno>
+            </item>
+            <item xml:id="K01824">
+               <term type="goods">Färbemittel</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01825">
+               <term type="goods">Natriumnitrat</term>
+               <note>Wegen großer Vorkommen in Chile auch unter dem Trivialnamen "Chilesalpeter" bekannt. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1053580959</idno>
+            </item>
+            <item xml:id="K01826">
+               <term type="goods">Kurkuma</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01827">
+               <term type="goods">Katechu</term>
+               <note>Aus dem Harz der Gerber-Akazie gewonnener Farbstoff, der in der Gerberei verwendet wird. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4523495-4</idno>
+            </item>
+            <item xml:id="K01828">
+               <term type="goods">Schellack</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01829">
+               <term type="goods">Hagel</term>
+               <note>Zu kleinen Teilen gehacktes oder zerstoßenes Blei und Eisen, das als Munition für Geschütze verwendet wurde.</note>
+               <bibl source="https://www.woerterbuchnetz.de/DWB/hagel">„hagel, m.“, Deutsches Wörterbuch von Jacob Grimm und Wilhelm Grimm, digitalisierte Fassung im Wörterbuchnetz des Trier Center
+                  for Digital Humanities, Version 01/21, &lt;https://www.woerterbuchnetz.de/DWB?lemid=H00698&gt;, abgerufen am 10.02.2021.</bibl>
+            </item>
+            <item xml:id="K01830">
+               <term type="currency">Mark Banco</term>
+               <note>Die Mark Banco war eine vom 16. bis ins 19. Jahrhundert bestehende Bankwährung, mit der bei Hamburger Bank- und Handelshäusern gerechnet wurde.</note>
+               <bibl source="http://www.zeno.org/nid/2000093593X">Brockhaus' Kleines Konversations-Lexikon, fünfte Auflage, Band 1, Leipzig 1911, S. 149</bibl>
+            </item>
+            <item xml:id="K01831">
+               <name type="ship">Essen</name>
+               <note>Im Januar 1874 in Kiel gebautes Dampfschiff. Es befand sich in Besitz der Firma Krupp.</note>
+               <bibl>American Shipmasters' Association: Record of American and Foreign Shipping 1877, S. 308.</bibl>
+            </item>
+            <item xml:id="K01832">
+               <name type="ship">Kogang</name>
+               <note>Im Brief von Pandel &amp; Stiehaus vom 3.7.1872 erwähnter Name eines Schiffs.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01833">
+               <name type="ship">Fagel</name>
+               <note>1857 gebaute niederländische Bark von 314 Lasten. Ursprünglich auf den Namen „Zeelust“ getauft, fuhr das Schiff nach einem Besitzerwechsel ab 1862 unter dem Namen „Fagel“. Aus den
+                  Quellen geht hervor, dass das Schiff im Handel zwischen Europa und Südostasien verwendet wurde. 1869 verunglückte die Fagel vor Java. </note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=15174">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01834">
+               <name type="ship">Libea</name>
+               <note>Im Brief von W. Brummer vom 16. Februar 1866 erwähnter Schiffsname. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01835">
+               <term type="goods">Echizen</term>
+               <note>Herkunftsbezeichnung für Seide aus der ehemaligen japanischen Provinz Echizen, der heutigen Präfektur Fukui. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01836">
+               <name type="ship">Bantam</name>
+               <note>1852 im niederländischen Schiedam gebautes Segelschiff von 353 Bruttoregistertonnen.</note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=14469">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01837">
+               <name type="ship">Niphon</name>
+               <note>1863 in Oldenburg gebaute Brig von 262 Bruttoregistertonnen.</note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=16053">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01838">
+               <name type="ship">Deerfoot</name>
+               <note>1862 im englischen Truro gebauter Schoner von 207 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1868 - Schooner, S. 492</bibl>
+            </item>
+            <item xml:id="K01839">
+               <name type="ship">Esperanza</name>
+               <note>Im Brief vom 11. Mai 1869 erwähnter Schiffsname. Beliebter Name für zahlreiche Schiffe, daher genaue Zuordnung unmöglich.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01840">
+               <name type="ship">Wilhelmina en Elise</name>
+               <note>1857 in Alkmaar gebaute Brigg von 270 Bruttoregistertonnen.</note>
+               <bibl source="https://www.marhisdata.nl/schip&amp;id=15327">Maritiem-Historische Databank</bibl>
+            </item>
+            <item xml:id="K01841">
+               <name type="ship">Marie</name>
+               <note>Im Brief vom 10.6.1869 erwähnter Name eines Dampfschiffs. In den einschlägigen Quellen konnte kein Dampfschiff identifiziert werden, das zu diesem Zeitpunkt unter dem Namen
+                  "Marie" fuhr.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01842">
+               <name type="ship">Nil</name>
+               <note>1861 im französischen Lormont gebaute Bark von 267 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1867 - Barks, S. 122</bibl>
+            </item>
+            <item xml:id="K01843">
+               <term type="goods">Pilot</term>
+               <note>Bezeichnung für mehrlagige, dicke Baumwolltextilien.</note>
+               <bibl>Richard Hünlich: Textil-Fachwörterbuch, Berlin 1970, S. 97</bibl>
+            </item>
+            <item xml:id="K01844">
+               <term type="commercial">Sorten chinesischer Seide</term>
+               <note>Im Bericht von John Batt &amp; Co. vom 8. März 1872 tauchen einige Bezeichnungen für chinesische Seide auf, die in den übrigen Briefen keine Erwähnung finden. Der Übersicht halber
+                  sind sie hier aufgelistet: Haineen, Yuenfa, Chinum, Taikai, Kahing, Skeins, Hangchows, Cantons, Loonkong, Cumchuck. Die Namen deuten teilweise auf die Herkunftsorte der Seidenfäden,
+                  teilweise aber auch auf bestimmte Hersteller hin. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01845">
+               <term type="commercial">Herkunftsbezeichnungen japanischer Seide</term>
+               <note>Im Bericht von John Batt &amp; Co. vom 8. März 1872 tauchen einige Bezeichnungen für japanische Seide auf, die in den übrigen Briefen keine Erwähnung finden. Der Übersicht halber
+                  sind sie hier aufgelistet: Ida (飯田, Iida), Sodai (曽代), Oshu (奥州, Ōshū), Koshu (甲州, Kōshū), Mashtah (益田, Mashita), Hatzoghee (Hatsuki?), Tama (多摩). Die Bezeichnungen für japanische
+                  Seidenfäden leiten sich, im Gegensatz zu ihren chinesischen Pendants, ausschließlich aus dem Ort ihrer Herkunft ab. </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01846">
+               <term type="currency">Reichstaler</term>
+               <note> </note>
+               <bibl/>
+            </item>
+            <item xml:id="K01847">
+               <name type="ship">Dante</name>
+               <note>Erwähnung im Brief vom 13.7.1871. Beliebter Name für zahlreiche Schiffe, daher genaue Zuordnung unmöglich.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01848">
+               <name type="ship">Anna Maria</name>
+               <note>Erwähnung im Brief vom 13.7.1871. Beliebter Name für zahlreiche Schiffe, daher genaue Zuordnung unmöglich.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01850">
+               <name type="ship">Canadia</name>
+               <note>1866 im kanadischen Charlottetown gebaute Brigg von 199 Nettoregistertonnen.</note>
+               <bibl source="https://ships.navalmarinearchive.com/ships/11235">Naval Marine Archive</bibl>
+            </item>
+            <item xml:id="K01851">
+               <name type="ship">Schön</name>
+               <note>1857 gebaute Bark der Hamburger Reederei A. J. Schön &amp; Co. von 336 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871 - Barks, S. 194</bibl>
+            </item>
+            <item xml:id="K01852">
+               <name type="ship">Sky Pelham</name>
+               <note>Im Brief vom 13.7.1871 erwähnter Name eines Schiffs.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01853">
+               <name type="ship">Cimbria</name>
+               <note>1867 im britischen Greenock gebautes Dampfschiff von 3025 Bruttoregistertonnen, das u. a. als Passagierschiff auf der Hamburg-Amerika-Linie eingesetzt wurde. 1883 kollidierte es
+                  vor Borkum mit einem anderen Schiff und wurde dabei zerstört.</note>
+               <bibl source="http://www.clydeships.co.uk/view.php?ref=3791">Caledonian Maritime Research Trust</bibl>
+            </item>
+            <item xml:id="K01854">
+               <term type="goods">Granat</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4158023-0</idno>
+            </item>
+            <item xml:id="K01855">
+               <term type="goods">Naturkautschuk</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4133404-8</idno>
+            </item>
+            <item xml:id="K01856">
+               <term type="goods">Gelbholzlack</term>
+               <note>Aus dem Färbermaulbeerbaum gewonnener Farbstoff.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01857">
+               <term type="goods">Haiflossen</term>
+               <note>Vermutlich gemeint sind "shark fins", also Haiflossen, die zum Verzehr gebraucht wurden.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01858">
+               <name type="ship">Venus</name>
+               <note>Im Brief vom 13.7.1871 erwähnter Schiffsname.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01859">
+               <name type="ship">E. Klosterhow</name>
+               <note>Im Brief vom 13.7.1871 erwähnter Schiffsname.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01860">
+               <term type="goods">Blutholzbaum</term>
+               <note>In Mittel- und Südamerika vorkommender Baum, aus dem Färberholz gewonnen wird.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01861">
+               <term type="goods">Tierfelle</term>
+               <note/>
+               <bibl/>
+            </item>
+            <item xml:id="K01862">
+               <name type="ship">Ane</name>
+               <note>Name mehrerer Schiffe, die für das Jahr 1871 überliefert sind. Gemeint sein könnten demnach entweder eine 1867 gebaute Brigg von 208 Bruttoregistertonnen, oder eine 1870 gebaute
+                  Brigg von 130 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871 - Brigs, S. 13</bibl>
+            </item>
+            <item xml:id="K01863">
+               <name type="ship">Hilkelina</name>
+               <note>Im Brief vom 13.7.1871 erwähnter Schiffsname.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01864">
+               <term type="goods">Honig</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4025823-3</idno>
+            </item>
+            <item xml:id="K01865">
+               <term type="goods">Rohöl</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4178355-4</idno>
+            </item>
+            <item xml:id="K01866">
+               <term type="goods">Piment</term>
+               <note/>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4609766-1</idno>
+            </item>
+            <item xml:id="K01867">
+               <name type="ship">Sparkling Dew</name>
+               <note>1863 in Sunderland gebaute Bark von 336 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871 - Barks, S. 199</bibl>
+            </item>
+            <item xml:id="K01868">
+               <name type="ship">Ingeborg</name>
+               <note>Name mehrerer Schiffe, die für das Jahr 1871 überliefert sind. Gemeint sein könnten demnach entweder eine 1848 gebaute Brigg von 162 Bruttoregistertonnen, oder eine 1858 gebaute
+                  Brigg von 131 Bruttoregistertonnen.</note>
+               <bibl>American Lloyd’s Register of American and Foreign Shipping 1871 - Brigs, S. 86</bibl>
+            </item>
+            <item xml:id="K01869">
+               <name type="ship">Emily</name>
+               <note>Name zahlreicher Schiffe des 19. Jahrhunderts, sodass eine genaue Zuordnung nicht möglich ist.</note>
+               <bibl/>
+            </item>
+            <item xml:id="K01870">
+               <term type="currency">Yen</term>
+               <note>1871 eingeführte japanische Währung. Bis zur Reform der Währung im Jahre 1953 entsprach 1 Yen 100 Sen, 1 Sen 10 Rin.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">4330513-1</idno>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

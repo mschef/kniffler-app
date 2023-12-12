@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilkie &amp; Gärtner in Hakodate an L. Kniffler &amp; Co. in Nagasaki am 8.
+                    Oktober 1865</title>
+            <title type="file">0057.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-56</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen (Papier mit hellem Blauton). Fünf Seiten Anschreiben und
+                            eine Seite mit einer Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01103">Wilkie &amp; Gärtner</orgName>
+               <settlement ref="K00528">Hakodate</settlement>
+               <date when="1865-10-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-10-14"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-02-26" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-06" who="MS">Erste Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+         <change when="2020-11-09" who="MS">weitere Auszeichnung</change>
+         <change when="2020-12-03" who="MS">weitere Auszeichnung</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+            <p>
+               <seg rend="right">
+                  <add resp="other" style="textOrientation: straight">
+                     <hi rend="underline">1865</hi>
+                     <hi rend="latintype">
+                        <orgName type="firm" ref="K01103">Wilkie &amp; Gaertner</orgName>
+                        <lb/>
+                        <placeName ref="K00528">Hakodade</placeName>
+                        <date when="1865-10-08">Octbr. 8<hi rend="superscript">th</hi>
+                        </date>
+                        <lb/>
+                        <choice>
+                           <abbr>R</abbr>
+                           <expan>Received</expan>
+                        </choice>
+                        <date when="1865-10-14">Octbr 14</date>
+                        <lb/>
+                        <lb/>
+                        <choice>
+                           <abbr>b/</abbr>
+                           <expan>beantwortet</expan>
+                        </choice>
+                        <date when="1865-10-21">Octb21</date>
+                        <lb/>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">Per „<name type="ship" ref="K01751">Fusiyama</name>“ </hi>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00528">Hakodade</placeName> d. <date when="1865-10-08">8<hi rend="superscript">ten</hi>October 1865</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wir beziehen uns auf unser Ergebenes<lb/> vom <date when="1865-09-16">16<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>v. Mts</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date> , und hatten seitdem das<lb/> Vergnügen Ihr geehrtes vom <date when="1865-09-12">12<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>v. Mts</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date>
+               <lb/> zu empfangen, und hoffen wir, daß Sie bei<lb/>
+               <unclear reason="eccentric_ductus">Ansicht</unclear> dieser in Empfang unserer
+                    früheren<lb/> Briefe seit <date when="1865-05">Mai</date> gekommen sein
+                    werden,<lb/> da wir stets <term type="logistic" ref="K01538">Preß copien</term>
+                    davon sandten.<lb/> Wir danken für die Expedirung der <hi rend="latintype">
+                  <name type="ship" ref="K01756">W<hi rend="superscript">m</hi>.<lb/>
+                            Cundall</name>
+               </hi> in Monatscharter <hi rend="latintype">
+                  <choice>
+                     <abbr>dH.</abbr>
+                     <expan>der Herren</expan>
+                  </choice>
+                  <orgName type="firm" ref="K01006">Siemssen +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>,<lb/> nach hier, und empfingen damit<lb/>
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" unit="mex$" quantity="17361">17.361</measure>._<lb/>
+                    welche richtig befunden und dem <hi rend="latintype">
+                  <placeName ref="K00525">Yoko-<lb/> hama</placeName>
+               </hi> Hause einstweilen gutgeschrieben<lb/> haben.<lb/> Was Sie nun in Betreff
+                    der Ladung des<lb/> Schiffes schreiben haben wir uns gehörigbemerkt,<lb/> und
+                    theilen Ihnen mit, daß wir zur un-<lb/> gefähren Completirung der Ladung <hi rend="latintype">a <measure type="volume" quantity="4000" unit="picul" commodity="seaweed">4000<lb/>
+                     <term type="measure" ref="K01504">piculs</term>
+                     <term type="goods" ref="K01675">long Seaweed</term>
+                  </measure> I<hi rend="superscript">a</hi> Qualität</hi> einkauf-<lb/> ten,
+                    zum Preise von <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" unit="mex$" quantity="2.85" commodity="seaweed">2<hi rend="superscript">85</hi>
+               </measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">
+                     <choice>
+                        <abbr>
+                           <expan>ppic.</expan>per Picul</abbr>
+                     </choice>
+                  </term>
+               </hi> Einen<lb/> Contract auf <hi rend="latintype">
+                  <term type="measure" ref="K01675">long Seaweed</term>
+               </hi> zu billigeren<lb/> Preisen ist leider nicht möglich gewesen<lb/> zu
+                    machen, da <unclear reason="eccentric_ductus">bisjetzt</unclear> noch keine
+                    Vorräthe<lb/> am Markte waren, die den wenngleich<lb/> sehr kleinen Markt hier
+                    hätten drücken<lb/> können. Die Japaner behaupten, daß die <lb/>
+               <seg rend="right">
+                  <choice>
+                     <abbr>W. S. g. u</abbr>
+                     <expan>Wenden Sie gefälligst um</expan>
+                  </choice>
+               </seg>
+            </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+            <p>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01675">Seaweed</term>
+               </hi> Ernte <date when="1865">in diesem Jahre</date> bedeutend<lb/> kleiner
+                    ausgefallen ist, da, wie sie sagen,<lb/> das Eis im Frühjahr an der
+                    nördlichen<lb/> Küste<hi rend="latintype">
+                  <placeName ref="K00580">Jesso's</placeName>
+                  <unclear reason="illegible">(Minsuits)</unclear>
+               </hi> so vielen<lb/> Schaden angerichtet haben soll.<lb/> Für den uns
+                    überschriebenen Auftrag<lb/> auf<lb/>
+               <measure type="volume" unit="picul" quantity="200">200 <hi rend="latintype">
+                     <term type="measure" ref="K01656">piculs</term>
+                     <unclear reason="eccentric_ductus">Nashorns</unclear>
+                  </hi>
+               </measure>
+               <hi rend="latintype"> à <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" quantity="3" unit="mex$">3</measure> à <measure type="currency" quantity="7" unit="mex$">7</measure>
+                  <term type="measure" ref="K01504">
+                     <choice>
+                        <abbr>ppic</abbr>
+                        <expan>per Picul</expan>
+                     </choice>
+                  </term>
+               </hi>
+               <lb/> sagen wir Ihnen unseren besten<lb/> Dank, und hoffen zu den gegebenen<lb/>
+               <unclear reason="eccentric_ductus">limiten</unclear> ankommen zu können.<lb/>
+                    Augenblicklich ist nichts davon hier.<lb/> Für den Fall der Verschiffung an
+                    die<lb/> Adresse Herren <hi rend="latintype">
+                  <unclear>Kuchee</unclear> + Co, <placeName ref="K00503">Shenghai</placeName>
+               </hi> an<lb/> " Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01109">Glover + Co</orgName>,</hi>
+               <mentioned>
+                  <placeName ref="K00503">ebendaselbst</placeName>
+               </mentioned>.<lb/> Die <name type="ship" ref="K01756">W<hi rend="superscript">m</hi>
+                  <hi rend="latintype"> Cundall</hi>
+               </name> hat bereits ihren<lb/>
+               <unclear reason="illegible">Ballast</unclear> gelöscht und werden wir nach<lb/>
+                    Ihrem Auftrage hier einen <hi rend="latintype">
+                  <term type="logistic" ref="K01801">Survey re-<lb/>port</term>
+               </hi> darüber aufmachen, und an dHerren<lb/>
+               <hi rend="latintype">(<orgName type="firm" ref="K01004">L. Kniffler +
+                            Co.</orgName>)<orgName type="firm" ref="K01006"> Siemssen +
+                            Co.</orgName>, <placeName ref="K00503">Shenghai</placeName>
+               </hi>
+               <lb/> einsenden.<lb/> Wir bemerken uns, daß in der<lb/>
+               <hi rend="latintype">p. <name type="ship" ref="K01803">Selina Jane</name>“</hi>
+                    erhaltenen Kiste<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01519">Tafachellassen</term>
+               </hi>
+               <figure>
+                  <figDesc>Marke Louis Kniffler &amp; Co. In der Zeile. Buchstaben mit ausgeprägten Serifen LK.C o I</figDesc>
+               </figure> nicht 100 sondern 113 Stg sich darin be-<lb/> finden.<lb/> Etwaige
+                    Zahlungen an <hi rend="latintype">
+                  <persName ref="K00117">Semple</persName>
+               </hi> von<lb/> der <hi rend="latintype">
+                  <name type="ship" ref="K01756">W<hi rend="superscript">m</hi>.
+                            Cundall</name>
+               </hi> " werden wir auf<lb/> der von Ihnen empfangenen Charter-<lb/> parthie
+                    abschreiben, und solche an Herren<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen +C</orgName>, <placeName ref="K00503">Shenghei</placeName>
+               </hi> mit einsenden.<lb/> Von <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> erfahren wir gern, </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_4.tif" n="4"/>
+            <p>daß nunmehr die Feuer<term type="commercial" ref="K01587">assecuranz</term>
+                    auf<lb/> hiesige Gebäude &amp; Waaren mit <measure type="currency" unit="britPound" quantity="35000">Bp 35,000.-</measure>
+               <lb/> gedeckt wurde.<lb/> Wir gaben ferner laut einliegender<lb/>
+               <term type="logistic" ref="K01538">Copie</term> Verkaufrechnung nach <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+               <lb/> über<lb/>
+               <table>
+                  <row>
+                     <cell>260</cell>
+                     <cell>Stg</cell>
+                     <cell>Union <term type="goods" ref="K01594">Camlets</term>
+                     </cell>
+                     <cell>a <term type="currency" ref="K01508">$</term>
+                        <measure type="currency" unit="mex$" quantity="18.5">18<hi rend="superscript">50</hi>
+                        </measure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>110</cell>
+                     <cell>"</cell>
+                     <cell>
+                        <term type="goods" ref="K01527">Turk red</term> Cloak</cell>
+                     <cell>a <term type="currency" ref="K01508">$</term>
+                        <measure type="currency" unit="mex$" quantity="5">5.-</measure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>100</cell>
+                     <cell>"</cell>
+                     <cell>
+                        <term type="goods" ref="K01519">Tafachelassen</term>
+                     </cell>
+                     <cell>a <term type="commercial" ref="K01508">$</term>
+                        <measure type="currency" unit="mex$" quantity="5.1">5<hi rend="superscript">10</hi>
+                        </measure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>50</cell>
+                     <cell>Paar</cell>
+                     <cell>Blankets</cell>
+                     <cell>a <term type="currency" ref="K01508">$</term>
+                        <measure type="currency" unit="mex$" quantity="5">5.-</measure>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>150</cell>
+                     <cell>Kg</cell>
+                     <cell>
+                        <term type="goods" ref="K01594">Camlets</term>
+                     </cell>
+                     <cell>a <term type="currency" ref="K01508">$</term>
+                        <measure type="currency" unit="mex$" quantity="28">28.-</measure>
+                     </cell>
+                  </row>
+               </table> im Betrage von <lb/>
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="9586.14" unit="mex$">9586.14</measure>
+               <lb/> wofür wir Ihr <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> Haus erkann-<lb/> ten.<lb/> Herr <hi rend="latintype">
+                  <persName ref="K00105">v. Brandt</persName>
+               </hi> ging mit der <hi rend="latintype">„<name type="ship" ref="K01804">Louisa
+                            Bra-<lb/> ginton</name>“</hi> nach <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> zurück, derselbe<lb/> entnahm hier<lb/>
+               <term type="measure" ref="K01508">$</term>
+               <measure type="currency" quantity="469" unit="mex$">469.<hi rend="superscript">00</hi>
+               </measure>
+               <lb/> wofür wir <hi rend="latintype">Yokohama <choice>
+                     <abbr>Cto.</abbr>
+                     <expan>Conto</expan>
+                  </choice>
+               </hi> belasteten.<lb/> An dHerren <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen +Co.</orgName>
+               </hi>
+               <term type="commercial" ref="K01523">remittirten</term>
+               <lb/> wir für Rechnung des <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> Hauses<lb/> in Wechseln<lb/>
+               <table>
+                  <row>
+                     <cell>
+                        <term type="currency" ref="K01508">$</term>
+                     </cell>
+                     <cell>
+                        <measure type="currency" unit="mex$" quantity="180.15">180.15</measure>
+                     </cell>
+                     <cell>TS <orgName type="firm" ref="K01141">Buissonet+Co.</orgName>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <term type="currency" ref="K01508">"</term>
+                     </cell>
+                     <cell>
+                        <measure type="currency" unit="mex$" quantity="111">111<hi rend="superscript">00</hi>
+                        </measure>
+                     </cell>
+                     <cell>3 T.S.</cell>
+                     <cell>2 <orgName type="firm" ref="K01105">Aug. Heard +Co.</orgName>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <term type="currency" ref="K01508">"</term>
+                     </cell>
+                     <cell>
+                        <measure type="currency" unit="mex$" quantity="864.47">864.<hi rend="superscript">47</hi>
+                        </measure>3 T.S.</cell>
+                     <cell>2 <orgName type="firm" ref="K01105">Aug. Heard+Co.</orgName>
+                     </cell>
+                  </row>
+               </table> wofür wir ebendasselbe Conto belasten,<lb/> ebenso wie für<lb/>
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="775" unit="mex$">775.-</measure>
+               <lb/> an Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01008">Bollenhagen +Co.</orgName>, <placeName ref="K00522">Hamburg</placeName>
+               </hi>
+               <lb/> remittirte Stko 71.2 <hi rend="latintype"><unclear>Finanz Minister</unclear><!-- ??? --></hi>
+               <lb/>
+                Wir entnehmen dagegen auf <hi rend="latintype">
+                  <placeName ref="K00525">Yoko-<lb/> hama</placeName>
+               </hi> Haus.<lb/>
+               <seg rend="right"><choice><abbr>W.S.g.u</abbr><expan>Wenden Sie gefälligst um</expan></choice></seg>
+            </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_5.tif" n="5"/>
+            <p>
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="600.35" unit="mex$">600.- 35</measure>
+               <unclear reason="eccentric_ductus">S. Z. </unclear>
+               <hi rend="latintype">
+                  <persName ref="K00132">A. O. Gay</persName>
+                  <choice>
+                     <abbr>Esq<hi rend="superscript">r.</hi>
+                     </abbr>
+                     <expan>Esquire</expan>
+                  </choice>
+               </hi>
+               <lb/> eine Abgabe welche wir dem hiesigen Em-<lb/> pfänger nicht gut abschlagen
+                    konnten. Für<lb/> obigen Beitrag steht <hi rend="latintype">Yokohama <choice>
+                     <abbr>Cto.</abbr>
+                     <expan>Conto</expan>
+                  </choice>
+               </hi> gebührend<lb/> erkannt.<lb/> Wir senden mit dieser Gelegenheit<lb/> zur
+                    Weiterbeförderung p. <hi rend="latintype">„<orgName type="firm" ref="K01111">Messageries<lb/> Imperiales</orgName>“</hi> an Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen +Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00503">Shanghai</placeName>.</hi>
+               <table>
+                  <row>
+                     <cell>C G<lb/>17/18</cell>
+                     <cell>300<lb/>2 Kisten</cell>
+                     <cell>Kg</cell>
+                     <cell>
+                        <hi rend="latintype">Cartons</hi> an dHerren <hi rend="latintype">
+                           <orgName type="firm" ref="K01122">A. Baux<lb/>+E. <hi rend="latintype">Fraissinet in <placeName ref="K00515">Marseille</placeName>
+                              </hi>
+                           </orgName>
+                        </hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>14/16</cell>
+                     <cell>500<lb/>3 Kisten</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <hi rend="latintype">Cartons</hi> an H. <hi rend="latintype">
+                           <orgName type="firm" ref="K01142">Gius.
+                                        Tebaldini<lb/>d'Ant.</orgName>, <placeName ref="K00593">Brescia</placeName>
+                        </hi> für dHerren<lb/>
+                        <hi rend="latintype">
+                           <orgName type="firm" ref="K01124">Escher - Pestalozzi</orgName>
+                           <placeName ref="K00594">Zürich</placeName>
+                        </hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1/13</cell>
+                     <cell>1950<lb/>Kisten</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <hi rend="latintype">Cartons</hi> an dH. <hi rend="latintype">
+                           <orgName type="firm" ref="K01125">Claude Clerc &amp;
+                                        Co.</orgName>
+                        </hi>
+                        <lb/> in <hi rend="latintype">
+                           <placeName ref="K00515">Marseille</placeName>
+                        </hi>für dHerren<lb/>
+                        <hi rend="latintype">
+                           <placeName ref="K01027">Gebr. Mayer +Co.</placeName>, <placeName ref="K00584">St. Gallen</placeName>
+                        </hi>
+                     </cell>
+                  </row>
+               </table> zus 18 Kisten <hi rend="latintype">Cartons</hi>, worüber wir Ihnen<lb/>
+                    mit nächstem <term type="commercial" ref="K01574">Factura</term> einsenden
+                    wer-<lb/> den. Wir werden uns darüber mit<lb/> dem <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> Hause verrechnen.<lb/> Es wurde von hier bis jetzt an<lb/> 6000 <hi rend="latintype">Cartons</hi> verschifft, die mit <measure type="currency" quantity="1.5" unit="itzebue">1 ½</measure>
+               <lb/> à <measure type="currency" quantity="2.75" unit="itzebue">2 ¾</measure>
+               <term type="commercial" ref="K01576">Itzbus</term> pStg bezahlt wurden. Obige<lb/>
+               <hi rend="latintype">Cartons</hi> kosten hier <measure type="currency" quantity="2.25" unit="itzebue">2 ¼</measure>
+               <term type="commercial" ref="K01576">Izbu</term> pStg.<lb/> In der <choice><abbr>holl.</abbr><expan>holländischen</expan></choice> <term type="logistic" ref="K01503">barque</term> „<name type="ship" ref="K01752">
+                  <hi rend="latintype">Jacobus Mar-<lb/> tinus</hi>
+               </name>“ werden wir für Rechnung dHerren<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">
+                     <choice>
+                        <abbr>L. K. +C.</abbr>
+                        <expan>Louis Kniffler &amp; Co.</expan>
+                     </choice>
+                  </orgName>
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> auf die noch offen<lb/>
+            </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_6.tif" n="6"/>
+            <p>stehende <unclear reason="illegible">Police</unclear> hin, die noch von
+                    früher<lb/> aufgegebenen <unclear reason="eccentric_ductus">restirenden</unclear>
+               <add style="textOrientation: straight" resp="writer" place="above">v.</add>
+               <measure type="volume" quantity="1200" unit="picul" commodity="seaweed">1200</measure>
+               <hi rend="latintype">Piculs</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01675">long Seaweed</term> I<hi rend="superscript">a</hi> a$ <measure type="currency" quantity="2.75" unit="mex$" commodity="seaweed">2<hi rend="superscript">75</hi>
+                  </measure>
+                  <term type="measure" ref="K01675">
+                     <choice>
+                        <abbr>ppic</abbr>
+                        <expan>per Picul</expan>
+                     </choice>
+                  </term>,</hi> verschiffen,<lb/> und haben unter Einsendung eines<lb/>
+               <hi rend="latintype">
+                  <term type="logistic" ref="K01801">Survey report</term>
+               </hi> bereits an Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen +Co</orgName>
+               </hi>
+               <lb/> wegen der Sea <term type="commercial" ref="K01587">assecuranz</term>
+                    geschrieben.<lb/> Von <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> lager verkauften<lb/> noch ferner 10 Kisten <hi rend="latintype">
+                  <term type="goods" ref="K01519">Tafachellassen</term>
+               </hi>
+               <lb/> a <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="5" unit="mex$">5.</measure> pStg; worüber wir
+                    Ihnen mit<lb/> Nächstem Weiteres schreiben.<lb/> Die „<hi rend="latintype">
+                  <name type="ship" ref="K01751">Fusiyama</name>
+               </hi>“ geht via dort + <placeName ref="K00503">Sheng-<lb/> hai</placeName>
+                    direct nach <hi rend="latintype">
+                  <placeName ref="K00579">Hankow</placeName>
+               </hi> und hat ca<lb/>
+               <measure type="volume" quantity="11000" unit="picul" commodity="seaweed">11,000
+                        -</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">piculs</term>
+                  <term type="goods" ref="K01675">long Seaweed</term>
+               </hi> geladen.<lb/> Die <hi rend="latintype">„<name type="ship" ref="K01714">Jeanne + Joseph</name>“</hi> ladet ca <measure type="volume" quantity="1600" unit="picul" commodity="seaweed">1,600</measure>
+               <lb/>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">piculs</term>
+                  <term type="goods" ref="K01675">long Seaweed</term>
+               </hi> für <hi rend="latintype">
+                  <placeName ref="K00537">Tientsin</placeName>
+               </hi>.<lb/> Herr <hi rend="latintype">
+                  <persName ref="K00116">Stewart</persName>, <persName ref="K00103">E.
+                            Hübener</persName>
+               </hi> und Herr<lb/>
+               <hi rend="latintype">
+                  <persName ref="K00104">Röhl</persName>
+               </hi> gehen mit dieser Gelegenheit zurück.<lb/> Die <hi rend="latintype">„ <name type="ship" ref="K01520">Princess Royal</name>“</hi> und <hi rend="latintype">„<name type="ship" ref="K01802">Argus</name>“</hi>
+               <lb/> kommen von <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> hier ein. <unclear reason="illegible">Letzteres</unclear>
+               <lb/> Schiff geht in 2 - 3 Tagen nach <unclear reason="eccentric_ductus">dord-</unclear>
+               <lb/> hin zurück.<lb/> Cours des <term type="commercial" ref="K01508">Dollars</term> 100-230 vom.<lb/>
+               <seg rend="right">Wir empfehlen uns Ihnen<lb/>Hochachtungsvollergebenst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01103">Wilkie+Gaertner</orgName>
+                  </hi>
+               </seg>
+               <lb/> P. S. Ihr geehrtes v. <date when="1865-09-18">18<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>v. Mts.</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date> ist uns<lb/>
+               <hi rend="latintype">via <placeName ref="K00525">Yokohama</placeName>
+               </hi> richtig zu Handen gekommen.<lb/>
+               <seg rend="right"><orgName type="firm" ref="K01103">dieselben</orgName>.</seg>
+            </p>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_7.tif" n="7"/>
+            <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_8.tif" n="8"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>⟨1865<lb/>Wilkie &amp; Gaertner<lb/>Hakodade Oct. 8th<lb/>R[eceived] Oct.
+                14th<lb/>a[nswered]/ Oct. 21st⟩</p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+         <p>By means of “Fusiyama”<lb/> Hakodate 8th October 1865<lb/>Messrs. L. Kniffler +
+                Co<lb/>Nagasaki<lb/>We refer you to our respectful letter from<lb/>the 16th of last
+                month, and have since had the <lb/>pleasure of receiving your esteemed letter from
+                <lb/>12th of last mth., and we hope that by the time you <lb/>see[?] this you will
+                have received our earlier <lb/>letters since May because we have<lb/>always sent
+                press-copies of these. <lb/>We thank you for dispatching the Wm.<lb/>Cundall here on
+                a month’s charter for Messrs. <lb/>Siemssen +Co., and received with this <lb/>$
+                17,361._<lb/>which were confirmed and in the interim<lb/>have been credited to the
+                Yokohama <lb/>house.<lb/>What you wrote with regard to the cargo <lb/>of the ship,
+                we have taken careful notice of<lb/>and inform you that for essentially
+                <lb/>completing the cargo we purchased 4,000<lb/>piculs of long seaweed of
+                first-rate quality<lb/>at a price of $ 285 per picul. Getting a contract<lb/>for
+                long seaweed at a cheaper price has <lb/>so far unfortunately been impossible to do
+                <lb/>because up to now[?] no stock was available <lb/>on the market that might have
+                been able <lb/>to depress the, albeit very small, market <lb/>here. The Japanese
+                claim that the <lb/>p.t.o. </p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+         <p>seaweed harvest this year turned out to be<lb/>significantly smaller because, they
+                say, <lb/>the ice at the northern coast of Jesso<lb/>(Minsuits)[?] in spring is said
+                to have <lb/>done so much damage. <lb/>For the order placed with us for <lb/>200
+                piculs of rhino horn[?] at $3 to 7 per pic.<lb/>we give you our sincere thanks
+                <lb/>and hope to be able to achieve the <lb/>requested amounts[?] given.<lb/>At the
+                moment none of it is available here. <lb/>In the case of a shiment to the address
+                <lb/>of Messrs. Kuchee + Co, Shanghai and<lb/> " Messrs Glover + Co, also Shanghai.
+                <lb/>The “Wm Cundall” has already unloaded <lb/> her ballast[?] and we will
+                undertake a survey <lb/>report about this according to your<lb/>wishes and send it
+                to Messrs.<lb/>(L. Kniffler + Co.) Siemssen + Co., <lb/>Shanghai.<lb/>We note that
+                the box of tafachellas <lb/>we recived on the “Selina Jane” <lb/>did not</p>
+         <figure>
+            <figDesc>Company Sign Louis Kniffler &amp; Co. On the line. Letters with distinct serifs LK.C o I</figDesc>
+         </figure>
+         <p>contain 100 but 113 pcs. <lb/>Potential payments to Semple from<lb/>the “Wm. Cundall”
+                we will write down <lb/>on the charter contract received from <lb/>you and will send
+                them in to Messrs. <lb/>Siemssen + C, Shanghai, too. <lb/>We are pleased to learn
+                from Yokohama </p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>that the fire insurance on the buildings <lb/>&amp; goods there are now covered with
+                <lb/>Bp 35,000.-. <lb/>Furthermore, as per enclosed copy,<lb/>we sent a sales
+                invoice to Yokohama<lb/>for<lb/>
+         </p>
+         <table>
+            <row>
+               <cell>260</cell>
+               <cell>Pcs.</cell>
+               <cell>Union Camlets</cell>
+               <cell>at $ 18<hi rend="superscript">50</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>110</cell>
+               <cell>"</cell>
+               <cell>Turk red Cloak</cell>
+               <cell>at $ 5.-</cell>
+            </row>
+            <row>
+               <cell>100</cell>
+               <cell>"</cell>
+               <cell>Tafachelas</cell>
+               <cell>at $ 5<hi rend="superscript">10</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>50</cell>
+               <cell>Pairs</cell>
+               <cell>Blankets</cell>
+               <cell>at $ 5.-</cell>
+            </row>
+            <row>
+               <cell>150</cell>
+               <cell>Kg</cell>
+               <cell>Camlets</cell>
+               <cell>at $ 28.-</cell>
+            </row>
+         </table>
+         <p>for the amount of <lb/>$ 9,586.14<lb/>for which we have debited your<lb/>Yokohama
+                house. <lb/>Mr. v. Brandt returned to Yokohama<lb/>on the “Louisa Braginton”, he
+                withdrew <lb/>here <lb/>$ 469.00<lb/>for which we debit the Yokohama account.
+                <lb/>To Messrs. Siemssen + Co. we remitted<lb/>for the account of the Yokohama
+                house<lb/>in bills of exchange <lb/>
+         </p>
+         <table>
+            <row>
+               <cell>$</cell>
+               <cell>180.15</cell>
+               <cell>TS Buissonet+Co.[?]</cell>
+            </row>
+            <row>
+               <cell>"</cell>
+               <cell>111<hi rend="superscript">00</hi>
+               </cell>
+               <cell>3 T.S.</cell>
+               <cell>2 Aug. Heard +Co.</cell>
+            </row>
+            <row>
+               <cell>"</cell>
+               <cell>864.<hi rend="superscript">47</hi>3 T.S.</cell>
+               <cell>2 Aug. Heard+Co.</cell>
+            </row>
+         </table>
+         <p>for which we debit the same account,<lb/>as well as for <lb/>$ 775.-<lb/>to Messrs.
+                Bollenhagen + Co., Hamburg<lb/>remitted Stko 71.2 Finance Minister.<lb/>We withdraw,
+                however, from Yoko-<lb/>hama house<lb/>p.t.o. </p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_5.tif" n="5"/>
+         <p>$ 600.- 35 S. Z. [?]A. O. Gay Esq.<lb/>a fee which we could not well refuse<lb/>to
+                the local recipient. For the above <lb/>amount the Yokohama account has
+                been<lb/>duly debited.<lb/>Using this occasion for onward carriage <lb/>to Messrs.
+                Siemssen + Co. Shanghai <lb/>by means of “Messageries Imperiales”<lb/>we send</p>
+         <table>
+            <row>
+               <cell>C G<lb/>17/18</cell>
+               <cell>300<lb/>2 boxes</cell>
+               <cell>Kg</cell>
+               <cell>Cartons to Messrs. A. Baux<lb/>+C. Fraissinet in Marseille </cell>
+            </row>
+            <row>
+               <cell>14/16</cell>
+               <cell>500<lb/>3 boxes</cell>
+               <cell>＂</cell>
+               <cell>Cartons to Mr. Gius. Tabaldini<lb/>d'Ant., Brescia for Messrs.<lb/> Escher
+                        - Pestalozzi Zürich</cell>
+            </row>
+            <row>
+               <cell>1/13</cell>
+               <cell>1950<lb/>boxes</cell>
+               <cell>＂</cell>
+               <cell>Cartons to Messrs. Claude Clare +Co.<lb/> in Marseille for Messrs.<lb/>
+                        Gebr. Mayer +Co., St. Gallen</cell>
+            </row>
+         </table>
+         <p> as well as 18 boxes of cartons, for which we<lb/>will send you an invoice with the
+                next<lb/>letter. We will offset this with <lb/>the Yokohama house.<lb/>From here
+                6,000 cartons have been <lb/>shipped so far, which were paid at 1 ½<lb/>to 2 ¾
+                Itzbus per item. The above<lb/>cartons cost 2 ¼ Izbu per item here.<lb/>On the Dutch
+                ship “Jacobus Mar-<lb/> tines” we will ship on the account of <lb/>Messrs. L. K. +C.
+                Yokohama, for the still running</p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_6.tif" n="6"/>
+         <p>policy[?], the previously ordered and<lb/>still outstanding[?]v. 1,200 piculs
+                of<lb/>first-rate long seaweed at $ 2<hi rend="superscript">75</hi> per pic.
+                <lb/>and have in submitting a <lb/>survey report already written to Messrs.
+                <lb/>Siemssen + Co about the maritime insurance.<lb/>From the Yokohama warehouse
+                we<lb/>further sold 10 boxes of tafachellas<lb/>at $ 5. per item; about which we
+                will <lb/>soon write further to you.<lb/>The “Fusiyama” sails via there +
+                Shang-<lb/> hai directly to Hankow and has ca.<lb/> 11,000 piculs of long seaweed on
+                board. <lb/>The “Jeanne + Joseph” is loading ca. 1,600<lb/>piculs of long seaweed
+                for Tientsin.<lb/>Mr. Stewart, E. Hübener and Mr.<lb/>Röhl are using this occasion
+                to return.<lb/>The “Princess Royal” and “Argus”<lb/>came into port here from
+                Yokohama. The<lb/>latter ship will return there in 2 - 3 <lb/>days. <lb/>Dollar rate
+                is 100-230 nominally.<lb/>We take our leave <lb/>Yours sincerely and
+                respectfully<lb/>Wilkie + Gaertner<lb/>P. S. Your esteemed letter from 18th of last
+                month <lb/>has reached us safely via Yokohama.<lb/>The above.</p>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_7.tif" n="7"/>
+         <pb facs="1865_10_08_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_8.tif" n="8"/>
+      </body>
+   </text>
+</TEI>

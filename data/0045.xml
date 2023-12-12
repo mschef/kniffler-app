@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edw. Sonna &amp; Aug. Miller (Peninsular &amp; Oriental Steam Navigation
+                    Company) auf Malta an L. Kniffler &amp; Co. in Nagasaki am 14. Dezember
+                    1864</title>
+            <title type="file">0045.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-45</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p> Ein Doppelbogen. Eine Seite Anschreiben, eine Seite Eingangsnotiz sowie
+                            ein Zusatz von anderer Hand. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01060">Peninsular &amp; Oriental Steam Navigation
+                        Company</orgName>
+               <persName ref="K00095">Sonna, Edw.</persName>
+               <persName ref="K00096">Miller, Aug.</persName>
+               <settlement ref="K00570">Malta</settlement>
+               <date when="1864-12-14"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-02-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-12-11" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-03" who="MS">Anpassung des TEI-Headers an neuestes Schema;
+                Transkription Faksimile-Seite 4; Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1864_12_14_Kniffler_Nagasaki_von_Peninsular_Oriental_Steam_Company_Malta_1.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp type="postal" style="round">
+                  <placeName ref="K00509">HONG KONG</placeName>
+                  <lb/>C<lb/>
+                  <gap quantity="1"/>A 25<lb/>
+                  <unclear>65</unclear>
+               </stamp>
+               <lb/>
+               <stamp type="postal" style="round">
+                  <placeName ref="K00570">MALTA</placeName>
+                  <lb/>
+                  <date when="1864-12-15">DE 15<lb/>64</date>
+               </stamp>
+               <lb/> Messrs. <orgName type="firm" ref="K01004">L. Kniffler Co.</orgName>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>.<lb/>
+               <placeName ref="K00502">Japan</placeName>.</seg>
+            <lb/>
+            <add resp="other" place="marginRight" style="writingMode: vertical-lr; textOrientation: sideways-right">1864<lb/>
+               <placeName ref="K00570">Malta</placeName>
+               <date when="1864-12-10">10Decb</date>
+               <lb/>
+               <orgName type="firm" ref="K01060">P.O. Company</orgName>
+               <lb/>
+               <hi rend="underline">Ru <date when="1865-02-05">5 feb</date>
+                  <lb/>
+                  <date when="1865-02-18">18 feb</date>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1864_12_14_Kniffler_Nagasaki_von_Peninsular_Oriental_Steam_Company_Malta_2.tif" n="2"/>
+         <p>
+            <seg rend="center">
+               <hi rend="print">
+                  <hi rend="underline"/>
+                  <placeName ref="K00570">MALTA</placeName>
+               </hi>
+            </seg>
+            <lb/> No 542<lb/>
+            <seg rend="right">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01060">Peninsular and Oriental Steam Navigation
+                            Company</orgName>.</hi>
+               <lb/>
+               <date when="1864-12-14">
+                  <hi rend="underlineDashed">14 December</hi>
+                  <hi rend="print">18</hi>64</date>
+            </seg>
+            <lb/> Messr L <orgName type="firm" ref="K01004">Kniffler C<hi rend="superscript">o</hi>
+            </orgName>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00514">Nagasaki</placeName> -</seg>
+            <lb/> Gentlemen,<lb/> Enclosed we beg to hand<lb/> you <term type="logistic" ref="K01515">Bill of Lading</term> for <hi rend="underline">K</hi> C <measure type="volume" quantity="1" unit="box" commodity="corals">1</measure> Case<lb/>
+            <term type="goods" ref="K01735">Corals</term> Value <hi rend="underline">
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="160" unit="britPound" commodity="corals">160</measure>
+            </hi>- shipped per<lb/> SS "<name type="ship" ref="K01736">Syria</name>" leaving
+                this evening-<lb/> As our Companys' Steamers<lb/> do not touch at your Place and
+                the<lb/> nearest to it being <placeName ref="K00503">Shanghae</placeName>, we<lb/>
+                forwarded the Box to our Agent<lb/> there, who will either send it on<lb/> if an
+                opportunity offers itself, or<lb/> retain the same until he receives<lb/> your instructions<lb/>
+            <seg rend="right">We are, Gentlemen<lb/> Your obt Servants<lb/>
+               <persName ref="K00095">Edw. Sonna</persName>
+               <lb/>
+               <persName ref="K00096">Aug Miller</persName>
+               <lb/> acting agents<lb/>
+               <orgName type="firm" ref="K01060">PTO</orgName>
+            </seg>
+         </p>
+         <pb facs="1864_12_14_Kniffler_Nagasaki_von_Peninsular_Oriental_Steam_Company_Malta_3.tif" n="3"/>
+         <pb facs="1864_12_14_Kniffler_Nagasaki_von_Peninsular_Oriental_Steam_Company_Malta_4.tif" n="4"/>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="writer">Memo of Expences defrayed by Messr.<lb/>
+               <orgName type="firm" ref="K01097">Walser + Sons</orgName> of <placeName ref="K00571">Leghorn</placeName> on the<lb/> Case Corals marked <orgName type="firm" ref="K01004">K+Co.</orgName> No 1.<lb/> Freight <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="4" unit="britPound" commodity="freightage">4.0.0</measure>
+               <lb/> Charges + Postge <term type="commercial" ref="K01522">
+                  <unclear>si</unclear>
+                  <choice>
+                     <abbr>"</abbr>
+                     <expan>£</expan>
+                  </choice>
+               </term>
+               <measure type="currency" quantity="0.76" unit="britPound" commodity="fees">7
+                        6</measure>.<lb/>
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="4.76" unit="britPound">4.7.6</measure>
+               <lb/> At the Exchange of the <unclear>day</unclear> £ <measure type="currency" quantity="4.86" unit="britPound">4:8:6:</measure>
+               <lb/>
+            </add>
+         </p>
+      </body>
+   </text>
+</TEI>

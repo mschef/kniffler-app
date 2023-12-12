@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>C. H. Wyville in Nagasaki an L. Kniffler &amp; Co. in Nagasaki am 23.
+                    November 1865</title>
+            <title type="file">0063.xml</title>
+            <editor>Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-62</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen, zwei Seiten Anschreiben, eine Verkaufsrechnung und eine
+                            unvollständige Eingangsnotiz auf der letzten Seite.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00129">Wyville, C. H. </persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-11-23"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2021-02-02" who="MS">diplomatische Transkription, Auszeichnung von
+                Personen-, Orts- und Sachnamen</change>
+         <change when="2021-02-10" who="MS">Korrekturen im TEI-Header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="underline">1865</hi>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>
+               <date when="1865-11-23">23 Nov 65</date>
+               <lb/>
+               <persName ref="K00129">C.H. Wyville</persName>
+               <lb/> rs <date when="1865-11-28">28/11 65</date>
+            </seg>
+            <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_2.tif" n="2"/>
+            <seg rend="right">
+               <placeName ref="K00514">Nagasaki</placeName>
+               <lb/>
+               <date when="1865-11-23">23d Nov. 1865</date>
+            </seg>
+            <lb/>
+            <seg rend="left">Mess.<hi rend="superscript">rs</hi>
+               <orgName type="firm" ref="K01004">Kniffler + Co.</orgName>
+               <lb/> Gent<hi rend="superscript">n</hi>.,</seg>
+            <lb/> I have <choice>
+               <abbr>rec.<hi rend="superscript">d</hi>
+               </abbr>
+               <expan>received</expan>
+            </choice> your reply to<lb/> my note of this date in which<lb/> you desire me to
+                render<lb/> a/c sales before you comply<lb/> with my request for another<lb/>
+            <unclear reason="illegible">investor</unclear> of the Drums.<lb/> Account sales
+                would have<lb/> been sent you long since<lb/> had there been anything<lb/> to render
+                of consequence.<lb/> Enclosed herewith please<lb/> find a/c sales <choice>
+               <abbr>amt.ng</abbr>
+               <expan>amounting</expan>
+            </choice> to <term type="currency" ref="K01508">$</term>
+            <measure type="currency" quantity="28.25" unit="mex$">28,25</measure>
+            <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_3.tif" n="3"/>
+            <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_4.tif" n="4"/>
+                for which the cash<lb/> awaits your order.<lb/> I have remaining on hand<lb/>
+                subject to your order the<lb/> following articles<table>
+               <row>
+                  <cell>1 Large <term type="goods" ref="K01634">Marble Slab</term>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 1 Small <choice>
+                        <abbr>do. do.</abbr>
+                        <expan>detto detto</expan>
+                     </choice>
+                  </cell>
+               </row>
+               <row>
+                  <cell> 1 <term type="goods" ref="K01798">Lefaucheux</term> Revolver in
+                            case</cell>
+               </row>
+               <row>
+                  <cell> + <measure type="volume" quantity="200" commodity="ammunition">200</measure>
+                     <term type="goods" ref="K01639">Cartridges</term> for <choice>
+                        <abbr>do.</abbr>
+                        <expan>detto</expan>
+                     </choice>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <add style="textOrientation: straight" resp="other" place="inline">1
+                                short <term type="goods" ref="K01605">Enfield rifle</term>
+                     </add>
+                  </cell>
+               </row>
+            </table>
+            <lb/> I am<lb/>
+            <seg rend="center">Gentlemen</seg>
+            <lb/>
+            <seg rend="right">Your <choice>
+                  <abbr>obdt. svt.</abbr>
+                  <expan>obedient servant</expan>
+               </choice>
+               <lb/>
+               <persName ref="K00129">C. H. Wy<hi rend="underline">ville</hi>
+               </persName>
+            </seg>
+            <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_5.tif" n="5"/> Account Sales of sundries<lb/> sol<hi rend="underline">d for</hi>
+            <hi rend="superscript">a</hi>/c <hi rend="underline">of Mess</hi>.<hi rend="superscript">rs</hi> Knif<hi rend="underline">fler +</hi> Co.<table>
+               <row>
+                  <cell>1 <term type="goods" ref="K01634">Marble Slab</term>
+                     <measure type="currency" unit="mex$" quantity="15">15.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>1 Drum – <hi rend="underline">
+                        <measure type="currency" unit="mex$" quantity="15">15.00</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>–Charges– <term type="currency" ref="K01508">$</term>
+                     <measure type="currency" unit="mex$" quantity="30">30.00</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Less Commission 5% <measure type="currency" unit="mex$" quantity="1.5">1.50</measure>1.50</cell>
+               </row>
+               <row>
+                  <cell>
+                     <choice>
+                        <abbr>"</abbr>
+                        <expan>Less</expan>
+                     </choice> Bout? Stire? <hi rend="underline">.25</hi>
+                     <hi rend="underline">
+                        <measure type="currency" unit="mex$" quantity="1.755">1.75</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Net proceeds <term type="currency" ref="K01508">$</term>
+                     <measure type="currency" unit="mex$" quantity="28.25">2<hi rend="underline">8.25</hi>
+                     </measure>
+                  </cell>
+               </row>
+            </table>
+            <lb/>
+            <seg rend="left">E.+O. <unclear>G.</unclear>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>
+               <lb/>
+               <date when="1865-11-23">23.<hi rend="superscript">d</hi> Nov. 1865</date>
+            </seg>
+            <seg rend="right">
+               <persName ref="K00129">C.H. Wy<hi rend="underline">vi</hi>lle</persName>
+               <lb/>Au<hi rend="underline">ction</hi>eers</seg>
+         </p>
+         <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_6.tif" n="6"/>
+         <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_7.tif" n="7"/>
+         <pb facs="1865_11_23_Kniffler_unklar_von_Nyville(unsicher)_Nagasaki_8.tif" n="8"/>
+         <p> Wyville </p>
+      </body>
+   </text>
+</TEI>

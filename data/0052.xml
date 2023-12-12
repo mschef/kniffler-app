@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kreglinger &amp; Co. in Amsterdam an L. Kniffler &amp; Co. in Nagasaki am 16. Mai 1865</title>
+            <title type="file">0052.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-52</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Umschlagsseite mit mehreren Stempeln und einer Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01036">Kreglinger &amp; Co.</orgName>
+               <settlement ref="K00529">Amsterdam</settlement>
+               <date when="1865-05-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2019-01-10" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-05" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen</change>
+         <change when="2020-11-06" who="MS">Verknüpfung der Faksimiles</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <watermark style="textOrientation: upside-down">
+                     <orgName type="firm" ref="K01036">KREGLINGER &amp; CO</orgName>
+                     <lb/>
+                     <placeName ref="K00529">AMSTERDAM</placeName>
+                  </watermark>
+                  <lb/>
+                  <stamp type="postal" style="round">
+                     <unclear reason="faded">
+                        <placeName ref="K00503">SHANGHAI</placeName>
+                        <lb/>
+                        <date when="1865-07-01">1<lb/>JUIL<lb/>65</date>
+                        <lb/>
+                        <gap quantity="3" unit="char"/>FRANCAIS</unclear>
+                  </stamp>
+                  <lb/>
+                  <hi rend="latintype">
+                     <hi rend="underline">via <placeName ref="K00515">Marseille</placeName>
+                     </hi>
+                  </hi>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00529">AMSTERDAM</placeName>
+                     <lb/>
+                     <date when="1865-05-16">16/5</date>
+                     <lb/>5-9<lb/>65</stamp>
+                  <stamp style="rectangular" type="postal">P. P.</stamp>
+                  <lb/>
+                  <hi rend="latintype">De Heeren</hi>
+                  <stamp type="postal" style="rectangular">FRANCO</stamp>
+                  <stamp type="postal" style="round">
+                     <gap quantity="2" unit="line"/>
+                     <date when="1865-05">MAI <lb/>65</date>
+                     <gap quantity="1" unit="line"/>
+                  </stamp>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o.</hi>
+                     </orgName>
+                  </hi>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00529">AMSTERDAM</placeName>
+                     <lb/>
+                     <date when="1865-05-16">16/5</date>
+                     <lb/>12-5<lb/>65</stamp>
+                  <lb/>
+                  <stamp type="commercial" style="oval">
+                     <orgName type="firm" ref="K01036">KREGLINGER &amp; CO.</orgName>
+                     <lb/>
+                     <placeName ref="K00529">AMSTERDAM</placeName>
+                  </stamp>
+                  <lb/>
+                  <hi rend="latintype">
+                     <hi rend="underline">
+                        <placeName ref="K00502">Japan</placeName>
+                        <placeName ref="K00514">Nagasaki</placeName>
+                     </hi>
+                  </hi>
+               </seg>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="latintype">1865<lb/>
+                     <placeName ref="K00529">Amsterdam</placeName>
+                     <date when="1865-05-16">16/5</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01036">Kreglinger +Co.</orgName>
+                     <lb/>R</hi>
+               </add>
+            </p>
+            <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00529">Amsterdam</placeName>
+                     <date when="1865-05-16">16 Mai 1865</date>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o.</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wir bestätigen Ihnen unser <choice>
+                  <abbr>erg.</abbr>
+                  <expan>ergebenes</expan>
+               </choice> letztes Schreiben<lb/> vom <date when="1865-02-09">9 Febr</date> und erhalten dagegen Ihr Werthes<lb/> vom <date when="1865-03-09">9 März</date> woraus wir gern den
+                    richtigbefund<lb/> des Ihnen eingesandten <hi rend="latintype">Contocorrents</hi> ersehen.<lb/> per Schiffs gelegenheit avisirten wir Ihnen<lb/> folgende Sendungen<lb/> 5 <hi rend="latintype">
+                  <date when="1865-04-05">April</date> per <name type="ship" ref="K01744">Jacqueline-Elise</name>
+                  <persName ref="K00098">capt. I H Krukkenberg</persName>
+               </hi>
+               <lb/>
+               <table>
+                  <row>
+                     <cell>D</cell>
+                     <cell> 27/28</cell>
+                     <cell>
+                        <measure type="volume" quantity="2" unit="box" commodity="hats">2</measure> Kisten <term type="goods" ref="K01745">Hüthe</term> von Sendung Herren<lb/>
+                        <hi rend="latintype">
+                           <orgName type="firm" ref="K01099">N. H. Dubbers</orgName>, <placeName ref="K00576">Altona</placeName>
+                        </hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <figure>
+                           <figDesc>Firmenmarke Raschle &amp; Co. Großbuchstaben auf halber Zeile durch Bruchstrich getrennt. Auf dem Bruchstrich K + C unter dem Bruchstrich R</figDesc>
+                        </figure>
+                     </cell>
+                     <cell> 19/24<lb/>
+                     </cell>
+                     <cell>6 " Manufacturen von Sendung <lb/>
+                        <hi rend="latintype">
+                           <orgName type="firm" ref="K01101">I. R. Raschle &amp; Co.</orgName>, <placeName ref="K00577">Wattwyl</placeName>
+                        </hi>
+                     </cell>
+                  </row>
+               </table>
+               <hi rend="latintype">
+                  <date when="1865-05-01">1 Mai</date> per. <name type="ship" ref="K01746">Julie</name>
+                  <persName ref="K00099">cap. Cherpion</persName>
+               </hi>
+               <table>
+                  <row>
+                     <cell>
+                        <figure>
+                           <figDesc>Firmenmarke Mechanische Webereien Altstätten. Dreizeiliges Logo, oberhalb und unterhalb der Zeile, mit Kruckenkreuz und Buchstaben mit ausgeprägten Serifen. Oberhalb der Zeile ☩, in der Zeile MW und unter der Zeile A</figDesc>
+                        </figure>
+                     </cell>
+                     <cell>301/304</cell>
+                     <cell>4 Kisten Manufacturen von Sendung<lb/>der <hi rend="latintype">
+                           <orgName type="firm" ref="K01157">Mechanischen Weberei</orgName> in <placeName ref="K00578">Altstätten</placeName>
+                        </hi>
+                     </cell>
+                  </row>
+               </table> wir wünschen Ihnen deren guten Empfang und<lb/> bitten Sie, damit nach Willen der respectiren,<lb/> Versender zu verfahren.<lb/> Ueber unseren Markt haben wir nichts<lb/>
+                    wesentliches zu berichten<lb/> Die Zulage bitten wir an Ihre Firma in<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> zu befördern.<lb/>
+               <seg rend="right">Wir zeichnen hochachtend<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01036">Kreglinger +Co.</orgName>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_3.tif" n="3"/>
+            <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_1.tif" n="envelope"/>
+         <p>KREGLINGER &amp; CO<lb/>AMSTERDAM<lb/>SHANGHAI<lb/>1<lb/>JUIL<lb/>65<lb/>FRANCAIS[?]<lb/>via Marseille <lb/>AMSTERDAM<lb/>16/5<lb/>5-9<lb/>65<lb/>P.
+                P.<lb/>Messrs.<lb/>FRANCO<lb/>[...]MAI <lb/>65[...] <lb/>L. Kniffler + Co. <lb/>AMSTERDAM<lb/>16/5<lb/>12-5<lb/>65<lb/>KREGLINGER &amp; CO. <lb/>AMSTERDAM<lb/>Japan
+                Nagasaki<lb/>⟨1865<lb/>Amsterdam 16/5<lb/>Kreglinger +Co.<lb/>R⟩</p>
+         <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_2.tif" n="2"/>
+         <p>Amsterdam 16th May 1865<lb/>Messsrs. L. Kniffler + Co.<lb/>Nagasaki Japan<lb/>We confirm for you our respectful last letter <lb/>from 9th Feb and have received your esteemed letter
+                <lb/>from 9th March, from which we are pleased to see the<lb/>confirmation of the current account sent to you. <lb/>In terms of shipping matters we have notified you <lb/>of the
+                following shipments <lb/>5th April on the “Jacqueline-Elise” under captain I. H. Krukkenberg<lb/>
+            <table>
+               <row>
+                  <cell>D[ubbers] </cell>
+                  <cell>27/28</cell>
+                  <cell>2 boxes of hats from shipment Messrs. <lb/>N. H. Dubbers, Altona</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Company Sign Raschle &amp; Co. Capital letters are separated along the middle of the line with a dividing line. On the dividing line are the letters K + C, underneath it the letter R</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>19/24</cell>
+                  <cell>6 " of textiles from shipment <lb/>I. R. Raschle &amp; Co., Wattwyl</cell>
+               </row>
+            </table> 1st May on the “Julie” under captain Cherpion <table rend="rules">
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Company Sign Mechanische Webereien Altstätten. Three-line logo set above, on and below the row, featuring a crutch cross and letters with distincitve serifs. Above the row is the cross ☩, within the row the letters MW and underneath the row the letter A</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>301/304</cell>
+                  <cell>4 boxes of textiles from shipment by Mechanische Weberei in Altstätten</cell>
+               </row>
+            </table> We wish you the safe receipt of these and ask<lb/>that you proceed with them in line with the wishes of<lb/>the respective senders.<lb/>About our market we have nothing
+                significant <lb/>to report. <lb/>The insert we ask you to forward to your <lb/>company in Yokohama.<lb/>We sign Yours respectfully <lb/>Kreglinger +Co.</p>
+         <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_3.tif" n="3"/>
+         <pb facs="1865_05_16_Kniffler_Nagasaki_von_Kreglinger_Amsterdam_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

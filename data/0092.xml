@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George A. Schöttler (Preußisches Konsulat) in Nagasaki an L. Kniffler &amp;
+                    Co. in Nagasaki am 11. Februar 1869</title>
+            <title type="file">0092.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-91</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben auf der letzten Seite eine
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="gov" ref="01035">Preußisches Konsulat</orgName>
+               <persName ref="K00023">Schöttler, George A.</persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-02-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-02-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-10-02" who="TP">Diplomatische Transkription</change>
+         <change when="2020-09-09" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachbezeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_1.tif"/>
+         <p>
+            <seg rend="right">
+               <hi rend="print">
+                  <orgName type="gov" ref="K01035">
+                     <choice>
+                        <abbr>H. P. M's.</abbr>
+                        <expan>His Prussian Majesty's</expan>
+                     </choice> Consulate</orgName>
+               </hi>
+               <lb/>
+               <hi rend="print">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+               <hi rend="latintype">
+                  <date when="1869-02-11">11. Februar 1869</date>
+               </hi>
+            </seg>
+            <lb/>
+            <hi rend="print">No.</hi>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">Hier. </seg>
+            <lb/> Die japanesischen Behörden machen mir die<lb/> Mittheilung, daß Chinesen in
+                    <hi rend="latintype">
+               <placeName ref="K00502">Japan</placeName>
+            </hi> wohnhaft,<lb/> eigene Geschäfte treibend oder <del rend="overstrike">von</del>
+                in Diensten von<lb/> Fremden sich befinden von jetzt an unter japane-<lb/> sischen
+                Schutz stehen und gleich mit japanesischen<lb/> Unterthanen stehen also dem Gesetze
+                    <hi rend="latintype">
+               <placeName ref="K00502">Japans</placeName>
+            </hi> sich<lb/> zu unterwerfen haben.<lb/> Chinesen hier in <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> wohnhafte haben sich<lb/> am <date when="1869-02-25">25 <hi rend="latintype">Februar</hi> dieses Jahres</date> im <hi rend="latintype">Japanesischen</hi> Zoll-<lb/> hause einzufinden sich zu legimitiren um
+                registrirt<lb/> zu werden.<lb/> Aus den diesseitigen Unterthanen Register
+                ersehe<lb/> ich daß Ihre Firma verschiedene Chinesen beschäftigt<lb/> und ersuche
+                ich Sie dieselben mit dem obigen Erlas<lb/> se der japanesischen Regierung bekannt
+                zu machen<lb/>
+            <seg rend="right">Hochachtungsvoll<lb/>
+               <hi rend="latintype">
+                  <persName ref="K00023">G. Schöttler</persName>
+                  <lb/> Consul ad interim</hi>
+            </seg>
+         </p>
+         <pb n="2" facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_2.tif"/>
+         <pb facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_3.tif" n="3"/>
+         <pb facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">1869<lb/>
+                  <hi rend="latintype">G. Schöttler<lb/> Consul <choice>
+                        <abbr>a. i.</abbr>
+                        <expan cert="high">ad interim</expan>
+                     </choice>
+                     <lb/>
+                     <date when="1869-02-11">11. febr</date>
+                     <lb/>
+                     <unclear>b</unclear>
+                     <date when="1869-02-12">12 febr</date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb n="1" facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_1.tif"/>
+         <p>H. P. M's. Consulate<lb/>Nagasaki 11th February 1869<lb/>No.<lb/>Messrs. L. Kniffler
+                +Co.<lb/>Here. <lb/>The Japanese authorities have informed me <lb/>that Chinese
+                people who are resident in Japan, <lb/>who carry on their own business or are
+                employed <lb/>by in the service of foreigners will from now on be under<lb/>Japanese
+                protection and have the same status as Japanese <lb/>subjects, thus also having to
+                submit to the laws of <lb/>Japan.<lb/>Chinese people resident here in Nagasaki will
+                have to <lb/>report to the Japanese custom house on February 25th <lb/>of this year
+                to prove their identity in order to be <lb/>registered.<lb/>From the local register
+                of subjects I can see that<lb/>your company employs a number of Chinese people
+                <lb/>and I request that you introduce them to the <lb/>abovementioned edict of the
+                Japanese government. <lb/>Yours sincerely<lb/>G. Schöttler<lb/>Consul ad interim</p>
+         <pb n="2" facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_2.tif"/>
+         <pb facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_3.tif" n="3"/>
+         <pb facs="1869_02_11_Kniffler_Nagasaki_von_HPM_Consulate_4.tif" n="4"/>
+         <p>⟨1869<lb/>G. Schöttler<lb/>Consul a. i.<lb/>11th Feb.<lb/>a[nswered] 12th Feb.⟩</p>
+      </body>
+   </text>
+</TEI>

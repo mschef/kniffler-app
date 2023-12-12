@@ -1,0 +1,50 @@
+{
+    "browse": {"date": "Datum"},
+    "langs": {
+        "de": "Deutsch",
+        "en": "Englisch",
+        "nl": "Niederländisch",
+        "fr": "Französisch",
+        "ja": "Japanisch"
+    },
+    "sender": {
+        "location": "Absenderort",
+        "date": "Absendedatum",
+        "orgName": "Absender (Organisation)",
+        "persName": "Absender (Person)"
+    },
+    "addressee": {
+        "location": "Empfängerort",
+        "date": "Empfangsdatum",
+        "orgName": "Empfänger (Organisation)",
+        "persName": "Empfänger (Person)"
+    },
+    "metadata": {
+        "self": "Metadaten",
+        "title": "Titel",
+        "edition": "Redaktion",
+        "translation": "Übersetzung",
+        "sender": "Absender",
+        "datesent": "Absendedatum",
+        "addressee": "Empfänger",
+        "datereceived": "Empfangsdatum",
+        "repository": "Repositorium",
+        "physicaldesc": "Physische Beschreibung",
+        "sourcelang": "Originalsprache"
+    },
+    "menu": {
+        "back": "Zurück",
+        "about": "Über die Edition",
+        "guidelines": "Editionsrichtlinien",
+        "indices": "Register",
+        "bibl": "Literaturverzeichnis (Zotero)",
+        "org": "Organisationsregister",
+        "place": "Ortsregister",
+        "pers": "Personenregister",
+        "termgood": "Waren- und Sachregister",
+        "imprint": "Impressum",
+        "aboutKniffler":"Über L. Kniffler & Co. (1859–1880)",
+        "aboutSources":"Über die Quellen"
+    },
+    "facets": {"showAll": "Alle zeigen"}
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George A. Schöttler (Norddeutsches Bundeskonsulat) in Nagasaki an L. Kniffler
+                    &amp; Co. Nagasaki am 27. November 1869</title>
+            <title type="file">0112.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eingangsvermerk auf der Außenseite, innen zwei Seiten
+                            beschrieben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="gov" ref="K01039">Norddeutsches Bundeskonsulat</orgName>
+               <persName ref="K00023">Schöttler, George A.</persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-11-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date notBefore="1896-11-27" notAfter="1869-11-29"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-11" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-11" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <orgName type="gov" ref="K01039">Norddeutsches Bundes Consulat</orgName>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName> den </hi>
+               <date when="1869-11-27">
+                  <hi rend="superscript">27ten</hi>
+                  <hi rend="latintype">Novb.</hi> 1869</date>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler+C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">Nagasaki</hi>
+            </seg>
+            <lb/> In Ihrer Sache gegen Herrn <persName ref="K00033">
+               <hi rend="latintype">C. E.<lb/> Boeddinghaus</hi>
+            </persName>
+            <unclear>
+               <choice>
+                  <abbr>hins.</abbr>
+                  <expan> hinsichtlich</expan>
+               </choice>
+            </unclear> Bezahlung von<lb/> Spesen nebst Zinsen, auf eine von ihm<lb/> übernommene
+                    <unclear>Farben</unclear>sendung der Herren<lb/>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01040">C. E <unclear reason="illegible">Streckeder</unclear>
+               </orgName>, <placeName ref="K00535">Barmen</placeName>
+            </hi> betreffend,<lb/> habe ich Ihnen mitzutheilen, daß Herr<lb/>
+            <persName ref="K00033">Boeddinghaus</persName>, die Waaren in Em-<lb/> pfangen will,
+                die darauf haftenden Spesen<lb/> nebst Zinsenzuschlag bis zum Tage der Em-<lb/>
+                pfangnahme à 9% <choice>
+               <abbr>pannum</abbr>
+               <expan cert="low">per annum</expan>
+            </choice> entrichten<lb/> wird.<lb/> Auf besondern Antrag und Ersuchen des<lb/>
+                Herrn <hi rend="latintype">
+               <persName ref="K00033">Boeddinghaus</persName>
+            </hi>, ihm eine Frist<lb/> der Zahlung zu bewilligen, habe ich den<lb/> Termin der
+                Empfangnahme der Waaren<lb/> und Bezahlung Ihrer Forderung auf<lb/> Dienstag den
+                    <date when="1869-11-30">30<hi rend="superscript">ten</hi>
+               <hi rend="latintype">November</hi>
+            </date>
+            <hi rend="latintype">Mittags 12.</hi>
+            <lb/>
+            <hi rend="latintype"> Uhr </hi>angesetzt. Die Summe von <term type="currency" ref="K01508">$</term>
+            <measure type="currency" quantity="600" unit="mex$">600_.</measure>
+            <lb/> als theilweise Zahlung ist mir bereits einge-<lb/> händigt worden:<lb/> Sie
+                wollen mir deßhalb Ihre Con-<lb/> to Courant bis zum obigen Termine<lb/> laufend
+                bald einsenden und würden da-<lb/> rin auf Zinsen für den Creditsaldo in<lb/>
+                Anrechnung zu bringen sein<lb/> Betreffs des anscheinlich hohen Ansatzes<lb/> der
+                Lagermiethe, in den <hi rend="latintype">
+               <orgName type="firm" ref="K01041">Banaia Ware-<lb/> houses</orgName>
+            </hi> in <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi>, ersucht Herr<persName ref="K00033">
+               <choice>
+                  <abbr>B.</abbr>
+                  <expan>Boeddinghaus</expan>
+               </choice>
+            </persName>
+         </p>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_2.tif" n="2"/>
+         <p> Sie Ihre Firma daselbst zu veranlassen, dieses nach<lb/> zusehen und wenn ein
+                Irrthum vorgefallen<lb/> ist, den Unterschied zu vergüten. Die Gouvern<lb/> ments
+                    <unclear>tarife</unclear> scheinen die angesetzten Sätze<lb/> nicht zu
+                erwähnen.<lb/> Herrn <hi rend="latintype">
+               <persName ref="K00033">C. E. Boeddinghaus</persName>
+            </hi> habe<lb/> ich ferner eröffnet: im Falle der oben ange<lb/> setzte
+                Zahlungstermin von ihm nicht einge<lb/> halten wird, nach Ablauf desselben,
+                Ihnen<lb/> der <unclear>Recurs</unclear> zum Zurückerhaltungsrecht der<lb/> Waaren,
+                zur Deckung der <del rend="overwritten">
+               <unclear reason="illegible">nicht</unclear>
+            </del>, auf die Güter<lb/> haftenden, <add style="textOrientation: straight" resp="writer" place="above">un</add>befriedigten Forderungen zusteht<lb/>
+            <seg rend="right">Achtungsvoll<lb/>
+               <persName ref="K00023">G Schötter</persName>
+               <lb/> Bundesconsul ad interrim</seg>
+         </p>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_3.tif" n="3"/>
+         <pb n="4" facs="1869_11_24_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_4.tif"/>
+         <p>
+            <add style="textOrientation: straight" resp="other" place="marginRight">1869<lb/>
+               <hi rend="latintype">G Schöttler<lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+                  <date when="1869-11-27">27 Noveber</date>
+                  <lb/> beantwort a. <date when="1869-11-29">29. Novbr</date>.</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_1.tif" n="1"/>
+         <p>Consulate of the North German Confederation <lb/>Nagasaki 27th Nov. 1869<lb/>Messrs.
+                L. Kniffler+Co.<lb/>Nagasaki<lb/>Regarding your case against Mr. C.
+                E.<lb/>Boeddinghaus concerning[?] the payment of <lb/>expenditure plus interest for
+                a shipment of <lb/>paints[?] taken on by him from Messrs. <lb/>C. E Streckeder[?],
+                Barmen, I have to<lb/>inform you that Mr. Boeddinghaus <lb/>wants to receive the
+                wares and<lb/>will pay the expenditure connected to it <lb/>plus additional interest
+                until the day of receipt<lb/>at 9% per annum. <lb/>At Mr. Boeddinghaus’s special
+                <lb/>request to permit him time to make the <lb/>payment, I have set the date
+                <lb/>of his receiving the goods and <lb/>paying for your shipment as <lb/>Tuesday
+                30th November at <lb/>12 noon. The sum of 600_.<lb/>has already been made to me as
+                part<lb/>payment:<lb/>Would you therefore please supply<lb/>me with your current
+                account made up <lb/>to the above date and the interest <lb/>in this for the credit
+                balance will be <lb/>added accordingly. <lb/>With regard to the apparently high
+                entry <lb/> for storage rental at the Banaia ware-<lb/> houses in Yokohama, Mr. B.
+                requests</p>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_2.tif" n="2"/>
+         <p>that you ask your company there to check <lb/>this and, if an error was made, to
+                <lb/>reimburse the difference. The government’s <lb/>tariffs[?] do not seem to
+                mention the quoted <lb/>rates. <lb/>I have further broken the following to<lb/>Mr.
+                C. E. Boeddinghaus: in the case that he does <lb/>not adhere to the agreed payment
+                date <lb/>you will, after the date has lapsed, be <lb/>entitled to recourse[?] of
+                the right to reclaim <lb/>the goods, for covering the <del rend="overstrike">not</del> unfulfilled <lb/>demands connected to the goods.<lb/>Yours
+                respectfully<lb/> G Schöttler<lb/> Confederate consul ad interim</p>
+         <pb facs="1869_11_27_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_3.tif" n="3"/>
+         <pb n="4" facs="1869_11_24_Kniffler_Nagasaki_von_Norddeutsches_Bundes_Consulat_Nagasaki_4.tif"/>
+         <p>⟨1869<lb/>G Schöttler<lb/>Nagasaki 27th November<lb/>answered on 29th Nov.⟩</p>
+      </body>
+   </text>
+</TEI>

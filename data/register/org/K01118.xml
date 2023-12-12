@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Russell &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01118">
+               <orgName type="firm">Russell &amp; Co.</orgName>
+               <settlement>Kanton</settlement>
+               <note>1819 in Kanton gegründetes Unternehmen des Amerikaners Samuel Russell (1789-1862). Nach anfänglichen Schwierigkeiten gelang es Russell &amp; Co., sich ab den 1830er Jahren als
+                  eines der führenden ausländischen Handelshäuser in China zu etablieren. Trotz der Einwände des Teilhabers John C. Green (1800-1875) beteiligte sich Russell &amp; Co. auch am
+                  Opiumhandel. 1836 zog sich der Gründer aus der Firma zurück, 1842 wurde eine Filiale in Macao eröffnet. Russells Firma betäigte sich später im Aufbau weiterer Geschäftsfelder. 1861
+                  erfolgte die Ausgründung einer eigenen Dampfschifffahrtsgesellschaft in Shanghai, der Shanghai Steam Navigation Co. 1865 war Russell &amp; Co. eine der beteiligten Firmen beim Aufbau
+                  der Hongkong &amp; Shanghai Banking Corporation (HSBC). 1891 wurde das Unternehmen aufgelöst. </note>
+               <bibl>Jacques M. Downs: The Golden Ghetto, Bethlehem (PA) 1997, S. 162-189.</bibl>
+               <bibl>Robert Y. Eng: The Transformation of a Semi-Colonial Port City, in F. Broeze (Hrsg.): Brides of the Sea, Kensington 1989, S. 137-142.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dbk="http://docbook.org/ns/docbook">
+        <!--<fulltext default="none" attributes="false"/>-->
+        <lucene>
+            <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
+            <text match="/tei:TEI/tei:text">
+                <field name="title" expression="nav:get-metadata(., ancestor::tei:TEI, 'title')"/>
+                <field name="date" expression="nav:get-metadata(., ancestor::tei:TEI, 'date')"/>
+                <field name="author" expression="nav:get-metadata(., ancestor::tei:TEI, 'author')"/>
+                <field name="language" expression="nav:get-metadata(., ancestor::tei:TEI, 'language')"/>
+                <field name="datesent" expression="nav:get-metadata(., ancestor::tei:TEI, 'datesent')" type="xs:date"/>
+                <field name="daterecd" expression="nav:get-metadata(., ancestor::tei:TEI, 'daterecd')" type="xs:date"/>
+                <field name="placesent" expression="nav:get-metadata(., ancestor::tei:TEI, 'placesent')"/>
+                <field name="placerecd" expression="nav:get-metadata(., ancestor::tei:TEI, 'placerecd')"/>
+                <field name="senderOrg" expression="nav:get-metadata(., ancestor::tei:TEI, 'senderOrg')"/>
+                <field name="senderPers" expression="nav:get-metadata(., ancestor::tei:TEI, 'senderPers')"/>
+                <field name="addresseeOrg" expression="nav:get-metadata(., ancestor::tei:TEI, 'addresseeOrg')"/>
+                <field name="addresseePers" expression="nav:get-metadata(., ancestor::tei:TEI, 'addresseePers')"/>
+                <field name="file" expression="util:document-name(.)"/>
+                <facet dimension="genre" expression="nav:get-metadata(., ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(., ancestor::tei:TEI, 'language')"/>
+                <facet dimension="datesent" expression="nav:get-metadata(., ancestor::tei:TEI, 'datesent')" hierarchical="yes"/>
+                <facet dimension="daterecd" expression="nav:get-metadata(., ancestor::tei:TEI, 'daterecd')" hierarchical="yes"/>
+                <facet dimension="placesent" expression="nav:get-metadata(., ancestor::tei:TEI, 'placesent')"/>
+                <facet dimension="placerecd" expression="nav:get-metadata(., ancestor::tei:TEI, 'placerecd')"/>
+                <facet dimension="senderOrg" expression="nav:get-metadata(., ancestor::tei:TEI, 'senderOrg')"/>
+                <facet dimension="senderPers" expression="nav:get-metadata(., ancestor::tei:TEI, 'senderPers')"/>
+                <facet dimension="addresseeOrg" expression="nav:get-metadata(., ancestor::tei:TEI, 'addresseeOrg')"/>
+                <facet dimension="addresseePers" expression="nav:get-metadata(., ancestor::tei:TEI, 'addresseePers')"/>
+            </text>
+            <text qname="tei:head"/>
+            <text match="//tei:titleStmt/tei:title"/>
+            <text match="//tei:msDesc/tei:head"/>
+            <text qname="dbk:section">
+                <field name="file" expression="util:document-name(.)"/>
+                <field name="title" expression="nav:get-metadata(., (ancestor::dbk:book|ancestor::dbk:article)[1], 'title')"/>
+                <facet dimension="genre" expression="nav:get-metadata(., (ancestor::dbk:book|ancestor::dbk:article)[1], 'genre')" hierarchical="yes"/>
+                <facet dimension="language" expression="nav:get-metadata(., (ancestor::dbk:book|ancestor::dbk:article)[1], 'language')"/>
+            </text>
+            <text qname="dbk:title"/>
+        </lucene>
+    </index>
+</collection>

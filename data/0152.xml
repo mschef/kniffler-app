@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Buchheister &amp; Co. in Shanghai an L. Kniffler &amp; Co. in Nagasaki
+                    am 26. Oktober 1874</title>
+            <title type="file">0152.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-142</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Blätter, auf der Vorderseite jeweils liniert und beschrieben. Auf
+                            der Rückseite des Zweiten Blattes (Seite 4) eine Eingangsnotiz. Der
+                            Firmenbriefkopf wurde auf beiden Blättern händisch korrigiert. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01116">Buchheister &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1874-10-26"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1874-10-29"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-07" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-27" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1874_10_26_Kniffler_Nagasaki_von_Buchheister_Shanghai_1.tif" n="1"/>
+         <p>
+            <seg rend=" left">
+               <del rend="overstrike">
+                  <hi rend="print">J. J.</hi>
+               </del>
+               <orgName type="firm" ref="K01116">
+                  <hi rend="print">BUCHHEISTER.</hi> +C<hi rend="superscript">o.</hi>
+               </orgName>
+               <lb/>
+               <hi rend="print">
+                  <placeName ref="K00503">SHANGHAI</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <date when="1874-10-26">26 October 1874</date>
+            </seg>
+            <lb/>
+            <seg rend="center">Messrs <orgName type="firm" ref="K01004">L. Kniffler
+                        +Co</orgName>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>.</seg>
+            <lb/> Dear Sirs,<lb/> We are in receipt of you favors of the<lb/>
+            <date when="1874-10-11">11<hi rend="superscript">th</hi>.</date> + <date when="1874-10-20">20<hi rend="superscript">th</hi>. October</date> and regret to
+                be obliged to inform you<lb/> that our purchaser for your steamers preferred to give
+                us<lb/> an order to have a steamer constructed in <placeName ref="K00589">Scotland</placeName>,<lb/> about 30 feet longer + of much greater capacitiy,
+                but which accor-<lb/> ding to telegraphic advice will nevertheless not cost
+                more<lb/> than the price you asked for the <name type="ship" ref="K01787">Kobe' +
+                    Victoria</name>.<lb/> Had the steamer been here they would, to my firmed<lb/>
+                belief, been settled at once, but often the first excitement<lb/> about a war with
+                Japan was over, the Chinese were no<lb/> longer in a great hurry and could afford to
+                wait a year<lb/> to get a new Steamer out from home.<lb/> We are nevertheless
+                keeping the 2 steamers constantly<lb/> in mind and would therefore be obliged by you
+                letting us know<lb/> as soon as any change in your dispositories should take
+                place.<lb/> Your Invoice +<unclear reason="eccentric_ductus">Bst</unclear> for
+                    <measure type="volume" quantity="200" unit="bags" commodity="sulfur">200</measure> bags <term type="goods" ref="K01681">Sulphur</term> per “<name type="ship" ref="K01831">Essen</name>” to<lb/> hand + your draft against same 
+                <hi rend="underline">T<hi rend="superscript">
+                  <unclear>u</unclear>
+               </hi>. 275.65.</hi> paid on<lb/> presentation. Please to ship balance as soon
+                as<lb/> possible.<lb/> Is there no chance of chartering a vessel for<lb/>
+            <placeName ref="K00528">Hakodadi</placeName> on the conditions explained
+                previously.- </p>
+         <pb facs="1874_10_26_Kniffler_Nagasaki_von_Buchheister_Shanghai_2.tif" n="2"/>
+         <pb facs="1874_10_26_Kniffler_Nagasaki_von_Buchheister_Shanghai_3.tif" n="3"/>
+         <p>
+            <seg rend="center">
+               <hi rend="underline">2</hi>
+            </seg>
+            <lb/>
+            <seg rend="left">
+               <del rend="overstrike">
+                  <hi rend="print">J. J.</hi>
+               </del>
+               <orgName type="firm" ref="K01116">
+                  <hi rend="print">BUCHHEISTER.</hi>+Co</orgName>
+               <lb/>
+               <hi rend="print">
+                  <placeName ref="K00503">SHANGHAI</placeName>
+               </hi>
+            </seg>
+            <lb/> We made an offer to the ”<name type="ship" ref="K01788">Condor</name>” but her
+                agents<lb/> did not accept the same. Please to let us know<lb/> whether there are
+                always <measure type="volume" quantity="300" unit="tons" commodity="coal">3</measure>-<measure type="volume" quantity="400" unit="tons" commodity="coal">400</measure> tons of <hi rend="underline" n="2">N<hi rend="superscript">o</hi>. 1</hi> Karats<lb/>
+            <term type="goods" ref="K01501">Coals</term> to be had in <placeName ref="K00514">Nagasaki</placeName>; so that a vessel chartered<lb/> here could be loaded
+                without loss of time.<lb/> Do you know of any <term type="goods" ref="K01789">
+               <hi rend="underline">big</hi> guns</term> for<lb/> sale in <placeName ref="K00514">Nagasaki</placeName> or other ports of <placeName ref="K00502">Japan</placeName>? If so<lb/> please send particulars.<lb/>
+            <seg rend="right">Yoursfaithfully<lb/>
+               <orgName type="firm" ref="K01116">Buchheister+C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <seg rend="left">Mex<hi rend="underline">$ 74<hi rend="superscript">775.</hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1874_10_26_Kniffler_Nagasaki_von_Buchheister_Shanghai_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1874<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1874-10-26">26 October</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01116">BuchheisterCo</orgName>
+                     <lb/>
+                     <lb/>
+                     <date when="1874-10-29">
+                        <hi rend="underline">Recd29</hi>/10</date>
+                     <lb/> Answ <date when="1874-11-04">4/11</date>
+                     <lb/>
+                     <lb/> R</hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

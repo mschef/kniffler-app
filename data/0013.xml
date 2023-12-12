@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pandel &amp; Stiehaus in Batavia an L. Kniffler &amp; Co. auf Dejima am 16.
+                    Februar 1861</title>
+            <title type="file">0013.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-15</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen und ein Blatt. Fünf Seiten Anschreiben, eine
+                            Eingangsnotiz auf der letzten Seite.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1861-02-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date when="1861-04-04"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-05" who="TP">diplomatische Transkription ohne
+                Auszeichnungen</change>
+         <change when="2020-10-07" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+         <change when="2021-01-20" who="MS">Ergänzende Auszeichnung</change>
+         <change when="2021-05-31" who="MS">Verknüpfung der Übersetzung, Korrektur der
+                Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">Per Steamer. <seg rend="right">
+                     <placeName ref="K00501">Batavia</placeName>. <date when="1861-02-16">Febr.. 16. 1861.</date>
+                  </seg>
+                  <lb/>
+                  <hi rend="underline">via <placeName ref="K00508">Singapore</placeName> &amp;
+                                <placeName ref="K00503">Shanghae</placeName>.</hi>
+               </hi>
+               <lb/>
+               <seg rend="center">Herren<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                     <lb/>
+                  </hi>
+               </seg>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00507">Desima</placeName>
+                  </hi>
+               </seg>
+               <lb/> Einliegend <hi rend="latintype">
+                  <term type="logistic" ref="K01538">Press. Copie</term>
+               </hi> unseres Schreibens vom<lb/>
+               <date when="1861-02-02">2<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>d.s.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date>
+               <hi rend="latintype">p<hi rend="superscript">r</hi> Mail &amp; Dupl.</hi>
+                    unserer letzten Briefe vom<lb/> 5<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>d.s.</abbr>
+                  <expan>desselben</expan>
+               </choice>
+               <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> zur gefälligen Bedienung.<lb/> Seitdem empfingen wir Ihre <choice>
+                  <abbr>
+                     <hi rend="superscript">w</hi>/.</abbr>
+                  <expan>werten</expan>
+               </choice> Zeilen vom<lb/>
+               <hi rend="latintype">
+                  <date when="1861-01-10">10. Januar</date> per <name type="ship" ref="K01530">Zwaluw</name>
+               </hi> &amp; die <hi rend="latintype">Dupl. per. <name type="ship" ref="K01669">Princess<lb/> Charlotte</name>.</hi> Für damit gesandte Güter <hi rend="latintype">crediti-<lb/>ren</hi> Sie gleichlautend mit <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="4163.18">4163,18,-</measure>
+               </hi>
+               <hi rend="latintype">lt. <term type="commercial" ref="K01574">Factura</term>
+               </hi>
+               <lb/> dagegen belasteten Sie für <hi rend="latintype">
+                  <hi rend="overstrike" n="2">Netto</hi>
+                  <unclear reason="illegible">
+                     <choice>
+                        <abbr>Prove.</abbr>
+                        <expan cert="low">Provenue</expan>
+                     </choice>
+                  </unclear>
+               </hi> von Beschädigtem<lb/>
+               <hi rend="latintype">
+                  <term type="logistic" ref="K01572">Ballen</term>
+                  <term type="goods" ref="K01528">Tuch</term>
+               </hi> mit <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="78.85">78,85,-</measure>
+               </hi> die <hi rend="latintype">Papiere</hi> schon<lb/> den hiesigen <term type="commercial" ref="K01587">
+                  <hi rend="latintype">Assecurae<unclear reason="illegible">dienst</unclear>
+                  </hi>
+               </term> überreicht &amp; sehen<lb/> deren Entscheidung ehestens entgegen.<lb/>
+                    Die Bestimmung der verschiedenen Kisten<lb/> für <hi rend="latintype">Privaten</hi> werden <hi rend="latintype">strikte</hi> Folge leisten<lb/>
+                    &amp; Ihnen <choice>
+                  <abbr>s.Z.</abbr>
+                  <expan>seiner Zeit</expan>
+               </choice> die <hi rend="latintype">Unkosten</hi> aufgeben. Für Be-<lb/> sorgung
+                    der Kisten für Herrn <persName ref="K00131">
+                  <hi rend="latintype">Zaun</hi>
+               </persName> unseren<lb/> besten dort,
+                    Die Auslagen stehen Ihnen<lb/> mit <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="163">163,-</measure>
+               </hi>
+               <hi rend="latintype">creditirt.</hi> Die Kiste <term type="goods" ref="K01670">
+                  <hi rend="latintype">Cabayas</hi>
+               </term>
+               <lb/> für <hi rend="latintype">
+                  <persName ref="K00070">Dr. Pompe</persName>,</hi> werden bestens für
+                    den-<lb/> selben verkaufen suchen &amp; durch Sie später<lb/> das <hi rend="latintype">
+                  <hi rend="overstrike" n="2">Netto</hi> Praemie</hi> auszahlen lassen. </p>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+            <p>Herren <orgName type="firm" ref="K01084">
+                  <hi rend="latintype">Buijs, Jacobsen &amp; Co.</hi>
+               </orgName> zahlten <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="44" unit="mex$">44,-</measure> zum<lb/>
+               <hi rend="latintype">Course</hi> von <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="2.72">2,72,-</measure> worüber
+                    wir Ihnen <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term>
+                  <lb/>Conto</hi> mit <add style="transformRotateZ(-45deg)" resp="other">siehe
+                            <term type="commercial" ref="K01536">Mem fol 55</term>
+               </add>
+               <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" quantity="119.68" unit="gulden">119, 68,-</measure>
+                  <hi rend="latintype">per <date when="1861-02-09">9. Februar</date>
+                  </hi>
+               </hi> belasteten<lb/> Die <hi rend="latintype">
+                  <name type="ship" ref="K01530">Zwaluw</name>
+               </hi> ist stark mit <term type="logistic" ref="K01539">Lassen</term> beschäftigt<lb/> &amp; ist ein
+                    Theil schon in unserem Besitz, doch bis<lb/> jetzt noch nichts davon verkauft,
+                    wir glauben<lb/> aber nicht daſ die <hi rend="latintype">
+                  <term type="commercial" ref="K01574">Factura</term>
+               </hi> so gut wie <hi rend="latintype">per<lb/>
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> auskommen wird, da durch diese <choice>
+                  <abbr>Sendg.</abbr>
+                  <expan>Sendung</expan>
+               </choice>
+               <lb/> &amp; der <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <name type="ship" ref="K01669">Princess Charlotte</name>,</hi> der Markt
+                    über-<lb/> führt ist. Von <hi rend="latintype"/>
+               <term type="goods" ref="K01544">Surmé</term> hätten lieber Nichts<lb/> gehabt,
+                    da die Käufer noch voll darauf sitzen<lb/> Die <hi rend="latintype">
+                  <term type="goods" ref="K01547">Lacksachen</term>,
+                        <term type="goods" ref="K01655">Besen</term>, <term type="goods" ref="K01635">Agger Agger</term>, <unclear>Tampos</unclear>
+                  <lb/>
+                  <unclear reason="illegible">Mukkaren</unclear> etc,</hi> werden auf <hi rend="latintype">Auction</hi> ver-<lb/> kaufen &amp; Ihnen die <hi rend="latintype">Resultate</hi> später ausge-<lb/> ben. <hi rend="latintype">
+                  <term type="goods" ref="K01517">Wachs</term> ex. <name type="ship" ref="K01669">Princess. Charlotte</name>
+               </hi> haben <hi rend="latintype">
+                  <unclear reason="illegible">Duneben</unclear>
+                  <lb/> &amp; Co.</hi> zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="50">50,-</measure> verkauft.
+                    Schade daſ Sie uns<lb/> keinen sandten, daſ dieser Preiß noch immer<lb/> einen
+                    guten Nutzen hätt. Wir befürchten<lb/> indessen, daſ durch die großen
+                    Anfuhren<lb/> der Preiß sehr gedrückt werden wird, da<lb/>
+               <del rend="overstrike">daſ</del> das <hi rend="latintype">
+                  <orgName type="gov" ref="K01007">Gouvernement</orgName>
+               </hi> &amp; die <hi rend="latintype">
+                  <orgName type="firm" ref="K01020">Maatschappy</orgName>
+               </hi>
+               <lb/> ihre Parthien noch nicht verkauft haben.<lb/> Senden Sie also bis auf
+                    Näheres Schreiben von<lb/> uns vorläufig keinen <term type="goods" ref="K01517">Wachs</term>. Sobald der<lb/>
+               <hi rend="latintype">Vorrath</hi> abgenommen, werden darüber näher<lb/>
+                    berichten. Wir bemerken uns daß Sie eine<lb/>
+               <hi rend="latintype">Parthie <term type="goods" ref="K01524">Seide</term>
+               </hi> nach <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+               </hi> verschiffen &amp; sehen </p>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+            <p>die <hi rend="latintype">Details</hi> von Ihnen darüber später entgegen<lb/>
+                    Warum Sie uns <hi rend="latintype">per <name type="ship" ref="K01530">Zwaluw</name>
+               </hi> keinen <term type="goods" ref="K01517">Wachs</term>
+               <lb/> gesandt haben, begreifen nicht recht, da Sie uns<lb/> mit letzter Post
+                    noch schrieben daſ wir welchen<lb/> erhalten würden. Sie erwähnen auch nicht
+                    darüber<lb/> in Ihrem Brief <hi rend="latintype">per <name type="ship" ref="K01530">Zwaluw</name>
+               </hi>
+               <lb/> Für an Herrn <hi rend="latintype">
+                  <persName ref="K00038">F Laeisz</persName>
+               </hi> gemachte <term type="commercial" ref="K01523">Rimesse</term>
+               <hi rend="latintype">de</hi>
+               <lb/>
+               <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" quantity="18000" unit="gulden">18000,-</measure>
+               </hi> bitten uns für <hi rend="latintype">Wechsel <choice>
+                     <abbr>Coness.</abbr>
+                     <expan cert="low">Konnossement</expan>
+                  </choice>
+                  <lb/> de <del rend="overstrike">f</del> 2½<unclear reason="eccentric_ductus" cert="high">﹪</unclear>
+                  <add style="transformRotateZ(-45deg)" resp="other">
+                     <term type="commercial" ref="K01536">not Mem</term> fol 60</add>
+                  <hi rend="underline">
+                     <term type="measure" ref="K01512">f.</term>
+                     <measure type="currency" unit="gulden" quantity="450">450,-</measure>
+                  </hi> per <date when="1861-02-16">16<hi rend="superscript">ten</hi>
+                     <choice>
+                        <abbr>d.s</abbr>
+                        <expan>desselben</expan>
+                     </choice>
+                  </date> zu creditiren</hi>
+               <lb/> auf <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term> Conto.</hi>
+               <lb/> Einliegend finden Sie <hi rend="latintype">Conto <choice>
+                     <abbr>Crt.</abbr>
+                     <expan>Corrente</expan>
+                  </choice>
+               </hi> Ihres <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term>
+                  <lb/> Contos</hi> abgeschlossen mit einem <hi rend="latintype">Saldo de <hi rend="latintype">
+                     <term type="measure" ref="K01512">f.</term>
+                     <measure type="currency" quantity="175338.5" unit="gulden">175338„50„</measure>
+                  </hi>
+                  <lb/> p<hi rend="superscript">r</hi>
+                  <date when="1861-01-01">1<hi rend="superscript">st</hi>Januar.
+                        61</date>.</hi> zu Ihren <hi rend="latintype">Gunsten,</hi> wir bitten<lb/>
+                    dieselbe zu prüfen &amp; wenn richtig den <hi rend="latintype">Saldo</hi>
+               <lb/> gleichlautend vorzutragen.<lb/> Ferner <hi rend="latintype">Conto
+                        Corrent</hi> Ihres <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollar</term> Conto</hi>
+               <lb/> mit einem <hi rend="latintype">Saldo</hi> von <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="11203.94">11203„94„</measure>
+               </hi>
+               <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <date when="1861-01-01">1<hi rend="superscript">st</hi> Januar. 61.</date>
+               </hi>
+               <lb/> zu Ihren <hi rend="latintype">Gunsten,</hi> in dieser <hi rend="latintype">Conto Corrent</hi>
+               <lb/> werden Sie finden, daſ wir Ihnen die Fracht <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <lb/>
+                  <name type="ship" ref="K01516">Schiller</name> Debitirten,</hi> welche das
+                    Schiff hätte machen<lb/> müssen, wir bitten hiervon Notiz zu nehmen<lb/> &amp;
+                    die <hi rend="latintype">Unkosten</hi> beim <hi rend="latintype">Verkauf </hi>
+               <add style="textOrientation: straight" resp="writer" place="above">zu</add>
+                    berücksichtigen.<lb/> Dagegen buchten die früher von Ihnen aufgegebenen<lb/>
+               <hi rend="latintype">Posten</hi> zurück, so daſ sich die <hi rend="latintype">Conta</hi> jetzt rein<lb/> gemacht hat &amp; bitten Sie uns umgehend
+                    mitzu-<lb/> theilen ob wir einig gehen.<lb/> Ferner <hi rend="latintype">Conto
+                        Corrent</hi> Ihrer <hi rend="latintype">
+                  <term type="currency" ref="K01525">Thail</term> Conta</hi>
+               <lb/> mit einem <hi rend="latintype">Saldo</hi> von <hi rend="latintype">
+                  <term type="currency" ref="K01525">Thails</term>. <measure type="currency" quantity="2616.321" unit="tael">2616„321„</measure>
+               </hi>
+            </p>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+            <p>zu ihren Gunsten. Auf dieses <hi rend="latintype">Conto stornirten</hi>
+               <lb/> ebenfalls die Posten, welche den <hi rend="latintype">
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> angehen<lb/> bitten ebenfalls darum &amp; den <hi rend="latintype">Saldo</hi> gleichlau-<lb/> tend mit uns vorzutragen. Sie wir mit-<lb/>
+                    einander <hi rend="latintype">Accord</hi> so bitten freundlichst uns den<lb/>
+               <hi rend="latintype">Saldo</hi> in <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollar</term>
+               </hi> aufzugeben &amp; auf <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollar</term> Conto</hi>
+               <lb/> zu übertragen, damit sich die <hi rend="latintype">
+                  <term type="currency" ref="K01525">Thails</term>. Conto</hi> ganz<lb/>
+                    ausgleicht &amp; für die Folge uns Alles in <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollar</term>
+               </hi>
+               <lb/> oder <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term>
+               </hi> aufzugeben.<lb/> Ferner <hi rend="latintype">Conto Corrent</hi> der <hi rend="latintype">Capital. <term type="commercial" ref="K01508">Dollar</term>
+                  <lb/> Conto</hi> mit einem <hi rend="latintype">Saldo</hi> von <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" quantity="23714.51" unit="mex$">23714„51„</measure>
+               </hi>
+               <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <date when="1861-01-01">1. Janr.</date>
+               </hi>
+               <lb/> 1861. zu Ihren <hi rend="latintype">Lasten.</hi> Wenn <hi rend="latintype">accord,</hi> bitten den<lb/>
+               <hi rend="latintype">Saldo</hi> ebenfalls gleichlautend vorzutragen.<lb/> Damit
+                    Sie wissen, wie viel uns der <hi rend="latintype">
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi>
+               <lb/> kostet, so geben wir Ihnen die folgende aufstel-<lb/> lung. Steht zu
+                        Buch.....<hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" quantity="50" unit="gulden">50„000„-„</measure>
+               </hi>
+               <lb/> Kosten <hi rend="latintype">per Monat.</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <table rows="7" cols="2">
+                     <row>
+                        <cell>Zinsen ¾﹪ p<hi rend="superscript">r</hi>
+                           <choice>
+                              <abbr>Mt.</abbr>
+                              <expan cert="high">Monat</expan>
+                           </choice>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">f.</term>
+                           <measure type="currency" unit="gulden" quantity="375">375,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Versicherung des Cours.
+                                    <lb/> p<hi rend="superscript">
+                              <unclear reason="eccentric_ductus">prmt.</unclear>
+                           </hi>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" quantity="288" unit="gulden">288,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Gage an Leuten p<hi rend="superscript">r.</hi>
+                           <lb/> Monat.</cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" unit="gulden" quantity="661">661,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Proviant &amp; etc. p<hi rend="superscript">r.</hi>
+                           <lb/> Monat.</cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" quantity="441" unit="gulden">441,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Abschleifen von Tauwerk &amp;<lb/> Segel + etc.<lb/>
+                           <unclear>p<hi rend="superscript">rmt.</hi>
+                           </unclear>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" quantity="250" unit="gulden">250,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <choice>
+                              <abbr>Zus.</abbr>
+                              <expan>Zusammen</expan>
+                           </choice>
+                        </cell>
+                        <cell>
+                           <hi rend="underline">
+                              <term type="measure" ref="K01512">f.</term>
+                              <measure type="currency" unit="gulden" quantity="2015">2015,-</measure> p<hi rend="superscript">r</hi>
+                           </hi>
+                           <choice>
+                              <abbr>Mt.</abbr>
+                              <expan>Monat</expan>
+                           </choice>
+                        </cell>
+                     </row>
+                  </table>
+               </hi> dieses sind die effektiven Kosten, ohne allen<lb/> Verdienst, Sie müssen
+                    also bei Ver<hi rend="latintype">charterungen</hi>
+            </p>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+            <p>darauf bedacht sein, daß noch Vortheil heraus-<lb/> kommt. Am liebsten wäre es
+                    uns, wenn Sie<lb/> das Schiff dort verkaufen könnten &amp; gelingt es<lb/> Ihnen
+                    vielleicht einen Käufer dort zu finden<lb/> hoffentlich werden die Frachten
+                    dieses Jahr<lb/> besser, sonst wird es einem leid <hi rend="latintype">Reeder</hi>
+               <lb/> zu sein.<lb/> Im Geschäfte ist es <hi rend="latintype">Chinesischen<lb/>
+                        Feiertage</hi> wegen sehr stille, wir erwarten<lb/> jedoch nächsten Monat
+                    eine lebhaftere Zeit &amp;<lb/> hoffen daß auch in diesem Jahr bei Ihnen
+                    das<lb/> Geschäfte besser werden wird. Die Nachrichten<lb/> aus <hi rend="latintype">
+                  <placeName ref="K00521">Kanagawa</placeName>
+               </hi> sind nicht sehr erfreulich &amp;<lb/> sind begierig von Ihnen Näheres
+                    darüber zu<lb/> vernehmen. Wie <add style="textOrientation: straight" resp="writer" place="above">ist</add> es mit den Waaren, welche<lb/> Sie in
+                        <hi rend="latintype">
+                  <placeName ref="K00521">Kanagawa</placeName>
+               </hi> liegen haben,? berichten Sie<lb/> uns doch gütigst darüber, damit wir
+                    etwas<lb/> näheres darüber wissen.<lb/> Uns noch an einliegendes Scheiben
+                    an<lb/> Herrn <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi> beziehend, zeichnen<lb/>
+               <seg rend="right">Freundschaftlichst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+                  </hi>
+               </seg>
+               <lb/>
+               <hi rend="latintype">P. S.</hi>
+               <lb/> Einliegend noch 1. Brief <choice>
+                  <abbr>
+                     <hi rend="superscript">m</hi>/ <hi rend="latintype">fact.</hi>
+                  </abbr>
+                  <expan cert="medium">mit <term type="commercial" ref="K01574">Factura</term>
+                  </expan>
+               </choice>
+               <choice>
+                  <abbr>d H</abbr>
+                  <expan>der Herren</expan>
+               </choice>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01017">Bänziger<lb/> &amp; Co.</orgName>
+               </hi> &amp; Rechnung von Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01085">Ogier Freres</orgName> de</hi>
+               <add style="transformRotateZ(-45deg)" resp="other">Not <term type="commercial" ref="K01536">Mem fol 60</term>
+               </add>
+               <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" unit="gulden" quantity="85">85,-</measure>
+               </hi> wofür<lb/> uns <hi rend="latintype"> p<hi rend="superscript">r</hi>
+                  <date when="1861-02-06">6. Febr. 61.</date> zu creditiren</hi> bitten.<lb/>
+                    Die <measure commodity="kebayas" quantity="4">4.</measure>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01670">Cabayen</term>
+               </hi> von <hi rend="latintype">
+                  <persName ref="K00070">Dr. Pomp</persName>e</hi> haben empfangen &amp;
+                    ver-<lb/> kauft &amp; bitten Sie denselben <add style="transformRotateZ(-45deg)" resp="other">not<term type="commercial" ref="K01536">Mem fol 60</term>
+               </add>
+               <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" unit="gulden" quantity="160">160,-</measure>
+               </hi> dafür auszuzahlen,<lb/> für diesen Betrag <hi rend="latintype">creditiren</hi> Sie <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <date when="1861-08-16">16. Augst. 61</date>.</hi> Kosten berechnen<lb/>
+               <seg rend="right">P+S</seg>
+               <unclear reason="illegible">Kaiser</unclear>
+            </p>
+            <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/>
+            <p>
+               <seg rend="right">
+                  <add style="textOrientation: straight" resp="other">
+                     <hi rend="latintype">1861<lb/>
+                        <placeName ref="K00501">Batavia</placeName>
+                        <lb/>
+                        <date when="1861-02-16">16 Februar</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+                        <lb/> R <hi rend="underline">
+                           <date when="1861-04-04">4. April</date> (<name type="ship" ref="K01553">Marmore</name>)</hi>
+                        <lb/>
+                        <date when="1861-04-11">11 <choice>
+                              <abbr>id.</abbr>
+                              <expan>idem</expan>
+                           </choice>
+                        </date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+         <p>By Steamer. Batavia. Feb. 16th 1861.<lb/> via Singapore &amp;
+                Shanghai.<lb/>Messrs.<lb/> L. Kniffler &amp; Co.<lb/>Dejima<lb/>Enclosed a press
+                copy of our letter from <lb/>2nd of this month by mail &amp; a dupl. of our last
+                letter from <lb/>5th of this month by means of Schiller for your kind attention.
+                <lb/>We have since received your esteemed letter from <lb/>10th January per Zwaluw
+                &amp; the duplicate per Princess<lb/>Charlotte. For the goods sent with it<lb/>we
+                credit you with $ 4,163.18,- in accordance with the invoice <lb/>but debit you for
+                net salvages[?] of damaged <lb/>bundles of cloth by $ 78,85,-. We have already
+                handed<lb/> the papers to the local insurance services [?] &amp; <lb/>are looking
+                forward to their decision as soon as possible. <lb/>We will pay strict attention to
+                the destination<lb/>of the different boxes for private clients <lb/>&amp; will pass
+                the expenditure on to you in good time. <lb/>For procuring the boxes for Mr. Zorn,
+                our best one there, <lb/>we have credited you with <hi rend="underline">$ 163,-</hi>
+                for your outlay.<lb/>The box of cabayas for Dr. Pompe we will try to<lb/>sell at the
+                best terms for him &amp; will ask you to pay out<lb/>the net reward later on. </p>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+         <p>We paid Messrs. Buijs, Jacobsen &amp; Co. $ 44,- at a<lb/>rate of f. 2.72,- , for
+                which we debited your <lb/>Guilder Account by ⟨siehe Mem fol 55⟩ f. 119. 68,- per
+                9th February. <lb/>The Zwaluw is very busy unloading <lb/>&amp; a part is already in
+                our possession, but so far <lb/>none of it has been sold, but we do not<lb/>believe
+                that the final accounts are going to be<lb/>as good as those for the Schiller
+                because with this<lb/>shipment &amp; that by means of the Princess Charlotte the
+                market<lb/>is saturated. Of surmé we would have preferred to<lb/>have none as the
+                buyers are still sitting on that. <lb/>The lacquerwares, brooms, agger agger,
+                tampos[?]<lb/>muccaren[?] etc. will be sold at auction,<lb/>we will supply the
+                results to you<lb/>later. Wax from Princess. Charlotte has been sold <lb/>by
+                Duneben[?] &amp; Co. at f. 50,-. It is a shame you did<lb/>not send us any as this
+                price would still <lb/>make a good profit. We fear, however, that <lb/>because of
+                the large deliveries <lb/>the price will be suppressed very much because <lb/>
+            <del rend="overstrike">that</del> the government &amp; the Maatschappij<lb/>have not
+                sold their lots yet. <lb/>Therefore until we write with details do not send
+                us<lb/>any more wax for the time being. Once the <lb/>stocks are getting lower we
+                will report to you<lb/>in further detail. We notice that you are<lb/>shipping a
+                cargo of silk to London &amp; are </p>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+         <p>looking forward to getting the details from you later. <lb/>Why you did not send us
+                wax by means of Zwaluw <lb/>we do not really understand as you wrote <lb/>to us with
+                the last mail that we would receive <lb/>some. You also do not mention it <lb/>in
+                your letter via Zwaluw.<lb/>For the remittance made to Mr. F Laeisz <lb/>of f.
+                18000,- we ask for the bill of lading<lb/> over <del rend="overstrike">f</del>
+                2½﹪[?]⟨not Mem fol 60⟩ f. 450,- per 16th of this month to be credited to us<lb/> on
+                the Guilder Account.<lb/>Enclosed you find the current account of your Guilder
+                <lb/>Account with a closing balance of f. 175,338„50„<lb/> per 1st January 61 in
+                your favour, we ask<lb/>to check this &amp; if correct to copy forward<lb/>the
+                balance of the same amount. <lb/>Furthermore, the current account of your Dollar
+                Account<lb/>with a balance of $ 11,203„94„ per 1st January 61<lb/>in your favour, in
+                this current account <lb/>you will find that we debited you for the<lb/>freight by
+                means of Schiller, which the ship was meant to have <lb/>made, we ask to take notice
+                of this <lb/>&amp; to take into account the expenses of the sale.<lb/>However, we
+                have reversed the lots ordered by you<lb/>earlier, so that the accounts have now
+                <lb/>evened out &amp; we ask you to let us know immediately<lb/>whether we are in
+                agreement on this. <lb/>Further, the current account of your Thail Accounts<lb/>with
+                a balance of Thails 2,616„321„</p>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+         <p>in your favour. On this account we also <lb/>cancelled the lots that concerned the
+                Schiller, <lb/>similarly ask &amp; to copy forward the balance <lb/>of the same
+                amount as us. If we are in <lb/>accordance with each other we ask you kindly<lb/>to
+                give us the balance in Dollars &amp; to copy this into the <lb/>Dollar Account so
+                that the Thails Account<lb/>evens out wholly &amp; subsequently to give
+                us<lb/>everything in Dollars or Guilders. <lb/>Further the current account of the
+                Capital Dollar<lb/>Account with a balance of $ 23,714„51„ per 1st Jan.<lb/> 1861 at
+                your expense. If in agreement, we ask<lb/>to copy forward the balance of the same
+                amount. <lb/>So that you know how much the Schiller<lb/>costs us, we are giving you
+                the following <lb/>summary. The book value .....<lb/>f. 50„000„-„ cost per month.
+                    <table>
+               <row>
+                  <cell>Interest ¾﹪ p<hi rend="superscript">er</hi> Mth.</cell>
+                  <cell>f. 375,-</cell>
+               </row>
+               <row>
+                  <cell>Insurance of the course<lb/> p<hi rend="superscript">prmt.</hi>
+                  </cell>
+                  <cell>＂ 288,-</cell>
+               </row>
+               <row>
+                  <cell>Wages to people p<hi rend="superscript">er</hi>
+                     <lb/> Month.</cell>
+                  <cell>＂ 661,-</cell>
+               </row>
+               <row>
+                  <cell>Provisions &amp; etc. p<hi rend="superscript">er</hi>
+                     <lb/> Month.</cell>
+                  <cell>＂ 441,-</cell>
+               </row>
+               <row>
+                  <cell>Wear of ropes &amp;<lb/> sails + etc.<lb/> p<hi rend="superscript">er mth.</hi>
+                  </cell>
+                  <cell>＂250,-</cell>
+               </row>
+               <row>
+                  <cell>Tot.</cell>
+                  <cell>
+                     <hi rend="underline">f. 2015,- p</hi>
+                     <hi rend="superscript">er</hi> Mth.</cell>
+               </row>
+            </table> These are the effective costs, without any income, <lb/>so in any
+                chartering out you need to keep</p>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+         <p>in mind that you still get a profit<lb/>from it. Most preferable for us would be if
+                you <lb/>could sell the ship there &amp; maybe you <lb/>will manage to find a buyer
+                there. <lb/>Hopefully the cargoes will get better <lb/>this year, otherwise one may
+                get tired of being a <lb/>shipowner. <lb/>In the business it is very quiet due to
+                the <lb/>Chinese holidays, but we expect <lb/>it to be more lively next month
+                &amp;<lb/>hope also that this year business will get <lb/>better for you. The news
+                from <lb/>Kanagawa are not very pleasant &amp;<lb/>we are keen to hear more details
+                from <lb/>you. How is it going with the wares that<lb/>you have stored in Kanagawa?
+                Please <lb/>most kindly report to us about this, so that we<lb/>know some more
+                detail about it. <lb/>With reference to the enclosed letter to <lb/>Mr. Gildemeister
+                we sign,<lb/>your dearest friends<lb/>Pandel &amp; Stiehaus<lb/>P. S.<lb/>Enclosed 1
+                more letter with invoice Messrs. Bänziger <lb/>&amp; Co. &amp; invoice from Messrs.
+                Ogier Freres over⟨Not Men fol 60⟩f. 85,- for<lb/>which we ask you to credit us per
+                6th Feb. 61. <lb/>The 4 cabayas from Dr. Pompe we received &amp; sold<lb/>&amp; ask
+                you to pay him out ⟨notMem fol 60⟩ f. 160,- for them,<lb/>for this amount we credit
+                you per 16th Aug. 61. The costs calculate <lb/>P[andel]+S[tiehaus] Kaiser[?]</p>
+         <pb facs="1861_02_16_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/>
+         <p>⟨1861<lb/>Batavia<lb/>16th February<lb/>Pandel &amp; Stiehaus<lb/>R[eceived] 4th
+                April (Marmore)<lb/>11 id.⟩</p>
+      </body>
+   </text>
+</TEI>

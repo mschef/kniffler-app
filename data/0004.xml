@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pandel &amp; Stiehaus in Batavia an L. Kniffler &amp; Co. auf Dejima am 8.
+               Februar 1860</title>
+            <title type="file">0004.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-5</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eine Umschlagsseite sowie Seiten 5, 6 und 7 des Anschreibens. Übrige Seiten
+                     sind verschollen.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1860-02-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date when="1860-03-21"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="check">
+         <change who="TP" when="2018-10-11">diplomatische Transkription</change>
+         <change who="TP" when="2018-10-12">diplomatische Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">P<hi rend="superscript">r</hi>Steamer via <placeName ref="K00508">Singapore</placeName> &amp; <lb/>
+                     <placeName ref="K00503">Shanghae</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <stamp type="commercial" style="oval">
+                  <orgName type="firm" ref="K01001">PANDEL&amp;STIEHAUS</orgName>
+                  <lb/>
+                  <placeName ref="K00501">BATAVIA</placeName>
+               </stamp>Mess<hi rend="superscript">rs</hi>
+               <lb/>
+               <orgName type="firm" ref="K01004"> L. Kniffler&amp;Co.</orgName>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00501">BATAVIA</placeName> 7/<unclear reason="faded">2</unclear>
+                  FRANCO</stamp>
+               <placeName ref="K00507">Dessima</placeName>
+               <lb/>
+               <placeName ref="K00502">Japan</placeName>
+               <lb/> Care of<lb/> Mess<hi rend="superscript">rs</hi>
+               <lb/>
+               <orgName type="firm" ref="K01006">Siemssen &amp; Co.</orgName>
+               <lb/>
+               <placeName ref="K00503">Shanghae</placeName>
+            </seg>
+         </p>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight" resp="other">1860<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00501">Batavia</placeName>
+                  <date when="1860-02-08">8. Februar</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01001">Pandel&amp;Stiehaus</orgName>
+                  <lb/> R<hi rend="underline">21 März</hi>
+                  <lb/>31 id.</hi>
+            </add>
+         </p>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+         <p> eine ziemlich vortheilhafte <hi rend="latintype">Retoure</hi> zu<lb/> erhalten, da
+            unsere Haupt<gap agent="illegible" quantity="4" unit="chars"/> darauf be-<lb/> ruht, daſ
+            das <hi rend="latintype">
+               <orgName type="gov" ref="K01007">Gouvernement</orgName>
+            </hi> nicht verkauft<lb/> &amp; wir somit dann die Einzigsten sind, die<lb/>
+            <hi rend="latintype">Jap. Artikel</hi> in 1<hi rend="superscript">er</hi> Hand haben.
+            Sehen Sie<lb/> natürlich, daſ in der Zwischenzeit Massen<lb/> abgeschifft worden sind,
+            so daſ unser<lb/> Markt überhöht wird, dann überlassen<lb/> wir es Ihrem Ermessen. Wir
+            bleiben der<lb/> Meinung, daſ wenn Sie den <name type="ship" ref="K01516">Schiller</name> beladen<lb/> auf hier senden &amp; er nur Güter für uns<lb/>geladen
+            hat, wir ein ziemlich gutes Geschäft<lb/> machen; Sie könnten auch gerne <measure type="volume" quantity="500" unit="box">500</measure> à <measure type="volume" quantity="600" unit="box">600</measure>-<lb/>
+            <hi rend="latintype">Kisten</hi>
+            <hi rend="latintype">
+               <term type="goods" ref="K01517"> Wachs</term>
+            </hi> schicken, hierfür könnten<lb/> wir augenblicklich <measure type="currency" quantity="40" unit="gulden">
+               <term type="measure" ref="K01512">f</term> 40</measure> machen. Welche<lb/> Preise
+            indessen nach <measure type="time" quantity="6" unit="month">6 Monaten</measure> zu
+            machen<lb/> sein werden, läßt Sich jetzt unmöglich<lb/> bestimmen.<lb/> Da bis zu der
+               <measure type="time" quantity="6" unit="month">Zeit (6 mt.)</measure>
+            verschiedene<lb/> Güter von <placeName ref="K00511">Europa</placeName> für <placeName ref="K00502">Japan</placeName> bestimmt, hier<lb/> sein werden &amp; schon jetzt <hi rend="latintype">diverse</hi> Sachen hier<lb/> im <term type="commercial" ref="01518">Entrepôt</term> lagern, so ist anzunehmen, daſ<lb/>der <hi rend="latintype">
+               <name type="ship" ref="K01516">Schiller</name>
+            </hi> mit den außerdem vorhandenen<lb/> Frachtgütern dort <del rend="overstrike">segeln</del> beladen &amp;<lb/> voll wird, also eine ganz hübsche Fracht ver-<lb/>
+            dienen kann. Von <term type="goods" ref="K01519">Taffachelassen</term>
+            <lb/>
+            <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/> wurden
+            uns mit letzter Post schon <hi rend="latintype">advi-<lb/>sirt</hi>, dann bringt uns die
+               <name type="ship" ref="K01520">Princess Royal</name> ver-<lb/> schidene Güter &amp;
+            außerdem noch einige Schiffe<lb/> von <placeName ref="K00512">England</placeName>,
+            welche Güter hier alle <add style="textOrientation: straight" resp="writer" place="above">in</add> c.a. <measure type="time" quantity="4" unit="month">4.
+               Mo-<lb/> naten</measure> sein können.<lb/> Fernere Verkäufe in Jap. Gütern haben
+            nicht<lb/> aufzugeben. <hi rend="latintype">
+               <term type="goods" ref="K01521">Soya</term>
+            </hi> bleibt sehr vernachlässigt,<lb/> zu <measure type="currency" quantity="5" unit="gulden">
+               <term type="measure" ref="K01512">f</term> 5</measure> à <measure type="currency" quantity="6" unit="gulden">
+               <term type="measure" ref="K01512"> f</term> 6</measure> p. Kiste auf <hi rend="latintype">Auction</hi> verkauft.<lb/> Unsere letzte Sendung liegt noch immer im<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01518">Entrepôt</term>
+            </hi>.<lb/> Der <hi rend="latintype">Chinesischen</hi> Festlichkeiten wegen,<lb/> war es
+            im Geschäft still &amp; beziehen uns der<lb/> näheren <hi rend="latintype">Details</hi>
+            wegen auf <choice>
+               <abbr>uns. alg.</abbr>
+               <expan>unsere allgemeine</expan>
+            </choice>
+            <hi rend="latintype">Preisliste</hi>
+            <lb/> &amp; Monats Bericht.<lb/> Wir bemerken Ihnen, daſ nach dem letzten<lb/> Bericht
+            Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01008">Bollenhagen &amp; Co.</orgName>
+            </hi> für Fraud-<lb/> gefahr gedeckt sind <measure type="currency" quantity="135000" unit="britPound">
+               <term type="measure" ref="K01522">Bp</term> 135000,- </measure>&amp; <measure type="currency" quantity="100000" unit="gulden">
+               <unclear reason="illegible">
+                  <term type="measure" ref="K01512">
+                     <choice>
+                        <abbr>holf.</abbr>
+                        <expan cert="medium">holländische Florin</expan>
+                     </choice>
+                  </term>
+               </unclear>
+               <lb/> 100,000,-</measure> Ist dieses nicht zu viel? Berichten<lb/> Sie hierüber <choice>
+               <abbr>gefl.</abbr>
+               <expan cert="high">gefälligst</expan>
+            </choice> auch Hr.<orgName type="firm" ref="K01008">B. &amp; Co</orgName> &amp; uns
+            da-<lb/> mit nicht unötige <hi rend="latintype">Prämien</hi> weggeschmissen<lb/> werden.<lb/>
+            <seg rend="right">Freundschaftlichst<lb/>
+               <orgName type="firm" ref="K01001">Pandel&amp; Stiehaus</orgName>.</seg> P. S.
+            <lb/>Die <unclear reason="illegible">Duestae</unclear> über die Fracht p<hi rend="superscript">er</hi>
+            <name type="ship" ref="K01505">Postiljon</name>
+            <lb/> ist noch nicht entschieden wir haben noch nicht<lb/> bezahlt, die Sache ist an
+               <unclear reason="eccentric_ductus">Cobietias</unclear> überlassen.<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01001">P &amp; S.</orgName>
+            </seg>
+         </p>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_7.tif" n="7"/>
+         <p> Daß auf der ersten Blattseite durchsgestriche-<lb/> ne bitten gütigst zu entschuldigen,
+            weil wir An-<lb/> fangs glaubten, daſ diese <hi rend="latintype">
+               <term type="commercial" ref="K01523">Rimesse</term>
+            </hi> gegen die Sen-<lb/> dung <term type="goods" ref="K01524">Seide</term> sei. Sie ist
+            aber gegen Verkauf<lb/> von 2000 <hi rend="latintype">Hobgs.</hi> &amp; <measure type="currency" quantity="2500" unit="peso">2500<term type="measure" ref="K01508">$</term>
+            </measure>, von welchen uns<lb/> Hr. <hi rend="latintype">
+               <orgName type="firm" ref="K01006">Siemssen &amp; Co.</orgName> Copien</hi> der
+            Abrechng beischlie-<lb/> ßen. - d. h. 2000 <unclear reason="eccentric_ductus">Stg.
+               Hobgs.</unclear> verkauft für <del rend="overstrike">
+               <hi rend="latintype">Netto</hi>
+            </del>
+            <measure type="currency" quantity="5703" unit="tails">
+               <unclear reason="faded">5</unclear>703-<lb/>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01525">Thails</term>.</hi>
+            </measure> Wir bemerken Ihnen jedoch, daſ<lb/> wir von Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01006">Siemssen &amp;Co</orgName>.</hi> die Vers<gap quantity="7" unit="chars" agent="torn"/>
+            <lb/> auf <hi rend="latintype">
+               <term type="goods" ref="K01524">Seide</term> per Mail</hi> an <hi rend="latintype">
+               <orgName type="firm" ref="K01009">Wulff</orgName>
+            </hi> gesandt. da <measure type="currency" quantity="2000" unit="britPound">£
+               2000</measure>,<lb/> noch nicht erhalten haben, oblgleich Sie schon<lb/> in Ihren
+            Brief vom <date when="1859-11-29">29 November</date> davon spreche<gap quantity="1" unit="chars" agent="torn"/>
+            <lb/> &amp; der Brief von <hi rend="latintype">
+               <orgName type="firm" ref="K01006">Siemssen &amp; Co. </orgName>
+            </hi> d. d. <date when="1860-01-06">6. Janr</date>. is<gap agent="torn"/>
+            <lb/> mit welchem sie uns die <measure>£ 2450 „_„</measure> senden<lb/> Aus diesem
+            Grunde die Verwechselung, welche<lb/> zu entschuldigen bitten.<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="envelope"/>
+         <p>By Steamer via Singapore &amp; <lb/> Shanghai<lb/> PANDEL&amp;STIEHAUS<lb/>BATAVIA
+            Messrs<lb/> L. Kniffler&amp;Co.<lb/> BATAVIA 7/2[?] FRANCODessima<lb/>Japan<lb/> Care
+            of<lb/> Messrs<lb/> Siemssen &amp; Co.<lb/> Shanghai <lb/> ⟨1860<lb/>Batavia 8th
+            February<lb/>Pandel&amp;Stiehaus<lb/>R[eceived] 21 March<lb/>31 id.⟩<lb/>
+            <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/> to
+            receive quite a favourable return <lb/> because our main […] rests on the <lb/>
+            government not selling<lb/> &amp; us therefore being the only ones who<lb/> as a
+            wholesaler have Jap. articles. If you see<lb/> of course that in the meantime lots<lb/>
+            have been shipped out already, so that our<lb/> market will be overloaded, then we
+            leave<lb/> it at your discretion. We remain of the<lb/> opinion that if you send the
+            Schiller here<lb/> loaded &amp; it is loaded only with goods<lb/> for us, then we will
+            do rather good business;<lb/> You could also gladly send 500 to 600<lb/> boxes of wax,
+            for which we could <lb/> currently charge f 40. What prices,<lb/> however, we may be
+            able to charge in<lb/> 6 months is impossible to say <lb/> now.<lb/> As by that time (6
+            months) different <lb/> goods from Europe destined for Japan<lb/> will be here &amp;
+            already now various things are<lb/> stored in the entrepot, it can be assumed that<lb/>
+            the Schiller, with the additionally available<lb/> freights, will be <del rend="overstrike">sailed</del> loaded there &amp;<lb/> full, thus can earn a pretty
+            nice cargo.<lb/> About taffachelassen we have already<lb/>
+         </p>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/>
+         <p>been advised in the last post,<lb/> then the Princess Royal is bringing us<lb/> various
+            goods &amp; furthermore some ships<lb/> from England, which cargo can all be here<lb/>
+            in ca. 4 months.<lb/> Further sales of Jap. goods are not<lb/> to be given up. Soya
+            remains very neglected,<lb/> sold at f 5 to f 6 per box at auction.<lb/> Our last
+            consignment is still lying<lb/> in the entrepot.<lb/> Because of the Chinese
+            festivities<lb/> it has been quiet in the business &amp; we refer<lb/> for closer detail
+            to our general price list<lb/> and monthly report.<lb/> We would like to mention to you
+            that according<lb/> to the last report the gentlemen Bollenhagen &amp; Co.<lb/> are
+            covered for fraud protection BP 135,000 &amp; 100,000<lb/> Dutch florins. Is this not
+            too much? Do please <lb/> inform also Mr. B. &amp; Co. about this &amp; unnecessary<lb/>
+            premiums are not thrown away for us.<lb/> Yours cordially<lb/> Pandel&amp; Stiehaus.
+            <lb/> P. S. <lb/> The Duestae[?] regarding the cargo per Postiljon<lb/> has not been
+            decided yet, we have not yet<lb/> paid, the matter lies with Cobietias[?]<lb/> P &amp;
+            S.<lb/>
+         </p>
+         <pb facs="1860_02_08_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_7.tif" n="7"/>
+         <p>What was crossed out on the first page<lb/> we kindly ask to excuse because we<lb/>
+            initially thought that the remittance was<lb/> for the consignment of silk. But it
+            is<lb/> for the sale of 2,000 Hobgs. &amp; $2,500, for which<lb/> Mr. Siemssen &amp; Co.
+            have included copies of the bill.<lb/> i.e. 2,000 pcs. Hobgs.[?] sold for <del rend="overstrike">net</del> 5[?]703-<lb/> Thails. We mention to you however that<lb/>
+            we sent from the gentlemen Siemssen &amp; Co the insurance<lb/> of silk to Wulff by
+            mail. As £2,000 have not been <lb/> been received yet, although you mention it
+            already<lb/> in your letter from 29th November<lb/> &amp; the letter from Siemssen &amp;
+            Co. dated 6th Jan.<lb/> with which they sent us the £2,450 “_”.<lb/> This is the reason
+            for the confusion, which we beg<lb/> you to excuse.<lb/> Pandel &amp; Stiehaus<lb/>
+         </p>
+      </body>
+   </text>
+</TEI>

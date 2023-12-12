@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maclaine Watson &amp; Co. in Batavia an L. Kniffler &amp; Co. auf Dejima am 14.
+               Mai 1859</title>
+            <title type="file">0001.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Umschlagsseite mit mehreren Stempeln und einer
+                     Eingangsnotiz, eine Seite Anschreiben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01003">Maclaine Watson &amp; Co.</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1859-05-14"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date when="1859-06-18"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="check">
+         <change when="2018-09-26" who="TP">Transkription und erste Auszeichnung</change>
+         <change when="2019-08-05" who="TP">Schlüsseleingabe und Anpassung an die veränderten
+            Vorgaben von Schema und ER</change>
+         <change when="2020-01-28" who="TP">Schemaanpassung, Faksimiles eingefügt, kleinere
+            Korrekturen.</change>
+         <change when="2021-01-28" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+            Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <pb facs="1859_05_14_Kniffler_Dejima_von_Maclaine_Watson_Co_Batavia_1.tif" n="envelope"/>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00508">Singapore</placeName> P. O.</stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">Hong Kong</placeName>
+                  <gap quantity="3" unit="lines"/>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">via <placeName ref="K00503">Sh<hi rend="underline">angh</hi>ai</placeName>
+                  <lb/>
+                  <stamp style="rectangular" type="postal">
+                     <placeName ref="K00510">INDIA</placeName> PAID</stamp>
+                  <lb/> Mess <orgName type="firm" ref="K01004">L Kniffler &amp; Co</orgName>
+                  <lb/>
+                  <placeName ref="K00507">Decima</placeName>
+                  <lb/>
+                  <placeName ref="K00502">Jap<hi rend="underline">a</hi>n</placeName>
+               </hi>
+            </seg>
+         </p>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="latintype"> 1958<lb/>
+                  <placeName ref="K00501">Batavia</placeName>, <date when="1858-05-14">14 Mai</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01003">Maclaine Watson &amp; Co</orgName>
+                  <lb/> R<hi rend="underline">
+                     <date when="1859-06-18">18 Juni</date>
+                  </hi>
+                  <lb/>
+                  <date when="1859-07">Juli</date>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1859_05_14_Kniffler_Dejima_von_Maclaine_Watson_Co_Batavia_2.tif" n="2"/>
+         <p>
+            <term type="logistic" ref="K01538">Dublicate</term>
+            <lb/>
+            <seg rend="right">
+               <placeName ref="K00501">Batavia</placeName>
+               <date when="1859-05-14">14 May 1859</date>
+            </seg>
+            <lb/>
+            <orgName type="firm" ref="K01004">Mess. L Kniffler &amp; Co</orgName>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00507">Decima</placeName>
+            </seg>
+            <lb/> Gentlemen<lb/> Inclosed we have the pleasure to wait upon you<lb/> with
+               <unclear>Bs</unclear> handing an Invoice of a small trial ship-<lb/> ment which we
+            have addressed to your good care by<lb/> the "<name type="ship" ref="K01510">Nassau</name>" for sale on our amount on the recommen-<lb/> dation of your friends
+            here.-.<lb/> The articles are all of first quality &amp; will we hope<lb/> be found well
+            adapted for your market &amp;we sincerely<lb/> trust that the result may be such as to
+            encourage<lb/> continued correspondance with yourgoodselves to our<lb/> mutual
+            advantage<lb/> The method of making returns we must leave<lb/> to you We may remark
+            however that importations<lb/> of <term type="goods" ref="K01511">Japan Wax</term> by
+            the government have of late been<lb/> heavy and we have an unfavorable opinion of the
+            future<lb/> Course of our market fort that article. <term type="goods" ref="K01511">Japan Wax</term> has<lb/> been sold lately à <measure type="currency" unit="gulden" quantity="40">
+               <term type="measure" ref="K01512">f</term> 40</measure> on very long credit but it
+            is<lb/> not expected that more than <measure type="currency" unit="gulden" quantity="30">
+               <term type="measure" ref="K01512">f</term> 30</measure> á <measure type="currency" unit="gulden" quantity="34">
+               <term type="measure" ref="K01512">f</term> 34</measure> will be realized<lb/> for the
+            lot to be exposed for sale at the approaching<lb/> Government Auction &amp; it would not
+            be safe to calculate<lb/> on higher prices. We are Gentlemen <seg rend="right"> Your obediently<lb/>
+               <orgName type="firm" ref="K01003">Maclaine Watson &amp; Co.</orgName>
+               <lb/>
+            </seg>
+         </p>
+         <p>
+            <seg rend="left"> We had intended to send<lb/> you some <term type="goods" ref="K01819">Black Pepper</term>
+               <lb/> but none could be procured<lb/>
+            </seg>
+         </p>
+         <pb facs="1859_05_14_Kniffler_Dejima_von_Maclaine_Watson_Co_Batavia_3.tif" n="3"/>
+         <pb facs="1859_05_14_Kniffler_Dejima_von_Maclaine_Watson_Co_Batavia_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag J. Gildemeister &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01131">
+               <orgName type="firm">J. Gildemeister &amp; Co.</orgName>
+               <settlement>Lima</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">263145857943023021206</idno>
+               <note>1850 in Peru gegründetes Handelsunternehmen des Bremer Kaufmanns Juan (eig. Johann) Gildemeister (1823-1898), eines Verwandten Martin Hermann Gildemeisters. J. Gildemeister, der
+                  ab 1850 auch bremischer Konsul in Lima gewesen war, gelangte durch den Exporthandel mit Salpeter und Guano zu großem Reichtum und schied erst kur vor seinem Tod 1898 aus der Firma
+                  aus.</note>
+               <bibl>Sabina G. Cournoyer: Konsul Juan Gildemeister, Bremen 2011.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

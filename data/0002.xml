@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Morgan, Melbourn &amp; Co. in Batavia an L. Kniffler &amp; Co. auf Dejima am 1.
+               September 1859</title>
+            <title type="file">0002.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-3</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Umschlagsseite mit einer Eingangsnotiz, eine Seite
+                     Anschreiben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01005">Morgan, Melbourn &amp; Co.</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1859-09-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="first_draft">
+         <change when="2018-09-27" who="TP">Transkription und erste Auszeichnungen</change>
+         <change when="2019-05-09" who="TP">Auszeichnungen und Key Vergabe</change>
+         <change when="2021-01-06" who="MS">Weitere Auszeichnung, Korrektur der
+            Transkription</change>
+         <change when="2021-02-04" who="MS">Korrekturen im Header</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1859_09_01_Kniffler_Dejima_von_Morgan_Melbourn_Co_Batavia_1.tif" n="1"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="print">
+                     <placeName ref="K00501">Batavia</placeName>, <date when="1859-09-01">September
+                           1<hi rend="superscript">st</hi> 1859</date>
+                  </hi>
+               </seg>
+               <seg rend="center">
+                  <add style="textOrientation: straight" place="inline" resp="writer">Messrs.
+                        <orgName type="firm" ref="K01004">Kniffler &amp; Co.</orgName>,<lb/>
+                     <placeName ref="K00507">Desima</placeName>,<lb/>
+                     <placeName ref="K00503">Japan</placeName>.</add>
+               </seg>
+               <seg rend="center">
+                  <hi rend="print">Dear Sir</hi>
+                  <add style="textOrientation: straight" place="inline" resp="writer">s,</add>
+                  <lb/>
+               </seg>
+               <hi rend="print">It is with much sorrow that we have to inform you of the death of
+                  our<lb/> Senior Partner, Mr. <persName ref="K00003">Richard Melbourn</persName>,
+                  which took place on the<lb/>
+                  <date when="1859-08-18">18<hi rend="superscript">th</hi> of August last.</date>
+                  <lb/> The business of the house will be continued under the same name and<lb/>
+                  with the same resources as before, by his son <persName ref="K00004">George
+                     Melbourn</persName> and his nephew <persName ref="K00005"> James
+                     Rawson</persName> the present surviving partners.<lb/> We have given our
+                  general power of attorney to Mr. <persName ref="K00002">William<lb/> Henry
+                     Hall</persName>, and requesting your attention to his signature at foot,</hi>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="print">We remain, Dear Sir</hi>
+                  <add style="textOrientation: straight" place="inline" resp="writer">s,</add>
+                  <lb/>
+                  <hi rend="print">Your obedient Servants,</hi>
+                  <lb/>
+               </seg>
+               <add style="textOrientation: straight" place="inline" resp="writer">Morgan, <hi rend="underline">Melbourn &amp; Co.</hi>
+               </add>
+               <lb/>
+               <lb/>
+               <hi rend="print">Signature of Mr. <persName ref="K00002">William Henry
+                     Hall</persName>:</hi>
+               <lb/>
+               <add style="textOrientation: straight" place="inline" resp="writer">p <choice>
+                     <abbr>ppa</abbr>
+                     <expan>per procura autoritate</expan>
+                  </choice>
+                  <orgName type="firm" ref="K01005">Morgan, Melbourn &amp; Co.</orgName>,<lb/>
+                  <hi rend="underline">
+                     <add style="textOrientation: straight" place="inline" resp="other">
+                        <persName ref="K00002">Wm. Hr. Hall</persName>
+                     </add>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1859_09_01_Kniffler_Dejima_von_Morgan_Melbourn_Co_Batavia_2.tif" n="2"/>
+            <pb facs="1859_09_01_Kniffler_Dejima_von_Morgan_Melbourn_Co_Batavia_3.tif" n="3"/>
+            <pb facs="1859_09_01_Kniffler_Dejima_von_Morgan_Melbourn_Co_Batavia_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+</TEI>

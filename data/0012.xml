@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pandel &amp; Stiehaus in Batavia an L. Kniffler &amp; Co. auf Dejima am 2.
+                    Februar 1861</title>
+            <title type="file">0012.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-13</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen, sechs Seiten Anschreiben auf der letzten Seite eine
+                            Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1861-02-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date when="1861-03-20"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-02" who="TSP">Diplomatische Transkription</change>
+         <change when="2020-10-06" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">Per Steamer.<lb/>
+                  <hi rend="underline">via <placeName ref="K00508">Singapore</placeName> &amp;
+                                <placeName ref="K00503">Shanghai</placeName>.</hi>
+                  <lb/>
+                  <seg rend="right">
+                     <placeName ref="K00501">Batavia</placeName>
+                     <date when="1861-02-02"> Febr. 2. 1861</date>.</seg>
+               </hi>
+               <lb/> Herren<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                  <lb/>
+                  <seg rend="right">
+                     <placeName ref="K00507">Desima</placeName>.</seg>
+               </hi>
+               <lb/> Wer bestätigen unser ergeb. Letztes<lb/> vom <date when="1861-01-16">16.
+                        Januar</date>, wovon einliegend <hi rend="latintype">Copie</hi> &amp;<lb/>
+                    bekennen uns seitdem zum angenehmen Em-<lb/> pfange Ihrer <choice>
+                  <abbr>
+                     <hi rend="superscript">w</hi>/</abbr>
+                  <expan>werten</expan>
+               </choice> Zuschrift vom <date when="1860-12-28">28. <hi rend="latintype">Decbr.
+                            60.</hi>
+               </date>
+               <lb/> Wir nahmen Anmerkung daſ die gute<lb/> Sorte <hi rend="latintype">
+                  <term type="goods" ref="K01545">Payongs</term>
+               </hi> so sehr theuer ist &amp; stimmen mit<lb/>Ihnen überein uns darum lieber an die<lb/>
+               <hi rend="latintype">ordinairen</hi> Sorten zu halten, weil diese<lb/> sich im
+                    Verhältniß besser bezahlen.<lb/> Ueber <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> können nur unser früher<lb/> Gesagtes bestätigen &amp; bitten Sie uns
+                    keine<lb/> mehr davon zu senden, nur wenn nöthig<lb/> so viele, als ein Schiff
+                    als <hi rend="latintype">Ballast</hi> nöthig<lb/> hat. Die <hi rend="latintype">per <name type="ship" ref="K01516">Schiller</name>
+               </hi> gesandten konnten<lb/> aus der Hand nicht verkaufen &amp; waren ge-<lb/>
+                    zwungen sie auf <hi rend="latintype">Auction</hi> zu räumen<lb/> auf welcher sie
+                        <measure type="currency" quantity="0.8" unit="gulden">80</measure>
+               <term type="measure" ref="K01512">
+                  <hi rend="latintype">cts</hi> vom <hi rend="latintype">Gulden</hi>
+               </term> p. <hi rend="latintype">
+                  <term type="measure" ref="K01504">Pic.</term>
+               </hi>
+               <lb/> aufbrachten. Große <hi rend="latintype">Quantitäten</hi> würden
+                    die-<lb/>sen Preis nicht heben. Die Preise von <hi rend="latintype">
+                  <term type="goods" ref="K01517">Wachs</term>
+               </hi>
+               <lb/> haben sich bis jetzt gehalten &amp; soll es<lb/>
+            </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+            <p>uns sehr angenehm sein, mit der <name type="ship" ref="K01530">
+                  <hi rend="latintype">Zwaluw</hi>
+               </name> eine<lb/> Sendung von Ihnen zu erhalten. Der Ihnen <unclear reason="eccentric_ductus">in</unclear>
+               <lb/> unserem <choice>
+                  <abbr>verg.</abbr>
+                  <expan>vergangenen</expan>
+               </choice> Schreiben angezeigte Verkauf von<lb/>
+               <measure type="volume" unit="box" quantity="2000" commodity="wax">2000</measure>
+               <hi rend="latintype">Kisten</hi> ist nicht durchgegangen, weil das<lb/>
+               <orgName type="gov" ref="K01007">
+                  <hi rend="latintype">Gouvernement</hi>
+               </orgName> noch nicht verkaufen will,<lb/> es besteht daher für uns alle
+                    Aussicht, daſ wir<lb/> einen guten Preiß für eine Parthie machen<lb/>
+                    würden.<lb/> Für vorläufige Versicherung von<lb/>
+               <hi rend="underline">
+                  <term type="commercial" ref="K01508">＄</term>
+                  <measure type="currency" quantity="1500" unit="mex$">1500„-„</measure>
+               </hi> haben Sorge zutragen, hoffen daſ Sie uns<lb/> aber eine größere Sendung
+                    machen.<lb/> Daſ Sie mit <hi rend="latintype"> von <unclear reason="illegible">Klement</unclear>
+               </hi> in Angelegenheit<lb/> der Sache von <orgName type="firm" ref="K01005">
+                  <hi rend="latintype">Mog. Melb. &amp; Co.</hi>
+               </orgName> so viele Schwierig-<lb/> keiten haben, thut uns leid, jedenfalls<lb/>
+                    wäre es vorzuziehen, <del rend="overstrike">daß</del> wenn die Sache dort<lb/>
+                    in Ordnung gemacht würde, weil hier noch weit<lb/> mühsamer, solche Sachen in
+                    Ordnung zu bringen<lb/> sind. Gerne lesen wir, daſ der <hi rend="latintype">Tractat mit Preußen</hi>
+               <lb/> in Ordnung ist in sofern, daß alle Deutschen jetzt<lb/> danach in
+                        <placeName ref="K00502">
+                  <hi rend="latintype">Japan</hi>
+               </placeName> bleiben dürfen, daß aber nur<lb/> Preuss. Schiffe zugelassen werden
+                    ist traurig, da<lb/> wenig Preuss. Schiffe <hi rend="latintype">existiren,</hi>
+                    die Schiffart<lb/> für <hi rend="latintype">Deutschland</hi> also sehr
+                    beschränkt bleibt.<lb/> Obgleich es im Geschäft hier allgemein sehr
+                    stille<lb/>ist, so sind die auf <hi rend="latintype">Auction</hi> verkauften
+                    Jap. Ar-<lb/> tikel sehr gut bezahlt worden. Wir sind mit<lb/> den Preisen sehr
+                    zufrieden &amp; wünschen nur daſ alle<lb/>
+               <hi rend="latintype">Retouren</hi> so auskommen mögen das <hi rend="latintype">
+                  <term type="goods" ref="K01661">Steinzeug</term>
+               </hi>
+            </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+            <p> (die <term type="goods" ref="K01662">Waschgestelle</term>) sind hier nicht
+                    beliebt, diese sind<lb/> noch alle unverkauft &amp; werden auch noch lange
+                    auf<lb/> Käufer warten müssen, wir müssen trachten<lb/> sie <unclear reason="eccentric_ductus">sun Null</unclear> zu placieren, bitten daher uns
+                    vorläufig<lb/> keine mehr zu senden, sie sind auch sehr theuer.<lb/> Mit der
+                    gestreiften <hi rend="latintype">
+                  <term type="goods" ref="K01524">Seide</term>,</hi> so wie Ginghams <lb/>
+                    sitzen wir auch noch, für Innländer sind die<lb/> Stücke zu schmal &amp; für <hi rend="latintype">Europäer</hi> sind die<lb/>
+               <unclear reason="eccentric_ductus">
+                  <hi rend="latintype">Meisten</hi>
+               </unclear> nicht hübsch genug, von <term type="goods" ref="K01663">
+                  <hi rend="latintype">Crep</hi>
+               </term> bitten die<lb/> Sendung zu stoppen, hiervon liegt ebenfalls<lb/> noch
+                    ein großer Theil unverkauft. Den Rest<lb/> des <hi rend="latintype">
+                  <term type="goods" ref="K01531">Camphers</term> (<measure type="volume" unit="tub" quantity="128" commodity="camphor">128</measure>
+                  <term type="measure" ref="K01542">Tubben</term>)</hi> haben noch zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="80">80,-</measure>
+               <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <lb/>
+                  <term type="measure" ref="K01542">Tubbe</term>
+               </hi> verkauft.<lb/> Der <hi rend="latintype">
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> geht mit einer Ladung <term type="goods" ref="K01502">
+                  <hi rend="latintype">Reis</hi>
+               </term>nach<lb/>
+               <placeName ref="K00504">
+                  <hi rend="latintype">China</hi>
+               </placeName> (wahrscheinlich in <placeName ref="K00509">
+                  <hi rend="latintype">Hongkong</hi>
+               </placeName> zu lassen) wird <del rend="overstrike">dan</del>
+               <lb/> dort eine Fracht auf der Küste führen &amp; dann<lb/> nach <placeName ref="K00502">
+                  <hi rend="latintype">Japan</hi>
+               </placeName> weitergehen. für <placeName ref="K00509">
+                  <hi rend="latintype">Japan</hi>
+               </placeName> hat er<lb/> einige <hi rend="latintype">Kisten</hi> von uns an
+                    Bord, welche wir von Hr.<lb/>
+               <persName ref="K00008">
+                  <hi rend="latintype">C. Kniffler</hi>
+               </persName> zur Weiterbeförderung an Sie erhielten<lb/> außerdem eine <hi rend="latintype">Kiste</hi> für Sie von Herren <orgName type="firm" ref="K01156">
+                  <hi rend="latintype">J. <lb/>
+                        Cézard &amp; Co.,</hi>
+               </orgName> welche diese
+                    Herren von Herren <unclear reason="illegible">
+                  <hi rend="latintype">Vlierbann</hi>
+               </unclear>
+               <lb/> &amp; Co erhielten.<lb/> Wir ver<hi rend="latintype">charterten</hi> den
+                        <name type="ship" ref="K01516">
+                  <hi rend="latintype">Schiller</hi>
+               </name> zu <measure type="currency" unit="mex$" quantity="47.5">47
+                        1/2.</measure>
+               <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollar</term> Cuts<lb/> per Pic.</hi>
+                    für <hi rend="latintype">Reis</hi> nach <hi rend="latintype">Hongkong,</hi>
+                    hätten wir<lb/> uns einen <hi rend="latintype">Profit</hi> bei einer Ladung
+                        <term type="goods" ref="K01502">
+                  <hi rend="latintype">Reis</hi>
+               </term> nach<lb/>
+               <placeName ref="K00504">
+                  <hi rend="latintype">China</hi>
+               </placeName> herausrechnen können, so hätten das Schiff<lb/> selbst beladen,
+                        <del rend="overstrike">hier</del>bei <hi rend="latintype">Vercharterung</hi>
+                    stehen uns aber<lb/> besser, zogen daher Letzteres vor. Haben Sie also </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+            <p>Aussicht das Schiff in <placeName ref="K00502">
+                  <hi rend="latintype">Japan</hi>
+               </placeName> vortheilhaft fahren<lb/> lassen zu können, so bitten Sie Ihre <hi rend="latintype">Destina-<lb/> tionen <persName ref="K00015">Capt.
+                            Salzkorn</persName>
+               </hi> nach <placeName ref="K00509">
+                  <hi rend="latintype">Hongkong</hi>
+               </placeName> zukom-<lb/> men zu lassen. <del rend="overstrike">Woher</del> Auf
+                    Ihre Abrechnung<lb/> über den <name type="ship" ref="K01516">
+                  <hi rend="latintype">Schiller</hi>
+               </name> kommen mit der nächsten<lb/> Post näher zurück, da einige Pöste sich
+                    verändern<lb/> welche wir noch buchen müssen &amp; näher <hi rend="latintype">exami-<lb/> niren.</hi> Mit <persName ref="K00015">
+                  <hi rend="latintype">Capt. Salzkorn</hi>
+               </persName> haben wir, wegen<lb/> seines Bleibens auf dem <name type="ship" ref="K01516">Schiller</name>, die Sache beim<lb/>
+               <orgName type="gov" ref="K01007">
+                  <hi rend="latintype">Gouvernement</hi>
+               </orgName> in Ordnung gebracht, der Sicher-<lb/> heit wegen hat die befugte <hi rend="latintype">Autorität</hi> auf<lb/> den <hi rend="latintype">Seebrief,</hi> ausdrücklich darauf <unclear reason="illegible">gesagt,</unclear> daſ<lb/>
+               <gap quantity="2" unit="words"/>
+               <hi rend="latintype">Akte, <persName ref="K00015">E. Salzkorn</persName>
+               </hi> auf<lb/> auf dem Schiffe <add place="above" resp="writer" style="textOrientation: straight">als <hi rend="latintype">Capt</hi>
+               </add> fahren kann Wir hoffen<lb/> nun daſ <persName ref="K00068">Herr <hi rend="latintype">de Witt</hi>
+               </persName> zufrieden gestellt<lb/> sein wird &amp; ferner keine
+                    Schwirigkeiten<lb/> mehr macht.<lb/> Auf <hi rend="latintype">Auction</hi> wurde
+                    auf eine <hi rend="latintype">
+                  <term type="commercial" ref="K01574">Factura</term>
+                  <lb/>
+                  <term type="goods" ref="K01547">Lackwerk</term>
+               </hi> erstanden für <choice>
+                  <abbr>Rechg.</abbr>
+                  <expan>Rechnung</expan>
+               </choice> der <orgName type="firm" ref="K01020">
+                  <hi rend="latintype">Maatschap-<lb/> pij</hi>
+               </orgName> oder für <choice>
+                  <abbr>Rechg</abbr>
+                  <expan>Rechnung</expan>
+               </choice> des <orgName type="gov" ref="K01007">
+                  <hi rend="latintype">Gouvernements</hi>
+               </orgName> ver-<lb/> kauft &amp; war man mit dem <hi rend="latintype">Resultate</hi>
+               <lb/> sehr zufrieden. Es befanden sich hierun-<lb/> ter einige neue <term type="goods" ref="K01547">
+                  <hi rend="latintype">Lackesachen,</hi>
+               </term> welche recht<lb/> hübsch waren. z. B. <term type="goods" ref="K01660">
+                  <hi rend="latintype">Theedosen,</hi>
+               </term> mit <measure commodity="caddies" quantity="3">3</measure>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01664">Por-<lb/> cellainen</term> Dosen</hi> darin,
+                    welche nach den <hi rend="latintype">Seiten</hi>
+               <lb/> aufgingen. Recht hübsch <hi rend="latintype">arrangirte Damen</hi>
+            </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+            <p>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01665">Nähtische</term> &amp; <term type="goods" ref="K01666">Cigarrenbecher</term>.</hi> Der Lack war<lb/> sehr schön.
+                    Die Gegenstände werden dort<lb/> natürlich auch sehr theuer sein, wir
+                    können<lb/> daher nicht beurtheilen, <add place="above" resp="writer" style="textOrientation: straight">weil wir nicht wissen</add> wie die Sachen
+                        <hi rend="latintype">factu-<lb/>rirt</hi> sind, ob sie zu den bedungenen
+                    Preisen<lb/> Nutzen lassen. Wir theilen Ihnen dieses<lb/> nur mit, damit Sie
+                    wissen, was von dort <hi rend="latintype">ex-<lb/> portirt</hi> wird.<lb/> Mit
+                    dem <name type="ship" ref="K01516">Schiller</name> senden wir Ihnen<lb/> auch
+                    einen jungen Mann (<hi rend="latintype">
+                  <placeName ref="K00524">Bremer</placeName> von Geburt<lb/>Herrn <persName ref="K00069">Bolenz</persName>
+               </hi>) welchen Ihr Herr <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi>
+               <lb/> kennen wird.<lb/> Von einem hiesigen Freund haben wir<lb/> Order auf <hi rend="latintype">
+                  <table rows="2" cols="3">
+                     <row>
+                        <cell>
+                           <measure type="volume" quantity="100" unit="picul" commodity="gallnuts">Hundert (1<hi rend="underline">00</hi>.)</measure>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01504">Pic.</term>
+                        </cell>
+                        <cell>
+                           <term type="goods" ref="K01667">Gallnüsse</term>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <measure type="volume" commodity="beeswax" unit="picuk" quantity="100">Hundert (1<hi rend="underline">00</hi>.)</measure>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01504">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>Pic.</expan>
+                              </choice>
+                           </term>
+                        </cell>
+                        <cell>
+                           <term type="goods" ref="K01541">Bienenwachs</term>
+                        </cell>
+                     </row>
+                  </table>
+               </hi>
+               <mentioned>
+                  <term type="goods" ref="K01667">Erstere</term>
+               </mentioned> bis zum Preise von <hi rend="latintype">
+                  <measure type="currency" quantity="6" unit="mex$">Sechs</measure>
+               </hi> bis <hi rend="latintype">
+                  <measure type="currency" quantity="7" unit="mex$">Sieben</measure>
+                  <term type="commercial" ref="K01508">Dol-<lb/> ler</term> per <term type="measure" ref="K01504">Picul</term>.</hi> &amp; Letztere bis zum
+                    Preise von<lb/>
+               <measure type="currency" unit="mex$" quantity="35">
+                  <hi rend="latintype">Fünf und Dreizig</hi>
+               </measure> bis <hi rend="latintype">
+                  <measure type="currency" unit="mex$" quantity="40">Vierzig</measure>
+                  <term type="commercial" ref="K01508">Dollar</term> per <term type="measure" ref="K01504">Pic.</term>
+               </hi>
+               <lb/> Oder so viel billiger, wie sie Sie verkaufen<lb/> können.<lb/> Die <term type="goods" ref="01667"/>
+               <hi rend="latintype">Gallnüsse</hi> müssen von <hi rend="latintype">Qualität</hi>
+               <lb/> wie Ihnen <hi rend="latintype">per <name type="ship" ref="K01516">Schiller</name>
+               </hi> zukommendes <hi rend="latintype">Nuessen</hi>
+               <lb/> sein, Herr <persName ref="K00069">
+                  <hi rend="latintype">Bolenz</hi>
+               </persName> wird es Ihnen überreichen<lb/> &amp; <hi rend="latintype">
+                  <term type="goods" ref="K01541">Bienenwachs</term>
+               </hi> von derselben <hi rend="latintype">Qualität</hi> wie<lb/> Sie uns <hi rend="latintype">per <name type="ship" ref="K01516">Schiller</name>
+               </hi> sandten. Wir bitten<lb/> Sie diese <hi rend="latintype">Order</hi> so
+                    schnell wie möglich </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/>
+            <p>auszuführen, uns die <hi rend="latintype">
+                  <term type="logistic" ref="K01515">Connessemente</term>
+               </hi> zu senden<lb/> &amp; bei Zeiten uns den Auftrag zur <term type="commercial" ref="K01587">
+                  <hi rend="latintype">Asse-<lb/> curanz</hi>
+               </term> zu geben.<lb/> Sie können die die Waaren entweder <add place="above" resp="writer" style="textOrientation: straight">mit erster Gelegenheit
+                        auf</add> hier<lb/> oder nach <hi rend="latintype">
+                  <placeName ref="K00508">Singapore</placeName>
+               </hi> senden. Nach letzterm<lb/> Platze senden Sie die <hi rend="latintype">
+                  <term type="logistic" ref="K01515">Connessemente</term>
+               </hi> an<lb/> Herren <orgName type="firm" ref="K01019">
+                  <hi rend="latintype">Rautenberg Schmidt &amp; Co.</hi>
+               </orgName> mit der<lb/> Weisung sie mit ersten <hi rend="latintype">Steamer</hi>
+                    an unsere<lb/>
+               <hi rend="latintype">Adresse</hi> weiter zu befördern.<lb/> Deckung zur <term type="commercial" ref="K01587">
+                  <hi rend="latintype">Assecuranz</hi>
+               </term> gaben Sie jeden-<lb/> falls uns auf.<lb/> Die Order bleibt <hi rend="latintype">Fünf Monate in Kraft.</hi>
+               <lb/> Bitte theilen Sie uns umgehend mit, ob<lb/> Sie sie ausführen können.<lb/>
+                    Sonst nichts von Belang, im Geschäft geht<lb/> es etwas besser &amp; hoffen bald
+                    recht vortheil-<lb/> hafte Berichte von Ihnen zu empfangen, da<lb/> anzunehmen
+                    ist daſ das Geschäft dort jetzt<lb/> besser werden wird.<lb/>
+               <seg rend="right">Freundschaftlichst<lb/>
+                  <orgName type="firm" ref="K01001">
+                     <hi rend="latintype">Pandel + Stiehaus</hi>
+                  </orgName>
+               </seg>
+               <lb/> Einliegend. 1. <choice>
+                  <abbr>Brf.</abbr>
+                  <expan>Brief</expan>
+               </choice> für Hr. <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi>
+            </p>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_7.tif" n="7"/>
+            <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_8.tif" n="8"/>
+            <p>
+               <seg rend="right">
+                  <add style="textOrientation: straight" resp="other">
+                     <hi rend="latintype">1861<lb/>
+                        <placeName ref="K00501">Batavia</placeName>
+                        <date when="1861-02-01">1 Febr.</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+                        <lb/>R <hi rend="underline">
+                           <date when="1861-03-20">20 Maerz</date> „<name type="ship" ref="K01668">Syrian</name>”</hi>
+                        <lb/>
+                        <date when="1861-03-27">27. <choice>
+                              <abbr>id.</abbr>
+                              <expan>idem</expan>
+                           </choice>
+                        </date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+         <p>By Steamer.<lb/>via Singapore &amp; Shanghai.<lb/>Batavia Feb. 2nd
+                1861.<lb/>Mr.<lb/>L. Kniffler &amp; Co.<lb/>Dejima.<lb/>We confirm our latest
+                respectful letter <lb/>from 16th January, of which enclosed a copy &amp;<lb/>we
+                acknowledge the congenial receipt of<lb/>your esteemed letter of 28th Dec.
+                60.<lb/>We took note that the good kind<lb/>of payong is so very expensive &amp;
+                agree with <lb/>you that we had better persist with <lb/>the ordinary kinds because
+                proportionately</p>
+         <p> those pay for themselves better.<lb/> Regarding coal we can only confirm what
+                we<lb/>said earlier &amp; ask you not to send us<lb/>any more of them, and if it is
+                necessary <lb/>only as much as a ship needs as ballast. <lb/>Those sent by means of
+                the Schiller <lb/>we could not sell ourselves &amp; were<lb/>forced to clear them
+                out by auction, <lb/>at which they raised 80 guilder cents <lb/>per pic. Large
+                quantities would not lift<lb/>this price. The prices for Wachs<lb/>have held so far
+                &amp; it should be most</p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+         <p>pleasing to us to receive by means of the Zwaluw <lb/>a shipment from you. The sale
+                of 2,000 boxes<lb/>announced to you in[?] our last letter<lb/>has not gone through
+                yet because<lb/>the government does not want to sell yet,<lb/>therefore there is all
+                probability for us <lb/>that we would achieve a good price <lb/>with this batch.
+                <lb/>We have to take care of a preliminary <lb/>insurance of ＄ 1,500„-„ , but we
+                hope <lb/>you can make a larger shipment for us. <lb/>That you are having so much
+                difficulty<lb/>with von Klement[?] regarding the<lb/>affair of Mog. Melb. &amp; Co.,
+                we regret, <lb/>in any case it would be preferable <del rend="overstrike">that</del>
+                if <lb/>the matter could be settled there because<lb/>here it is far more arduous
+                still to settle such <lb/>affairs. We are glad to read that the treaty with
+                Prussia<lb/>is now in order insofar as now accordingly<lb/>all Germans may remain in
+                Japan, but that only<lb/>Prussian ships will be allowed is sad because <lb/>there
+                are only few Prussian ships, therefore <lb/>shipping will remain very limited for
+                Germany. <lb/> Although it is generally very quiet in the <lb/>business, the Jap.
+                articles sold at auction<lb/>were paid for well. We are very satisfied<lb/>with the
+                prices &amp; just wish that all <lb/>return shipments may go as well. The
+                stonewares</p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+         <p>(the drying racks) are not popular here, these are <lb/>all still unsold &amp; will
+                have to wait a long time for <lb/>a buyer, we will have to attempt to place
+                them<lb/>at cost price[?], we ask you therefore not to send any more <lb/>of them
+                for the time being, they are also very expensive. <lb/>We are still sitting on the
+                striped silk <lb/>as well as the ginghams, for the locals the <lb/>items are too
+                narrow &amp; for Europeans <lb/>most[?] are not pretty enough, von Crep<lb/>ask to
+                stop delivery, a large part of these<lb/>also still remains unsold. The remainder
+                <lb/>of the camphor (128) tubs we have sold for <lb/>f. 80,- p<hi rend="superscript">er</hi> tub still. <lb/> The Schiller will go to China (probably to unload
+                in<lb/>Hong Kong) with a load of rice), will <del rend="overstrike">then</del>
+            <lb/>there take cargo along the coast &amp; then<lb/>go on to Japan. For Japan she
+                has <lb/>some boxes from us on board, which we received from<lb/>Mr. C. Kniffler to
+                forward to you,<lb/>furthermore a box for you from Messrs. J. <lb/> Cézard &amp;
+                Co.[?], which those gentlemen received from Messrs. <lb/>Vlierbann[?] &amp;
+                Co.<lb/>We chartered out the Schiller at a cut of 47 1/2 dollars <lb/> per pic. for
+                the rice to Hong Kong. If we had thought that <lb/>we could make a profit on a cargo
+                of rice for <lb/>China, we would have loaded the ship <lb/>ourselves, <del rend="overstrike">here</del>by chartering her out however stands us<lb/>in
+                better stead, which is why we preferred the latter. If therefore </p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+         <p>you have the prospect of being able to let the ship sail profitably<lb/> in Japan,
+                please let Capt. Salzkorn, when he is in Hong Kong, <lb/>have your destinations.
+                    <del rend="overstrike">From where</del> We will come back <lb/>in more detail to
+                your invoice regarding the Schiller <lb/>with the next post because some lots are
+                changing, <lb/>which we still need to book &amp; examine further.<lb/>With Capt.
+                Salzkorn, regarding his remaining on the Schiller,<lb/> we have sorted out the
+                affair with the government, <lb/>for security the relevant authority has explicitly
+                <lb/>said[?] on the lcaptain’s license that<lb/> [...]file, E. Salzkorn can
+                sail<lb/>as Capt on the ship. We now hope<lb/>that Mr. de Witt will be satisfied
+                <lb/>now &amp; will not cause any more <lb/>difficulties. <lb/>At auction
+                lacquerwares were bought <lb/>on invoice on behalf of the Maatschap-<lb/> pij or
+                were sold on behalf of the government<lb/>&amp; one was very pleased with the
+                <lb/>results. Among these there were some new<lb/>lacquered items which were quite
+                <lb/>pretty, e.g. tea jars with 3 porcellain<lb/>jars inside, which opened to the
+                <lb/>sides. Quite nicely arranged ladies’ sewing</p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+         <p>tables &amp; cigar holders. The lacquering was <lb/>very nice. The items there will
+                of course <lb/>also be very expensive, we can therefore<lb/>not judge, because we do
+                not know how the items are <lb/>billed, whether they will make a profit at the
+                <lb/>prices achieved. We are only letting you know <lb/>this so that you are aware
+                of what gets exported<lb/>from there. <lb/>With the Schiller we are also sending
+                you<lb/>a young man (born in Bremen called <lb/>Mister Bolenz) who will be known to
+                your <lb/>Mr. Gildemeister. <lb/>From a local friend here we have an<lb/>order for
+                    <table>
+               <row>
+                  <cell>a hundred (1<hi rend="underline">00</hi>.)</cell>
+                  <cell>pic.</cell>
+                  <cell>gallnuts</cell>
+               </row>
+               <row>
+                  <cell>a hundred (1<hi rend="underline">00</hi>.)</cell>
+                  <cell>＂</cell>
+                  <cell>bees wax</cell>
+               </row>
+            </table> The former up to a price of six to seven dollars<lb/>per picul &amp; the
+                latter up to a price of <lb/>thirty-five or forty dollars per pic.<lb/>or as much
+                cheaper as you can sell<lb/> them. <lb/>The gallnuts have to be of the same quality
+                as<lb/>the nuts that you will receive via Schiller,<lb/>Mr. Bolenz will hand those
+                to you <lb/> &amp; the bees wax of the same quality <lb/>as that which you sent us
+                by means of Schiller. We ask <lb/>that you fulfil this order as quickly as </p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif" n="6"/>
+         <p>possible, send us the bills of lading <lb/> &amp; in good time instruct us to
+                organise<lb/>insurance. <lb/>You can send the goods either here at the first
+                opportunity <lb/>or to Singapore. If to the latter <lb/>place, please send the bills
+                of lading to <lb/>Messrs. Rautenberg Schmidt &amp; Co. with the<lb/>instruction to
+                forward them to our address<lb/>by means of the first steamer. <lb/>Payment for the
+                insurance you definitely gave<lb/>to us. <lb/>The order will remain valid for five
+                months. <lb/>Please let us know immediately whether you <lb/>will be able to fufil
+                it. <lb/>Other than that there is nothing important, business <lb/>is going a little
+                better &amp; and we hope soon to receive quite<lb/>favourable reports from you as it
+                is to be<lb/>expected that business there will be getting <lb/>better now. <lb/>Your
+                dearest friends<lb/>Pandel + Stiehaus<lb/>Enclosed 1 letter for Mr. Gildemeister</p>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_7.tif" n="7"/>
+         <pb facs="1861_02_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_8.tif" n="8"/>
+         <p>⟨1861<lb/>Batavia 1st Feb.<lb/>Pandel &amp; Stiehaus<lb/>R[eceived] 20th March
+                “Syrian”<lb/>27. id.⟩</p>
+      </body>
+   </text>
+</TEI>

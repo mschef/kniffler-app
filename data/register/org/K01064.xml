@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag H. C. Bock</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01064">
+               <orgName type="firm">H. C. Bock</orgName>
+               <settlement>Hamburg</settlement>
+               <note>1825 in Hamburg gegründetes Handelsunternehmen. Zwischen 1852 und 1872 wurde es nach dem Tod des Firmengründers H. C. Bock von seinem Bruder, Lorenz Johannes Bock, geführt.
+                  Nachdem der Prokurist Carl Jacob 1862 von der preußischen Ostasien-Expedition zurückgekehrt war, konzentrierte sich das Geschäft der Firma vor allem auf den Im- und Exporthandel mit
+                  Asien und Südamerika. 1862 war auch das Jahr des ersten Kontakts zur Firma L. Kniffler &amp; Co., der eine über zehn Jahre prosperierende Geschäftsbeziehung nach sich zog.</note>
+               <bibl>Harald Hohnsbehn: Die Bocks - Eine Familie im Strom der Zeit, Neumünster 2007, S. 72-87</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 37</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

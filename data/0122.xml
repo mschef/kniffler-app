@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bollenhagen &amp; Co. in Hamburg an L. Kniffler &amp; Co in Yokohama am 4.
+                    Oktober 1870</title>
+            <title type="file">0122.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-116</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Alles Seiten beschrieben, keine Eingangsnotiz</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01008">Bollenhagen &amp; Co.</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1870-10-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-25" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-16" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="latintype">
+                  <hi rend="underline">via <placeName ref="K00543">Triest</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">LKniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>, den <date when="1870-10-04">4<hi rend="superscript">ten</hi> Octbr. 1870</date>
+               </hi>
+            </seg>
+            <lb/> Wir schrieben Ihnen zuletzt am <date when="1870-09-27">27 <choice>
+                  <abbr>pto</abbr>
+                  <expan> passato</expan>
+               </choice>
+            </date> und zeigen<lb/> Ihnen hiermit den Empfang Ihres Werthen vom <date when="1870-08-01">1</date> und <date when="1870-08-08">8<lb/>
+               <hi rend="latintype">August</hi>
+            </date> an._ Copie Ihrer Consignations <term type="commercial" ref="K01574">Facturen</term> über<lb/>
+            <measure type="logistic" commodity="silk" unit="Ballen" quantity="15">15</measure>
+            <term type="logistic" ref="K01572">Ballen</term>
+            <hi rend="latintype">
+               <term type="goods" ref="K01524">Seide</term>
+            </hi> von <hi rend="latintype">
+               <unclear>Ins</unclear>
+               <orgName type="firm" ref="K01051">W. Carter Sons + C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> nahmen entgegen<lb/> und bemerken das über diese Sendung Gesagte._ Ihre<lb/>
+            <term type="commercial" ref="K01523">Rimesse</term>
+            <hi rend="latintype">de <choice>
+                  <abbr>fes</abbr>
+                  <expan cert="medium"> Friedrichsd'or</expan>
+               </choice>
+            </hi>: 10820.20 <hi rend="latintype">per 3 <hi rend="superscript">Mt</hi>/Scht<hi rend="superscript"> a</hi>/ <persName ref="K00044">Germain
+                        Halphen</persName>
+            </hi>
+            <lb/> nehmen entgegen, können Ihnen aber nächstweilen<lb/> mit Gutschrift darüber
+                nicht aufwarten._ <hi rend="latintype">
+               <placeName ref="K00534">Paris</placeName>
+            </hi> ist cernirt <lb/> und jede Verbindung damit hat aufgehört, -wir behalten<lb/>
+                den Wechsel einstweilen für Ihre <choice>
+               <abbr>w.</abbr>
+               <expan> werte</expan>
+            </choice> Rechnung im <hi rend="latintype">
+               <term type="commercial" ref="K01617">Portefeui</term>
+            </hi>
+            <gap/>
+            <lb/> Ueber Ihre weitere <term type="commercial" ref="K01523">Rimesse</term>
+            <term type="commercial" ref="K01522">£</term>
+            <measure type="currency" unit="britPound" quantity="64.195">64.19.5</measure>
+            <hi rend="latintype">per 6 Mt/S. <hi rend="superscript">a</hi>/. <orgName type="firm" ref="K01029">London<lb/> Joint Stock Bank</orgName>
+            </hi> geben wir Ihnen mit Nächster Auf-<lb/> stellung._ Sie haben uns- um das unser
+                ⅓ Antheil an der<lb/> Kiste <hi rend="latintype">
+               <term type="goods" ref="K01618">Narvalzähne</term>
+            </hi> zu begleichen - zu viel remittiert._ In<lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01618">Narvalzähnen</term>
+            </hi> wird wieder eine Ladung aufgemacht,<lb/> sobald etwas billiger darin zu
+                erhalten ist._<lb/> In <hi rend="latintype">
+               <term type="goods" ref="K01569">Grey Shirtings</term>
+            </hi> wird auf Ihre Berichte hin wieder<lb/> ein Mehreres eingeleitet werden, voraus
+                gesetzt, daß Preise<lb/> dies erlauben._ Uebrigens haben Sie auch schon ein
+                Bedeuten-<lb/> des in <hi rend="latintype">
+               <term type="goods">Garnen</term> + <term type="goods" ref="K01569">Shirtings</term>
+            </hi>
+            <unclear> schwimmen</unclear>._<hi rend="latintype">
+               <placeName ref="K00530">Manchester</placeName>
+            </hi> ist<lb/> wieder flauer geworden und es ist Aussicht <measure commodity="shirtings" unit="pound" quantity="874">874</measure>
+            <term type="measure" ref="K01543">℔</term>
+            <lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01569">Shirtings</term> à 9/3<hi rend="superscript">d</hi>
+            </hi> vielleicht 9/½ <hi rend="superscript">d</hi>
+            <choice>
+               <abbr>p. pc</abbr>
+               <expan> per piece</expan>
+            </choice> ankommen zu können<lb/>
+            <hi rend="latintype">Havarie Dokumente</hi> über <measure quantity="7" unit="ballen" commodity="shirtings">7</measure>
+            <term type="logistic" ref="K01572">Ballen</term>
+            <hi rend="latintype">
+               <term type="goods" ref="K01569">Shirtings</term>
+            </hi>
+            <lb/> und <measure quantity="9" unit="ballen" commodity="cotton">9</measure>
+            <term type="logistic" ref="K01572">Ballen</term>
+            <hi rend="latintype">
+               <term type="goods" ref="K01559">Cotton </term>
+               <term type="goods" ref="K01620">Yarn</term>
+            </hi> ex „<hi rend="latintype">
+               <name type="ship" ref="K01619">Albatross</name>
+            </hi>” haben wir behufs<lb/>
+            <unclear>Incasso</unclear> des Schadens nach <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> gesandt und werden<lb/> wir <choice>
+               <abbr>s. Zt.</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> hierrauf zurückkommen._<lb/> Ihre <unclear>Entnahme</unclear> auf uns <hi rend="latintype">de</hi>
+            <hi rend="underline">
+               <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+               <measure type="currency" unit="mBanco" quantity="1500">1500/_</measure>
+            </hi>
+            <hi rend="latintype">per</hi> 30<hi rend="superscript">
+               <hi rend="superscript">Tage</hi>
+            </hi>/y<lb/>
+            <hi rend="superscript">a</hi>/<hi rend="latintype">
+               <persName ref="K00042">W. Pardun</persName>
+            </hi> schützten wir und belasten Sie dafür wie<lb/> vorstehend <hi rend="underline">
+               <hi rend="latintype">per <date when="1870-10-04">4 November</date>._</hi>
+            </hi> Wie es mit Ihrer jüngsten<lb/> Sendung an <hi rend="latintype">
+               <persName ref="K00043">Chanton</persName>
+            </hi>
+            <del rend="overstrike"> geht</del> gehen wird, ist schwer zu sagen,<lb/> die Waare
+                kann nicht nach <hi rend="latintype">
+               <placeName ref="K00534">Paris</placeName>
+            </hi> hinein und Herr <hi rend="latintype">
+               <persName ref="K00044">Ger-<lb/> main Halphen</persName>
+            </hi> wird auch nicht Ihre Briefe erhalten<lb/> haben, worin Sie ihm Auftrag zur
+                    <term type="commercial" ref="K01587">Assecuranz</term> Besor-<lb/> gung
+                    <unclear>etc</unclear> ertheilen_ Wir haben bei Ihrem Herren<lb/>
+            <hi rend="latintype">
+               <persName ref="K00001">Kniffler</persName>
+            </hi> angefragt, ob wir unter diesen Umständen<lb/>
+            <seg rend="right">die</seg>
+         </p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_2.tif" n="2"/>
+         <p> Versicherung schließen sollen und kommen mit<lb/> Nächstem hierauf zurück._<lb/>
+                Ueber die <figure>
+               <figDesc>Firmenzeichen Louis Kniffler. Buchstaben mit ausgeprägten Serifen, in der Zeile L K unter der Zeile V D</figDesc>
+            </figure> 401/80. 80 Ballen <hi rend="latintype">
+               <term type="goods" ref="K01620">Garn</term> per „<name type="ship" ref="K01621">Lord of the<lb/> Isles</name>”</hi> werden Sie von den Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01052">Trüninger &amp; Co</orgName>
+            </hi>
+            <unclear>
+               <term type="logistic" ref="K01515">
+                  <choice>
+                     <abbr>Connosste.</abbr>
+                     <expan>Connosaiment</expan>
+                  </choice>
+               </term>
+            </unclear>
+            <lb/> (an Order <hi rend="latintype">per <placeName ref="K00503">Shanghai</placeName>
+            </hi> ausgestellt) eingesandt
+                bekommen<lb/> haben._ Die Sendung ist für die <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> Freunde be-<lb/> stimmt und bitten wir Sie dafür zu sorgen, daß die<lb/> 80
+                Ballen von <hi rend="latintype">
+               <placeName ref="K00503">Shanghai</placeName>
+            </hi> direct raus <hi rend="latintype">per Steamer</hi> nach<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> gehen._<lb/> Wir sind mit den Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01038">Drake Kleinworth &amp; Cohen</orgName>
+            </hi>
+            <lb/> und <orgName type="firm" ref="K01053">
+               <hi rend="latintype">Nestle</hi> Andreae &amp; Co</orgName> übereingekommen, daß
+                Sen-<lb/> dungen, gegen welche sie acceptiren, bei der <hi rend="latintype">
+               <orgName type="firm" ref="K01158">Düsseldorfer
+                    <lb/> Vers. Gesellschaft</orgName>
+            </hi> durch uns versichert werden können._<lb/> Für
+                diese Fälle nehmen die <hi rend="latintype">
+               <placeName ref="K00523">Londoner</placeName>
+            </hi> Häuser ¼% <hi rend="latintype">Accept</hi>
+            <lb/> Commission mehr _ <hi rend="latintype">
+               <orgName type="firm" ref="K01038">Drake Kl. Cohen</orgName>
+            </hi> also z. B. 1¾ &amp; 1½%<lb/> anstatt wie sonst 1½ &amp;1½ %._ Es ist indeß
+                noch fraglich,<lb/> ob nur einmal ¼% mehr gerechnet wird, es kann<lb/> auch für
+                jedes <hi rend="latintype">Accept</hi> verschieden sein doch wird dieses<lb/>
+                reichlich ausgeglichen durch die Prämien Differenz, indem<lb/> wir in <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> gewöhnlich ½ - 1% mehr verlangen müssen.<lb/> Einliegend finden Sie:<lb/>
+            <hi rend="underline">1192</hi>
+            <term type="commercial" ref="K01574">Fractura</term> von <hi rend="latintype">
+               <orgName type="firm" ref="K01054">Jung &amp; Simons Elberfeld</orgName>
+            </hi>
+            <choice>
+               <abbr> ü/ </abbr>
+               <expan> über</expan>
+            </choice>
+            <figure>
+               <figDesc>Firmenzeichen. Davidstern mit an den Ecken eines gedachten Quadrats enthaltenen Buchstaben J B C L in der Mitte des Stern die Buchstaben K &amp; C</figDesc>
+            </figure> 395/7.<lb/>
+            <measure type="volume" quantity="3" unit="boxes" commodity="cloth">3 Kisten</measure>
+            <hi rend="latintype">Italien Cloth per</hi> Steamer
+                    <hi rend="latintype">
+               <name type="ship" ref="K01622">Acantha</name>
+            </hi> an Ihre<lb/> werthe Adresse verladen._ Der Facturen-Betrag steht<lb/> Ihnen
+                belastet mit £ 253.8.1à 13 <unclear>₻</unclear>8<unclear>½</unclear> mit <hi rend="underline">
+               <term type="currency" ref="K01830">B <hi rend="superscript">co</hi>₻</term>3420.15<unclear>7</unclear>
+            </hi>
+            <lb/>
+            <hi rend="underline">
+               <hi rend="latintype">per <date when="1870-12-17">17 Decbr. <choice>
+                        <abbr>ac</abbr>
+                        <expan> anni currentis</expan>
+                     </choice>
+                  </date>,</hi>
+            </hi> ferner die Spesen laut <term type="commercial" ref="K01574">Factura</term>
+                Brief<lb/> mit <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        204.14</hi> p<hi rend="underline">er <date when="1870-09-22">22 Sept.</date>
+               </hi>
+            </hi>_ <term type="logistic" ref="K01515">Connossement</term> legen<lb/> wir hier
+                bei._ Laut beigefügter <term type="commercial" ref="K01587">Assecuranz</term> Nota
+                bitten<lb/> wir für Erneuerung der <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName> Police de <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+            </hi> 70,000/-<lb/>
+            <hi rend="latintype">per <date when="1871-09-27">27 September 1871</date>
+            </hi> um Gutschrift von<lb/>
+            <hi rend="underline">
+               <hi rend="latintype">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        1583.8 per <date when="1870-09-22">22 September <choice>
+                        <abbr>a. c.</abbr>
+                        <expan> anni currentis</expan>
+                     </choice>
+                  </date>
+               </hi>
+            </hi>
+            <lb/> Die Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01055">Leveson Lewis &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> berechnen uns für <unclear>Parti</unclear>
+            <lb/> auf via <hi rend="latintype">Mail Mustersale</hi> nach dorten £ _ 16.6 &amp;
+                haben<lb/> wir Sie dagegen à 13 <unclear>₻</unclear> 8 ½/- mit <hi rend="underline">
+               <hi rend="latintype">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        11.3 per <date when="1870-07-30">30 Juli<choice>
+                        <abbr> a. c.</abbr>
+                        <expan>anni currentis</expan>
+                     </choice>
+                  </date>
+               </hi>
+            </hi>
+            <lb/> debitirt._<lb/> Ferner haben wir nachträglich an <hi rend="latintype">
+               <orgName type="firm" ref="K01055">Leveson Lewis &amp; Co</orgName>
+            </hi>
+            <lb/>
+            <hi rend="latintype">per</hi>
+            <unclear>Fracht<gap/>
+            </unclear>
+            <lb/>
+            <figure>
+               <figDesc>Firmenzeichen Kniffler Hiogo. Dreieck mit der Grundlinie auf der Zeile stehend, mit Buchstaben H in der Mitte vor der linken Seite ein L nach der rechten Seite ein K stehend</figDesc>
+            </figure> FH 3/8 <measure type="volume" unit="boxes" quantity="6" commodity="pilot">6 Kisten</measure>
+            <hi rend="latintype">
+               <term type="goods" ref="K01843">Pilots</term> per „<name type="ship" ref="K01623">Excillia</name>”</hi> £ 9.6.2 (Eisen-<lb/> bahnfracht) vergütet
+                und dieselben à 13<unclear>₻</unclear> 8½ <unclear>₰</unclear> mit<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi> ₻</term>
+                        44.12 </hi>p<hi rend="underline">er <date when="1870-07-22">22 Juli <choice>
+                        <abbr>a. c.</abbr>
+                        <expan> anni currentis</expan>
+                     </choice>
+                  </date>
+               </hi>
+            </hi> in Ihr <hi rend="latintype">Debit</hi> gebracht._ Die<lb/> 6 Kisten sind <term type="logistic" ref="K01584">Consignation</term> von <hi rend="latintype">
+               <persName ref="K00045">Edward Helliwell</persName>
+            </hi>
+            <lb/> und Sie haben die übrige Summe <choice>
+               <abbr>s.Z.</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> von <term type="commercial" ref="K01529">Provenue</term>
+            <lb/> in Abzug zu bringen </p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_3.tif" n="3"/>
+         <p> Die Spesen auf ein Paquet mit Adresse <hi rend="latintype">per Steamer via<lb/>
+               <placeName ref="K00544">Southampton</placeName>
+            </hi> an Sie expedirt, wollen Sie uns wie folgt<lb/> gutschreiben:<lb/>
+            <table>
+               <row>
+                  <cell> Fracht bis <hi rend="latintype">
+                        <placeName ref="K00525">Yokohama</placeName>
+                     </hi>
+                     <unclear>C₻</unclear> 19.5 à 125 </cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <hi rend="underline">
+                           <term type="currency" ref="K01830">B<hi rend="superscript">co
+                                        </hi>₻</term>
+                        </hi>
+                     </hi>
+                     <measure type="currency" quantity="15.7" unit="mBanco">15.7</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>hies. Tansport &amp; Verpakngs - Speesen</cell>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="currency" ref="K01830">＂</term>
+                        <measure type="currency" quantity="1.4" unit="mBanco">1.4</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="latintype">
+                        <hi rend="underline">per <date when="1870-09-23">23 September</date>
+                        </hi>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline" n="2">
+                        <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        <measure type="currency" quantity="16.11" unit="mBanco">16.11</measure>
+                     </hi>
+                  </cell>
+               </row>
+            </table> ferner die Spesen auf ein Paquet mit Adresse <hi rend="latintype">via<lb/>
+               <placeName ref="K00543">Triest</placeName> / <placeName ref="K00503">Shanghai</placeName>
+            </hi>
+            <choice>
+               <abbr>
+                  <hi rend="superscript">n</hi>/.</abbr>
+               <expan>nach</expan>
+            </choice>
+            <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> expedirt:<lb/>
+            <table>
+               <row>
+                  <cell>Fracht von hier / <hi rend="latintype">
+                        <placeName ref="K00503">Shanghai</placeName>
+                     </hi>
+                  </cell>
+                  <cell/>
+                  <cell>
+                     <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                     <measure type="currency" quantity="45.3" unit="mBanco">45.3</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Verpckgs &amp; Transport Spesen</cell>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="currency" ref="K01830">＂</term>
+                        <measure type="currency" quantity="4" unit="mBanco">4._</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">
+                        <hi rend="latintype">per <date when="1870-09-28">28
+                                    Septber</date>.</hi>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                     </hi>
+                     <hi rend="underline" n="2">
+                        <measure type="currency" quantity="49.3" unit="mBanco">49.3</measure>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> An die Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01056">J. G. Schroeder &amp; Co.</orgName>
+            </hi> hier haben wir in Folge<lb/> Ihres Accreditifs und gegen eine zu liefernde
+                Dampf-<lb/> maschine eine weitere Zahlung von <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi> ₻</term>
+                        2500/-</hi>
+            </hi> geleistet,<lb/> welche Ihnen <hi rend="latintype">
+               <hi rend="underline">per <date when="1870-09-24">24 September</date>
+               </hi>
+            </hi> debitirt haben._<lb/> Die <hi rend="latintype">
+               <placeName ref="K00545">Hiogo</placeName>
+            </hi> Freunde haben auf uns entnommen<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        145.5</hi> per 30 <hi rend="superscript">Tage</hi>/ S. <hi rend="superscript">a</hi>/. <orgName type="firm" ref="K01159">C.
+                    Woermann</orgName>,</hi> wofür Sie <hi rend="latintype">
+               <hi rend="underline">pr. <date when="1870-11-02">2 Novbr</date>.</hi>
+            </hi>
+            <lb/> belastet stehen,- ferner die <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> Freunde<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        217.7</hi> per 3 <hi rend="superscript">M</hi>/S. <orgName type="firm" ref="K01057">
+                  <hi rend="superscript">a</hi>/ Czapp &amp; <unclear reason="illegible">Bevers</unclear>
+               </orgName>
+            </hi>, wofür wir Sie <hi rend="latintype">per<lb/>
+               <hi rend="underline">
+                  <date when="1871-01-03">3 Janr. 1871</date>
+               </hi>
+            </hi> belastet haben_<lb/> An Frau <hi rend="latintype">
+               <choice>
+                  <abbr>W<hi rend="superscript">we</hi>
+                  </abbr>
+                  <expan cert="medium">Witwe</expan>
+               </choice>
+               <persName ref="K00047">
+                  <unclear reason="illegible">Bergau</unclear> Memel</persName>
+            </hi> bezahlten wir für Rechnung<lb/>
+            <hi rend="latintype">Hiogo</hi> die <hi rend="latintype">
+               <date when="1870-09">September</date>
+            </hi>
+            <unclear> Rente</unclear> mit <choice>
+               <abbr>rt</abbr>
+               <expan cert="low">Reichstaler</expan>
+            </choice>10/- und debitirten Sie mit<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        20/-</hi>p<hi rend="latintype">er <date when="1870-10">October</date>._</hi>
+            </hi>
+            <lb/>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01053">Nestle Andreae &amp; Co</orgName>
+            </hi> stellten uns für Ihre Rechnung<lb/> zur Verfügung <hi rend="underline">
+               <term type="currency" ref="K01522">£</term>
+               <measure type="currency" unit="britPound" quantity="170">170/-</measure>
+            </hi>. worüber wir <hi rend="latintype">disponirten,</hi> indem<lb/> wir Ihnen den
+                Betrag à 13 ₻ &amp; 8<unclear>½</unclear> mit <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                  <measure type="currency" unit="markBanco" quantity="229.5">229.5/</measure>
+               </hi>p<hi rend="underline">er <date when="1870-09-21">21 Sept.</date>
+               </hi>
+            </hi>
+            <lb/> gutbrachten._ <hi rend="latintype">
+               <orgName type="firm" ref="K01058">E. Pavenstedt &amp; Co.</orgName>
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> remittirten<lb/> uns für Ihre <choice>
+               <abbr>w.</abbr>
+               <expan> werte</expan>
+            </choice> Rechnung <hi rend="underline">£203/-</hi>
+            <hi rend="latintype">per 60 <hi rend="superscript">Tage</hi>/S. <hi rend="superscript">a</hi>/. <orgName type="firm" ref="K01059">R.
+                        Raphael<lb/> &amp; Sons London</orgName>
+            </hi>, wofür wir Sie <choice>
+               <abbr>
+                  <hi rend="superscript">u</hi>/. <hi rend="superscript">ü</hi>/. V.</abbr>
+               <expan> unter üblichem Vorbehalt</expan>
+            </choice> wie folgt credi-<lb/> tirt haben<lb/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>£ 203 à 13 ₻ 8 ¼</cell>
+                  <cell>
+                     <term type="currency" ref="K01830">
+                        <hi rend="latintype">B<hi rend="superscript">co</hi>
+                        </hi>₻</term>
+                     <measure type="currency" unit="mBanco" quantity="2743.11">2743.11</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>⁒<hi rend="latintype">Discto <hi rend="superscript">a</hi>/ 63 Tage à
+                                3¼%</hi>
+                  </cell>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="currency" ref="K01830">＂ ＂</term>
+                        <measure type="currency" unit="mBanco" quantity="15.1">15.10</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                        <measure type="currency" unit="mBanco" quantity="2728.1">2728. 1</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>⁒ Courtage &amp; Stempel</cell>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="currency" ref="K01830">＂</term>
+                        <measure type="currency" unit="mBanco" quantity="4.12">4.12</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">
+                        <hi rend="latintype">per <date when="1870-09-25">25 Septebr.</date>
+                        </hi>
+                     </hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <hi rend="latintype">
+                           <term type="currency" ref="K01830">B<hi rend="superscript">co</hi>₻</term>
+                           <measure type="currency" unit="mBanco" quantity="2723.5">2723„5</measure>
+                        </hi>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> Laut einliegendem <term type="logistic" ref="K01515">Connossement</term> sind
+                    <hi rend="latintype">per <orgName type="firm" ref="K01060">
+                  <choice>
+                     <abbr>P. &amp; O. </abbr>
+                     <expan> Peninsular &amp; Oriental </expan>
+                  </choice>
+               </orgName>Steamer<lb/> „<name type="ship" ref="K01624">Massillia</name>”</hi> an
+                Sie verladen <figure>
+               <figDesc>Firmenzeichen. In der Mitte eines gedachten Quadrats eine Raute mit einem B in der Mitte. An der linken oberen Ecke des Quadrats ein L an der rechten oberen Ecke ein K</figDesc>
+            </figure> 659/62.4 <unclear>¢</unclear> blck. <hi rend="latintype">
+               <term type="goods" ref="K01629">Orleans</term>
+            </hi>
+            <lb/> worüber wir einstweilen Copie der <term type="commercial" ref="K01574">Factura</term>
+            <add style="textOrientation: straight" resp="writer" place="above">von <hi rend="latintype">
+                  <persName ref="K00048">B. v. Bartels</persName>
+               </hi>
+            </add> beilegen<lb/> Ueber das Reglement <unclear>so</unclear> kommen wir Ihnen
+                später<lb/> näher._ Die Versicherung ist durch <hi rend="latintype">
+               <orgName type="firm" ref="K01061">Horstmann &amp; Co.</orgName>
+            </hi> besorgt und<lb/> zwar „frei von 3%” für das Risico <hi rend="latintype">per</hi> Steamer bis <hi rend="latintype">
+               <placeName ref="K00514">Yoko-<lb/> hama</placeName>,</hi>
+            <unclear> taxt</unclear>: <term type="currency" ref="K01522">£</term>
+            <measure type="currency" unit="britPound" quantity="90">90/-</measure>
+            <hi rend="latintype">per</hi> Kiste._ </p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_4.tif" n="4"/>
+         <p> Wir schlossen ferner <term type="logistic" ref="K01515">Connesst.</term> bei über:<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. In der Mitte eines gedachten Quadrats eine Raute mit einem B in der Mitte. An der linken oberen Ecke des Quadrats ein L an der rechten oberen Ecke ein K</figDesc>
+                     </figure> 656/8 : 3¢ 150 <hi rend="latintype">per. blck. Orleans</hi>
+                  </cell>
+                  <cell rows="2">von <hi rend="latintype">
+                        <persName ref="K00048">B. von<lb/> Bartels</persName>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>In der Mitte eines gedachten Quadrats eine Raute mit einem FN in der Mitte. An der linken oberen Ecke des Quadrats ein L an der rechten oberen Ecke ein K</figDesc>
+                     </figure> 666/8. 3 ＂ ＂ ＂ do. </cell>
+               </row>
+            </table>
+            <lb/> werden <hi rend="latintype">per</hi> Steamer <hi rend="latintype">„<name type="ship" ref="K01625">Bengal</name>”</hi> nach <hi rend="latintype">
+               <placeName ref="K00509">Hong
+                    Kong</placeName>
+            </hi>
+            <lb/> und weiter <hi rend="latintype">per</hi> Steamer nach dorten._ Versichert durch<lb/>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01061">Horstmann &amp; Co. London</orgName>
+            </hi> für den Risico <hi rend="latintype">per</hi> Steamer<lb/>
+            <hi rend="latintype">„<name type="ship" ref="K01625">Bengal</name>”</hi> nach <hi rend="latintype">
+               <placeName ref="K00509">Hong Kong</placeName>
+            </hi> und weiter <hi rend="latintype">per</hi> Steamer<lb/> nach <hi rend="latintype">
+               <placeName ref="K00514">Yokohama</placeName>._</hi> Wir sagen Ihnen mit einem <choice>
+               <abbr>uns.</abbr>
+               <expan> unserer</expan>
+            </choice>
+            <lb/> Nächten, ob die 6 Kisten als <term type="logistic" ref="K01584">Consignation</term> oder für Ihre<lb/> Rechnung zu <unclear>beschauen</unclear>
+                sind_<lb/> Einliegend noch Duplicat <term type="logistic" ref="K01515">Conossement</term>
+            <choice>
+               <abbr>
+                  <hi rend="superscript">ü</hi>/:</abbr>
+               <expan> über</expan>
+            </choice>
+            <lb/> LK <hi rend="superscript">1</hi>/10. 10 Fässer <hi rend="latintype">
+               <unclear reason="illegible">Pulver</unclear>
+               <!-- TP las: Pulaez --> per „<name type="ship" ref="K01626">Lothair</name>”</hi>
+            <lb/>
+            <figure>
+               <figDesc>Firmenzeichen. Herz enthaltend die Buchstaben LKR</figDesc>
+            </figure> 2773/92. 20 Kisten <hi rend="latintype">per „<name type="ship" ref="K01627">Diomed</name>”</hi>
+            <lb/> diverse Copien &amp; Courszettel._<lb/> Ueber die Ausführung der <hi rend="latintype">
+               <term type="goods" ref="K01628">Mousselines impr.</term>
+            </hi>
+            <lb/>
+            <hi rend="latintype">(<orgName type="firm" ref="K01062">Herrmann &amp;
+                        Kahn</orgName>)</hi> wird Ihnen Herr <hi rend="latintype">
+               <persName ref="K00001">Kniffler</persName>
+            </hi> schreiben,<lb/> der das Geschäft geleitet hat._<lb/> Ueber <hi rend="latintype">
+               <term type="goods" ref="K01569">Shirtings</term> &amp; <term type="goods" ref="K01620">Garn</term>
+            </hi> wird Ihnen Herr<lb/>
+            <hi rend="latintype">
+               <persName ref="K00001">Kniffler</persName>
+            </hi> ebenfalls detaillirt schreiben, indem er die<lb/> Einleitungen angebahnt hat._
+                Auf 16 <unclear>Novbr</unclear> sind<lb/> wieder 8¼ <hi rend="superscript">
+               <unclear>℔</unclear>
+            </hi>
+            <hi rend="latintype">
+               <term type="goods" ref="K01569">Shirtings</term> à 9/3 <hi rend="superscript">a</hi>
+            </hi> gekauft (2000 <choice>
+               <abbr>Stp</abbr>
+               <expan cert="low">Stapel</expan>
+            </choice>)<lb/> und wird dafür, wenn nicht billiger, <unclear>rechtwohl</unclear>
+            <lb/> etwas gemacht werden._ Es liegt das Geschäft nicht<lb/> allein in Herrn <hi rend="latintype">
+               <persName ref="K00001">Knifflers</persName>
+            </hi> und <choice>
+               <abbr>uns.</abbr>
+               <expan> unseren</expan>
+            </choice> Händen, die B<add style="textOrientation: straight" resp="writer" place="above">e</add>thei-<lb/> ligten müssen auch ihre Zustimmung geben._<lb/>
+                Vom Kriegsschauplatz wenig Neues,<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00546">Straszburg</placeName>
+            </hi> hat sich ergeben und <placeName ref="K00534">Paris</placeName> erruirt._<lb/>
+                Geschäft still._ <hi rend="latintype">
+               <orgName type="firm" ref="K01139">Auffm Ordt &amp; Co</orgName>
+               <placeName ref="K00534">Paris</placeName>
+            </hi> sind mit<lb/> Ihrem Comptoir bis auf Weiteres nach <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> übersie-<lb/> delt, was sie Ihnen wohl direct angezeigt haben_<lb/> Alle
+                Deutsche sind aus <hi rend="latintype">
+               <placeName ref="K00534">Paris</placeName>,</hi> überhaupt <hi rend="latintype">Frankreich</hi>
+            <lb/> ausgewisen._<lb/>
+            <seg rend="center">Freundschaftlichst<lb/> gez <hi rend="latintype">
+                  <orgName type="firm" ref="K01008">Bollenhagen &amp;C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_1.tif" n="1"/>
+         <p>via Trieste<lb/> Messrs. L Kniffler &amp; Co.<lb/>Yokohama<lb/>Hamburg, 4th Oct.
+                1870<lb/>We last wrote to you on 27th of last month and hereby <lb/>notify you of
+                our receiving your esteemed letters from 1st <lb/>and 8th August._ We have received
+                your consignation invoices<lb/>for 15 bales of silk from Ins[?] W. Carter Sons + Co.
+                and are <lb/>noting the following with regard to this shipment._ We
+                are<lb/>accepting your remittance of Friedrichsd'ors: 10820.20 <lb/>per 3 mth/view
+                of/ Germain Halphen,but we will not be able to serve you<lb/>with a credit note for
+                it for the time being._ Paris is under siege<lb/>and all connections with it have
+                ceased, - we are going to keep your<lb/>bill of exchange in our wallet for your
+                esteemed account for the time being.<lb/>For your further remittance of £64.19.5 per
+                6 mth/view of/. London<lb/>Joint Stock Bank we will give you a summary in the next
+                letter._ <lb/>You have remitted us too much – to cover our ⅓ share in<lb/>the box of
+                narwhale tusks._ With regard to narwhale teeth<lb/>another load will be shipped,
+                once they can be got<lb/>a little more cheaply._<lb/>In terms of grey shirtings
+                several more will be dispatched <lb/>in reaction to your reports, subject to prices
+                allowing <lb/>this._ By the way, you already have a significant amount <lb/>of yarns
+                + shirtings on the way[?]._Manchester has<lb/>got slacker again and there is the
+                prospect of being able <lb/>to achieve 874℔ shirtings at 9/3 d possibly 9/½ d
+                apiece. <lb/>We have sent to London loss at sea documents for 7 bales <lb/>of
+                shirtings and 9 bales of cotton yarn from the “Albatross” <lb/>fur the purpose of
+                encashing[?] the damages and we will<lb/>return to this at the relevant time.
+                _<lb/>We secured your withdrawal[?] on us of Bco ₻ 1,500/_ <lb/>per 30 days/y a/ W.
+                Pardun and debit you for the above <lb/>amount per 4th November._ How it is going
+                going to go with <lb/>your most recent shipment to Chanton is difficult to
+                say,<lb/>the wares cannot enter Paris and neither will <lb/>Mr. Germain Halphen have
+                received your letters, <lb/>in which you instruct him to arrange insurance
+                <lb/>etc[?]_We have enquired with your Mr. Kniffler <lb/>whether under these
+                circumstances we should</p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_2.tif" n="2"/>
+         <p>arrange the insurance ourselves and will return to this <lb/>in our next letter.
+                _<lb/>For the </p>
+         <figure>
+            <figDesc>Company sign Louis Kniffler. Letters with distinctive serifs, on the line the letters L K , under the line V D</figDesc>
+         </figure>
+         <p> 401/80. 80 bales of yarn per “Lord of the<lb/> Isles” you will have been sent the
+                bills of lading (issued for order<lb/>per Shanghai) by Messrs. Trüninger &amp;
+                Co._<lb/>This shipment is intended for the Nagasaki friends<lb/>and we would ask to
+                take care of it that the <lb/>80 bales are sent on directly by steamer from Shanghai
+                <lb/>to Nagasaki._<lb/>We have come to an agreement with Messrs. Drake
+                <lb/>Kleinworth &amp; Cohen and Nestle Andreae &amp; Co that<lb/>shipments which
+                they accept can be insured by us<lb/>at the Düsseldorf Insurance Company._<lb/>For
+                these cases the London houses charge ¼% more acceptance<lb/>commission _ Drake Kl.
+                Cohen also e.g. 1¾ &amp; 1½%<lb/>unlike their usual 1½ &amp;1½ %._ It is, however,
+                still unsure<lb/>whether the ¼% more are only charged once, it might also <lb/>be
+                that this will be different for each acceptance, but this will<lb/>be richly
+                compensated for through the premium difference <lb/>as we usually have to ask ½ - 1%
+                more in London. <lb/>Enclosed you will find:<lb/>1192 invoice from Jung &amp; Simons
+                Elberfeld for<lb/>
+            <figure>
+               <figDesc>Company sign. Star of David with the letters J B C L enclosed at the corners of an imaginary square, and in the middle of the star the letters K &amp; C</figDesc>
+            </figure> 395/7.<lb/>3 crates of Italian cloth dispatched to your esteemed
+                address<lb/>per steamer “Acantha”._ The invoiced amount is debited<lb/>to you with £
+                253.8.1à 13 ₻[?]8½[?] with Bco₻[?] 3,420.157[?]<lb/>per 17th Dec. of the current
+                year, furthermore the expenses as per the <lb/>invoice letter with Bco ₻ 204.14 per
+                22 Sep. The bill of lading we<lb/>enclose here._ In line with the enclosed insurance
+                note we <lb/>ask, for the renewal of the Nagasaki policy, de banco₻[?]
+                70,000/-<lb/>per 27th September 1871 for a credit note for <lb/>Bco₻ 1,583.8 per
+                22nd September of the current year.<lb/>Messrs. Leveson Lewis &amp; Co. charge us
+                for a batch [?]<lb/>of sample sales via mail to there £ _ 16.6 &amp; we
+                have<lb/>debited you against this at 13 ₻[?] 8 ½/- with Bco ₻ 11.3 per 30th July
+                <lb/>of the current year._<lb/>Furthermore we have retrospectively remunerated
+                Leveson Lewis &amp; Co<lb/>for freight [?]<lb/>
+            <figure>
+               <figDesc>Company sign Kniffler Hiogo. Triangle with the base placed on the line, the letter H in the middle, the letter L in front of the left side, and towards the right the letter K</figDesc>
+            </figure> FH 3/8 6 boxes of pilats per “Excillia” £9.6.2 (railway<lb/>freight) and
+                have entered this as a debit for you at 13₻[?] 8½ ₰[?]<lb/>with Bco ₻[?] 44.12 per
+                22nd July of the current year._ The<lb/>6 boxes are a consignment from Eduard
+                Halliwell<lb/>and you are to deduct the remaining amount on his account <lb/>from
+                the proceeds. </p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_3.tif" n="3"/>
+         <p>The expenses for a parcel dispatched to you with an address <lb/>by steamer via
+                Southampton we ask you to credit to us <lb/>as follows:<lb/>
+            <table>
+               <row>
+                  <cell> Freight to Yokohama C₻[?] 19.5 at 125 </cell>
+                  <cell>Bco ₻ 15.7</cell>
+               </row>
+               <row>
+                  <cell>local transport &amp; packaging costs</cell>
+                  <cell>＂ 1.4</cell>
+               </row>
+               <row>
+                  <cell>per 23rd September </cell>
+                  <cell>Bco ₻ 16.11</cell>
+               </row>
+            </table> as well as the expenses for a parcel dispatched with an address<lb/>via
+                Trieste / Shanghai to Nagasaki:<lb/>
+            <table>
+               <row>
+                  <cell>Freight from here / Shanghai</cell>
+                  <cell/>
+                  <cell>Bco ₻ 45.3</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Packaging &amp; transport costs</cell>
+                  <cell>＂ 4._ </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>per 28th September</cell>
+                  <cell>Bco ₻49.3</cell>
+               </row>
+            </table> We have made a further payment of Bco ₻ 2500/- to Messrs. <lb/>J. G.
+                Schroeder &amp; Co. here in consequence of your <lb/>letter of credit and for a
+                steam engine that is to be delivered, <lb/>for which we debited you per 24
+                September._<lb/>The Hiogo friends have withdrawn on us <lb/>Bco ₻ 145.5 per 30 days/
+                S. a/. C. Woermann, for which you stand<lb/>debited per 2nd Nov., furthermore the
+                Nagasaki friends<lb/>Bco ₻ 217.7 per 3 M/S. a/ Czapp &amp; Bevers[?], for which
+                we<lb/>debited you per 3rd Jan. 1871 _<lb/>For widowed Mrs. Bergau Memel we paid on
+                the account of <lb/>Hiogo the September pension[?] with rt10/- and debited you
+                with<lb/>Bco ₻ 20/- per October._<lb/>Nestle Andreae &amp; Co placed at our disposal
+                £ 170/-.<lb/>on your account, which we used by crediting you <lb/>with this amount
+                at 13 ₻ &amp; 8½[?] with Bco ₻ 229.5/ per 21 Sep. _<lb/>E. Pavenstedt &amp; Co.
+                Nagasaki remitted to us on your<lb/>esteemed account £203/- per 60 days/S. a/. R.
+                Raphael<lb/> &amp; Sons London, for which we credited you as follows, subject to
+                <lb/>the usual qualifications <lb/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>£ 203 at 13 ₻ 8 ¼</cell>
+                  <cell>B<hi rend="superscript">co</hi>₻ 2,743.11</cell>
+               </row>
+               <row>
+                  <cell> ⁒Discount at/ 63 days at 3¼%</cell>
+                  <cell/>
+                  <cell> ＂ ＂ 15.10 </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>Bco₻ 2,728. 1</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell> ⁒ brokerage &amp; stamps</cell>
+                  <cell> ＂ 4.12 </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>per 25th September</cell>
+                  <cell>Bco₻ 2,723„5</cell>
+               </row>
+            </table> In line with the enclosed bill of lading<lb/>659/62.4 ¢[?] blck. Orleans <figure>
+               <figDesc>Company sign. In the middle of an imaginary square is a rhomb with the letter B in the middle. At the top left corner of the square the letter L and at the top right corner a K</figDesc>
+            </figure> have been shipped to you by means of the Peninsular &amp; Oriental steamer
+                <lb/>“Massillia”, for which we now enclose an invoice copy from B. v.
+                Bartels.<lb/>Regarding the regulations we will let you know closer details later
+                <lb/>on._ Insurance has been procured through Horstmann &amp; Co. and<lb/>this “free
+                from 3%” for the risk per steamer until Yoko-<lb/> hama, estimated[?]: £ 90/- per
+                crate._ </p>
+         <pb facs="1870_10_04_Kniffler_Yokohama_von_Bollenhagen_Hamburg_4.tif" n="4"/>
+         <p>We further enclosed the bills of lading for:<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Company sign. In the middle of an imaginary square is a rhomb with the letter B in the middle. At the top left corner of the square the letter L and at the top right corner a K</figDesc>
+                     </figure>
+                  </cell>
+                  <cell> 656/8 : 3¢ 150 per. blck. Orleans</cell>
+                  <cell>from B. von<lb/> Bartels</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>In the middle of an imaginary square is a rhomb with the letters FN in the middle. At the top left corner of the square the letter L and at the top right corner a K</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>666/8. 3 ＂ ＂ ＂ do.</cell>
+                  <cell/>
+               </row>
+            </table> will be sent per steamer “Bengal” to Hong Kong<lb/>and onwards by steamer
+                to there._ Insured by <lb/>Horstmann &amp; Co. London for the risk per
+                steamer<lb/>“Bengal” to Hong Kong and onwards by steamer<lb/>to Yokohama._ We will
+                tell you in one of our next <lb/>letters whether the 6 crates are to be seen[?] as a
+                <lb/>consignment or as on your account _<lb/>Enclosed is also a duplicate bill of
+                lading for <lb/>LK 1/10. 10 barrels of powder[?] per “Lothair” <figure>
+               <figDesc>Company sign. Heart containing the letters LKR</figDesc>
+            </figure> 2773/92. 20 crates per “Diomed”<lb/>various copies &amp; stock exchange
+                lists._<lb/>Mr. Kniffler will write to you about the execution<lb/>of the muslin
+                import (Herrmann &amp; Kahn) <lb/>once he has initiated this business.
+                _<lb/>Regarding shirtings &amp; yarn Mr. Kniffler will<lb/>also write to you in
+                detail when he has initiated <lb/>the shipments._ On 16th Nov[?] 8¼
+                ℔[?]shirtings<lb/>have been bought again at 9/3 a (2,000 pcs.)<lb/>and at this
+                price, if not cheaper, something can<lb/>rightly[?] be done._ The business is not
+                just in <lb/>Mr. Kniffler’s and our hands, the participants<lb/>also have to give
+                their consent._<lb/>There is little news from the battlegrounds,<lb/>Strassbourg has
+                surrendered and Paris is recruting troops._<lb/>Business is quiet._ Auffm Ordt &amp;
+                Co Paris have moved, <lb/>with their trading post, to London until further
+                notice,<lb/>which they will probably have informed you of directly _<lb/>All Germans
+                have been expelled from Paris, and from<lb/>France as a whole._<lb/>Yours
+                cordially<lb/>sgd. Bollenhagen &amp;Co.</p>
+      </body>
+   </text>
+</TEI>

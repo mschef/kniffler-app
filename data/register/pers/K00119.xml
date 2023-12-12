@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Abel Anthony James Gower</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00119">
+               <persName>
+                  <forename>Abel Anthony James</forename>
+                  <surname>Gower</surname>
+               </persName>
+               <birth>
+                  <date when="1836"/>
+               </birth>
+               <death>
+                  <date when="1899"/>
+               </death>
+               <note>A. J. Gower trat 1859 in den diplomatischen Dienst für Großbritannien in Japan
+                  ein. Zunächst war er Vizekonsul und Buchhalter des Konsulats in Edo. 1863 ging er
+                  nach Yokohama und betätigte sich dort als Geschäftsmann, wurde aber schon 1864 zum
+                  Konsul in Nagasaki berufen. Während seiner Zeit in Nagasaki war er zudem bei
+                  Glover &amp; Co. angestellt. 1865 wurde er von Harry Smith Parkes abgelöst und
+                  übernahm das Konsulat in Hakodate, ging aber nach einem Jahr nach Kobe, wo er dann
+                  bis zu seinem Ruhestand 1875 Konsul für verschiedene Nationen blieb. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_g.html#20090527093316843_1_2_3_16_1">Meiji-Portraits</bibl>
+               <bibl>Gordon Daniels: Sir Harry Parkes - British Representative in Japan 1865-1883,
+                  Richmond 1996, S. 45</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

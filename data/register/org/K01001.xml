@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Pandel &amp; Stiehaus</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01001">
+               <orgName type="firm">Pandel &amp; Stiehaus</orgName>
+               <settlement>Batavia</settlement>
+               <note> Der Hamburger Kaufmann Friedrich Pandel und der ebenfalls aus der Hansestadt stammende Spediteur Georg Friedrich Stiehaus hatten zusammen beim Handelshaus Bollenhagen &amp; Co.
+                  in Hamburg gearbeitet. Mit der finanziellen Unterstützung von Ferdinand Laeisz, dessen Kontor sich in Hamburg im selben Haus befand wie das von Bollenhagen, verließen die beiden
+                  Firmengründer 1848 Hamburg. Gleich nach ihrer Ankunft in Batavia gründeten sie das Importgeschäft Pandel &amp; Stiehaus. Über die engen Verbindungen zu Jakob Bollenhagen und auf
+                  dessen Vermittlung hin trat Louis Kniffler 1852 in die Firma ein. 1855 verstarb G. F. Stiehaus auf einer Geschäftsreise in Singapur, woraufhin Pandel Kniffler die Prokura erteilte.
+                  Zwei Jahre später verstarb auch der zweite Firmengründer auf der Rückreise von Europa nach Batavia. Zusammen mit dem zweiten Prokuristen L. W. Stäcker übernahm Louis Kniffler Pandel
+                  &amp; Stiehaus. Als neuer Inhaber stieß Kniffler jedoch auf zunehmende Schwierigkeiten im Handel in Batavia und versuchte daher, in anderen Märkten Asiens Fuß zu fassen. Aus der
+                  Idee, eine Filiale von Pandel &amp; Stiehaus in Japan aufzubauen, erwuchs schließlich das Handelshaus L. Kniffler &amp; Co. Trotz seines damit erfolgten Ausstiegs aus dem Unternehmen
+                  sind vor allem aus den frühen Jahren der Firma L. Kniffler &amp; Co. zahlreiche Briefe aus Batavia erhalten. Die Beziehung zu Pandel &amp; Stiehaus wurde fortgeführt und hielt sich
+                  bis mindestens 1872. </note>
+               <bibl>Johann Friedrich Kierulff (Hrsg.): Sammlung der Entscheidungen des Ober-Appellationsgerichts der vier freien Städte Deutschlands zu Lübeck, Hamburg 1865, S. 270–284.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959 (Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 23), Hamburg 1959, S. 19-22.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

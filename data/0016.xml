@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 11. Januar 1862</title>
+            <title type="file">0016.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-18</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben und eine Umschlagsseite mit
+                            Siegelresten und einer Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-01-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-01-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-29" who="TP">diplomatische Transkription</change>
+         <change when="2020-10-08" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Per <name type="ship" ref="K01672">G<hi rend="underline">ouverneur v. Swieten</hi>
+                     </name>
+                     <lb/> Messrs. L. Kniffler + Co<lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="underline">1862</hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-01-11">11 Jan</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau Hübener + Co.</orgName>
+                     <lb/>rs <date when="1862-01-17">17/1 62</date>
+                     <lb/>b <date when="1862-01-23">23/1 62</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Per <name type="ship" ref="K01672">G<hi rend="underline">ouverner v. Swieten</hi>
+                     </name>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName> d: <date when="1862-01-11">11<hi rend="superscript">ten</hi> Januar 62</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg> Wir hoffen Ihren Herrn<lb/>
+               <hi rend="latintype">
+                  <persName ref="K00001">Kniffler</persName>
+               </hi> bei Ansicht dieses wohlbe-<lb/> halten bei Ihnen angelangt + haben<lb/>
+                    heute zunächst das Vergnügen<lb/> Ihnen den richtigen Empfang eines<lb/> Briefes
+                    vom <date when="1862-01-02">2<hi rend="superscript">ten</hi>
+                  <hi rend="latintype"> Janr</hi>
+               </date> datirt zu<lb/> bestätigen, dessen einverstandenen<lb/> Inhalt wir uns
+                    erlauben mit<lb/> Stillschweigen zu übergehen<lb/> Herr <hi rend="latintype">
+                  <persName ref="K00016">Morf</persName>
+               </hi> verließ uns gestern<lb/> in der <hi rend="latintype">
+                  <name type="ship" ref="K01671">Martha + Emily</name>
+               </hi> nach <hi rend="latintype">
+                  <placeName ref="K00521">Kana-<lb/> gawa</placeName>
+               </hi> + nahm <add resp="other" style="textOrientation: straight" place="above">gegen</add> die für Ihre <choice>
+                  <abbr>w/.</abbr>
+                  <expan> werte</expan>
+               </choice>
+               <lb/> Rechnung verkauften <term type="commercial" ref="K01522">£</term>
+               <hi rend="underline">
+                  <measure type="currency" quantity="1500" unit="britPound">1500</measure>
+               </hi> auf<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+               </hi>
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="6000" unit="mex$">6000</measure> in <hi rend="latintype">
+                  <term type="commercial" ref="K01673">Contanten</term>
+               </hi>
+               <lb/> mit sich. Wir schließen Copie der<lb/>
+               <hi rend="latintype">
+                  <persName ref="K00016">H. Morf</persName>
+               </hi> behändigten Aufstellung<lb/> dieses Geschäfts zur <choice>
+                  <abbr>gefl.</abbr>
+                  <expan cert="low">geflissentlichen</expan>
+               </choice> Kennt-<lb/> nißnahme bei + buchen dasselbe<lb/> über <hi rend="latintype">
+                  <placeName ref="K00521">Kanagawa</placeName>
+                  <choice>
+                     <abbr>Acct.</abbr>
+                     <expan>Account</expan>
+                  </choice>-</hi>
+               <lb/> Wir zweifeln nicht, mit der<lb/> Zeit eine angenehme Verbindung<lb/>
+                    zwischen uns ins Leben gerufen<lb/> zu sehen + geben wir Ihnen die<lb/>
+                    Versicherung daß es unsrerseits<lb/> an Nichts fehlen soll dieselbe so<lb/> wohl
+                    mit Ihrem dortigen als<lb/> auch mit Ihrem zu errichtenden<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00521">Kanagawa</placeName>
+               </hi> Hause je eher je lieber<lb/> herzustellen</p>
+            <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <p>Den uns von Ihrem Herrn Chef<lb/> hinterlassenen Befrachtungsauf<lb/> trag haben
+                    wir leider bislang<lb/> nicht zur Ausführung bringen<lb/> können. Da Schiffe
+                    sehr knapp<lb/> + Kosten entschieden im Steigen<lb/> begriffen sind Nach <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+               </hi> ist<lb/> bereits ab <hi rend="latintype">
+                  <placeName ref="K00560">Fauchow</placeName>
+               </hi> über <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" unit="britPound" quantity="5">5</measure>.<lb/>
+                    bewilligt worden + unter sol<lb/> chen Verhältnißen können Sie<lb/> sich
+                    vorstellen daß <hi rend="latintype">Capitaine</hi>
+               <lb/>
+               <del rend="overstrike">sehr</del> die Köpfe sehr hoch tragen<lb/> Wir behalten
+                    Ihren Auftrag<lb/> im besten Andenken + wollen<lb/> hoffen Ihnen ehestens
+                    günstere<lb/> Berichte ertheilen zu können<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <term type="goods" ref="K01501">Kohlen</term>
+                  </hi>
+               </hi> halten sich in gutem Be-<lb/> gehr + <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" unit="tael" quantity="8">8</measure> - per <term type="measure" ref="K01558">Ton</term>
+               </hi> von Schiffs<lb/> seite zu empfangen würde augen<lb/> blicklich für
+                        <unclear reason="eccentric_ductus">
+                  <hi rend="latintype">loco</hi>
+               </unclear> willig zu machen<lb/> sein. _ Es ist jammerschade daß es an Schiffen
+                    so hapert + drüben<lb/> bei Ihnen wird es nicht besser<lb/> sein . In<lb/>
+               <term type="goods" ref="K01674">
+                  <hi rend="latintype">
+                     <hi rend="underline">Chowchow</hi>
+                  </hi> Artikeln</term> ist wenig ge<lb/> schäft <term type="goods" ref="K01675">
+                  <hi rend="latintype">Lo<hi rend="underline">ng Seaweed</hi>
+                  </hi>
+               </term> ist einiger<lb/> maßen gute verkäuflich + <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" unit="tael" quantity="3">3</measure>
+                  <term type="measure" ref="K01504">
+                     <choice>
+                        <abbr>ppl</abbr>
+                        <expan>pro Picul</expan>
+                     </choice>
+                  </term>
+               </hi>
+               <lb/> werth. Können Sie <hi rend="latintype">à <term type="currency" ref="K01525">Ts</term>
+                  <unclear reason="faded" cert="low">2</unclear>,- 3 a 4</hi>
+               <lb/> herlegen halten wir eine Unter<lb/> nehmung ziemlich sicher liegend<lb/>
+               <term type="goods" ref="K01678">
+                  <hi rend="latintype">Ch<hi rend="underline">arcoal</hi>
+                  </hi>
+               </term> ist <hi rend="latintype">à <hi rend="underline" n="3">$</hi> 2 ppl.</hi>
+                    gut zu<lb/> lassen- <hi rend="latintype">
+                  <term type="goods" ref="K01719">P<hi rend="underline">lan</hi>ken</term>
+                        /softwood / 12ft,<lb/> 1d 1d.- 27 cand + Ltp</hi> von Schiffsseite<lb/> zu
+                    empfangen, verkäuflich_ <hi rend="latintype">
+                  <term type="goods" ref="K01715">R<hi rend="underline">ape</hi>
+                     <lb/> s<hi rend="underline">eedo</hi>il</term>
+               </hi> ist <hi rend="latintype">à <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="7" unit="tael">7,-</measure>
+                  <choice>
+                     <abbr>ppl.</abbr>
+                     <expan>pro Picul</expan>
+                  </choice>
+               </hi> verkauft wor-<lb/> den + wenn Sie este Qualität</p>
+            <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>
+               <hi rend="latintype">à <term type="currency" ref="01525">Ts</term>
+                  <measure type="currency" unit="tael">6/2</measure> à <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="6" unit="tael">6,-</measure> per <term type="logistic" ref="K01504">Pl.</term>
+               </hi> herlegen<lb/> können,
+                    möchten wir Ihnen eine<lb/> Sendung anempfehlen..._<lb/> In anderen Artikeln
+                    hängt<lb/> augenblicklich Nichts aus +<lb/>
+               <hi rend="underlineDashed">Cours</hi> war für letzte <hi rend="latintype">Mail</hi> nie-<lb/> driger + schloß <hi rend="latintype">à</hi>
+               <lb/> 6f 1 d/ 1 %/d für 6 ms. L. <hi rend="latintype">Bankbills</hi>
+               <lb/> 6f 2 d_ _ _ _ <hi rend="latintype">Privatbills_</hi>
+               <lb/> Die <hi rend="latintype">Mail</hi> vom <date when="1861-11-10">10 <hi rend="latintype">Nov</hi>
+               </date> läßt noch<lb/> immer auf sich warten<lb/> Wir schreiben Ihnen ehestens
+                    wie-<lb/> der + in der Hoffnung recht bald<lb/> von Ihnen zu hören
+                    verbleiben<lb/> wir.<lb/>
+               <seg rend="right">Hochachtungsvoll<lb/>
+                  <hi rend="latintype">
+                     <choice>
+                        <abbr>pp</abbr>
+                        <expan>per Procura</expan>
+                     </choice>
+                     <orgName type="firm" ref="K01011">Bourjau Hübener + Co</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00071">Ernst Behre</persName>
+                     </hi>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>Via Governor v. Swieten<lb/>Messrs. L. Kniffler + Co<lb/>Nagasaki<lb/>⟨1862 Shanghai
+                11th Jan Bourjau Hübener + Co.<lb/>rs 17/1 62<lb/>b 23/1 62⟩<lb/>
+         </p>
+         <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>Via Gouverner v. Swieten<lb/>Shanghai the 11th January 62<lb/>Messrs. L. Kniffler +
+                Co<lb/>Nagasaki <lb/> We hope that your Mr.<lb/>Kniffler has, by the time you
+                receive<lb/> this, arrived at yours safe and well + today <lb/>have the pleasure
+                firstly to<lb/> confirm we have correctly received <lb/>a letter dated from 2nd
+                Jan,<lb/>the agreed content of which <lb/>we permit ourselves to<lb/> pass over
+                silently. <lb/>Mr. Morf left us yesterday <lb/> by means of the Martha + Emily to
+                Kana-<lb/> gawa + took with him $6000<lb/> in cash for the £1500 which <lb/> we sold
+                on your esteemed account<lb/> in London. We enclose here a copy of the
+                <lb/>accounting of this business, which<lb/> was handed to H. Morf, for your
+                kind<lb/> attention + enter this <lb/>using the Kanagawa Acct.<lb/>We do not doubt
+                that over<lb/> time we will see a pleasing <lb/> connection between us take <lb/>
+                shape + assure you that<lb/> from our part there shall not<lb/> be a lack of
+                anything in order to<lb/> create this both with your<lb/> house there as well as the
+                <lb/> to be established Kanagawa house <lb/> the sooner the better.</p>
+         <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <p>We have so far unfortunately <lb/> not been able to carry out the<lb/> affreightment
+                order left for <lb/> us by your valued principal.<lb/> As there is a distinct
+                shortage of ships <lb/>+ the costs are definitely on the rise.<lb/> Passage to
+                London has already been <lb/> approved from Fuzhou <lb/> for £5 + under
+                such<lb/>circumstances you can <lb/> imagine that the captains <del rend="overstrike">very</del>
+            <lb/> are holding their heads very high. <lb/>We are keeping your order at<lb/> the
+                top of our minds + hope<lb/>very soon to be able to give<lb/> you more favourable
+                reports. <lb/>Coal is continuing to be in good<lb/>demand + to receive Ts 8 per ton
+                <lb/> at the quayside would currently<lb/>be easy to do here locally[?].<lb/> It is
+                a real shame that there is such a <lb/> lack of ships + over at yours<lb/>it will
+                not be any better we suppose. <lb/> There is little business to be done <lb/>in
+                Chowchow articles, Long Seaweed <lb/> can be sold passably well + is worth<lb/> Ts 3
+                per picul If you can send 3 to 4<lb/> at Ts 2[?],- we consider the undertaking<lb/>
+                to be quite a safe one. <lb/>Charcoal can be sold well at<lb/> $ 2 per picul Plank
+                /softwood / 12ft,<lb/>1d 1d.- 27 cand + Ltp to be received at<lb/>quayside, sell
+                well. Rape<lb/> seed oil has been sold at Ts 7,- ppl. <lb/> + if you can send top
+                quality</p>
+         <pb facs="1862_01_11_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>at Ts 6/2 to Ts 6,- per Pl.,<lb/> we would recommend to you to<lb/> make a
+                shipment..._<lb/>Regarding other articles nothing<lb/> stands out at the moment
+                +<lb/>the rate was at the time of the last mail<lb/> lower + closed at <lb/> 6f 1 d/
+                1 %/d for 6 ms. L. bank bills<lb/> 6f 2 d_ _ _ _ private bills_<lb/> The mail from
+                10th Nov we are<lb/> still awaiting. <lb/>We will write to you again very<lb/> soon
+                + remain yours in the hope<lb/> of hearing from you quite <lb/> soon.<lb/>
+            <lb/>Respectfully<lb/>pp Bourjau Hübener + Co<lb/>Ernst Behre</p>
+      </body>
+   </text>
+</TEI>

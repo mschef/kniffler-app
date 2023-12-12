@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Knifflerstyle2.css"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilkie &amp; Gärtner in Hakodade an L. Kniffler &amp; Co. in Nagasaki am 20.
+                    November 1865</title>
+            <title type="file">0062.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-61</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen (Papier mit hellem Blauton). Drei Seiten Anschreiben und
+                            eine Seite mit einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01103">Wilkie &amp; Gärtner</orgName>
+               <settlement ref="K00528">Hakodate</settlement>
+               <date when="1865-11-20"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-12-03"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-01-28" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-02" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">Per „<name type="ship" ref="K01797">Akindo</name>“</hi>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00528">Hakodade</placeName> d. <date when="1865-11-20">20
+                            Novemb. 1865</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir hatten am <date when="1865-10-15">15<hi rend="superscript">ten</hi>
+               <unclear reason="eccentric_ductus">
+                  <choice>
+                     <abbr>vMts</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </unclear>
+            </date> zuletzt das<lb/> Vergnügen zu schreiben, wovon wir Ihnen<lb/> eingeschlossen
+                    <term type="logistic" ref="K01538">Copie</term> davon überreichen, und<lb/> ist
+                der Hauptgrund des heutigen Ihnen ein-<lb/> liegend <term type="logistic" ref="K01515">Connossement</term> über<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <add place="inline" resp="other" style="transformRotateZ(-45deg)">fol
+                                74</add>
+                     <figure>
+                        <figDesc>Firmenzeichen. Buchstaben mit ausgeprägten Serifen J B. C</figDesc>
+                     </figure>
+                     <lb/>1/299. 96</cell>
+                  <cell>1</cell>
+                  <cell>Kiste</cell>
+                  <cell>
+                     <term type="goods" ref="K01605">Rifles (Enfilld)</term>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <add place="inline" resp="other" style="transformRotateZ(-45deg)">CB N
+                                1</add>
+                     <figure>
+                        <figDesc>Firmenzeichen. Buchstaben mit ausgeprägten Serifen H S. S</figDesc>
+                     </figure>
+                     <lb/>25</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>
+                     <term type="goods" ref="K01638">Rifles</term>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <add place="inline" resp="other" style="transformRotateZ(-45deg)">CL. N1
+                                fol 415</add>
+                  </cell>
+                  <cell>10</cell>
+                  <cell>Blöcke</cell>
+                  <cell>
+                     <unclear reason="eccentric_ductus">Gum</unclear>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <add place="inline" resp="writer" style="textOrientation: straight">Quittung der<lb/>bezahlten Recht<lb/>beiliegend.</add>
+                     <figure>
+                        <figDesc>Firmenzeichen. Oberhalb der Zeile ein ✡ (Davidstern), in der Zeile Buchstaben mit ausgeprägten Serifen C. K.</figDesc>
+                     </figure>
+                     <lb/>1020</cell>
+                  <cell>1</cell>
+                  <cell>Kiste</cell>
+                  <cell>
+                     <term type="goods" ref="K01798">Lefaucheux</term> Revolver</cell>
+               </row>
+               <row>
+                  <cell>1023</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>
+                     <term type="goods" ref="K01799">Cartouches</term> 119 mill</cell>
+               </row>
+               <row>
+                  <cell>2007/11</cell>
+                  <cell>5</cell>
+                  <cell>"</cell>
+                  <cell>franz. Infant <term type="goods" ref="K01638">Gewehre</term>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2012</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>
+                     <term type="goods" ref="K01638">Gewehre</term> Chasseurs de Vincennes</cell>
+               </row>
+               <row>
+                  <cell>2013</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>idem</cell>
+               </row>
+            </table> zu überreichen und hoffen, daß, da wir hier<lb/> leider keinen Verkauf
+                haben möglich machen<lb/> können, Sie dort für die Waffen einen<lb/> guten Markt
+                haben werden.<lb/> Wir machten ihrem <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> Hause<lb/> bereits Anzeige von der Zurücksendung<lb/> der französischen Waffen
+                    <unclear reason="eccentric_ductus">per </unclear>
+            <hi rend="latintype">„<name type="ship" ref="K01755">Devina</name>“</hi>, und<lb/>
+                belasteten genanntes Haus für hier be-<lb/> zahlte <term type="commercial" ref="K01587">Assecuranz</term> bei der <hi rend="latintype">
+               <orgName type="firm" ref="K01120">West Pacific<lb/> Compy</orgName>
+            </hi> mit<lb/>
+            <add place="marginLeft" resp="other" style="transformRotateZ(-45deg)">E. L. <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="16.85" unit="mex$">16,,85</measure>
+               <lb/>
+               <persName ref="K00008">Carl Kniffler</persName> 79/95<hi rend="superscript">88</hi>
+            </add>
+            <unclear reason="eccentric_ductus">
+               <term type="commercial" ref="K01508">$</term>
+            </unclear>
+            <measure type="currency" quantity="95.85" unit="mex$">95 <hi rend="superscript">85</hi>
+            </measure> 1 3/4 <unclear>2</unclear>
+            <lb/> da die <hi rend="latintype">
+               <orgName type="firm" ref="K01120">West Pacific Compy</orgName>
+            </hi> auf ihre eige-<lb/> nen Schiffe, wie die <hi rend="latintype">„<name type="ship" ref="K01797">Akindo</name>, <name type="ship" ref="K01762">Ousuri</name> +</hi>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <name type="ship" ref="K01754">Khankai</name>
+               </hi>
+               <lb/>W. S. g.u</seg>
+         </p>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+         <p>und „<name type="ship" ref="K01754">Khankai</name>“ hier <term type="commercial" ref="K01587">Assecuranz</term> nimt,<lb/> so zögen wir vor solche hier
+                abzuschlie- <lb/> ßen, da wir auf Ihre offne Police<lb/>
+            <hi rend="latintype">(franco restorne)</hi> hin doch ein <unclear reason="eccentric-ductus">Befähi-<lb/>gungsattest</unclear> des Schiffes hätten
+                haben<lb/> müssen was noch weitere <measure type="currency" quantity="32" unit="mex$">32</measure>
+            <term type="commercial" ref="K01508">$</term> ge-<lb/> kostet hätte. Die Police
+                halten wir hier<lb/> und hoffen darin in Ihrem Sinne ge-<lb/> handelt zu haben.<lb/>
+                Die <hi rend="latintype">„<name type="ship" ref="K01750">Lizzi Allen</name>“
+                        (<orgName type="firm" ref="K01105">Augustine Heard + C<hi rend="superscript">o</hi>.</orgName>)</hi>
+            <lb/> ging heute morgen mit ca<hi rend="latintype">
+               <measure type="volume" quantity="4200" unit="picul" commodity="seaweed">4200</measure>
+               <term type="measure" ref="K01504">peculs</term>
+               <lb/>
+               <term type="goods" ref="K01675">long Seaweed</term>
+            </hi> nach <hi rend="latintype">
+               <placeName ref="K00592">Cheefoo</placeName>.</hi>
+            <lb/> Seit unserem Letzten ist sonst in un-<lb/> serem Markte gar nichts
+                umgegangen,<lb/> dennoch bleiben die Vorräthe von<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="goods" ref="K01675">long Seaweed</term>
+               </hi>
+            </hi> nur klein. Es sind augen-<lb/> blicklich noch <measure type="volume" quantity="8000" unit="picul" commodity="seaweed">8000</measure>
+            <hi rend="latintype">piculs</hi> guten <hi rend="latintype">
+               <term type="goods" ref="K01675">Seaweeds</term>
+            </hi>
+            <lb/> hier, wofür die Japaner <term type="measure" ref="K01508">$</term>
+            <measure type="currency" quantity="2.90" unit="mex$" commodity="seaweed">2<hi rend="superscript">90</hi>
+            </measure> und<lb/> selbst mehr fragen ohne indessen Käufer<lb/> zu finden. <unclear reason="illigible">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <unclear>Dunkorns</unclear>
+                  </hi>
+               </hi>
+            </unclear> würden mit<lb/>
+            <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="11" unit="mex$" commodity="unclear">11</measure>
+            <term type="measure" ref="K01675">
+               <hi rend="latintype">
+                  <choice>
+                     <abbr>ppic</abbr>
+                     <expan>per Picul</expan>
+                  </choice>
+               </hi>
+            </term> bezahlt, und kamen davon<lb/> ca <measure type="volume" quantity="200" unit="picul" commodity="unclear">200</measure>
+            <hi rend="latintype">piculs</hi> an den Markt. Durch die all-<lb/> gemeine Nachfrage
+                sind Preise so in die<lb/> Höhe getrieben, werden indessen Ihren gefälli-<lb/> gen
+                Auftrag nicht vergessen, sollten wir<lb/> zu dem gegebenen <unclear reason="eccentric_ductus">Limite</unclear> ankommen<lb/> können. <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="goods" ref="K01685">Cuttlefish</term>
+               </hi>
+            </hi> mit <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="10" unit="mex$" commodity="cuttlefish">10</measure> à <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="13" unit="mex$" commodity="cuttlefish">13.</measure>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">
+                  <choice>
+                     <abbr>ppic</abbr>
+                     <expan>per Picul</expan>
+                  </choice>
+               </term>
+            </hi>
+            <lb/> bezahlt, und noch <hi rend="latintype">ca <measure type="volume" quantity="800" unit="picul" commodity="cuttlefish">800</measure>
+               <term type="measure" ref="K01504">picul</term>
+            </hi> davon<lb/> am Markte.<lb/> An Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01006">Siemssen + Co</orgName>, <placeName ref="K00503">Shanghai</placeName>
+            </hi>
+            <lb/>
+            <term type="commercial" ref="K01523">remittierten</term> wir für Rechnung Ihrer<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> Häuser:<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="3100" unit="mex$">3100,-</measure>
+                  </cell>
+                  <cell>10 T. S.</cell>
+                  <cell>
+                     <orgName type="firm" ref="K01105">Aug. Heard + Co.</orgName>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <term type="commercial" ref="K01508">"</term>
+                     <measure type="currency" quantity="1500" unit="mex$">1500,-</measure>
+                  </cell>
+                  <cell>3 T. S.</cell>
+                  <cell>
+                     <mentioned>
+                        <orgName type="firm" ref="K01105">idem</orgName>
+                     </mentioned>
+                  </cell>
+               </row>
+            </table> In Importe ist es hier während </p>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+         <p> der letzten 14 Tage sehr faul gewesen, und<lb/> gar nichts verkauft worden. Wir hoffen<lb/>
+            <date when="1865">in diesem Jahre</date> noch ein gute Periode<lb/> für Importe
+                angekommen zu sehen, da-<lb/> mit Ihr hiesiges Lager so viel als möglich<lb/> räumen
+                können.<lb/> Cours des <term type="commercial" ref="K01508">Dollars</term> 100_ 230
+                    <unclear reason="eccentric_ductus">nom;</unclear>
+            <lb/> Wir bitten noch ergebenst um<lb/> gütige Beförderung der eingeschlossenen<lb/>
+                Briefe, und zeichnen<lb/>
+            <seg rend="right">Hochachtungsvollergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01103">Wilkie Gärtner</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <hi rend="underline">1865</hi>
+                  <hi rend="latintype">
+                     <placeName ref="K00528">Hakodade</placeName>
+                     <date when="1865-11-20">20 November</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01103">Wilkie+Gaertner</orgName>
+                     <lb/>
+                  </hi>e/ <date when="1865-12-03">3</date>
+                  <hi rend="latintype">Decb65<lb/>bean / <date when="1865-12-08">8 ＂ 65</date>
+                  </hi>
+               </add>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <add resp="other" style="transformRotateZ(-45deg)">
+                  <hi rend="latintype">Mem GB</hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>Per “Akindo”<lb/> Hakodate 20th November 1865<lb/>Messrs. L. Kniffler +
+                Co<lb/>Nagasaki<lb/>We last had the pleasure of writing on the <lb/>15th of last
+                month[?], of which we present you <lb/>with the enclosed copy, and the
+                main<lb/>reason for today’s letter is to supply you<lb/>with the enclosed bill of
+                lading for <lb/>
+            <table rend="rules">
+               <row>
+                  <cell> ⟨fol 74⟩ <figure>
+                        <figDesc>Company sign. Letters with distinctive serifs J B. C</figDesc>
+                     </figure>
+                     <lb/>1/299. 96 </cell>
+                  <cell>1</cell>
+                  <cell>box</cell>
+                  <cell>rifles (Enfield)</cell>
+               </row>
+               <row>
+                  <cell> ⟨CB N 1⟩ <figure>
+                        <figDesc>Company sign. Letters with distinctive serifs H S. S</figDesc>
+                     </figure>
+                     <lb/>25 </cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>rifles</cell>
+               </row>
+               <row>
+                  <cell>⟨CL. N1 fol 415⟩</cell>
+                  <cell>10</cell>
+                  <cell>blocks</cell>
+                  <cell>rubber[?]</cell>
+               </row>
+               <row>
+                  <cell> ⟨Receipt of paid invoice attached.⟩ <figure>
+                        <figDesc>Company sign. Above the line a ✡ (Star of David), on the line letters with distinctive serifs C. K.</figDesc>
+                     </figure>
+                     <lb/>1020
+                        </cell>
+                  <cell>1</cell>
+                  <cell>box</cell>
+                  <cell>Lefaucheux revolvers</cell>
+               </row>
+               <row>
+                  <cell>1023</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>cartouches 119 mill</cell>
+               </row>
+               <row>
+                  <cell>2007/11</cell>
+                  <cell>5</cell>
+                  <cell>"</cell>
+                  <cell>French infantry rifles</cell>
+               </row>
+               <row>
+                  <cell>2012</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>guns Chasseurs de Vincennes</cell>
+               </row>
+               <row>
+                  <cell>2013</cell>
+                  <cell>1</cell>
+                  <cell>"</cell>
+                  <cell>idem</cell>
+               </row>
+            </table> and we hope that, as unfortunately we <lb/>have not been able to achieve a
+                sale here,<lb/>you will find a good market for the weapons <lb/>there. <lb/>We have
+                already notified your Yokohama <lb/>house of the the return of the French
+                <lb/>weapons by means of [?] the “Devina” and<lb/>have debited said house for the
+                insurance<lb/>paid here with the West Pacific Company<lb/>with<lb/>⟨E. L. $
+                16,,85<lb/>Carl Kniffler 79/9588⟩ $[?]95 <hi rend="superscript">85</hi> 1
+                3/4<lb/>because the West Pacific Company<lb/>demands insurance here for its own
+                ships<lb/>like the Akindo, Ousuri + Khankai<lb/>p.t.o. </p>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+         <p>and “Khankai”, so that we hesitate<lb/>to take out such insurance here <lb/>because
+                for your open policy <lb/>(franco restorne) we would have <lb/>required a
+                certificate of competence [?]<lb/>for the ship, which would have cost a <lb/>further
+                $32. We have the policy here <lb/>and hope you are in agreement with our<lb/>actions
+                in this regard. <lb/>The “Lizzi Allen” (Augustine Heard + Co.)<lb/> left for Cheefoo
+                this morning with approx. <lb/>4,200 piculs of long seaweed.<lb/>Since our last
+                letter nothing has shifted<lb/>in our market, but nonetheless<lb/>the stock of long
+                seaweed<lb/>remain only small. At the moment <lb/>there are still 8,000 piculs of
+                good <lb/>seaweed here, for which the Japanese are <lb/>asking $2<hi rend="superscript">90</hi> or more but without finding <lb/>buyers. Dunkorns[?]
+                would earn <lb/>$11 per pic. and ca. 200 piculs of this <lb/>have come on the
+                market. Due to the<lb/>general demand, prices have risen to such <lb/>an extent, but
+                we have not, however, <lb/>forgotten your kind order, if we should <lb/>be able to
+                bring it in at the given price <lb/>limit[?]. Cuttlefish earns $10 to $13 <lb/>per
+                pic. and there are still ca. 800 piculs <lb/>of this on the market. <lb/>To Messrs.
+                Siemssen + Co, Shanghai<lb/>we remitted for account of your <lb/>Yokohama houses:<lb/>
+            <table>
+               <row>
+                  <cell>$ 3100,-</cell>
+                  <cell>10 T. S.</cell>
+                  <cell>Aug. Heard + Co.</cell>
+               </row>
+               <row>
+                  <cell>" 1500,-</cell>
+                  <cell>3 T. S.</cell>
+                  <cell>idem</cell>
+               </row>
+            </table> In imports it has been very sluggish </p>
+         <pb facs="1865_11_20_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+         <p>here over the last 14 days, and <lb/>nothing at all has been sold. We hope<lb/>that
+                we will still see a good period <lb/>for imports this year, so that we can<lb/>clear
+                your local stock as much as <lb/>possible. <lb/>The rate of the dollar is 100_ 230
+                nominally;[?]<lb/>We ask most politely for your kind <lb/>forwarding of the enclosed
+                letters <lb/>and sign <lb/>Yours sincerely and respectfully<lb/>Wilkie Gärtner </p>
+      </body>
+   </text>
+</TEI>

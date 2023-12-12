@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Yokohama am 25. Februar
+                    1869</title>
+            <title type="file">0093.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-92</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, zwei Seiten Anschreiben und eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1869-02-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-04-20"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-10-04" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-10" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachbezeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1869-02-25">25 Februar 1869</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">ie.</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <hi rend="underline"/>
+               </hi>
+            </seg>
+            <lb/> Ich habe mich zunächst zum Empfange<lb/> Ihrer werthen Zuschrift vom <date when="1868-12-30">30 <hi rend="latintype">Decb<hi rend="superscript">r</hi>
+                  <choice>
+                     <abbr>a <unclear>pto.</unclear>
+                     </abbr>
+                     <expan> anno praeterito</expan>
+                  </choice>
+               </hi>
+            </date> zu<lb/> bekennen mit Verkaufs-Rechnung über <measure unit="box" quantity="3">3 Kisten</measure>
+            <lb/> Tuche, deren <hi rend="latintype">netto provenue de <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="1354.32" unit="mex$">1354.32</measure>
+            </hi> ich mit<lb/>
+            <hi rend="underline" n="2">
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="294.1611" unit="britPound">294.16.11</measure>
+            </hi>
+            <hi rend="latintype"> 6/M<hi rend="superscript">t</hi> of/S. of the <orgName type="firm" ref="K01029">London Joint
+                    Stock Bank</orgName>
+               <choice>
+                  <abbr>L<hi rend="superscript">don.</hi>
+                  </abbr>
+                  <expan>London</expan>
+               </choice>
+            </hi>
+            <lb/> zum Course von 4/4¼<hi rend="superscript">
+               <unclear>Ce</unclear>
+            </hi> höflich dankend und<lb/> unter üblichen Vorbehalten ausgeglichen habe.<lb/>
+                Von dem weiteren Inhalt Ihres <choice>
+               <abbr>w/: </abbr>
+               <expan> werten </expan>
+            </choice>obengenannten<lb/> habe ich die nöthige Vormerkung genommen <choice>
+               <abbr>u:</abbr>
+               <expan>und</expan>
+            </choice> sage<lb/> Ihnen besten Dank für Ihre berichtlichen Mittheilungen<lb/> über
+                das dortige Geschäft.<lb/> Meine ergebenen Zeilen vom <date when="1869-02-11">11<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>dss. Mts</abbr>
+                  <expan> desselben Monats</expan>
+               </choice>
+            </date> be-<lb/> stätigend und im Verfolge derselben habe ich heute<lb/> das
+                Vergnügen Ihnen einliegend <hi rend="latintype">
+               <term type="commercial" ref="K01574">factura</term>
+            </hi> über<lb/> restirende 50 <hi rend="latintype">Stg Black Cloth</hi> zu behändigen mit
+                der<lb/> bitte, mir deren Betrag von<lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other">
+               <hi rend="latintype">
+                  <unclear>Compradors</unclear>
+               </hi>
+            </add>
+            <hi rend="underline" n="2">
+               <hi rend="latintype">
+                  <term type="currency" ref="K01830">B₻</term>
+                  <measure type="currency" unit="mbanco" quantity="4199">4199.-.</measure>
+               </hi>
+            </hi> unter früheren Conditionen <choice>
+               <abbr>Val</abbr>
+               <expan> Valuta</expan>
+            </choice>: <date when="1869-02-16">16 <hi rend="latintype">Februar</hi>
+            </date>
+            <lb/> creditiren zu lassen, oder aber ihn auf<lb/>
+            <hi rend="latintype">Consignations-Conto</hi> gutzubringen.<lb/> Ich beziehe mich
+                damit ganz an <choice>
+               <abbr>w/:</abbr>
+               <expan> wertes</expan>
+            </choice> Schreiben<lb/> vom <date when="1869-01-28">28<hi rend="superscript">ten
+                            <hi rend="latintype"> Januar.</hi>
+               </hi>
+            </date>
+            <lb/> Ihren ferneren Mittheilungen mit Vergnügen<lb/> entgegensehend, zeichnen<lb/>
+            <add style="transformRotateZ(-45deg)" place="marginLeft" resp="writer">
+               <hi rend="latintype">
+                  <hi rend="underline">facturs</hi>
+               </hi>
+            </add>
+            <seg rend="right">Freundschaftlichst<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">
+               <choice>
+                  <abbr>T. S. V. P.</abbr>
+                  <expan xml:lang="fr">Tournez s'il vous plait</expan>
+               </choice>
+            </seg>
+         </p>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>
+            <hi rend="latintype">P. S. </hi> Ich bitte Sie noch um gefällige Gutschrift von<lb/>
+            <hi rend="underline" n="2">
+               <term type="currency" ref="K01830">B₻</term>
+               <measure type="currency" unit="mbanco" quantity="16.8">16.8</measure>
+            </hi> für Beförderung eines Musterpakets mit<lb/>
+            <figure>
+               <figDesc>Firmenzeichen Louis Kniffler &amp; Co. Buchstaben mit ausgeprägten Serifen. Auf einem Strich in der Zeilen L K &amp; C, unter dem Strich und unter der Zeile C</figDesc>
+            </figure> #126/135 &amp; <hi rend="latintype">Adresse p<hi rend="superscript">r</hi>
+            </hi> Ueberlandpost u:<lb/> grüßen Sie.<seg rend="right">wiederholt freundschaftlichst<lb/>
+               <unclear>p Umst</unclear>
+            </seg>
+         </p>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="underline">
+                  <del rend="crossedout">
+                     <unclear reason="illegible">P O S C</unclear>
+                  </del>
+                  <hi rend="latintype">Steamer via <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <add style="textOrientation: straight" resp="other">3</add>
+               <stamp style="rectangular" type="postal">TT 41</stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName> I. A.<lb/>
+                  <date when="1869-02-25">25 2<lb/>69</date>
+                  <lb/>4-5N</stamp>
+               <lb/>
+               <hi rend="latintype">Mess<hi rend="superscript">rs.</hi>
+                  <orgName type="firm" ref="K01004">Kniffler+ Co.</orgName>
+               </hi>
+               <lb/>
+               <add style="textOrientation: straight" resp="other">46</add>
+               <stamp style="round" type="postal">
+                  <gap agent="faded"/>
+               </stamp>
+               <lb/>
+               <hi rend="underline">
+                  <hi rend="latintype">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">1869<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName> 25 Febr.<lb/>
+                  <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  <lb/> empf. <date when="1869-04-20">20 April</date>
+                  <lb/> Btw. <date when="1869-04-30">30 <unclear>Apr.</unclear>
+                     <lb/>
+                     <hi rend="underline">April</hi>
+                  </date>
+                  <unclear>Kc Ro</unclear>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb n="1" facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif"/>
+         <p>Hamburg 25th February 1869<lb/>Messrs. L. Kniffler &amp; Co.<lb/>
+            <lb/>I would first like to acknowledge receiving your <lb/>esteemed letter from 30th
+                Dec. of last year <lb/>with the sales invoice for 3 boxes of <lb/>cloth, whose net
+                proceeds of $ 1354.32 I have balanced <lb/>with £ 294.16.11 6/mth of/S. of the
+                London Joint Stock Bank Ldon.<lb/>at a rate of 4/4¼Ce[?] with my kind regards and
+                <lb/>subject to the usual provisos.<lb/>I duly noted the further contents of
+                your<lb/>esteemed letter mentioned above and give <lb/>you my sincere thanks for
+                your reports and information <lb/>about business there. <lb/>I confirm my respectful
+                lines from 11th of this month<lb/> and following on from this I today have the
+                <lb/>pleasure of supplying you with the enclosed invoice <lb/>for the remaining 50
+                pcs. of black cloth, with the <lb/>request to credit me for them with the amount of
+                <lb/>⟨Compte adant[?]⟩ B₻ 4,199.-. under the previous conditions <lb/>value date:
+                16th February or to balance it on the <lb/>consignation account.<lb/>I refer in this
+                regard wholly to your esteemed letter <lb/>from 28th January.<lb/>I am looking
+                forward with pleasure to your future <lb/>messages and sign <lb/>⟨facturs⟩ Yours
+                most cordially<lb/> H. C. Bock<lb/> (P.T.O.)</p>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>P. S. May I also ask you to kindly credit me for <lb/>
+            <hi rend="underline">B ₻ 16.8</hi> for haulage of a samples parcel with <lb/>
+         </p>
+         <figure>
+            <figDesc>[Company sign Louis Kniffler &amp; Co. Letters with distinct serifs. Placed on a line drawn within the row are the letters L K &amp; C, below the line and underneath the row is the letter C]</figDesc>
+         </figure>
+         <p>#126/135 &amp; addressed and sent per overland mail and:<lb/>with many friendly
+                greetings, Yours cordially <lb/>p Umst[?]</p>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1869_02_25_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <del rend="overstrike">P O S C</del>Steamer via Marseille<lb/>⟨3⟩ TT 41 HAMBURG I.
+                A.<lb/>25 2<lb/>69<lb/>4-5N<lb/>Messrs. Kniffler+ Co.<lb/>⟨46⟩
+                [...]<lb/>Yokohama<lb/>⟨1869<lb/>Hamburg 25th Feb.<lb/>H. C. Bock<lb/>rec[eived]
+                20th April<lb/>Ans[wered] 30th Apr.<lb/>April<lb/>Kc Ro⟩</p>
+      </body>
+   </text>
+</TEI>

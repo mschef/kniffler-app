@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maltby &amp; Co. in Nagasaki an L. Kniffler &amp; Co. in Nagasaki am 24.
+                    Februar 1872</title>
+            <title type="file">0144.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-131</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Wegen eines Knicks auf der Umschlagsseite Adresse nicht
+                            vollständig lesbar. Eingangsnotiz auf der Umschlagsseite. Eine Seite
+                            Anschreiben mit einer Zeichnung am Ende.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01113">Maltby &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1872-02-24"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1872-02-24"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-19" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-24" who="MS"> Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_08_24_Kniffler_Nagasaki_von_Maltby_Co_Nagasaki_1.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <unclear reason="faded">Mss<hi rend="superscript">rs</hi>
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+               </unclear>
+               <lb/> Agents <orgName type="firm" ref="K01075">London Assurance</orgName>
+               <lb/>
+               <hi rend="underline">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1872<lb/>
+               <orgName type="firm" ref="K01113">Maltby +Co</orgName>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>
+               <date when="1872-02-24">24 Febr</date>
+               <lb/> B<hi rend="superscript">tw</hi>
+               <date when="1872-02-24">24 Febr</date>
+               <lb/>
+               <hi rend="underline">Police</hi>
+            </add>
+         </p>
+         <pb facs="1872_08_24_Kniffler_Nagasaki_von_Maltby_Co_Nagasaki_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00514">Nagasaki</placeName>, <date when="1872-02-24">24<hi rend="superscript">th</hi>. February 1872</date>
+            </seg>
+            <lb/>
+            <seg rend="left">Mess<hi rend="superscript">rs.</hi>
+               <orgName type="firm" ref="K01004">L. Kniffler <hi rend="superscript">+</hi>C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="center">Agents <orgName type="firm" ref="K01075">London
+                        Assurance</orgName>
+               <lb/> Dear Sirs</seg>
+            <lb/> Please grant us a Policy in the above Company for Twelve Calendar Months<lb/>
+                covering the following buildings to against the risk of fire<lb/>
+            <table>
+               <row>
+                  <cell>On the Building of a Dwelling house including Stoves, Socks, + all
+                            fixtures contained<lb/> therein; the said building being constructed of
+                            plaster + wood with a tiled roof<lb/> + a stone foundation._ Entirely
+                            detached but connected with the servants offices<lb/> + the cook house
+                            by an open tiled passage; marked A in plan </cell>
+                  <cell>
+                     <lb/>
+                     <lb/>
+                     <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="3800" unit="mex$" commodity="insurance">3,800</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>On the Buildings in the rear of the above used as cook house, laundry,
+                            + servants rooms<lb/> constructed on a stone foundation of <del rend="overstrike">plaster + wood</del>
+                     <add style="textOrientation: straight" resp="writer" place="above">timber cover by a mud wall</add> + having a tiled roof
+                            detashed<lb/> but connected with th above building in the manner
+                            aforesaid; marked B in plan<lb/> This insurance to include row cooking
+                            stove + all fixtures contained in the above._ </cell>
+                  <cell>
+                     <lb/>
+                     <lb/>
+                     <measure type="currency" quantity="200" unit="mex$" commodity="insurance">200</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>On the contents of the Dwelling house marked A, comprising personal
+                            property of every<lb/> description, including Pictures, Wines + other
+                            liquors, Glass China , and Earthware,<lb/> Chandeliers, Household
+                            furniture, Linen, Wearing Apparel, Printed Books, Plate Stones to</cell>
+                  <cell>
+                     <lb/>
+                     <measure type="currency" quantity="3000" unit="mex$" commodity="insurance">3000</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline" n="2">
+                        <term type="measure" ref="K01508">$</term>
+                        <measure type="currency" quantity="7000" unit="mex$" commodity="insurance">7000</measure>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> We enclose order for the premium say <measure type="currency" quantity="210" unit="mex$">Two hundred + ten</measure>
+            <term type="commercial" ref="K01508">Mexican Dollars</term> + will thank you to<lb/>
+                hand us the policy at your earliest convenience<lb/>
+            <seg rend="left">
+               <figure>
+                  <figDesc>Gebäudegrundriss. Zeichnung der im Text genannten zu versichernden Gebäude. Mit angrenzenden Grundstückszahlen und weiteren auf dem Gelände befindlichen Gebäuden, ohne Bemaßungen</figDesc>
+               </figure>
+            </seg>
+            <seg rend="right">Yours faithfully<lb/>
+               <orgName type="firm" ref="K01113">Maltby &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+         </p>
+         <pb facs="1872_08_24_Kniffler_Nagasaki_von_Maltby_Co_Nagasaki_3.tif" n="3"/>
+         <pb facs="1872_08_24_Kniffler_Nagasaki_von_Maltby_Co_Nagasaki_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

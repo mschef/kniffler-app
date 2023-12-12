@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bourjau, Hubener &amp; Co. in Shanghai an L. Kniffler &amp; Co in Nagasaki am
+                    17. Januar 1863</title>
+            <title type="file">0040.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Seite mit einer
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1863-01-17"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1863-01-22"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-30" who="TP">diplomatische Transkription</change>
+         <change when="2020-10-30" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">Per Steamer<add style="textOrientation: straight" resp="writer" place="above">
+                     <name type="ship" ref="K01721">Lotus</name>
+                  </add>
+                  <del rend="overstrike">
+                     <name type="ship" ref="K01722">Rajah</name>
+                  </del>
+               </hi>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghae</placeName>
+                     <date when="1863-01-17">17 Januar 1863</date>
+                     <lb/>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wir haben unsere letzte Zeilen vom <date when="1863-01-12">12 <choice>
+                     <abbr>ds</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> laut beifolgender <term type="logistic" ref="K01538">Copie</term>
+               <lb/> zu bestätigen und entbehren seitdem Ihrer angenehmen Zuschriften<lb/> Die
+                        <hi rend="latintype">
+                  <placeName ref="K00511">Europa</placeName>
+               </hi> Post mit Daten von <placeName ref="K00523">London</placeName>
+               <date when="1862-11-26">26 <hi rend="latintype">Nov</hi>
+               </date> ist <date when="1863-01-17">heute</date> Nachmittag<lb/> eingetroffen,
+                    ohne indeß Nachrichten von besonderer Wichtigkeit<lb/> zu überbringen- <term type="goods" ref="K01559">Baumwolle</term> war wieder <unclear reason="eccentric_ductus">1°</unclear> höher und <term type="commercial" ref="K01723">
+                  <hi rend="latintype">
+                     <choice>
+                        <abbr>middlg</abbr>
+                        <expan>middling</expan>
+                     </choice>
+                  </hi>
+               </term>
+               <lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01629">orleans</term>
+               </hi> würde 22½° notirt; <hi rend="latintype">
+                  <term type="goods" ref="K01570">Manchester goods</term>
+               </hi> waren ebenfalls<lb/> fester, doch sind <hi rend="latintype">grey <term type="goods" ref="K01569">Shirtings</term> 39 in 8/4
+                            <unclear>surat</unclear>
+                  <term type="goods" ref="K01559">Cotton</term>
+                  <unclear reason="eccentric_ductus">2/</unclear>
+               </hi> von ihrem<lb/> früheren Standpunkte zurückgegangen und 157 zu notiren<lb/>
+                    der Kampf in <hi rend="latintype">
+                  <placeName ref="K00556">America</placeName>
+               </hi> geht in alter Weise fort; <hi rend="latintype">
+                  <persName ref="K00093">General Mac Clellan</persName>
+               </hi>
+               <lb/> hat das Kommando verloren; ihm folgt in demselben <hi rend="latintype">
+                  <persName ref="K00094">General<lb/>
+                        Burnside</persName>
+               </hi>- <term type="goods" ref="Seide">Seide</term> war in <placeName ref="K00523">London</placeName> 1/-1/6 gestiegen und die<lb/> Stimmung eine
+                    günstige; inzwischen wird der Markt hoffentlich<lb/> in dieser Tendenz
+                    fortgeschritten sein <term type="goods" ref="K01571">Thee</term> lag
+                    dagegen<lb/> sehr flau; enorme Ankäufe habe bei einem fast gänzlichen<lb/>
+                    Stillstande des Exports Preise wesentlich gedrückt<lb/> Geschäft in den
+                        <placeName ref="K00511">europäischen</placeName> Plätzen war still und litt
+                    durch<lb/> der anhaltenden Streit in den <placeName ref="K00556">Staaten</placeName> mehr und mehr;<lb/> eine Beilegung erscheint so fern
+                    wie je.<lb/> Die <hi rend="latintype">
+                  <name type="ship" ref="K01724">Cadiz</name>
+               </hi> nachdem sie ¼ Stunde gearbeitet hatte als sie <placeName ref="K00509">Hong-<lb/> kong</placeName> verließ wurde theilweise von Feuer zerstört;
+                    glücklicher<lb/> weise konnte man Alles retten und sind nur einige Parthien<lb/>
+               <term type="goods" ref="K01725">Opium</term> dabei beschädigt; der <hi rend="latintype">steamer</hi> selbst wird wieder tüchtig<lb/> zu machen
+                    sein. Die Anfuhr von <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Dollars</term>
+               </hi> soll wie wir hören<lb/> bedeutend sein; und werden unsere Course wider
+                    weichen<lb/> Heute notiren wir 78<hi rend="superscript">6</hi> sonst ist unser
+                    Markt ruhig und ohne<lb/> Veränderung; von <hi rend="latintype">
+                  <term type="goods" ref="K01675">Seaweed</term>
+               </hi>
+                    haben uns keine Verkäufe<lb/>
+            </p>
+            <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>gelingen wollen; für <hi rend="latintype">prima</hi> wird 270 geboten Da die<lb/>
+                    Jahreszeit einem Lagern kaum gefährlich sein kann, halten<lb/> wir noch damit an
+                        <hi rend="latintype">isnig glass</hi> ist auf <measure type="currency" quantity="18.5" unit="tael" commodity="unclear">18½</measure>-<measure type="currency" quantity="18.5" unit="tael" commodity="unclear">19</measure>
+               <hi rend="latintype">
+                  <term type="currency" ref="K01525">taels</term>
+               </hi> zurück-<lb/> gegangen, die Geschäftsstille nimmt täglich zu und es
+                    ist<lb/> uns nicht möglich auf die meisten Waaren ein raisonnables<lb/> Gebot zu
+                    erhalten.<lb/> Schließlich bitten wir Sie noch von eingeschlossenem <hi rend="latintype">Cir-<lb/>
+                        culair</hi> kenntniß nehmen zu wollen und zeichnen<lb/>
+               <seg rend="right">freundschaftlichst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01011">Bourjau Hübener +C.</orgName>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>
+               <seg rend="right">
+                  <add resp="other" style="textOrientation: straight">
+                     <hi rend="underline">1862</hi>
+                     <lb/>
+                     <hi rend="latintype">
+                        <placeName ref="K00503">Shanghai</placeName>
+                        <date when="1862-01-17">17 Jan</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01011">Bourjau HübenerCo</orgName>
+                        <lb/>b/ <date when="1863-01-22">22/163</date>
+                        <lb/>b/<date when="1863-01-22">22/163</date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+         <p>By steamer <hi rend="superscript">Lotus</hi>
+            <del rend="overstrike">Rajah</del>
+            <lb/>Shanghai 17th January 1863<lb/>
+            <lb/>Messrs. L. Kniffler Co<lb/>Nagasaki<lb/>We confirm our last letter from 12th of
+                this month as per the enclosed <lb/>copy and have since been without your pleasant
+                writings. <lb/>The European post with a date from London of 26th Nov. arrived this
+                <lb/>afternoon, but without bringing news of particular importance – </p>
+         <p>Cotton was noted 1°[?] higher and middling Orleans 22½°;<lb/>Manchester goods were
+                also firmer, but<lb/> grey shirtings 39 in 8/4 surat Cotton 2/[?] fell
+                from<lb/>their previous rates and are noted at 157;<lb/>the fighting in America is
+                continuing in the familiar way; General Mac Clellan<lb/> has lost command; he is
+                succeeded in this by General<lb/> Burnside – Silk rose 1/-1/6 in London and the
+                mood<lb/>is favourable; in the meantime the market will hopefully <lb/>have
+                continued this trend, tea however was <lb/>very sluggish; enormous purchases pushed
+                the prices down significantly while the export came to<lb/> a near total standstill,
+                business in the <lb/> European locations was quiet and suffered more<lb/> and more
+                under the continuing conflict in the States;<lb/>a settlement seems as distant as
+                ever. <lb/>The Cadiz, having worked for ¼ hour when she left <lb/>Hong Kong, was
+                partially destroyed by fire; luckily <lb/>everything could be saved and only some
+                lots of opium<lb/>were damaged in the process; the steamer itself will be
+                able<lb/>to be repaired. The delivery of dollars is said to be considerable, as we
+                have heard; and our rates will drop again. <lb/>Today we note 78<hi rend="superscript">6</hi>, apart from that our market is quiet and</p>
+         <p>without change; we have not managed any sales of</p>
+         <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>seaweed; for first-rate 270 is being offered. Because the season<lb/>can hardly pose
+                a danger to the storing, we are holding<lb/> on to it, isnig glass dropped to 18½-19
+                taels,<lb/>the quiet in the business grows daily and it is not <lb/> possible for us
+                to get a reasonable offer on most of the <lb/> wares. <lb/>Finally we ask to take
+                note of the enclosed circular<lb/>and sign<lb/>in deep friendship<lb/> Bourjau
+                Hübener + C.</p>
+         <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1863_01_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>⟨1862<lb/>Shanghai 17th Jan<lb/>Bourjau Hübener Co<lb/>b/ 22/1 63<lb/>a[nswered]/22/1
+                63⟩</p>
+      </body>
+   </text>
+</TEI>

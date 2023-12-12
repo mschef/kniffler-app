@@ -1,0 +1,21 @@
+   /* CSS zur Gestaltung der HTML-Templates.
+    * Die optische Gestaltung der Elemente erfolgt durch
+    * das /resources/odd/knifflerbasis_style.css  */
+   
+   body{
+      --pb-menubar-background-color: #003560;
+    --pb-menubar-background-image: none;
+    --pb-menubar-color: var(--pb-color-inverse);
+    --pb-toolbar-background-color: #003560;
+    --pb-toolbar-background-image: none;
+    --pb-toolbar-color: #709108;
+    --pb-content-font-family: font-family: 'Roboto Condensed', sans-serif;
+    --pb-content-font-size: 14px;
+    }
+    
+    .logo img {
+    width: 300px;
+    height: 250px;
+    /*background-size: 30%;*/
+    cursor: pointer;
+}

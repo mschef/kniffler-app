@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oskar Heeren in Tokyo an L. Kniffler &amp; Co. in Yokohama am 16. Februar
+                    1871</title>
+            <title type="file">0127.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-120</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben. Eine Umschlagsseite mit
+                            mehreren sinojapanischen Schriftzeichen und Stempeln, sowie einem
+                            Ausriss an der Stelle, an der das Siegel saß.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00054">Heeren, Oskar</persName>
+               <settlement ref="K00542">Tokyo</settlement>
+               <date when="1871-02-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date notAfter="1871-02-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-02" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-24" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_1.tif" n="1"/>
+         <p>
+            <stamp style="rectangular" type="commercial">
+               <persName ref="K00054">HEEREN</persName>
+               <lb/>
+               <placeName ref="K00542">JEDO</placeName>
+            </stamp>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00542">Jedo</placeName>. <date when="1871-02-16">16:
+                            Februar 1871</date>.</hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <placeName ref="K00525">Yokohama</placeName>._</seg>
+            <lb/> Antwortlich Ihrer <choice>
+               <abbr>w/</abbr>
+               <expan> werten</expan>
+            </choice> Zeilen <date when="1871-02-15">am gestrigen Tage</date> kann<lb/> ich
+                Ihnen bis heute Empfang <unclear>von</unclear> c<hi rend="superscript">a</hi> 170
+                    <hi rend="latintype"> Lay <term ref="K01605" type="goods">Enfieldrifles</term>
+            </hi> an-<lb/> zeigen, +zwar fast durchweg von recht guter, fast bessere Quali-<lb/>
+                tät als das Ihnen <choice>
+               <abbr>d Z<hi rend="superscript">t.</hi>
+               </abbr>
+               <expan cert="low"> derzeit</expan>
+            </choice> behändigte Muster.. Leider geht es sehr<lb/> langsam, und befürchte ich,
+                daß zu event. morgen Abends,<lb/> ich nur vorläufig diese Parthie Ihnen einsenden
+                kann.. Da<lb/> der Preis gering, + seit einigen Tagen hier schon so halb-<lb/> wegs
+                Feiertage sind, so kann man die Parthien aus den<lb/>
+            <unclear reason="illegible">äußeren</unclear>
+            <term ref="K01637" type="commercial">Jachikis</term> nicht immer gleich erhalten,
+                und der<lb/> betreffende Japaner klagt mir täglich sein Leid + die Mühe<lb/> die er
+                hat das <unclear>couratirte</unclear> Quantum an guter Waare zusamm-<lb/> en
+                zufinden._ Gleich nach neu Jahr (jap.) kann er<lb/> coulant liefern, aber das ist
+                noch hin <unclear>+</unclear> zu späth.. Jeden-<lb/> falls sende ich Ihnen <date when="1871-02-17">morgen</date> oder <date when="1871-02-18">übermorgen d. 18: <choice>
+                  <abbr>ds</abbr>
+                  <expan> desselben</expan>
+               </choice>
+               <lb/>
+            </date> Früh, was ich an Waffen besitze, + ich denke Sie werden<lb/> zufrieden sein.
+                Ich habe sie schon alle nachsehen, +<lb/> putzen lassen, + sind wirklich recht
+                hübsche Parhien<lb/> dabei_ Sie hören jedenfalls morgen näheres von mir<lb/> +
+                Uebermorgen werden dWaffen in Ihren Händen sein..<lb/>
+         </p>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_2.tif" n="2"/>
+         <p> Hier ist es auch seit einigen Tagen mit <unclear>
+               <term type="commercial" ref="K01523">Rimesse</term>
+            </unclear>
+            <lb/> theurer, wohl aus demselben Grund den Sie bemerken.<lb/> Ihre <hi rend="latintype">
+               <term ref="K01605" type="goods">Enfields</term> (Turner<add style="textOrientation: straight" resp="writer" place="below">1868?</add> +
+                    Arons)</hi> können Sie<lb/> wohl nicht zu <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" unit="mex$" quantity="4.3">4,30</measure>¢ abgeben. _ Dem
+                    <orgName type="gov" ref="K01068">War Office</orgName> ist<lb/> vom <term type="measure" ref="K01504">Isikatz</term> (Silber.) zu
+                    <unclear>seinem</unclear> Type Waare offerirt<lb/> (2000.stg.) + man hat bei mir
+                angefragt, weil im<lb/> Fall ich zu diesem Preis geben kann man von mir<lb/> nehmen
+                will_ Mir kommt es diesmal nicht auf<lb/> Sturheit an, ich möchte gern <term type="measure" ref="K01504">Isikatz</term>
+                einmal übergeben<lb/> da freilich eine sehr billige Waare antritt. Sollten<lb/> Sie
+                irgend eine Parthie besitzen so bitte lassen Sie es mich<lb/> wissen._<lb/> Die
+                Saldo Zahlung der <unclear>Niva</unclear>Angelegenheit<lb/> erhalten Sie sofort nach
+                den Neujahrs Feiertagen.<lb/>
+            <seg rend="right">Freundschaftlichst<lb/>
+               <persName ref="K00054">Heeren</persName>
+            </seg>
+         </p>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_3.tif" n="3"/>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_4.tif" n="envelope"/>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">五十四番 </add>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <hi rend="underline">
+                  <hi rend="latintype">
+                     <placeName ref="K00525">Yokohama</placeName>.</hi>
+               </hi>
+               <lb/>
+               <stamp style="rectangular" type="commercial">
+                  <persName ref="K00054">HEEREN</persName>
+                  <lb/>
+                  <placeName ref="K00542">JEDO</placeName>
+               </stamp> N<hi rend="superscript">o.</hi> 5 S.</seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1870<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00542">Jedo</placeName>
+                  <date when="1870-02-16">16 Februar</date>
+                  <!-- Fehlerhafte Datumsangabe. Der Brief wurde eigentlich 1871 versendet -->
+                  <lb/> v. <persName ref="K00054">Heeren</persName>
+                  <lb/>
+                  <lb/> Btwe <date when="1871-02-17">17 Febr 71</date>
+                  <lb/>
+               </hi>
+            </add>
+            <stamp style="rectangular" type="postal">三<unclear reason="faded">賃</unclear>元</stamp>
+            <lb/>
+            <stamp style="oval" type="postal">
+               <unclear reason="faded">差</unclear>込</stamp>
+            <lb/> 五十四番当たり<lb/>萬国 </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_1.tif" n="1"/>
+         <p>HEEREN<lb/>YEDO</p>
+         <p>Yedo. 16th February 1871.<lb/>Messrs. L. Kniffler +Co.<lb/>Yokohama._<lb/>In answer
+                to your esteemed lines from yesterday, I can <lb/>notify you today of receiving ca.
+                170 Lay Enfield rifles<lb/>+ they are very nearly all of quite a good quality,
+                almost a better quality<lb/>than the sample issued to you at the time. Unfortunately
+                it is going <lb/>ahead very slowly and I am afraid that possibly by tomorrow
+                evening<lb/>I will only be able to send you this batch for the time being. As
+                <lb/>the price is low + for the last few days it has been almost as if<lb/>it were
+                already the holidays, it is not possible to receive the batches <lb/>from the outer[?]
+                of Jachiki immediately, and the respective Japanese<lb/>every day keeps telling me
+                of his woes + of the efforts involved<lb/>in gathering together the stored[?]
+                quantity of good<lb/>products._ Straight after New Year (Jap.) he can deliver
+                <lb/>obligingly, but that is still some time away +[?] too late.. In<lb/>any case I
+                will send you tomorrow morning or the day after, on the <lb/>18th of this month,
+                whatever weapons I have + I think you<lb/>will be pleased. I have already had them
+                all checked +<lb/>cleaned + and there are really quite nice batches among <lb/>them
+                _ You will definitely hear more details from me tomorrow <lb/>+ and the day after
+                tomorrow the weapons will be in your hands..</p>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_2.tif" n="2"/>
+         <p>Here it has been more expensive in terms of remittances[?] for<lb/>a few days now,
+                probably for the same reason you mentioned. <lb/>Your Enfields (Turner1868? + Arons)
+                you probably will<lb/>not be able to sell at $ 4,30¢. _ The War Office has
+                been<lb/>offered wares of its[?] type by Isikatz (Silver.) <lb/>(2,000 pcs.) + I
+                have had an enquiry because, in the <lb/>case that I can supply at this price, they
+                will want to take <lb/>them off me _ For me this is not about stubbornness, <lb/>I
+                would like to supply to Isikatz this time <lb/> as of course very cheap goods are on
+                offer. Should<lb/>you be in possession of any batches please do let me
+                <lb/>know._<lb/>The balance payment for the Niva[?] affair you will<lb/>receive
+                immediately after the New Year holidays.<lb/>Yours most cordially<lb/>Heeren</p>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_3.tif" n="3"/>
+         <pb facs="1871_02_16_Kniffler_Yokohama_von_Heeren_Edo_4.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler +Co.<lb/>Yokohama.<lb/>HEEREN<lb/>JEDO No. 5
+                S.<lb/>⟨1870<lb/>Jedo 16th February <lb/>v. Heeren<lb/>Answ[ered] 17th Feb. 71⟩</p>
+      </body>
+   </text>
+</TEI>

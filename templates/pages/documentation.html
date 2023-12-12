@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a beta for the digital scholarly edition "Die
+                                internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                                (1859-1876) based on TEI
+                                Publisher 7.1.0 and eXist
+                                5.2.0. The project was funded by the Ministry of Culture and Science of
+                                Northrhine-Westphalia. Version: September 2021. Ruhr-Universität
+                            Bochum, Faculty of East Asian Studies.--><html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Kniffler-Template"/>
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&amp;display=swap"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <style>
+            pb-page {
+                background-image: url('../images/kniffler_hintergrund_index.jpg');
+                background-attachment: fixed;
+            
+            }
+            
+            #view {
+                max-width: 960px;
+                min-width: 320px;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 40px;
+                background-color: #FFFFFF;
+                flex: 1 1;
+                height: var(--pb-view-height);
+                overflow: auto;
+            }
+            
+            #title-view
+            {
+                max-width: 960px;
+                min-width: 320px;
+                margin: 0 auto;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                background-color: #FFFFFF;
+                flex: 1 1;
+                height: var(--pb-view-height);
+                overflow: auto;
+                font-weight: bold
+            }
+            
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                padding: 0 20px;
+            }
+            
+            .content-body pb-navigation {
+                --paper-fab-background: #709108
+            }
+            
+            .content-body pb-navigation[direction = backward] {
+                left: 20px;
+            }
+            
+            .content-body pb-navigation[direction = forward] {
+                right: 20px;
+            }
+            
+            .content-body pb-facsimile {
+                flex: 1 1;
+                height: var(--pb-view-height);
+            }
+            .editiones {
+                display: inline-block;
+                width: 190px;
+                max-width: 330px;
+                height: auto;
+            }
+            footer {
+                display: flex;
+                background: #F0F0F0 !important;
+                padding: 10px 20px;
+            }
+            footer p {
+                color: #000;
+            }
+            footer a {
+                color: #003560;
+            }
+            }
+                        #view2{
+                max-width: 960px;
+                min-width: 320px;
+                margin: 0 auto;
+                padding: 20px 20px 40px 20px;
+                background-color: #FFFFFF;
+                flex: 1 1;
+                height: var(--pb-view-height);
+                overflow: auto;
+            }
+            </style>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="${app}/resources/i18n/{{ns}}/{{lng}}.json" require-language="require-language">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.documentation.html"/>
+                    </app-header>
+                <main><!--
+                        <pb-view id="title-view" src="document1" xpath="//teiHeader/fileDesc/titleStmt/author" view="single" not-found="">
+                        <pb-param name="mode" value="author"/>
+                        </pb-view> -->
+                    <pb-view id="view" view="single" src="document1" xpath="//body/div[1]" use-language="use-language" append-footnotes="append-footnotes"/>
+                </main>
+                <footer>
+                    <pb-view id="footer" view="single" src="document1" xpath="//sourceDesc/bibl[1]" use-language="use-language" not-found=""/>                
+                </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+</html>

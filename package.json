@@ -1,0 +1,8 @@
+{
+  "dependencies" : {
+    "@teipublisher/pb-components" : "1.23.5"
+  },
+  "name" : "Kniffler",
+  "version" : "1.0.0",
+  "description" : "Kniffler-Briefe Online"
+}

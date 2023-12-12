@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Nagasaki am 18. Oktober
+                    1870</title>
+            <title type="file">0124.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-118</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen.Zwei Seiten Anschreiben und eine Umschlagsseite. Auf der
+                            Umschlagsseite mehrere Stempel und eine Eingangsnotiz, ein kleiner
+                            Ausriss vom Siegel. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1870-10-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1870-12-11"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-29" who="TP">diplomatische Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="latintype">p<hi rend="superscript">r</hi> overland Mail<lb/>via <hi rend="underline">
+                     <placeName ref="K00543">Triest</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName> d. <date when="1870-10-15">15<hi rend="superscript">t</hi> October 1870</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> Ich bestätige den Inhalt meiner ergebenen Zeilen vom<lb/>
+            <date when="1870-08-05">5 <unclear>Aug:</unclear>
+            </date> und behändige Ihnen einliegend <hi rend="latintype">
+               <term type="logistic" ref="K01515">Connessement</term>
+            </hi> über <hi rend="latintype">p<hi rend="superscript">r</hi>
+            </hi>
+            <lb/>
+            <hi rend="latintype">„<name type="ship" ref="K01631">Achilles</name>”</hi>
+                verschiffte 2 Kisten <figure>
+               <figDesc>Firmenzeichen Kniffler. Oberhalb der Zeile L K +C mit einem Bruchstrich unter K, darunter, auf der Zeile B =</figDesc>
+            </figure> 168/178 sowie <hi rend="latintype">Nota</hi>
+            <lb/> über die darauf ruhenden <hi rend="latintype">
+               <placeName ref="K00548">Liverpool</placeName>-</hi>Spesen mit dem Ersuchen<lb/>
+                mir deren Betrag rechtfindend mit<lb/>
+            <add style="transformRotateZ(-45deg)" resp="other" place="inline">
+               <hi rend="latintype">
+                  <placeName ref="K00525">
+                     <choice>
+                        <abbr>Yokoh:</abbr>
+                        <expan>Yokohama</expan>
+                     </choice>
+                  </placeName> aufgeb.</hi>
+            </add>
+            <seg rend="center">B<hi rend="superscript">o</hi>
+               <unclear>₻</unclear>
+               <hi rend="underline">84.5, p 7<hi rend="superscript">o</hi>
+                  <hi rend="latintype">October</hi>
+               </hi>
+            </seg>
+            <lb/> creditiren zu lassen._<lb/> Ich theile Ihnen ferner mit, daß ich auf
+                Veranlassung der<lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01008">Bollenhagen &amp; C<hi rend="superscript">o.</hi>
+               </orgName>
+            </hi> bzw. Ihres Herrn <hi rend="latintype">
+               <persName ref="K00001">L. Kniffler</persName>
+            </hi>
+            <lb/> einige Probestücke <unclear>graumelirter</unclear> und blauer <hi rend="latintype">Militair-<term type="goods" ref="K01528">Tuche</term>
+            </hi>
+            <lb/> habe anfertigen und <hi rend="latintype">via <placeName ref="K00548">Liverpool</placeName> p Steamer „<name type="ship" ref="K01632">Nestor</name>”</hi> ver-<lb/> schiffen lassen, um die Erlangung größerer
+                    <hi rend="latintype">Ordres</hi> abseiten<lb/> der Regierung zu versuchen._<lb/>
+                Haben Sie die Güte Näheres aus einliegender <term type="commercial" ref="K01574">facture</term> im<lb/>
+            <add style="transformRotateZ(-45deg)" resp="other" place="marginLeft">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+            </add> Betrage von <hi rend="latintype">
+               <term type="currency" ref="K01830">B<hi rend="superscript">o</hi>₻</term>
+               <measure type="currency" quantity="321.3" unit="mBanco">321. 3</measure>,</hi>
+                zu ersehen, mich dafür erkennen<lb/> zu lassen und Notiz davon zu nehmen, daß die
+                bei den<lb/> blauen <term type="goods" ref="K01528">Tuchen</term> durch Zufall zu <unclear>Krezz</unclear> gerathene
+                Breithe-<lb/> 52/53 <hi rend="latintype">inches</hi> anstatt 54 <hi rend="latintype">inches</hi>- wie nicht minder auch die viel-<lb/> leicht unzureichende Schwere
+                mit Leichtigkeit zu verbessern<lb/> sind._ Die erhebliche Preis-Differenz zwischen
+                    <add style="transformRotateZ(-45deg)" resp="unclear" place="marginLeft">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <term type="commercial" ref="K01574">factura</term>
+                     <lb/>
+                     <term type="logistic" ref="K01515">Conaisemts</term>
+                     <lb/>Nota</hi>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p> melirten und blauen <term type="goods" ref="K01528">Tuchen</term> hat ihren Grund darin, daß<lb/> die Farbe der letztern
+                reines <hi rend="latintype">
+               <term type="goods" ref="K01633">Indigo</term>
+            </hi> ist. Würde eine blaue<lb/> Farbe genügen, wie Sie öfter in den assotirten <hi rend="latintype">
+               <term type="goods" ref="K01528">Tuchen</term>
+            </hi> er-<lb/> halten haben so kann leicht eine Reduction
+                um 4 <unclear>⅌ Ctr</unclear>
+            <lb/> herbeigeführt werden._<lb/> Ich sehe mit großem Interesse Ihren fernern
+                Mittheilungen<lb/> entgegen, bemerke, daß alle etwaigen besonderen Wünsche
+                meine<lb/> ganze Aufmerksamkeit haben sollen und grüße Sie<lb/>
+            <seg rend="right">Freundschaftlich ergeben:<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">HONG KONG</placeName>
+                  <lb/>C<lb/>DE 2<lb/>70</stamp>
+               <lb/>
+               <lb/>
+               <hi rend="latintype">p</hi>
+               <hi rend="underline">Overland Mail <placeName ref="K00543">Triest</placeName>
+               </hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/>F<lb/>1810<lb/>70<lb/>N 5-6 H 1</stamp>
+               <lb/>
+               <hi rend="latintype">Messrs <orgName type="firm" ref="K01004">L Kniffler
+                            +Co</orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1870<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01064">H C Bock</orgName>
+                  <lb/>
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1870-10-18">18October</date>
+                  <lb/>
+                  <date when="1870-12-11">11 December</date>
+                  <lb/> B <date when="1870-12-31">31 Dec</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>per overland mail<lb/>via Trieste<lb/> Hamburg, 15th October 1870<lb/>Messrs. L.
+                Kniffler +Co<lb/>Nagasaki Japan<lb/>I confirm the contents of my respectful lines
+                from <lb/>5th Aug:[?] and am handing you enclosed the bills of lading for <lb/>2
+                boxes shipped on the “Achilles” </p>
+         <figure>
+            <figDesc>Company sign Kniffler. Above the row the letters L K +C with a line under the K, and underneath, inside the row,B =</figDesc>
+         </figure>
+         <p>168/178 as well as the note<lb/>for the Liverpool expenses attached to this with the
+                request <lb/>to have the amount, once verified, credited to me with <lb/>⟨Yokoh:
+                issued.⟩Bo₻[?]84.5, per 7th October._<lb/>I further inform you that at the behest of
+                Messrs.<lb/>Bollenhagen &amp; Co. and your Mr. L. Kniffler I have had<lb/>made some
+                sample pieces of mottled[?] gray and of blue <lb/>military cloths and had them sent
+                via Liverpool on the<lb/>steamer “Nestor” to attempt to achieve larger orders</p>
+         <p>from the government._<lb/>Please could you be so kind as to gain the details from the
+                enclosed <lb/>invoice for the ⟨Yokohama⟩ amount of Bo₻ 321. 3, to have me credited
+                <lb/>for it and to take note of it that in the case of the <lb/>blue cloths by
+                chance the width has turned out too short[?] -<lb/>52/53 inches instead of 54 inches
+                - and also, no less, the<lb/>possibly insufficient weight can be improved easily._
+                <lb/>The considerable price difference between <lb/>⟨invoice<lb/>bills of
+                lading<lb/>note⟩</p>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>mottled and blue cloths is based on the fact that <lb/>the colour of the latter is
+                pure indigo. If a blue <lb/>colour should suffice, as you have frequently received
+                it in the<lb/>assorted cloths, then a reduction of 4 ⅌ Ctr[?] can easily<lb/>be
+                achieved._<lb/>I am looking forward to your further notifications with
+                great<lb/>interest, add that all possible special wishes will<lb/>have my entire
+                attention and send you greetings, <lb/>Yours most cordially:<lb/>H. C. Bock</p>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1870_10_18_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+      </body>
+   </text>
+</TEI>

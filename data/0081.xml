@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abraham E. Christian über die Brigg "Bolivar" vor dem britischen Konsul George
+               Lennon-Hunt in Rio de Janeiro am 11. November 1867</title>
+            <title type="file">0081.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement ref="K00522">Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Fadengebundene Urkunde zu sechs Seiten, alle beschrieben. Auf der letzten Seite
+                     unleserliche Siegelreste. Auf der Ersten und der letzten Seite vorgedruckte und
+                     ausgefüllte Teile.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+         <creation>
+            <date when="1867-11-11"/>
+         </creation>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-13" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-20" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen</change>
+         <change when="2021-06-09" who="MS">Anpassung des TEI-Headers</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_1.tif" n="1"/>
+         <p>
+            <add style="textOrientation: straight" resp="unclear" place="marginRight">
+               <term type="logistic" ref="K01538">Copy</term>
+            </add>
+            <lb/>
+            <hi rend="print">Know all Men, by these Presents, that Before me</hi>
+            <lb/>
+            <persName ref="K00108">George Lennon-Hunt</persName>--<hi rend="print">Her
+               Britannic<lb/> Majesty's</hi>--Consul--<hi rend="print">in this City of <placeName ref="K00587">Rio de Janeiro</placeName>
+               <lb/> personally appeared</hi>
+            <persName ref="K00109">Abraham E. Christian</persName>--<lb/>
+            <hi rend="print">Master of the</hi> British Brig - “<name type="ship" ref="K01783">Bolivar</name>”--<lb/>
+            <persName ref="K00110">Markus Nelson</persName>--<hi rend="print">Mate and</hi>
+            <persName ref="K00111">Frank Nelson</persName>, Seaman<lb/>
+            <hi rend="print">and these appearers voluntarily declared, that they sailed and departed
+               in</hi>---<lb/>
+            <hi rend="print">and with the said</hi> ---Brig---------<lb/>
+            <hi rend="print">from</hi>-- <placeName ref="K00531">New York</placeName>---<hi rend="print">on the</hi>
+            <date when="1867-07-13">Thirteenth---<lb/>
+               <hi rend="print">day of</hi>-July</date>---<hi rend="print">last laden with a Cargo
+               of</hi>
+            <lb/> General Merchandize <hi rend="print">and bound to</hi>
+            <placeName ref="K00525">Yokohama</placeName>---<lb/>
+            <hi rend="print">that at the time of sailing as aforesaid, the said</hi>--Brig-----<lb/>
+            <hi rend="print">was stanch, tight and strong, and well and properly manned, fitted, and
+               equipped, for the<lb/> performance of the
+            voyage.</hi>------------------------------------<lb/> That the weather was fine and<lb/>
+            nothing of importance occured until the<lb/>
+            <date when="1867-07-20">20<hi rend="superscript">th</hi> of the same month</date> the
+               <unclear>first</unclear> part of<lb/> which day was very stormy with a high<lb/>
+            cross sea in which the vessel laboured and<lb/> strained very much causing her to make
+            a<lb/> peat deal more water than usual. That the<lb/> following day was more moderate
+            but on the<lb/>
+            <date when="1867-07-22">22<hi rend="superscript">nd</hi>
+            </date> it again blew a hard gale accompanied<lb/> by violent rain squalls and a
+               <unclear>mountainous</unclear>
+            <lb/> Sea in which the vessel laboured and <lb/>
+         </p>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_2.tif" n="2"/>
+         <p> strained very heavily and shipped large<lb/> quantities of water over all, sail
+            was--<lb/> seduced as circumstances required and the<lb/> Pumps constantly attended to
+            in order to<lb/> keep her free as she was leaking badly.<lb/> That later in the day it
+            became necessary to<lb/> carry a heavy press of canvass to keep the<lb/> Vessel as much
+            as possible clear of the Seas. On<lb/> the following day the wind abated a little
+            and<lb/> the Sea consequently became somewhat smoother<lb/> but a heavy swell still kept
+            up and the vessel<lb/> solled very much and continued to leak very<lb/> badly. That from
+            the foregoing date up to the<lb/>
+            <date when="1867-08-13">13<hi rend="superscript">th</hi> of August</date> the weather
+            for the most part<lb/> was moderate and fine but the vessel continued<lb/> to make a
+            great deal of water say on an<lb/> average about 500 strokes per hour rendering<lb/> it
+            necessary to keep the Pumps constantly going,<lb/> on the above date however the
+            weather<lb/> was very unsettled an upon one occasion<lb/>
+         </p>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_3.tif" n="3"/>
+         <p> a heavy squall struck the ship with such<lb/> violence that before they could
+            reduce<lb/> sail the Flying <unclear>Zib</unclear> and Main Topsail<lb/> were split to
+            pieces. That during the<lb/> greater part of the following day the weather<lb/> was very
+            boisterous and stormy accompanied<lb/> by a high head sea in which the Vessel<lb/>
+            pitched and laboured heavily large -<lb/> bodies of water frequently coming inboard<lb/>
+            flooding the deck fore and aft and the<lb/> vessel made so much water that it
+            became<lb/> necessary to keep the Pumps constantly going.<lb/> That towards the latter
+            past of the day<lb/> it moderated and the voyage was -<lb/> prosecuted without the
+            occurrence of -<lb/> anything of importance, with the exception<lb/> that the Vessel
+            made a great <add style="textOrientation: straight" resp="writer" place="above">deal</add> of water<lb/> keeping the Pumps constantly going, until<lb/> the <date when="1867-08-29">29<hi rend="superscript">th</hi> of August</date> when they again </p>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_4.tif" n="4"/>
+         <p> encountered a stormy gale with a high sea<lb/> running and the Vessel laboured
+            heavily<lb/> and shipped large bodies of water<lb/> on deck sail was reduced as
+            necessary<lb/> and the Pumps attended to. That it<lb/> continued to blow very strong
+            accompanied<lb/> by violent squall at times and a high Sea<lb/> during the whole of the
+               <date when="1867-08-30">30<hi rend="superscript">th</hi>
+            </date> and part of<lb/>
+            <date when="1867-08-31">the following day</date>, and upon one occasion<lb/> they were
+            struck by a heavy squall from<lb/> the Southwind which split the Foresail<lb/> and upper
+            Fore Topsail. That the Vessel -<lb/> laboured and obtained excessives in the<lb/> heavy
+            sea which prevailed and shipped<lb/> immense bodies of water overall she<lb/> also
+            leaked very badly. That the weather<lb/> during the <date when="1867-09-01">1<hi rend="superscript">st</hi>
+            </date> + <date when="1867-09-02">2<hi rend="superscript">nd</hi> of September</date>
+            <add style="textOrientation: straight" resp="writer" place="above">was moderate</add>
+            but on the <lb/>
+            <date when="1867-09-03">3<hi rend="superscript">rd</hi>
+            </date> finding that the Vessel continued to make<lb/> a great deal of water and the
+            probability<lb/> of the leak increasing, it being as much<lb/>
+         </p>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_5.tif" n="5"/>
+         <p> as could be done to Keep her free even in fine<lb/> weather and the crew also beeing
+            almost worn<lb/> out it was considered advisable for the<lb/> safety and benefit of all
+            concerned to put<lb/> into the nearest port and accordingly the<lb/> course was shaped
+            for <placeName ref="K00587">Rio de Janeiro</placeName> and on<lb/> the <date when="1867-09-06">6<hi rend="superscript">th</hi> of the same month</date> at about
+            1.45. P.M.<lb/> the "<name type="ship" ref="K01783">Bolivar</name>" was safely anchored
+            in this Harbour<lb/> and on the <date when="1867-09-09">9<hi rend="superscript">th</hi>
+            </date>
+            <mentioned>
+               <persName ref="K00109">the aforesaid Master</persName>
+            </mentioned> duly noted<lb/> his Protest in this Consulate<lb/>
+            <hi rend="print">And because of the aforesaid evil events, the said appearers have
+               declared to protest, and<lb/> have required from the prenominated Consul, an act to
+               serve and avail them, and all<lb/> others concerned, when and where occaison may
+               require. I do therefore in conformity<lb/> with such request, and in a serious, and
+               solemn manner, protest against the winds and seas,<lb/> and all other causes and
+               things, for all losses, costs, damages, expenses, and prejudices,<lb/> that have
+               arisen, or been occasioned, or that may hereafter arise, or be caused, to these<lb/>
+               appearers or others concerned, in consequence of the premises, in order and to the
+               end,<lb/> tha all such losses, costs, damages, expenses, and pejudices, may be borne,
+               suffered, and<lb/> sustained, and paid and made good by those to whom of right, it
+               doth or may belong, to<lb/> bear, suffer, and sustain and pay, and mak good the same,
+               in time, and place, suitable.</hi>
+         </p>
+         <pb facs="1867_11_11_Urkunde_George_Lennon_Hunt_Britischer_Konsul_Rio_de_Janeiro_6.tif" n="6"/>
+         <p>
+            <hi rend="print">Thus done and protested, the said appearers have hereunto subscribed
+               their names at<lb/>
+               <placeName ref="K00587">Rio de Janeiro</placeName>, this</hi>
+            <date when="1867-11-07">seventh <hi rend="print">day of</hi> November<lb/>
+               <hi rend="print">One Thousand Eight Hundred and </hi> sixy-seven.</date>
+            <lb/>
+            <seg rend="right">(sig<hi rend="superscript">s</hi>) <persName ref="K00109">A. E.
+                  Christian</persName>
+               <lb/>
+               <persName ref="K00110">M. Nelson</persName>
+               <lb/>
+               <persName ref="K00111">Frank Nelson</persName>
+            </seg>
+            <hi rend="print">In Testimonium Aeritaetis.</hi>
+            <lb/>
+            <seg rend="center">(s<hi rend="superscript">s</hi>) <persName ref="K00108">G.
+                  Lennon-Hunt</persName>.<lb/> H.B.M.Consul.</seg>
+            <lb/> I the Undersigned Her Britannie<lb/> Majesty's Consul do herbey certify that
+            the<lb/> -- foregoing is a true and correct copy<lb/> of the original Protest recorded
+            in the Archives<lb/> at this Consulate.<lb/>
+            <seg rend="center">Given under my hand and official<lb/> Seal at <placeName ref="K00587">Rio de Janeiro</placeName> this <date when="1867-11-27">27<hi rend="superscript">th</hi>. day<lb/> of November 1867</date>
+               <lb/>
+               <persName ref="K00108">G. LennonHunt</persName>.</seg>
+         </p>
+      </body>
+   </text>
+</TEI>

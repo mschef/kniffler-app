@@ -1,0 +1,363 @@
+
+/*##############################################
+
+Stylesheet für die Knifflerbriefe eingebunden in die ODD
+
+################################################
+*/
+                     /* =================================
+           * Listenüberschriften
+           * ================================== */
+           .listHead
+           {
+                           font-weight: bold;
+           }
+           
+                     /* =================================
+           * Gestaltung von Abbildungsbeschreibungen
+           * ================================== */
+           .figDesc_inline
+           {
+                           color: grey;font-style:italic;
+           }
+          /* =================================
+           * Gestaltung der Seitenzahlangabe
+           * ================================== */
+           .pageNo
+           {
+               display: block; margin-left: 4pt; color: grey; float: top;
+           }
+                /* 
+         * =====================================
+         * Textausrichtung der Segmente
+         * =====================================
+         */
+         
+         .seg_center{
+             text-align:center;
+             display:block;
+         }
+         
+         .seg_right{
+             text-align:right;
+             display:block;
+         }
+         
+         .seg_left{
+             text-align:left;
+             display:block;
+         }
+         
+         /* ====================================
+          * ###Gestaltung von HTML-Elementen
+          * 
+          *
+          * ====================================
+          *  */
+         /* ===================================
+          * Gestaltung der Links
+          * ===================================
+       */
+       a {
+           color:#003560;
+           text-decoration:none;
+           
+       }
+       a:visited{
+          color: #003560;
+       }
+       a:hover{
+           color:#709108;
+       }
+       a:active{
+           color:#00004d;
+       }
+       
+       /* 
+         * =====================================
+         * Textgestaltung durch "Highlighting" <hi>
+         * =====================================
+         */
+         .hi_print{
+             color: 	#808080;
+             font-family:monospace;
+         }
+         
+         .hi_super{
+             vertical-align:super;
+             font-size:smaller;
+         }
+         
+        .hi_underline{
+            text-decoration-line:underline;
+        }
+        
+        .hi_underlineDashed{
+            text-decoration:underline;
+            text-decoration-style:dashed;
+        }
+         
+         .hi_latin{
+             font-style:italic;
+         }
+         .hi_code{
+             font-family:monospace;
+             }
+       /* 
+         * =====================================
+         * Hinzufügungen von anderer Hand <add>
+         * =====================================
+         */
+.add{
+    font-family:serif;
+}
+        /* 
+         * =====================================
+         * Gestaltung der Stempel
+         * =====================================
+         */
+         
+         /* ====================================
+          * Poststempel
+          *  ====================================*/
+
+         .poststamp_round{   
+            color:#006600;
+            background-color:#e6ffe6;
+            font-size:0.5vw;
+            
+            display:table-cell;
+            vertical-align:middle;
+            text-align:center;
+            
+            width:50px;
+            height:50px;
+             border:dashed 2.5px #006600;
+            border-radius:25px;
+        }
+
+        .poststamp_round::after{
+            content:" ";
+        }
+        
+        .poststamp_round::before{
+            content:" "
+        }
+        
+        .poststamp_round:hover{
+            background-color:#004d00;
+        }
+        .poststamp_rect {   
+            color:#006600;
+            background-color:#e6ffe6;
+            font-size:0.5vw;
+            
+            display:table-cell;
+            vertical-align:middle;
+            text-align:center;
+            
+            width:50px;
+            height:25px;
+             border:dashed 2.5px #006600;
+            border-radius:5px;
+            }
+            
+             .poststamp_round::after{
+            content:" ";
+        }
+        
+        .poststamp_rect::before{
+            content:" "
+        }
+        
+        .poststamp_rect:hover{
+            background-color:#004d00;
+        }
+        .poststamp_oval{   
+            color:#006600;
+            background-color:#e6ffe6;
+            font-size:0.5vw;
+            
+            /*  display:table-cell;*/
+            vertical-align:middle;
+            text-align:center;
+            
+            width:60px;
+            height:40px;
+             border:dashed 2.5px  #006600;
+            border-radius:20px;
+        }
+
+        .poststamp_oval::after{
+            content:" ";
+        }
+        
+        .poststamp_oval::before{
+            content:" "
+        }
+        
+        .poststamp_oval:hover{
+            background-color:#004d00;
+        }
+        /* ====================================
+          * Firmenstempel
+          *  ====================================*/
+          
+           .commstamp_round{   
+            color:#606060;
+            background-color:#E8E8E8;
+            font-size:0.5vw;
+            
+            display:table-cell;
+            vertical-align:middle;
+            text-align:center;
+            
+            width:50px;
+            height:50px;
+             border:dashed 2.5px #606060;
+            border-radius:25px;
+        }
+
+        .commstamp_round::after{
+            content:" ";
+        }
+        
+        .commstamp_round::before{
+            content:" "
+        }
+        
+        .commstamp_round:hover{
+            background-color:#505050;
+        }
+        .commstamp_rect {   
+            color:#606060;
+            background-color:#E8E8E8;
+            font-size:0.8vw;
+            
+            display:table-cell;
+            vertical-align:middle;
+            text-align:center;
+            
+            width:50px;
+            height:25px;
+             border:dashed 2.5px #606060;
+            border-radius:5px;
+            }
+            
+             .commstamp_round::after{
+            content:" ";
+        }
+        
+        .commstamp_rect::before{
+            content:" "
+        }
+        
+        .commstamp_rect:hover{
+            background-color:#505050;
+        }
+        
+                   .commstamp_oval{   
+            color:#606060;
+            background-color:#E8E8E8;
+            font-size:0.6vw;
+            
+            /*  display:table-cell;*/
+            vertical-align:middle;
+            text-align:center;
+            
+            width:60px;
+            height:40px;
+             border:dashed 2.5px #606060;
+            border-radius:20px;
+        }
+
+        .commstamp_oval::after{
+            content:" ";
+        }
+        
+        .commstamp_oval::before{
+            content:" "
+        }
+        
+        .commstamp_oval:hover{
+            background-color:#505050;
+        }
+        /* 
+         * ===================================
+         * Gestaltung der Wasserzeichen
+         * ===================================
+         * /
+         */
+         
+         
+        /* 
+         * ===================================
+         * #### Graphische Gestaltung der Verweise auf das Register ###
+         * ===================================
+         * /
+         */
+         
+         
+         /* ==================================
+          * Terme und Schiffsnamen
+          * ==================================
+          *  */
+          
+          .term_style{
+              color:#709108;
+          }
+          .term_style:hover{
+              color:#003560;
+              text-decoration:underline;
+          }
+          .placeName_style{
+              color:#709108;
+          }
+          .placeName_style:hover{
+              color:#003560;
+              text-decoration:underline;
+          }
+          .persName_style{
+              color:#709108;
+          }
+          .persName_style:hover{
+              color:#709108;
+              text-decoration:underline;
+          }
+          
+
+
+          
+          /* =================================
+           * Gestaltung der Hoverpopups
+           * ================================== */
+        
+        .persName_popup{
+            color:#003560;
+            font-variant:small-caps;
+        }
+         .term_popup{
+              color:#003560;
+              font-variant:small-caps;
+          }
+          .placeName_popup{
+              color:#003560;
+              font-variant:small-caps;
+          }
+          
+          .bibl_style{
+              font-size:smaller;
+              color:#505050;
+          }
+          a .bibl_style{
+              font-size:smaller;
+              color:#505050;
+          }
+          a .bibl_style:visited{
+              color:#505050;
+          }
+          .settlement_style{
+              color:#003560;
+              font-size:smaller;
+          }
+

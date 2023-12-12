@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Eugster, Labhart &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01000">
+               <orgName type="firm">Eugster, Labhart &amp; Co.</orgName>
+               <settlement>Manila</settlement>
+               <note>Im Auftrag der Schweizer Textilfirma Gebrüder Tobler &amp; Co. reiste Leonhard Eugster 1843 auf der Suche nach neuen Absatzmärkten. Da Eugster den Markt in China als nicht
+                  ausreichend aufnahmefähig für die Textilien von Tobler erachtete, ließ er sich in Manila nieder, wo er am 16. Juni 1844 eine Niederlassung von Tobler gründete. Als auch in Manila die
+                  anfänglich guten Absätze schwankten, schickte Tobler einen Familienangehörigen (Sebastian Tobler) zur Unterstützung Eugsters nach Manila, dieser verstarb jedoch schon bei der
+                  Anreise. Daraufhin sandten Tobler J. C. Labhart nach Manila. Mit diesem gründete Eugster 1848 Eugster, Labhart &amp; Co. Gebr. Tobler &amp; Co. übertrugen ihr Kommissionsgeschäft auf
+                  die neue Firma, der sie als Kommanditäre verbunden blieben. </note>
+               <bibl>Andreas Zangger: The Swiss in Singapore, Singapur 2014, S. 22-25.</bibl>
+               <bibl>Arnold Eugster: Geschichte der Gemeinde Speicher. Von den Anfängen bis zur Gegenwart, Gais 1947, S. 81-82; 251.</bibl>
+               <bibl>Leonhard Eugster: Ein Appenzeller in China, in: Appenzellisches Monatsblatt 8 (1845), S. 115–123, S. 115.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pandel &amp; Stiehaus in Batavia an L. Kniffler &amp; Co. auf Dejima am 2.
+                    Januar 1861</title>
+            <title type="file">0009.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-10</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen und ein Blatt. Fünf Seiten Anschreiben und eine Seite mit
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1861-01-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00507">Dejima</settlement>
+               <date when="1861-02-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-10-30">Diplomatische Transkription (ausßer diese Reici</change>
+         <change when="2020-10-05">Auszeichnung von Personen-, Orts- und Sachnamen; Korrektur der
+                Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">
+                  <hi rend="underline">Per Steamer via <placeName ref="K00508">Singapore</placeName> &amp; <placeName ref="K00503">Shanghae</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00501">Batavia</placeName>
+                     <date when="1861-01-02">Januar 2. 1861</date>
+                  </hi>
+               </seg>
+               <seg rend="center">Herren<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00507">Desima</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </seg>
+               <lb/>Wir bestätigen unser <choice>
+                  <abbr>ergeb.</abbr>
+                  <expan>ergebenes</expan>
+               </choice> Letztes vom <date when="1860-12-14">14<hi rend="superscript">ten</hi>
+                  <lb/>
+                  <hi rend="latintype">December <choice>
+                        <abbr>A. P.</abbr>
+                        <expan>Anni Passati</expan>
+                     </choice>
+                  </hi>
+               </date> und empfingen seitdem Ihre <choice>
+                  <abbr>w/</abbr>
+                  <expan>werte</expan>
+               </choice> Zu-<lb/> schrift vom <date when="1860-11-16">16. <hi rend="latintype">November</hi>
+               </date> &amp; schließen das <hi rend="latintype">Duplicat</hi>
+               <lb/> unseres letzten Briefes bei.<lb/> Was Sie uns wegen der <hi rend="latintype">Charter</hi> per <hi rend="latintype">
+                  <name type="ship" ref="K01530">Zwaluw</name>
+               </hi>
+               <lb/> nach <hi rend="latintype">
+                  <placeName ref="K00503">Shanghae</placeName>
+               </hi> sagen, haben angemerkt &amp; hoffen<lb/> daß das Geschäft gut auskommt.
+                    Lieb war es<lb/> uns zu vernehmen, daß Sie jedenfalls genug<lb/> Frachtgüter
+                    nach <placeName ref="K00501">Batavia</placeName> finden werden<lb/> obgleich
+                    lieber sähen, daß wir von Ihnen wieder<lb/> eine hübsche <hi rend="latintype">assortierte</hi> Ladung empfingen &amp; na-<lb/> mentlich <hi rend="latintype">
+                  <term type="goods" ref="K01517">Wachs</term>
+               </hi>, d. h. wir müßten dann die<lb/> einzigsten Empfänger sein. Bei
+                    Abschliessung kön-<lb/> nen Sie rechnen, daſ wir hier <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="55">55,-</measure> per <term type="measure" ref="K01504">Pic.</term> dafür<lb/> bedingen, welcher Preiß
+                    sehr gut auskommt. Kom-<lb/> men <del rend="overstrike">1000</del>
+               <add resp="writer" style="textOrientation: straight" place="above">2000</add>
+                    bis 3000 <measure type="volume" unit="box" commodity="wax">Kisten</measure> an,
+                    so wird der Preis<lb/> natürlich weichen, glauben aber daſ wir für<lb/> 1000 <hi rend="latintype">
+                  <measure type="volume" unit="box" commodity="wax">Kisten</measure> den
+                        obigen Preiß bedingen würden.</hi>
+            </p>
+            <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+            <p>Ihrer Order gemäß werden an Herren <persName ref="K00038">F. Laeisz</persName>
+               <lb/> die Summe von <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" unit="gulden" quantity="18000">18000,-</measure>
+               </hi>mit folgender Post<lb/>
+               <hi rend="latintype">
+                  <term type="commercial" ref="K01523">remittiren</term>
+               </hi> &amp; Sie dafür auf <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term> Conto</hi>
+               <lb/> per <date when="1861-01-17">17<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>ds.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> belasten.<lb/> Daß die <hi rend="latintype">
+                  <orgName type="firm" ref="K01020">Maatschappij</orgName> Kohlen</hi> erhält,
+                    haben<lb/> angemerkt, sie wird damit ein schlechtes Ge-<lb/> schäft machen, da
+                    die dortigen <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> durchaus<lb/> unbeliebt sind &amp; wir aus diesem Grund die Un-<lb/>
+                    srigen per <hi rend="latintype">
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> noch nicht verkaufen konn-<lb/> ten. Senden Sie also keinesfalls <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi>
+               <lb/> nach <hi rend="latintype">
+                  <placeName ref="K00501">Batavia</placeName>
+               </hi>, sie geben starken Verlust.<lb/> Kleinigkeiten als <hi rend="latintype">Ballast</hi> mag gehen, aber<lb/> keine Ladungen.<lb/> Ueber unserer
+                    Sendung per <hi rend="latintype">
+                  <name type="ship" ref="K01530">Zwaluw</name>,</hi> sind begie-<lb/> rig Ihr
+                    Urtheil zu erfahren, hoffentlich erhalten<lb/> mit der <del rend="overstrike">letzten</del>
+               <add place="above" resp="writer" style="textOrientation: straight">nächsten</add> Post schon bedeutende Vekaufs-<lb/> anzeigen. Daß Sie Sich
+                    mit einer Vergütung<lb/> von <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" unit="mex$" quantity="800">800,-</measure> für die <hi rend="latintype">
+                  <term type="goods" ref="K01524">Seiden</term> Contracte</hi>, zufrieden<lb/>
+                    stellen mußten, thut uns leid, jedenfalls ist<lb/> etwas immer besser als gar
+                    nichts.<lb/> Die Ihnen in unserem Letzten Schreiben mit-<lb/> getheilte <hi rend="latintype">Auction</hi> haben noch nicht halten kön-<lb/> nen, wir
+                    haben jetzt die erste <hi rend="latintype">Auction</hi>
+               <date when="1861">in diesem<lb/> Jahre</date> &amp; hoffen gute Preise zu
+                    machen. Wir </p>
+            <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+            <p>verkauften ferner aus der Hand von der <hi rend="latintype">
+                  <term type="commercial" ref="K01574">Factu-<lb/> ra</term> per <name type="ship" ref="K01516">Schiller</name>. <term type="goods" ref="K01544">Surmé</term> p<hi rend="superscript">r</hi>
+                  <measure type="volume" unit="picul" quantity="25" commodity="surme">25.</measure>
+                  <term type="measure" ref="K01504">Pic.</term> à <term type="measure" ref="K01512">f</term>
+                  <measure type="currency" unit="gulden" quantity="70">70,-</measure> per
+                            <term type="measure" ref="K01504">Pic.</term>
+               </hi>
+               <lb/> &amp; der Rest zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="60">60,-</measure>
+               <hi rend="latintype">per <term type="measure" ref="K01504">Pic.</term>
+               </hi> Wir bitten Sie für<lb/> die Folge von diesem Artikel, ein nicht so großes<lb/>
+               <hi rend="latintype">Quantum</hi> zu senden, <hi rend="latintype">p<hi rend="superscript">r</hi>
+                  <measure type="volume" quantity="10" unit="picul" commodity="surme">10</measure> à <measure type="volume" quantity="15" unit="picul" commodity="surme">15</measure>
+                  <term type="measure" ref="K01504">Pic.</term>
+               </hi> sind hinreichend<lb/> &amp; ist dann ein besserer Preiß zu erzielen,
+                    vielleicht<lb/> f. 80 à f. 85,- Von <hi rend="latintype">
+                  <term type="goods" ref="K01654">Champignons</term>
+               </hi> verkaufen die<lb/> Hälfte zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="80">80,-</measure>
+               <hi rend="latintype">per <term type="measure" ref="K01504">Pic.</term>
+               </hi>, mit der anderen Hälfte<lb/> sitzen noch. Dieser Artikel ist nur bei
+                    Kleinig-<lb/> keiten u verkaufen, <hi rend="latintype">
+                  <measure type="volume" quantity="1" unit="picul" commodity="mushrooms">1</measure> à <measure type="volume" quantity="1" unit="picul" commodity="mushrooms">2</measure>
+                  <term type="measure" ref="K01504">Pic</term>.</hi> hätten sich bezahlt<lb/>
+                    gemacht, indessen <measure type="volume" quantity="20" unit="picul" commodity="mushrooms">20.</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">Pic.</term>
+               </hi> sind mühsam abzusetzen.<lb/> hiervon bitten für die Folge, bis auf
+                    weitere<lb/> Order Nichts mehr zu senden.<lb/> Von <hi rend="latintype">
+                  <term type="goods" ref="K01547">Lackwerk</term>
+               </hi> verkaufen nur Kleinigkeiten,<lb/> diese müssen wir auf <hi rend="latintype">Auction probieren.</hi>
+               <lb/> Die <hi rend="latintype">
+                  <term type="goods" ref="K01655">Besen</term>
+               </hi> ließen auf <hi rend="latintype">Auction</hi> verkaufen und<lb/> fehlt aber
+                    noch die Abrechnung darüber, so daß wir Ihnen<lb/> Heute noch kein bestimmtes
+                        <hi rend="latintype">Resultat</hi> aufgeben<lb/> können. Sie werden wohl
+                    zwischen <hi rend="latintype">
+                  <measure type="currency" unit="gulden" quantity="0.25">25.</measure> à
+                            <measure type="currency" unit="gulden" quantity="0.3">30.</measure>
+                  <term type="measure" ref="K01512">cts.</term> p<hi rend="superscript">r</hi>
+               </hi>
+               <unclear reason="illegible" cert="low">Stk.</unclear>
+               <lb/> auskommen.<lb/> Von <hi rend="latintype">
+                  <term type="goods" ref="K01545">Payongs</term>
+               </hi> sind einige <measure type="volume" unit="box" commodity="payongs">Kisten</measure> zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="45">45,-</measure>
+               <lb/> verkauft &amp; <measure type="volume" unit="tub" quantity="100" commodity="camphor">100</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01542">Tubben</term> Camphor</hi> zu <term type="measure" ref="K01512">f.</term>
+               <measure type="currency" unit="gulden" quantity="80">80</measure>
+               <add resp="writer" style="textOrientation: straight" place="above">
+                  <hi rend="underline">
+                     <hi rend="latintype">Per <term type="measure" ref="K01504">Pic.</term>
+                     </hi>
+                  </hi>
+               </add> in <hi rend="latintype">
+                  <term type="commercial" ref="K01518">Entrepôt</term>.</hi>
+               <lb/> Diese Preise kommen alle bis auf <hi rend="latintype">
+                  <term type="goods" ref="K01654">Champignons</term>
+               </hi> gut aus.<lb/> &amp; werden wir Ihnen später eine Aufgabe machen<lb/>
+                    welche Artikel wieder zu haben wünschen.<lb/> Das <hi rend="latintype">
+                  <term type="commercial" ref="K01574">Facturirte</term>
+               </hi> Gewicht, kommt aber sehr schlecht<lb/> aus, bei <hi rend="latintype">
+                  <term type="goods" ref="K01517">Wachs</term>
+               </hi> ist eine Differenz von <measure type="volume" commodity="wax" unit="picul" quantity="12">12</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">Pic</term>,</hi> bei <hi rend="latintype">
+                  <term type="goods" ref="K01544">Surmé</term>
+               </hi>
+            </p>
+            <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+            <p>eine <hi rend="latintype">Differenz</hi> von <measure type="volume" commodity="surme" quantity="4" unit="picul">4.</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">Pic</term>.</hi>, bei <del rend="overstrike">Baum</del>
+               <term type="goods" ref="K01541">
+                  <add place="above" style="textOrientation: straight" resp="writer">Bienen</add>wachs</term>, eine <hi rend="latintype">
+                  <choice>
+                     <abbr>Diffrz</abbr>
+                     <expan>Differenz</expan>
+                  </choice>
+               </hi>
+               <lb/> von <measure type="volume" commodity="beeswax" unit="picul" quantity="0.88">88.</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01656">Cattie</term>.,</hi> bei <hi rend="latintype">
+                  <term type="goods" ref="K01657">Baumwachs</term>
+               </hi> eine <hi rend="latintype">Differenz</hi> von <measure type="volume" commodity="graftingWax" unit="picul" quantity="12">12</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">Pic</term>.</hi>
+               <lb/> Ueber <hi rend="latintype">
+                  <term type="goods" ref="K01654">
+                     <choice>
+                        <abbr>Champig</abbr>
+                        <expan>Champignons</expan>
+                     </choice>
+                  </term> &amp; <term type="goods" ref="K01531">Kampher</term>
+               </hi> können noch nicht auf-<lb/> geben, weil die <hi rend="latintype">Parthien</hi> noch nicht ganz verkauft<lb/> sind.<lb/> Nehmen Sie alle
+                    diese <hi rend="latintype">Differenzen</hi> zusammen, so<lb/> entspringt für uns
+                    ein bedeutender <hi rend="latintype">Verlust</hi> heraus<lb/> &amp; bitten Sie
+                    hiermit freundlich, für die Zukunft<lb/> recht vorsichtig mit dem Wiegen zu
+                    sein, denn ein<lb/> Versehen ist vorgefallen, da durch etwaiges
+                        <unclear>Eintradi-<lb/> ren</unclear> der Waaren an Land, nie eine so große<lb/>
+               <hi rend="latintype">Differenz</hi> entstehen kann. Die Zahl der <hi rend="latintype">
+                  <term type="commercial" ref="K01574">facturirten</term>
+                  <lb/>
+                  <term type="goods" ref="K01655">Besen</term>
+               </hi> kommt auch nicht aus, hiervon fehlen <measure type="quantity" quantity="930" unit="pieces" commodity="brooms">930</measure>.<lb/>
+               <hi rend="latintype">Stück</hi> &amp; an den <hi rend="latintype">
+                  <term type="goods" ref="K01658">Theebrettern</term>
+                  <measure type="quantity" commodity="teaTrays" unit="set" quantity="9">9.</measure> Set</hi>, dagegen waren<lb/> in Kiste <hi rend="latintype"> N<hi rend="superscript">o</hi> 37. <measure type="quantity" commodity="spoonBoxes" quantity="48" unit="pieces">48</measure> Stk.
+                            <term type="goods" ref="K01659">Löffeldosen</term>
+               </hi> anstatt <measure type="quantity" quantity="40" unit="pieces" commodity="spoonBoxes">40</measure>. <hi rend="latintype">Stk.</hi> &amp;
+                    in<lb/> Kiste N<hi rend="superscript">o</hi> 36. <measure type="quantity" commodity="caddies" unit="pieces" quantity="1">1</measure>. <hi rend="latintype">
+                  <term type="goods" ref="K01660">Theedose</term>
+               </hi> zu wenig &amp; in N<hi rend="superscript">o</hi> 48. 2. Arbeits<lb/>
+               <hi rend="latintype"> Kosten </hi> zu wenig die übrigen Sachen stimmten.<lb/>
+                    Wie das End <hi rend="latintype">Resultat</hi> ablaufen wird, werden Ihnen<lb/>
+               <choice>
+                  <abbr>s.z.</abbr>
+                  <expan>seinerzeit</expan>
+               </choice> mittheilen.<lb/> Einliegend den Ablauf der <hi rend="latintype">Auction</hi> über<lb/>
+               <hi rend="latintype">Jap. Artikel</hi> vom <hi rend="latintype">
+                  <orgName type="gov" ref="K01007">Gouvernement</orgName>
+               </hi> &amp; hält das <hi rend="latintype">Gou-<lb/> vernement</hi> im Laufe dieses Monats noch eine<lb/>
+               <hi rend="latintype">Auction</hi> über <hi rend="latintype">Jap. <term type="goods" ref="K01547">Lackwerk</term>
+               </hi> &amp; etc, hierüber<lb/> später das Nähere.<lb/> Der <hi rend="latintype">
+                  <name type="ship" ref="K01516">Schiller</name>
+               </hi> ist bis auf <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> entlasst, wir<lb/> haben indessen bis jetzt noch keine Beschäftigung<lb/>
+                    für ihn, senden ihn wahrscheinlich nach den </p>
+            <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+            <p>
+               <hi rend="latintype">
+                  <placeName ref="K00559">Molukken</placeName>
+               </hi> &amp; dann nach <hi rend="latintype">
+                  <placeName ref="K00502">Japan</placeName>
+               </hi> zurück. In der Zwi-<lb/> schenzeit erwarten die Aufgabe über diejenigen
+                    Artikel<lb/> welche Sie als <hi rend="latintype">coulant</hi> verkäuflich
+                    empfehlen können.<lb/> Für die folgenden Pöste bitten uns auf <hi rend="latintype">
+                  <term type="measure" ref="K01512">Gulden</term>
+                  <lb/> Conto</hi> zu <hi rend="latintype">creditiren</hi> als. <hi rend="latintype">
+                  <table rows="3" cols="3">
+                     <row>
+                        <cell>Abonnement / Mail Editie</cell>
+                        <cell>per <date when="1860-12-18">18. Decber.</date>
+                           <add style="transformRotateZ(-45deg)" resp="other">siehe <term type="commercial" ref="K01536">mem fol 49</term>
+                           </add>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">f.</term>
+                           <measure unit="gulden" type="currency" quantity="27.5">27,50,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Zahlung an <orgName type="firm" ref="K01016">Plump &amp;
+                                        Co.</orgName>
+                        </cell>
+                        <cell>
+                           <choice>
+                              <abbr>＂</abbr>
+                              <expan>per</expan>
+                           </choice>
+                           <date when="1860-12-27">27. <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>Dezember</expan>
+                              </choice>
+                           </date>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" unit="gulden" quantity="206.25">206,25,-</measure>
+                           <lb/>
+                           <add style="transformRotateZ(-45deg)" resp="other">siehe <term type="commercial" ref="K01536">mem fol 46</term>
+                           </add>
+                           <term type="commercial" ref="K01508">$</term>
+                           <measure type="currency" unit="mex$" quantity="75">75,-</measure> à <term type="measure" ref="K01512">f.</term>
+                           <measure type="currency" unit="gulden" quantity="2.75">2,75,-</measure>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <term type="commercial" ref="K01534">Tratte</term> /
+                                    Rasquest........</cell>
+                        <cell>
+                           <choice>
+                              <abbr>＂</abbr>
+                              <expan>per</expan>
+                           </choice>
+                           <date when="1860-12-21">21. <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>Dezember</expan>
+                              </choice>
+                           </date>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01512">
+                              <choice>
+                                 <abbr>＂</abbr>
+                                 <expan>f.</expan>
+                              </choice>
+                           </term>
+                           <measure type="currency" unit="gulden" quantity="1375">1375,-</measure>
+                           <lb/>
+                           <add style="transformRotateZ(-45deg)" resp="other">siehe <term type="commercial" ref="K01536">mem fol 48</term>
+                           </add>
+                           <term type="commercial" ref="K01508">$</term>
+                           <measure type="currency" unit="mex$" quantity="500">500,-</measure> à <term type="measure" ref="K01512">f.</term>
+                           <measure type="currency" unit="gulden" quantity="2.75">2,75,-</measure>
+                        </cell>
+                     </row>
+                  </table>
+               </hi>
+               <choice>
+                  <abbr>Einl.</abbr>
+                  <expan>Einliegende</expan>
+               </choice>
+               <hi rend="latintype">Speesen <choice>
+                     <abbr>Rechg</abbr>
+                     <expan>Rechnung</expan>
+                  </choice> / 9 Kisten</hi> von den Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01019">Rautenberg<lb/> Schmidz</orgName>
+               </hi> für <choice>
+                  <abbr>Rechg.</abbr>
+                  <expan>Rechnung</expan>
+               </choice> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01011">Bourjau &amp; Co.</orgName>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <add style="transformRotateZ(-45deg)" resp="other">siehe <term type="commercial" ref="K01536">mem fol 49</term>
+                     </add>
+                     <date when="1861-11-30">30 Novbr.</date>
+                     <term type="measure" ref="K01512">f</term>
+                     <measure type="currency" quantity="290.88" unit="gulden">290,88,-</measure>
+                  </hi>
+               </seg>
+               <lb/> &amp; sich hierüber mit Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01011">Bourjau &amp; Co.</orgName>
+               </hi> näher zu<lb/> vernehmen.<lb/> Für empfangene Zahlung von Hr. <hi rend="latintype">
+                  <persName ref="K00067">C. Bakre</persName> &amp; H.</hi>
+               <lb/>
+               <hi rend="latintype">de</hi>
+               <hi rend="underline">
+                  <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="8">8,-</measure>
+               </hi>
+               <hi rend="latintype">creditiren</hi> wir Sie mit <add style="transformRotateZ(-45deg)" resp="other">siehe <term type="commercial" ref="K01536">mem fol 46</term>
+               </add>
+               <hi rend="underline">
+                  <term type="measure" ref="K01512">f.</term>
+                  <measure type="currency" unit="gulden" quantity="22">22,-</measure>
+               </hi>
+               <hi rend="latintype">per. <date when="1861-12-27">27. Decber.</date>
+               </hi>
+               <lb/> Im Geschäft war es in den letzten Tagen des<lb/> vielen Regens wegen sehr
+                    still &amp; ist auf keine<lb/> Besserung vor Beendigung der Regenzeit zu
+                    rechnen,<lb/> wir beziehen uns der näheren <hi rend="latintype">Details</hi>
+                    wegen an<lb/> unseren allgemeinen <hi rend="latintype">Preis Courant,</hi>
+                    welchen unter<lb/> Kreutzconvent folgen lassen.<lb/> Ihnen schließlich unseren
+                    herzlichsten Glückwunsch<lb/> zum angetretenen <date when="1861">neuen
+                        Jahr</date> darbringend, zeichnen<lb/>
+               <seg rend="right">Freundschaftlichst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+                  </hi>
+               </seg>
+            </p>
+            <pb n="6" facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif"/>
+            <p>
+               <seg rend="right">
+                  <add resp="other" style="textOrientation: straight">1861<lb/>
+                     <hi rend="latintype">
+                        <placeName ref="K00501">Batavia</placeName>
+                        <date when="1861-01-02">2. Jan.</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+                        <lb/> R <date when="1861-02-12">12. Febr.</date>
+                        <lb/>
+                        <date when="1861-03-06">6. März</date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_1.tif" n="1"/>
+         <p>By Steamer via Singapore &amp; Shanghai<lb/>Batavia January 2nd
+                1861<lb/>Messrs.<lb/>L. Kniffler &amp; Co.<lb/>Dejima<lb/>Japan<lb/>We confirm our
+                latest respectful letter from 14th<lb/>December of last year and have since received
+                your esteemed<lb/>note from 16th November &amp; enclose the duplicate<lb/>of our
+                last letter. <lb/> We have noted what you say regarding the charter <lb/>by means of
+                the Zwaluw to Shanghai &amp; hope<lb/>that business is going well. It was
+                nice<lb/>for us to hear that you will in any case <lb/>find enough cargo to
+                Batavia<lb/>although I would prefer that we receive from you <lb/>again a nice
+                assorted load &amp; especially<lb/>wax, i.e. we should then be the <lb/>only
+                recipients. Upon completion<lb/>you can calculate that we will here achieve<lb/>f.
+                55,- per picul for it,<lb/>which price will do very nicely. If <lb/>
+            <del rend="overstrike">1,000</del> 2,000 to 3,000 boxes arrive, then the price
+                <lb/>would drop of course, but we believe that we <lb/>would achieve the above price
+                for 1,000 boxes.</p>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_2.tif" n="2"/>
+         <p>According to your order we will remit<lb/>to Mr. F. Laeisz the sum of f. 1,8000 with
+                the next<lb/>post &amp; charge you for this on guilder<lb/>acccount per the 17th of
+                this month.<lb/> That the Maatschappij receives coals we have <lb/>noted, she will
+                do poor business<lb/>with it because coal there is really quite <lb/>unpopular &amp;
+                for that reason we have not yet<lb/> been able to sell ours per Schiller.<lb/>So do
+                not under any circumstances send coal <lb/>to Batavia, it makes a big loss.
+                <lb/>Small amounts as ballast may work, but not<lb/>loads.<lb/>We are keen to hear
+                your verdict about our<lb/>shipment by means of Zwaluw, hopefully we
+                will<lb/>receive with the <del rend="overstrike">last</del> next post already
+                significant sales<lb/>figures. That you had to content yourself with<lb/>a
+                compensation of $800 for the silk contracts<lb/>we are sorry about, but at least it
+                is somewhat <lb/>better than nothing. <lb/>The auction we announced to you in our
+                <lb/>last letter we have not yet been able to hold,<lb/>we are now having the first
+                auction of this <lb/>year &amp; hope to get good prices. We </p>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_3.tif" n="3"/>
+         <p>further sold staright away from the invoice<lb/>per Schiller. Surmé pr 25 pic. at f
+                70,- per pic.<lb/> &amp; the rest at f. 60,- per pic. We ask you in<lb/>the future
+                not to send such a large quantity of this <lb/>article, pr 10 at 15 pic. is
+                sufficient<lb/> &amp; then a better price can be achieved, maybe<lb/> f. 80 to f.
+                85,-. Of the mushrooms we sold <lb/>half at f. 80,- per picul, the other half
+                <lb/>is still sitting with us. This articles can only<lb/>be sold in small amounts,
+                1 to 2 pic. would have <lb/>paid well, but 20 pic. are hard to sell. <lb/>Of this we
+                ask in the future not to send any more<lb/>apart from further orders. <lb/>Of
+                lacquerware we only sell small amounts, <lb/>these we need to try to auction.
+                <lb/>The brooms we managed to sell at auction but<lb/>the accounting is not yet
+                done, so that we cannot <lb/>give you a definite result today. <lb/>You will come in
+                at about 25 to 30 ctr. <lb/>pr piece.[?]<lb/>
+            <lb/>Of the payangs some boxes are sold for f. 45,-<lb/>&amp; 100 tubs of camphor at
+                f. 80 per pic. in the entrepôt.<lb/>These prices are all good, apart from the
+                mushrooms.<lb/>&amp; we will later give you an order of <lb/>which articles we wish
+                to receive again. <lb/>The invoiced weight, however, is not very accurate, <lb/>for
+                the wax there is a difference of 12 piculs, for surmé</p>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_4.tif" n="4"/>
+         <p>a difference of 4 pic., for <del rend="overstrike">tree</del> bees wax a difference
+                <lb/>of 88 Cattie., for resin a difference of 12 pic.<lb/>About mushrooms &amp;
+                camphor we cannot tell you<lb/>yet because the batches are not yet all sold. <lb/>If
+                you add up all these differences then it <lb/>amounts to a significant loss for us
+                <lb/> &amp; we ask you kindly in the future to <lb/>be quite careful with the
+                weighing because an error <lb/>has occurred because even possible losses[?]<lb/>of
+                the wares at the quayside cannot result in such a big <lb/>difference. The number of
+                invoiced brooms <lb/>also does not add up, of these 930 are missing <lb/>&amp; of
+                the teaboards 9 sets, however in<lb/>Box N<hi rend="superscript">o</hi> 37 there
+                were 48 pcs. tins for spoons instead of 40 pcs. &amp; in<lb/>Box N<hi rend="superscript">o</hi> 36. 1 tin of tea too few &amp; in N<hi rend="superscript">o</hi> 48 2 work<lb/>boxes [?] too few, the other items were
+                right. <lb/>What the final result is we will let you know <lb/>in due course.
+                <lb/>We have included the running order for the auction of <lb/>Jap. goods by the
+                government &amp; the government will be<lb/>holding at some point this month also an
+                <lb/>auction of Jap. laquerwares &amp; etc, of which<lb/>more details later. <lb/>
+                The Schiller has been unloaded apart from the coal, <lb/>but we have no business for
+                her just yet, <lb/>will probably send her to the </p>
+         <pb facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_5.tif" n="5"/>
+         <p>Moluccas &amp; then back to Japan. In the mean-<lb/>time we await the order over
+                those articles <lb/>which you can recommend as being accommodating to sell. <lb/>
+                For the following items we ask to be credited on the Guilder<lb/>account as. <table>
+               <row>
+                  <cell>Subscription / Mail Edition</cell>
+                  <cell>per 18. Decber. ⟨see mem fol 49⟩ </cell>
+                  <cell>f. 27.50,-</cell>
+               </row>
+               <row>
+                  <cell>Payment to Plump &amp; Co.</cell>
+                  <cell>＂ 27. ＂</cell>
+                  <cell>＂ 206,25,- <lb/>⟨see mem fol 46⟩ $75,- at f. 2.75,-</cell>
+               </row>
+               <row>
+                  <cell>Bill of Exchange / Rasquest........</cell>
+                  <cell>＂ 21. ＂</cell>
+                  <cell>＂ 1375,-<lb/>⟨see mem fol 48⟩ $500,- at f. 2,75,-</cell>
+               </row>
+            </table> Included is the bill of costs / 9 boxes from Messrs. Baukenberg<lb/>
+                Schmidz for invoice Messrs. Bourjau &amp; Co.<lb/>⟨see mem fol 49⟩ 30th Nov. f
+                290.88<lb/> &amp; to converse more closely with Messrs. Bourjau &amp; Co. <lb/>about
+                this. <lb/>For the payment received from Mr. C. Bakre &amp; H.<lb/>of $ 8,- we
+                credit you with ⟨see mem fol 46⟩ f. 22,- per 27th Dec.<lb/>In the business it has
+                been very quiet these last few days <lb/>because of all the rain &amp; we don’t
+                expect the <lb/>rainy season to improve, we refer<lb/>with all the finer details to
+                our <lb/>general price courant, which we will <lb/>we will send as a bundle.
+                <lb/>Finally, we offer you our most heart-felt best wishes <lb/>for the start of the
+                New Year, and sign <lb/>most cordially<lb/>Pandel &amp; Stiehaus</p>
+         <pb n="6" facs="1861_01_02_Kniffler_Dejima_von_Pandel_Stiehaus_Batavia_6.tif"/>
+         <p>⟨1861<lb/>Batavia 2nd Jan. <lb/>Pandel &amp; Stiehaus <lb/>R[eceived] 12th
+                Feb.<lb/>6th March⟩</p>
+      </body>
+   </text>
+</TEI>

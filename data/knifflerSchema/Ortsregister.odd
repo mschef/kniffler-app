@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD-Spezifikation für das Ortsregister der Internationalen
+                    Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876)</title>
+                <author>Tristan Pfeil; Marc Scheffer</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>created on Wednesday 24th April 2019 03:43:33 PM</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>TEI customization for the register of places and Settlements of the
+                Kniffler-Briefe</p>
+            <schemaSpec ident="Ortsregister" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except="abbr analytic biblScope biblStruct binaryObject cb choice citedRange date desc distinct divGen email emph expan foreign gap gb gloss graphic head headItem headLabel imprint index item l label lb lg listBibl media meeting mentioned milestone monogr num orig postBox postCode ptr pubPlace publisher q reg relatedItem rs said series sic soCalled sp speaker stage street term textLang time unclear"/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except="addName affiliation age birth bloc death district education faith floruit forename genName langKnowledge langKnown listNym listObject listOrg listPerson listRelation nameLink nationality nym object objectIdentifier objectName occupation offset org personGrp persona region relation residence roleName sex socecStatus state surname trait"/>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

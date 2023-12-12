@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Martin Hermann Gildemeister in Yokohama an Carl Illies in Shanghai am 11. Mai
+                    1866 (masch. Abschrift)</title>
+            <title type="file">0074.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-73</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt undatierte Maschinenabschrift. Eine Seite Abschrift.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00011">Gildemeister, Martin Hermann</persName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-05-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="K00018">Illies, Carl</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date notBefore="1866-06-01" notAfter="1866-06-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-29" who="TP">diplomatische Transkription</change>
+         <change when="2020-08-28" who="MS">Auszeichnung von Organisationen, Orten,
+                Personen</change>
+         <change when="2021-01-26" who="MS">Kleinere Korrekturen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_05_11_Illies_Shanghai_von_Gildemeister_Yokohama_(Masch. Abschrift)_1.tif" n="1"/>
+         <p>
+            <hi rend="print">
+               <seg rend="left">
+                  <hi rend="underline">Abschrift</hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <placeName ref="K00525">Yokohama</placeName>, <date when="1866-05-11">11.
+                            Mai 1866</date>
+               </seg>
+               <lb/> Werther Herr <persName ref="K00018">Illies</persName> ! <lb/> In der
+                    Hoffnung, dass dieser Brief Sie wohl<lb/> und munter in <placeName ref="K00503">Shanghai</placeName> antreffen wird ersuche ich Sie Ihre<lb/> Reise sofort
+                    nach hier fortsetzen zu wollen, da Sie hier<lb/> zunächst genügend Arbeit
+                    vorfinden werden.<lb/>
+               <seg rend="right">Ihr ergebener<lb/>
+                  <persName ref="K00011">M. H. Gildemeister</persName>
+               </seg>
+               <lb/> (Bem. <persName ref="K00018">C. I. sen.</persName>: damaliger Chef und
+                    Theilhaber von <orgName type="firm" ref="K01004">L.<lb/>
+                  <seg rend="right">Kniffler &amp; Co.)</seg>
+               </orgName>
+               <lb/> Adresse: <persName ref="K00018">Carl Illies</persName>
+               <choice>
+                  <abbr>Esq</abbr>
+                  <expan>Esquire</expan>
+               </choice>.<lb/> to be expected p. French Mail <choice>
+                  <abbr>Str.</abbr>
+                  <expan>Steamer</expan>
+               </choice> from <placeName ref="K00511">Europe</placeName>
+               <lb/>
+               <seg rend="right">
+                  <placeName ref="K00503">Shanghai</placeName>
+               </seg>
+               <lb/> Bem. <persName ref="K00018">Carl I.sen.</persName>: Anfang <date when="1866-06">Juni 1866</date> erhalten). </hi>
+         </p>
+         <pb facs="1866_05_11_Illies_Shanghai_von_Gildemeister_Yokohama_(Masch. Abschrift)_2.tif" n="2"/>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_05_11_Illies_Shanghai_von_Gildemeister_Yokohama_(Masch. Abschrift)_1.tif" n="1"/>
+         <p>Copy<lb/>Yokohama, 11th May 1866<lb/>Dear Mr. Illies ! <lb/>In the hope that this
+                letter is finding you fit and <lb/>well in Shanghai, I am entreating you to consider
+                <lb/>continuing your journey here immediately as you will<lb/>find enough work to
+                start with here. <lb/>Yours sincerely <lb/> M. H. Gildemeister<lb/>(Note: C. I.
+                sen.: then boss and partner of L.<lb/>Kniffler &amp; Co.)<lb/> Adress: Carl Illies
+                Esq.<lb/>to be expected per French Mail steamer from Europe<lb/>Shanghai<lb/>Note:
+                Carl I.sen.: received early June1866). </p>
+         <pb facs="1866_05_11_Illies_Shanghai_von_Gildemeister_Yokohama_(Masch. Abschrift)_1.tif" n="2"/>
+      </body>
+   </text>
+</TEI>

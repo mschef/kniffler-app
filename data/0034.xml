@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Emil Brunckow in Hongkong an L. Kniffler &amp; Co. in Nagasaki am 23.
+                    September 1862</title>
+            <title type="file">0034.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-35</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und Eine Umschlagsseite mit
+                            Siegelrest und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00012">Brunckow, Emil</persName>
+               <settlement ref="K00509">Hongkong</settlement>
+               <date when="1862-09-23"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-10-07"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-14" who="TP">diplomatische Transkription</change>
+         <change when="2020-10-26" who="MS">Auszeichnung von Personen-, Orts und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Mess <orgName type="firm" ref="K01004">L. Kniffler
+                                &amp; Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="underline">1862</hi>
+                  <hi rend="latintype">
+                     <lb/>Honkong <date when="1862-09-23">23 Sept</date>
+                     <lb/> E Brunckow.<lb/>
+                     <hi rend="underline">r/<date when="1862-10-07">7<del rend="overstrike">0</del>/10 62</date>
+                     </hi>
+                     <lb/>B. <date when="1862-12-15">15/12</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00509">Hongkong</placeName>
+                     <date when="1862-09-23">23 Sept 1862</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Ich habe das Vergnügen mich zum<lb/> Empfang Ihrer <choice>
+                  <abbr>
+                     <hi rend="superscript">w.</hi>/</abbr>
+                  <expan> werten</expan>
+               </choice> Zuschrift vom <date when="1862-08-28">28 Aug</date> zu<lb/> bekennen
+                    mit der Sie mir Verkaufrechnung<lb/> über 3 <hi rend="latintype">K <term type="goods" ref="K01537">Chinin</term>
+               </hi> + <term type="commercial" ref="K01523">Remesse</term> dagegen<lb/>
+               <unclear reason="faded">
+                  <term type="commercial" ref="K01508">$</term>
+               </unclear>
+               <measure type="currency" unit="mex$" quantity="542.35" commodity="quinine">542.35</measure>
+               <choice>
+                  <abbr>a/</abbr>
+                  <expan> an</expan>
+               </choice>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01011">Bourjau Hubener &amp; Co.</orgName>
+               </hi>
+               <lb/> behändigen, die Annahme gefunden.<lb/> Die Räumung dieser <term type="logistic" ref="K01584">Consignation</term>
+               <lb/> ist mir angenehm; daß sich der Artikel, wie<lb/> ich aus Ihrem Berichte
+                    vom <date when="1862-09-08">8 Sept</date>
+               <del rend="overstrike">ferner</del> ersehe<lb/> ferner gebessert, war natürlich
+                    nicht vorher-<lb/> zusehen.<lb/> In kann dagegen nicht umhin zu<lb/> bemerken
+                    daß eine Remittirung des <unclear reason="eccentric_ductus">Provenirs</unclear>
+               <lb/> nach <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>,</hi> wie ich solche Hrn <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi>
+               <lb/> und auch wohl Ihnen empfahl, für mich<lb/> 3-6% vortheilhafter gewesen
+                    wäre; Sie<lb/> notiren <unclear reason="illegible">Direct</unclear> auf <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>
+               </hi> 2½% und<lb/> der Unterschied zwischen dem Werthe von<lb/>
+               <hi rend="latintype">
+                  <term type="commercial" ref="K01508">Mex $</term>
+               </hi> in <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>
+               </hi> + dem Course auf hier<lb/> hätte weitere <hi rend="latintype">ca 3%</hi>
+                    betragen.<lb/> Ihre Rechnungsverheltnisse werden<lb/> ohne Zweifel in Ordnung
+                    sein, die zuviel<lb/> empfangenen <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="10" unit="mex$">10,-</measure> zahle ich Herr
+                        <hi rend="latintype">
+                  <persName ref="K00089">Lohe</persName>
+               </hi>
+               <lb/> hier aus, wenn Sie nicht wieder darüber <unclear reason="illegible">schreiben</unclear>
+               <lb/>
+               <seg rend="center">Mit Achtung</seg>
+               <lb/>
+               <seg rend="right">Ergebenst<lb/>
+                  <hi rend="latintype">
+                     <persName ref="K00012">E. Brunckow</persName>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_3.tif" n="3"/>
+            <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_1.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler &amp; Co.<lb/> Nagasaki<lb/>⟨1862<lb/>Honkong 23rd Sept<lb/>C
+                    Brunckow.<lb/>r[eceived]/7<del rend="overstrike">0</del>/10 62<lb/>a[nswered]
+                15/12⟩</p>
+         <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_2.tif" n="2"/>
+         <p>Hongkong 23rd Sept 1862<lb/>Messrs. L. Kniffler + Co.<lb/>Nagasaki<lb/>I have the
+                pleasure of acknowledging <lb/> receipt of your esteemed letter from 28th <lb/>
+                Aug., with which you passed me the sales invoice<lb/>for 3 boxes of quinine + the
+                remittance for this <lb/>$[?] 542.35 to Bourjau Hubener &amp; Co.,<lb/>which has
+                been accepted.<lb/>The clearing of this consignment<lb/> is pleasing to me: that the
+                article, as <lb/> I see <del rend="overstrike">furthermore</del> from your report
+                from 8th Sep,<lb/>furthermore improved, could of course not have<lb/> been
+                predicted. <lb/>I cannot help but notice, however,<lb/> that a remittance of the
+                Provenirs[?]<lb/>to Shanghai, as I recommended to both <lb/> Mr. Gildemeister as
+                well as you, would have been<lb/> 3-6% more profitable for me; you<lb/>noted
+                Direct[?] in Shanghai 2½% and<lb/>the difference between the value of <lb/>Mex $ in
+                Shanghai + the rate here would have <lb/>amounted to a further approx. 3%.<lb/>Your
+                accounting procedures will<lb/> no doubt be in order, the $10,- received in
+                surplus<lb/> I will pay to Mr. Lohe here, unless you write[?] more<lb/> about
+                this.<lb/>Respectfully,<lb/>sincerely<lb/>E. Brunckow</p>
+         <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_3.tif" n="3"/>
+         <pb facs="1862_09_23_Kniffler_Nagasaki_von_Brunckow_Honkong_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

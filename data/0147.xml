@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Yokohama am 10. Oktober
+                    1872</title>
+            <title type="file">0147.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-137</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            mehreren Poststempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1872-10-10"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01064">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1872-12-08"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-06" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-29" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">
+               <hi rend="underline" n="2">via <placeName ref="K00554">Brindisi</placeName>
+               </hi>
+            </hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName> d. <date when="1872-10-10">10<unclear>
+                        <hi rend="superscript">st.</hi>
+                     </unclear> October</date>
+               </hi> 1872</seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName ref="K01004" type="firm">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>. <placeName ref="K00502">Japan</placeName>.</hi>
+               </hi>
+            </seg>
+            <lb/> Meine ergebenen Zeilen vom <date when="1872-08-02">2<hi rend="superscript">s.</hi> Aug„</date> höflichst bestätigend bitte<lb/> ich Sie zunächst mir
+                für Spesen auf Muster 66/81. <term type="currency" ref="K01830">B₻</term> 12.14/ ⅌ <date when="1872-10-03">3 <hi rend="latintype">October</hi>
+            </date>
+            <lb/>
+            <add style="transformRotateZ(-45deg)" resp="other">
+               <hi rend="latintype">
+                  <term type="commercial" ref="K01536">M134</term>
+               </hi>
+            </add> zu creditiren, und diese verspätete Aufgabe damit zu entschuldigen,<lb/> daß
+                die Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01015">Behn Meyer +C<hi rend="superscript">o</hi>
+               </orgName> in <placeName ref="K00508">Singapore</placeName>
+            </hi> mir erst mit letzter<lb/> Post hierher geschrieben haben.-<lb/> Ich bekenne
+                mich sodann zum Empfange Ihrer werthen Zu-<lb/> schrift vom <date when="1872-08-21">21<hi rend="superscript">st</hi> Aug:</date> und bedaure, daß dieselbe im
+                Ganzen ge<lb/> nommen nicht gerade sehr günstig für mein Lager lauten.-<lb/>
+                Hoffentlich ist mit Eintritt der kälteren Jahreszeit größerer Be-<lb/> darf
+                eingetreten, und Ihnen die Möglichkeit gegeben, vortheilhaft<lb/> für mich zu <hi rend="latintype">operiren.</hi> Ich würde es lebhaft bedauern müssen, wenn<lb/>
+                diese meine Voraussetzung nicht zutreffend wäre, da ich sehr dringend<lb/> möchte,
+                daß meine sämtlichen in<hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>, <placeName ref="K00514">Nagasaki</placeName> + <placeName ref="K00545">Hiogo</placeName>
+            </hi>
+            <lb/> liegenden Waaren vor Schluß der <hi rend="latintype">Saison</hi> geräumt
+                werden.<lb/> Sind die Erlöse an und für sich und namentlich mit Rücksicht<lb/> auf
+                die hier herrschenden Verhältnisse unbefridigend, so wird<lb/> man <unclear reason="illegible">gerechten</unclear> Anstand nehmen müssen, <date when="1873">im nächsten Jahre</date>, <hi rend="latintype">
+               <placeName ref="K00502">Japan</placeName>
+            </hi>
+            <lb/> in den Kreis seiner geschäftlichen Erwägungen zu ziehen. <unclear>An</unclear>
+            <lb/>
+            <hi rend="latintype">Chance,</hi> aber, daß <date when="1873">1873</date>
+                vielleicht! besser werde, als <date when="1872">1872</date>, will<lb/>
+         </p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p> ich überhaupt nicht, und am allerwenigsten mit Waare laufen,<lb/> deren Geburtsjahr
+                    <date when="1870">1870</date> ist, und deren Beschaffenheit durch Liegen<lb/>
+                niemals besser wird, während sie sich täglich vertheuert._<lb/> Ich bitte Sie Ihre
+                Häuser in <hi rend="latintype">
+               <placeName ref="K00545">Hiogo</placeName>
+            </hi> und <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> in<lb/> diesem Sinne zu instruiren +zeichne<lb/>
+            <seg rend="right">Freundschaftlichst;<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">HONG-KONG</placeName>
+                  <lb/>C<lb/>
+                  <date when="1872-11-27">NO 27<lb/>72</date>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <gap quantity="1" unit="line"/>
+                  <lb/>12<lb/>O<unclear>FT.<lb/>
+                     <gap quantity="2" unit="line"/>
+                  </unclear>
+               </stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00554">BRINDISI</placeName>
+                  <lb/>
+                  <date when="1872-10-13">13<lb/>OTT<lb/>72</date>
+                  <lb/>*</stamp>
+               <lb/>
+               <hi rend="latintype">via <placeName ref="K00554">Brindisi</placeName>
+               </hi>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/>F.<lb/>9 0<lb/>72<lb/>N 1-2N 1.</stamp>
+               <lb/>
+               <hi rend="latintype">Messrs.</hi>
+               <stamp style="rectangular" type="postal">P. D.</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co</orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>.</hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="underline">1872</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1872-10-10">10 Oct.</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01064">H.C. Bock</orgName>
+                  <lb/>
+                  <hi rend="underline">R <date when="1872-12-08">8Dec</date>
+                  </hi>
+                  <lb/>
+                  <date when="1872-12-16">16 Decbr</date>
+               </hi>
+               <lb/> KC</add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>via Brindisi Hamburg, 10th[?] October 1872<lb/>Messrs. L. Kniffler +Co.<lb/>Yokohama.
+                Japan.<lb/>Confirming my respectful lines from 2nd Aug., I would like to ask
+                <lb/>you firstly to credit me with expenses for samples 66/81. B₻ 12.14/ ⅌ 3rd
+                October<lb/>⟨M134⟩ and to excuse this belated request as due to the fact<lb/>that
+                Messrs. Behn Meyer +Co. in Singapore only wrote to me<lb/>with the last post
+                here.-<lb/>I then acknowledge receiving your esteemed letter<lb/>from 21st Aug. and
+                I regret that this overall does <lb/>not sound particularly favourable for my
+                warehouse.-<lb/>Hopefully the start of the colder time of the year has<lb/>brought
+                about stronger demand and given you the possibility to <lb/>operate favourably on my
+                behalf. I would regret it very strongly if <lb/>this precondition of mine did not
+                come to fruition because I very urgently <lb/>desire that the entirety of my wares
+                stored in Yokohama, <lb/>Nagasaki + Hiogo will be cleared before the end of the
+                season. <lb/>If the proceeds on the whole, and in particular with regard to <lb/>the
+                circumstances prevailing here, are unsatisfactory, then one <lb/>will have to
+                distance oneself appropriately from making Japan <lb/>part of the circle of one’s
+                business considerations. At[?] the<lb/>chance, however, that 1873 possibly! might
+                get better than 1872,</p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>I will especially not run with wares that are of<lb/>1870 vintage and whose condition
+                is never improved by <lb/>storage, while they are getting more expensive by the
+                day._<lb/>I ask you to instruct your houses in Hiogo and Nagasaki <lb/>accordingly +
+                sign<lb/>Yours most cordially<lb/>H. C. Bock</p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>HONG-KONG<lb/>C<lb/>NO
+                27<lb/>72<lb/>[...]<lb/>12<lb/>OFT.[?]BRINDISI<lb/>13<lb/>OTT<lb/>72<lb/>*<lb/>via
+                Brindisi<lb/>HAMBURG<lb/>F.<lb/>9 0<lb/>72<lb/>N 1-2N 1.<lb/>Messrs. P. D.<lb/>L.
+                Kniffler &amp; Co<lb/>Yokohama<lb/>Japan.<lb/>⟨1872<lb/>Hamburg 10th Oct.<lb/>H.C.
+                Bock <lb/>R[eceived] 8th Dec.<lb/>16th Dec.<lb/>KC⟩</p>
+      </body>
+   </text>
+</TEI>

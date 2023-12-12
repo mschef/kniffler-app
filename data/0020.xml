@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 17. Februar 1862</title>
+            <title type="file">0020.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-22</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            Siegelresten und Eingangsnotiz</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-02-17"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-02-26"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-26" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-30" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <choice>
+                        <abbr>p. Str</abbr>
+                        <expan>per Steamer</expan>
+                     </choice>
+                     <name type="ship" ref="K01792">Scotland</name>
+                     <lb/> Messrs <orgName type="firm" ref="K01004">L. Kniffler &amp;
+                                Co.</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <placeName ref="K00514">Nagasaki</placeName>
+                     </hi>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="underline">1862</hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-02-17">17 Feb</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau Hubener &amp; Co.</orgName>
+                     <lb/>r/<date when="1862-02-26">26/2 62</date>
+                     <lb/>b/<date when="1862-03-04">4/3 62</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">P<hi rend="underline">er <name type="ship" ref="K01792">Scotland</name>
+                  </hi>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName> d: <date when="1862-02-17">17<hi rend="superscript">ten</hi> Febr. 62</date>
+                  </hi>
+                  <lb/> Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg> Wir hatten das Vergnü-<lb/> gen zuletzt am <date when="1862-02-13">13<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>d/s</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date>
+               <unclear reason="eccentric_ductus">p</unclear>
+               <hi rend="latintype">
+                  <name type="ship" ref="K01684">St. Theodosius</name>
+               </hi>
+               <lb/> + entbehren seitdem die <choice>
+                  <abbr>w/</abbr>
+                  <expan> werten</expan>
+               </choice> Ihrigen<lb/> Wir haben heute wenig oder kaum<lb/> etwas Neues
+                    mitzutheilen denn<lb/> Geschäft bleibt entsetzlich stille<lb/> + Sie speciell
+                    Interessirendes<lb/> liegt Nichts vor. Wir sind jeden<lb/> Augenblick die <hi rend="latintype">Mail</hi> erwartend<lb/> die hoffentlich einem hier seit
+                    vor<lb/> gestern coursirenden Gerüchte vorgeb-<lb/> lich über <hi rend="latintype">
+                  <placeName ref="K00590">Peking</placeName>
+               </hi> empfangen, daß Krieg<lb/> zwischen <hi rend="latintype">
+                  <placeName ref="K00512">England</placeName> + <placeName ref="K00556">Amerika</placeName>
+               </hi> zum<lb/> Ausbruch gekommen sein soll, ent<lb/> schieden widerspricht. Sie
+                    wer-<lb/> den die <hi rend="latintype">Mail</hi> jedenfalls mit die<lb/> sen <hi rend="latintype">Steamer</hi> empfangen da derselbe<lb/> erst Stunden nach
+                    Ankunft der<lb/> Post expedirt wurd.- Wir machen<lb/> eine Nachschrift wenn
+                    etwas Be-<lb/> sonderes vorliegt-<lb/> Es ist jammerschade daß wir mit<lb/>
+                    chartern von Schiffen <add style="textOrientation: straight" resp="writer" place="above">nicht</add> zu Stande<lb/> kommen können. Sie dürfen u<unclear reason="faded">ns</unclear>
+               <lb/> übrigens glauben daß wir Nichts<lb/> unversucht gelassen haben den
+                    ge-<lb/> wünschten Zweck zu erreichen, aber<lb/> stets ohne Erfolg- <hi rend="latintype">disponible</hi> Schiffe<lb/> sind sehr wenige im Hafen + es
+                    wer-<lb/> den hier diese Forderungen gemacht </p>
+            <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>+ auch bewilligt, daß es erstaunens-<lb/> werth ist.- dabei verstehen wir<lb/>
+                    indeß nicht wie Leute diese enor-<lb/> men <hi rend="latintype">rates</hi>
+                    bezahlen; + in sehr vielen<lb/> Fällen die <hi rend="latintype">per</hi> Monat
+                    gecharter-<lb/> ten Schiffe nach <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi> dirigiren<lb/> können + doch noch <del rend="overstrike">I</del> ihre
+                    Rechnung<lb/> finden <hi rend="latintype">
+                  <term type="logistic" ref="K01598">Tonnage</term>
+               </hi> muß sich bei Ihnen<lb/> täglich mehr anhäufen / heute<lb/> gehen wieder
+                        <hi rend="latintype">
+                  <name type="ship" ref="K01793">Georges &amp; Tuciandra</name>
+               </hi>
+               <lb/> nach drüben+ u/. Ansicht nach könnte<lb/> es kaum fehlen daß Raten
+                    bei<lb/> Ihnen ins Weichen gerathen denn<lb/> der Export von <term type="goods" ref="K01674">Chowchowartikeln</term>
+               <lb/> kann doch unmöglich fortbestehen wo-<lb/> gegen hiesige Preise kaum
+                        <unclear>Marge</unclear>
+               <lb/> heraus zurechnen + da werden <hi rend="latintype">Capi<lb/> taine</hi>
+                    doch schließlich wohl mürbe<lb/> werden + auf <term type="goods" ref="K01501">Kohlenfrachten</term> ei<unclear>n</unclear>
+               <lb/> gehen.- Es sollte uns also sehr lieb<lb/> sein wenn Sie drüben zu
+                    Stande<lb/> kommen könnten,. Hier bleiben <hi rend="latintype">japan.<lb/>
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> nach wie vor in gutem Be-<lb/> gehr + <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="9" unit="tael" commodity="coal">9,-</measure> per Ton</hi> werth. Sie würd-<lb/> den also <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="6" unit="mex$" commodity="coal">6</measure>
+               <hi rend="latintype">per Ton</hi> gerne bewilligen<lb/> können.- Sagen Sie uns
+                    doch bitte um-<lb/> ge<hi rend="underline">hend</hi> ob Ihnen nach wie vor
+                    ame-<lb/> rikanische Schiffe lieb sein würde selbst<lb/> wenn inzwischen Krieg zwischen<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00512">England</placeName> + <placeName ref="K00556">Amerika</placeName>
+               </hi> ausgebrochen<lb/> sein sollte, als dann werden zweifels-<lb/> ohne Schiffe
+                    besagter Nation billig zu<lb/> haben sein-<lb/> Ohne Sonstiges verbleiben wir
+                        <seg rend="right">Freundschaftlichst<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01011">Bourjau Hubener + Co</orgName>
+                     <lb/>
+                     <persName ref="K00071">Ernst Behre</persName>
+                  </hi>
+               </seg>
+               <seg rend="left">Von H. C. <hi rend="latintype">
+                     <persName ref="K00016">Morf</persName> blieben<lb/>wir noch
+                            ohne<lb/>Berichte</hi>
+               </seg>
+               <add place="marginLeft" style="writingMode: vertical-lr; textOrientation: sideways-left" resp="writer">
+                  <date when="1862-02-21">d: 21 <hi rend="latintype">
+                        <hi rend="underline">Febr.</hi>
+                     </hi>
+                  </date> Wir sind ohne Berichte von Ihnen in u/. Markte<lb/> Nichts verändert
+                            <hi rend="latintype">Mail</hi> kommt eben herein ob es Krieg<lb/> giebt
+                        ist noch unentschieden- Wir schließen <hi rend="latintype">
+                     <placeName ref="K00509">Hongkong</placeName>
+                  </hi> Briefe bei</add>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>Per steamer Scotland<lb/>Messrs L. Kniffler &amp; Co.<lb/>
+                Nagasaki<lb/>⟨1862<lb/>Shanghai 17th Feb.<lb/>Boujau Hubener &amp;
+                Co.<lb/>r[eceived]/26/2 62<lb/>a[nswered]/4/3 62⟩</p>
+         <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>Per Scotland<lb/>Shanghai the 17th Feb. 62<lb/>Messrs. L. Kniffler + Co.<lb/>
+                Nagasaki <lb/> We last had the pleasure on <lb/> the 13th of this month by means
+                of[?]St. Theodosius<lb/>+ have since been lacking your esteemed letters. <lb/>We
+                have today nothing or very little<lb/> news to share because <lb/> business remains
+                awfully quiet <lb/>+ there is nothing that would interest<lb/> you especially. We
+                are awaiting <lb/> the mail at any moment, <lb/> which will hopefully
+                decisively<lb/> contradict rumours, going round here<lb/> since the day before
+                yesterday having<lb/> probably arrived here from Bejing, that<lb/> war has broken
+                out between England<lb/> + America. You will in any case<lb/> receive the mail by
+                means of this<lb/> steamer because the stamer was<lb/> dispatched hours after the
+                arrival <lb/> of the post. – We will add<lb/> a postscript if anything special<lb/>
+                happens. – <lb/>It is a real shame that we<lb/> are not managing to succeed in<lb/>
+                chartering ships. Please do believe<lb/> us[?] that we have not left any <lb/> means
+                untried in order to achieve<lb/> the desired outcome, but always <lb/> without
+                success – there are very <lb/> few available ships in the port +<lb/> demands are
+                made here + also</p>
+         <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_02_17_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>granted that are simply <lb/> astonishing.– But we do not <lb/> understand how people
+                pay these<lb/> enormous rates; + in very many <lb/>cases the ships that are
+                chartered<lb/> for a month are directed to<lb/> Nagasaki + <del rend="overstrike">I</del> make a profit after all. <lb/>Cargo must be piling up at yours
+                more<lb/> and more every day / Today <lb/> Georges &amp; Tuciandra are sailing
+                over<lb/> there again + in our mind it<lb/> is inevitable that rates at yours<lb/>
+                will start to drop because the<lb/> export of chowchow articles <lb/> cannot
+                possibly continue whereas<lb/> with the local prices here there is <lb/> hardly any
+                profit margin to be <lb/> caculated + surely the captains<lb/> will eventually get
+                worn<lb/> down + will accept[?] coal cargoes. –<lb/> We should very much like it
+                <lb/>if you could make that happen over<lb/> there. Here, Japanese coal
+                remains<lb/>in good demand as before<lb/>+ is worth Ts 9,- per ton. You would<lb/>
+                therefore be well able to agree to<lb/>$6 per ton. – Please can you tell us<lb/>
+                immediately whether you would still<lb/> be happy with American ships<lb/> even if
+                war has indeed broken out<lb/> between England + America, as<lb/> then ships of said
+                nation would<lb/> without a doubt be cheap to<lb/> get –<lb/>Without anything
+                further we remain<lb/> your dearest friends<lb/> Bourjau Hubener + Co<lb/>Ernst Behre<lb/>
+            <lb/>From H. C. Morf we have<lb/> not yet received any<lb/> reports.<lb/>
+            <lb/>⟨21st Feb. We are without reports from you. In our market<lb/> nothing has
+                changed. Mail is just coming in, whether there is war<lb/> is as yet undecided – We
+                include Hong Kong letters. ⟩</p>
+      </body>
+   </text>
+</TEI>

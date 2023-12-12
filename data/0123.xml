@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bollenhagen &amp; Co. in Hamburg an L. Kniffler &amp; Co. in Yokohama am 5.
+                    Oktober 1870</title>
+            <title type="file">0123.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-117</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Umschlagsseite mit Ausschnitten an den Siegelstellen,
+                            mehreren Poststempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01008">Bollenhagen &amp; Co.</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1870-10-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1870-11-26"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-28" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-17" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">pr Mail via <placeName ref="K00532">St Francisco</placeName>
+            </hi>
+            <lb/>
+            <hi rend="print">
+               <orgName type="firm" ref="K01008">BOLLENHAGEN &amp; Co.</orgName>
+               <lb/>
+               <placeName ref="K00522">HAMBURG</placeName>
+            </hi>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L Kniffler +Co.</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <placeName ref="K00522">Hamburg</placeName>, <date when="1870-10-05">5. Oct.
+                            1870</date>
+               </hi>
+               <lb/> Wir schrieben Ihnen Gestern <hi rend="latintype">via <placeName ref="K00543">Triest</placeName>
+               </hi> laut</seg>
+            <lb/> einliegender <hi rend="latintype">Copie</hi> + behändigen Ihnen heute<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <term type="logistic" ref="K01515">Conaissement</term>
+                     <choice>
+                        <abbr>ü/</abbr>
+                        <expan> über</expan>
+                     </choice>
+                     <figure>
+                        <figDesc>Firmenzeichen. Eine Raute in einem gedachten Quadrat an dessen oberer linker Kante ein L, an der rechten ein K in der Mitte der Raute ein B</figDesc>
+                     </figure> 653/551 </cell>
+                  <cell>3 Kisten 150 Stück <hi rend="latintype">Black <term type="goods" ref="K01629">Orleans</term>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>＂<choice>
+                        <abbr> ü/</abbr>
+                        <expan> über</expan>
+                     </choice>
+                     <figure>
+                        <figDesc>Firmenzeichen. Eine Raute in einem gedachten Quadrat an dessen oberer linker Kante ein L, an der rechten ein K in der Mitte der Raute ein B</figDesc>
+                     </figure>663/651</cell>
+                  <cell>
+                     <hi rend="underline">3 ＂</hi> 150 ＂ ＂ da</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">6 Kisten</hi> verladen <hi rend="latintype">per
+                                Steamer „<name type="ship" ref="K01627">Diomed</name>”</hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> an Ihre <choice>
+               <abbr>w.</abbr>
+               <expan> werte</expan>
+            </choice> Adresse. Die <hi rend="latintype">
+               <term type="goods" ref="K01629">Orleans</term>
+            </hi> sind von <hi rend="latintype">
+               <persName ref="K00048">Bv. Bartels</persName>
+            </hi> + werden wir<lb/> Ihnen nächstens sagen, ob dieselben als <term type="logistic" ref="K01584">Consignation</term> oder für Ihre Rechnung<lb/> zu
+                betrachten sind. Die Kisten sind durch <hi rend="latintype">
+               <orgName type="firm" ref="K01061">Horstman +C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> versichert<lb/> + zwar frei von 3% für den <hi rend="latintype">Risico per
+                        <name type="ship" ref="K01627">Diomed</name> (<choice>
+                  <abbr>Str</abbr>
+                  <expan>Steamer</expan>
+               </choice>) </hi> nach <hi rend="latintype">
+               <placeName ref="K00503">Shanghai</placeName>,</hi>
+            <lb/> von da mit demselben oder einem andern <hi rend="latintype">
+               <hi rend="underline">
+                  <choice>
+                     <abbr>Str</abbr>
+                     <expan>Steamer</expan>
+                  </choice>
+               </hi>
+            </hi>
+            <choice>
+               <abbr>n/</abbr>
+               <expan> nach</expan>
+            </choice>
+            <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>,</hi>
+            <lb/> taxirt <hi rend="latintype">per</hi> Kiste <term type="currency" ref="K01543">£</term> 90-- <hi rend="latintype">Copie</hi> der facturen von <hi rend="latintype">
+               <persName ref="K00048">BvonBartels</persName>
+            </hi>
+            <lb/> legen wir hier bei; indeß ist wiegesagt noch nicht entschieden, ob diese<lb/>
+                Kisten als <term type="logistic" ref="K01584">Consignation</term> zu beschauen sind
+                oder nicht.<lb/> Ihre <term type="commercial" ref="K01523">Rimesse</term> mit Brief
+                vom <date when="1870-08-01">1 August <choice>
+                  <abbr>ac</abbr>
+                  <expan>anni currentis </expan>
+               </choice>
+            </date>
+            <lb/>
+            <hi rend="underline">£ 64.19.5 <hi rend="latintype">per</hi>
+            </hi> 6M/ S <hi rend="superscript">a</hi>/<hi rend="latintype">
+               <orgName type="firm" ref="K01029">London Joint St. Bank</orgName>
+            </hi> haben wir zur<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <hi rend="latintype">Saldirung</hi> des <unclear>
+                        <term type="commercial" ref="K01529">Provenue</term>
+                     </unclear>
+                     <choice>
+                        <abbr>
+                           <hi rend="superscript">ü</hi>/</abbr>
+                        <expan> über</expan>
+                     </choice>
+                  </cell>
+                  <cell>B +C<lb/>J+C</cell>
+                  <cell>101<unclear>
+                        <hi rend="superscript">r</hi>/1</unclear> 1 K <term type="goods" ref="K01630">Stiefelletten</term>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <choice>
+                        <abbr>u/</abbr>
+                        <expan>unseren</expan>
+                     </choice> ⅓ Antheil <choice>
+                        <abbr>ü/</abbr>
+                        <expan> über</expan>
+                     </choice>
+                  </cell>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. In einem Dreieck mit Grundlinie knapp unterhalb der Zeile, die Buchstaben CG</figDesc>
+                     </figure> 8<hi rend="superscript">r</hi>/1, 1K <hi rend="latintype">
+                        <term type="goods" ref="K01618">Narvallzähne</term>.</hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> benutzt.<lb/>
+            <seg rend="right">Hochachtungsvollst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01008">Bollenhagen+Co</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_2.tif" n="2"/>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_3.tif" n="3"/>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="underline">
+                  <hi rend="latintype">via <placeName ref="K00512">England</placeName>,
+                                <placeName ref="K00531">Newyork</placeName> &amp; <placeName ref="K00532">St. Franzisco</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <hi rend="latintype">(Pacific Rail-road)</hi>
+               <lb/>
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01008">BOLLENHAGEN &amp; C</orgName>
+                  <hi rend="superscript">O<lb/>
+                     <placeName ref="K00522">HAMBURG</placeName>
+                  </hi>
+               </stamp>Mess<hi rend="superscript">rs</hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/> E<lb/>w <date when="1870-10-05">5 10 / 70</date> 1<lb/>
+                  <gap agent="rubbed"/>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <stamp style="rectangular" type="postal">Franco</stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00531">NEW YORK</placeName> PAID<lb/>
+                  <date when="1870-10-10" cert="unknown">OCT 1<unclear reason="faded">0</unclear>
+                  </date>
+                  <gap/>
+               </stamp>
+               <lb/>
+               <hi rend="underline">
+                  <hi rend="latintype">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other" place="marginRight">1870<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1870-10-05">5 October</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01008">BollenhagenCo</orgName>
+                  <lb/> Empf. <date when="1870-11-26">26 Nov</date>
+                  <lb/> Beant <date when="1870-12-22">22 Dez</date>
+                  <lb/> E</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_1.tif" n="1"/>
+         <p>per mail via St Francisco<lb/>BOLLENHAGEN &amp; Co.<lb/>HAMBURG<lb/>Messrs. L
+                Kniffler +Co.<lb/>Yokohama<lb/>Hamburg, 5th Oct. 1870<lb/>We wrote to you yesterday
+                via Trieste in line with<lb/>the enclosed copy + are supplying you today with
+                the<lb/>
+         </p>
+         <table>
+            <row>
+               <cell>bill of lading for <figure>
+                     <figDesc>Company sign. A rhomb in an imaginary square with the letter L on the top left edge, a K at the right edge, and in the middle of the rhomb a B</figDesc>
+                  </figure> 653/551 </cell>
+               <cell>3 crates 150 items Black Orleans </cell>
+            </row>
+            <row>
+               <cell> ＂ for <figure>
+                     <figDesc>Company sign. A rhomb in an imaginary square with the letter L on the top left edge, a K at the right edge, and in the middle of the rhomb a B</figDesc>
+                  </figure> 663/651 </cell>
+               <cell>3 ＂ 150 ＂ ＂ the above</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>6 crates shipped per steamer “Diomed”</cell>
+            </row>
+         </table>
+         <p>
+            <lb/>for your esteemed address. The Orleans are from Bv. Bartels + we will let you
+                <lb/>know soon whether these are to be considered as consignments or on your
+                <lb/>account. The crates are insured by Horstman +Co <lb/>+ in fact from 3% for the
+                risk per “Diomed” (steamer) to Shanghai,<lb/>from there on the same or on another
+                steamer to Yokohama,<lb/>estimated at £ 90—per crate, we enclose here a copy of the
+                invoice from <lb/>BvonBartels; however, as said, it has not been decided yet
+                whether <lb/>these crates are to be seen as a consignment or not. <lb/>We have used
+                your remittance with the letter from 1st August of this year <lb/>£ 64.19.5 per 6M/
+                S a/London Joint St. Bank for<lb/>
+         </p>
+         <table>
+            <row>
+               <cell>balancing the proceeds[?] for</cell>
+               <cell>B +C<lb/>J+C</cell>
+               <cell>101r/1[?] 1 crate of boot chains</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell> our ⅓ share of</cell>
+               <cell>
+                  <figure>
+                     <figDesc>Company sign. The letters CG in a triangle whose base is just below the line</figDesc>
+                  </figure> 8<hi rend="superscript">r</hi>/1, 1 crate narwhale tusks. </cell>
+            </row>
+         </table>
+         <p>
+            <lb/>Yours most sincerely<lb/>Bollenhagen + Co</p>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_2.tif" n="2"/>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_3.tif" n="3"/>
+         <pb facs="1870_10_05_Kniffler_Yokohama_von_Bollenhagen_Hamburg_4.tif" n="envelope"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Wilhelm Carl Engelbr. Pustau</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00076">
+               <persName>
+                  <forename>Wilhelm Carl Engelbr.</forename>
+                  <surname>Pustau</surname>
+               </persName>
+               <birth>
+                  <date when="1820-08-01"/>
+                  <placeName>Hadersleben</placeName>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note> Kaufmann und Politiker. 1844 gründete Pustau das erste
+                  deutsche Handelshaus in China. Er hielt sich bis 1859 dort auf und kehrte dann
+                  nach Deutschland zurück, wo er sogleich eine Filiale in Hamburg eröffnete, die er
+                  mindestens bis 1867 betrieb. Im selben Jahr ist er außerdem als Abgeordneter des
+                  norddeutschen Parlaments gelistet. </note>
+               <bibl source="https://www.reichstag-abgeordnetendatenbank.de/select.html?pnd=133992381">Datenbank der deutschen Parlamentsabgeordneten</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">133992381</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

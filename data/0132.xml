@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Joh. Berenberg, Gossler &amp; Co. in Hamburg an L. Kniffler &amp; Co.
+                    Yokohama am 13. Juli 1871</title>
+            <title type="file">0132.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-125</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen und ein Blatt. Eine Seite Anschreiben und eine Seite mit
+                            einer Eingangsnotiz auf dem Doppelbogen. Auf dem beigefügten Blatt
+                            gedruckt in englischer Sprache ein Geschäftsbericht.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01071">Joh. Berenberg, Gossler &amp; Co.</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1871-07-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1871-08-27"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+            <language ident="en-EN"/>
+            <!--Page 5 only-->
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-04" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-24" who="ms">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01071">JOH. BERENBERG, GOSSLER &amp;
+                            CO.</orgName>
+                  <lb/>
+                  <placeName ref="K00522">HAMBURG</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1871-07-13">13 July 1871</date>
+               </hi>
+            </seg>
+            <lb/>
+            <hi rend="latintype">via <placeName ref="K00554">Brindisi</placeName>
+            </hi>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir nehmen höflich Bezug an<lb/> unser Ergebenes v. <date when="1871-05-19">19
+                        <hi rend="latintype">May,</hi>
+            </date> dessen Abschrift wir<lb/> beifügen.<lb/> Auf Wunsch der Herren<lb/>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01034">L. E. Amsinck &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> in <hi rend="latintype">
+               <placeName ref="K00531">New-York</placeName>
+            </hi> bestätigen wir<lb/> Ihnen daß dieselben einen Credit zu Ihren Gunsten<lb/> für
+                    <hi rend="underline">
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" unit="britPound" quantity="5000">5000.-</measure>
+            </hi> (<hi rend="latintype">
+               <measure type="currency" unit="britPound" quantity="5000">Fünftausend</measure>
+               <term type="measure" ref="K01522">Pfund Sterling</term>
+            </hi>)<lb/> bei uns eröffnet haben, zu benutzen entweder<lb/> durch Ihre <term type="commercial" ref="K01534">Tratten</term> oder durch diejenigen Ihrer
+                Häuser<lb/> in <hi rend="latintype">
+               <placeName ref="K00545">Hiogo</placeName> &amp; <placeName ref="K00514">Nagasaki</placeName>
+            </hi>, 4 oder 6 Monate nach Sicht<lb/> auf uns direct, oder auf uns zahlbar bei der
+                    <hi rend="latintype">
+               <orgName type="firm" ref="K01072">Union<lb/> Bank of London</orgName>
+            </hi>, als Vorschuß von 7,5% auf <term type="logistic" ref="K01584">Con-<lb/>
+                    signationen</term> an die Adresse genannter <hi rend="latintype">
+               <placeName ref="K00531">New-York</placeName>
+            </hi>
+            <lb/> Freunde. Der Advis solcher <term type="commercial" ref="K01534">Tratten</term>
+                ist von Ver-<lb/> schiffungsdocumenten zu begleiten, und bleibt<lb/> dieser Credit
+                bis zum <date when="1872-03-01">1 <hi rend="latintype">März</hi> 1872</date> dort in Kraft.<lb/>
+            <add style="transformRotateZ(-45deg)" resp="unclear" place="marginLeft">
+               <hi rend="underline">Copie<lb/>Bericht</hi>
+            </add>
+            <seg rend="right">Achtungsvoll &amp; Ergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01071">JohBerenberg, GosslerC<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_2.tif" n="2"/>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_3.tif" n="3"/>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1871<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00522">Hamburg</placeName>
+                     <date when="1871-07-13">13 July</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01071">J. Behrenberg,
+                            Gossler+Co</orgName>,<lb/> R<hi rend="underline">
+                        <date when="1871-08-27">27 Aug.</date>
+                     </hi>
+                     <lb/>
+                     <date when="1871-09-04">4 Septbr</date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_5.tif" n="5"/>
+         <p>
+            <hi rend="print">
+               <seg rend="right">
+                  <placeName ref="K00522">Hamburg</placeName>, <date when="1871-01-24">January
+                                24<hi rend="superscript">th</hi>. 1871</date>.</seg>
+               <lb/>
+               <seg rend="center">
+                  <orgName type="firm" ref="K01071">John Berenberg, Gossler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>.</seg>
+               <lb/> The weather remains mild, steamers reach <placeName ref="K00601">Glückstadt</placeName> easily, while sailing vessels go to <placeName ref="K00602">Cuxhaven</placeName>.<lb/> Our Colonial and Foreign Produce
+                    markets have been quiet at about last prices. <term type="goods" ref="K01822">COFFEE</term> firm with reduced stocks. <term type="goods" ref="K01559">COTTON</term>
+               <lb/> the small remaining lts move off at comparatively high prices. <term type="goods" ref="K01636">SUGAR</term> quiet at last rate. MONEY is freely
+                    offered at 3½ to 4% for<lb/> Discounts, 5 to 6% for Loans on Stocks an Shares.
+                    U. S. 5/20 Bonds of 1862 89⅞%. Exchange 3 ₻ pr. $.<lb/>
+               <term type="goods" ref="K01823">COCOA</term> steady but without sales of moment.
+                    We quote: <placeName ref="K00603">Guayaquil</placeName> 4 ¾ - 5½ ß, <placeName ref="K00604">Pará</placeName> 6 ß, <placeName ref="K00605">Bahia</placeName>
+                    4¼ ß; <placeName ref="K00606">Domingo</placeName> 4 ß, <placeName ref="K00607">Caracas</placeName> 10½ - 11 ß<lb/>
+               <term type="goods" ref="K01822">COFFEE</term>. The market continues quite firm
+                    and afloat a large business has been done also for this week at full and rather
+                    somewhat<lb/> improving prices. <placeName ref="K00606">Domingo</placeName>
+                    received continued attention and of the lots mentioned as sold sundry resales
+                    were made, which however<lb/> we do not specify. Sales are:<lb/>
+               <table>
+                  <row>
+                     <cell/>
+                     <cell>4000</cell>
+                     <cell>Bags</cell>
+                     <cell>
+                        <placeName ref="K00587">Rio</placeName> &amp; <placeName ref="K00618">Santos</placeName> on spot,</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>&amp; afloat:</cell>
+                     <cell>4754</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <placeName ref="K00587">Rio</placeName> pr. “<name type="ship" ref="K01847">Dante</name>” at 5 5/16 ß </cell>
+                     <cell rows="2">landed terms,</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>4540</cell>
+                     <cell>＂</cell>
+                     <cell>＂ ＂ “<name type="ship" ref="K01848">Anna Maria</name>” at 5 5/16 ß</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3687</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <placeName ref="K00618">Santos</placeName> pr. “<name type="ship" ref="K01850">Canadia</name>” at 5 11/16 ß</cell>
+                     <cell>do</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3000</cell>
+                     <cell>＂</cell>
+                     <cell>＂ ＂ “<name type="ship" ref="K01851">Schön</name>” at secret prices,</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2300</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <placeName ref="K00606">Domingo</placeName> pr. “<name type="ship" ref="K01852">Sky Pelham</name>” from
+                                    <placeName ref="K00531">New York</placeName>
+                     </cell>
+                     <cell rows="3">
+                        <lb/>at 5¼ - 5½ ß.</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>1500</cell>
+                     <cell>＂</cell>
+                     <cell>＂ ＂ Str. “<name type="ship" ref="K01853">Cimbria</name>” do.</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>1000</cell>
+                     <cell>＂</cell>
+                     <cell>＂ ＂ Steamer ＂ do.</cell>
+                  </row>
+               </table>
+               <lb/> We quote: <placeName ref="K00587">Rio</placeName> inferior &amp; ord. 5⅛ - 5 5/16 ß, good. reg. 5⅜ - 5½ ß,
+                    good first 5 9/16 - 5⅝ ß, superior 5¾ - 6 ß, <placeName ref="K00618">Santos</placeName> ord. 5⅛ - 5 5/16 ß,<lb/>
+                    regular 6⅜ - 5 9/16 ß, <placeName ref="K00634">Campinas</placeName> 5⅝ - 6¼ ß, Laguayra trilladoes 5½ - 6¼
+                    descerezadoes 6 - 7⅝ ß, <placeName ref="K00629">Maracaibo</placeName> 5¼ - 7½ ß, Portorico 6 - 7¾ ß,<lb/>
+               <placeName ref="K00606">Domingo</placeName> inferior 5 3/16 - 5½ ß, Genaives
+                    &amp; Cape 5⅝ - 6¼ ß.<lb/>
+               <term type="goods" ref="K01559">COTTON</term>. On spot high prices are paid for
+                    the small lots offering and the stock left is quite trifling. Sales are:<lb/>
+               <table>
+                  <row>
+                     <cell>1300</cell>
+                     <cell>Bales</cell>
+                     <cell>
+                        <placeName ref="K00619">Barcelona</placeName> at 8½ - 8¼ ß,</cell>
+                  </row>
+                  <row>
+                     <cell>1400</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <placeName ref="K00618">Santos</placeName> at 8⅞ - 9 ß,</cell>
+                  </row>
+                  <row>
+                     <cell>150</cell>
+                     <cell>＂</cell>
+                     <cell>American at 8⅞ - 9 ß.</cell>
+                  </row>
+                  <row>
+                     <cell>300</cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <placeName ref="K00620">Valles</placeName> at 8¾.</cell>
+                  </row>
+               </table> Our quotations are: <term type="commercial" ref="K01723">Middling</term> New <term type="goods" ref="K01629">Orleans</term> 8½ ß,
+                        <term type="commercial" ref="K01723">mid.</term>
+               <term type="goods" ref="K01563">Uplands</term> 8¼ ß, fair <placeName ref="K00625">Bengal</placeName> 6¼ ß, fair
+                    Dhollerah 6½ ß, fair Broach 6½ ß,<lb/>
+               <placeName ref="K00621">Laguayra</placeName>
+               <placeName ref="K00620">Valles</placeName> 7¼ - 7⅜ ß, <placeName ref="K00619">Barcelona</placeName> 8 -
+                    8¼ ß, <placeName ref="K00622">Maroim</placeName> 8⅛ - 8¼ ß, prime <placeName ref="K00618">Santos</placeName> 8¼ - 8⅜ ß, prime Pernambs 8½ - 8⅝ ß, prime
+                    <placeName ref="K00623">Ceará</placeName>
+               <lb/> 8⅜ - 8½ ß, prime <placeName ref="K00624">Maceio</placeName> 8⅜ ß.<lb/> In <term type="goods" ref="K01526">DRUGS</term> &amp; <term type="goods" ref="K01824">DYES</term> a small
+                    business. We quote: <hi rend="latintype">E. I. <term type="goods" ref="K01682">Saltpetre</term>
+               </hi> flat at 13₻ pr. 93% refr. - <hi rend="latintype">
+                  <term type="goods" ref="K01825">Nitrate of Soda</term>
+               </hi> quiet, on<lb/> spot 11₻ afloat we quote 10₻. - <hi rend="latintype">
+                  <term type="goods" ref="K01821">Gambier</term>
+               </hi> worth 11₻ 4 ß. - <hi rend="latintype">
+                  <term type="goods" ref="K01826">Turmeric</term>
+               </hi> 15 ₻. - <hi rend="latintype">
+                  <term type="goods" ref="K01827">Cutch</term>
+               </hi> dull and lower not<lb/> worth above 14½ ₻. - <hi rend="latintype">
+                  <term type="goods" ref="K01591">Staranisseed-Oil</term>
+               </hi> lower and not worth above 6 ₻ 10 ß. - <hi rend="latintype">
+                  <term type="goods" ref="K01591">Cassia-Oil</term>
+               </hi> 3 ₻ 2ß. - <hi rend="latintype">
+                  <term type="goods" ref="K01828">Shellac</term>
+               </hi> firm, we quote<lb/> D C 12½ ß, M S 11½ ß, <term type="goods" ref="K01854">Garnet</term> 10 ß, Bloodlac 7½ - 11½
+                    ß, Native sorts 9½ - 10 ß, but no Stock. - <hi rend="latintype">
+                  <term type="goods" ref="K01855">India
+                        Rubber</term>
+               </hi> firm at<lb/> 42 ß for <placeName ref="K00604">Pará</placeName>,
+                    wet <placeName ref="K00603">Guayaquil</placeName> 17 ß, <placeName ref="K00623">Ceara</placeName> 20 - 20½ ß. - <hi rend="latintype">
+                  <term type="goods" ref="K01633">Indigo</term>
+               </hi> remains neglected, prime <placeName ref="K00625">Bengal</placeName> 7 - 7¾ ₻,
+                    medium 5⅞ - 6¼ ₻,<lb/> common 4⅛ - 5½ ₻, <placeName ref="K00626">Guatemala</placeName> prime 4¾ - 5¼ ₻, medium 4 -
+                    4¼ ₻, common 3 - 3¼ ₻.<lb/> DYEWOODS are firm in particular <term type="goods" ref="K01860">Logwood</term>. - <hi rend="latintype">
+                  <term type="goods" ref="K01860">Logwood</term>
+               </hi>
+               <placeName ref="K00627">Laguna Campeachy</placeName> 7 ₻, <placeName ref="K00606">Domingo</placeName> 3 ₻ 3 ₻ 4 ß, <placeName ref="K00628">Jamaica</placeName> 380 Tons sold<lb/> to arrive, we
+                    quote 3 ₻ 2 - 6 ß, <hi rend="latintype">
+                  <term type="goods" ref="K01856">Fustic</term>
+               </hi> inactive, <placeName ref="K00606">Domingo</placeName> 3 ₻ 8 ß, <placeName ref="K00629">Maracaibo</placeName> 3 ₻ 4 ß, Laguna 4 ₻ 4 ß,
+                    <placeName ref="K00630">Savanilla</placeName> 3 ₻,<lb/>
+               <placeName ref="K00631">Curacao</placeName> 3 ₻ 4 ß, St. Martha 3 ₻. <placeName ref="K00637">Cuba</placeName> 5 ₻, <placeName ref="K00638">Porto Cabello</placeName> 3 ₻
+                    4 ß - 4 ₻. - <hi rend="latintype">Redwood</hi>
+               <placeName ref="K00636">Altata</placeName> 6 ₻. - <placeName ref="K00596">Lima</placeName> 5 ₻ 8 ß - 5 ₻ 12 ß.<lb/> - Extract of <term type="goods" ref="K01860">Logwood</term>
+                    Sanford brand 4⅛ ß. - <hi rend="latintype">Quercitron Bark</hi>
+               <placeName ref="K00640">Philadelphia</placeName> 6
+                    ₻, <placeName ref="K00639">Baltimore</placeName> 4¼ - 4½ ₻.<lb/>
+               <term type="goods" ref="K01861">HIDES</term>. Continue firm for all sorts. Sales are:<lb/>
+               <table>
+                  <row>
+                     <cell>5657</cell>
+                     <cell>wet salted</cell>
+                     <cell>
+                        <placeName ref="K00641">Rio Grande</placeName> Ox </cell>
+                     <cell>pr. “<name type="ship" ref="1859">E. Klosterhow,</name>”</cell>
+                  </row>
+                  <row>
+                     <cell>3153</cell>
+                     <cell>do.</cell>
+                     <cell>do. ＂ </cell>
+                     <cell>＂ “<name type="ship" ref="K01862">Ane</name>” at 5⅝ ß,</cell>
+                  </row>
+                  <row>
+                     <cell>2032</cell>
+                     <cell>do.</cell>
+                     <cell>do. Horse</cell>
+                     <cell> ＂ do. at abt. 8 ₻ 4 ß,</cell>
+                  </row>
+                  <row>
+                     <cell>776</cell>
+                     <cell>dry</cell>
+                     <cell>do. Ox</cell>
+                     <cell> ＂ ＂ do.</cell>
+                  </row>
+                  <row>
+                     <cell>4823</cell>
+                     <cell>wet salted <placeName ref="K00642">Montevideo</placeName>
+                     </cell>
+                     <cell>pr. “<name type="ship" ref="K01863">Hilkelina</name>,”</cell>
+                  </row>
+                  <row>
+                     <cell>2550</cell>
+                     <cell>dry <placeName ref="K00643">Angostura</placeName>
+                     </cell>
+                     <cell>pr. “<name type="ship" ref="K01687">Flora</name>”</cell>
+                  </row>
+               </table>
+               <lb/> We quote: <placeName ref="K00644">River Plate</placeName> wet salted 5½ - ⅝ ß, Cow 5½ - 5⅝ ß, heavy dry 9 - 10
+                    ß, Rio Grande wet salted heavy Ox 5⅝ ß, Cow 5⅝ ß,<lb/> heavy dry 9⅜ -
+                        9<unclear>⅜</unclear> ß, light dry 9½ ß, Pernambs dry salted 7¼ - 7½ ß, wet
+                    salted 5 5⅛ ß, <placeName ref="K00605">Bahia</placeName> dry 8⅝ - 8¾ ß, dry salted 7 - 7¼ ß,<lb/>
+               <placeName ref="K00623">Ceara</placeName> dry salted
+                    7⅝ - 7⅞ ß, heavy <placeName ref="K00587">Rio de Janeiro</placeName> wet salted
+                    Ox 5¼ ß, Cow 5¼ ß, <placeName ref="K00635">Laguayra</placeName> dry 8½ - 8¾ ß, East India Kips slaughtered,<lb/> 8 -
+                    8½ ß, dead 7 ß, rejections 4¾ - 5¼ ß, as per weight &amp; quality.<lb/>
+               <term type="goods" ref="K01864">HONEY</term>
+                    unchanged in value. We quote: 22 ₻ for <placeName ref="K00606">Domingo</placeName>, 24 ₻ for <placeName ref="K00637">Cuba</placeName>.<lb/>
+               <term type="goods" ref="K01541">BEESWAX</term> in better demand. We quote:
+                    <placeName ref="K00606">Domingo</placeName> 16½ ß, Benguella 17½ ß, <placeName ref="K00645">Angola</placeName>
+                    17 ß, Chili 18½ ß, Danish 17½ ß, American 16½ ß<lb/> to 16¾ ß, Swedish 17
+                    ß.<lb/> In METALS no business transacted. <hi rend="latintype">
+                  <term type="goods" ref="K01696">Copper</term>
+               </hi>
+                    steady, we quote <placeName ref="K00647">Chili</placeName> refined 46 ₻ 12 ß net, Norwegian 46 ₻ 8 ß net, <placeName ref="K00646">Kapunda</placeName>
+                    imitation<lb/> 47 ₻ net, English cakes 47 ₻ net. - <hi rend="latintype">
+                  <term type="goods" ref="K01772">Lead</term>
+               </hi> quiet, Spanish, we quote soft 12 ₻. - <hi rend="latintype">Spelter</hi> inactive, we quote on spot 11 ₻ 12 ß.<lb/> NAVAL STORES are
+                    firm. <hi rend="latintype">Spirits of Turpentine</hi> no stock left prices
+                    nominal. - American 30 ₻, French 30 ₻. - <hi rend="latintype">Rosin</hi>
+                    slightly<lb/> higher. Americ. darc brown 4 ₻ 4 ß, Strained 4½ ₻, white 4¾ - 6 ₻,
+                    French 4¾ - 6 ₻<lb/>
+               <term type="goods" ref="K01865">PETROLEUM</term> inactive partly in expectation of a soon reopened
+                    navigation. Deliveries this week <measure type="volume" unit="barrels" quantity="2800" commodity="petroleum">2800</measure>
+               <choice>
+                  <abbr>Brls.</abbr>
+                  <expan>Barrels</expan>
+               </choice> Stock <measure type="volume" quantity="13262" commodity="petroleum" unit="13262">13,262</measure>
+               <choice>
+                  <abbr>Brls</abbr>
+                  <expan>Barrels</expan>
+               </choice>.<lb/> We quote:
+                    prime white 14 ₻ 14 ß, standard white 14 ₻ 6 ß, January 14 ₻ 8 ß´, February 14 ₻
+                    4 ß.<lb/>
+               <term type="goods" ref="K01502">RICE</term> stationary in value<lb/>
+               <seg rend="center">5200 Bags Java pr. “<name type="ship" ref="K01867">Sparkling Dew</name>,” at secret terms to
+                        arrive.</seg>
+               <lb/> We quote: Common to good <placeName ref="K00506">Java</placeName> 8½ - 10 ₻, Table 11 - 13½ ₻, <placeName ref="K00625">Bengal</placeName> 6½ - 8 ₻
+                    <placeName ref="K00648">Patna</placeName> 8½ - 9 ₻, <placeName ref="K00649">Arracan</placeName> 6¼ - 6¾ ₻, <placeName ref="K00650">Rangoon</placeName>
+               <lb/> and <placeName ref="K00651">Bassein</placeName> 6½ - 6¾ ₻, <placeName ref="K00652">Siam</placeName> 4¾ -
+                    5½ ₻ <placeName ref="K00538">Saigon</placeName> 5¾ - 6½ ₻<lb/> SPICES are firm
+                    with a moderate business for the week. <hi rend="latintype">
+                  <term type="goods" ref="K01589">Cassia lignea</term>
+               </hi> is very firm at 12¼ ß. - <hi rend="latintype">Cassia buds</hi> at 19½ ß. - <hi rend="latintype">
+                  <term type="goods" ref="K01866">Pimento</term>
+               </hi>
+               <lb/>
+               <measure type="volume" commodity="pimento" quantity="1600" unit="bags">1600</measure> Bags sold at 2 1/16 ß. - <hi rend="latintype">
+                  <term ref="K01819" type="goods">Pepper</term>
+               </hi>
+               <placeName ref="K00508">Singapore</placeName>
+                    worth 6¼ ß, <placeName ref="K00561">Penang</placeName> 5¾ ß. - <hi rend="latintype">Ginger</hi> quiet at 2¾ ß. - <hi rend="latintype">Cloves</hi> we quote on spot<lb/> 3⅛ - 3¼ ß. - <hi rend="latintype">Staranisseed</hi> without stocks worth 11½ ß.<lb/>
+               <term type="goods" ref="K01636">SUGAR</term>. The markets
+                    maintains its firmness. Sales were:<lb/>
+               <table>
+                  <row>
+                     <cell/>
+                     <cell>1200 Baskets <placeName ref="K00501">Batavia</placeName> at</cell>
+                     <cell>12½ - 17¼ ₻</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>7500 Mats do. ＂</cell>
+                     <cell>11¾ - 12 ₻</cell>
+                  </row>
+                  <row>
+                     <cell>We quote: Havana brown</cell>
+                     <cell>No. 8/9 . . . . 17½ - 18¼ ₻,</cell>
+                     <cell>
+                        <placeName ref="K00605">Bahia</placeName> brown clayed . . . 15 - 17¾ ₻</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>＂10/12 . . . . 18¾ - 20¼ ＂</cell>
+                     <cell>
+                        <placeName ref="K00653">Pernambs</placeName> brown . . . . . 16 - 18 ＂</cell>
+                  </row>
+                  <row>
+                     <cell>yellow</cell>
+                     <cell>＂ 13/14 . . . . 20½ - 21 ＂</cell>
+                     <cell>
+                        <placeName ref="K00500">Manila</placeName> unclayed . . . . . .
+                                11½ - 12½ ＂</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>＂ 15/16 . . . . 21½ - 21¾ ＂</cell>
+                     <cell>clayed . . . . . . . . 14½ - 17 ＂</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>＂ 17/18 . . . . 22 - 22½ ＂</cell>
+                     <cell>Muscovadoes <placeName ref="K00637">Cuba</placeName> . . . 18 - 19 ＂ for fair to good refining</cell>
+                  </row>
+                  <row>
+                     <cell>white</cell>
+                     <cell>. . . . . . . . . . . . . 22½ - 23 ＂</cell>
+                     <cell>Portorico. 18½ - 19½ ＂</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Molasses Sugar . . . . . . . 15 - 17 ＂</cell>
+                  </row>
+               </table>
+               <lb/>
+               <term type="goods" ref="K01549">TOBACCO</term> ist steady for most descriptions.
+                    Sales are: <lb/>
+               <seg rend="center">419 Seroons <placeName ref="K00606">Domingo</placeName> crop
+                        1870, 351 P. ex “<name type="ship" ref="K01858">Venus</name>” at 5 - 5⅜ ß, 68 P. pr. “<name type="ship" ref="K01868">Ingeborg</name>” at 5 - 5⅜ ß,<lb/>
+                        1136 Packs St. Felix Brasil afloat pr. “<name type="ship" ref="K01869">Emily</name>” at 9 ß.</seg>
+               <lb/>
+               <seg rend="center">EXCHANGES close with Bills and money:</seg>
+               <lb/>
+               <table>
+                  <row>
+                     <cell>
+                        <placeName ref="K00523">London</placeName>. . . . . . . . . . . .
+                                . . . . . . .</cell>
+                     <cell>60 d. S. 13 ₻ 7⅛ ß.</cell>
+                     <cell/>
+                     <cell>
+                        <placeName ref="K00526">Berlin</placeName> &amp; <placeName ref="K00633">Leipzig</placeName> . . . . .
+                                . . . . .</cell>
+                     <cell>60 d. S.</cell>
+                     <cell>152¼</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <placeName ref="K00632">Antwerp</placeName> . . . . . . . . . . . . . . . . . </cell>
+                     <cell>60 d. S. ＂ ＂187.</cell>
+                     <cell/>
+                     <cell>
+                        <placeName ref="K00553">Frankfort</placeName> . . . . . . . . . .
+                                . . . . . . . .</cell>
+                     <cell>60 ＂</cell>
+                     <cell>88¾</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <placeName ref="K00529">Amsterdam</placeName>. . . . . . . . . . .
+                                . . . . . . . . </cell>
+                     <cell>60 ＂ ＂ 35,40.</cell>
+                     <cell/>
+                     <cell>Prussian Thaler &amp; paper money . . . . . . </cell>
+                     <cell/>
+                     <cell>151⅜.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <placeName ref="K00524">Bremen</placeName> . . . . . . . . . . . .
+                                . . . . . . . </cell>
+                     <cell>60 ＂ ＂ 137¾.</cell>
+                     <cell/>
+                     <cell>Eagles . . . . . . . . . . . . . . . . . . . . . . . . . .
+                                .</cell>
+                     <cell/>
+                     <cell>44½ ß pr. $</cell>
+                  </row>
+               </table>
+            </hi>
+         </p>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_6.tif" n="6"/>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_1.tif" n="1"/>
+         <p>JOH. BEHRENBER, GOSSLER &amp; CO.<lb/>HAMBURG<lb/> Hamburg, 13th July 1871<lb/>via
+                Brindisi<lb/>Messrs. L. Kniffler &amp; Co.<lb/>Yokohama<lb/>We politely refer to our
+                esteemed<lb/>letter from 19th May, a copy of which <lb/>we enclose.<lb/>At the
+                request of Messrs. <lb/>L. E. Amsinck &amp; Co. in New York we confirm to you
+                <lb/>that these gentlemen have with us opened a credit <lb/>of £5,000.- (five
+                thousand pounds Sterling) <lb/>in your favour, to be used either through <lb/>your
+                bills of exchange or those of your houses <lb/>in Hiogo &amp; Nagasaki, with a 4 or
+                6 month view <lb/>to us directly, or payable to us at the Union<lb/> Bank of London,
+                as an advance of 7.5% on<lb/>consignments to the address of said New
+                York<lb/>friends. The notification of such bills of exchange<lb/>has to be
+                accompanied by shipping documents, and <lb/>this credit will remain in force there
+                until 1st March 1872. <lb/>⟨Copy<lb/>Report⟩<lb/> Yours sincerely &amp; respectfully
+                <lb/> Joh Berenberg, Gossler Co.</p>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_2.tif" n="2"/>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_3.tif" n="3"/>
+         <pb facs="1871_07_13_Kniffler_Yokohama_von_Behrenberg_Gossler_Co_Hamburg_4.tif" n="4"/>
+         <p>⟨1871<lb/>Hamburg 13th July<lb/>J. Behrenberg, Gossler+Co,<lb/>R[eceived] 27th Aug.
+                <lb/>4th Sep.⟩</p>
+      </body>
+   </text>
+</TEI>

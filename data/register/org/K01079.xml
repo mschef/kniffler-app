@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Gerichtshof von Kanagawa(神奈川裁判所)</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01079">
+               <orgName type="gov">Gerichtshof von Kanagawa(神奈川裁判所)</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Einer von zwölf Gerichtshöfen, die zur Meiji-Restauration im Jahre 1868 vorwiegend in den japanischen Vertragshäfen eingerichtet wurden. Der Gerichtshof von Kanagawa war, über
+                  allgemeine Aufgaben der Justiz hinaus, vor allem mit Angelegenheiten des Außenhandels </note>
+               <bibl>Kanagawa-ken kenmin-bu kenshi henshūshitsu: Kanagawa-kenshi kakuron-hen 1, Yokohama 1983.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

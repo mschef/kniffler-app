@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. Simonin &amp; Co. in Paris an L. Kniffler &amp; Co. in Yokohama am 19.
+               November 1969</title>
+            <title type="file">0111.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-105</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Ausßen eine Empfangsnotiz, innen eine Seite beschrieben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01155">J. Simonin &amp; Co.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1869-11-19"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1870-01-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-15" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-06" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+            Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_11_19_Kniffler_Yokohama_von_Simonin_Co_Paris_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1869<lb/>
+                  <placeName ref="K00534">Paris</placeName>
+                  <date when="1869-11-19">19 Novemb</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01155">J. Simonin +Co</orgName>
+                  <lb/>
+                  <choice>
+                     <abbr>Empf</abbr>
+                     <expan>Empfangen</expan>
+                  </choice>
+                  <date when="1870-01-10">10 Januar</date>
+                  <lb/>
+                  <choice>
+                     <abbr>Beantw</abbr>
+                     <expan>Beantwortet</expan>
+                  </choice>
+                  <date when="1870-01-15">15 J<hi rend="superscript">a</hi>
+                  </date>
+                  <lb/>
+                  <unclear>GB<lb/>
+                  </unclear>
+               </add>
+            </seg>
+         </p>
+         <pb facs="1869_11_19_Kniffler_Yokohama_von_Simonin_Co_Paris_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName>, le <date when="1869-11-19">19 Novembre
+                  1869</date>.<lb/> 46, Rue des Petites Ecuries</seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">ie</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">.<placeName ref="K00525">Yokohama</placeName>.</seg>
+            <lb/> Nous vous confirmons, Messieurs, notre lettre du 5 couram-<lb/> qui vous
+               avisai<unclear>r</unclear> de notre expédition de J. S. 846/51, 6 Caisses de 30<lb/>
+            Pièces <unclear>clsacune</unclear> Mousseline de Laine imrimée, plus J. S. 856
+            coutenam-<lb/> les Cartes d'Echantillons, par le vapeur des <orgName type="firm" ref="K01111">Messageries Impériales</orgName> du<lb/> 7 Couram_. Sous pli nous vous
+            remttons les Duplicata du connaisse- ment ainsi que de la facture, qui se monte à Fr.
+            13,403/10, au débit<lb/> de votre Compte de Consigantion.<lb/> Nous avons aujourd'hui le
+            plaisir de vous informer que<lb/> 2 autres Ciasses de la m^me marchandise, J. S. 880,81
+            vous seront<lb/> expédiées par le Vapeur des <orgName type="firm" ref="K01111">Messageries Impériales</orgName> du 27 Novembre,<lb/> plus une Caissette J. S. 892
+            pour les Cartes d'Echantillons, par le<lb/> même Vapeur.<lb/>
+            <seg rend="right">Veuillez agréez, Messieurs, nos salutations bien sincères.<lb/>
+               <hi rend="underline">
+                  <orgName type="firm" ref="K01155">John.Simonin&amp;C<hi rend="superscript">ies</hi>
+                  </orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1869_11_19_Kniffler_Yokohama_von_Simonin_Co_Paris_3.tif" n="3"/>
+         <pb facs="1869_11_19_Kniffler_Yokohama_von_Simonin_Co_Paris_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

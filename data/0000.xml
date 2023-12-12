@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eugster, Labhart &amp; Co. in Manila an Louis Kniffler (Pandel &amp; Stiehaus) in
+               Batavia am 9. Februar 1859</title>
+            <title type="file">0000.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-1</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p> Ein Doppelbogen, eine Seite Anschreiben eine Umschlagsseite mit Eingangsnotiz
+                     und Siegelrest.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01000">Eugster, Labhart &amp; Co.</orgName>
+               <settlement ref="K00500">Manila</settlement>
+               <date when="1859-02-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="K00001">Kniffler, Louis</persName>
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1859-03-13"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="check">
+         <change when="2018-09-20" who="TP">Anlage und Versuch eines Schemas </change>
+         <change when="2018-09-24" who="TP">Weiterentwicklung Schema und Verbesserung. Abgleich mit
+            anderen Editionen. Hinzufügung von term und measure. Überarbeitung der
+            Transkription.</change>
+         <change when="2018-09-25" who="TP">Abschluss des ersten Durchgangs. Sammlung von
+            Unklarheiten. Grundlagen für Transkriptionsrichtlinien.</change>
+         <change when="2019-04-24" who="TP">Anpassung an das neue Schema und Einfügung von ids und
+            weiteren Auszeichnungen</change>
+         <change when="2019-05-06" who="TP">Schemaanpassung, Auszeichnung revision der
+            Editionsrichtlinien</change>
+         <change when="2020-01-21" who="TP">Anpassung an das neueste Schema, Korrekturen, Faksimiles
+            einfügen. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_1.tif" n="1"/>
+            <p>
+               <hi rend="latintype">Per Steamer via <placeName ref="K00504">China</placeName>
+                  <lb/>
+               </hi>
+               <placeName ref="K00500">Manila</placeName>, den <date when="1859-02-09">9. Febr.
+                  1859</date>
+               <lb/> Herrn <persName ref="K00001">Louis Kniffler</persName>,
+                  <roleName>Associé</roleName> des Hauses<lb/>
+               <hi rend="underline">
+                  <orgName type="firm" ref="K01001">Pandel + Stiehaus</orgName> in <placeName ref="K00501">Batavia</placeName>
+               </hi>
+               <lb/> Nach dem Wunsche Ihres Hauses haben heute die<lb/> Ehre Ihnen über den hiesigen
+               Markt einige Mittheilungen<lb/> zu machen, die Sie am ehesten interessiren dürften.<lb/>
+               <term type="goods" ref="K01500">Sapanholz</term> ist gegenwärtig ziemlich begehrt
+               &amp; Vorrath<lb/> klein. für 1<hi rend="superscript">a</hi> müssen <term type="measure" ref="K01508">$</term>
+               <measure type="currency" quantity="2.5" unit="peso">2 ½</measure> á <measure type="currency" quantity="2.75" unit="peso">2 ¾</measure> per <measure unit="kg" type="weigt" quantity="60.4688">
+                  <term type="measure" ref="K01504">picul</term>
+               </measure> angelegt werden.<lb/> &amp; auch 2<hi rend="superscript">a</hi> ist gerne
+                  <term type="measure" ref="K01508">$</term>
+               <measure type="currency" quantity="1.875" unit="peso">1 ⅞</measure> á <measure type="currency" quantity="2.25" unit="peso">2 ¼</measure> werth jetzt.<lb/>
+               Holländische Schiffe sind hier nicht öfters; <choice>
+                  <abbr>gewöhnl.</abbr>
+                  <expan cert="high">gewöhnlich</expan>
+               </choice>
+               <lb/> gehen sie nach <placeName ref="K00501">Batavia</placeName> zurück, wenn ihre
+               Ladung <term type="goods" ref="K01501">Kohle</term> von<lb/>
+               <placeName ref="K00505">Cardif</placeName> oder <term type="goods" ref="K01502">Reis</term> von <placeName ref="K00506">Java</placeName> ausgeladen ist.
+               Gegenwärtig befindet<lb/> sich die holländ. <term type="logistic" ref="K01503">Bark</term>
+               <name type="ship" ref="K01505">„Postiljon“</name> hier; selbige brachte nebst<lb/>
+               <add place="marginLeft" style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other">Preis / Kohlen <unclear reason="faded" cert="low">aufgel. Quantität</unclear>
+               </add> einigen Hundert <term type="logistic" ref="K01506">Collis</term>
+               Transitgütern, ca. <measure type="weight" unit="t" quantity="302.344" commodity="rice">5000 <term type="measure" ref="K01504">piculs</term>
+                  <term type="goods" ref="K01502">Reis</term>
+               </measure>
+               <lb/> nicht ganz <term type="goods" ref="K01502">schöner weißer <placeName ref="K00506">Java</placeName>
+               </term>, der á <measure type="currency" unit="real" quantity="21">21 <unclear reason="illegible" cert="high">
+                     <term type="measure" ref="K01509">rls</term>
+                  </unclear>
+               </measure>
+               <choice>
+                  <abbr>verkft</abbr>
+                  <expan cert="high">verkauft</expan>
+               </choice> ist. Von hier<lb/> soll diese <term type="logistic" ref="K01503">Bark</term> nach <placeName ref="K00502">Japan</placeName> gehen.<lb/> Außer
+               dieser liegt hier auch der „<name type="ship" ref="K01507">Koophandel</name>“,
+               welcher nach <placeName ref="K00503">Batavia</placeName> angelegt ist.<lb/> Andere
+               Nationen, besonders Engländer &amp; Amerikaner<lb/> sind reichlich vertreten hier
+               &amp; hier Schiffe nicht schwer zu bekommen.<lb/> Nach <placeName ref="K00503">Shanghae</placeName> ist die <choice>
+                  <abbr>gewöhnl.</abbr>
+                  <expan cert="high">gewöhliche</expan>
+               </choice> rate <measure type="currency" unit="reales" quantity="4">4 <term type="measure" ref="K01509">reales</term>
+               </measure> per <term type="measure" ref="K01504">pic</term>. f. <term type="goods" ref="K01500">Sapanholz</term>.<lb/> Frachten sind überhaupt sehr gedrückt
+               noch.<lb/> Wir schließen Ihnen ein <choice>
+                  <abbr>Exempl.</abbr>
+                  <expan cert="high">Exemplar</expan>
+               </choice> unseres <choice>
+                  <abbr>gewöhnl.</abbr>
+                  <expan cert="high">gewöhnlich</expan>
+               </choice>
+               <lb/> monatlichen Marktberichtes bei, woraus Sie detaillirteres<lb/> über unsere
+               märktlichen Zustände ersehen wollen.<lb/> Genehmigen Sie die Versicherung unserer
+               voll-<lb/> kommenen Hochachtung <orgName type="firm" ref="K01000">Eugster Labhart
+                  &amp; Co.</orgName>
+            </p>
+            <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_2.tif" n="2"/>
+            <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_3.tif" n="3"/>
+            <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_4.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <hi rend="underline">Per Steamer</hi>
+                     <lb/>
+                     <persName ref="K00001">Louis Kniffler</persName> Esq. <hi rend="underline">
+                        <placeName ref="K00502">Japan</placeName>
+                     </hi>
+                     <lb/> Care of Mess<hi rend="superscript">rs</hi>
+                     <lb/>
+                     <orgName type="firm" ref="K01002">W<hi rend="superscript">m</hi>Pustau &amp;
+                        Co</orgName>
+                     <lb/>
+                     <placeName ref="K00503">
+                        <hi rend="underline" n="2">Shanghae</hi>
+                     </placeName>
+                  </hi>
+               </seg>
+            </p>
+            <p>
+               <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight"> 1859<lb/>
+                  <placeName ref="K00500">Manila</placeName>, <date when="1859-02-09">9 Febr.</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01000">Eugster Labhart &amp; Co.</orgName>
+                  <lb/>
+                  <date when="1859-03-13">
+                     <hi rend="latintype">R <hi rend="underline">13 März</hi>
+                     </hi>
+                  </date>
+                  <lb/>
+                  <date when="1859-03-13">
+                     <hi rend="latintype">5 Juni</hi>
+                  </date>
+               </add>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_1.tif" n="1"/>
+         <p> By steamer via China<lb/>Manila, 9th Feb. 1859<lb/> To Mr. Louis Kniffler, Associate of
+            the house<lb/>Pandel + Stiehaus in Batavia<lb/> According to the wishes of your house we
+            are honoured <lb/> today to provide you with some information about <lb/> the local
+            market that you may be the most interested in. <lb/> Sappanwood is currently much in
+            demand and stocks <lb/> are low. Top quality will cost $2 ½ to 2 ¾ per picul <lb/> &amp;
+            also second quality will be worth about $1 ⅞ to 2 ¼ now.<lb/> Dutch ships are not here
+            often; usually<lb/> they return to Batavia once their load of coal from<lb/> Cardiff or
+            rice from Java has been unloaded. Currently<lb/> the Dutch barque “Postiljon” is here;
+            the same brought apart from<lb/> ⟨price / coal loaded(?) [aufgel.] quantity⟩<lb/> some
+            hundred units of transit goods, ca. 5,000 piculs of rice<lb/> not quite nice white Java
+            rice, which sells at 21 rls[?]. From here<lb/> this barque is to sail to Japan.<lb/>
+            Apart from her, the “Koophandel” is tied up here, which is headed for Batavia.<lb/>
+            Other nations, especially Englishmen and Americans<lb/> are plentiful here &amp; ships
+            not hard to get here.<lb/> To Shanghai the usual rate is 4 reales per picul for
+            sappanwood.<lb/> Cargo [price] is generally still very subdued.<lb/> We attach for you a
+            copy of our usual<lb/> monthly market report, from which you can ascertain<lb/> details
+            about the state of the market.<lb/> With our true assurance of most deeply felt<lb/>
+            respect remains your humble servant Eugster Labhart &amp; Co. </p>
+         <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_2.tif" n="2"/>
+         <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_3.tif" n="3"/>
+         <pb facs="1859_02_09_Kniffler_Batavia_von_Eugster_Labhart_Co_Manila_4.tif" n="envelope"/>
+         <p>By steamer<lb/> Louis Kniffler Esq. Japan<lb/> Care of Messrs<lb/> WmPustau &amp;
+            Co<lb/> Shanghai <lb/> ⟨1859<lb/>Manila, 9th Feb.<lb/>Eugster Labhart &amp; Co. <lb/>
+            R[eceived] 13 March<lb/> 5thJune ⟩ </p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag William Keswick</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00086">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Keswick</surname>
+               </persName>
+               <birth>
+                  <date when="1834-04-05"/>
+                  <placeName>Dumfriesshire</placeName>
+               </birth>
+               <death>
+                  <date when="1912-03-09"/>
+                  <placeName>Great Bookham</placeName>
+               </death>
+               <note> William Keswick kam zuerst im Januar 1859 als Vertreter des in China
+                  erfolgreichen Handelshauses Jardine Matheson, wo er bereits seit 1855 gearbeitet
+                  hatte, nach Nagasaki. Anfang 1860 eröffnete er gegen Einwände der britischen
+                  Gesandtschaft eine Filiale für die Firma in Yokohama, da er sich von der Stadt
+                  größeres Handelspotential als von den anderen Vertragshäfen versprach. Spätestens
+                  1863 verließ Keswick Japan wieder Richtung China. Hier stieg er bis zum
+                  Geschäftsführer von Jardine's auf, kehrte aber 1885 oder 1886 endgültig nach
+                  England zurück und wurde Teilhaber der Partnerfirma Matheson &amp; Co. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_k.html#20090527093354562_1_2_2_22_1">Meiji-Portraits</bibl>
+               <bibl>James E. Hoare: William Keswick, 1835-1912. In: Cortazzi (Hrsg.): Britain and
+                  Japan - Biographical Portraits, S. 111-117</bibl>
+               <bibl>Robert Blake: Jardine Matheson - Traders of the Far East, London 1999,
+                  S.151.</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

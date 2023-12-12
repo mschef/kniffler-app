@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Schellhass &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01049">
+               <orgName type="firm">Schellhass &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>1861 oder 1862 in Hongkong von Eduard Schellhass aus Bremen gegründet. Unterhielt auch Filialen in Guangzhou (Kanton), Tianjin und Hangzhou. Firmierte unter dem Namen Schellhass
+                  &amp; Co. in Hongkong bis 1890.</note>
+               <bibl>Solomon Bard: Some foreign merchant houses, 1841-1899, Hong Kong 1993, S. 104</bibl>
+               <bibl>Lothar Deeg: Kunst &amp; Albers Wladiwostok, Essen 1996, S. 60</bibl>
+               <bibl>Ostasiatischer Verein: Ostasiatischer Verein Hamburg-Bremen zum 60-jährigen Bestehen, Hamburg 1960, S. 101, 182 </bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

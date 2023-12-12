@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wischer (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co. in
+                    Nagasaki am 5. März 1862</title>
+            <title type="file">0024.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-25</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Umschlagsseite mit
+                            Siegelausschnitt und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01004">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00115">Wischer</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-03-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-03-13"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-28">diplomatische Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">p <hi rend="underline">
+                        <name type="ship" ref="K01795">Heloise</name>
+                     </hi>
+                     <lb/>Mess<hi rend="superscript">s</hi>
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="latintype">
+                     <hi rend="underline">1862</hi>
+                     <lb/>
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-03-06">6 März</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau Hubener C</orgName>
+                     <lb/> r/ <date when="1862-03-13">13/3 62</date>
+                     <lb/> b/ <date when="1862-03-15">15/3 62</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghae</placeName>
+                     <date when="1862-03-05">5 Merz 1862</date>
+                  </hi>
+                  <lb/>Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>.</orgName>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Seit unserem Schreiben von <date when="1862-03-02">2 <choice>
+                     <abbr>d.s.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> wurde uns<lb/> noch Ihr werthes vom <date when="1862-01-21">21 <unclear reason="illigible">Mts</unclear>
+               </date>„ deßen Inhalt keiner<lb/> weiteren Beantwortung bedarf-<lb/> Die <term type="goods" ref="K01501">Kohlen</term>
+               <hi rend="latintype">ex <name type="ship" ref="K01684">Theodosius</name>
+               </hi> haben wir „an Land abzu-<lb/> holen” zu <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="8" unit="tael" commodity="coal">8</measure> p. <term type="measure" ref="K01558">Ton</term>
+               </hi> verkauft. Es ist dieß der höchste<lb/> Preis, den wir verlangen konnten +
+                    dürfen wir es i. keinem<lb/> Fall über uns nehmen, das Lot landen &amp;
+                    magaziniren zu<lb/> laßen da die hohen Kosten &amp; der Gewichtsverlust den
+                    etwa<lb/> zu erwartenden Unterschied im Preis weit übertroffen hätten.<lb/> Wir
+                    hoffen Sie mit unserer Handlungsweise voll-<lb/> ständig einverstanden, da unter
+                    den obwaltenden Um-<lb/> ständen nicht <unclear reason="eccentric_ductus">betteres</unclear> zu thun wusste.<lb/> Solange nicht die eben jetzt
+                    einkommenden &amp; ferner<lb/> noch zu erwartenden Ladungen von Ihrem Platz
+                    verkauft<lb/> sind, läßt sich eine Beßerung nicht erwarten,<lb/> Bei dem großen
+                    Consum hier wird wahrscheinlich bald<lb/> eine solche eintreten &amp; wenn Sie
+                        <term type="goods" ref="K01501">Kohlen</term>
+               <hi rend="latintype">à <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="6.5" unit="tael" commodity="coal">6
+                            ½</measure> - <measure type="currency" quantity="7" unit="tael" commodity="coal">7</measure>
+               </hi> hier-<lb/> her legen können, so ist unserer Ansicht nach auf
+                    jedenfall<lb/> nichts dabei zu verlieren.<lb/> In anderen <hi rend="latintype">Japanartikeln</hi> ist immer die gleiche<lb/> Flauheit-.<lb/>
+               <term type="goods" ref="K01591">Oel</term> &amp; <term type="goods" ref="K01719">Planken</term> allein sind stets begehrt.<lb/> Ersteres <hi rend="latintype">à <measure type="currency" quantity="7" unit="tael" commodity="oil">7</measure>
+                  <term type="currency" ref="K01525">Taels</term>
+               </hi> letztere 12'; 1', 1'' <hi rend="latintype">
+                  <hi rend="underline">à 3 mace p</hi>
+               </hi> Stück<lb/>
+               <hi rend="latintype">Exchange</hi> auf <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+               </hi> ist wieder etwas höher &amp;<lb/> unter <unclear reason="eccentric_ductus">6/1</unclear> sind <hi rend="latintype"> Private Credits</hi> nicht zu
+                    begeben_<lb/> Ohne Anlaß zu Mehr grüßen wir Sie freundschaftlichst<lb/>
+               <seg rend="right">
+                  <hi rend="latintype">p <orgName type="firm" ref="K01011">Bourjau Hubener .
+                                Co</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00115">Wischer</persName>
+                     </hi>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>Per Heloise<lb/>Messs L. Kniffler &amp; Co.<lb/>Nagasaki<lb/>⟨1862<lb/>Shanghai 6th
+                March<lb/>Bourjau Hubener C <lb/>r[eceived]/ 13/3 62<lb/>a[nswered]/ 15/3 62⟩</p>
+         <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>Shanghai 5th March 1862<lb/>Messrs. L. Kniffler &amp; Co. Nagasaki<lb/>Since our
+                letter from 2nd of this month we received<lb/> your esteemed letter from 21st of
+                last month[?], the contents of<lb/> which do not require answering –<lb/>The coals
+                from the Theodosius we have „to collect on land“<lb/> sold for Ts 8 per ton. This is
+                the highest price<lb/> we could demand + we could under no circumstances take<lb/>
+                it upon ourselves to unload the lot &amp; having it stored <lb/>because the high
+                costs &amp; the loss of weight would have <lb/> far surpassed the expected
+                difference in price. <lb/>We hope that you agree entirely with our<lb/> actions
+                because under the prevailing circum-<lb/> stances we could do no better. <lb/>Until
+                the shipments now arriving &amp; furthermore<lb/> those as yet expected from your
+                place have<lb/> been sold, there is no improvement in sight. <lb/>With the high
+                consumption here this will probably<lb/> happen soon &amp; if you could send coal
+                here<lb/> at Ts 6 ½ - 7, then in our opinion there is nothing <lb/> to be lost by
+                doing so. <lb/>With regard to other Japanese articles there is still the<lb/> same
+                stagnancy. –<lb/>Oil &amp; planks on their own are always in demand. <lb/>The former
+                at 7 Taels, the latter 12'; 1', 1'' at 3 mace per piece.<lb/>The exchange in London
+                is a bit higher again &amp;<lb/>private credits cannot be got below 6/1[?]
+                –<lb/>Without reason to write more, we send you our<lb/> dearest greetings <lb/> p.
+                Bourjau Hubener . Co<lb/>
+            <hi rend="underline">Wischer</hi>
+         </p>
+         <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_03_05_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

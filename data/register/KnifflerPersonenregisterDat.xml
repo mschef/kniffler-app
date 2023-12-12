@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html"
+view="page"?><?xml-model href="knifflerSchema/Personenregister.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/Personenregister.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister Kniffler-Briefe</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00001">
+               <persName>
+                  <forename>Louis</forename>
+                  <surname>Kniffler</surname>
+               </persName>
+               <birth>
+                  <date when="1827-01-14"/>
+                  <placeName>Wetzlar</placeName>
+               </birth>
+               <death>
+                  <date when="1888-05-20"/>
+                  <placeName>Düsseldorf</placeName>
+               </death>
+               <note>Der Gründer des Unternehmens Louis Kniffler &amp; Co. stammte aus einem
+                  preußischen Beamtenhaushalt. 1850 trat Kniffler in das
+                  Hamburger Handelshaus Bollenhagen &amp; Co. ein, drei Jahre später wechselte er
+                  zum befreundeten Unternehmen Pandel &amp; Stiehaus, dessen Leitung er 1857
+                  übernahm. Zwei Jahre später ging Kniffler auf der Suche nach neuen
+                  Geschäftsmöglichkeiten zusammen mit dem Angestellten Martin Hermann Gildemeister
+                  nach Japan, um dort eine Niederlassung von Pandel &amp; Stiehaus aufzubauen. Dies
+                  wurde jedoch bald verworfen, stattdessen gründeten sie gemeinsam das Handelshaus
+                  L. Kniffler &amp; Co. Durch anhaltenden geschäftlichen Erfolg war Kniffler in den
+                  folgenden Jahren zu hohem Ansehen in der ausländischen Händlergemeinschaft in
+                  Japan gekommen, was ihm unter anderem den Titel eines preußischen Honorarkonsuls
+                  in Nagasaki einbrachte. 1872 stieg Kniffler offiziell aus der Leitung des
+                  Unternehmens aus, blieb aber mit den neuen Geschäftsführern Carl Illies &amp;
+                  Wilhelm Pardun bis weiterhin in Kontakt und beteiligte sich 1880 an der
+                  Finanzierung des Nachfolgeunternehmens C. Illies &amp; Co., mit dessen Gründung er
+                  sich gleichzeitig vollständig aus dem Geschäftsleben zurückzog.</note>
+               <bibl>Zielke, Erich: Konsul Louis Kniffler - Der Pionier des deutschen Japanhandels.
+                  1859 gründete er das erste deutsche Unternehmen in Japan, Zeitschrift Für
+                  Unternehmensgeschichte / Journal of Business History 25, no. 1 (1980):
+                  1-11.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959, Hamburg 1959, S. 50</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">137818645</idno>
+            </person>
+            <person xml:id="K00002">
+               <persName>
+                  <forename>William Henry</forename>
+                  <surname>Hall</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Ab September 1859 Prokurist bei Morgan, Melbourn &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00003">
+               <persName>
+                  <forename>Richard</forename>
+                  <surname>Melbourn</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date when="1859-08-18"/>
+                  <placeName>Malang (Java)</placeName>
+               </death>
+               <note> </note>
+               <bibl source="https://trove.nla.gov.au/newspaper/article/13032010">The Sidney Morning
+                  Herald vom 17.10.1859, S. 1</bibl>
+            </person>
+            <person xml:id="K00004">
+               <persName>
+                  <forename>George</forename>
+                  <surname>Melbourn</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Sohn von Richard Melbourn. Leitete seit dem Tod seines Vaters 1859 dessen Firma
+                  zusammen mit James Rawson.</note>
+               <bibl/>
+            </person>
+            <person xml:id="K00005">
+               <persName>
+                  <forename>James</forename>
+                  <surname>Rawson</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Neffe von Richard Melbourn. R. leitete nach Melbourns Tod zusammen mit George
+                  Melbourn die Firme Morgan Melbourn &amp; Co. </note>
+               <bibl/>
+            </person>
+
+            <person xml:id="K00006">
+               <persName>
+                  <forename>H.</forename>
+                  <surname>Tromp</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Aus Delfshaven, wird im Brief von Meyer &amp; Ortmann vom 07.04.1860 erwähnt. </note>
+               <bibl/>
+            </person>
+
+            <person xml:id="K00007">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Bollenhagen</surname>
+               </persName>
+               <birth>
+                  <date when="1812-03-20"/>
+                  <placeName>Holzwarden</placeName>
+               </birth>
+               <death>
+                  <date when="1876-07-20"/>
+                  <placeName>Pinneberg</placeName>
+               </death>
+               <note>Jakob Bollenhagen war der Gründer des Hamburger Unternehmens Bollenhagen &amp;
+                  Co. 1846 heiratete er Maria Lucia Frederika Watty, die Tochter eines Hamburger
+                  Goldschmieds. Bollenhagen war es, der, als der gute Geschäftsgang von Pandel &amp;
+                  Stiehaus diese dazu veranlasste, neues Personal zu suchen, L. Kniffler nach
+                  Batavia empfahl. Von Bollenhagen &amp; Co. kam dann auch im Jahre 1866 Carl Illies
+                  zur Firma Kniffler, der schließlich 1880 das Unternehmen übernahm. </note>
+               <bibl>Fred Watty: Die Hamburger Familie Watty. Mit ihren rheinisch-westfälischen,
+                  mexikanischen und US-amerikanischen Nebenlinien, Norderstedt 2008, S. 13.</bibl>
+            </person>
+            <person xml:id="K00008">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Kniffler</surname>
+               </persName>
+               <birth>
+                  <date/>
+                  <placeName>Bonn</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Bruder von Louis Kniffler und Inhaber des Krefelder Seidenunternehmens
+                  Kniffler-Siegfried. Die Firma hatte Kniffler 1858 errichtet. Er stellte dort neben
+                  halbseidenen Besatz-, Kleider- und Krawattenstoffen auch Samt her. </note>
+               <bibl>Amtlicher Katalog der Ausstellung des Deutschen Reiches, Wien 1873, S.
+                  246</bibl>
+            </person>
+            <person xml:id="K00009">
+               <persName>
+                  <forename/>
+                  <surname>Schmidt</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Wahrscheinlich ist Frederick George Schmidt gemeint, einer der Teilhaber von
+                  Schmidt, Rautenberg &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00010">
+               <persName>
+                  <forename/>
+                  <surname>Alting</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Bei Kniffler in Dejima beschäftigter Lagerverwalter. Wird im Brief vom
+                  29.11.1860 von Pandel &amp; Stiehaus erwähnt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00011">
+               <persName>
+                  <forename>Martin Hermann</forename>
+                  <surname>Gildemeister</surname>
+               </persName>
+               <birth>
+                  <date when="1836-03-28"/>
+                  <placeName>Klein Siemen</placeName>
+               </birth>
+               <death>
+                  <date when="1918-06-15"/>
+                  <placeName>Fallingbostel</placeName>
+               </death>
+               <note>Martin Hermann Gildemeister stammte aus der einflussreichen Bremer Kaufmanns-
+                  und Politikerfamilie Gildemeister. Er war nach seiner Lehre zum Kaufmann, die er
+                  bei seinem Onkel in dessen Firma Gildemeister &amp; Ries in Bremen abgeschlossen
+                  hatte, über Empfehlungen nach Batavia gekommen und hatte dort gemeinsam mit
+                  Kniffler bei Pandel &amp; Stiehaus gearbeitet. Als Kniffler beschloss, mit der
+                  bevorstehenden Öffnung Japans dort eine Niederlassung von Pandel &amp; Stiehaus zu
+                  gründen, ging Gildemeister mit ihm. Nach der Entscheidung Knifflers, letztlich
+                  doch ein eigenes Geschäft zu gründen, wurde Gildemeister Prokurist in der neuen
+                  Firma. 1866 wurde Gildmeister Honorarkonsul in Yokohama, verließ aber bereits 1868
+                  Japan und damit auch das Unternehmen L. Kniffler &amp; Co.</note>
+               <bibl source="https://www.deutsche-biographie.de/pnd119440539.html#ndbcontent">Deutsche Biographie</bibl>
+               <bibl>Dieter Glade: Die Lebenserinnerungen des Martin Hermann Gildemeister. In:
+                  Rotenburger Schriften 62, S. 69-92.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009.</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">77125572</idno>
+
+            </person>
+            <person xml:id="K00012">
+               <persName>
+                  <forename>Emil</forename>
+                  <surname>Brunckow</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Emil Brunckow war seit spätestens 1859 Mitarbeiter bei Siemssen &amp; Co. Mit
+                  neuem Gesellschaftsvertrag wurde er am 1. Januar 1864, zusammen mit Adolph Joost,
+                  einem ebenfalls langjährigen Mitarbeiter, zum Teilhaber ernannt. Da Brunckow es in
+                  den Augen der anderen Teilhaber jedoch an Engagement und Selbständigkeit mangelte,
+                  wurde er 1865 abgefunden und schied aus der Firma aus. </note>
+               <bibl>Möring, Maria: Siemssen &amp; Co. 1846-1971 (Veröffentlichungen der
+                  Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 33), Hamburg 1971, S.
+                  76.</bibl>
+               <bibl>The Hongkong Directory. With List of foreign Residents in China, Hongkong 1859,
+                  S. 42.</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 47; 150.</bibl>
+            </person>
+            <person xml:id="K00013">
+               <persName>
+                  <forename/>
+                  <surname>Smit</surname>
+                  <roleName>Dr.</roleName>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Dr. Smit, erwähnt im Brief von Pandel &amp; Stiehaus an Kniffler vom
+                  15.12.1860, erhält drei nicht näher beschriebene Kisten vom niederländischen Arzt
+                  Pompe van Meerdervoort. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00015">
+               <persName>
+                  <forename>E.</forename>
+                  <surname>Salzkorn</surname>
+                  <roleName>Captain</roleName>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Kapitän des Schillers, wie aus dem Brief vom 15.12.1860 hervorgeht. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00016">
+               <persName>
+                  <forename>Hans Conrad</forename>
+                  <surname>Morf</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Händler in Yokohama. Nachdem Morf Louis Kniffler auf einer von Knifflers
+                  Europareisen kennengelernt hatte, wurde er im Januar 1862 Angestellter bei L.
+                  Kniffler &amp; Co. in Yokohama. Hier half er dabei, Knifflers Handelsgeschäft mit
+                  Seide aufzubauen. 1867 war er an der Gründung des Leipziger Handelshauses Gustav
+                  Spieß &amp; Co. beteiligt. 1869 Gründung einer eigenen Firma, H. C. Morf &amp;
+                  Co.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1869, S. 104</bibl>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S.
+                  352.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co., Hamburg 1959, S. 49.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 32</bibl>
+               <bibl>Leipziger Zeitung: Amtsblatt des Königlichen Landgerichts und des Königlichen
+                  Amtsgerichts Leipzig sowie der Königlichen Amtshauptmannschaft Leipzig vom 1.11.1867</bibl>
+            </person>
+            <person xml:id="K00017">
+               <persName>
+                  <forename/>
+                  <surname>Lyell</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän des Schiffs "Marmora".</note>
+               <bibl/>
+            </person>
+            <person xml:id="K00018">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Illies</surname>
+               </persName>
+               <birth>
+                  <date when="1840-12-06"/>
+                  <placeName>Waren (Mecklenburg)</placeName>
+               </birth>
+               <death>
+                  <date when="1910-02-01"/>
+                  <placeName>Hamburg</placeName>
+               </death>
+               <note> C. Illies kam im Jahr 1866 in Yokohama zur Firma L. Kniffler &amp; Co. durch
+                  Vermittlung von Bollenhagen &amp; Co. Dort wurde er 1868 Prokurist und leitete das
+                  Geschäft nach der Rückkehr Hermann Gildemeisters nach Deutschland. 1873 wurde er
+                  gemeinsam mit Wilhelm Pardun Teilhaber. 1880 übernahm Illies die Firma Kniffler
+                  allein und benannte sie in C. Illies &amp; Co. um.</note>
+               <bibl source="https://www.deutsche-biographie.de/sfz36316.html#ndbcontent">Neue
+                  Deutsche Biographie</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 46,</bibl>
+            </person>
+            <person xml:id="K00019">
+               <persName>
+                  <forename>Reinhold</forename>
+                  <surname>Gärtner</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Reinhold Gärtner war einer von drei Söhnen des Architekturmalers Eduard Gärtner
+                  und der Bruder von Conrad Gärtner. Er kam zusammen mit seinen Brüdern nach
+                  Hokkaidō, wo er Ackerbau betrieb. Blieb bis Juni 1871 in Japan und siedelte dann
+                  nach Amerika über. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_g.html">Meiji-Portraits</bibl>
+               <bibl>Irmgard Wirth: Otto Eduard Philipp Gartner - ein Exkurs. In: Eduard Gaertner
+                  1801-1877, Berlin 2001, S. 201.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 33-34</bibl>
+            </person>
+            <person xml:id="K00020">
+               <persName>
+                  <forename>Anton</forename>
+                  <surname>Oestmann</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>1868 wurde Anton Oestmann auf Empfehlung von Adolph Joost (Siemssen &amp; Co.)
+                  Angestellter bei L. Kniffler &amp; Co. Er siedelte 1870 nach Japan über und
+                  gründete dort 1882 eine eigene Firma, die für die deutsche Firma Siemens, die 1870
+                  ihr Japangeschäft mit Unterstützung Knifflers begonnen hatte, kaufmännisch
+                  beratend tätig war.</note>
+               <bibl>Tōru Takenaka: Siemens in Japan, Stuttgart 1996, S. 51, 65-66.</bibl>
+            </person>
+            <person xml:id="K00021">
+               <persName>
+                  <forename>Adolph</forename>
+                  <surname>Joost</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Mitarbeiter und später auch Teilhaber bei Siemssen &amp; Co. in Hongkong. 1868
+                  vermittelte er Anton Oestmann an L. Kniffler &amp; Co. 1869 Stellvertreter des
+                  Hamburger Konsuls in Hongkong. </note>
+               <bibl>Möring, Maria. Siemssen &amp; Co. 1846-1971. (= Veröffentlichungen der
+                  Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg 33). Hamburg, 1971, S.
+                  75</bibl>
+               <bibl>Hamburgischer Staatskalender, Hamburg 1869, S. 97. </bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1865, S. 75.</bibl>
+            </person>
+            <person xml:id="K00022">
+               <persName>
+                  <forename>Er.</forename>
+                  <surname>Stahlschmidt</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Angestellter bei Benecke Souchay &amp; Co., blieb bis zur Liquidation des
+                  Unternehmens. </note>
+               <bibl>Guenther Roth: Max Webers deutsch-englische Familiengeschichte 1800-1950,
+                  Tübingen 2001, S. 88</bibl>
+            </person>
+            <person xml:id="K00023">
+               <persName>
+                  <forename>George A.</forename>
+                  <surname>Schöttler</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>George A. Schöttler war 1865 Kaufmann im nordostchinesischen Hafen von
+                  Niuzhuang (Newchang). Darauf folgte ab 1868 eine Anstellung im Handelshaus W. J.
+                  Alt &amp; Co. in Japan. Er war Interimskonsul für Preußen und den Norddeutschen
+                  Bund in Nagasaki von 1869 bis Juni 1870. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_s.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00024">
+               <persName>
+                  <forename>A.</forename>
+                  <surname>Glattmacher</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Erwähnung im Brief vom 14.12.1870. Wieso der Name durchgestrichen ist, ist
+                  unklar. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00025">
+               <persName>
+                  <forename>P</forename>
+                  <surname>Rütsche</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnt im Brief von W. Brummer vom 25.2.1869 </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00026">
+               <persName>
+                  <forename>S. P.</forename>
+                  <surname>Benkers</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Aus Schiedam, erwähnt im Brief von W. Brummer vom 25.2.1869.</note>
+               <bibl/>
+            </person>
+            <person xml:id="K00027">
+               <persName>
+                  <forename>Hendrik Pieter</forename>
+                  <surname>Kluit</surname>
+               </persName>
+               <birth>
+                  <date when="1835-03-16"/>
+                  <placeName>Den Helder</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>H. P. Kluit war von 1868 bis 1870 Kapitän der "Professor Suringar". </note>
+               <bibl source="https://www.marhisdata.nl/gezagvoerder&amp;id=6749">Maritiem-Historische Databank</bibl>
+            </person>
+            <person xml:id="K00028">
+               <persName>
+                  <forename>August Carl Otto</forename>
+                  <surname>Evers</surname>
+               </persName>
+               <birth>
+                  <date when="1841-04-22"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1904-06-02"/>
+                  <placeName>Kōbe</placeName>
+               </death>
+               <note>August Evers kam im Jahre 1862 durch Vermittlung der Firma Siemssen &amp; Co.
+                  zu L. Kniffler &amp; Co. in Nagasaki. 1866 erhielt er Prokura und war am Aufbau
+                  einer Filiale im 1868 neu eröffneten Hafen von Hyōgo (Kōbe) beteiligt. 1873 schied
+                  Evers, mittlerweile zum Teilhaber aufgestiegen, aus der Firma Knifflers aus und
+                  gründete mit Julius Simon das Handelshaus Simon, Evers &amp; Co., das bis heute
+                  unter diesem Namen in Deutschland und Japan besteht. Neben seiner Tätigkeit für L.
+                  Kniffler &amp; Co. war Evers von 1868 bis 1874 Konsul in Kōbe, erst für den
+                  norddeutschen Bund, danach für das deutsche Kaiserreich.</note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_e.html#20090527093236187_1_2_3_44_1">Meiji-Portraits</bibl>
+               <bibl>Maria Möring: Simon, Evers &amp; Co. GmbH, 1873-1973, Hamburg 1973, S.
+                  26</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 45</bibl>
+            </person>
+            <person xml:id="K00029">
+               <persName>
+                  <forename>Wilhelm Gustav Heinrich</forename>
+                  <surname>Reddelien</surname>
+               </persName>
+               <birth>
+                  <date when="1839-02-09"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1912-04-26"/>
+                  <placeName>Hamburg</placeName>
+               </death>
+               <note>Gustav Reddelien trat im Jahre 1860 in das Unternehmen L. Kniffler &amp; Co. in
+                  Nagasaki nach Vermittlung durch die Firma Bollenhagen ein. Nach dem Wechsel M. H.
+                  Gildemeisters nach Yokohama ab 1861 Prokurist und Geschäftsleiter in Nagasaki.
+                  Nach der Rückkehr von Kniffler und Gildemeister nach Deutschland wurde Reddelien
+                  Teilhaber der Firma und wechselte zwischen 1868 und 1870 nach Yokohama. In den
+                  1880er Jahren Reisen zwischen Düsseldorf und Japan. Reddelien wurde geschätzt
+                  aufgrund seiner interkulturellen Kompetenz. Er lernte schnell Japanisch und
+                  verhandelte ohne Dolmetscher mit den einheimischen Geschäftspartnern. Er heiratete
+                  die Japanerin Fukui Ozune und zog mit ihr drei Kinder auf, die nach dem Tod der
+                  Mutter 1881 oder 1882 nach Deutschland übersiedelten.</note>
+               <bibl>Rudolf Beisenkötter: Gustav Reddelien und der Beginn des deutsch-japanischen
+                  Handels. In: OAG Notizen 11/2001.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 44</bibl>
+            </person>
+            <person xml:id="K00030">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Patow</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Betrieb bis 1863 ein Hotel in Yokohama und dann bis in die frühen 1870er Jahre
+                  ein Handels- und Auktionshaus. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 91</bibl>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S.
+                  351.</bibl>
+            </person>
+            <person xml:id="K00031">
+               <persName>
+                  <forename/>
+                  <surname>Neels</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Vermutlich Teilhaber der Firma Neels, Witte &amp; Co. in Yokohama. </note>
+               <bibl>The London and China telegraph. 1869 = Jg. 11 ## 25.01.1869</bibl>
+               <bibl>Street's Indian and Colonial Mercantile Directory for 1870, London 1870, S.
+                  91</bibl>
+            </person>
+            <person xml:id="K00032">
+               <persName>
+                  <forename>J.</forename>
+                  <surname>Wyttenbach</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Börsenmakler in Yokohama.</note>
+               <bibl>Street's Indian and Colonial Mercantile Directory for 1870, London 1870, S.
+                  90</bibl>
+            </person>
+            <person xml:id="K00033">
+               <persName>
+                  <forename>Carl Ernst</forename>
+                  <surname>Boeddinghaus</surname>
+               </persName>
+               <birth>
+                  <date when="1834-02-03"/>
+                  <placeName>Remscheid</placeName>
+               </birth>
+               <death>
+                  <date when="1914-12-15"/>
+                  <placeName>Nagasaki</placeName>
+               </death>
+               <note>Zunächst Angestellter bei Bourjau &amp; Co. in Macau, ab 1863 bei Textor &amp;
+                  Co. in Nagasaki. 1870 Gründung der Handelsfirma Boeddinghaus, Dittmer &amp; Co.
+                  ebenda. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_b.html#20090527093402531_1_2_3_74_1">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00034">
+               <persName>
+                  <forename>Arthur Richard</forename>
+                  <surname>Weber</surname>
+               </persName>
+               <birth>
+                  <date when="1841-05-09"/>
+                  <placeName>Altona</placeName>
+               </birth>
+               <death>
+                  <date when="1920-03-13"/>
+                  <placeName>Wandsbek</placeName>
+               </death>
+               <note>Absolvierte eine Lehre bei J. Bollenhagen &amp; Co., bevor er 1863 als
+                  Angestellter bei L. Kniffler &amp; Co. nach Japan kam. Von 1869 bis 1876 Führung
+                  der Firma Weber, Leysner &amp; Co. in Niigata. Betätigte sich unter dem Pseudonym
+                  "Arw. Solano" als Schriftsteller und schrieb den autobiographischen Roman
+                  "Kontorrock und Konsulatsmütze" über sein Leben als hanseatischer Kaufmann in
+                  Asien.</note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1053014163</idno>
+               <bibl>Arthur Richard Weber: Kontorrock und Konsulatsmütze, Tokyo 1973.</bibl>
+               <bibl>Peter Janocha, Masatoshi Aoyagi: Arthur Richard Weber, München 2009.</bibl>
+            </person>
+            <person xml:id="K00035">
+               <persName>
+                  <forename>Alois Edmund</forename>
+                  <surname>Weber</surname>
+               </persName>
+               <birth>
+                  <date when="1822-08-16"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1883-12-19"/>
+                  <placeName>San Blas</placeName>
+               </death>
+               <note>Stiefbruder von Arthur Richard Weber. Lebte bis zu seinem Tod in Mexiko. </note>
+               <bibl>Peter Janocha, Masatoshi Aoyagi: Arthur Richard Weber, München 2009.</bibl>
+            </person>
+            <person xml:id="K00036">
+               <persName>
+                  <forename>C. J.</forename>
+                  <surname>Dettmer</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>C. J. Dettmer kam 1868 als Angestellter von Siber &amp; Brennwald nach
+                  Yokohama. Bereits im folgenden Jahr wechselte er zu W. van Oordt &amp; Co.</note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_d.html#DETTMERKarl">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00037">
+               <persName>
+                  <forename>F. O.</forename>
+                  <surname>Arnold</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnung im Brief vom 22.12.1869</note>
+               <bibl/>
+            </person>
+            <person xml:id="K00038">
+               <persName>
+                  <forename>Ferdinand</forename>
+                  <surname>Laeisz</surname>
+               </persName>
+               <birth>
+                  <date when="1801-01-02"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1887-02-07"/>
+                  <placeName>Hamburg</placeName>
+               </death>
+               <note>Deutscher Kaufmann und Reeder, Politiker (Mitglied der Hamburger Bürgerschaft
+                  1859 - 1887). Gelang zu Reichtum mit einem Hutmachergeschäft (F. Laeisz), das in
+                  weite Teile Lateinamerikas expandierte und beteiligte sich später an verschiedenen
+                  Versicherungs- und Seefahrtsgesellschaften. Investierte in ab den 1860er Jahren
+                  vermehrt in die soziale Infrastruktur der Stadt Hamburg, etwa einer Versicherung
+                  für Seeleute. Laeisz unterstützte auch die Gründung der Firma Pandel &amp;
+                  Stiehaus, wo Louis Kniffler seine erste Anstellung außerhalb Deutschlands fand. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">119339722</idno>
+               <bibl source="https://www.deutsche-biographie.de/sfz47382.html#ndbcontent">Ahrens,
+                  Gerhard, "Laeisz, Ferdinand" in: Neue Deutsche Biographie 13 (1982), S. 399</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 274</bibl>
+            </person>
+            <person xml:id="K00039">
+               <persName>
+                  <forename>I.</forename>
+                  <surname>Piening</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der "Passa". Erwähnung im Brief vom 5.5.1870. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00040">
+               <persName>
+                  <forename>J. J.</forename>
+                  <surname>Clausen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>J. J. Clausen war seit spätestens 1869 Angestellter der Firma Eduard Schellhass
+                  in Shanghai. Davor war er 1865 bei einem eigenen Unternehmen, der Firma Clausen,
+                  Droege &amp; Co. in Shanghai gelistet.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 200</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1869,
+                  Hongkong 1869, S. 67</bibl>
+
+            </person>
+            <person xml:id="K00041">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Westphal</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>War seit 1870 Teilhaber in der Firma Schmidt, Westphal &amp; Co. in Kobe und
+                  Nagasaki. Stellvertretender Konsul des Norddeutschen Bundes in Nagasaki im Jahre
+                  1870, von 1872 bis 1873 Konsul. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_w.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00042">
+               <persName>
+                  <forename>Wilhelm M.</forename>
+                  <surname>Pardun</surname>
+               </persName>
+               <birth>
+                  <date/>
+                  <placeName>Krefeld</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Ab 1865 Angestellter bei L. Kniffler &amp; Co. in Nagasaki. War für die
+                  Inspektion von Seide zuständig. 1868 wurde er Prokurist. Pardun blieb der Firma L.
+                  Kniffler &amp; Co. bis zu ihrer Umbenennung in C. Illies &amp; Co. im Jahre 1880
+                  erhalten. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1869,
+                  Hongkong 1869, S. 108</bibl>
+               <bibl>Kurt Meissner: Deutsche in Japan, Tokyo 1961, S. 16</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959, Hamburg 1959.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 45</bibl>
+            </person>
+            <person xml:id="K00043">
+               <persName>
+                  <forename>Adolphe</forename>
+                  <surname>Chanton</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Händler chinesischer Waren aus Paris.</note>
+               <bibl>Meredith Martin: Staging China, Japan and Siam at the Paris Universal Exhibiton
+                  of 1867. In: Beyond Chinoiserie, Leiden 2019, S. 131.</bibl>
+            </person>
+            <person xml:id="K00044">
+               <persName>
+                  <forename>Germain</forename>
+                  <surname>Halphen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Pariser Kaufmann, der auch im Handel in Brasilien tätig war. </note>
+               <bibl>Jürgen Schneider: Handel und Unternehmer im französischen Brasiliengeschäft
+                  1815-1848, Köln 1975, S. 244</bibl>
+            </person>
+            <person xml:id="K00045">
+               <persName>
+                  <forename>Edward</forename>
+                  <surname>Helliwell</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Vermutlich ist der Inhaber einer Wollwarenfabrik im englischen Yorkshire
+                  gemeint. Quellen berichten übereinstimmend vom Bankrott Helliwells im September
+                  1871.</note>
+               <bibl>The Economist vom 16.9.1871, S. 1135</bibl>
+               <bibl>The London Gazette vom 12.9.1871, S. 3965</bibl>
+            </person>
+            <person xml:id="K00047">
+               <persName>
+                  <forename/>
+                  <surname>Bergau</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Witwe aus Memel, erwähnt im Brief vom 4.10.1870. Möglicherweise stand sie in
+                  Verbindung zu J. Bergau, der im Jahre 1874 Lagerverwalter bei Kniffler in Hyōgo
+                  war.</note>
+               <bibl>The "Japan Gazette" Hong List and Directory for 1874, Yokohama 1874, S.
+                  20</bibl>
+            </person>
+            <person xml:id="K00048">
+               <persName>
+                  <forename>Balduin</forename>
+                  <surname>Von Bartels</surname>
+               </persName>
+               <birth>
+                  <date when="1829-03-12"/>
+                  <placeName>Elberfeld</placeName>
+               </birth>
+               <death>
+                  <date when="1882-03-24"/>
+                  <placeName>Jersey County</placeName>
+               </death>
+               <note>Textilhändler. Nach der Hochzeit mit Mathilde aus der rheinischen
+                  Seidenfabrikantenfamilie Cohnitz wanderte Von Bartels 1855 nach Argentinien aus
+                  und gründete dort die Woll- und Seidenhandlung Bartels &amp; Co. in Buenos Aires.
+                  Später siedelte er mitsamt seinem Geschäft nach England über, hatte dort aber mit
+                  schlechtem Geschäftsgang und zunehmenden gesundheitlichen Problemen zu kämpfen. </note>
+               <bibl>Susanne Schunter-Kleemann: Cohnitz &amp; Company, Bremen 2014, S. 74-75</bibl>
+               <bibl>London Gazette vom 24.10.1865, S. 5009</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1207053082</idno>
+            </person>
+            <person xml:id="K00049">
+               <persName>
+                  <forename>Carl</forename>
+                  <surname>Kramer</surname>
+               </persName>
+               <birth>
+                  <date when="1844"/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Botaniker, der sich zwischen 1867 und 1879 mehrmals in Japan aufhielt, u.a. als
+                  von der japanischen Regierung im botanischen Lehrbetrieb angestellter Ausländer an
+                  verschiedenen Schulen. </note>
+               <bibl source="http://www.meiji-portraits.de/meiji_portraits_k.html#20090527093354562_1_2_2_7_1">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00050">
+               <persName>
+                  <forename>Conrad</forename>
+                  <surname>Gärtner</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Bruder von Reinhold Gärtner. C. Gärtner war Angestellter bei L. Kniffler &amp;
+                  Co. und ging 1861 nach Hakodate mit dem Auftrag, dort eine Filiale der Firma
+                  einzurichten. Spätestens 1863 machte er sich selbständig und gründete 1865 die
+                  Firma Wilkie &amp; Gaertner, die weiterhin Geschäftsbeziehungen zu L. Kniffler
+                  &amp; Co. unterhielt. Ab 1865 war er zudem deutscher Konsul in Hakodate. </note>
+               <bibl>Irmgard Wirth: Otto Eduard Philipp Gartner - ein Exkurs. In: Eduard Gaertner
+                  1801-1877, Berlin 2001, S. 201</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 33-34</bibl>
+            </person>
+            <person xml:id="K00051">
+               <persName>
+                  <forename>Gustavus</forename>
+                  <surname>Farley</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Im Jahre 1869 Angestellter bei A. Heard &amp; Co. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1869, S. 76</bibl>
+            </person>
+            <person xml:id="K00052">
+               <persName>
+                  <forename>T.</forename>
+                  <surname>Gärtner</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Bruder von Conrad und Reinhold Gärtner. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00054">
+               <persName>
+                  <forename>Oscar</forename>
+                  <surname>Heeren</surname>
+               </persName>
+               <birth>
+                  <date when="1840-01-27"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1909-02-08"/>
+                  <placeName>Lima</placeName>
+               </death>
+               <note>Oscar Heeren war der Sohn einer Spanierin und eines Hamburger Händlers. 1866
+                  oder 1869 wurde er nach Vermittlung durch die Firma Bollenhagen &amp; Co.
+                  Angestellter bei L. Kniffler &amp; Co. in Yokohama, wechselte aber schon 1870 in
+                  die Selbständigkeit und ging nach Tokyo. Dort wirkte er u.a. als Vertreter für L.
+                  Kniffler &amp; Co. im Konzessionsgebiet im Stadtteil Tsukiji. 1874 verließ er
+                  Japan Richtung Peru. Dort beriet er japanische Geschäftsleute und wirkte als
+                  erster japanischer Konsul in Lima.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 52-53</bibl>
+               <bibl>Kawasaki Seirō: Osukaru Heren to nihon, Tokyo 1986.</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">256241039</idno>
+            </person>
+            <person xml:id="K00055">
+               <persName>
+                  <forename/>
+                  <surname>Kawagoe</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Offenbar japanischer Geschäftspartner Knifflers. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00056">
+               <persName>
+                  <forename>J. J.</forename>
+                  <surname>Buchheister</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Unternehmer in Shanghai. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1874,
+                  Hongkong 1874, S. 72.</bibl>
+            </person>
+            <person xml:id="K00057">
+               <persName>
+                  <forename>Otto C.</forename>
+                  <surname>Herhausen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Otto C. Herhausen war 1865 als Angestellter bei Glover &amp; Co. gelistet. 1873
+                  übte er vertretungsweise das Amt des Konsuls in Nagasaki aus. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 241.</bibl>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_h.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00058">
+               <persName>
+                  <forename>Adolph</forename>
+                  <surname>Petersen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Übte vermutlich eine leitende Rolle in der Deutschen Dampfschiffs Rhederei aus. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00059">
+               <persName>
+                  <forename>A.</forename>
+                  <surname>Pristen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Übte vermutlich eine leitende Rolle in der Deutschen Dampfschiffs Rhederei aus. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00060">
+               <persName>
+                  <surname>Hayashi</surname>
+                  <forename>Genyemon</forename>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnt im Brief vom 24.4.1876. Wird von der sich in Liquidation befindlichen
+                  Schultze, Reis &amp; Co. vor Gericht angeklagt. Womöglich verwandt mit Hayashi
+                  Bunzō.</note>
+               <bibl/>
+            </person>
+            <person xml:id="K00061">
+               <persName>
+                  <forename>Armin</forename>
+                  <surname>Schäffer</surname>
+               </persName>
+               <birth>
+                  <date when="1848-02-11"/>
+                  <placeName>Berlin</placeName>
+               </birth>
+               <death>
+                  <date when="1920-11-08"/>
+                  <placeName>Dessau</placeName>
+               </death>
+               <note>1872-1873 Angestellter bei Schultze, Reis &amp; Co. Ab 1875 Sekretär im
+                  Konsulat des Deutschen Reichs in Yokohama. 1881 verließ Schäffer Japan und
+                  arbeitete hiernach im konsularischen Dienst in verschiedenen Ländern. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_s.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00062">
+               <persName>
+                  <surname>Hayashi</surname>
+                  <forename>Bunzō</forename>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnt im Brief vom 24.4.1876. Wird von der sich in Liquidation befindlichen
+                  Schultze, Reis &amp; Co. vor Gericht angeklagt. Womöglich verwandt mit Hayashi
+                  Gen'iemon. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00063">
+               <persName>
+                  <surname>Asaina</surname>
+                  <forename>Kansui</forename>
+               </persName>
+               <birth>
+                  <date when="1827"/>
+
+               </birth>
+               <death>
+                  <date when="1905-08-21"/>
+
+               </death>
+               <note>Eigentlich Asahina Masahiro (朝比奈昌広). Asaina stammte aus einer hochrangigen
+                  Samurai-Familie. In den 1860er Jahren bekleidete er verschiedene Ämter im
+                  Ausländerwesen von Edo und Nagasaki. Wie aus den Kniffler-Briefen hervorgeht, war
+                  er im Jahre 1876 Übersetzer am Gerichtshof von Kanagawa. Asaina in den 1890er
+                  Jahren engen Kontakt zum britischen Gesandten Ernest Satow (1843-1929) und wirkte
+                  zeitweise als dessen persönlicher Spion. </note>
+               <bibl>George A. Lensen, Ernest Satow: Korea and Manchuria Between Russia and Japan
+                  1895-1904, Tokyo 1968, S. 21-24</bibl>
+            </person>
+            <person xml:id="K00064">
+               <persName>
+                  <surname>Yamaoka</surname>
+                  <forename>Gorō</forename>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnung im Brief vom 22.12.1876 </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00065">
+               <persName>
+                  <surname>Kōnoike</surname>
+                  <forename>Yukitomi</forename>
+                  <roleName>Zen'emon</roleName>
+               </persName>
+               <birth>
+                  <date when="1841-09-15"/>
+
+               </birth>
+               <death>
+                  <date when="1920-06-16"/>
+
+               </death>
+               <note>Familienoberhaupt in zehnter Generation der Bänker- und Kaufmannsfamilie
+                  Kōnoike in Osaka. In Yukitomis Wirkungszeit liehen sich zahlreiche
+                  Lehnsfürstentümer (han) und später die Meiji-Regierung große Summen Geld von der
+                  Familie Kōnoike. </note>
+               <bibl>Hayakawa Takashi: Nihon no jōryū shakai to keibatsu, Tokyo 1983, S. 76</bibl>
+            </person>
+            <person xml:id="K00066">
+               <persName>
+                  <forename>Karl Johann Georg</forename>
+                  <surname>Von Eisendecher</surname>
+               </persName>
+               <birth>
+                  <date when="1841-06-23"/>
+                  <placeName>Oldenburg</placeName>
+               </birth>
+               <death>
+                  <date when="1934-08-19"/>
+                  <placeName>Baden-Baden</placeName>
+               </death>
+               <note>Der Seekadett Karl von Eisendecher kam zum ersten Mal als Teil der preußischen
+                  Ostasienexpedition am 6. September 1860 nach Edo. Mit dem Ende der Expedition
+                  verließ er Japan wieder und machte Karriere in der preußischen Marine. Ab 1871
+                  arbeitete er an der deutschen Gesandtschaft in Washington. Ab September 1875 hielt
+                  er sich in Tokyo auf, nachdem er zuvor zum Ministerresidenten und Generalkonsul
+                  ernannt worden war. Dieses Amt hatte er bis 1882 inne. Danach folgten weitere
+                  Ämter in der Diplomatie außerhalb Japans. </note>
+               <bibl>Peter Pantzer &amp; Sven Saaler: Japanische Impressionen eines Kaiserlichen
+                  Gesandten, München 2007</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">116426640</idno>
+            </person>
+            <person xml:id="K00067">
+               <persName>
+                  <forename>Colgate</forename>
+                  <surname>Baker</surname>
+               </persName>
+               <birth>
+                  <date when="1838-11-14"/>
+                  <placeName>New York</placeName>
+               </birth>
+               <death>
+                  <date when="1903-09-07"/>
+                  <placeName>Kalifornien</placeName>
+               </death>
+               <note>Baker kam als Vertreter für die New Yorker Teehändler A. A. Low &amp; Co. nach
+                  Yokohama. Seine Frau Mary Harper gründete die erste anglikanische Kirchengemeinde
+                  in Kōbe. </note>
+               <bibl>Truman Abbe: Robert Colgate, the Immigrant, New Haven 1941, S. 149</bibl>
+            </person>
+            <person xml:id="K00068">
+               <persName>
+                  <forename>Jan Karel</forename>
+                  <surname>De Wit</surname>
+
+               </persName>
+               <birth>
+                  <date when="1819"/>
+
+               </birth>
+               <death>
+                  <date when="1884"/>
+
+               </death>
+               <note>Jan Karel de Wit kam im Januar 1860 nach Japan und war bis 1863 erster
+                  niederländischer Generalkonsul. Bis zur Unterzeichnung des preußisch-japanischen
+                  Handelsvertrags im Jahre 1861 war er auch für die Belange von Louis Kniffler
+                  zuständig, der, wie viele Deutsche, zunächst unter der Vorgabe in Japan arbeitete,
+                  Niederländer zu sein. </note>
+               <bibl>Michael R. Auslin: Negotiating with Imperialism, Cambridge (MA) 2006, S.
+                  213</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">288011434</idno>
+            </person>
+            <person xml:id="K00069">
+               <persName>
+                  <forename>Eugen</forename>
+                  <surname>Bohlens</surname>
+               </persName>
+               <birth>
+                  <date/>
+                  <placeName>Bremen</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Mitarbeiter bei L. Kniffler &amp; Co. ab 1861 zunächst in Nagasaki, dann
+                  Yokohama. Ab 1865 selbständiger Kaufmann in Nagasaki. </note>
+               <bibl source="http://www.meiji-portraits.de/meiji_portraits_b.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00070">
+               <persName>
+                  <forename>Johannes Lydius Catharinus</forename>
+                  <surname>Pompe van Meerdervoort</surname>
+               </persName>
+               <birth>
+                  <date when="1829"/>
+                  <placeName>Brügge</placeName>
+               </birth>
+               <death>
+                  <date when="1908"/>
+                  <placeName>Brüssel</placeName>
+               </death>
+               <note>Niederländischer Arzt, der 1857 als Chirurg der niederländischen Marine nach
+                  Dejima kam und sich dort bis 1863 aufhielt. Pompe wird eine große Bedeutung für
+                  die Lehre westlicher Medizin in Japan zugeschrieben, da er nicht nur praktizierte,
+                  sondern auch eine eigene Medizinschule in Nagasaki eröffnete, an der viele später
+                  berühmt gewordene japanische Mediziner studierten. Nach seinem Aufenthalt
+                  publizierte er seine Aufzeichnungen, die er während seiner Zeit in Japan
+                  angefertigt hatte.</note>
+               <bibl>Elizabeth P. Wittermans &amp; John Z. Bowers: Doctor on Desima, Tokyo
+                  1970.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1012329836</idno>
+            </person>
+            <person xml:id="K00071">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Behre</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Angestellter und späterer Prokurist und Teilhaber bei Bourjau, Hubener &amp;
+                  Co. Aus Zeitungsberichten geht zudem hervor, dass Behre zeitweise deutscher
+                  Vertretungskonsul in Hongkong und Shanghai war. Behre muss wohl nicht nur
+                  Geschäftskontakt, sondern auch persönlicher Bekannter Louis Knifflers gewesen
+                  sein. </note>
+               <bibl>Nationalzeitung vom 12.10.1867</bibl>
+               <bibl>Neue freie Presse, Morgenblatt vom 2.8.1870</bibl>
+            </person>
+            <person xml:id="K00073">
+               <persName>
+                  <roleName>Captain</roleName>
+                  <surname>Bloem</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der "Zwaluw". </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00074">
+               <persName>
+                  <forename>F. H.</forename>
+                  <surname>Bell</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Ab 1861 Angestellter bei Adamson &amp; Co. in Yokohama, wo er auch später
+                  Teilhaber wurde. Blieb dort bis wahrscheinlich 1871. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_b.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00075">
+               <persName>
+                  <forename>Carl Albert</forename>
+                  <surname>Hubener</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Einer der Gründer des Handelshauses Bourjau, Hubener &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00076">
+               <persName>
+                  <forename>Wilhelm Carl Engelbr.</forename>
+                  <surname>Pustau</surname>
+               </persName>
+               <birth>
+                  <date when="1820-08-01"/>
+                  <placeName>Hadersleben</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Kaufmann und Politiker. 1844 gründete Pustau das erste
+                  deutsche Handelshaus in China. Er hielt sich bis 1859 dort auf und kehrte dann
+                  nach Deutschland zurück, wo er sogleich eine Filiale in Hamburg eröffnete, die er
+                  mindestens bis 1867 betrieb. Im selben Jahr ist er außerdem als Abgeordneter des
+                  norddeutschen Parlaments gelistet. </note>
+               <bibl source="https://www.reichstag-abgeordnetendatenbank.de/select.html?pnd=133992381">Datenbank der deutschen Parlamentsabgeordneten</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">133992381</idno>
+            </person>
+            <person xml:id="K00077">
+               <persName>
+                  <roleName>Capitain</roleName>
+                  <surname>Pedersen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der "Flora" im Brief vom 3.6.1862 </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00078">
+               <persName>
+                  <surname>Sauermann</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Gemeint sein könnte entweder F. W. Sauermann, 1865 Angestellter bei Russell,
+                  Foster &amp; Co. in Hongkong oder F. C. Sauermann, Angestellter bei Jardine,
+                  Matheson &amp; Co. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 148.</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1869,
+                  Hongkong 1869, S. 119</bibl>
+            </person>
+            <person xml:id="K00079">
+               <persName>
+                  <surname>Kayser</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Im Brief vom 3.6.1862 erwähnt. Offenbar im Seidenhandel tätig. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00080">
+               <persName>
+                  <forename>Wilhelm</forename>
+                  <surname>Probst</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Geschäftsführer der Filiale von Pustau &amp; Co. in Shanghai. In einem
+                  Zeitungsbericht aus dem Jahre 1872 wird Wilhelm Probst als Leiter einer Filiale
+                  der Deutschen Bank in Hamburg vorgestellt, der auf eine lange Erfahrung im Handel
+                  mit China und Japan zurückgreifen könne.</note>
+               <bibl>The London and China Telegraph vom 15.1.1872, S. 41</bibl>
+            </person>
+            <person xml:id="K00081">
+               <persName>
+                  <forename>Carl Wilhelm Heinrich</forename>
+                  <surname>Lehmann</surname>
+               </persName>
+               <birth>
+                  <date when="1831-11-28"/>
+                  <placeName>Oldenburg</placeName>
+               </birth>
+               <death>
+                  <date when="1874-04-21"/>
+                  <placeName>Wiefelstede</placeName>
+               </death>
+               <note> Der Schiffsbauer Carl Lehmann aus Oldenburg kam zunächst 1862 nach Nagasaki,
+                  um an einer Stahlfabrik eine Schiffswerft einzurichten. 1865 endete sein Vertrag
+                  ohne die Fertigstellung der Werft und Lehmann ging nach Yokohama, wo er erfolglos
+                  eine Anstellung als Ingenieur anstrebte. Im Jahr darauf kehrte er zurück nach
+                  Nagasaki und gründete dort mit C. Hartmann die Handelsfirma "Lehmann, Hartmann
+                  &amp; Co.", in der auch sein Bruder Rudolph Lehmann angestellt war. Nach einer
+                  vorübergehenden Rückkehr nach Deutschland hatte Lehmann als Händler, ähnlich wie
+                  Louis Kniffler, vor allem in Geschäften mit der japanischen Regierung Erfolg. 1873
+                  kehrte er ein weiteres Mal nach Deutschland zurück, verstarb aber kurze Zeit
+                  später. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1034939742</idno>
+               <bibl>Gerd Hoffmann: Die Brüder Carl und Rudolph Lehmann, in: Oldenburgische
+                  Familienkunde 48 (3), S. 567-608</bibl>
+            </person>
+            <person xml:id="K00082">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Adrian</surname>
+               </persName>
+               <birth>
+                  <date when="1835"/>
+                  <placeName>Gießen</placeName>
+               </birth>
+               <death>
+                  <date when="1878"/>
+                  <placeName>Otego</placeName>
+               </death>
+               <note>Julius Adrian war ein Sohn des Philologen Johann Valentin Adrian. Er ging 1858
+                  oder 1859 nach Japan und gründete die Firma Adrian &amp; Co. gemeinsam mit seinem
+                  Bruder Theodor. Die Firma fungierte u.a. als Agentur für Shanghaier Bankhäuser.
+                  Bis zu seiner Abreise aus Japan im Jahre 1872 bekleidete er immer wieder
+                  Konsularämter in Vertretung für verschiedene Nationen. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_a.html">Meiji-Portraits</bibl>
+               <bibl>Dietmar Rieger: Johann Valentin Adrian - Universitätsprofessor und "Homme de
+                  Lettres", Bonn 1993, S. 24</bibl>
+            </person>
+            <person xml:id="K00083">
+               <persName>
+                  <forename>E. L.</forename>
+                  <surname>Reimer</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Geschäftsführer von Reimer &amp; Co. in Nagasaki. Nach der Liquidation seines
+                  Unternehmens im Jahre 1862 floh er offenbar nach England, um Schuldzahlungen aus
+                  dem Weg zu gehen. Reimers Standpunkt hingegen war, dass er bereits sämtliche
+                  ausstehenden Zahlungen beglichen hätte. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00084">
+               <persName>
+                  <surname>Gray</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Passagier an Bord des Dampfschiffs "St. Louis", der der Firma Kniffler in
+                  Yokohama am 6.8.1862 einen Brief von E. L. Reimer übergab. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00085">
+               <persName>
+                  <forename>William Gregson</forename>
+                  <surname>Aspinall</surname>
+               </persName>
+               <birth>
+                  <date when="1822"/>
+
+               </birth>
+               <death>
+                  <date when="1879-10-03"/>
+
+               </death>
+               <note> William Gregson Aspinall entstammte einer Kaufmannsfamilie aus Liverpool, die
+                  u.a. mit Sklavenhandel zu Reichtum gelangte und dadurch auch politischen Einfluss
+                  gewann. Bevor er im Mai 1860 nach Japan kam, war er Teilhaber der Firma Aspinall,
+                  Mackenzie &amp; Co. in Shanghai. In Yokohama betätigte er sich als zunächst
+                  zunächst im Teehandel. Zusammen mit Frederick Cornes gründete er im April 1861 die
+                  Handelsfirma Aspinall, Cornes &amp; Co., aus der Aspinall jedoch 1873 nach
+                  anhaltenden finanziellen und privaten Problemen wieder ausstieg. Während seiner
+                  Zeit bei der Firma betreute er die Filiale in Yokohama und handelte von dort aus
+                  vor allem mit Seide und Kohle. </note>
+               <bibl>Peter N. Davies: Frederick Cornes, 1837-1927. In: Cortazzi (Hrsg.): Britain and
+                  Japan - Biographical Portraits IV, Folkestone 2002, S. 120-123</bibl>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_a.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00086">
+               <persName>
+                  <forename>William</forename>
+                  <surname>Keswick</surname>
+               </persName>
+               <birth>
+                  <date when="1834-04-05"/>
+                  <placeName>Dumfriesshire</placeName>
+               </birth>
+               <death>
+                  <date when="1912-03-09"/>
+                  <placeName>Great Bookham</placeName>
+               </death>
+               <note> William Keswick kam zuerst im Januar 1859 als Vertreter des in China
+                  erfolgreichen Handelshauses Jardine Matheson, wo er bereits seit 1855 gearbeitet
+                  hatte, nach Nagasaki. Anfang 1860 eröffnete er gegen Einwände der britischen
+                  Gesandtschaft eine Filiale für die Firma in Yokohama, da er sich von der Stadt
+                  größeres Handelspotential als von den anderen Vertragshäfen versprach. Spätestens
+                  1863 verließ Keswick Japan wieder Richtung China. Hier stieg er bis zum
+                  Geschäftsführer von Jardine's auf, kehrte aber 1885 oder 1886 endgültig nach
+                  England zurück und wurde Teilhaber der Partnerfirma Matheson &amp; Co. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_k.html#20090527093354562_1_2_2_22_1">Meiji-Portraits</bibl>
+               <bibl>James E. Hoare: William Keswick, 1835-1912. In: Cortazzi (Hrsg.): Britain and
+                  Japan - Biographical Portraits, S. 111-117</bibl>
+               <bibl>Robert Blake: Jardine Matheson - Traders of the Far East, London 1999,
+                  S.151.</bibl>
+            </person>
+            <person xml:id="K00087">
+               <persName>
+                  <surname>Lever</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Im Brief vom 6.8.1862 erwähnter Geschäftskontakt der Firma Kniffler &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00088">
+               <persName>
+                  <forename>Frederick M.</forename>
+                  <surname>Crutchley</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Britischer Rechtsanwalt in Yokohama. 1865 stand er zudem in Verbindung zum
+                  Oriental Hotel ebenda. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 237</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1869,
+                  Hongkong 1869, S. 70</bibl>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_c.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00089">
+               <persName>
+                  <surname>Lohe</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnt im Brief vom 23.9.1862.
+               </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00090">
+               <persName>
+                  <forename>A.</forename>
+                  <surname>Heymann</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Bei Reimer &amp; Co. angestellter Uhrenmacher. </note>
+               <bibl>The China Directory for 1862, Hongkong 1862, S. 68</bibl>
+            </person>
+            <person xml:id="K00091">
+               <persName>
+                  <roleName>Capitain</roleName>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Kapitän des Schiffs "Alfred Ray". Erwähnung im Brief vom 1.11.1862. Im Jahre
+                  1866 hieß der Kapitän des Schiffs David Alexander, ob es sich dabei um denselben
+                  wie im 1862 handelt, ist nicht belegt. Offenbar sollte er für eine Weile
+                  Unterkunft bei Kniffler &amp; Co. in Nagasaki finden. </note>
+               <bibl source="http://marinersandships.com.au/1866/02/078alf.htm">Mariners and ships
+                  in Australian Waters</bibl>
+            </person>
+            <person xml:id="K00092">
+               <persName>
+                  <forename>F.</forename>
+                  <surname>Kupferschmidt</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>F. Kupferschmidt war 1859 als Händler in Hongkong verzeichnet. </note>
+               <bibl>The Hongkong Directory 1859, S. 88</bibl>
+            </person>
+            <person xml:id="K00093">
+               <persName>
+                  <forename>George Brinton</forename>
+                  <surname>McClellan</surname>
+               </persName>
+               <birth>
+                  <date when="1826-12-03"/>
+                  <placeName>Philadelphia</placeName>
+               </birth>
+               <death>
+                  <date when="1885-10-29"/>
+                  <placeName>Orange (New Jersey)</placeName>
+               </death>
+               <note> George B. McClellan war im US-amerikanischen Sezessionskrieg (1861-1865) von
+                  1862 bis 1863 Oberbefehlshaber der Nordstaaten. Auf ihn folgte Ambrose E.
+                  Burnside. Seine Erwähnung im Brief vom 17.1.1863 deutet an, dass der Bürgerkrieg
+                  in den USA ein Ereignis von weitreichendem Interesse gewesen sein musste. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">118865757</idno>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">5231446</idno>
+            </person>
+            <person xml:id="K00094">
+               <persName>
+                  <forename>Ambrose Everett</forename>
+                  <surname>Burnside</surname>
+               </persName>
+               <birth>
+                  <date when="1824-05-23"/>
+                  <placeName>Liberty (Indiana)</placeName>
+               </birth>
+               <death>
+                  <date when="1881-09-13"/>
+                  <placeName>Bristol (Rhode Island)</placeName>
+               </death>
+               <note> Ambrose E. Burnside war im US-amerikanischen Sezessionskrieg (1861-1865) als
+                  Nachfolger von George B. McClellan für einige Monate Oberbefehlshaber der
+                  Nordstaaten. Seine Erwähnung im Brief vom 17.1.1863 deutet an, dass der
+                  Bürgerkrieg in den USA ein Ereignis von weitreichendem Interesse gewesen sein
+                  musste. </note>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">8986952</idno>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">119088924</idno>
+            </person>
+            <person xml:id="K00095">
+               <persName>
+                  <forename>Edw.</forename>
+                  <surname>Sonna</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Angestellter der Peninsular &amp; Oriental Company. Im Brief vom 14.12.1864
+                  erwähnt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00096">
+               <persName>
+                  <forename>Aug.</forename>
+                  <surname>Miller</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Angestellter der Peninsular &amp; Oriental Company. Im Brief vom 14.12.1864
+                  erwähnt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00097">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Spahn</surname>
+               </persName>
+               <birth>
+                  <date/>
+                  <placeName>Schaffhausen</placeName>
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Der Schweizer Kaufmann Heinrich Spahn kam zuerst 1865 nach Japan, nachdem er
+                  sich zuvor, wie aus den Kniffler-Briefen hervorgeht, seit spätestens 1862 in der
+                  britischen Kolonie Malaysia aufgehalten und als Kaufmann betätigt hatte. Offenbar
+                  beauftragte er 1865 die Londoner Firma von J. C. im Thurn mit einer Vermittlung an
+                  L. Kniffler &amp; Co., da er aber noch im selben Jahr an der Gründung von Schmidt,
+                  Spahn &amp; Co. beteiligt war, war er wahrscheinlich nie oder nur für kurze Zeit
+                  bei Kniffler angestellt. </note>
+               <bibl>Paul Akio Nakai: Das Verhältnis zwischen der Schweiz und Japan, Bern 1967, S.
+                  132.</bibl>
+            </person>
+            <person xml:id="K00098">
+               <persName>
+                  <forename>Jan Harmen</forename>
+                  <surname>Krukkenberg</surname>
+               </persName>
+               <birth>
+                  <date atLeast="1823" atMost="1824"/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Krukkenberg war seit 1862 Kapitän des Schiffs "Jacqueline en Elise". Er wurde
+                  an der Amsterdamer Schifffahrtschule "Zeemanshoop" ausgebildet. </note>
+               <bibl source="https://www.marhisdata.nl/gezagvoerder&amp;id=7308">Maritiem-Historische Databank</bibl>
+            </person>
+            <person xml:id="K00099">
+               <persName>
+                  <forename>F. J.</forename>
+                  <surname>Cherpion</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>F. J. Cherpion war zwischen 1865 und 1871 Kapitän der "Julie". </note>
+               <bibl source="https://www.marhisdata.nl/gezagvoerder&amp;id=2332">Maritiem-Historische Databank</bibl>
+            </person>
+            <person xml:id="K00100">
+               <persName>
+                  <forename>Benjamin</forename>
+                  <surname>Telge</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note> Händler in Shanghai. 1869 war er bei der Firma Telge, Nölting &amp; Co.
+                  gelistet. Telge beschaffte u.a. für verschiedene Provinzen Chinas Waffen aus dem
+                  Ausland und genoss dadurch ein gewisses Ansehen in chinesischen Regierungskreisen.
+                  Anfang der 1860er Jahre war er in Yokohama tätig. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1869, S. 127</bibl>
+               <bibl>Xu Kai: "Orden und Schärpe". In: Mechthild Leutner (Hrsg.): Preußen, Deutschland
+                  und China, Berlin 2014, S. 298-299</bibl>
+               <bibl>Holmer Stahncke: Preußens Weg nach Japan, München 2000, S. 194</bibl>
+            </person>
+            <person xml:id="K00101">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Möller</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>In mehreren Briefen aus dem Umkreis der Firma Telge, Nölting &amp; Co. erwähnt.
+                  Im Jahre 1874 war er einer der Teilhaber des Handelshauses Möller, Maitland &amp;
+                  Co. in Shanghai. </note>
+               <bibl>The China Directory for 1874, S. 25</bibl>
+            </person>
+            <person xml:id="K00102">
+               <persName>
+                  <forename>Joh.</forename>
+                  <surname>Nölting</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Nölting war 1865 als Angestellter bei Thos. Hunt &amp; Co. in Shanghai
+                  gelistet, wurde aber wohl noch im selben Jahr Prokurist in der Firma von Benjamin
+                  Telge. Später wurde er dann Teilhaber der gemeinsamen Firma Telge, Nölting &amp;
+                  Co. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 88</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1869,
+                  Hongkong 1869, S. 106</bibl>
+            </person>
+            <person xml:id="K00103">
+               <persName>
+                  <forename>Hermann Emil</forename>
+                  <surname>Hubener</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Hermann Emil Hubener war ab 1861 Angestellter und ab 1868 Teilhaber bei
+                  Bourjau, Hubener &amp; Co. </note>
+               <bibl>Carl Smith: The German Speaking Community in Hong Kong 1846-1918. In: Journal
+                  of the Royal Asiatic Society Hong Kong Branch 34, 1994, S. 31</bibl>
+            </person>
+            <person xml:id="K00104">
+               <persName>
+                  <forename>H. E. A.</forename>
+                  <surname>Röhl</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Vermutlich ist H. E. A. Röhl gemeint, der im Jahre 1865 Teilhaber bei Kunst,
+                  Röhl &amp; Co. war. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for 1865,
+                  Hongkong 1865, S. 97</bibl>
+            </person>
+            <person xml:id="K00105">
+               <persName>
+                  <forename>Maximilian August Scipio</forename>
+                  <surname>Von Brandt</surname>
+               </persName>
+               <birth>
+                  <date when="1835-10-08"/>
+                  <placeName>Berlin</placeName>
+               </birth>
+               <death>
+                  <date when="1920-08-24"/>
+                  <placeName>Weimar</placeName>
+               </death>
+               <note> Max von Brandt kam zuerst im Jahre 1860 als preußischer Offizier und Mitglied
+                  der preußischen Ostasienexpedition unter Graf von Eulenburg nach Japan. Nach zwei
+                  Jahren kehrte er nach Berlin zurück und wurde dank seiner guten Beziehungen zur
+                  Obrigkeit zum Konsul in Japan ernannt, ein Amt, das er zum Jahre 1863 antrat.
+                  Hiernach wurde er 1866 zum Geschäftsträger und 1867 zum Generalkonsul des
+                  preußischen Konsulats befördert. 1870 wurde er schließlich als Ministerresident
+                  des Deutschen Reiches oberster deutscher Diplomat in Japan, wo er noch bis 1874
+                  blieb. Hiernach wurde er als Gesandter nach Peking versetzt, eine Position mit der
+                  Brandt selbst lange liebäugelt hatte. 1893 schied er aus dem diplomatischen Dienst
+                  aus, wurde dann aber noch einmal im chinesisch-japanischen Krieg von 1894/95 zum
+                  Berater im Auswärtigen Amt bestellt. Sein autobiographisches, bisweilen
+                  kolonialpropagandistisches Werk "33 Jahre in Ostasien" gilt als wichtige Quelle
+                  für die japanisch-deutsche Diplomatiegeschichte. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">118934759</idno>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_b.html">Meiji-Portraits</bibl>
+               <bibl>Rolf-Harald Wippich: Strich mit Mütze - Max von Brandt und Japan, Tokyo
+                  1995.</bibl>
+            </person>
+            <person xml:id="K00106">
+               <persName>
+                  <forename/>
+                  <surname>Schröder</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Im Brief vom 9.2.1866 erwähnt. Vermutlich Teilhaber bei W. Brummer, Schröder
+                  &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00107">
+               <persName>
+                  <surname>Tookchai, Toochchai, Tukchai</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Vermutlich jap. Tokusai oder kanton. Dukzaai (篤斎). Händler, der mit der Firma
+                  L. Kniffler &amp; Co. einen Vertrag über den Handel mit Algen geschlossen hatte. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00108">
+               <persName>
+                  <forename>George</forename>
+                  <surname>Lennon-Hunt</surname>
+
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Im Jahre 1867 britischer Konsul in Rio de Janeiro. Arbeitete auch als Vertreter
+                  für die Royal Mail.</note>
+               <bibl>Mulhall, Michael George: Handbook of the River Plate Republics, London 1875, S.
+                  8</bibl>
+            </person>
+            <person xml:id="K00109">
+               <persName>
+                  <forename>Abraham E.</forename>
+                  <surname>Christian</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der Brigg "Bolivar", die 1867 vor Brasilien Schiffbruch erlitt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00110">
+               <persName>
+                  <forename>Markus</forename>
+                  <surname>Nelson</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Maat an Bord der "Bolivar". In der Urkunde vom 11.11.1867 erwähnt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00111">
+               <persName>
+                  <forename>Frank</forename>
+                  <surname>Nelson</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Matrose an Bord der "Bolivar". In der Urkunde vom 11.11.1867 erwähnt. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00112">
+               <persName>
+                  <forename>Constant George</forename>
+                  <surname>Van Mansvelt</surname>
+               </persName>
+               <birth>
+                  <date when="1832-02-28"/>
+                  <placeName>Watergraafsmeer</placeName>
+               </birth>
+               <death>
+                  <date when="1912-10-17"/>
+
+               </death>
+               <note>Niederländischer Militärarzt, der als angestellter Lehrer an einer
+                  Medizinschule ab 1866 zunächst in Nagasaski tätig war. Zwischen 1871 und 1874 war
+                  er Arzt und Berater an einem Krankenhaus in Kumamoto. Seine Zeit in Japan führte
+                  ihn noch nach Kyoto und Osaka, bevor er 1879 in die Niederlande zurückkehrte und
+                  dort Leiter einer Impfanstalt in Den Haag wurde. </note>
+               <idno type="NDL" xml:base="https://id.ndl.go.jp/auth/ndlna/">00769168</idno>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_m.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00113">
+               <persName>
+                  <forename>Johann Konrad</forename>
+                  <surname>Sonderegger</surname>
+               </persName>
+               <birth>
+                  <date when="1834-11-04"/>
+                  <placeName>Wald</placeName>
+               </birth>
+               <death>
+                  <date when="1885-07-04"/>
+                  <placeName>Amsterdam</placeName>
+               </death>
+               <note>Johann Konrad Sonderegger arbeitete seit 1855 in Niederländisch-Indien.
+                  Spätestens 1861 wurde er Prokurist bei E. Moormann &amp; Co. und zwei Jahre später
+                  Chef der Firma. Parallel dazu war er von 1863 bis 1871 erster Generalkonsul der
+                  Schweiz in Batavia. </note>
+               <bibl source="https://hls-dhs-dss.ch/de/articles/008981/2011-04-19/">Historisches
+                  Lexikon der Schweiz</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1081684879</idno>
+            </person>
+            <person xml:id="K00114">
+               <persName>
+                  <roleName>Captain</roleName>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän eines im Brief vom 21. Februar 1862 erwähnten Schiffs. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00115">
+               <persName>
+                  <surname>Wischer</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Angestellter bei Bourjau, Hubener &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00116">
+               <persName>
+                  <forename/>
+                  <surname>Stewart</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Zwei Personen mit dem Nachnamen Stewart hielten sich zum Zeitpunkt der
+                  Erwähnung eines Herrn Stewarts im Brief vom 8.10.1865 in Japan auf. Gemeint sein
+                  könnten demnach: 1) Alexander Stewart, ab 1865 für die
+                  Seeversicherungsgesellschaft Lloyd in Yokohama tätig. 2) William J. E. Stewart,
+                  zwischen 1865 und 1866 Angestellter bei der Chartered Mercantile Bank in Yokohama. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_s.html">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00117">
+               <persName>
+                  <roleName>Captain</roleName>
+                  <surname>Semple</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der "William Cundall". </note>
+               <bibl>American Lloyds' Register of American and Foreign Shipping 1866 - Brigs, S.
+                  418.</bibl>
+            </person>
+            <person xml:id="K00118">
+               <persName>
+                  <forename>Harry Smith</forename>
+                  <surname>Parkes</surname>
+               </persName>
+               <birth>
+                  <date when="1828-02-24"/>
+                  <placeName>Walsall</placeName>
+               </birth>
+               <death>
+                  <date when="1885"/>
+
+               </death>
+               <note>Den Briten Harry Smith Parkes verschlug es bereits im Alter von 13 Jahren zum
+                  ersten Mal nach Ostasien, da seine Pflegeeltern in Macao residierten. Durch
+                  familiäre Kontakte kam er mit 14 Jahren zu seiner ersten Anstellung bei der
+                  britischen Gesandtschaft in China. Damit war sein Weg in die britische Diplomatie
+                  in Ostasien eröffnet. Bereits ein Jahr später wurde er Dolmetscher im Konsulat in
+                  Amoy (heut. Xiamen) und später in Fuzhou. Nach einer mehrjährigen Rückkehr nach
+                  England trat Parkes 1854 die Stelle als Konsul in Amoy an. 1856 wurde er Konsul in
+                  Kanton, 1864 in Shanghai. Schon längere Zeit liebäugelte Parkes mit einem
+                  Engagement in Japan und wurde im Jahre 1865 schließlich als Generalkonsul und
+                  Gesandter des Britischen Königreichs dorthin berufen. Diese Ämter übte er bis 1883
+                  aus. </note>
+               <bibl>Gordon Daniels: Sir Harry Parkes - British Representative in Japan 1865-1883,
+                  Richmond 1996</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">119456648</idno>
+               <idno type="NDL" xml:base="https://id.ndl.go.jp/auth/ndlna/">00621257</idno>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">822398</idno>
+            </person>
+            <person xml:id="K00119">
+               <persName>
+                  <forename>Abel Anthony James</forename>
+                  <surname>Gower</surname>
+               </persName>
+               <birth>
+                  <date when="1836"/>
+
+               </birth>
+               <death>
+                  <date when="1899"/>
+
+               </death>
+               <note>A. J. Gower trat 1859 in den diplomatischen Dienst für Großbritannien in Japan
+                  ein. Zunächst war er Vizekonsul und Buchhalter des Konsulats in Edo. 1863 ging er
+                  nach Yokohama und betätigte sich dort als Geschäftsmann, wurde aber schon 1864 zum
+                  Konsul in Nagasaki berufen. Während seiner Zeit in Nagasaki war er zudem bei
+                  Glover &amp; Co. angestellt. 1865 wurde er von Harry Smith Parkes abgelöst und
+                  übernahm das Konsulat in Hakodate, ging aber nach einem Jahr nach Kobe, wo er dann
+                  bis zu seinem Ruhestand 1875 Konsul für verschiedene Nationen blieb. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_g.html#20090527093316843_1_2_3_16_1">Meiji-Portraits</bibl>
+               <bibl>Gordon Daniels: Sir Harry Parkes - British Representative in Japan 1865-1883,
+                  Richmond 1996, S. 45</bibl>
+            </person>
+            <person xml:id="K00120">
+               <persName>
+                  <surname>Sander</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Im Brief vom 1.3.1866 erwähnte Person. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00121">
+               <persName>
+                  <forename>Franz Ferdinand</forename>
+                  <surname>Nissen</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Ferdinand Nissen war ein Bruder Woldemar Nissens (1832-1896), des Filialleiters
+                  von Siemssen &amp; Co. in Hongkong. Auch er war bei Siemssen angestellt und wurde
+                  im Jahre 1868 zum Prokuristen ernannt. </note>
+               <bibl>Möring, Maria: Siemssen &amp; Co. 1846-1971 (Veröffentlichungen der
+                  Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 33), Hamburg 1971, S.
+                  75.</bibl>
+            </person>
+            <person xml:id="K00122">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Hoppius</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Heinrich Hoppius war Angestellter bei Siemssen &amp; Co.. 1868 wurde er
+                  Prokurist und später langjähriger Teilhaber der Filiale in Hongkong. Zudem war er
+                  über 25 Jahre in führender Position bei der HSBC tätig. </note>
+               <bibl>Möring, Maria: Siemssen &amp; Co. 1846-1971 (Veröffentlichungen der
+                  Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 33), Hamburg 1971, S.
+                  75-76.</bibl>
+            </person>
+            <person xml:id="K00123">
+               <persName>
+                  <forename>J. C.</forename>
+                  <surname>Smith</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>J. C. Smith war im Jahre 1869 Angestellter bei Glover &amp; Co. in Nagasaki. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1869, S. 123</bibl>
+            </person>
+            <person xml:id="K00124">
+               <persName>
+                  <forename>Henry</forename>
+                  <surname>Mohns</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Im Jahre 1871 Prokurist bei Gildemeister, Mücke &amp; Co. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00125">
+               <persName>
+                  <forename>Heinrich August</forename>
+                  <surname>Gildemeister</surname>
+               </persName>
+               <birth>
+                  <date when="1840"/>
+
+               </birth>
+               <death>
+                  <date when="1907"/>
+
+               </death>
+               <note>Ein Bruder von Martin Hermann Gildemeister. Kaufmann in Bremen. </note>
+               <bibl>Uwe Plath (Hrsg.): Die Lebenserinnerungen der Anna Gildemeister (1849-1942),
+                  Hannover 1994, S. 160</bibl>
+            </person>
+            <person xml:id="K00126">
+               <persName>
+                  <roleName>Captain</roleName>
+                  <surname>Boon</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Kapitän der Zwaluw im Jahre 1861. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00127">
+               <persName>
+                  <forename>H.</forename>
+                  <surname>Schmidt</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Möglicherweise Hermann Schmidt, deutscher Konsul in Chile und späterer
+                  Teilhaber der Firma Gildemeister &amp; Co. in Peru. </note>
+               <bibl source="https://www.deutsche-biographie.de/pnd119440539.html#ndbcontent">Deutsche Biographie</bibl>
+            </person>
+            <person xml:id="K00128">
+               <persName>
+                  <forename>Emil</forename>
+                  <surname>Perret</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Erwähnt im Brief von Meyer &amp; Ortmann vom 7. April 1860. Aus dem Brief geht
+                  hervor, dass Perret Knifflers Niederlassung in Nagasaki zu besuchen plante. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00129">
+               <persName>
+                  <forename>C. H.</forename>
+                  <surname>Wyville</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Absender eines Briefs an L. Kniffler &amp; Co. Offenbar als Händler und
+                  Auktionator in Nagasaki tätig. In den einschlägigen Verzeichnissen wird Wyville
+                  nicht gelistet. </note>
+               <bibl/>
+            </person>
+            <person xml:id="K00130">
+               <persName>
+                  <forename>Albertus Johannes</forename>
+                  <surname>Bauduin</surname>
+               </persName>
+               <birth>
+                  <date when="1829-06-24"/>
+                  <placeName>Dordrecht</placeName>
+               </birth>
+               <death>
+                  <date when="1885-06-07"/>
+                  <placeName>Den Haag</placeName>
+               </death>
+               <note>Gemeint ist sehr wahrscheinlich Albertus Johannes, der jüngere Bruder des
+                  Geschwisterpaars Bauduin, die sich beide in den 1860 und -70er Jahren in Japan
+                  aufhielten. Albertus Johannes Bauduin kam 1859 im Auftrag der staatlichen
+                  Handelsfirma "Nederlandsche Handels-Maatschappij" (NHM) aus Batavia nach Nagasaki,
+                  um dort zusammen mit Philipp Franz von Siebold eine Niederlassung derselben
+                  aufzubauen. Zwischen 1863 und 1868 bekleidete er das Amt des niederländischen
+                  Konsuls in Nagasaki und von 1871 bis 1874 in Yokohama. Nach dem Ende seiner
+                  zweiten Amtszeit kehrte er in die Niederlande zurück und wurde dort japanischer
+                  Konsul. Sein älterer Bruder, der Augenarzt Antonius Franciscus Bauduin, kam erst
+                  Ende Oktober 1862 nach Japan, also kurz vor der Erwähnung des Nachnamens im Brief
+                  von Pandel &amp; Stiehaus. Es ist also zu vermuten, dass es sich um den Kaufmann
+                  Bauduin handelt, nicht um den Mediziner. </note>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">78136261</idno>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_b.html#20090527093402531_1_2_3_53_1">Meiji-Portraits</bibl>
+            </person>
+            <person xml:id="K00131">
+               <persName>
+                  <surname>Zaun</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>In mehreren Briefen von Pandel &amp; Stiehaus erwähnter Name eines
+                  Geschäftskontakts der Firma L. Kniffler &amp; Co.</note>
+            </person>
+            <person xml:id="K00132">
+               <persName>
+                  <forename>A. O.</forename>
+                  <surname>Gay</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>A. O. Gay war seit spätestens 1868 als Vertreter der Firma Augustine Heard
+                  &amp; Co. in Japan tätig. Dort übte er auch zwischenzeitlich das Amt des
+                  US-amerikanischen Konsuls sowie des Vorsitzenden der Industrie- und Handelskammer
+                  zu Osaka und Kōbe aus. </note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for the Year
+                  1868, S. 148</bibl>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines for the Year
+                  1875, S. 355</bibl>
+               <bibl>United States Department of State: Papers Relating to Foreign Affairs 1869, S.
+                  627</bibl>
+            </person>
+            <person xml:id="K00133">
+               <persName>
+                  <forename>Réné</forename>
+                  <surname>Lynach</surname>
+               </persName>
+               <birth>
+                  <date/>
+
+               </birth>
+               <death>
+                  <date/>
+
+               </death>
+               <note>Angestellter bei Stone &amp; Co. in Marseille. </note>
+            </person>
+            <person xml:id="K00134">
+               <persName>
+                  <forename>Henri</forename>
+                  <surname>Sieber</surname>
+               </persName>
+               <birth>
+                  <date when="1804"/>
+                  <placeName>Fluntern</placeName>
+               </birth>
+               <death>
+                  <date when="1882-01-17"/>
+                  <placeName>Paris</placeName>
+               </death>
+               <note>In der Schweiz geborener und in Frankreich tätiger Industrieller, Kaufmann und
+                  Bankier. Einer der Teilhaber des Pariser Handelshauses Aug. Seydoux, Sieber &amp;
+                  Co. Von 1867 bis zu seinem Tod war er zudem Vorsitzender der Bank von
+                  Frankreich.</note>
+               <bibl source="https://www.genea-bdf.org/BasesDonnees/genealogies/sieber.html">Genealogische Gesellschaft der Bank von Frankreich</bibl>
+            </person>
+            <person xml:id="K00135">
+               <persName>
+                  <forename>Edward</forename>
+                  <surname>Rosquist</surname>
+               </persName>
+               <birth>
+                  <date/>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note>Womöglich ist Edward Rosquist gemeint, der 1877 als Maat auf einem Schiff der
+                  Peninsular &amp; Oriental Company angestellt war.</note>
+               <bibl>The London and China Telegraph vom 29.5.1877, S. 82</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

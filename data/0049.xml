@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. H. &amp; J. F. Wulff in London an L. Kniffler &amp; Co. in Nagasaki am 27.
+                    März 1865</title>
+            <title type="file">0049.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-49</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Vier Seiten Anschreiben, auf der letzten Seite kopfüber
+                            eine Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01009">G. H. &amp; J. F. Wulff</orgName>
+               <settlement ref="K00523">London</settlement>
+               <date when="1865-03-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-05-16"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-08" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-09" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName> d: <date when="1865-03-27">27<hi rend="superscript">t</hi> Maerz 1865</date>.</hi>
+            </seg>
+            <lb/>
+            <seg rend="left">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Bezugnehmend an unser Erge-<lb/> benes vom <date when="1865-03-10">10<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>dM</abbr>
+                  <expan cert="medium">desselben Monats</expan>
+               </choice>
+            </date> sehen wir uns seitdem<lb/> ohne Ihre geehrten.__<lb/>
+            <hi rend="underline">
+               <term type="goods" ref="K01571">Thee</term>
+            </hi> bleibt sehr gedrückt und Preise sind<lb/> weiter herunter gegangen. Das Geschäft<lb/>
+            <hi rend="latintype">p PrivatContract</hi> hat fast aufgehört und nehmen<lb/>
+                dagegen die Auctionen <hi rend="latintype">„without reserve”</hi> mit<lb/> jedem Mal
+                grössere Dimensionen an, was<lb/> ziemlich deutlich beweist, wie Eigner bemüht<lb/>
+                sind, ihre Waare um jeden Preis los zu schlagen.<lb/> Die Auction vom <date when="1865-03-07">7<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>d.Mts</abbr>
+                  <expan cert="high">desselben Monats</expan>
+               </choice>
+            </date> worin 30000 Kl.<lb/> offerirt waren, endigt nicht vor dem <date when="1865-03-13">13<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>dMts.</abbr>
+                  <expan cert="high">desselben Monats</expan>
+               </choice>
+            </date>
+            <lb/> und schon am <date when="1865-03-21">21<hi rend="superscript">ten</hi>
+            </date> begann eine andere Reihe<lb/> Auctionen über über 40,000 Ki. wovon 37000 K.<lb/>
+            <hi rend="latintype">without reserve </hi> waren. Das Resultat war </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_2.tif" n="2"/>
+         <p>
+                eine Erniedrigung von voll 1<hi rend="superscript">
+               <unclear>d</unclear>
+            </hi> für <unclear reason="eccentric_ductus">ord</unclear> und<lb/> mittel und bis
+                zu <measure type="currency" quantity="3" unit="d" commodity="greenTea">3</measure>
+            <hi rend="superscript">d</hi> für grünen Thee.<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">Dusty</term>
+               <term type="goods" ref="K01763">Congo</term>
+            </hi> sollte <measure type="currency" quantity="7" unit="d" commodity="congo">7</measure>- <measure type="currency" quantity="7.5" unit="d" commodity="congo">7½</measure>
+            <hi rend="superscript">d</hi>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">broken</term>
+            </hi> bis<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">Good leaf Common</term>
+            </hi>
+            <measure type="currency" quantity="9" unit="d" commodity="congo">9</measure>-<measure type="currency" quantity="9.5" unit="d" commodity="congo">9½</measure>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">Common</term>
+               <unclear>Ud</unclear>
+               <lb/> leaf </hi>
+            <measure type="currency" quantity="10" unit="d" commodity="congo">10</measure>-<measure type="currency" quantity="11" unit="d" commodity="congo">11</measure>
+            <hi rend="superscript">d</hi>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">medium</term>
+            </hi> bis <hi rend="latintype">
+               <term type="commercial" ref="K01764">Superior</term>
+            </hi>
+            <measure type="currency" quantity="11.5" unit="d" commodity="congo">11½</measure>-
+                    <measure type="currency" quantity="11.25" unit="d" commodity="congo">¼</measure>
+            <lb/>
+            <term type="commercial" ref="K01764">Fein</term> ist knapp, aber dennoch nur zu
+                einer<lb/> Preisermässigung verkäuflich._ <term type="commercial" ref="K01764">Common</term>
+            <lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01766">black leaf</term>
+            </hi>
+            <measure type="currency" quantity="9.5" unit="d" commodity="blackLeaf">9½</measure>-<measure type="currency" quantity="10.5" unit="d" commodity="blackLeaf">10½</measure>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01764">fair</term>
+            </hi>
+            <measure type="currency" quantity="11" unit="d" commodity="blackLeaf">11</measure>
+            <hi rend="superscript">d</hi>
+            <unclear reason="eccentric_ductus">-1/-</unclear> bis zu <measure type="currency" quantity="11.25" unit="d" commodity="blackLeaf">¼</measure>
+            <hi rend="superscript">d</hi>
+            <lb/> für <hi rend="latintype">Pekoi flavor.</hi>
+            <term type="commercial" ref="K01764">Fein</term> kein Geschäft. <hi rend="latintype">
+               <term type="goods" ref="K01768">Tayshams</term>
+            </hi>
+            <lb/> knapp und alte Waare zu <measure type="currency" quantity="11" unit="d" commodity="taysham">11</measure>
+            <hi rend="superscript">d</hi>
+            <unclear reason="eccentric_ductus">-1/</unclear> beliebt<lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01767">Soushong</term>
+            </hi> fast unverkäuflich. <hi rend="latintype">Scented <term type="goods" ref="K01571">teas</term>
+            </hi>
+            <lb/> in einiger Frage, Preise jedoch niedriger. <hi rend="latintype">In<lb/>
+               <term type="commercial" ref="K01764">flow Pekoi</term>
+            </hi> keine Umsätze-<lb/> Das Exportgeschäft war sehr wenig belebt<lb/> Die einzige
+                Möglichkeit für eine Besserung<lb/> wäre noch in einer Verringerung der
+                Abladungen<lb/> von <hi rend="latintype">
+               <placeName ref="K00504">China</placeName>
+            </hi> zu suchen, was bei den gegenwär-<lb/> tigen sehr billigen Preisen unbedingt
+                Speculation </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_3.tif" n="3"/>
+         <p> hervorrufen dürfte.__<lb/>
+            <hi rend="underline">
+               <term type="goods" ref="K01549">Taback</term>
+            </hi>. Der gesunde Theil der Parthie p <hi rend="latintype">„<name type="ship" ref="K01769">Great<lb/>
+                    Western</name>”</hi> wurde zu 4 - 7¼ für ord. bis guter<lb/> frisches Blatt verkauft.
+                ganz abfallend 2<hi rend="superscript">d</hi>. Die Nach-<lb/> frage für die <hi rend="latintype">Tabacksgattung</hi> bleibt gut +feine<lb/> Qualitäten sind <hi rend="latintype">coulant</hi> verkäuflich.__<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="goods" ref="K01589">Cassia Lignea</term>.</hi>
+            </hi> Die 1/3 Kl <hi rend="latintype">p <name type="ship" ref="K01769">Great
+                        Western</name>
+            </hi>
+            <lb/> von guter Durchschnitts Qualität, und etwas<lb/> Bruch halten <measure type="currency" quantity="35" unit="gulden" commodity="tobacco">35</measure> a
+                    <measure type="currency" quantity="36" unit="gulden" commodity="tobacco">36</measure>
+            <term type="measure" ref="K01512">f</term>. _ Eine indirect reingekommene<lb/>
+                Pathie von <measure type="volume" quantity="47" unit="ballen" commodity="tobacco">47</measure> Ballen von <hi rend="latintype">
+               <placeName ref="K00531">Newyork</placeName>
+            </hi> geringe <choice>
+               <abbr>Qual.</abbr>
+               <expan>Qualität</expan>
+            </choice>
+            <lb/> brachte <measure type="currency" quantity="30" unit="gulden" commodity="tobacco">30</measure>/___<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="goods" ref="K01531">Camphor</term>
+               </hi>
+            </hi> Bald nach Abgang der letzten Post<lb/> entwickelte sich eine lebhafte Frage
+                für diesen Ar-<lb/> tikel und wurden recht erhebliche Umsätze<lb/> zu steigenden
+                Preisen gemacht. Für <hi rend="latintype">China</hi>
+            <lb/> in <term type="goods" ref="K01772">Blei</term> 102/6 - 105/ in Blech 100/ <hi rend="latintype">Japan</hi>
+            <lb/>107/6 bez: Die Ablieferungen sind gross
+                +der<lb/> Vorrath stark reducirt. Der Markt ist </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_4.tif" n="4"/>
+         <p> jetzt ruhiger + die höchsten Preise sind nicht<lb/> mehr erreichbar._<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="goods" ref="K01511">Japan Wachs</term>
+               </hi>
+            </hi> ca 1000 K verkauft. Fair<lb/>
+            <hi rend="latintype"> saucers </hi> c 67/6.-68/- mittel etwas gelb 64/6 - 66/ -<lb/>
+                dunkel 59 - 63/__<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">Geld</hi>
+            </hi> ohne Aenderung, doch mag eine<lb/> weitere Reduction des Zinssatzes
+                hoffentlich<lb/> bald zu erwarten ein, da die <hi rend="latintype">Returns</hi>
+            <lb/> der Banken von <hi rend="latintype">
+               <placeName ref="K00512">England</placeName> + <placeName ref="K00547">Frankreich</placeName>
+            </hi> recht<lb/> günstig lauten._<lb/>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="commercial" ref="K01508">Dollars</term>
+               </hi>
+            </hi> nominell 60<hi rend="superscript">d</hi> Silber in Barren<lb/> 60 7/8-61<hi rend="superscript">d</hi>
+            <seg rend="right">Mit Hochachtung, ergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01009">GH&amp; JF Wulff</orgName>
+               </hi>
+            </seg>
+         </p>
+         <p>
+            <add style="textOrientation: upside-down" resp="other" place="marginBottom">1865<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+                  <date when="1865-03-27">27/3</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01009">G. H. &amp; Jf. Wulff</orgName>
+                  <lb/>R <date when="1865-03-16">16 März</date>
+                  <lb/>
+                  <date when="1865-09-07">7. Sept.</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_1.tif" n="1"/>
+         <p>London 27th March 1865.<lb/>Messrs. L. Kniffler +Co.<lb/>Nagasaki<lb/>With reference
+                to our respectful letter<lb/>from 10th of this month we have since been<lb/>without
+                any of your esteemed letters.__<lb/>Tea remains very depressed and prices
+                have<lb/>dropped further. Business through private<lb/>contracts has ceased almost
+                entirely but auctions <lb/>“without reserve” on the other hand take on<lb/>larger
+                dimensions every time, which proves <lb/>quite clearly how the owners are at pains
+                <lb/>to get rid of their wares at any price.<lb/>The auction on 7th of this month,
+                in which 30,000 boxes[?]<lb/>were offered, did not end until the 13th of this
+                month<lb/>and already on the 21st another series of auctions <lb/>began about 40,000
+                boxes, of which 37,000 boxes<lb/>were without reserve. The result was </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_2.tif" n="2"/>
+         <p>a reduction of fully 1d[?] for ordinary and<lb/>medium and up to 3d for green tea.
+                <lb/>Dusty Congo should earn 7- 7½d broken, up to<lb/>Good Leaf Common 9-9½, Common
+                Ud[?]<lb/>Leaf 10-11d, medium to Superior 11½- ¼.<lb/>Fine quality is rare but
+                nonetheless can only be sold <lb/>at a reduced price._ Common<lb/>black leaf 9½-10½,
+                fair 11d-1/- up to ¼d<lb/>for Pekoi flavour. There is no business in Fine. Taysham
+                is rare and old stock at 11d-1/ is popular. <lb/>Souchong is almost impossible to
+                sell. Seetid teas<lb/>are in some demand but the prices are lower. In<lb/>flowery
+                Pekoi there is no turnover -<lb/>The export business was not very lively. <lb/>The
+                only possibility for an improvement <lb/>could be found in reducing the deliveries
+                <lb/> from China, which given the currently very<lb/>cheap prices would definitely
+                prompt speculation </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_3.tif" n="3"/>
+         <p>to take place.__<lb/>Tobacco. The healthy part of the batch p “Great<lb/> Western”
+                was sold at 4 - 7¼ for decent to good<lb/>fresh leaf. Dropping down to 2d. Demand
+                for<lb/>tobacco in general remains good + high<lb/>qualities can be sold
+                easily.__<lb/>Cassia Lignea. The 1/3 boxes per Great Western<lb/>of a good average
+                quality, and a little<lb/>broken commands 35 to 36f. _ A low-quality shipment<lb/>of
+                47 bundles brought here indirectly from New York<lb/>earned 30/___<lb/>Camphor. Soon
+                after the last mail left, <lb/>lively demand developed for this article<lb/> and
+                quite significant sales were achieved <lb/>at rising prices. For China<lb/>in lead
+                102/6 - 105/ in metal sheets 100/ Japan<lb/>107/6 respectively: The shipments are
+                large + the<lb/>stock much reduced. The market is </p>
+         <pb facs="1865_03_27_Kniffler_Nagasaki_von_Wulff_London_4.tif" n="4"/>
+         <p>quieter now + the highest prices can no longer <lb/>be achieved._<lb/>Japan wax ca.
+                1,000 boxes sold. Fair<lb/>saucers c 67/6.-68/- medium slightly yellow 64/6 - 66/
+                -<lb/>dark 59 - 63/__<lb/>Money unchanged, although a further <lb/>reduction of the
+                interest rate can hopefully <lb/>be expected soon because the returns of <lb/>the
+                banks of England + France are <lb/>favourable._<lb/>Dollars nominally 60d silver in
+                bars<lb/>60 7/8-61d Respectfully,<lb/> Yours sincerely <lb/>GH&amp; JF Wulff<lb/>
+                ⟨1865<lb/>London 27/3<lb/>G. H. &amp; Jf. Wulff<lb/>R[eceived] 16th March<lb/>7th
+                Sep.⟩</p>
+      </body>
+   </text>
+</TEI>

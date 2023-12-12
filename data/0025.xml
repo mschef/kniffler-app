@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reimer &amp; Co. in Shanghai an Hans Conrad Morf in Kanagawa am 8. März
+                    1862</title>
+            <title type="file">0025.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-26</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben. Eine Umschlagsseite mit
+                            Siegelresten und einer Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01023">Reimer &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-03-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <persName ref="K00016">Morf, Hans Conrad</persName>
+               <settlement ref="K00521">Kanagawa</settlement>
+               <date when="1862-03-28"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-07" who="TP">diplomatische Transkription</change>
+         <change when="2019-08-16" who="TP">Schemaanpassung und Sachauszeichnung</change>
+         <change when="2020-10-07" who="MS">Ergänzende Auszeichnung; Verknüpfung der
+                Faksimiles</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">per “<name type="ship" ref="K01553">Marmora</name>”<lb/> Consignee Letter<lb/>
+                     <lb/>
+                     <persName ref="K00016">H. C. Morff</persName>
+                     <choice>
+                        <abbr>E<hi rend="underline">sqr</hi>
+                        </abbr>
+                        <expan cert="high">Esquire</expan>
+                     </choice>
+                     <lb/>
+                     <placeName ref="K00521">Kanagawa</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+                  <hi rend="latintype">1862<lb/>
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <lb/>
+                     <date when="1862-03-09">9 Maerz</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01023">Reimer + Co.</orgName>
+                     <lb/> R <hi rend="underline">
+                        <date when="1862-03-28">28 Maerz</date>„ <name type="ship" ref="K01552">Ocean <unclear reason="eccentric_ductus">Quee.</unclear>
+                        </name>
+                     </hi>
+                     <lb/>
+                     <date when="1862-04-05">5 April</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">per “<name type="ship" ref="K01553">Marmora</name>”</hi>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-03-08">8 März 1862</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herrn <hi rend="latintype">
+                     <persName ref="K00016">H. C. Morff</persName>
+                     <lb/>
+                     <placeName ref="K00521">Kanagawa</placeName>
+                  </hi>
+               </seg>
+               <lb/> Im Auftrag der Herren<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               </hi> in <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi> haben<lb/> wir mit der <hi rend="latintype">“<name type="ship" ref="K01553">Marmora</name>” <persName ref="K00017">Cpt Lyell</persName>
+                  <lb/>
+                  <measure type="currency" quantity="5768" unit="mex$">Fünftausen sieben
+                            hundert<lb/> acht und sechszig <term type="commercial" ref="K01508">Mexican<lb/> Dollars</term>
+                  </measure> in <measure type="volume" unit="box" quantity="2" commodity="mex$">2</measure> Boxes an</hi> Ihre <choice>
+                  <abbr>w/.</abbr>
+                  <expan>werte</expan>
+               </choice>
+               <lb/>
+               <hi rend="latintype">Addresse</hi> verladen, worüber<lb/> wir Ihnen einl. <hi rend="latintype">
+                  <term type="logistic" ref="K01515">Connossemt</term>
+               </hi>
+               <lb/> behändigen, Sie ersuchend uns<lb/> den guten Empfang anzeigen<lb/> zu wollen<lb/>
+               <seg rend="right">Mit Hochachtung zeichnen<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01023">Reimer &amp; Co.</orgName>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_1.tif" n="envelope"/>
+         <p>per “Marmora”<lb/>Consignee Letter<lb/>H. C. Morff Esqr<lb/>Kangawa<lb/>⟨<lb/>1862
+                <lb/>Shanghai 9th March<lb/>Reimer + Co.<lb/>R[eceived] 28 Maerz “Ocean
+                Quee.<lb/>5th April⟩</p>
+         <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_2.tif" n="2"/>
+         <p>Per “Marmora”<lb/> Shanghai 8th March 1862<lb/>Mister H. C. Morff<lb/>Kanagawa<lb/>
+                By order of Messrs. <lb/>L. Kniffler &amp; Co. in Nagasaki we have<lb/>loaded onto
+                the “Marmora” under<lb/> Capt. Lyell five thousand seven <lb/> hundred and eighty
+                six Mexican <lb/>dollars in 2 boxes to your <lb/> esteemed address, for which
+                <lb/>we issue you the attached bill of<lb/> lading and request that you <lb/> kindly
+                notify us of their safe <lb/> delivery.<lb/>Respectfully yours <lb/>Reimer &amp;
+                Co.</p>
+         <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_03_08_Morf_Kanagawa_von_Reimer_Co_Shanghai_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

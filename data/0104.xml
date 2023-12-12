@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. Simonin &amp; Co. in Paris an L. Kniffler &amp; Co. Nagasaki am 1. Oktober
+               1869</title>
+            <title type="file">0104.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-100</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, davon drei Seiten Anschreiben und eine Seite Eingangsnotiz</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01155">J. Simonin &amp; Co.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1869-10-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-11-22"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-05" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-06" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+            Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_10_01_Kniffler_Nagasaki_von_Simonin_Co_Paris_1.tif" n="1"/>
+         <p>
+            <add style="textOrientation: straight" resp="other" place="marginRight">
+               <hi rend="latintype">1869<lb/>
+                  <orgName type="firm" ref="K01155">J. Simonin &amp; Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00534">Paris</placeName>
+                  <date when="1869-10-01">1 October</date>
+                  <lb/>
+                  <date when="1869-11-22">22 November</date>
+                  <lb/>
+                  <hi rend="underline">
+                     <choice>
+                        <abbr>B</abbr>
+                        <expan>Beantwortet</expan>
+                     </choice>
+                     <date when="1869-12-23">23 Dem</date>
+                  </hi>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1869_10_01_Kniffler_Nagasaki_von_Simonin_Co_Paris_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName> le <date when="1869-10-01">1<hi rend="superscript">er</hi> Octobre 1869</date>.</seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp; C.<hi rend="superscript">ie</hi>
+               </orgName>,<lb/>
+               <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Nous avons bien rexu, Messiurs, vos stimess lettres des<lb/>
+            <date when="1869-04-08">8</date>, <date when="1869-04-22">22 Avril</date> &amp; <date when="1869-07-10">10 Juillet</date> serviers, leur contenu a en toute notre
+            attention<lb/> et ne demade aucune reponse spéciale.<lb/>
+            <add style="textOrientation: straight" resp="writer" place="marginLeft">Rifles</add> 1.
+            Nous avons regrette de voir la lenteur avec laquelle<lb/> s'ecoulaient les Rifles que
+            nous vous avons expédiés, pur lesquels le<lb/>
+            <unclear>marclsé</unclear> nous semble devenir de moins en moins favorable; vous<lb/>
+            reconnaitrez aujourd'hui avec nous, que notre lposition ent été beau-<lb/> coup
+            meilleure si nos instructions devendre à l'arriveé eussent<lb/> de suivies. Nous vous
+            prions donc de elore au plus-tôt cette<lb/> malbeureuse affaire que l'accumulation des
+            frais rend de jour<lb/> en jour plus mauvaise et nous espérons que vous ferez votre<lb/>
+            possible, pour nous faire regagner la perte considerable qui<lb/> ne pet manquer d'en
+            être le résultat.<lb/>
+            <add style="textOrientation: straight" resp="writer" place="marginLeft">Commission</add>
+            2 Nous avons recu le 25 Ecoulé, de votre Sieur <persName ref="K00001">Louis-<lb/>
+               Kniffler</persName> de <placeName ref="K00527">Dusseldorf</placeName> une collection
+            de 20 Dessins Japonais, accom-<lb/> pagnßes d'une Note pour une Commission de 350 Coupes
+            de 30 Yards<lb/> de Mousseline de Laine, a imprimer dans ces 20 Dessins. Monsieur<lb/>
+            <persName ref="K00001">Louis Kniffler</persName> nous dit avoir recu cet ordre de vous,
+            et que vous l'avez pris d'un de vos acheteurs, livrable le 26 Janvier prochain, au
+            prix<lb/> de Itz 35/„ par piece. Monsier <persName ref="K00001">Louis
+               Kniffler</persName> nous disour que vous<lb/> teniez beaucoup à ce que cet ordre soit
+            executé; nous avons examiné<lb/>
+            <add style="textOrientation: straight" resp="other" place="marginLeft">B.</add>
+            <lb/>
+         </p>
+         <pb facs="1869_10_01_Kniffler_Nagasaki_von_Simonin_Co_Paris_3.tif" n="3"/>
+         <p> la question serieusement, et nous regrettons bien de vous dire, que,<lb/> malgré toute
+            notre bonne volonte pour vous être agreables, il nous<lb/> sera impossible d'exécuter
+            cette commission, ce dout nous avons<lb/> avisé votre Sieur <persName ref="K00001">Louis
+               Kniffler</persName> et eu voici les raisons:<lb/> en premier lieu, le prix de Itz/„
+            la piece qui<lb/> est celui qu'obtenaient dans le temps nos Mousselines de Laine
+            unies,<lb/> est bien au dessous du prix coutant des Mousselines de Laine Impri-<lb/>
+            meés du genre le plus commun qui puisse se faire en France;<lb/> ensuite l'epoque fixée
+            pour la livraison, est tellement rapprochée,<lb/> qu'il fondrait que nous puissons
+            expédier le 20 Courant, au plus<lb/> tard, pour ariver à temps à <placeName ref="K00514">Nagasaki</placeName>; ou, comme il n'existe pas<lb/> ceque, das les derniers temps,
+            il y a en une grande demande<lb/> pour cet article dans la largeur pour le <placeName ref="K00502">Japon</placeName>, et que tout ce qui<lb/> etait fabriqué a été enlevé,
+            nous serions done forcés de faire fabri-<lb/> quer le tissu, ce qui ne demande pas moins
+            de 3 Mois; deplus, il<lb/> faut au moins 2 Mois pour Imprimer. En outre, nous vous
+            dirons,<lb/> que les imprimeurs ici, demandant au minimum, 100 Coupes de<lb/> 30 Yards
+            par dessin, pour se d'efraiyer des frais de Gravure, ce<lb/> qui, pour 20 Dessins,
+            ferait un minimum de 2000 Coupes. Vous<lb/> voyez done que sous tous les rapports, cette
+            commission était inéxecu-<lb/> table. Par contre, nous sommes beureux de pouvor vour
+            dire, que<lb/> nous vours préparons un assortiment de Mousseline de Laine Impri-<lb/>
+            mée, que d#epassera de beaucoup en richesse et en beauté, tout ce qui<lb/> s'est fait
+            jusqu ici pour votre pays. Cette collection est prise des<lb/> plus beaux dessins
+            Japonais que nous avions recus devons, et<lb/> nous pouvons dire, que l'imitation est
+            parfaite; nous diviserons la<lb/> quantité totale de notre marchandise enté les 3 ports
+            du <placeName ref="K00502">Japon,</placeName>
+            <lb/> d'après les instructions et siuvant l'avis que nous avons reus de<lb/>
+         </p>
+         <pb facs="1869_10_01_Kniffler_Nagasaki_von_Simonin_Co_Paris_4.tif" n="4"/>
+         <p> de votre Sieur Louis Kniffler. Soyez done assezbons pour préparer<lb/> vor scheteurs à
+            la réception de ces Marachndises dont l'expédition<lb/> se fera sons peu, et les
+            travailler de manière à hausser les prix<lb/> de votre Marche, car après tout le mal que
+            nous noues sommes<lb/> donnéspour etablir cet affaire, nous comptons en tirerr un bon
+            béné-<lb/> vez avoir à nous passer à l'avenir, du temps qu'il faut pour les exé-<lb/>
+            cuter, afin que nous ne nous trouvions plus dans la même position<lb/> que cette fois.<lb/>
+            <add style="textOrientation: straight" resp="writer" place="marginLeft">Marché</add> 3.
+            Nous avons bien regretté d'apprendre l'Etat<lb/> d'un certidutde dans lequel votre
+            Marché a été jete par l'intro due-<lb/> tion de la nouvelle monnaie; ma si nous en
+            jugeons par ce qui<lb/> s'est passé ici, nous devons eroire que les Mousselines de
+            Laine<lb/> teintes et imprimées n'ont pas partagé la dépréciatation des ontres<lb/>
+            articles sur les Marchés du <placeName ref="K00502">Japon</placeName>, car depuis six ou
+            8 mois, la<lb/> demande pour le tissu ècru isi a été telle, qu'il ne reste pas une
+            piè-<lb/> ce an Stock, et que les prix ont haussè de 10% au noins. Comme<lb/> cette
+            hausse a été consée par les achats faits pour le Japon par<lb/> des Maisons bien
+            reuseigneés et qui continuent à acheter même<lb/> aux prix d'aujourd'hui, nous avons
+            bien d'espérer que vous obtien-<lb/> drez de nos Mousselines imprimées, des prix très élèves.<lb/>
+            <seg rend="right">Nous vous présontons, Messieurs nos bien</seg>
+            <lb/> sincères salutations,<lb/>
+            <seg rend="right">
+               <unclear>
+                  <hi rend="underline">John.Simonin+C<hi rend="superscript">o</hi>
+                  </hi>
+               </unclear>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

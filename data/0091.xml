@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Siemssen &amp; Co. in Shanghai an L. Kniffler &amp; Co. in Nagasaki am 9.
+                    Februar 1869</title>
+            <title type="file">0091.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben, davon eine Seite quer
+                            beschrieben. Eine Seite mit einer Eingangsnotiz und einer hinzugefügten
+                            Berechnung.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01006">Siemssen &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1869-02-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-04-22"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-08-06" who="TP">Diplomatische Transkription</change>
+         <change when="2020-09-08" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachbezeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">p<hi rend="superscript">r</hi>
+               <choice>
+                  <abbr>St</abbr>
+                  <expan cert="high">Steamer</expan>
+               </choice>
+               <name type="ship" ref="K01575">Kathleen</name>
+            </hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>
+                  <date when="1869-02-09">9 Februar 1869</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Wir nehmen hoeflich Bezug<lb/> an unser Ergebenes vom <unclear>
+               <date when="1869-01-03">3. <choice>
+                     <abbr>vmts</abbr>
+                     <expan cert="medium">vorigen Monats</expan>
+                  </choice>
+               </date>
+            </unclear>
+            <lb/> womit wir Ihnen den theilweisen<lb/> Verkauf Ihrer <term type="measure" ref="K01576">Itzebue</term> Sendung aufgaben<lb/> und uns wegen des
+                geringern<lb/> Werthes des viertel <term type="measure" ref="K01576">Itzebues</term>
+                und der<lb/> Goldmünzen Ihre weiteren Instruktionen<lb/> erbaten.<lb/> Für die <hi rend="latintype">a conto</hi> dieser Veersendung<lb/> an <choice>
+               <abbr>dH.</abbr>
+               <expan>die Herren</expan>
+            </choice>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01008">Bollenhagen +Co</orgName>
+            </hi> in <hi rend="latintype">
+               <placeName ref="K00522">Hamburg</placeName>
+            </hi>
+            <lb/> für Ihre Rechnung gemachte <term type="commercial" ref="K01523">Remisse</term>
+            <lb/>
+            <table>
+               <row>
+                  <cell>von <hi rend="underline">
+                        <term type="measure" ref="K01522">£</term>
+                        <measure type="currency" unit="Pfund" quantity="1200">1200--</measure> a</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <unclear reason="illegible">1/1 1¼</unclear> haben wir Sie</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <add style="transformRotateZ(-45deg)" resp="other" place="marginLeft">
+                        <term type="commercial" ref="K01536">Mem 42</term>
+                     </add>
+                  </cell>
+                  <cell>= <term type="currency" ref="K01525">Ts</term>
+                     <measure type="currency" unit="tael" quantity="4042.11">4042.11</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>zuzüglich ½% land<hi rend="superscript">r</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">
+                        <measure type="currency" unit="tael" quantity="20.21">20.21</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>mit</cell>
+                  <cell>
+                     <term type="currency" ref="K01525">Ts</term>
+                     <measure type="currency" quantity="4042.32" unit="tael">4042.32</measure>
+                     <hi rend="superscript">00</hi>
+                     <hi rend="underline">pr <date when="1869-02-02">2 febr</date>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/>
+            <add style="transformRotateZ(-45deg)" resp=" other" place="inline">
+               <hi rend="underline">
+                  <measure type="unclear" unit="unclear" quantity="14715.318">14715.318</measure>
+                  <lb/>Z <measure type="unclear" unit="unclear" quantity="18369">18369</measure> p <date when="1869-02-02">2 febr</date>
+               </hi>
+            </add> belastet + bitten um conforme Gutschrift<lb/> Ihren Auszug unserer
+                Rechnung<lb/> haben wir richtig gefunden und den Saldo<lb/> zu unsern <unclear reason="eccentric_ductus">Gunsten</unclear> von <term type="measure" ref="K01508">$</term>
+            <measure type="currency" unit="dollar" quantity="789.8">789.80</measure> zum <hi rend="latintype">Course</hi>
+            <lb/> von <add style="transformRotateZ(-45deg)" resp="other" place="inline">
+               <del rend="overstrike">
+                  <term type="commercial" ref="K01536">Memf 42</term>
+               </del>
+               <lb/>
+               <hi rend="underline">nicht gebst</hi>
+            </add>
+            <unclear reason="illegible">76</unclear> mit <hi rend="underline">
+               <term type="currency" ref="K01525">Ts</term>
+               <measure type="currency" quantity="592.35" unit="tael">592.35</measure>
+               <choice>
+                  <abbr>⅌</abbr>
+                  <expan>per</expan>
+               </choice>
+               <date when="1869-01-01">1 Januar</date>
+            </hi> Ihnen auf<lb/>
+            <hi rend="latintype">
+               <term type="currency" ref="K01525">Tael</term>Conto</hi> belastet, was wir
+                gleichlautend<lb/> mit uns zu buchen bitten. </p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_2.tif" n="2"/>
+         <p>An <choice>
+               <abbr>uns.</abbr>
+               <expan> unserem</expan>
+            </choice> Markt hat sich seit <choice>
+               <abbr>uns.</abbr>
+               <expan>unserem</expan>
+            </choice> Letzten in <hi rend="latintype">Grey</hi>
+            <lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01559">Cotton</term> Goods</hi> kaum etwas verändert.
+                Zu <term type="currency" ref="K01525">T</term>
+            <measure type="currency" quantity="2.06" unit="tael">2.06.</measure> zeigten<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01577">Chemisen</term>
+            </hi> in den letzten Tagen noch ziemlich Lust 8¼ 4 <term type="goods" ref="K01569">Shirtings</term>
+            <lb/> auf Lieferung nach den Feiertagen zu contrahiren. Die<lb/> Forderung ist aber
+                    <unclear>jetzt</unclear> fast <term type="currency" ref="K01525">T</term>
+            <measure type="currency" quantity="2.10" unit="tael">2.10</measure> für gute Waare
+                und<lb/> zeigten sich <hi rend="latintype">Europaer</hi> überhaupt wenig zum
+                Abgeben<lb/> geneigt, in Erwartung einer baldigen Verbesserung<lb/> nach <date when="1869-02-11">
+               <hi rend="latintype">Chin.</hi> Neujahr</date>, beste Waare mit <term type="currency" ref="K01525">Ts</term>
+            <measure type="currency" quantity="2.10" unit="tael">2.10</measure> bereits <add style="textOrientation: straight" resp="writer" place="below">bezahlt</add>
+            <lb/> Für <term type="goods" ref="K01557">Eisen</term> ist etwas Frage
+                aufgekommen<lb/> +bemühten wir die Gelegenheit Ihre Parthie ex<lb/>
+            <unclear>Gakreis</unclear> zu <term type="currency" ref="K01525">Ts</term>
+            <measure type="currency" quantity="2.40" unit="tael">2.40</measure> a <add style="textOrientation: straight" resp="writer" place="below">1% <gap quantity="9" unit="char"/>
+            </add>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">Picul</term>
+            </hi> zu begeben, welches wir<lb/> um so weniger von der Hand weisen wollten,
+                als<lb/> sich wegen der unbeliebten Dimension des <term type="goods" ref="K01557">Eisens</term>
+            <lb/> früher schon manche Unterhandlung zerschlossen hatte.<lb/>
+            <choice>
+               <abbr>Engl Stg</abbr>
+               <expan> Englisches Stangen</expan>
+            </choice>
+            <term type="goods" ref="K01557">Eisen</term> in beliebteren Dimensionen ist
+                seitdem<lb/> mit <term type="currency" ref="K01525">T</term>
+            <measure type="currency" quantity="2.45" unit="tael">2.45</measure> bezahlt
+                werden.<lb/> Wir möchten Sie noch um <unclear>
+               <choice>
+                  <abbr>gefl.</abbr>
+                  <expan> gefällige</expan>
+               </choice>
+            </unclear> Specifizirung<lb/>
+            <add style="transformRotateZ(-45deg)" resp="other">für Lz 205.61.</add>der uns via
+                    <hi rend="latintype">
+               <choice>
+                  <abbr>CtoCrt</abbr>
+                  <expan> Conto Corrent</expan>
+               </choice>
+            </hi> vergüteten RetourComission<lb/> von <term type="measure" ref="K01508">$</term>
+            <measure type="currency" unit="dollar" quantity="205.61">205.61</measure> ersuchen,
+                da wir den Posten nicht recht<lb/> ausmachen können.<seg rend="right">Freundschaftlichst<lb/>
+               <orgName type="firm" ref="K01006">Siemssen+Co</orgName>
+            </seg>
+            <seg> In Coursen seit der Mail <del rend="overstrike">nichts</del>
+               <add style="textOrientation: straight" resp="writer" place="above">wenig</add>
+                    gemacht,<lb/> Chart<hi rend="superscript">s</hi> Bank zog heute zu 5/11½!</seg>
+         </p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_3.tif" n="3"/>
+         <p> Hinsichtlich der Ihnen in <hi rend="latintype">
+               <choice>
+                  <abbr>CtoCrt</abbr>
+                  <expan> Conto Corrent</expan>
+               </choice>
+            </hi> angesetzten<lb/> Parti, so erlauben uns Ihnen zu bemerken,<lb/> dass im Anfang
+                des <choice>
+               <abbr>v.</abbr>
+               <expan> vorigen</expan>
+            </choice> Jahres Ihre Briefe<lb/> für <hi rend="latintype">
+               <placeName ref="K00511">Europa</placeName>
+            </hi> von dorten nicht frankirt<lb/> angekommen sind, sondern hier frankirt<lb/>
+                werden mussten, dass Ihre Briefe für<lb/>
+            <placeName ref="K00509">Honkong</placeName> hier bezahlt werden müssen,<lb/> und
+                Marken die Sie dorten darauf heften<lb/> deshalb nutzlos sind, was Ihnen
+                kürzlich<lb/> auch schon mittheilten.<lb/>
+            <unclear>
+               <choice>
+                  <abbr>St.</abbr>
+                  <expan>Steamer</expan>
+               </choice> Migsi</unclear> ist nach letzten <placeName ref="K00509">Honkong</placeName>
+            <lb/> Berichten endlich von da weiter gegangen<lb/> und nun stündlich erwartet
+                und<lb/> können Ihnen die für Sie damit<lb/> erwarteten Waaren hoffentlich mit<lb/>
+                dem amerik. <choice>
+               <abbr>St<hi rend="superscript">r</hi>
+               </abbr>
+               <expan>Steamer</expan>
+            </choice> senden.<lb/> Mit heutigem <choice>
+               <abbr>Str</abbr>
+               <expan>Steamer</expan>
+            </choice> hoffen Ihnen<lb/> noch die p. <hi rend="latintype">
+               <name type="ship" ref="K01578">Leandro</name>
+            </hi> eingetroffenen<lb/>
+            <figure>
+               <figDesc>Firmenzeichen. Buchstaben mit ausgerpägten Serifen, in der Zeile B. C. unter der Zeile J. S.</figDesc>
+            </figure>202/206 3 Kisten senden zu können<lb/> wenn wir sie noch in Zeiten aus dem
+                Schiffe bekommen. <add resp="writer" place="inline" style="textOrientation: straight">Z</add>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other" place="marginLeft">
+               <term type="commercial" ref="K01536">Memf 82</term>
+            </add> Ueber die früheren Silberproben,<lb/> wovon wir einen Theil nach <placeName ref="K00509">Hongkong</placeName>
+            <lb/> gesandt, berichten unsere Freunde daselbst<lb/> „Die Stücke sollen 99 <unclear reason="eccentric_ductus">
+               <term type="currency" ref="K01525">Taels</term>
+            </unclear> Silber enthalten<lb/> der augenblickliche Marktwerth ist 3-4 <hi rend="latintype">
+               <term type="currency" ref="K01525">Taels</term> % <unclear>Praemie</unclear>
+            </hi>
+            <lb/> auf den festen <hi rend="latintype">Cours</hi> von <term type="currency" ref="K01525">T<hi rend="superscript">ls</hi>
+            </term>
+            <measure type="currency" unit="tael" quantity="7.17">7.1.7.</measure> wozu mässige Quantitäten<lb/>
+            <add style="transformRotateZ(-45deg)" resp="other">recte</add> verkäuflich sind. Die
+                Praemie fluctuirt natürlich sehr<lb/> richtet sich hauptsächlich nach dem Stande der
+                    <hi rend="latintype">s<gap quantity="4" unit="char"/>s</hi>
+            <lb/> welches augenblicklich T<hi rend="superscript">ls</hi>6 <gap quantity="2" unit="cm" agent="torn"/>% Praemie (<measure type="currency" unit="tael" quantity="100">100</measure>
+            <term type="currency" ref="K01525">taels</term>, notirt ist </p>
+         <p>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="writer" place="marginLeft"> Z. sind mit diesem <choice>
+                  <abbr>St<hi rend="superscript">r</hi>
+                  </abbr>
+                  <expan>Steamer</expan>
+               </choice> repedirt &amp; bitten uns für Spesen<lb/> darauf <hi rend="underline">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="17" unit="tael">17-</measure>
+               </hi> laut <choice>
+                  <abbr>einl</abbr>
+                  <expan>einliegende</expan>
+               </choice>
+               <hi rend="latintype">Nota</hi>
+               <choice>
+                  <abbr>gef</abbr>
+                  <expan> gefälligst</expan>
+               </choice> gutschreiben zu lassen.</add>
+         </p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_4.tif" n="4"/>
+         <p>
+            <add style="transformRotateZ(-45deg)" resp="other">die <term type="currency" ref="K01508">$</term>
+               <measure type="currency" quantity="205.61" unit="mex$">205.61.</measure> sollen<lb/>
+               <unclear reason="eccentric_ductus">z</unclear> 205.61 vom <unclear reason="eccentric_ductus">
+                  <date when="1867-12">Decr 1867</date>
+               </unclear>
+               <lb/> sein danach stellt sich die <lb/>
+               <table>
+                  <row>
+                     <cell>
+                        <term type="currency" ref="K01508">$ cts</term>
+                        <choice>
+                           <abbr>⅌</abbr>
+                           <expan>per</expan>
+                        </choice>1868<lb/>÷ 205.61<lb/>+ Zus<hi rend="underline">1855</hi>
+                     </cell>
+                     <cell>fl. 789.80<lb/>
+                        <hi rend="underline">224.16</hi>
+                        <lb/>
+                        <unclear reason="illegible">fl</unclear>565.64.</cell>
+                  </row>
+                  <row>
+                     <cell>+z 205.61<lb/>+zus<hi rend="underline">1855<lb/>z 22416.935.</hi>
+                     </cell>
+                     <cell>
+                        <lb/>
+                        <lb/>
+                        <hi rend="underline">66.90<lb/>
+                           <unclear reason="illegible">fl</unclear> 63254</hi>
+                     </cell>
+                  </row>
+               </table>war in 15. mit Th 474.40.<lb/> auf Tail. <hi rend="underline">Th <choice>
+                     <abbr>⅌</abbr>
+                     <expan>per</expan>
+                  </choice>
+                  <del rend="overstrike">7</del>
+                  <date when="1869-01-01">1 Jan 69</date> übertragen</hi>
+            </add>
+            <add style="textOrientation: straight" resp="other" place="marginRight">
+               <hi rend="latintype">1869<lb/>
+                  <orgName type="firm" ref="K01006">Siemssen &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00503">Shanghai</placeName>
+                  <date when="1869-02-09">9 February</date>
+                  <lb/> 2204<lb/> Ba</hi>
+               <lb/> f</add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_1.tif" n="1"/>
+         <p>Per steamer “Kathleen”,<lb/> Shanghai, 9<hi rend="superscript">th</hi> February
+                1869<lb/>Messrs. L. Kniffler +Co<lb/>Nagasaki<lb/>We politely refer to our
+                respectful <lb/>letter from 3<hi rend="superscript">rd</hi> of last month[?],<lb/>in
+                which we informed you about the <lb/>partial sale of your itzebue shipment <lb/>and
+                asked for further instructions <lb/>due to the lower value of the quarter
+                itzebues<lb/>and the gold coins.<lb/>For the remittance made on account <lb/>for
+                this shipment to Messrs. Bollenhagen <lb/>+Co in Hamburg for your account <lb/>
+            <table>
+               <row>
+                  <cell>of £1200—at</cell>
+                  <cell>1/1 1¼[?] we have debited you</cell>
+               </row>
+               <row>
+                  <cell>⟨Mem 42⟩</cell>
+                  <cell>= Ts 4042.11</cell>
+               </row>
+               <row>
+                  <cell>plus ½% landr</cell>
+                  <cell>20.21</cell>
+               </row>
+               <row>
+                  <cell>With</cell>
+                  <cell>Ts 4042.3200 per 2nd Febr</cell>
+               </row>
+            </table>
+            <lb/>⟨14715.318Z 18369 per 2 febr⟩ + ask you to for a conform credit entry. <lb/>We
+                have verified your statement of our <lb/>account and have debited in our
+                favour[?]<lb/>the balance of $789.80 at a rate<lb/>of ⟨<del rend="overstrike">Memf</del> 42nicht gebst⟩76[?] as Ts 592.35 ⅌ 1st January <lb/>on your Tael
+                account, which we ask to book <lb/>conform with us. </p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_2.tif" n="2"/>
+         <p>Since our last letter hardly anything has changed <lb/>on our market regarding grey
+                cotton goods. At T 2.06. <lb/>chemises showed quite some inclination to conclude
+                <lb/>an agreement for 8¼ 4 shirtings to be delivered after<lb/>the holidays. The
+                demand now[?] however, is <lb/>almost T 2.10 for good wares, and overall the
+                <lb/>Europeans show little willing to sell as they expect <lb/> an improvement after
+                Chinese New Year soon, <lb/>first-rate goods are already paid at Ts 2.10.<lb/>For
+                iron there is a little demand <lb/>we took the opportunity of selling your batch
+                <lb/>from the “Gakreis”[?] for Ts 2.40 at 1% per picul, which we did <lb/>not want
+                to turn down especially as due to <lb/>the unpopular situation of iron various
+                previous<lb/>negotiations had already failed. <lb/>English iron rods in popular
+                dimensions have since <lb/>fetched T 2.45.<lb/>We would kindly like to ask you to
+                provide details <lb/>⟨for Lz 205.61.⟩ of the returned commission <lb/>reimbursed via
+                current account with $205.61 because we are <lb/>having trouble identifying the
+                correct lot. Yours most cordially<lb/> Siemssen+Co <lb/>Regarding the rates <del rend="overstrike">nothing</del>little has happened since the mail,<lb/> Charts
+                Bank rose today to 5/11½!</p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_3.tif" n="3"/>
+         <p>With regard to the entry recorded for you in the current <lb/>account, we are taking
+                the liberty of pointing out<lb/>that at the beginning of last year your letters
+                <lb/>to Europe arrived here from you <lb/>unstamped and so had to be stamped
+                <lb/>here, and that your letters for <lb/>Hong Kong have to be paid for here<lb/>and
+                the stamps you affixed at yours are <lb/>therefore useless, which we have also
+                already <lb/>informed you of recently. <lb/>The steamer “Migsi”[?] has, according to
+                the latest <lb/>reports from Hong Kong, finally continued its journey <lb/>from
+                there and is expected here within hours and<lb/>hopefully we will be able to send
+                you <lb/>the goods expected on it for you by means<lb/>of the American steamer.
+                <lb/>We are hoping to be able to send you the <lb/>202/206 3 boxes that arrived on
+                today’s steamer<lb/>
+         </p>
+         <figure>
+            <figDesc>Company sign. Letters with distinct serifs, on the line the letters B. C. and below the line J. S.</figDesc>
+         </figure>
+         <p>per “Leandro” if we are receiving them<lb/>off the ship in time.. ⟨Z⟩<lb/>⟨Memf 82⟩
+                Regarding the earlier silver samples,<lb/>a part of which we sent to Hong
+                Kong,<lb/>our friends there report <lb/>“The pieces are said to contain 99 Taels[?]
+                of silver, <lb/>the current market value is 3-4 Tales % premium[?]<lb/>on the fixed
+                rate of Tls 7.1.7. at which limited quantities<lb/>⟨recte⟩ are available for sale.
+                The premium of course fluctuates <lb/>significantly and depends mainly on the rate
+                of the s[...]s<lb/>which is currently listed at Tls6 [...]% premium (100 taels </p>
+         <p>⟨ Z. have been returned with this steamer &amp; we ask for expenses for this Ts 17-
+                in line with the included note kindly to be credited to us.⟩</p>
+         <pb facs="1869_02_09_Kniffler_Nagasaki_von_Siemssen_Co_Shanghai_4.tif" n="4"/>
+         <p>⟨the $ 205.61. should be<lb/>z[?] 205.61 from Dec. 1867[?],<lb/>accordingly the <lb/>
+            <table>
+               <row>
+                  <cell>$ cts ⅌ 1868<lb/>÷ 205.61<lb/>+ Zus1855</cell>
+                  <cell>fl. 789.80<lb/>224.16<lb/>fl[?]565.64.</cell>
+               </row>
+               <row>
+                  <cell>+z 205.61<lb/>+zus1855<lb/>z 22416.935.</cell>
+                  <cell>66.90<lb/>fl[?] 63254</cell>
+               </row>
+            </table> was in 15. with Th 474.40.<lb/> on Tail. Th ⅌ [?] 7 1st Jan 69
+                transferred⟩<lb/>⟨1869 <lb/>Siemssen &amp; Co<lb/>Shangahi 9th February <lb/>2204 Ba
+                <lb/>f⟩</p>
+      </body>
+   </text>
+</TEI>

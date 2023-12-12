@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD-Spezifikation für das Waren- und Sachregister der Internationalen
+                    Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876)</title>
+                <author>Tristan Pfeil; Marc Scheffer</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>created on Wednesday 24th April 2019 03:43:33 PM</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>TEI customization for the terms and goods register of the Kniffler-Briefe</p>
+            <schemaSpec ident="WarenUndSachregister" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except="analytic biblScope biblStruct binaryObject cb choice citedRange date desc distinct divGen email emph expan foreign gap gb gloss graphic head headItem headLabel imprint l label lb lg media meeting mentioned milestone monogr num orig postBox postCode ptr pubPlace publisher q reg relatedItem rs said series sic soCalled sp speaker stage street textLang unclear"/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except=""/>
+                <moduleRef key="namesdates" except="affiliation bloc climate district education faith floruit forename genName geogFeat langKnowledge langKnown listEvent listNym listObject listOrg listRelation location nameLink nationality nym object objectIdentifier objectName occupation offset org orgName persName person personGrp persona population region relation residence roleName sex socecStatus state terrain trait"/>
+                <elementSpec ident="term" module="core" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cRef" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="decls" mode="delete"/>
+                        <attDef ident="evaluate" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="sortKey" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="target" mode="delete"/>
+                        <attDef ident="targetLang" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="type" mode="change" usage="req">
+                            <valList type="closed" mode="replace">
+                                <valItem ident="goods"/>
+                                <valItem ident="commercial"/>
+                                <valItem ident="currency"/>
+                                <valItem ident="logistic"/>
+                                <valItem ident="measure"/>
+                                <valItem ident="ship"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <moduleRef key="figures" except="figDesc figure formula notatedMusic"/>
+                <elementSpec ident="bibl" module="core" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="default" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="sortKey" mode="delete"/>
+                        <attDef ident="status" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="type" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>

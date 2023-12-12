@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="documentation.html" 
+?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editionsrichtlinien Knifflerbriefe</title>
+                <editor>Tristan Pfeil, Marc Scheffer</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> Tristan Pfeil, Marc Scheffer: Editionsrichtlinien. In: Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Ruhr-Universität Bochum, Fakultät für
+                    Ostasienwissenschaften, Geschichte Japans. https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutSources.xml </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+
+                <head>Editionsrichtlinien</head>
+                <p>Die digitale Edition der Geschäftskorrespondenz von L. Kniffler &amp; Co. basiert auf dem TEI-Standard des XML-Datenformats. Nicht alle Bestandteile des TEI-Standards sind in jeder
+                    Edition gleich sinnvoll zu verwenden. Deshalb werden für digitale Editionen mithilfe des Metaformats ODD (One Document Does It All) TEI-Schemata spezifiziert. Diese Edition
+                    verwendet zwei ODDs mit jeweils unterschiedlichen Funktionen. Das <ref target="https://existdb.ub.rub.de/exist/apps/Kniffler/knifflerSchema_odd.html">Kniffler-Schema</ref> enthält
+                    die für die Kniffler-Edition verwendeten Teile des TEI-Formats. Die <ref target="https://existdb.ub.rub.de/exist/apps/tei-publisher/odd-editor.html?odd=knifflerdesignodd.odd">Kniffler-Design-ODD</ref> hingegen steuert die Darstellung der edierten Texte in der TEI-Publisher-Präsentationsumgebung im Web.</p>
+                <div>
+                    <head>Umfang der Edition</head>
+                    <p>Die digitale Edition der Geschäftskorrespondenz von L. Kniffler &amp; Co. enthält zum gegenwärtigen Zeitpunkt 156 Dokumente aus dem Firmenarchiv C. Illies &amp; Co.
+                        (FA-CIC).</p>
+                </div>
+                <div>
+                    <head>Übersetzungen</head>
+                    <p> Die Dokumente sind in mehreren Sprachen abgefasst: Deutsch, Englisch, Französisch und Niederländisch. Die deutschen Dokumente wurden transkribiert, annotiert und für ein
+                        internationales Lesepublikum ins Englische übersetzt. Die englischen Dokumente wurden ebenfalls transkribiert und annotiert. Die französischen und niederländischen Briefe
+                        wurden transkribiert und rudimentär annotiert. Ihre ausführliche Annotation sowie die Übersetzung ins Englische steht noch aus. </p>
+                    <p>Die Übersetzungen sind Teil der XML-Dateien der edierten Dokumente. Sie werden in den Briefen vom Element <hi rend="code">&lt;text&gt;</hi> mit dem Attributwert <hi rend="code">&lt;@type='translation'&gt;.</hi> markiert. Die Übersetzungen wurden mit minimalen strukturierenden Elementen versehen, um das Zeilenbild der Originale wiederzugeben. Auf
+                        weitere Auszeichnungen im Sinne einer digitalen Edition wurde verzichtet</p>
+                </div>
+                <div>
+                    <head>1. Diplomatische Edierung</head>
+                    <p>Die Transkription der Briefe erfolgt grundsätzlich diplomatisch. Alle Schreibvarianten Rechtschreibfehler und Schreibformen werden aus dem Text übernommen.</p>
+                    <div>
+                        <head>1.1 Ausnahmen</head>
+                        <p>Wo Rechtschreibfehler die Lesbarkeit stark beeinträchtigen resp. unmöglich machen, werden Korrekturen und Glättungen als Lesemöglichkeiten mithilfe eines <hi rend="code">&lt;choice&gt;</hi> Elements angeboten.<lb/> Es wird bei der Transkription der deutschen Schriften nicht unterschieden zwischen dem Binnen- und dem schließenden „s“.
+                            Eine Ausnahme hiervon erfolgt da, wo das Binnen-„s“ Verwendung findet um ein konjunktionales, „dass“ (also: daſ) auszudrücken. Hier wird das lange „s“ als solches also „ſ“
+                            geschrieben.<lb/> Verdopplungsstriche über Konsonanten werden stillschweigend aufgelöst Bsp. n̄ =nn.<lb/> Wenn aus der Quelle Groß- und Kleinschreibung nicht eindeutig zu
+                            erkennen sind, werden die jeweiligen Stellen der Rechtschreibung entsprechend stillschweigend angepasst.<lb/> Wo eine Unterscheidung zwischen „I“ und „J“ nicht erfolgt,
+                            wird vor einem Vokal ein „J“, vor einem Konsonanten ein „I“ geschrieben. Wo diese Buchstaben auch in den deutschen Schriften eindeutig zu erkennen sind, werden diese
+                            Glättungen nicht vorgenommen.<lb/> Doppelte Binderstriche „=“ werden stillschweigend in einfache Bindestriche verwandelt. Wo Bindestriche am Zeilenende fehlen werden diese
+                            nicht ersetzt.<lb/> Kustoden werden als Anfang der neuen Seite dargestellt und am Ende der letzten Seite aufgelöst, sofern dadurch kein Informationsverlust entsteht.<lb/>
+                            Verschleifungen und Faulenzerausläufe an Wort- Zeilen- und Satzenden werden, soweit deren Bedeutung erkennbar ist, aufgelöst und nicht gesondert gekennzeichnet.<lb/> Die in
+                            den Briefen verwendeten Dezimaltrennzeichen, die im Original dem Doppelbindestrich entsprechen, werden in Dezimalkommata verwandelt, die zeitgenössische Darstellung des
+                            Betragsendes mit demselben Zeichen wird mit „,-„ in heutiger Schreibweise dargestellt.<lb/>
+                        </p>
+                    </div>
+                    <div>
+                        <head>1.2 Seitennummerierung und fehlende Seiten</head>
+                        <p>Alle Seiten der Briefe werden in der Darstellung übernommen, auch wenn sie keinen Informationsgehalt haben. Ebenso werden diese Seiten als leere Seiten in der Transkription
+                            erfasst.<lb/> Fehlende Seiten werden durch die Sprünge in den Seitenzahlen dargestellt.<lb/>
+                        </p>
+                    </div>
+                    <div>
+                        <head>1.3 Briefumschläge und Stempel</head>
+                        <p>Die Briefumschläge werden mit allen enthaltenen Informationen erfasst. Dabei sind nicht nur die Eingangsnotizen wichtig, die Daten des Briefeingangs und des
+                            Antwortschreibens festhalten, sondern auch die Post- und Firmenstempel auf den jeweiligen Umschlägen.<lb/> Völlig unleserliche Vermerke und Stempel werden nicht miterfasst,
+                            sobald ein Teilbereich der Information erkennbar ist, werden diese aber aufgenommen und die fehlenden Informationen gekennzeichnet.<lb/>
+                        </p>
+                        <div>
+                            <head>1.3.1 Eingangsnotizen</head>
+                            <p>Nahezu alle Briefe wurden durch die Firma Kniffler mit einem Eingangsvermerkt versehen, der sowohl den Namen des Schreibers als auch die Daten des Erhalts des Briefes
+                                enthält. In der Regel werden Sende- und Empfangsdatum in den Metadaten hieraus übernommen. Bei einigen Briefen wurde darüber hinaus offenbar auch das Datum der Antwort
+                                auf den Brief durch die Firma Kniffler festgehalten.<lb/> Die Eingangsnotizen werden als <hi rend="code">&lt;add&gt;</hi> dargestellt, welches darüber hinaus mit den
+                                Attributen <hi rend="code">@style</hi>, <hi rend="code">@place</hi> &amp; <hi rend="code">@resp</hi> näher spezifiziert werden.<lb/> Das <hi rend="code">@style</hi>-Attribut dient dabei der hauptsächlich der Darstellung der Ausrichtung, da die Notizen meist um 90° versetzt zur Ausrichtung des Umschlags ausgeführt
+                                wurden.<lb/> Das <hi rend="code">@place</hi>-Attribut bezeichnet den Ort der Zufügung auf dem Papier, gemäß den in diesen Richtlinien gemachten Spezifikationen.<lb/>
+                                Das <hi rend="code">@resp</hi>-Attribut gibt hier, wie immer, nur Auskunft darüber ob es sich um eine Zufügung des Schreibers handelt oder, wie in diesem Fall, um eine
+                                Zufügung des Empfängers.<lb/>
+                            </p>
+                        </div>
+                        <div>
+                            <head>1.3.2 Stempel</head>
+                            <p>Stempel werden als <hi rend="code">stamp</hi> Elemente erfasst und ihr Inhalt in diesen eingeschlossen. Bei den Stempeln wird mit einem <hi rend="code">@type</hi>
+                                Attribut zwischen Firmenstempeln und Poststempeln durch die Werte <hi rend="code">'firm'</hi> und <hi rend="code">'postal'</hi> unterschieden.<lb/> Die Orts- und
+                                Datumsangaben werden als solche erfasst und die Datumsangaben auch maschinenlesbar ausgezeichnet.<lb/> Gänzlich unleserliche Stempel werden wegen des fehlenden
+                                Informationsgehalts nicht durch die Transkription erfasst.<lb/>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>1.4 Textformat</head>
+                        <div>
+                            <head>1.4.1 Textpositionen, Absätze, Einzüge und Zeilen</head>
+                            <p>Alle Zeilenenden werden mit dem leeren Element <hi rend="code">&lt;lb/&gt;</hi> wie im Original erfasst.<lb/> Die Textpositionen werden nur vereinfacht dargestellt. Dazu
+                                werden die vom Haupttext verschobenen teile in <hi rend="code">&lt;seg&gt;</hi> Elementen erfasst und mit <hi rend="code">@rend</hi> mit den möglichen Werten <hi rend="code">'left'</hi>, <hi rend="code">'center'</hi> und <hi rend="code">'right'</hi> zugeordnet.<lb/> Zeileneinschübe werden nicht dargestellt.<lb/>
+                            </p>
+                        </div>
+                        <div>
+                            <head>1.4.2 Unterstreichungen, Hochstellungen, Hervorhebungen</head>
+                            <div>
+                                <head>1.4.2.1 Unterstreichungen</head>
+                                <p>Hervorhebungen im Text durch Unterstreichungen werden übernommen, aber nur bis zu drei Linien Unterstreichungen. Diese werden durch ein <hi rend="code">&lt;hi&gt;</hi> Element mit dem Attribut <hi rend="code">@rend</hi> mit dem Wert <hi rend="code">'underline'</hi> bezeichnet und die Häufigkeit der
+                                    Unterstreichung wird durch ein Attribut <hi rend="code">@n</hi> mit den Entsprechenden Werten bis drei ausgezeichnet.<lb/>
+                                </p>
+                            </div>
+                            <div>
+                                <head>1.4.2.2 Hochstellungen</head>
+                                <p>Hochstellungen von Wortendungen und Abkürzungen wie bespielsweise P<hi rend="superscript">er</hi> und D<hi rend="superscript">r</hi> werden als solche mit dem
+                                    Element <hi rend="code">&lt;hi&gt;</hi> und dem Attribut <hi rend="code">@rend</hi> mit dem Wert <hi rend="code">'superscript'</hi> erfasst. Einzige Ausnahme bildet
+                                    das „o“ in Co., das in der Regel als Co. ausgeschrieben wird, da die Stellung des „o“ in vielen Fällen nicht genau auszumachen ist.<lb/> Ebenfalls werden die zur
+                                    Darstellung von Ordinalzahlen verwendeten hochgestellten „<hi rend="superscript">te</hi>“ bzw. „<hi rend="superscript">ten</hi>“ u. ä. in der oben beschriebenen
+                                    Weise erfasst. An einigen Stellen dient die Hochstellung auch der Darstellung von Dezimalstellen, also „2<hi rend="superscript">75</hi>“ statt „2,75“. Diese
+                                    Schreibweise wird in der Transkription übernommen. Die bei Ziffern oder auch Qualitätsbezeichnungen („1<hi rend="superscript">a</hi>“) teilweise vorkommenden
+                                    Anführungszeichen / Doppelstriche unter dem Hochgestellten Wert werden nicht übernommen.</p>
+                            </div>
+                            <div>
+                                <head>1.4.2.3 Größer geschriebene Wörter und Buchstaben</head>
+                                <p>Größenwechsel von Buchstaben werden, auch wenn sie der Hervorhebung dienen, nicht miterfasst.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <head>1.4.3 Tabellen</head>
+                            <p>Tabellarische Darstellungen im Text werden übernommen und mit dem Element <hi rend="code">&lt;table&gt;</hi> ausgezeichnet.</p>
+                        </div>
+                        <div>
+                            <head>1.4.4 Zahlen, Brüche und Sonderzeichen</head>
+                            <p>Bruchzahlen werden, unabhängig von ihrer Darstellung im Text in der Unicode-kompatiblen Form mit einem Fraction Slash (c/“) dargestellt, z.B. als „½“. Auch da, wo
+                                abweichend von dieser Form die Zähler und Nenner mit einem geraden Bruchstrich als zwei übereinander stehende Zahlen dargestellt werden, erfolgt diese
+                                Darstellungsweise.<lb/> Sonderzeichen, wie das Pfundzeichen „℔“, ein kaufmännisches und („&amp;“) ein + usw. werden, sofern Unicode ihre Darstellung erlaubt, im Text
+                                wiedergegeben. Wo die Darstellung nicht in der Form dargestellt werden kann, wird deren Bedeutung ausgeschrieben und durch gepunktete Unterstreichung
+                                gekennzeichnet.<lb/> Die Unterscheidung zwischen den Pfundzeichen ℔ und £ erfolgt wo immer notwendig. Die erste Variante wird in den Fällen angewandt, bei denen im
+                                Original ein Gewichtspfundsymbol verwendet wurde, das mehr einem verschliffenen „u“ gleicht.<lb/>
+                            </p>
+                        </div>
+                        <div>
+                            <head>1.4.5 Anmerkungen, Notizen und Anstreichungen von anderer Hand</head>
+                            <p>Alle Einfügungen werden innerhalb eines <hi rend="code">&lt;add&gt;</hi> Elements mit den möglichen Attributen <hi rend="code">@style</hi>, <hi rend="code">@resp</hi>
+                                und <hi rend="code">@place</hi> erfasst.<lb/> Da sowohl auf der Sender- als auch auf der Empfängerseite bis auf wenigen Ausnahmen der Schreiber nicht ausgemacht werden
+                                kann, sind als Werte für <hi rend="code">@resp</hi> nur <hi rend="code">'writer'</hi> und <hi rend="code">'other'</hi> möglich. Alle Hinzufügungen die nicht durch den
+                                Sender resp. das Senderhaus verantwortet sind mit 'other' ausgezeichnet. </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <head>2. Sachauszeichnungen mit Registereintrag</head>
+                    <p>Alle Personen, Firmen, Orte, Waren und Schiffe werden in den jeweiligen Registern erfasst und mit einer <hi rend="code">@xml:id</hi> als URI versehen. Darüber hinaus werden auch
+                        erklärungsbedürftige Terme erfasst. Auch wenn über einzelne Personen oder Schiffe keine weiterführenden Informationen zu erlangen sind, so werden diese dennoch erfasst, um sie
+                        über ihre ID eindeutig zu identifizieren.</p>
+                    <div>
+                        <head>2.1 Personen</head>
+                        <p>Alle Personen werden mit einer <hi rend="code">@xml:id</hi> in das Register aufgenommen, auf das über ein <hi rend="code">@ref</hi> verwiesen wird. Informationen zur Person
+                            werden unter dem <hi rend="code">&lt;note&gt;</hi>-Eintrag zusammengefasst. Bibliographische Angaben zu den Informationen und, sofern vorhanden, Verweise auf Normdateien
+                            werden zur Verfügung gestellt. Die Informationen werden in der TEI-Publisher-Webumgebung als Popup dargestellt. </p>
+                    </div>
+                    <div>
+                        <head>2.2 Firmen &amp; Organisationen</head>
+                        <p>Alle Firmen werden mit einer <hi rend="code">@xml:id</hi> in das Register aufgenommen, auf das über ein @ref verwiesen wird. Das für die Organisationen verwendete Element
+                                <hi rend="code">&lt;orgName&gt;</hi> mit dem Attribut <hi rend="code">@type</hi> kann die Attributwerte <hi rend="code">'firm'</hi> für Firmen oder <hi rend="code">'gov'</hi> für öffentliche Organisationen annehmen. <lb/>
+                            <lb/> Beispielcode:<lb/>
+                            <hi rend="code"> &lt;orgName type="firm" ref="K01004"&gt;L. Kniffler &amp; Co.&lt;/orgName&gt;</hi>
+                            <lb/> Auszeichnung einer Organisation mit Verweis auf den Typ (<hi rend="code">@type='firm'</hi>) und Referenzierung des Registereintrags.<lb/>
+                            <lb/> Informationen zur Firma werden unter dem <hi rend="code">&lt;note&gt;</hi>-Eintrag zusammengefasst. Bibliographische Angaben zu den Informationen und, sofern
+                            vorhanden, Verweise auf Normdateien werden zur Verfügung gestellt. Die Informationen werden in der TEI-Publisher-Webumgebung als Popup dargestellt.</p>
+                    </div>
+                    <div>
+                        <head>2.3 Orte</head>
+                        <p>Alle Orte werden erfasst, mit einer <hi rend="code">@xml:id</hi> in das Register aufgenommen und über ein <hi rend="code">@ref</hi> mit der Normdatenbank <ref target="https://www.geonames.org/">GeoNames</ref> verbunden. In den Briefen sind Ortsnamen mit dem Element <hi rend="code">&lt;placeName&gt;</hi> Eine kurze
+                            Beschreibung des Ortes befindet sich im <hi rend="code">&lt;note&gt;</hi>-Eintrag. Die Informationen werden in der TEI-Publisher-Webumgebung als Popup dargestellt. </p>
+                    </div>
+                    <div>
+                        <head>2.4 Waren, Schiffe und Terme</head>
+                        <p>Alle Waren, Schiffe und Terme werden erfasst. Terme werden über das Attribut <hi rend="code">@type</hi> in die Gruppen <hi rend="code">'commercial'</hi> für Begriffe der
+                            Kaufmannssprache, <hi rend="code">'logistic'</hi> für logistische Ausdrücke, <hi rend="code">'currency'</hi> für Währungseinheiten und <hi rend="code">'measure'</hi> für
+                            Maßeinheiten eingeteilt. Waren werden in den Briefen mit dem Element <hi rend="code">&lt;term&gt;</hi> gekennzeichnet und mit dem <hi rend="code">@type</hi>-Attribut mit
+                            dem Wert <hi rend="code">'goods'</hi> spezifiziert. Schiffsnamen werden mit dem Element <hi rend="code">&lt;name&gt;</hi> gekennzeichnet und einem <hi rend="code">@type</hi>-Attribut und dem Wert <hi rend="code">'ship'</hi> spezifiziert. Waren, Schiffe und Terme erhalten Beschreibungen im <hi rend="code">&lt;note&gt;</hi>-Eintrag. Bibliographische Angaben zu den Informationen werden im Element <hi rend="code">&lt;bibl&gt;</hi> zur Verfügung gestellt. Die Informationen
+                            werden in der TEI-Publisher-Webumgebung als Popup dargestellt. </p>
+                    </div>
+                </div>
+                <div>
+                    <head>3. Maß-, Mengen- und Währungsangaben</head>
+                    <p>Weitere Sachauszeichnungen, die nicht auf einen Registereintrag verweisen, wurden vorgenommen, um Grundlage für eine computergestützte Auswertung von Warenpreisen und -flüssen
+                        zu bilden. Diese numerischen Angaben erfahren in der Regel keine Repräsentation in der Publikationsumgebung, sondern sind Teil des XML-Quellcodes der einzelnen Dokumente. Alle
+                        Maß-, Mengen- und Währungsangaben werden mit dem Element <hi rend="code">&lt;measure&gt;</hi> ausgezeichnet. Die Erläuterung zu in den Briefen verwendeten erklärungsbedürftigen
+                        Einheiten werden über den Registereintrag des <hi rend="code">&lt;term&gt;</hi> Elements vorgenommen. Für die Auszeichnung mit <hi rend="code">&lt;measure&gt;</hi> und zur
+                        Normalisierung wird das Element um die Attribute @type, @unit und @quantity erweitert. Mit @type wird die Art des Maßes bezeichnet, also Masse, Länge, Fläche, Währung etc. Das
+                            <hi rend="code">@unit</hi> bezeichnet die Einheit mit der gemessen wird, also Kilogramm, Meter usw. Mit dem <hi rend="code">@quantity</hi>-Attribut wird die Menge der
+                        jeweiligen Einheit beschrieben. <lb/>Beispielcode:<lb/>
+                        <hi rend="code">&lt;measure unit="mex$" type="currency" quantity="2.5"&gt;2 ½&lt;/measure&gt;</hi> Eine Dollarsumme in maschinenlesbarer Form </p>
+                </div>
+                <div>
+                    <head>4. Seiten</head>
+
+                    <div>
+                        <head>4.1. Briefumschläge</head>
+                        <p>Sämtliche Briefumschläge werden erfasst und die darauf enthaltenen Stempel und Anmerkungen in TEI-XML ausgezeichnet. Dabei werden die Poststempel vereinfacht dargestellt,
+                            aber mit allen darin enthaltenen Informationen.</p>
+                    </div>
+                    <div>
+                        <head>4.2 Seitenzahlen</head>
+                        <p>Es werden Seiten gezählt, nicht Blätter. Die Umschlagsseite wird als solche gekennzeichnet und nicht nummeriert. Die Seitenzählung wird – soweit vorhanden – aus den Briefen
+                            übernommen. Sollten Blätter verschollen sein, wird die vorhandene Nummerierung beibehalten, um das Ausmaß des Verlustes deutlich zu machen. Wo Seitenzahlen nicht vorhanden
+                            sind, werden sie eingesetzt. </p>
+                    </div>
+                </div>
+                <div>
+                    <head>5. Darstellung</head>
+                    <p>Die Darstellung der Transkription erfolgt in serifenloser Schrift. Worte und Absätze in lateinischer Schreibweise in der Webansicht kursiv dargestellt. Briefe in anderen
+                        europäischen Sprachen, die also ohnehin der lateinischen Schreibweise folgen, werden davon abweichend vollständig in serifenloser Schrift dargestellt. Gedruckte Schrift wird in
+                        einer nichtproportionalen Schriftart in grauer Farbe wiedergegeben. Einfügungen von anderer Hand werden in einer Serifenschrift dargestellt, um sie vom übrigen Text zu
+                        unterscheiden. Sämtliche mit Personen-, Orts- und Sachauszeichnungen versehenen Begriffe, die auf einen Registereintrag verweisen, werden in hellgrüner Farbe dargestellt. </p>
+                    <div>
+                        <head>5.1 Repräsentationen von Abbildungen</head>
+                        <p>Einige der hier edierten Dokumente enthalten Abbildungen, vor allem sind dies Firmenzeichen, die neben abgekürzten Firmennamen auch grafische Elemente (z. B. Dreicke,
+                            Kreuze) enthalten können. Diese wurden mit den Elementen <hi rend="code">&lt;figure&gt;</hi> und <hi rend="code">&lt;figDesc&gt;</hi> ausgezeichnet und enthalten eine
+                            Beschreibung des jeweiligen Firmenzeichens. Um die Beschreibungen vom übrigen Text abzuheben, sind diese in grauer Farbe gehalten.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

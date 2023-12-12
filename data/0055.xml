@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vertrag über eine Lieferung von Seegras zwischen Tookchai in Nagasaki und L.
+               Kniffler &amp; Co. auf Dejima vom 8. September 1865</title>
+            <title type="file">0055.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-54</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen. Drei Seiten Anschreiben und eine Notiz. Ein Stempel.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+         <creation>
+            <date when="1865-09-08"/>
+         </creation>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2019-01-25" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-13" who="MS">erste Anpassung an aktuelles Schema; Auszeichnung von
+            Personen-, Orts- und Sachnamen; Korrektur der Transkription</change>
+         <change when="2021-06-09" who="MS">Anpassung des TEI-Headers</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1865_09_08_Agreement_Kniffler_Tookchai_1.tif" n="1"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="underline" n="2">Agreement</hi>
+               </seg>
+               <lb/> entered into this <date when="1865-09-08">eighth day of Septh. 1865</date>,
+               between<lb/> Mr. <persName ref="K00107">Tookchai</persName> of <placeName ref="K00586">Ora</placeName>, <placeName ref="K00514">Nagasaki</placeName>
+               Merchants of the<lb/> one part and Mess<hi rend="superscript">rs</hi>
+               <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName> of <placeName ref="K00507">Desima</placeName>
+               <lb/>
+               <placeName ref="K00514">Nagasaki</placeName>, Merchants, of the other part<lb/> The
+               said <orgName type="firm" ref="K01004">Kniffler + Co.</orgName> hereby contract<lb/>
+               and agree to sell to the said <persName ref="K00107">Tookchai</persName>
+               <lb/>
+               <measure type="volume" quantity="3000" unit="picul" commodity="seaweed">three
+                  thousand</measure>
+               <term type="measure" ref="K01504">piculs</term> N<hi rend="superscript">o</hi> 1 best
+                  <term type="goods" ref="K01675">long Seaweed</term>
+               <lb/> on the following terms.<lb/> Mess<hi rend="superscript">rs</hi>
+               <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName> shall with all<lb/>
+               convenient speed, despatch the <choice>
+                  <abbr>Br</abbr>
+                  <expan>British</expan>
+               </choice>; Brig<lb/>
+               <name type="ship" ref="K01756">W<hi rend="superscript">m</hi> Cundall</name> to
+                  <placeName ref="K00528">Hakodade</placeName>, where the<lb/> vessel shall receive
+               a cargo of <measure type="volume" quantity="3000" unit="picul" commodity="seaweed">three thousand</measure>
+               <lb/>
+               <term type="measure" ref="K01504">piculs</term>
+               <term type="goods" ref="K01675">seaweed</term> as aforesaid and being so<lb/> loaded
+               shall proceed to the port of <placeName ref="K00503">Shanghai</placeName>
+               <lb/> and then deliver the same to said <persName ref="K00107">Tookchai</persName>
+               <lb/> or his Agents.<lb/> Four working days being allowed,<lb/> the vessel to
+               discharge said Cargo and<lb/> such days to commence 24 hours after<lb/> notice has
+               been given that the vessel<lb/> is ready to discharge. <measure type="currency" quantity="40" unit="mex$">Fourty</measure>
+               <term type="commercial" ref="K01508">mex. dollars</term>
+               <lb/> to be paid by said <persName ref="K00107">Tookchai</persName> for every<lb/>
+               laydays used in excess. Freight and<lb/> Insurance to be provided by said Kniffler +
+               Co<lb/> and all other charges to be borne by said<lb/>
+               <persName ref="K00107">Tookchai</persName>
+               <lb/> The <term type="goods" ref="K01675">Seaweed</term> to be weight on<lb/>
+            </p>
+            <pb facs="1865_09_08_Agreement_Kniffler_Tookchai_2.tif" n="2"/>
+            <p>board an taken from alongside the<lb/> vessel on the said <persName ref="K00107">Tookchai</persName>_s risk<lb/> and account<lb/> In consideration of the above
+               the<lb/> said <persName ref="K00107">Tookchai</persName> hereby agrees to pay for
+               the<lb/> said <measure type="volume" quantity="3000" unit="picul" commodity="seaweed">threethousand</measure>
+               <term type="measure" ref="K01504">piculs</term> N<hi rend="superscript">o</hi>1 best
+                  <term type="goods" ref="K01675">long<lb/> seaweed</term> at the rate of <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="4" unit="mex$" commodity="seaweed">4</measure>
+               <term type="measure" ref="K01504">perpicul</term> and shall<lb/> have the option of
+               paying same either in<lb/>
+               <placeName ref="K00503">Shanghai</placeName> upon true and proper delivery<lb/> of
+               the cargo there in clean <term type="commercial" ref="K01508">mex: dollars</term>
+               or<lb/> in ten days sight draft of Messrs<lb/>
+               <orgName type="firm" ref="K01109">Glover + C<hi rend="superscript">o</hi>
+               </orgName> on <placeName ref="K00514">Nagasaki</placeName> at 1% discount<lb/> In the
+               event of there being any<lb/> dispute as to the quality of the <term type="goods" ref="K01675">seaweed</term> on<lb/> arrival at <placeName ref="K00503">Shanghai</placeName>, the matter shall be<lb/> referred to arbitrators, chosen by
+               both<lb/> parties, whose decision shall be final<lb/> Should the <term type="goods" ref="K01675">seaweed</term> turn out to<lb/> be inferior quality or should no N<hi rend="superscript">o</hi> 1<lb/>
+               <term type="goods" ref="K01675">seaweed</term> be obtainable at <placeName ref="K00528">Hakodade</placeName> or<lb/> should the vessel not reach her
+               destination<lb/> then in all and such cases this agree-<lb/> ment shall be considered
+               canncelled<lb/> In the event of the cargo becoming<lb/> damaged in any way in course
+               of transit<lb/> from <placeName ref="K00528">Hakodade</placeName> to <placeName ref="K00503">Shanghai</placeName>, the<lb/> buyer shall only be banned to
+               receive<lb/> the same portion<lb/> It is moreover agreed that the<lb/> said <orgName type="firm" ref="K01004">Kniffler + Co</orgName> shall have the<lb/>
+               <pb facs="1865_09_08_Agreement_Kniffler_Tookchai_3.tif" n="3"/> option of shipping a
+               full Cargo in the<lb/>
+               <choice>
+                  <abbr>Brit.</abbr>
+                  <expan>British</expan>
+               </choice> Brig <name type="ship" ref="K01756">W<hi rend="superscript">m</hi>
+                  Cundall</name> + of despatching<lb/> the said vessel to <placeName ref="K00514">Nagasaki</placeName> before procee..<lb/> ding to Shanghai and may discharge<lb/>
+               at the former port the whole or any<lb/> portion of their part of the cargo, but
+               in<lb/> such case the vessel shall not be allowed<lb/> to stop at <placeName ref="K00514">Nagasaki</placeName> longer than eight<lb/> days, otherwise the said
+                  <persName ref="K00107">Tookchai</persName> shall<lb/> have the option of
+               cancelling this<lb/> agreement<lb/>
+               <seg rend="right">
+                  <placeName ref="K00514">Nagasaki</placeName>
+                  <date when="1865-09-08">8<hi rend="superscript">th</hi> Septh 1865</date>
+                  <lb/>
+                  <choice>
+                     <abbr>ppa</abbr>
+                     <expan>per procura autoritate</expan>
+                  </choice> Kniffler &amp; Co.<lb/>
+                  <persName ref="K00029">G Reddelien</persName>
+                  <lb/>
+                  <persName ref="K00107">Tukchai</persName>
+                  <lb/>
+                  <stamp style="round" type="commercial">斎篤</stamp>
+                  <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other">篤<lb/>斎</add>
+               </seg>
+            </p>
+            <pb facs="1865_09_08_Agreement_Kniffler_Tookchai_4.tif" n="4"/>
+            <p> Seaweedcontract<lb/> mit<lb/>
+               <persName ref="K00107">Toochchai</persName>
+               <lb/> über <term type="goods" ref="K01675">Seaweed</term>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

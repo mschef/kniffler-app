@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Martin Hermann Gildemeister</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00011">
+               <persName>
+                  <forename>Martin Hermann</forename>
+                  <surname>Gildemeister</surname>
+               </persName>
+               <birth>
+                  <date when="1836-03-28"/>
+                  <placeName>Klein Siemen</placeName>
+               </birth>
+               <death>
+                  <date when="1918-06-15"/>
+                  <placeName>Fallingbostel</placeName>
+               </death>
+               <note>Martin Hermann Gildemeister stammte aus der einflussreichen Bremer Kaufmanns-
+                  und Politikerfamilie Gildemeister. Er war nach seiner Lehre zum Kaufmann, die er
+                  bei seinem Onkel in dessen Firma Gildemeister &amp; Ries in Bremen abgeschlossen
+                  hatte, über Empfehlungen nach Batavia gekommen und hatte dort gemeinsam mit
+                  Kniffler bei Pandel &amp; Stiehaus gearbeitet. Als Kniffler beschloss, mit der
+                  bevorstehenden Öffnung Japans dort eine Niederlassung von Pandel &amp; Stiehaus zu
+                  gründen, ging Gildemeister mit ihm. Nach der Entscheidung Knifflers, letztlich
+                  doch ein eigenes Geschäft zu gründen, wurde Gildemeister Prokurist in der neuen
+                  Firma. 1866 wurde Gildmeister Honorarkonsul in Yokohama, verließ aber bereits 1868
+                  Japan und damit auch das Unternehmen L. Kniffler &amp; Co.</note>
+               <bibl source="https://www.deutsche-biographie.de/pnd119440539.html#ndbcontent">Deutsche Biographie</bibl>
+               <bibl>Dieter Glade: Die Lebenserinnerungen des Martin Hermann Gildemeister. In:
+                  Rotenburger Schriften 62, S. 69-92.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009.</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">77125572</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

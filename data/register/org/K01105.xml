@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Augustine Heard &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01105">
+               <orgName type="firm">Augustine Heard &amp; Co.</orgName>
+               <settlement>Kanton</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">146718830</idno>
+               <note>1839 von den Amerikanern Augustine Heard und Joseph Coolidge, beide ehemals angestellt bei Russell &amp; Co., gegründetes Unternehmen, das in den ersten Jahren vor allem Jardine,
+                  Matheson &amp; Co. im Opiumschmuggel zuarbeitete. Über die Geschichte der Firma nach dem Ausstieg der beiden Gründer 1844 und die Übernahme durch einen Neffen Heards ist wenig
+                  bekannt. 1875 war Heard &amp; Co. zahlungsunfähig und wurde von Jardine, Matheson &amp; Co. aufgekauft. </note>
+               <bibl>Jacques M. Downs: The Golden Ghetto, Bethlehem (PA) 1997, S. 191-198.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

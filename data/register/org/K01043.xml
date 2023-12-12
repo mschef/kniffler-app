@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Gildemeister, Mücke &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01043">
+               <orgName type="firm">Gildemeister, Mücke &amp; Co.</orgName>
+               <settlement>San Francisco</settlement>
+               <note>Vertreterfirma der Schifffahrtsgesellschaft Germanische Lloyd AG in San Francisco. Geschäftsführer war ab 1870 Gustav Mücke, der zudem österreichischer Handelskonsul in San
+                  Francisco von 1870 bis 1876 war. Dessen Bruder Gottlieb Mücke (1841-????) wiederum war verheiratet mit Anna Christiane Gildemeister (1835-1904), einer Schwester Martin Hermann
+                  Gildemeisters.</note>
+               <bibl>Rudolf Agstner: Austria (-Hungary) and its consulates in the United States of America since 1820, Zürich 2012, S. 286-287, 382</bibl>
+               <bibl>Uwe Plath (Hrsg.): Die Lebenserinnerungen der Anna Gildemeister (1849-1942), Hannover 1994, S.157.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

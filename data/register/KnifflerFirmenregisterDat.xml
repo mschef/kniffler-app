@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html"
+view="page"?><?xml-model href="knifflerSchema/Firmenregister.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/Firmenregister.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister Kniffler-Briefe</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01000">
+               <orgName type="firm">Eugster, Labhart &amp; Co.</orgName>
+               <settlement>Manila</settlement>
+               <note>Im Auftrag der Schweizer Textilfirma Gebrüder Tobler &amp; Co. reiste Leonhard Eugster 1843 auf der Suche nach neuen Absatzmärkten. Da Eugster den Markt in China als nicht
+                  ausreichend aufnahmefähig für die Textilien von Tobler erachtete, ließ er sich in Manila nieder, wo er am 16. Juni 1844 eine Niederlassung von Tobler gründete. Als auch in Manila die
+                  anfänglich guten Absätze schwankten, schickte Tobler einen Familienangehörigen (Sebastian Tobler) zur Unterstützung Eugsters nach Manila, dieser verstarb jedoch schon bei der
+                  Anreise. Daraufhin sandten Tobler J. C. Labhart nach Manila. Mit diesem gründete Eugster 1848 Eugster, Labhart &amp; Co. Gebr. Tobler &amp; Co. übertrugen ihr Kommissionsgeschäft auf
+                  die neue Firma, der sie als Kommanditäre verbunden blieben. </note>
+               <bibl>Andreas Zangger: The Swiss in Singapore, Singapur 2014, S. 22-25.</bibl>
+               <bibl>Arnold Eugster: Geschichte der Gemeinde Speicher. Von den Anfängen bis zur Gegenwart, Gais 1947, S. 81-82; 251.</bibl>
+               <bibl>Leonhard Eugster: Ein Appenzeller in China, in: Appenzellisches Monatsblatt 8 (1845), S. 115–123, S. 115.</bibl>
+            </org>
+            <org xml:id="K01001">
+               <orgName type="firm">Pandel &amp; Stiehaus</orgName>
+               <settlement>Batavia</settlement>
+               <note> Der Hamburger Kaufmann Friedrich Pandel und der ebenfalls aus der Hansestadt stammende Spediteur Georg Friedrich Stiehaus hatten zusammen beim Handelshaus Bollenhagen &amp; Co.
+                  in Hamburg gearbeitet. Mit der finanziellen Unterstützung von Ferdinand Laeisz, dessen Kontor sich in Hamburg im selben Haus befand wie das von Bollenhagen, verließen die beiden
+                  Firmengründer 1848 Hamburg. Gleich nach ihrer Ankunft in Batavia gründeten sie das Importgeschäft Pandel &amp; Stiehaus. Über die engen Verbindungen zu Jakob Bollenhagen und auf
+                  dessen Vermittlung hin trat Louis Kniffler 1852 in die Firma ein. 1855 verstarb G. F. Stiehaus auf einer Geschäftsreise in Singapur, woraufhin Pandel Kniffler die Prokura erteilte.
+                  Zwei Jahre später verstarb auch der zweite Firmengründer auf der Rückreise von Europa nach Batavia. Zusammen mit dem zweiten Prokuristen L. W. Stäcker übernahm Louis Kniffler Pandel
+                  &amp; Stiehaus. Als neuer Inhaber stieß Kniffler jedoch auf zunehmende Schwierigkeiten im Handel in Batavia und versuchte daher, in anderen Märkten Asiens Fuß zu fassen. Aus der
+                  Idee, eine Filiale von Pandel &amp; Stiehaus in Japan aufzubauen, erwuchs schließlich das Handelshaus L. Kniffler &amp; Co. Trotz seines damit erfolgten Ausstiegs aus dem Unternehmen
+                  sind vor allem aus den frühen Jahren der Firma L. Kniffler &amp; Co. zahlreiche Briefe aus Batavia erhalten. Die Beziehung zu Pandel &amp; Stiehaus wurde fortgeführt und hielt sich
+                  bis mindestens 1872. </note>
+               <bibl>Johann Friedrich Kierulff (Hrsg.): Sammlung der Entscheidungen des Ober-Appellationsgerichts der vier freien Städte Deutschlands zu Lübeck, Hamburg 1865, S. 270–284.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959 (Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 23), Hamburg 1959, S. 19-22.</bibl>
+            </org>
+            <org xml:id="K01002">
+               <orgName type="firm">Wilhelm Pustau &amp; Co.</orgName>
+               <settlement/>
+               <note> Im Januar 1845 eröffnete der Hamburger Kaufmann Wilhelm Pustau in Kanton das erste deutsche Handelshaus in China unter dem Namen Wm. Pustau &amp; Co. </note>
+               <bibl>Mechthild Leutner &amp; Klaus Mühlhahn: Interkulturelle Handlungsmuster: Deutsche Wirtschaft und Mission in China in der Spätphase des Imperialismus, in: Dies. (Hrsg.):
+                  Deutsch-chinesische Beziehungen im 19. Jahrhundert. Mission und Wirtschaft in interkultureller Perspektive (Berliner China-Studien, 38), Münster 2001, S. 21-22.</bibl>
+            </org>
+            <org xml:id="K01003">
+               <orgName type="firm">Maclaine Watson &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>1827 vom Schotten Gillian Maclaine gegründetes Unternehmen, das zunächst im Handel mit Baumwollwaren, Kaffee und Opium tätig war. Auch nach dem Tode Maclaines 1840 bestand die
+                  Firma in Batavia bis ins 20. Jahrhundert fort und machte ihre bedeutsamsten Geschäfte im Handel mit Zucker. Eine Besonderheit von Maclaines Geschäft war, dass bis in die 1880er Jahre
+                  beinahe ausschließlich innerhalb Asiens gehandelt wurde, während viele europäisch geführte Handelsfirmen im 19. Jahrhundert vor allem im Im- und Exportgeschäft mit dem Westen tätig
+                  waren. </note>
+               <bibl>G. Roger Knight: A Scots Émigré, Imperial Systems and Global Commodities, in: Commodities of Empire 22, o.A.</bibl>
+            </org>
+            <org xml:id="K01004">
+               <orgName type="firm">L. Kniffler &amp; Co.</orgName>
+               <settlement/>
+               <note>Das Handelsunternehmen L. Kniffler &amp; Co. wurde 1859 durch den preußischen Kaufmann Louis Kniffler (1827–1888) in Nagasaki gegründet. Es war eines der ersten euroamerikanischen
+                  Handelshäuser, die sich nach der Aufgabe der Isolationspolitik des Shogunats in Japan niederließen, und es entwickelte sich innerhalb weniger Jahre zu einem der größeren.</note>
+               <bibl source="https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutKniffler.xml">Über L. Kniffler &amp; Co.</bibl>
+            </org>
+            <org xml:id="K01005">
+               <orgName type="firm">Morgan, Melbourn &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Handelshaus in Batavia. Ein Zeitungsbericht aus dem Jahre 1869 berichtet vom Bankrott des Unternehmens. </note>
+               <bibl>Neue Augsburger Zeitung vom 12.5.1869</bibl>
+            </org>
+            <org xml:id="K01006">
+               <orgName type="firm">Siemssen &amp; Co.</orgName>
+               <settlement>Kanton</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">2021916-7</idno>
+               <note>Im Februar 1846 vom Hamburger Kaufmann Georg Theodor Siemssen gegründetes Handelshaus. Ursprünglich hatte Siemssen nur die Gründung einer Filiale seines langjährigen Arbeitgebers
+                  Roß, Vidal &amp; Co. in Kanton geplant, was dessen Inhaber aber abgelehnt hatte. Zunächst vor allem auf den Export fokussiert, verschickte Siemssen Rohstoffe für die chemische
+                  Industrie und Gewürze nach Hamburg. Im Februar 1852 wurde G. T. Siemssen zum hamburgischen Konsul in Kanton ernannt. Wegen der zunehmenden Bedeutung Hongkongs seit der Errichtung der
+                  britischen Kronkolonie beschloss Siemssen, dort eine Filiale zu errichten. Damit waren Siemssen &amp; Co. das erste deutsche Handelshaus in Hongkong. Die Firma expandierte schon bald
+                  in weitere chinesische Hafenstädte, zog sich aber nach innenpolitischen Krisen in China und daraus folgender wirtschaftlicher Flaute Ende der 1850er Jahre zurück. Nach Siemssens
+                  Rückkehr nach Hamburg und Neugründung der Firma dort wurde sie aktiv im Teehandel. Der Gründer zog sich 1869 endgültig aus der Geschäftsführung zurück, nachdem er 1865 einer der
+                  Mitbegründer der bis heute bestehenden Hongkong &amp; Shanghai Bank Corporation (HSBC) geworden war. </note>
+               <bibl>Maria Möring: Siemssen &amp; Co. 1846-1971. (= Veröffentlichengen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg 33). Hamburg, 1971.</bibl>
+            </org>
+            <org xml:id="K01007">
+               <orgName type="gov">Gouvernement von Batavia</orgName>
+               <settlement>Batavia</settlement>
+               <note>Die niederländische Kolonialregierung von Batavia. Diese war nicht nur für die Verwaltung zuständig, sondern betrieb auch über halbstaatliche Unternehmen in nicht geringem Umfang
+                  Handel.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01008">
+               <orgName type="firm">Bollenhagen &amp; Co.</orgName>
+               <settlement>Hamburg</settlement>
+               <note>Das Handelshaus Bollenhagen &amp; Co. war der erste Arbeitgeber Louis Knifflers im Jahre 1850. Jakob Bollenhagen hatte ursprünglich zusammen mit Friedrich Pandel "Bollenhagen
+                  &amp; Pandel" als Unternehmen in Hamburg betrieben. Nachdem Pandel und der später hinzugekommene Teilhaber Georg Stiehaus ihr eigenes Unternehmen gegründet hatten und damit in den
+                  Ostasienhandel eingestiegen waren, blieben sie weiterhin mit Bollenhagen in Hamburg verbunden, der wiederum mit seiner eigenen Firma den Einkauf seiner ehemaligen Kollegen übernahm.
+                  Nach dem Tode Jakob Bollenhagens brachen die Beziehungen zur Firma L. Kniffler &amp; Co. ab.</note>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959 (Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 23), Hamburg 1959, S. 19-20, 52.</bibl>
+            </org>
+            <org xml:id="K01009">
+               <orgName type="firm">G. H. &amp; J. F. Wulff</orgName>
+               <settlement>London</settlement>
+               <note>Londoner Bankhaus, das sich auch im ostasiatischen Teehandel betätigte.</note>
+               <bibl>Maria Möring: Siemssen &amp; Co. 1846-1971. (= Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg 33). Hamburg 1971, S. 42</bibl>
+            </org>
+            <org xml:id="K01010">
+               <orgName type="firm">Meyer &amp; Ortmann</orgName>
+               <settlement>Rotterdam</settlement>
+               <note>Handelshaus im Hafen von Rotterdam. Geschäftsführer war Julius Meyer, der sich darüber hinaus auch als Hotelier betätigte.</note>
+               <bibl>Charles Barker &amp; Sons: The Joint stock companies' directory for 1867. London 1867, S. 494.</bibl>
+            </org>
+            <org xml:id="K01011">
+               <orgName type="firm">Bourjau Hubener &amp; Co.</orgName>
+               <settlement>Hongkong</settlement>
+               <note>Auch: Bourjau Hübener &amp; Co. Adolph Bourjau und Carl Albert Hubener kamen 1858 als Angestellte nach Hongkong, gründeten aber schon im Jahr darauf zusammen eine eigene Firma. In
+                  den 1860er Jahren trat Ernst Behre, der später Teilhaber wurde, in die Firma ein. Bourjau blieb in einer leitenden Position bis zu seinem Tod im Jahre 1873. Hiernach übernahmen Oscar
+                  und Gustav A. Wieler das Geschäft, das in Wieler &amp; Co. umbenannt wurde.</note>
+               <bibl>Carl Smith: The German Speaking Community in Hong Kong 1846-1918. In: Journal of the Royal Asiatic Society Hong Kong Branch 34, 1994, S. 31</bibl>
+            </org>
+            <org xml:id="K01012">
+               <orgName type="firm">Cassalette &amp; Co.</orgName>
+               <settlement>Aachen</settlement>
+               <note>Die Aachener Kratzenfabriken Cassalette &amp; Co. wurden 1822 gegründet. Das Unternehmen stellte Kratzen zur Aufrauhung glatter Textilien her.</note>
+               <bibl>Albert Huyskens: Aachen, Berlin 1925, S. 242-245.</bibl>
+            </org>
+            <org xml:id="K01013">
+               <orgName type="firm">Tolson, Hunt &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Niederlassung der Liverpooler Firma Kirby John Perkins &amp; Co. in Batavia. 1871 oder 1872 wurde das Geschäft in Liverpool aufgelöst. </note>
+               <bibl>The Liverpool Commercial List 1871-1872 Appendix, S. 21</bibl>
+            </org>
+            <org xml:id="K01014">
+               <orgName type="firm">Arlès-Dufour &amp; Co</orgName>
+               <settlement>Lyon</settlement>
+               <note>Unternehmen, das im Seidenhandel zwischen Frankreich und Japan tätig war. Im Brief vom 29.11.1860 von Pandel &amp; Stiehaus fälschlicherweise als "Alex Dufour" bezeichnet. </note>
+               <bibl>Shinya Sugiyama: Japan's Industrialization in the World Economy, London 2013, S. 134 </bibl>
+            </org>
+            <org xml:id="K01015">
+               <orgName type="firm">Behn, Meyer &amp; Co.</orgName>
+               <settlement>Singapur</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">2005464-6</idno>
+               <note>1840 in Singapur von den Hamburger Kaufleuten Theodor August Behn (1816-1886) und Valentin Lorenz Meyer (1817-1901) gegründetes Handelshaus. Behn, Meyer &amp; Co. verfügten,
+                  ähnlich wie L. Kniffler &amp; Co. in Japan, über ein weites Korrespondenz- und Handelsnetz in Asien und stiegen dadurch insbesondere seit den 1860er Jahren zu einem der bedeutendsten
+                  Häuser im Asienhandel auf. 1857 wurde der Unternehmenssitz unter dem Namen "Arnold Otto Meyer" nach Hamburg verlegt, wo die Firma unter ihrem ursprünglichen Namen bis heute
+                  fortbesteht. </note>
+               <bibl>Emil Helfferich: Zur Geschichte der Firmen Behn, Meyer und Co., Hamburg 1957</bibl>
+            </org>
+            <org xml:id="K01016">
+               <orgName type="firm">Plump &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Kommissionärsgeschäft in Batavia. In Briefen der ebenfalls dort ansässigen Firma Pandel &amp; Stiehaus wird erwähnt, dass die Firma 1860 liquidierte. Stand möglicherweise in
+                  Verbindung mit dem Bremer Bankhaus Plump. </note>
+               <bibl>Nederlandsche Residentie en 's Gravenhaagsche Stads-almanak voor het jaar 1862, S. 426</bibl>
+            </org>
+            <org xml:id="K01017">
+               <orgName type="firm">J. J. Bänziger &amp; Co.</orgName>
+               <settlement>St. Gallen</settlement>
+               <note>Handelshaus des Schweizer Kaufmanns John Bänziger. Bänziger &amp; Co. handelten vor allem mit Textilwaren.</note>
+               <bibl>Official descriptive and illustrated catalogue. 3: Foreign states, S. 1278</bibl>
+            </org>
+            <org xml:id="K01018">
+               <orgName type="firm">Gebrüder Gonzenbach</orgName>
+               <settlement>St. Gallen</settlement>
+               <note>Schweizer Unternehmen im Textilhandel der einflussreichen Kaufmannsfamilie von Gonzenbach. Zu den Teilhabern der Firma im Jahre 1860 gehörte Carl Emil Viktor von Gonzenbach. Die
+                  Familie Gonzenbach galt nicht nur als bedeutende Institution in der Wirtschaft der Schweiz, sondern war auch in hohen politischen Ämtern vertreten.</note>
+               <bibl>Andreas Zangger: Koloniale Schweiz, Bielefeld 2014, S. 307</bibl>
+            </org>
+            <org xml:id="K01019">
+               <orgName type="firm">Rautenberg, Schmidt &amp; Co.</orgName>
+               <settlement>Singapur</settlement>
+               <note>Das Unternehmen wurde 1849 in Singapur von Henry Charles Rautenberg und Frederick George Schmidt, beide aus Hamburg, gegründet. Sie importierten und exportierten diverse Güter
+                  zwischen Asien und Amerika. Daneben waren Rautenberg, Schmidt &amp; Co. Agenten der Austrian Lloyd Steam Navigation Company und für verschiedene Kunden in Bremen und Antwerpen.
+                  Bereits zwei Jahre nach Gründung des Unternehmens, am 17. April 1851, verstarb Rautenberg bei einer Bootsfahrt mit Hurtlaus, einem Juniorpartner von Behn, Meyer &amp; Co. In den
+                  folgenden Jahren führte Schmidt das Unternehmen zunächst alleine weiter und expandierte nach Malaysia. 1863 wurde die Firma nach dem Einstieg Franz Küstermanns in Schmidt, Küstermann
+                  &amp; Co. umbenannt und bestand bis zum ersten Weltkrieg fort.</note>
+               <bibl>Khoo Salma Nasution: More than Merchants, Penang 2006, S. 120</bibl>
+               <bibl>Arnold Wright: Twentieth century impressions of British Malaya, London 1908, S. 676</bibl>
+            </org>
+            <org xml:id="K01020">
+               <orgName type="firm">Nederlandsche Handel-Maatschappij</orgName>
+               <settlement>Amsterdam, Batavia</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1086199197</idno>
+               <note>Bedeutende Niederländische Handelsfirma, die bis 1850 als Agent des Gouvernements von Niederländisch-Indien zahlreiche Vorzugsrechte genoss und sich danach hierauf aufbauend eine
+                  Vormachtstellung in der Region erarbeitete. Als durch den niederländischen Staat legitimierter Quasi-Monopolist war es die Aufgabe der Maatschappij, die Produkte des durch die
+                  Kolonialverwaltung in Batavia betriebenen Zwangsanbaus (vor allem Tabak, Zucker &amp; Kaffee) auf den Markt zu bringen. Die NHM war zwischen 1850 und 1880 auch in Japan vertreten.
+                  Schon wenige Jahre nach Eröffnung des ersten Büros in Nagasaki, das zunächst von Albertus Bauduin (1829-1890) und Philipp Franz von Siebold (1796-1866) geleitet wurde, war das
+                  Unternehmen über Agenten oder eigene Niederlassungen in sämtlichen Vertragshäfen Japans in den Handel involviert. Über den Kontakt zur Firma Pandel &amp; Stiehaus wurde Kniffler
+                  regelmäßig über die Vorgänge bei der Maatschappij unterrichtet. Nach anhaltenden wirtschaftlichen Krisen in den 1870er Jahren zog die Maatschappij sich 1880 schließlich aus dem
+                  Japangeschäft zurück.</note>
+               <bibl>G. Roger Knight: Sugar, Steam and Steel, Adelaide 2014, S. 63-91</bibl>
+               <bibl>Ferry de Goey: A Case of Business Failure, in: Zeitschrift für Unternehmensgeschichte 58 (1), S. 105-125</bibl>
+            </org>
+            <org xml:id="K01021">
+               <orgName type="firm">Johann Lange Sohns Witwe &amp; Co.</orgName>
+               <settlement>Bremen</settlement>
+               <note>Vermutlich 1642 gegründetes Handelsunternehmen aus Bremen. Im 19. Jahrhundert handelte die Firma mit verschiedenen Kolonialwaren, das Hauptgeschäft war jedoch der Handel mit Tabak
+                  von den amerikanischen Kontinenten sowie aus Südostasien. August Behn, späterer Gründer der Firma Behn, Meyer &amp; Co., arbeitete ab zwischen 1837 und 1840 für Johann Lange und ging
+                  für die Firma nach Singapur, wo er sich schließlich selbständig machte. Zur Firma Kniffler bestand seit mindestens 1863 Kontakt. Im Juli 1864 besuchte Martin Hermann Gildemeister das
+                  Geschäft persönlich, wie aus dem Brief vom 9.7.1864 hervorgeht.</note>
+               <bibl>Friedrich Prüser: Johann Lange Sohns Witwe &amp; Co., in: Der Schlüssel 8 (1), S. 5-10</bibl>
+            </org>
+            <org xml:id="K01023">
+               <orgName type="firm">Reimer &amp; Co.</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>1862 befand sich das Unternehmen in Nagasaki in Liquidation. Hiernach wurde das Geschäft nach China verlegt.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1865, S. 76.</bibl>
+            </org>
+            <org xml:id="K01024">
+               <orgName type="firm">Fritze &amp; Gerdes</orgName>
+               <settlement>Bremen</settlement>
+               <note>In den 1830er oder 1840er Jahren gegründete Reederei in Bremen.</note>
+               <bibl>Walter Kresse: Die hanseatische Reederei im 18. und 19. Jahrhundert, in: Hanseatische Geschichtsblätter 93, S. 93</bibl>
+            </org>
+            <org xml:id="K01025">
+               <orgName type="firm">Birtner &amp; Co.</orgName>
+               <settlement>Bremen</settlement>
+               <note>Handelshaus aus Bremen.</note>
+               <bibl>H. Rudolph: Adressbuch des deutschen Grosshandels und Fabrikstandes, Leipzig 1867, S. 197</bibl>
+            </org>
+            <org xml:id="K01026">
+               <orgName type="firm">W. Brummer / W. Brummer, Schröder &amp; Co.</orgName>
+               <settlement>Amsterdam, Rotterdam</settlement>
+               <note>Speditionsunternehmen, das Dampfschifffahrten im Nordseeraum anbot.</note>
+               <bibl>Allgemeine Zeitung München vom 30.7.1870, S. 3366-3367</bibl>
+            </org>
+            <org xml:id="K01027">
+               <orgName type="firm">Geb. Mayer &amp; Co.</orgName>
+               <settlement>St. Gallen</settlement>
+               <note>Unternehmen des Textilhandels in St. Gallen. Handelte auch im Auftrag einer New Yorker Firma mit Nähmaschinen.</note>
+               <bibl>Feldkircher Anzeiger vom 9. Juni 1863, S. 90</bibl>
+            </org>
+            <org xml:id="K01028">
+               <orgName type="firm">Van Raalte &amp; Co.</orgName>
+               <settlement>Berlin</settlement>
+               <note>Zigarrengeschäft in Berlin.</note>
+               <bibl>Berliner Adreßbuch für das Jahr 1877. Unter Benutzung Amtl. Quellen 1877 = Jg. 9</bibl>
+            </org>
+            <org xml:id="K01029">
+               <orgName type="firm">London Joint Stock Bank</orgName>
+               <settlement>London</settlement>
+               <note>1837 gegründete Aktienbank. 1917 ging sie in der Midlank Bank auf. </note>
+               <bibl source="https://www.britishmuseum.org/collection/term/BIOG111403">British Musuem Collection online</bibl>
+            </org>
+            <org xml:id="K01030">
+               <orgName type="firm">Lämpe Kauffmann &amp; Co.</orgName>
+               <settlement>Berlin</settlement>
+               <note>Unternehmen des Textilhandels in Berlin.</note>
+               <bibl>Dritte Beilage zur Königlich privilegirten Berlinischen Zeitung vom 21.4.1848</bibl>
+            </org>
+            <org xml:id="K01031">
+               <orgName type="firm">Benecke, Souchay &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>1865 in London gegründetes Handelsunternehmen aus dem Umfeld der wohlhabenden Händlerfamilie Souchay, die seit Ende des 18. Jahrhunderts an Handelshäusern in ganz Europa und
+                  darüber hinaus beteiligt war. Benecke, Souchay &amp; Co. bestand bis 1894.</note>
+               <bibl>Guenther Roth: Max Webers deutsch-englische Familiengeschichte 1800-1950, Tübingen 2001, S. 646</bibl>
+            </org>
+            <org xml:id="K01032">
+               <orgName type="firm">Scheibler Brothers &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Handelshaus in London in deutschem Besitz.</note>
+               <bibl>Street's Indian and Colonial Mercantile Directory for 1869, London 1869, S. 354.</bibl>
+            </org>
+            <org xml:id="K01033">
+               <orgName type="firm">Heynssen Martienssen &amp; Co.</orgName>
+               <settlement>Manchester</settlement>
+               <note>Handelsfirma aus Manchester, gegründet 1862.</note>
+               <bibl>Estell &amp; Co.: The Manchester Commercial List 1873-1874, London 1873, o. S.</bibl>
+            </org>
+            <org xml:id="K01034">
+               <orgName type="firm">L. E. Amsinck &amp; Co.</orgName>
+               <settlement>New York</settlement>
+               <note>Handelshaus des Unternehmers Erdwin Amsinck (1826-1897), der in New York das Handelsgeschäft im Auftrag der Hamburger Firma Schuback leitete.</note>
+               <bibl>Oswald R. Amsinck: Erdwin Amsinck und seine Stiftung, in: Hamburgische Geschichts- und Heimatblätter, Band 13.</bibl>
+            </org>
+            <org xml:id="K01035">
+               <orgName type="gov">Preußisches Konsulat in Nagasaki</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>Englisch: H. P. M.'s (His Prussian Majesty's) Consulate. Das 1862 nach der Ratifizierung des deutsch-japanischen Handelsvertrags eingerichtete preußische Konsulat unter Leitung
+                  von Max von Brandt (1835-1920) in Nagasaki war die erste diplomatische Vertretung eines deutschen Staats in Japan. Unter anderem wirkte hier Louis Kniffler zwischen 1864 und 1865 als
+                  Vizekonsul. Das preußische Konsulat wurde nach der Gründung des norddeutschen Bunds in das Norddeutsche Bundeskonsulat zu Nagasaki überführt.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01036">
+               <orgName type="firm">Kreglinger &amp; Co.</orgName>
+               <settlement>Amsterdam</settlement>
+               <note>Handelshaus in Amsterdam.</note>
+               <bibl>Alexander Claver: Dutch Commerce and Chinese Merchants in Java. Leiden 2014, S. 118</bibl>
+            </org>
+            <org xml:id="K01037">
+               <orgName type="firm">Raschle, Graeminger &amp; Co.</orgName>
+               <settlement/>
+               <note>Erwähnt im Brief von W. Brummer vom 25.2.1869</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01038">
+               <orgName type="firm">Drake, Kleinwort &amp; Cohen</orgName>
+               <settlement>London</settlement>
+               <note>Londoner Bankhaus, 1855 als Kleinwort &amp; Cohen durch den Hamburger Kaufmann Alexander Friedrich Kleinwort (1815-1886) gegründet. Firmierte bis 1870 unter dem Namen Drake,
+                  Kleinwort &amp; Cohen.</note>
+               <bibl>Jehanne Wake: Kleinwort Benson - The History of Two Families in Banking, Oxford 1997.</bibl>
+            </org>
+            <org xml:id="K01039">
+               <orgName type="gov">Norddeutsches Bundeskonsulat</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>Konsulat des norddeutschen Bunds in Nagasaki. Nach der Gründung des Norddeutschen Bunds 1867 wurden die preußischen Konsulate in Japan 1869 in Norddeutsche Bundeskonsulate
+                  überführt. Konsulate bestanden von da an nicht nur wie bisher in Nagasaki und Hakodate, sondern auch erstmals in Niigata und Yokohama.</note>
+               <bibl source="https://de.wikisource.org/wiki/Ernennung_zu_Deutschen_Bundeskonsuln._Vom_8._Juni_1869">Bundesgesetzblatt des Norddeutschen Bundes Band 1869, Nr. 16, Seite 144</bibl>
+            </org>
+            <org xml:id="K01040">
+               <orgName type="firm">C. E. Streckeder</orgName>
+               <settlement>Barmen</settlement>
+               <note>Unleserlicher Name einer Firma aus Barmen im Brief vom 27.11.1869.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01041">
+               <orgName type="firm">Banaia Warehouses</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Erwähnt im Brief vom 27.11.1869</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01042">
+               <orgName type="firm">Hauschild &amp; Sörnsen</orgName>
+               <settlement>Saigon</settlement>
+               <note>Österreichische Firma in Saigon. Inhaber waren Louis Hauschild und Ferdinand Sörnsen, der von 1869-1875 auch österreichischer Honorarkonsul in Saigon war.</note>
+               <bibl>Rudolf Agstner: Vom k.u.k. österreichisch-ungarischen Honorarkonsulat in Saigon zum österreichischen Honorarkonsulat in Ho Chi Minh Stadt, Wien 2012, S. 19-20, 41</bibl>
+            </org>
+            <org xml:id="K01043">
+               <orgName type="firm">Gildemeister, Mücke &amp; Co.</orgName>
+               <settlement>San Francisco</settlement>
+               <note>Vertreterfirma der Schifffahrtsgesellschaft Germanische Lloyd AG in San Francisco. Geschäftsführer war ab 1870 Gustav Mücke, der zudem österreichischer Handelskonsul in San
+                  Francisco von 1870 bis 1876 war. Dessen Bruder Gottlieb Mücke (1841-????) wiederum war verheiratet mit Anna Christiane Gildemeister (1835-1904), einer Schwester Martin Hermann
+                  Gildemeisters.</note>
+               <bibl>Rudolf Agstner: Austria (-Hungary) and its consulates in the United States of America since 1820, Zürich 2012, S. 286-287, 382</bibl>
+               <bibl>Uwe Plath (Hrsg.): Die Lebenserinnerungen der Anna Gildemeister (1849-1942), Hannover 1994, S.157.</bibl>
+            </org>
+            <org xml:id="K01044">
+               <orgName type="firm">W. van Oordt &amp; Co.</orgName>
+               <settlement/>
+               <note>1868 in Yokohama vom späteren niederländischen Konsul W. C. van Oordt gegründete Handelsfirma und Versicherungsagentur.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01045">
+               <orgName type="gov">Außenministerium Japans</orgName>
+               <settlement>Tokyo</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">140715596</idno>
+               <note>Das Außenministerium (jap. gaimushō) Japans wurde 1869 gegründet.</note>
+            </org>
+            <org xml:id="K01046">
+               <orgName type="firm">Weber, Leysner &amp; Co.</orgName>
+               <settlement>Niigata</settlement>
+               <note>Von A. R. Weber und C. E. A. Leysner im Jahre 1868 oder 1869 in Niigata gemeinsam gegründetes Unternehmen. 1874 löste sich die Firma aufgrund persönlicher Differenzen der beiden
+                  Gründer auf. Weber und Leysner gründeten separate Unternehmen, letzterer wurde zudem erster deutscher Konsul in der Stadt Niigata.</note>
+               <bibl source="https://oag.jp/people/carl-emil-adolph-leysner/">OAG</bibl>
+            </org>
+            <org xml:id="K01047">
+               <orgName type="gov">Chōshū</orgName>
+               <settlement/>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">252983564</idno>
+               <note>Eines der Lehen (jap.: han), die bis zur Meiji-Restauration und der nachfolgenden Auflösung der Lehen bestanden. Chōshū war neben Satsuma eines der Lehen, die an der Wende von
+                  Edo- und Meiji-Zeit die seit über zwei Jahrhunderten herrschenden Tokugawa zu entmachten und die Herrschaft des Kaisers (jap. Tennō) wiederherzustellen.</note>
+               <bibl>Christian Oberländer: Von den Ungleichen Verträgen zur Großmacht - Japans Weg zum modernen Nationalstaat. In: Geschichte Japans, Stuttgart 2012.</bibl>
+            </org>
+            <org xml:id="K01049">
+               <orgName type="firm">Schellhass &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>1861 oder 1862 in Hongkong von Eduard Schellhass aus Bremen gegründet. Unterhielt auch Filialen in Guangzhou (Kanton), Tianjin und Hangzhou. Firmierte unter dem Namen Schellhass
+                  &amp; Co. in Hongkong bis 1890.</note>
+               <bibl>Solomon Bard: Some foreign merchant houses, 1841-1899, Hong Kong 1993, S. 104</bibl>
+               <bibl>Lothar Deeg: Kunst &amp; Albers Wladiwostok, Essen 1996, S. 60</bibl>
+               <bibl>Ostasiatischer Verein: Ostasiatischer Verein Hamburg-Bremen zum 60-jährigen Bestehen, Hamburg 1960, S. 101, 182 </bibl>
+            </org>
+            <org xml:id="K01050">
+               <orgName type="gov">Japanisches Gouvernement von Nagasaki/Polizeibehörde</orgName>
+               <settlement>Tokyo</settlement>
+               <note/>
+               <bibl/>
+            </org>
+            <org xml:id="K01051">
+               <orgName type="firm">W. Carter Sons &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Unternehmen des Seidenhandels in Shanghai.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1869, S. 66.</bibl>
+            </org>
+            <org xml:id="K01052">
+               <orgName type="firm">Truninger &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Das Unternehmen Truninger &amp; Co. wurde 1867 von J. Ulrich Truninger gegründet. Davor betrieb Truninger das Geschäft als Filiale des französischen Handelshauses Arlès-Dufour,
+                  das auch in den Kniffler-Briefen mehrfach erwähnt wird. 1885 meldeten Truninger &amp; Co. Bankrott an. </note>
+               <bibl>The Banker's Magazine, Journal of the Money Market and Commercial Digest, 45, S. 486.</bibl>
+            </org>
+            <org xml:id="K01053">
+               <orgName type="firm">Nestle, Andreae &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Von Richard Nestle und Karl Andreae-Sillem geführte Indigohandlung.</note>
+               <bibl source="https://www.lagis-hessen.de/pnd/1111111677">Landesgeschichtliches Informationssystem Hessen</bibl>
+            </org>
+            <org xml:id="K01054">
+               <orgName type="firm">Jung &amp; Simons Elberfeld</orgName>
+               <settlement>Elberfeld</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">2016941-3</idno>
+               <note>1867 von Ernst Moritz Simons (1841-1890) und Karl August Jung (1842-1911) in Haan gegründete mechanische Weberei. Schon wenige Jahre nach der Gründung expandierte das Unternehmen
+                  zunächst mit einem zweiten Werk in Zwickau, ab 1873 durch die Aufnahme von Exportgeschäften nach Amerika und Ostasien.</note>
+               <bibl>o.A.: Jung + Simons 1867-1967. Werden und Wirken eines Textil- und Kunststoffwerks, Wuppertal 1967.</bibl>
+            </org>
+            <org xml:id="K01055">
+               <orgName type="firm">Leveson, Lewis &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Handelshaus in London.</note>
+               <bibl>Street's Indian and Colonial Mercantile Directory for 1870, London 1870, S. 445</bibl>
+            </org>
+            <org xml:id="K01056">
+               <orgName type="firm">J. G. Schroeder &amp; Co.</orgName>
+               <settlement/>
+               <note>Erwähnt im Brief vom 4.10.1870</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01057">
+               <orgName type="firm">Czapp &amp; Bevers</orgName>
+               <settlement/>
+               <note>Erwähnt im Brief vom 4.10.1870</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01058">
+               <orgName type="firm">E. Pavenstedt &amp; Co.</orgName>
+               <settlement>New York</settlement>
+               <note>Unternehmen der Bremer Kaufmannsfamilie Pavenstedt. Unter dem Namen "E. Pavenstedt &amp; Co." firmierte die Niederlassung in New York. Als Sitz der Firma wird im Brief vom
+                  4.10.1870 Nagasaki genannt, was jedoch vermutlich ein Fehler ist, da keine andere Quelle darauf hinweist.</note>
+               <bibl>Maria Möring: Siemssen &amp; Co. 1846-1971. (= Veröffentlichengen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg 33). Hamburg, 1971, S. 42</bibl>
+            </org>
+            <org xml:id="K01059">
+               <orgName type="firm">R. Raphael &amp; Sons</orgName>
+               <settlement>London</settlement>
+               <note>Bankhaus in London.</note>
+               <bibl>Mira Wilkins: The History of Foreign Investment in the United States to 1914, Cambridge (MA) 1989, S. 863</bibl>
+            </org>
+            <org xml:id="K01060">
+               <orgName type="firm">Peninsular &amp; Oriental Steam Navigation Company</orgName>
+               <settlement>London</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">150121676</idno>
+               <note>1840 gegründetes Dampfschifffahrtsunternehmen, das zunächst vor allem Fahrten von London nach Indien und China, ab 1867 auch nach Japan durchführte.</note>
+               <bibl>Freda Hartcourt: Flagships of Imperialism, Manchester 2006.</bibl>
+            </org>
+            <org xml:id="K01061">
+               <orgName type="firm">Horstmann &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Bankhaus in London.</note>
+               <bibl source="https://www.bundesarchiv.de/nachlassdatenbank/viewsingle.php?category=D&amp;person_id=2587&amp;asset_id=2805&amp;sid=46ae0d026141e6fdcad82">Nachlassdatenbank des
+                  Bundesarchivs</bibl>
+            </org>
+            <org xml:id="K01062">
+               <orgName type="firm">W. Herrmann &amp; Kahn</orgName>
+               <settlement>Paris</settlement>
+               <note>Pariser Vertretung der sächsischen Seidenfabrik Hertel.</note>
+               <bibl>Amtlicher Special-Catalog der Ausstellung Preussens und der Norddeutschen Staaten</bibl>
+            </org>
+            <org xml:id="K01063">
+               <orgName type="firm">Frederick Huth &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">136479975</idno>
+               <note>1809 von Frederick (eig. Friedrich) Huth (1777-1864) gegründetes Bankhaus, das seinerzeit eines der größten in London war.</note>
+               <bibl source="https://www.deutsche-biographie.de/sfz36140.html">Walter Glawatz: "Huth, Frederick" in: Neue Deutsche Biographie 10, 1974, S. 93</bibl>
+            </org>
+            <org xml:id="K01064">
+               <orgName type="firm">H. C. Bock</orgName>
+               <settlement>Hamburg</settlement>
+               <note>1825 in Hamburg gegründetes Handelsunternehmen. Zwischen 1852 und 1872 wurde es nach dem Tod des Firmengründers H. C. Bock von seinem Bruder, Lorenz Johannes Bock, geführt.
+                  Nachdem der Prokurist Carl Jacob 1862 von der preußischen Ostasien-Expedition zurückgekehrt war, konzentrierte sich das Geschäft der Firma vor allem auf den Im- und Exporthandel mit
+                  Asien und Südamerika. 1862 war auch das Jahr des ersten Kontakts zur Firma L. Kniffler &amp; Co., der eine über zehn Jahre prosperierende Geschäftsbeziehung nach sich zog.</note>
+               <bibl>Harald Hohnsbehn: Die Bocks - Eine Familie im Strom der Zeit, Neumünster 2007, S. 72-87</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 37</bibl>
+            </org>
+            <org xml:id="K01065">
+               <orgName type="firm">Thorel &amp; Co.</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Handelshaus des Unternehmers Carl (auch: Charles) Thorel, das zwischen 1861 und 1874 in Yokohama bestand. Zwischenzeitlich firmierte das Unternehmen unter dem Namen Thorel, Ziegler
+                  &amp; Co. </note>
+               <bibl source="http://meiji-portraits.de/meiji_firms_t.html#20090527094016609_1_2_2_20_1">Meiji-Portraits</bibl>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S. 349.</bibl>
+            </org>
+            <org xml:id="K01066">
+               <orgName type="firm">Schultze, Reis &amp; Co.</orgName>
+               <settlement/>
+               <note>Spätestens seit 1859 in Japan ansässige Firma. Ging 1874 in Liquidation, die von Gustav Reddelien von L. Kniffler &amp; Co. verwaltet wurde.</note>
+               <bibl>Kurt Meissner: Deutsche in Japan, Tokyo 1961, S. 14</bibl>
+            </org>
+            <org xml:id="K01067">
+               <orgName type="firm">Conrad &amp; Simon</orgName>
+               <settlement>Berlin</settlement>
+               <note>Seifen- und Parfümfabrik. Inhaber war Herrmann Conrad.</note>
+               <bibl>Berliner Adressbuch für das Jahr 1877, S. 118</bibl>
+            </org>
+            <org xml:id="K01068">
+               <orgName type="gov">War Office</orgName>
+               <settlement/>
+               <note>Gemeint ist vermutlich das damalige japanische Kriegsministerium (hyōbushō)</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01069">
+               <orgName type="firm">G. H. Mumm &amp; Co.</orgName>
+               <settlement>Reims</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">274972-5</idno>
+               <note>Weinhandlung eines Teils der Familie Mumm.</note>
+               <bibl source="https://www.deutsche-biographie.de/pnd139789510.html#ndbcontent">Franz Lerner: "Mumm" in: Neue Deutsche Biographie 18, 1997, S. 579</bibl>
+            </org>
+            <org xml:id="K01070">
+               <orgName type="firm">Peter Arnold Mumm</orgName>
+               <settlement/>
+               <note>Eine der Vorgängerfirmen der Weinhandlung G. H. Mumm &amp; Co. Auf deren Briefpapier im Jahre 1871 und 1872 noch erwähnt.</note>
+               <bibl>
+                  <bibl source="https://www.deutsche-biographie.de/pnd139789510.html#ndbcontent">Franz Lerner: "Mumm" in: Neue Deutsche Biographie 18, 1997, S. 579</bibl>
+               </bibl>
+            </org>
+            <org xml:id="K01071">
+               <orgName type="firm">Joh. Berenberg, Gossler &amp; Co.</orgName>
+               <settlement>Hamburg</settlement>
+               <note>Seit 1590 bestehendes Handels- und Bankhaus, das bis ins frühe 20. Jahrhundert zumindest in Teilbesitz der niederländisch-stämmigen Kaufmannsfamilie Berenberg war. In den frühen
+                  1870er Jahren beteiligte sich das Bankhaus an zahlreichen Firmengründungen in Südamerika, Skandinavien und Russland. Aus der Kniffler-Korrespondenz erhalten sind neben einem Brief
+                  der Firma ein umfassender Marktbericht, der ihre umfassenden geschäftlichen Aktivitäten in zahlreichen Ländern und den Handel mit unterschiedlichsten Waren dokumentiert.</note>
+               <bibl>Clarita von Bernstorff et al.: Nur der Wandel ist beständig - Berenberg, Die Geschichte der ältesten Privatbank Deutschlands</bibl>
+            </org>
+            <org xml:id="K01072">
+               <orgName type="firm">Union Bank of London</orgName>
+               <settlement>London</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">139668058</idno>
+               <note>Bank in London</note>
+            </org>
+            <org xml:id="K01073">
+               <orgName type="firm">Deutsche Bank</orgName>
+               <settlement>Berlin</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">130112035</idno>
+               <note>Kurz nach Gründung der Deutschen Bank 1870 berief diese den Bankier Hermann Wallich (1833-1928) in den Vorstand. Wallich hatte vorher für französische Banken und u. a. in China
+                  und Japan gearbeitet. Er setzte weltweit Expansionen der Deutschen Bank um und gründete 1872/73 Filialen in Shanghai und Yokohama, die jedoch 1875 infolge der beginnenden Großen
+                  Depression und damit einhergehender hoher Verluste wieder schließen mussten.</note>
+               <bibl>Dieter Brötel: Hermann Wallich - Von Pariser Banken zum Asiengeschäft der Deutschen Bank (1850-1889), in: van der Heyden; Zeller (Hrsg.) "... Macht und Anteil an der
+                  Weltherrschaft", Münster 2005, S. 75-80</bibl>
+            </org>
+            <org xml:id="K01074">
+               <orgName type="gov">Kaiserlich Deutsches Konsulat</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>Nach Gründung des dt. Kaiserreichs 1871 wurden die vorherigen deutschen Konsulate in Kaiserlich Deutsche Konsulate bzw. Konsulate des Deutschen Reichs umgewandelt. </note>
+               <bibl/>
+            </org>
+            <org xml:id="K01075">
+               <orgName type="firm">London Assurance Corporation</orgName>
+               <settlement/>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">264567123</idno>
+               <note>L. Kniffler &amp; Co. vertrieb im Auftrag dieser Firma Versicherungen.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 57</bibl>
+            </org>
+            <org xml:id="K01076">
+               <orgName type="firm">Textor &amp; Co.</orgName>
+               <settlement>Yokohama, Nagasaki</settlement>
+               <note>1859 von C. J. Textor in Japan gegründete Firma mit Filialen in Yokohama und Nagasaki. Ging 1873 in Konkurs.</note>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S. 354.</bibl>
+               <bibl>Kurt Meissner: Deutsche in Japan, Tokyo 1961, S. 14</bibl>
+            </org>
+            <org xml:id="K01077">
+               <orgName type="firm">Deutsche Dampfschiffs-Rhederei</orgName>
+               <settlement>Hamburg</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">16068443-2</idno>
+               <note>Die Deutsche Dampfschiffs-Rhederei betrieb ab 1871 Fahrten zwischen Hamburg und verschiedenen ostasiatischen Häfen, bei denen in begrenzter Zahl auch Passagiertransporte genehmigt
+                  waren. Die Verbindung nach Ostasien wurde auch als "Kingsin-Linie" bezeichnet. Die Schiffe der Reederei genossen einen zweifelhaften Ruf, u.a. aufgrund ihrer häufigen
+                  Unpünktlichkeit. Ab 1873 vertrat L. Kniffler &amp; Co. das Japangeschäft. </note>
+               <bibl>Arnold Kludas: Die Geschichte der deutschen Passagierschiffahrt. Band 1: Die Pionierjahre von 1850-1890, Hamburg 1986, S. 156, 215</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 57</bibl>
+            </org>
+            <org xml:id="K01078">
+               <orgName type="gov">Konsulat des Deutschen Reiches</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Nach Gründung des dt. Kaiserreichs 1871 wurden die vorherigen deutschen Konsulate in Kaiserlich Deutsche Konsulate bzw. Konsulate des Deutschen Reichs umgewandelt. </note>
+               <bibl/>
+            </org>
+            <org xml:id="K01079">
+               <orgName type="gov">Gerichtshof von Kanagawa(神奈川裁判所)</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Einer von zwölf Gerichtshöfen, die zur Meiji-Restauration im Jahre 1868 vorwiegend in den japanischen Vertragshäfen eingerichtet wurden. Der Gerichtshof von Kanagawa war, über
+                  allgemeine Aufgaben der Justiz hinaus, vor allem mit Angelegenheiten des Außenhandels </note>
+               <bibl>Kanagawa-ken kenmin-bu kenshi henshūshitsu: Kanagawa-kenshi kakuron-hen 1, Yokohama 1983.</bibl>
+            </org>
+            <org xml:id="K01080">
+               <orgName type="gov">Kaiserlich Deutsche Minister Residentur in Japan</orgName>
+               <settlement>Tokyo</settlement>
+               <note>Das preußische Konsulat in Japan wurde 1869 zu einer Ministerresidentur aufgewertet, die ab 1873 das deutsche Reich repräsentierte und bis 1880 bestand. Danach wurde eine
+                  Gesandtschaft eingerichtet, was eine weitere Aufwertung bedeutete.</note>
+               <bibl>Peter Pantzer u. Sven Saaler: Japanische Impressionen eines Kaiserlichen Gesandten, München 2007, S. 376, 385</bibl>
+            </org>
+            <org xml:id="K01081">
+               <orgName type="gov">Auswärtiges Amt</orgName>
+               <settlement>Berlin</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">130009969</idno>
+               <note>Das Auswärtige Amt als Ministerium für die äußeren Angelegenheiten wurde zusammen mit dem deutschen Kaiserreich im Jahre 1871 gegründet.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01082">
+               <orgName type="gov">Obergericht zu Ōsaka (大阪上等裁判所)</orgName>
+               <settlement>Ōsaka</settlement>
+               <idno type="NDL" xml:base="https://id.ndl.go.jp/auth/ndlna/">00766977</idno>
+               <note>Ab 1875 in Ōsaka eingesetzets höheres Gericht.</note>
+            </org>
+            <org xml:id="K01083">
+               <orgName type="firm">Imperial Fire Insurance Co.</orgName>
+               <settlement/>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">161526543</idno>
+               <note>Verischerungsgesellschaft, die an verschiedenen Standorten in Ostasien operierte. L. Kniffler &amp; Co. vertrieb im Auftrag der Firma Versicherungen.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 57</bibl>
+               <bibl>The China Directory for 1874</bibl>
+            </org>
+            <org xml:id="K01084">
+               <orgName type="firm">Buijs, Jacobsen &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Handelshaus in Batavia.</note>
+               <bibl>J. N. F. M. À Campo, Engines of Empire, Hilversum 2002, S. 43</bibl>
+            </org>
+            <org xml:id="K01085">
+               <orgName type="firm">Ogier Freres</orgName>
+               <settlement>Lyon</settlement>
+               <note>Seidenhändler aus Lyon.</note>
+               <bibl>The Illustrated London News vom 9.11.1867, S. 524</bibl>
+            </org>
+            <org xml:id="K01086">
+               <orgName type="firm">H. Meynard &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Handelshaus, dessen Filiale in Shanghai unter dem Namen Meynard, Cousin &amp; Co. firmierte. Unterhielt im Jahre 1869 auch eine Filiale in Hakodate.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1869, S. 102.</bibl>
+            </org>
+            <org xml:id="K01087">
+               <orgName type="firm">Bovet Bros. &amp; Co</orgName>
+               <settlement>Kanton</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">1234159234465603371832</idno>
+               <note>1818 vom Schweizer Uhrmacher Edouard Bovet (1797-1849) gegründetes Uhrengeschäft. Nach seinem Tod wurde es von seinen Brüdern geleitet, die das Geschäftsfeld auf den Tee- und
+                  Seidenhandel ausweiteten.</note>
+               <bibl>Brian Cuthbertson: Chinese Market Watches - The Revival by Bovet Fleurier S.A., in: Arts of Asia 27 (5), S. 130-135</bibl>
+            </org>
+            <org xml:id="K01088">
+               <orgName type="firm">Adamson &amp; Co.</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Filiale der Firma W. R. Adamson in Yokohama. </note>
+               <bibl>Olive Checkland: Britain's Encounter with Meiji Japan, 1868-1912, London 1989, S. 22</bibl>
+            </org>
+            <org xml:id="K01089">
+               <orgName type="firm">Adrian &amp; Co.</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>Handelsfirma der Brüder Julius und Theodor Adrian in Nagasaki.</note>
+               <bibl>Dietmar Rieger: Johann Valentin Adrian - Universitätsprofessor und "Homme de Lettres", Bonn 1993, S. 24</bibl>
+            </org>
+            <org xml:id="K01090">
+               <orgName type="firm">Batavia Sea &amp; Fire Insurance Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Versicherungsgesellschaft, die u.a. von Russell &amp; Co. in China vertreten wurde.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, for the Year 1875, S. 197</bibl>
+            </org>
+            <org xml:id="K01091">
+               <orgName type="gov">Faktorei der Niederl. Ostindien-Kompanie</orgName>
+               <settlement>Dejima</settlement>
+               <note>Die niederländische Ostindien-Kompanie nahm zuerst 1609 Handelsbeziehungen mit Japan auf. Ihren Handelstützpunkt (Faktorei) auf der eigens aufgeschütteten Insel Dejima vor Nagasaki
+                  bezog sie 1641. Bis Mitte des 19. Jahrhunderts waren die Niederlande die einzige in Japan geduldete europäische Nation, mit der Handel getrieben werden durfte.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01092">
+               <orgName type="firm">Schunck, Souchay &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>1836 gegründetes Handelshaus aus dem Umfeld der einflussreichen Kaufmannsfamilie Souchay. Aus der Familie Souchay, die Beteiligungen an zahlreichen Firmen in Europa hielt,
+                  stammten auch die Betreiber des mit der Firma Kniffler verbundenen Hauses Benecke, Souchay &amp; Co.</note>
+               <bibl>Guenther Roth: Max Webers deutsch-englische Familiengeschichte 1800-1950, Tübingen 2001, S. 644</bibl>
+            </org>
+            <org xml:id="K01093">
+               <orgName type="firm">Kaltenbach, Engler &amp; Co.</orgName>
+               <settlement>Singapur</settlement>
+               <note>1858 von G. Kaltenbach in Singapur gegründete Firma. 1862 stieg F. Engler ins Geschäft ein.</note>
+               <bibl>Charles Burton Buckley: An Anecdotal History of Old Times in Singapore II, Singapur 1902, S. 678</bibl>
+            </org>
+            <org xml:id="K01094">
+               <orgName type="firm">Hall &amp; Holtz</orgName>
+               <settlement>Nagasaki, Shanghai</settlement>
+               <note>Das Handelshaus Hall &amp; Holtz betätigte sich in so unterschiedlichen Geschäftsfeldern wie dem Schifffahrtsbedarf und dem Bäckereigewerbe. 1867 expandierten sie nach Japan,
+                  wobei die dortige Filiale nicht von den Gründern Edward Hall &amp; Andrew Holtz geführt wurde. Weitere japanische Filialen bestanden in den 1870er Jahren in Kobe und Yokohama.</note>
+               <bibl source="http://meiji-portraits.de/meiji_firms_h.html">Meiji-Portraits</bibl>
+               <bibl source="https://www.britishmuseum.org/collection/term/BIOG187390">British Museum</bibl>
+            </org>
+            <org xml:id="K01095">
+               <orgName type="firm">Gildemeister &amp; Ries</orgName>
+               <settlement>Bremen</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">138142332</idno>
+               <note>Reederei in Bremen. Der Gründer August Wilhelm Gildemeister war ein Onkel Martin Hermann Gildemeisters, der hier eine kaufmännische Lehre absolvierte.</note>
+               <bibl>Uwe Plath (Hrsg.): Die Lebenserinnerungen der Anna Gildemeister (1849-1942), Hannover 1994, S. 102</bibl>
+            </org>
+            <org xml:id="K01096">
+               <orgName type="gov">Dänische Armee</orgName>
+               <settlement/>
+               <note>Die Streitkräfte Dänemarks werden in den Kniffler-Briefen im Zusammenhang mit dem deutsch-dänischen Krieg von 1864 erwähnt.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01097">
+               <orgName type="firm">Fehr-Walser &amp; Söhne</orgName>
+               <settlement>Livorno</settlement>
+               <note>Schweizer Handelsunternehmen, das sich seit dem 18. Jahrhundert in Besitz der Familie Walser befand und im 19. Jahrhundert nach Heirat einer Tochter mit Peter Fehr als Fehr-Walser
+                  &amp; Söhne firmierte.</note>
+               <bibl source="https://hls-dhs-dss.ch/de/articles/028725/2013-07-25/">Historisches Lexikon der Schweiz</bibl>
+            </org>
+            <org xml:id="K01098">
+               <orgName type="firm">J. C. im Thurn &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>Firma des Schweizer Kaufmanns Johann Conrad Im Thurn (1809-1882).</note>
+               <bibl source="http://www.stadtarchiv-schaffhausen.ch/fileadmin/Redaktoren/Dokumente/Im_Thurn_Johann_Conrad.pdf">Stadtarchiv Schaffhausen</bibl>
+            </org>
+            <org xml:id="K01099">
+               <orgName type="firm">N. H. Dubbers</orgName>
+               <settlement>Altona</settlement>
+               <note>Unternehmen aus Altona, das auch eine Hutfabrik in Manila betrieb.</note>
+               <bibl>Emil Helfferich: Zur Geschichte der Firmen Behn, Meyer und Co., Hamburg 1957, S. 100</bibl>
+            </org>
+            <org xml:id="K01101">
+               <orgName type="firm">I. R. Raschle &amp; Co.</orgName>
+               <settlement>Wattwyl</settlement>
+               <note>Schweizer Unternehmen in Textilhandel und -prduktion, das auch Niederlassungen im arabischen Raum, in Amerika und in Südostasien betrieb.</note>
+               <bibl>Andreas Zangger: Koloniale Schweiz, Bielefeld 2014, S.70</bibl>
+            </org>
+            <org xml:id="K01102">
+               <orgName type="firm">Schabert &amp; Möller</orgName>
+               <settlement>Hamburg</settlement>
+               <note>Betrieben auch eine Filiale unter dem Namen "J. C. Julius Möller" in Hongkong.</note>
+               <bibl>Kierulff, Johann Friedrich (Hrsg.): Sammlung der Entscheidungen des Ober-Appellationsgerichts der vier freien Städte Deutschlands zu Lübeck, Hamburg 1865, S. 305.</bibl>
+            </org>
+            <org xml:id="K01103">
+               <orgName type="firm">Wilkie &amp; Gärtner</orgName>
+               <settlement>Hakodate</settlement>
+               <note>1865 von Conrad Gärtner, einem vormaligen Angestellten bei L. Kniffler &amp; Co., und Frederick Wilkie in Hakodate auf Hokkaidō gegründetes Handelshaus.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 33-34</bibl>
+            </org>
+            <org xml:id="K01104">
+               <orgName type="firm">Aschenheim &amp; Fuhrken</orgName>
+               <settlement>London</settlement>
+               <note>Von Gustav Aschenheim und Eugen Anton Fuhrken gegründetes Handelshaus in London.</note>
+               <bibl>The London Gazette vom 31. März 1903, S. 2172</bibl>
+            </org>
+            <org xml:id="K01105">
+               <orgName type="firm">Augustine Heard &amp; Co.</orgName>
+               <settlement>Kanton</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">146718830</idno>
+               <note>1839 von den Amerikanern Augustine Heard und Joseph Coolidge, beide ehemals angestellt bei Russell &amp; Co., gegründetes Unternehmen, das in den ersten Jahren vor allem Jardine,
+                  Matheson &amp; Co. im Opiumschmuggel zuarbeitete. Über die Geschichte der Firma nach dem Ausstieg der beiden Gründer 1844 und die Übernahme durch einen Neffen Heards ist wenig
+                  bekannt. 1875 war Heard &amp; Co. zahlungsunfähig und wurde von Jardine, Matheson &amp; Co. aufgekauft. </note>
+               <bibl>Jacques M. Downs: The Golden Ghetto, Bethlehem (PA) 1997, S. 191-198.</bibl>
+            </org>
+            <org xml:id="K01106">
+               <orgName type="firm">Hellmann Bros. &amp; Co.</orgName>
+               <settlement>Los Angeles</settlement>
+               <note>1854 von den deutsch-jüdischen Auswanderern Isaiah M. und Samuel M. Hellman gegründetes Geschäft, das in Los Angeles vor allem mit Zigarren, aber auch diversen anderen
+                  Alltagsgegenständen handelte.</note>
+               <bibl>Frances Dinkelspiel: Towers of Gold, New York 2008, S. 28.</bibl>
+            </org>
+            <org xml:id="K01107">
+               <orgName type="gov">Federal Army</orgName>
+               <settlement/>
+               <note>Bezeichnung für die Armee der Vereinigten Staaten (Nordstaaten) im Sezessionskrieg.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01109">
+               <orgName type="firm">Glover &amp; Co.</orgName>
+               <settlement/>
+               <note>1857 vom Schotten Thomas Blake Glover (1838-1911) zunächst in Shanghai gegründetes Handelsunternehmen. Bereits ein Jahr später siedelte Glover nach Japan über und landete über
+                  Vermittlung von Jardine, Matheson &amp; Co. im Geschäft des Kaufmanns K. R. MacKenzie, wo er bald Teilhaber wurde. 1861 zog MacKenzie sich zurück und Glover eröffnete Glover &amp;
+                  Co. in Yokohama. Die Firma handelte mit u. a. mit Kohle, Tee und Schiffen. Besondere Bedeutung kam jedoch dem Handel mit Waffen zu. Glover &amp; Co. versorgte die gegen das Shogunat
+                  rebellierenden Truppen von Satsuma mit Schusswaffen. Diese Geschäfte verhalfen Glover zu Ansehen in hohen Kreisen der späteren Meiji-Oligarchen. Das Unternehmen Glover &amp; Co. ging
+                  1870 bankrott, sein Eigentümer machte sich in Japan jedoch weiterhin einen Namen, vor allem ab 1876 als Berater für die Firma Mitsubishi. </note>
+               <bibl>Alexander McKay: Scottish Samurai, Edinburgh 1997</bibl>
+            </org>
+            <org xml:id="K01110">
+               <orgName type="firm">Bohlen &amp; Co.</orgName>
+               <settlement/>
+               <note>Im Brief von W. Brummer vom 9.2.1866 erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01111">
+               <orgName type="firm">Messageries Impériales</orgName>
+               <settlement>Marseille</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">152199582</idno>
+               <note>Staatliche französische Reederei. 1871 in Messageries Maritimes umbenannt.</note>
+               <bibl>The China Directory for 1874, S. 22A</bibl>
+            </org>
+            <org xml:id="K01112">
+               <orgName type="firm">Van Welden &amp; Co.</orgName>
+               <settlement/>
+               <note>Im Brief vom 6.7.1872 erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01113">
+               <orgName type="firm">Maltby &amp; Co.</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>1859 in Nagasaki gegründetes Unternehmen, das sich auf den Teehandel spezialisierte. Nach dem Tod des Gründers Samuel Maltby im Jahre 1875 wurde die Firma abgewickelt.</note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_m.html#MALTBYSamuel">Meiji-Portraits</bibl>
+            </org>
+            <org xml:id="K01114">
+               <orgName type="firm">P. Maclean &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Handelshaus in Shanghai. Zwischenzeitlich firmierte das Unternehmen unter dem Namen "Maclean, Thorburn &amp; Co."</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1869, S. 98.</bibl>
+            </org>
+            <org xml:id="K01115">
+               <orgName type="firm">T. Kroes &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Handelshaus in Shanghai. P. T. Kroes, einer der Angestellten der Firma, war im Jahre 1865 zudem Vizekonsul der Niederlande in Shanghai.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1865, S. 191, 204.</bibl>
+            </org>
+            <org xml:id="K01116">
+               <orgName type="firm">J. J. Buchheister &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Handelshaus in Shanghai.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1875, S. 72.</bibl>
+            </org>
+            <org xml:id="K01117">
+               <orgName type="firm">E. Moormann &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Handelshaus in Batavia. Unterhielt auch Beziehungen zur Firma Pandel &amp; Stiehaus. </note>
+               <bibl/>
+            </org>
+            <org xml:id="K01118">
+               <orgName type="firm">Russell &amp; Co.</orgName>
+               <settlement>Kanton</settlement>
+               <note>1819 in Kanton gegründetes Unternehmen des Amerikaners Samuel Russell (1789-1862). Nach anfänglichen Schwierigkeiten gelang es Russell &amp; Co., sich ab den 1830er Jahren als
+                  eines der führenden ausländischen Handelshäuser in China zu etablieren. Trotz der Einwände des Teilhabers John C. Green (1800-1875) beteiligte sich Russell &amp; Co. auch am
+                  Opiumhandel. 1836 zog sich der Gründer aus der Firma zurück, 1842 wurde eine Filiale in Macao eröffnet. Russells Firma betäigte sich später im Aufbau weiterer Geschäftsfelder. 1861
+                  erfolgte die Ausgründung einer eigenen Dampfschifffahrtsgesellschaft in Shanghai, der Shanghai Steam Navigation Co. 1865 war Russell &amp; Co. eine der beteiligten Firmen beim Aufbau
+                  der Hongkong &amp; Shanghai Banking Corporation (HSBC). 1891 wurde das Unternehmen aufgelöst. </note>
+               <bibl>Jacques M. Downs: The Golden Ghetto, Bethlehem (PA) 1997, S. 162-189.</bibl>
+               <bibl>Robert Y. Eng: The Transformation of a Semi-Colonial Port City, in F. Broeze (Hrsg.): Brides of the Sea, Kensington 1989, S. 137-142.</bibl>
+            </org>
+            <org xml:id="K01119">
+               <orgName type="gov">Chinesische Regierung</orgName>
+               <settlement/>
+               <note/>
+               <bibl/>
+            </org>
+            <org xml:id="K01120">
+               <orgName type="firm">West Pacific Company</orgName>
+               <settlement>Hakodate</settlement>
+               <note>Wahrscheinlich 1861 vom britischen Kaufmann und Naturforscher Thomas Wright Blakiston (1832-1891) in Hakodate gegründetes Unternehmen. Die West Pacific Company unterschied sich
+                  von vielen ausländischen Firmen in Japan zu jener Zeit insofern, als dass sie auch in der Produktion tätig war: Ein Sägewerk war dem Handelshaus angeschlossen. Aufgrund des schwachen
+                  Handelspotentials in Hakodate und damit wachsender Unzufriedenheit des größten Kapitalgebers, der englischen George Armitstead &amp; Co., musste Blakistons Unternehmen allerdings
+                  bereits 1869 wieder abgewickelt werden. </note>
+               <bibl>Steven Ivings: Fostering a Trade in Japan's Northeast, in Commodities of Empire Working Papers 33, S. 2-21.</bibl>
+            </org>
+            <org xml:id="K01121">
+               <orgName type="firm">B. Telge / Telge, Nölting &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Spätestens seit 1865 bestand dieses Handelshaus unter dem Namen B. Telge (nach dem Gründer Benjamin Telge) in Shanghai. Der Prokurist Joh. Nölting wurde später Teilhaber und die
+                  Firma wurde in "Telge, Nölting &amp; Co." umbenannt. Sie erzielten geschäftliche Erfolge mit dem Verkauf ausländischer Waffen an die chinesische Regierung.</note>
+               <bibl>Xu Kai: "Orden und Schärpe". In: Mechthild Leutner (Hrsg.): Preußen, Deutschland und China, Berlin 2014, S. 298-299</bibl>
+            </org>
+            <org xml:id="K01122">
+               <orgName type="firm">A. Baux &amp; E. Fraissinet Co.</orgName>
+               <settlement>Marseille</settlement>
+               <note>Handelshaus aus Marseille.</note>
+               <bibl>Lloyd's Register of British and Foreign Shipping 1879, S. vi</bibl>
+            </org>
+            <org xml:id="K01123">
+               <orgName type="firm">Zuppinger, Siber &amp; Co.</orgName>
+               <settlement>Zürich</settlement>
+               <note>Das Handelshaus Zuppinger, Siber &amp; Co. vereint die zwei Schweizer Industriellenfamilien Zuppinger &amp; Siber. Hans Heinrich Zuppinger (1789-1862) gründete 1836 die
+                  mechanische Seidenspinnerei Zuppinger &amp; Co. in Zürich mit Kapital, das er von Hans Conrad Pestalozzi und Hans Caspar Escher geliehen hatte. Aus seinem Umfeld stammte dann auch
+                  das Handelshaus Zuppinger, Siber &amp; Co. Gustav Siber (1827-1872) wiederum stammte bereits aus der zweiten Generation der Teilhaber des Handelshauses und hatte auch Verbindungen
+                  nach Ostasien, wo sein Bruder Hermann in Yokohama die Seidenhandelsfirma Siber &amp; Brennwald gründete, deren Nachfolgeunternehmen DKSH bis heute existiert.</note>
+               <bibl>Andreas Zangger: Koloniale Schweiz, Bielefeld 2014, S. 266.</bibl>
+            </org>
+            <org xml:id="K01124">
+               <orgName type="firm">Escher-Pestalozzi</orgName>
+               <settlement>Zürich</settlement>
+               <note>Handelshaus der Schweizer Kaufleute Salomon Pestalozzi (1812-1886) und Hans Conrad (?) Escher. Eines der Geschäftsfelder war der Handel mit Rohseide. Sowohl Pestalozzi, als auch
+                  Escher stammten aus großen Züricher Unternehmerfamilien, die bedeutende Akteure in Seidenhandel und -industrie in der Schweiz waren.</note>
+               <bibl>Hans Pestalozzi-Keyser: Geschichte der Familie Pestalozzi, Zürich 1958, S. 163</bibl>
+               <bibl>J. Caspar Pfister: Verzeichnis der Bürger der Stadt Zürich im Jahr 1858, S. 46</bibl>
+            </org>
+            <org xml:id="K01125">
+               <orgName type="firm">Claude Clerc &amp; Co.</orgName>
+               <settlement>Marseille</settlement>
+               <note>Handelshaus in Marseille. </note>
+               <bibl>Murray's Handbook Advertiser 1877-78, S. 3</bibl>
+            </org>
+            <org xml:id="K01126">
+               <orgName type="firm">Arnemann &amp; Co.</orgName>
+               <settlement>Hongkong</settlement>
+               <note>Unternehmen in Hongkong. Einer der Geschäftsführer war im Jahre 1865 C. Arnemann.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1865, S. 40</bibl>
+            </org>
+            <org xml:id="K01127">
+               <orgName type="firm">Smith, Kennedy &amp; Co.</orgName>
+               <settlement>Hongkong</settlement>
+               <note>Handelshaus in Hongkong. Betrieb auch Filialen in Shanghai und Hangkou (Wuhan).</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong 1865.</bibl>
+            </org>
+            <org xml:id="K01128">
+               <orgName type="firm">W. J. Alt &amp; Co.</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>1861 von William John Alt gegründetes Handelshaus. Nach dem Ausscheiden des Gründers ging die Firma ab 1876 in Hunt, Hellyer &amp; Co. über.</note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_a.html#20090527093143250_1_2_1_34_1">Meiji-Portraits</bibl>
+            </org>
+            <org xml:id="K01129">
+               <orgName type="firm">Northern Assurance Company</orgName>
+               <settlement>Aberdeen</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1086530640</idno>
+               <note>Im Brief vom 5.2.1869 erwähnte Versicherungsgesellschaft. Wahrscheinlich 1836 gegründet.</note>
+            </org>
+            <org xml:id="K01130">
+               <orgName type="firm">Hongkong Fire Insurance Co. Ltd.</orgName>
+               <settlement>Hongkong</settlement>
+               <note>Versicherungsgesellschaft, die ein Tochterunternehmen des Handelshauses Jardine, Matheson &amp; Co. war.</note>
+               <bibl>The China Directory for 1874, S. A21</bibl>
+            </org>
+            <org xml:id="K01131">
+               <orgName type="firm">J. Gildemeister &amp; Co.</orgName>
+               <settlement>Lima</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">263145857943023021206</idno>
+               <note>1850 in Peru gegründetes Handelsunternehmen des Bremer Kaufmanns Juan (eig. Johann) Gildemeister (1823-1898), eines Verwandten Martin Hermann Gildemeisters. J. Gildemeister, der
+                  ab 1850 auch bremischer Konsul in Lima gewesen war, gelangte durch den Exporthandel mit Salpeter und Guano zu großem Reichtum und schied erst kur vor seinem Tod 1898 aus der Firma
+                  aus.</note>
+               <bibl>Sabina G. Cournoyer: Konsul Juan Gildemeister, Bremen 2011.</bibl>
+            </org>
+            <org xml:id="K01132">
+               <orgName type="firm">William Younger &amp; Co.</orgName>
+               <settlement>Edinburgh</settlement>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">315685231</idno>
+               <note>1749 in Schottland gegründete Brauerei. William Younger &amp; Co. stieg erstmals in den 1840er Jahren ins Exportgeschäft ein und erzielte Erfolge in den britischen Kolonien in der
+                  Karibik sowie in den USA. Aufgrund zunehmender Nachfrage nach dem Bier von William Younger im Ausland wurde 1861 eine Niederlassung in London eingerichtet. Noch in den 1870er Jahren
+                  befand sich das Unternehmen zu Teilen in Besitz der Gründerfamilie Younger. Der im Briefkopf verwendete Zusatz "Abbey &amp; Holyrood Breweries" verweist auf die beiden Brauhäuser der
+                  Firma in Edinburgh, die 1778 und 1858 in Betrieb genommen wurden.</note>
+               <bibl>David Keir: The Younger Centuries, Edinburgh 1951.</bibl>
+            </org>
+            <org xml:id="K01134">
+               <orgName type="firm">John Batt &amp; Co.</orgName>
+               <settlement>London</settlement>
+               <note>1802 gegründetes Handelshaus aus London.</note>
+               <bibl source="https://www.gracesguide.co.uk/John_Batt_and_Co_(London)">Grace's Guide to British Industrial History</bibl>
+            </org>
+            <org xml:id="K01135">
+               <orgName type="firm">John Pryce &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Handelshaus in Batavia.</note>
+               <bibl>The Directory &amp; Chronicle for the Year 1898, S. 486</bibl>
+            </org>
+            <org xml:id="K01136">
+               <orgName type="firm">J. Staehelin</orgName>
+               <settlement>Wattwil</settlement>
+               <note>Textilfabrik</note>
+               <bibl source="https://hls-dhs-dss.ch/de/articles/049771/2011-09-26/">Historisches Lexikon der Schweiz</bibl>
+            </org>
+            <org xml:id="K01137">
+               <orgName type="firm">Walsh &amp; Co. / Walsh, Hall &amp; Co.</orgName>
+               <settlement>Yokohama</settlement>
+               <note>1862 gegründetes amerikanische Handelshaus in Yokohama. Durch enge Kontakte zur japanischen Händlerfamilie Mitsui avancierten Walsh, Hall &amp; Co. innerhalb kurzer Zeit zu einer
+                  der größten ausländischen Handelsfirmen in Japan. Nach dem Ausstieg des Teilhabers Francis Hall (1822-1902) firmierte das Haus ab dem Jahre 1866 unter dem Namen Walsh &amp;
+                  Co.</note>
+               <bibl>Yuki Allyson Honjo: Japan's Early Experience of Contract Management in the Treaty Ports, New York 2013. </bibl>
+            </org>
+            <org xml:id="K01138">
+               <orgName type="firm">E. S. Zuck</orgName>
+               <settlement/>
+               <note>Im Brief von W. Brummer vom 16.2.1866 erwähnt.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01139">
+               <orgName type="firm">Auffm Ordt &amp; Co.</orgName>
+               <settlement>Paris</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1189839997</idno>
+               <note>Pariser Niederlassung des Hamburger Handels- und Bankhauses C.A. Auffm Ordt &amp; Co..</note>
+               <bibl source="https://www.deutsche-biographie.de/sfz40697.html">Hans-Ulrich Simon: "Kessler, Harry Graf von" in: Neue Deutsche Biographie 11, 1977, S. 545-546</bibl>
+            </org>
+            <org xml:id="K01140">
+               <orgName type="firm">Ottomar Scheibe</orgName>
+               <settlement>Elsterberg</settlement>
+               <note>Gemeint ist sehr wahrscheinlich die Wollwarenfabrik Ottomar Scheibe, die 1870 von Gustav Ottomar Scheibe im sächsischen Ort Elsterberg gegründet wurde.</note>
+               <bibl>Christoph Sandler: Handbuch der Leistungsfähigkeit der gesammten Industrie - Dritte Serie, Leipzig 1874, S. 70</bibl>
+            </org>
+            <org xml:id="K01141">
+               <orgName type="firm">Buissonet &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Handelshaus in Shanghai. Gründer war der Franzose Eugène Buissonet.</note>
+               <bibl>Katherine F. Bruner et Al.: Entering China's Service - Robert Hart's Journals, 1854-1863, Cambridge (MA) 1986, S. 388 </bibl>
+            </org>
+            <org xml:id="K01142">
+               <orgName type="firm">Gius. Tebaldini d'Anto.</orgName>
+               <settlement>Brescia</settlement>
+               <note>In zwei Briefen von Wilkie &amp; Gärtner erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01143">
+               <orgName type="firm">Rosenburger &amp; Cie.</orgName>
+               <settlement>Marseille</settlement>
+               <note>Handelshaus in Marseille. Verfasser mehrerer Briefe an L. Kniffler &amp; Co.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01144">
+               <orgName type="firm">Cesare Bozzotti &amp; Cie.</orgName>
+               <settlement/>
+               <note>Im Brief von Rosenburger &amp; Cie. vom 11. Juli 1862 erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01145">
+               <orgName type="firm">Albert Reller &amp; Co.</orgName>
+               <settlement/>
+               <note>Im Brief von Rosenburger &amp; Cie. vom 11.7.1862 erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01146">
+               <orgName type="firm">Trey &amp; Steiner</orgName>
+               <settlement>Zürich</settlement>
+               <note>Im Brief von Rosenburger &amp; Cie. vom 11.7.1862 erwähnter Firmenname.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01147">
+               <orgName type="firm">Stone &amp; Co.</orgName>
+               <settlement>Marseille</settlement>
+               <note>Marseiller Filiale des Londoner Unternehmens Stone &amp; Co., die mehrere Briefe an die Firma L. Kniffler &amp; Co. gesandt hat.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01148">
+               <orgName type="firm">G. Bonnike &amp; Zoonen</orgName>
+               <settlement>Amsterdam</settlement>
+               <note>Handelshaus in Amsterdam. Die Ursprünge der Firma reichen bis mindestens 1809 zurück.</note>
+               <bibl>Frank C. Spooner: Risks at Sea: Amsterdam Insurance and Maritime Europe, 1766-1780, Cambridge 1983/2002, S. 21</bibl>
+            </org>
+            <org xml:id="K01149">
+               <orgName type="firm">Scheibler &amp; Coenen</orgName>
+               <settlement>Lyon</settlement>
+               <note>Französisches Handelshaus. Beziehung zur Londoner Firma Scheibler Brothers unbekannt.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01150">
+               <orgName type="firm">E. Suermondt &amp; Zoonen</orgName>
+               <settlement>Rotterdam</settlement>
+               <note>Handelshaus und Kommissionärsgeschäft in Rotterdam.</note>
+               <bibl>George Sauer: Handbook of European Commerce, London 1876, S. 119</bibl>
+            </org>
+            <org xml:id="K01151">
+               <orgName type="firm">Aug. Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement>Paris</settlement>
+               <note>Unternehmen des Stoffhandels in Paris.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01152">
+               <orgName type="firm">Paturle-Lupin, Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement>Paris</settlement>
+               <note>Vorgängerunternehmen des Handelshauses Aug. Seydoux, Sieber &amp; Co. </note>
+               <bibl/>
+            </org>
+            <org xml:id="K01153">
+               <orgName type="firm">De Coningh &amp; Co.</orgName>
+               <settlement>Nagasaki</settlement>
+               <note>1859 vom niederländischen Kaufmann und Seefahrer Cornelis Theodoor Assendelft de Coningh (1821-1890) gegründetes Handelshaus in Nagasaki. Bereits 1862 verließ er Japan, die Firma
+                  existierte aber fortan mit verschiedenen Teilhabern.</note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_c.html#20090527093212109_1_2_3_51_1">Meiji-Portraits</bibl>
+               <bibl/>
+            </org>
+            <org xml:id="K01154">
+               <orgName type="firm">Benj. &amp; Eug. Perrier</orgName>
+               <settlement>Châlons sur Marne</settlement>
+               <note>Französische Weinhandlung mit angeschlossenem Bankhaus.</note>
+               <bibl>Frederick Martin: Commercial Handbook of France, London 1867, S. 296</bibl>
+            </org>
+            <org xml:id="K01155">
+               <orgName type="firm">J. Simonin &amp; Co.</orgName>
+               <settlement>Châlons sur Marne</settlement>
+               <note>Absender mehrerer Briefe an L. Kniffler &amp; Co. Bezug zur Schweizer Textilhandlung Simonin unklar.</note>
+               <bibl/>
+            </org>
+            <org xml:id="K01156">
+               <orgName type="firm">J. Cézard &amp; Co.</orgName>
+               <settlement>Batavia</settlement>
+               <note>Niederländisches Unternehmen, das unter anderem in der Zuckerproduktion in Batavia tätig war.</note>
+               <bibl>Cornelis Fasseur: The Politics of Colonial Exploitation, Ithaca 2018, S. 169</bibl>
+            </org>
+            <org xml:id="K01157">
+               <orgName type="firm">Mechanische Weberei Altstätten</orgName>
+               <settlement>Altstätten</settlement>
+               <note>1860 im schweizerischen Altstätten gegründetes Unternehmen in der Textilproduktion.</note>
+               <bibl>Hermann Wartmann: Industrie und Handel des Kantons St. Gallen auf Ende 1866, St. Gallen 1875, S. 24</bibl>
+            </org>
+            <org xml:id="K01158">
+               <orgName type="firm">Düsseldorfer Allgemeine Versicherungsgesellschaft</orgName>
+               <settlement>Düsseldorf</settlement>
+               <note>Vollständige Bezeichnung: "Düsseldorfer Allgemeine Versicherungsgesellschaft für See-, Fluss- und Landtransport". 1845 gegründetes, auf Versicherungen von Gütertransporten
+                  spezialisiertes Unternehmen. </note>
+               <bibl>Amtsblatt der Königlichen Regierung zu Düsseldorf 1857, S. 743</bibl>
+            </org>
+            <org xml:id="K01159">
+               <orgName type="firm">C. Woermann</orgName>
+               <settlement>Hamburg</settlement>
+               <note>1837 gegründetes Handelsunternehmen mit angeschlossener Reederei des Hamburgers Carl Woermann. Während C. Woermann zu Beginn vor allem in Südamerika und Südostasien tätig waren,
+                  verlagerte sich das Geschäftt seit den 1850er Jahren an die Westküste Afrikas, von wo aus das Unternehmen vor allem mit Palmöl handelte. In den 1880er Jahren wurde das
+                  Reedereigeschäft ausgegliedert. C. Woermann besteht bis heute.</note>
+               <bibl>Detlef Krause: Die Commerz- und Disconto-Bank 1870-1920/23, Stuttgart 2004, S. 61</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

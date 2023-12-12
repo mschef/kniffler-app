@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Josef Staehelin in Wattwil an L. Kniffler &amp; Co. in Yokohama am 15.
+                    Februar 1866</title>
+            <title type="file">0071.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-70</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, eine Seite Anschreiben und eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01136">J. Staehelin</orgName>
+               <settlement ref="K00577">Wattwil</settlement>
+               <date when="1866-02-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-04-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-15" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-13" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_1.tif" n="1"/>
+         <p>
+            <watermark>
+               <hi rend="print">
+                  <orgName type="firm" ref="K01136">J. STAEHELIN</orgName>
+                  <lb/>
+                  <placeName ref="K00577">WATTWIL</placeName>
+               </hi>
+            </watermark>
+            <seg rend="center"> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName> in (<placeName ref="K00514">Nagasaki</placeName>)</hi>
+               <lb/>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <placeName ref="K00577">Wattwyl</placeName>, <date when="1866-02-15">15
+                            Februar 1866</date>
+               </hi>
+            </seg>
+            <lb/> Zum angenehmen Besitze Ihres Geehrten<lb/> vom <date when="1865-12-16">16 Dec.
+                    65</date> enthob ich demselben<lb/>
+            <hi rend="underline">
+               <term type="commercial" ref="K01522">£</term>. <measure type="currency" quantity="326.912" unit="britPound">326.9.12.</measure>
+            </hi>
+            <hi rend="latintype">6 Monate</hi> Sicht s. <hi rend="latintype">
+               <orgName type="firm" ref="K01029">London Joint Stock</orgName>
+            </hi>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">Bank in <hi rend="underline">
+                     <placeName ref="K00523">London</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> welche ich s. b. f. Ihrem <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> Hause<lb/> à 4/6¼ mit <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="1444.28" unit="mex$">1444„28.</measure> conform
+                gutbringe.<lb/> Von dem übrigen Inhalte Ihres <choice>
+               <abbr>w.</abbr>
+               <expan> werten</expan>
+            </choice>
+            <lb/> Schreibens habe ich beste Bemerkung ge-<lb/> nommen. Sobald die Conjuncturen
+                sich wieder<lb/> etwas günstiger gestalten, d. h. mäßigere<lb/> Rohstoffpreise
+                niedrigere Einstandskosten<lb/> bedingen, hoffe ich wieder Etwas nach<lb/> dorten
+                unternehmen zu können_<lb/> Inzwischen werde ich gerne gelegentlich<lb/> Ihre
+                gütigen Berichte entgegennehmen +<lb/> zeichne achtungsvoll:<lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01136">J. Staehelin</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_2.tif" n="2"/>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_3.tif" n="3"/>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00534">PARIS</placeName> A <placeName ref="K00515">MARSEILLE</placeName>
+                  <lb/>
+                  <date when="1866-02-17">17<lb/>FEVR<lb/>66</date>
+                  <lb/>
+                  <unclear reason="faded">6</unclear>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00515">MARSEILLE</placeName>
+                  <lb/>
+                  <date when="1866-02-17">17<lb/>FEVR<lb/>66</date>
+                  <lb/>3 (<unclear reason="faded">13</unclear>)</stamp>
+               <stamp style="round" type="postal">
+                  <unclear reason="illegible">ST. </unclear>
+                  <placeName ref="K00584">GALLEN</placeName> · <placeName ref="K00585">OLTEN</placeName>
+                  <lb/>7.2<lb/>
+                  <date when="1866-02-16">16 II<lb/>66</date>
+               </stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>
+                  <date when="1866-04-12">12<lb/>AVRIL<lb/>66</date>
+                  <lb/>BAU FRANCAIS</stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <gap unit="chars" quantity="6"/>
+                  <placeName ref="K00515">MARSEILLE</placeName>
+                  <lb/>
+                  <date when="1866-02-17">17<lb/>FEVR.<lb/>66</date>
+                  <lb/>C</stamp>
+               <hi rend="latintype">
+                  <hi rend="underline">Voie de <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <hi rend="latintype">Messieurs</hi>
+               <stamp style="round" type="postal">
+                  <gap/>SEPO<gap/>
+                  <lb/>
+                  <date when="1866-02-16">16<lb/>FEVR<lb/>66</date>
+                  <lb/>A</stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00577">WATTWYL</placeName>
+                  <lb/>
+                  <date when="1866-02-16">15<lb/>FEB. 66</date>
+                  <lb/>A9<lb/>➕</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                     <lb/>
+                     <placeName ref="K00502">Japon</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">1866<lb/>
+               <hi rend="latintype">J. Staehelin<lb/>
+                  <placeName ref="K00577">Wattwyl</placeName>
+                  <date when="1866-02-15">Feb 15.</date>
+                  <lb/>
+                  <date when="1866-04-12">April 12</date>
+                  <lb/>B<hi rend="superscript">tw</hi>
+                  <date when="1866-08-27">2<del rend="overstrike">2</del>7 Aug.</date>
+                  <lb/>E</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_1.tif" n="1"/>
+         <p>J. STAEHELIN<lb/>WATTWIL<lb/> Messrs. L. Kniffler +Co in
+                (Nagasaki)<lb/>Yokohama<lb/>Wattwyl, 15th February 1866<lb/>I acknowledge the
+                pleasant receipt of your esteemed <lb/>letter from 16th Dec. 65 and extracted from
+                this <lb/>£. 3,26.9.12.6 monthly view s. London Joint Stock<lb/>Bank in
+                London<lb/>which I credit conformly s. b. f. to your Nagasaki <lb/>house at 4/6¼
+                with $1444„28..<lb/>I took good note of the remainder of your <lb/>esteemed letter.
+                Once the economic situation <lb/>becomes more favourable again, i.e. when lower<lb/>
+                commodity prices bring about lower purchase<lb/>costs, I hope to be able to send
+                something <lb/>there again _<lb/>In the meantime I will be pleased to receive your
+                <lb/>kind reports occasionally + am signing<lb/>Yours respectfully :<lb/>J.
+                Staehelin</p>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_2.tif" n="2"/>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_3.tif" n="3"/>
+         <pb facs="1866_02_15_Kniffler_Yokohama_von_J_Staehelin_Wattwil_4.tif" n="envelope"/>
+         <p>PARIS A MARSEILLE<lb/>17<lb/>FEVR<lb/>66<lb/>6[?]<lb/>
+                MARSEILLE<lb/>17<lb/>FEVR<lb/>66<lb/>3 (13[?]) ST. [?]GALLEN · OLTEN<lb/>7.2<lb/>16
+                II<lb/>66 YOKOHAMA<lb/>12<lb/>AVRIL<lb/>66<lb/>BAU FRANCAIS<lb/> [...]
+                MARSEILLE<lb/>17<lb/>FEVR.<lb/>66<lb/>C Voie de Marseille<lb/>
+                Messieurs<lb/>[...]SEPO[...]<lb/>16<lb/>FEVR<lb/>66<lb/>A WATTWYL<lb/>15<lb/>FEB.
+                66<lb/>A9<lb/>➕<lb/>L. Kniffler +Co<lb/>Yokohama<lb/>Japan<lb/>⟨1866<lb/>J.
+                Staehelin<lb/>Wattwyl Feb 15th.<lb/>April 12th<lb/>Ans[wered] 27th Aug.<lb/>E⟩</p>
+      </body>
+   </text>
+</TEI>

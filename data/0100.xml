@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benj. &amp; Eug. Perrier in Châlons sur Marne an L. Kniffler &amp; Co. in
+               Nagasaki am 18. Juni 1869</title>
+            <title type="file">0100.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC"/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt, erste Seite mit Anschreiben und Briefkopf, zweite Seite Anschreiben.
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01154">Benj. &amp; Eug. Perrier</orgName>
+               <settlement ref="K00617">Châlons sur Marne</settlement>
+               <date when="1869-06-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-10-18" who="TP">diplomatische Transkription und Neuordnung der
+            Faksimiles</change>
+         <change when="2021-09-06" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+            Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="1869_06_18_Kniffler_Nagasaki_Benj._Eug._Perrier_Chalons_1.tif"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01154">BENJ. &amp; EUG. PERRIER</orgName>
+                  <lb/>Vins de Champagne.</hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="print">
+                  <placeName ref="K00617">Chalons<hi rend="superscript">s</hi>/marne</placeName>
+                  le</hi>
+               <date when="1869-06-18">18 Juin 1869</date>
+            </seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <seg rend="right">
+               <placeName ref="K000514">Nagasaki</placeName>
+            </seg>
+            <lb/> Messieurs, Votre Lettre <date when="1869-06-08">8 Avril</date> est dans nos
+            mains<lb/> Elle nous annonce que 70 Caisses de notre envoi par<lb/>
+            <name type="ship">“<name type="ship" ref="K01840">Wilhelmina &amp; Elize</name>”</name>
+            sont venoues &amp; que les 30 Caisses<lb/> restant à <placeName ref="K00545">Hiogo</placeName> ne tarderont pas être écoulees.<lb/> Nous espérons donc recevoir
+            bientôt comte de Vente<lb/> de notre envoi-<lb/>
+            <add style="textOrientation: straight" place="inline" resp="other">
+               <hi rend="underline">am <date when="1869-06-18">18 April</date> erhalten</hi>
+            </add>
+            <hi rend="underline">Nous</hi> vous confimons nos Lettres <date when="1869-02-25">25
+               février</date>
+            <lb/> &amp; <date when="1869-05-11">11 Mai</date>._ Nous sommes étonnés qu' a la date
+            de<lb/> la vortre <date when="1869-04-08">8 April</date>, vous n'ayez pas recu encore
+            la<lb/> première de nos deux précitées. Nous vous en<lb/> remettons la copie.<lb/> Celle
+            du <date when="1869-05-11">11 Mai</date> vous portait le connais-<lb/> sement de 100
+            Caisses de vin, de Champagne<lb/> adressées à vortre maison de <placeName ref="K000514">Nagasaki</placeName>-<lb/> Pa le même navire, votre maison de<lb/>
+            <placeName ref="K00525">Kan<add style="textOrientation: straight" resp="other" place="inline">\</add>
+               <add style="textOrientation: straight" place="above" resp="other">U</add>agawa</placeName>
+            <unclear reason="eccentric_ductus">recevra</unclear> 50 Caisses ainsi qu'il est<lb/> dit
+            en notre Lettre <date when="1869-02-23">23 Février</date>.<lb/>
+         </p>
+         <pb facs="1869_06_18_Kniffler_Nagasaki_Benj._Eug._Perrier_Chalons_2.tif" n="2"/>
+         <p> Nous attendrons maintenant vos instructions<lb/> pour le envois qui devans suivre.<lb/>
+            D'après ce que nous savons de l'état prospère<lb/> &amp; actif de vos marchés, nous
+            devons espérer<lb/> que vos nous procurerez a présent un débouché<lb/> important &amp;
+            régulier de nos produits.<lb/> Apèz, Messieurs, nos salutations sincéres,<lb/>
+            <seg rend="center">
+               <orgName type="firm" ref="K01154">Benj. &amp; Eug Perrier</orgName>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

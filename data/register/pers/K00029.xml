@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Wilhelm Gustav Heinrich Reddelien</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00029">
+               <persName>
+                  <forename>Wilhelm Gustav Heinrich</forename>
+                  <surname>Reddelien</surname>
+               </persName>
+               <birth>
+                  <date when="1839-02-09"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1912-04-26"/>
+                  <placeName>Hamburg</placeName>
+               </death>
+               <note>Gustav Reddelien trat im Jahre 1860 in das Unternehmen L. Kniffler &amp; Co. in
+                  Nagasaki nach Vermittlung durch die Firma Bollenhagen ein. Nach dem Wechsel M. H.
+                  Gildemeisters nach Yokohama ab 1861 Prokurist und Geschäftsleiter in Nagasaki.
+                  Nach der Rückkehr von Kniffler und Gildemeister nach Deutschland wurde Reddelien
+                  Teilhaber der Firma und wechselte zwischen 1868 und 1870 nach Yokohama. In den
+                  1880er Jahren Reisen zwischen Düsseldorf und Japan. Reddelien wurde geschätzt
+                  aufgrund seiner interkulturellen Kompetenz. Er lernte schnell Japanisch und
+                  verhandelte ohne Dolmetscher mit den einheimischen Geschäftspartnern. Er heiratete
+                  die Japanerin Fukui Ozune und zog mit ihr drei Kinder auf, die nach dem Tod der
+                  Mutter 1881 oder 1882 nach Deutschland übersiedelten.</note>
+               <bibl>Rudolf Beisenkötter: Gustav Reddelien und der Beginn des deutsch-japanischen
+                  Handels. In: OAG Notizen 11/2001.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 44</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

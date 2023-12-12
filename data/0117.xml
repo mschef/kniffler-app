@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Weber, Leysner &amp; Co. in Niigata an L. Kniffler &amp; Co. in Yokohama am
+                    22. Dezember 1869</title>
+            <title type="file">0117.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-110</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen zum Umschlag gefaltet. Umschlagsbogen mit
+                            Siegellackresten und Ausschnitt. Eingangsnotiz auf dem Umschlag. Vier
+                            Seiten beschrieben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01046">Weber, Leysner &amp; Co.</orgName>
+               <settlement ref="K00540">Niigata</settlement>
+               <date when="1869-12-22"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1870-01-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-19" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-14" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00540">Niigata</placeName>
+                  <date when="1869-12-22">22 Decb 1869</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">LKniffler +C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg> Gegen unser <choice>
+               <abbr>ergeb:</abbr>
+               <expan>ergebenes</expan>
+            </choice> Letztes vom <lb/>
+            <date when="1869-12-11">11<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>dss</abbr>
+                  <expan> desselben</expan>
+               </choice>
+               <choice>
+                  <abbr>Mts</abbr>
+                  <expan> Monats</expan>
+               </choice>
+            </date>, wurden uns Ihre Geehrten<lb/> vom <date when="1869-12-04">4<hi rend="superscript">ten</hi> + <date when="1869-12-09">9<hi rend="superscript">ten</hi>
+               </date>
+               <choice>
+                  <abbr> d<hi rend="superscript">n</hi>
+                  </abbr>
+                  <expan> diesen</expan>
+               </choice>
+            </date>, von derem Inhalte<lb/> wir bestens Vermerkung nahmen.<lb/> In Betreff Ihres <choice>
+               <abbr>Strs</abbr>
+               <expan> Steamers</expan>
+            </choice>
+            <name type="ship" ref="K01603">
+               <hi rend="latintype"> Vulcan</hi>
+            </name>, so<lb/> haben wir denselben Einigen unserer<lb/> Freunde vorgestellt und
+                sollten die-<lb/> selben darauf zurück kommen, so<lb/> werden wir Ihnen weiter
+                darüber<lb/> schreiben. An einen <hi rend="latintype">Cash</hi> Verkauf<lb/> wird
+                indessen schwerlich zu denken<lb/> sein, doch würde Ihnen ein Zeit Ver-<lb/> kauf
+                wenn Zahlung in <term type="goods" ref="K01502">Reis</term> und<lb/> andern
+                Producten geleistet wird<lb/> gewiß auch conveniren. Wir haben<lb/> auch in diesem
+                Sinne Verhandlun-<lb/> gen angeknüpft, müssen indessen<lb/> gestehen, daß wir für
+                die nächste<lb/> Zeit kaum auf ein Resultat der-<lb/> selben rechnen. Unsere Freunde
+                scheinen<lb/> erst eine weitere Entwicklung der<lb/> geschäftlichen Verhältnisse
+                abwarten <lb/> zu wollen, ehe Sie sich zu Steamer<lb/> oder Waffen Ankäufen
+                entscheiden.<lb/> Die 60 Stp <hi rend="latintype">
+               <term type="goods" ref="K01604">Comblain Rifles</term>
+            </hi> sind<lb/> auch noch nicht abgeliefert, da die Käufer<lb/> noch nicht aus ihrer
+                Provinz retour<lb/> sind. Dieselben ließen uns heute<lb/> durch ihren Agenten ein
+                Gebot<lb/> von <term type="commercial" ref="K01576">
+               <choice>
+                  <abbr>Itzbs</abbr>
+                  <expan>Itzebues</expan>
+               </choice>
+            </term>
+            <measure type="currency" unit="ichibu" quantity="30">30</measure>__p
+                Stp
+                für Ihre <term type="goods" ref="K01605">Enfield</term>
+            <lb/> machen, welches wir da <hi rend="latintype">Credit</hi> ver-<lb/> langt wurde,
+                    <unclear>refüsirten.</unclear>
+         </p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_2.tif" n="2"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_3.tif" n="3"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_4.tif" n="4"/>
+         <p> Es würde uns lieb sein, hin<lb/> und wieder von Ihnen zu hören<lb/> wozu dorten
+                verkauft wird, um<lb/> uns einigermaßen danach richt<unclear reason="lost">en</unclear>
+            <lb/> zu können<lb/> Die uns übermachte <term type="commercial" ref="K01606">
+               <choice>
+                  <abbr>
+                     <hi rend="latintype">Promiss.</hi>
+                  </abbr>
+                  <expan cert="medium">
+                        Promissory note
+                    </expan>
+               </choice>
+            </term>
+            <lb/>
+            <choice>
+               <abbr>
+                  <unclear>dH</unclear>
+               </abbr>
+               <expan cert="medium">des Herrn</expan>
+            </choice>
+            <persName ref="K00037">F. O. <hi rend="latintype">Arnold</hi>
+            </persName> haben wir denselben<lb/> präsentirt, konnten indessen keine<lb/> Zahlung
+                erhalten. Zur Sicherstellung<lb/> dieser Forderung gelang es uns<lb/> indessen eine
+                Parthie von<lb/> c<hi rend="superscript">a.</hi>
+            <measure type="currency" unit="mex$" quantity="950">950</measure>
+            <unclear>
+               <term type="measure" ref="K01508">$</term>
+            </unclear>
+            <unclear>
+               <term ref="K01607" type="goods">Sohlleder</term>
+            </unclear> von Herrn <persName ref="K00037">F. O.<lb/> Arnold</persName>
+                ausgeliefert zu erhalten<lb/> Es ist dieses zwar kein sehr coura<unclear reason="lost">nter</unclear>
+            <lb/> Artikel, hatte indessen von allen<lb/> Waaren welche <choice>
+               <abbr>H</abbr>
+               <expan>Herr</expan>
+            </choice>
+            <persName ref="K00037">Arnold</persName> auf<lb/> Lager hatte noch den meisten
+                Wert<lb/> und hoffen wir daß der Erlös<lb/> Ihre Forderung reichlich decken
+                    wi<unclear reason="lost">rd</unclear>
+            <lb/> durch gerichtliche Schritte würden <gap/>
+            <lb/> wahrscheinlich nur die Insolvenz <unclear reason="lost">Er-</unclear>
+            <lb/> klärung von H. <persName ref="K00037">Arnold</persName> herbei geführt<lb/>
+                haben, da noch andere Forderungen<lb/> gegen denselben vorliegen un<unclear reason="lost">d</unclear>
+            <lb/> zogen wir deshalb vor die Sach<unclear reason="lost">e</unclear>
+            <lb/> wie oben erwähnt zu arrangi<unclear reason="lost">ren</unclear>
+            <lb/> Im Geschäft ist es leider noch<lb/> immer recht flau und haben wir<lb/> unsern
+                letzten Berichten nichts<lb/> Neues hinzuzufügen.<lb/> Von
+                    <unclear>Sakadagawa</unclear> hören wir<lb/>
+            <!-- Leider nicht zu verifizierender Ortsname. Der Sakatagawa ist ein kleiner Bach in der Nähe der Stadt Niigata, liegt aber weder in Meernähe, noch auf dem Weg nach Hakodate, deshalb unwahrscheinlich. -->
+                daß es nicht gelungen war, <name type="ship" ref="K01552">
+               <hi rend="latintype">Oc<unclear reason="lost">ean</unclear>
+                  <lb/>
+               </hi>
+               <hi rend="latintype">Queen</hi>
+            </name> wieder flott zu machen und<lb/> werden Passagiere und Mannschaf<unclear reason="lost">t</unclear>
+            <lb/> wohl über Land nach dorten kom<unclear reason="lost">en</unclear>
+            <lb/> directe. Die uns gewordenen Mitth<unclear reason="lost">ei</unclear>
+            <lb/> lungen sind nur mündliche seitens </p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_5.tif" n="5"/>
+         <p> der Japanesen und haben wir<lb/> über Ihren <unclear>Treasure</unclear> nichts
+                Weiteres<lb/> gehört.-<lb/>
+            <hi rend="latintype">
+               <orgName type="gov" ref="K01047">Choshiu</orgName>
+            </hi> läßt hier <hi rend="latintype">c<hi rend="superscript">a</hi>
+            </hi>
+            <measure quantity="10000" commodity="muskets">10,000</measure>
+            <term type="goods" ref="K01608">Mus-<lb/> queten</term> zum Verkauf ausbieten,
+                wie<lb/> man sagt zu <term type="commercial" ref="K01576">Itzbs</term> 12 Papier ⅌ Stp
+                <lb/> wodurch natürlich das Waffengeschäft<lb/> auch eben nicht verbessert wird<lb/>
+                Indem wir Ihnen zu den<lb/> bevorstehenden Feiertagen noch unsern<lb/>
+            <del rend="overstrike">verbindlichsten</del>
+            <add style="textOrientation: straight" resp="writer" place="above">herzlichsten</add> Glückwunsch abstatten,<lb/> begrüßen wir Sie.<lb/>
+            <seg rend="right">Freundschaftlich ergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01046">Weber Leysner+C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_6.tif" n="6"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_7.tif" n="7"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_8.tif" n="envelope"/>
+         <p>
+            <seg rend="center">p <hi rend="latintype">
+                  <hi rend="underline">Overland Mail</hi>
+               </hi> 54<lb/>
+               <hi rend="latintype">Mess<hi rend="superscript">rs</hi>
+                  <orgName type="firm" ref="K01004">LKniffler +C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/> N<hi rend="superscript">o</hi>54<lb/>
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01046">WEBER LEYSNER &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00502">JAPAN</placeName>
+                  <lb/>
+                  <placeName ref="K00540">NIIGATA</placeName>
+               </stamp>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">
+               <date when="1869">1869</date>.<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00540">Niigata</placeName>
+                  <date when="1869-12-22">22 Decemb</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01046">Weber Leysner +Co</orgName>
+                  <lb/> Empf <date when="1870-01-10">10 Janu</date>
+                  <lb/> Beant. <date when="1870-01-15">15<unclear>d<hi rend="superscript">o</hi>
+                     </unclear>
+                  </date>
+               </hi>
+               <lb/>
+               <unclear>GM</unclear>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_1.tif" n="1"/>
+         <p>Niigata 22nd Dec. 1869<lb/>Messrs. L. Kniffler + Co.<lb/>Yokohama </p>
+         <p>Following our respectful last letter <lb/>from 11th of this month, we received your
+                esteemed <lb/>letters from the 4th + 9th of this month, the contents of <lb/>which
+                we noted most carefully. <lb/>Regarding your steamer Vulcan, we <lb/>have shown it
+                to some of our <lb/>friends and should they take us <lb/>up on this offer, we will
+                write back <lb/>to you with more details. However,<lb/>a cash sale can hardly be
+                expected, <lb/>although surely a sale on credit<lb/>if payment is made in rice and
+                <lb/>other products will also be <lb/> convenient to you. We have <lb/>also started
+                negotiations in this<lb/>vein but nonetheless have to <lb/>admit that we are not
+                really <lb/>expecting a result from these in the <lb/>near future. Our friends seem
+                to<lb/>want to wait and see how the business <lb/>situation continues to develop
+                <lb/>before they decide on steamer<lb/>or weapons purchases.<lb/>The 60 items of
+                Comblain rifles have<lb/>not been delivered to the buyers yet, <lb/>as they have not
+                yet returned from their <lb/>province. These same people through <lb/>their agent
+                today made an offer <lb/>of Itzbs 30__ apiece for your Enfield<lb/>rifles, which we
+                refused[?] because they <lb/>demanded credit for it.</p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_2.tif" n="2"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_3.tif" n="3"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_4.tif" n="4"/>
+         <p>We would be pleased to hear from <lb/>you every now and again about <lb/>what gets
+                sold to there, so that <lb/>we can use this as a guide[?] to a <lb/>certain extent.
+                <lb/>The payment demand note for Mr.[?] F. O. Arnold<lb/>sent to us we have
+                presented to this <lb/>gentleman but were unable to get a <lb/>payment. To secure
+                this <lb/>demand we have succeeded,<lb/>however, in taking delivery of one <lb/>lot
+                of approx. $950[?] of sole leather[?]<lb/>from Mr F. O. Arnold.<lb/>While this is
+                not a very marketable[?]<lb/>article, it nonetheless had the highest <lb/>value of
+                all the wares that Mr. Arnold <lb/>still had in stock and we are <lb/>hoping that
+                its proceeds are going <lb/>to cover your demands copiously,<lb/>court proceedings
+                would [...]<lb/>probably only have led to a declaration<lb/>of insolvency by Mr.
+                Arnold <lb/>as there are other claims <lb/>against him and[?] therefore
+                we<lb/>preferred to arrange[?] this matter[?]<lb/>as explained above.<lb/>Business
+                is unfortunately <lb/>still quite slack and we have <lb/>nothing new to add to our
+                latest <lb/>reports. <lb/>From Sakadagawa[?] we hear that there <lb/>was no success
+                in trying to refloat<lb/>the Ocean[?] Queen and passengers<lb/>and crew[?] will
+                probably travel by land<lb/>directly there. The notifications given to<lb/>us were
+                only made orally by the </p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_5.tif" n="5"/>
+         <p>Japanese and we have heard <lb/>nothing further about
+                your<lb/>treasure[?].-<lb/>Choshin is having ca. 10,000 <lb/>muskets put up for sale
+                here, it is<lb/>said, at 12 paper Itzebues apiece,<lb/>which really does not help
+                improve<lb/>the weapons trade at all. <lb/>We send you our greetings <lb/>and also
+                our <del rend="overstrike">obligatory </del> heartfelt <lb/>felicitations forthe
+                upcoming <lb/>holidays.<lb/>Yours most sincerely and devotedly <lb/>Weber Leysner +
+                Co.</p>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_6.tif" n="6"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_7.tif" n="7"/>
+         <pb facs="1869_12_22_Kniffler_Yokohama_von_Weber_Leysner_Co_Niigata_8.tif" n="envelope"/>
+         <p>per Overland Mail 54<lb/> Messrs. L Kniffler +Co.<lb/> No54<lb/>WEBER LEYSNER &amp;
+                Co.<lb/>JAPAN<lb/>NIIGATA<lb/>⟨1869.<lb/>Niigata 22nd December<lb/>Weber Leysner +Co
+                <lb/>Rec[eived]. 10th Jan.<lb/>Answ[ered]. 15th of the above<lb/>GM⟩</p>
+      </body>
+   </text>
+</TEI>

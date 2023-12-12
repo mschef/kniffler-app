@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benecke, Souchay &amp; Co. in London an L. Kniffler &amp; Co. in Yokohama am
+                    18. Dezember 1868</title>
+            <title type="file">0086.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-86</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01031">Benecke, Souchay &amp; Co.</orgName>
+               <settlement ref="K00523">London</settlement>
+               <date when="1868-12-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-02-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-08-02" who="TP">Diplomatische Transkription</change>
+         <change when="2020-09-07" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachbezeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_1.tif" n="1"/>
+         <p>
+            <add style="transformRotateZ(-45deg)" resp="writer">
+               <hi rend="underline">c</hi>
+            </add>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; C.</orgName>
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName> den <date when="1868-12-18">18
+                            Dec. 1868</date>.</hi>
+            </seg>
+            <lb/> Wir schrieben Ihnen am <date when="1868-11-20">20 <choice>
+                  <abbr> pt. </abbr>
+                  <expan> passato</expan>
+               </choice>
+            </date>
+            <choice>
+               <abbr>u</abbr>
+               <expan> und</expan>
+            </choice> sandten<lb/> Ihnen mit der letzten Post <choice>
+               <abbr>uns.</abbr>
+               <expan> unseren</expan>
+            </choice> monatlichen<lb/> Bericht, welchem wir nichts von Interesse hinzu-<lb/>
+                zufügen hatten. Wir sind inzwischen ohne<lb/> Ihre <choice>
+               <abbr>w/</abbr>
+               <expan> werten</expan>
+            </choice> Nachrichten geblieben.<lb/> Wir haben in den verflossenen vierzehn<lb/>
+                Tagen ein sehr beschränktes Geschäft in <term type="goods" ref="K01524">Seide</term>
+            <lb/> gehabt. Preise, obgleich etwas unregelmäßig<lb/> wurden indessen im Ganzen
+                genommen <del rend="overstrike">etw</del>
+            <lb/> ziemlich fest behauptet u. können uns für<lb/> einige <add style="textOrientation: straight" resp="writer" place="above">mittlere u.</add>
+                geringere Qualitäten niedriger notirt<lb/> werden. Am meisten haben die mittleren<lb/>
+            <unclear>
+               <term type="goods" ref="K01560">Tsatlees</term>
+            </unclear> gelitten, indem sie für <unclear>1 - ½</unclear> billiger<lb/> abgegeben
+                wurden. <hi rend="latintype">
+               <term type="goods" ref="K01561">Red. Peacocks</term>
+            </hi> sind </p>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_2.tif" n="2"/>
+         <p> 24/<del rend="overstrike">6</del>
+            <add style="textOrientation: straight" resp="writer" place="above">3</add>
+            <hi rend="latintype"> u Chop 4<hi rend="superscript">a</hi>
+               <unclear>
+                  <term type="goods" ref="K01560">Tsatlees</term>:</unclear>
+            </hi> 25/2 zu haben.<lb/> Dagegen für feinste japanes. <term type="goods" ref="K01562">Grèges</term> gehen<lb/> die Forderungen <choice>
+               <abbr>uns/.</abbr>
+               <expan> unserer</expan>
+            </choice> Eigner eher in die Hohe.<lb/> Für eine günstige ausgesuchte Parthie <unclear>
+               <term type="goods" ref="K01563">Upland</term>
+            </unclear>
+            <lb/> hat man sogar 39/- erzielen können.<lb/> Vor Anfang des neuen Jahres wird
+                wohl<lb/> an eine Belebung des Geschäftes nicht zu<lb/> denken sein.<lb/>
+            <seg rend="right">Mit freundschaftl. Achtung zeichnen<lb/>
+               <hi rend="latintype">pp <orgName type="firm" ref="K01031">BeneckeSonchay+Co</orgName>
+                  <lb/>
+                  <persName ref="K00022">Er. Stahlschmidt</persName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_3.tif" n="3"/>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">HONG-KONG</placeName>
+                  <lb/>C<lb/>
+                  <date when="1869-01-30">JA 30<lb/>69</date>
+               </stamp>
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01031">BENECKE, SOUCHAY &amp; CO.</orgName>
+                  <lb/>
+                  <date when="1868-12-18">18 DEC 1868</date>
+                  <lb/>
+                  <placeName ref="K00523">LONDON</placeName>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKO<unclear reason="faded" cert="high">HAMA</unclear>
+                  </placeName>
+                  <lb/>A<lb/>
+                  <date when="1869-02-10">FE 10<lb/>69</date>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00515">Ma<hi rend="underline">rsei</hi>lles</placeName>
+                  <hi rend="underline">paid</hi>
+               </hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00523">LONDON</placeName>
+                  <lb/>PAID<lb/>
+                  <date when="1868-12-18">18 DE 68</date>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">Messrs.<lb/>
+                  <orgName type="firm" ref="K01004">L. Kniffler <hi rend="superscript">+</hi>Co</orgName>
+                  <lb/>
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <placeName ref="K00503">Japan</placeName>
+               </hi>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="latintype">
+                  <date when="1868-12-18">1868<lb/>
+                     <placeName ref="K00523">London</placeName> 18 decbr.</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01031">Benecke Souchay &amp; Co.</orgName>
+                  <lb/> empf. <date when="1869-02-10">10 febr. 69</date>
+                  <lb/>
+                  <date when="1869-03-09">9 März</date>
+               </hi>
+               <lb/> ARm<lb/>
+               <unclear reason="eccentric_ductus">Al<lb/> Fz</unclear>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_1.tif" n="1"/>
+         <p>⟨c⟩<lb/>Messrs. L. Kniffler &amp; Co. Yokohama<lb/>London, the 18th Dec. 1868.<lb/>We
+                last wrote to you on the 20th of last month[?] and sent<lb/>our monthly report to
+                you with the last post,<lb/>which we do not have anything of interest <lb/>to add
+                to. Meanwhile we have been<lb/>without your esteemed news. <lb/>Over the fourteen
+                days since then we have <lb/>had very limited business in silk. <lb/>Although the
+                prices are a little irregular, <lb/>they have, all in all, held their ground <del rend="overstrike">some</del>
+            <lb/>quite steadily and some medium and <lb/>lower qualities can be listed at a
+                lower<lb/>price. The medium tsatlees[?] have <lb/>suffered the most by being sold at
+                1 - ½[?] <lb/>cheaper. Red Peacocks are to be had</p>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_2.tif" n="2"/>
+         <p>24/<del rend="overstrike">6</del>
+            <hi rend="superscript">3</hi> a[nd] chop 4a tsatlees:[?] 25/2.<lb/>For finest
+                Japanese grèges, on the other hand, the <lb/>demands of our owners are rather going
+                up. <lb/>For a low-priced, choice batch of Upland[?]<lb/>one has even been able to
+                achieve 39/-.<lb/>Before the start of the new year there is <lb/>probably not much
+                chance of business <lb/>picking up. <lb/>We sign, yours sincerely and cordially
+                <lb/>p.p. Benecke Souchay + Co<lb/>Er. Stahlschmidt</p>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_3.tif" n="3"/>
+         <pb facs="1868_12_18_Kniffler_Yokohama_von_Benecke_Souchay_London_4.tif" n="envelope"/>
+         <p>HONG-KONG<lb/>C<lb/>JA 30<lb/>69BENECKE, SOUCHAY &amp; CO.<lb/>18 DEC
+                1868<lb/>LONDON<lb/>YOKOHAMA[?]<lb/>A<lb/>FE 10<lb/>69<lb/>Marseilles paid
+                LONDON<lb/>PAID<lb/>18 DE 68<lb/>Messrs.<lb/>L. Kniffler +
+                Co<lb/>Yokohama<lb/>Japan<lb/>⟨1866<lb/>London 18th Dec.<lb/>Benecke Souchay &amp;
+                Co.<lb/>Rec[eived]. 10th Feb. 69<lb/>9th March<lb/>Arm<lb/>Al<lb/>Fz⟩</p>
+      </body>
+   </text>
+</TEI>

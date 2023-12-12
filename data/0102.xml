@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm Patow in Yokohama an Gustav Reddelien o. O. am 13. Juli 1869</title>
+            <title type="file">0102.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-98</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt. Anschreiben auf beiden Seiten.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00030">Patow, Wilhelm</persName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-07-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="K00029">Reddelien, Gustav</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019" who="TS">Diplomatische Transkription</change>
+         <change when="2020-09-11" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="1869_07_13_Reddelien_n.a._von_W_Patow_Yokohama_1.tif"/>
+         <p>
+            <seg rend="right">
+               <hi rend="underline">privatim</hi>
+            </seg>
+            <seg rend="right">
+               <placeName ref="K00525">Yokohama</placeName>, <date when="1869-07-13">13 July
+                        1869</date>
+               <lb/>
+               <add resp="other" style="textOrientation: straight">
+                  <persName ref="K00030">Wm. Patow</persName>
+                  <lb/>e/ <date when="1869-07-13">13 Juli</date>
+               </add>
+            </seg>
+            <lb/> Lieber Herr <hi rend="latintype">
+               <persName ref="K00029">Reddelien</persName>
+            </hi>.<lb/> Ich schreibe Ihnen diese Privatzeilen, wes-<lb/> halb ich das <unclear>
+               <term type="commercial" ref="K01593">Lot</term>
+            </unclear> von <hi rend="latintype">
+               <persName ref="K00031">Neels</persName>
+            </hi> gerne haben möchte. Ich woll-<lb/> te nämlich einen <hi rend="latintype">Store+Auctionbusiness</hi> dort aufsetzen<lb/> und habe mich schon lange in
+                jener Gegend nach einem<lb/> passenden<add style="textOrientation: straight" place="above" resp="writer">Platze</add> umgesehen. Ein großes <term type="commercial" ref="K01593">Lot</term> kann ich nicht<lb/> kaufen, da ich
+                nicht das Capital dazu habe. Den un-<lb/> teren Raum gedachte für mich zu nehmen
+                und<lb/> Theil des oberen auszumieten. Ein solches <hi rend="latintype">Store</hi>
+            <lb/> + <hi rend="latintype">Auctionbusiness</hi> kann ich hier im Hause<lb/> nicht
+                aufmachen, wie Sie leicht einsehen werden,<lb/> der dortige Platz würde mir gerade
+                Con-<lb/> stanieren und wenn Sie mir behilflich sein<lb/> könnten, denselben zu
+                erhalten, würden<lb/> Sie mich zu großem Danke verpflichten.<lb/>
+            <table>
+               <row>
+                  <cell>Ich rechne <measure type="currency" unit="itzebue" quantity="140">140</measure>
+                     <hi rend="latintype">
+                        <term type="measure" ref="K01576">Isboe</term> c</hi>
+                     <hi rend="underline">
+                        <term type="measure" ref="K01508">$</term> 10. ⁒ 5 %</hi>
+                     <lb/>
+                  </cell>
+                  <cell rows="2">
+                     <measure type="currency" quantity="1330" unit="mex$">1330.-</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>wie an<hi rend="latintype">
+                        <persName ref="K00032">Wyttenbach</persName>
+                     </hi>
+                     <choice>
+                        <abbr>verkft</abbr>
+                        <expan>verkauft</expan>
+                     </choice>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Das Haus kostet ihn mehr, doch</cell>
+                  <cell rows="2">
+                     <hi rend="underline">
+                        <measure type="currency" unit="mex$" quantity="1500">1500.-</measure>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>kann doch für <measure type="currency" unit="mex$" quantity="1500">1500.-</measure> gebaut werden</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Total <hi rend="underline">
+                        <term type="measure" ref="K01508">$</term>
+                        <measure type="currency" quantity="2830" unit="mex$">2830.-</measure>
+                     </hi>
+                  </cell>
+               </row>
+            </table> Demnach <choice>
+               <abbr>m/</abbr>
+               <expan> meine </expan>
+            </choice>Offerte von <measure type="currency" unit="mex$" quantity="3500">3500.-</measure> ⁒ 5% scheint mir eine<lb/> sehr <hi rend="latintype">raisonable</hi> zu sein. Daß er zu viel für Land+Haus<lb/> bezahlt hat, weiß
+                jeder. Doch wie versprochen ehe Sie<lb/> Etwas abschließen in der einen oder anderen
+                Weise,<lb/> erwarte von Ihnen zu hören, da ich den Platz<lb/> gern hätte um <choice>
+               <abbr>m/</abbr>
+               <expan> meinen</expan>
+            </choice> obigen Zweck auszuführen. Mit<lb/>
+         </p>
+         <pb facs="1869_07_13_Reddelien_n.a._von_W_Patow_Yokohama_2.tif" n="2"/>
+         <p> besten Grüßen<lb/>
+            <seg rend="center">W</seg>
+            <lb/>
+            <seg rend="center">
+               <persName ref="K00030">WPatow</persName>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_07_13_Reddelien_n.a._von_W_Patow_Yokohama_1.tif" n="1"/>
+         <p>private Yokohama, 13th July 1869<lb/> ⟨Wm. Patow<lb/> r[eceived]/ 13th July⟩<lb/>Dear
+                Mr. Reddelin.<lb/>I am writing these private lines to you because I<lb/>would like
+                to have the lot[?] by Neels. This is because<lb/>I have been intending to set up a
+                store + auction business there<lb/>and have for a long time been searching for a
+                suitable place <lb/>in that area. I cannot buy a large lot as I <lb/>have not got
+                the capital to do that. I have been<lb/>planning to use the downstairs space for
+                myself <lb/>and to rent out part of the upper store. I am not able<lb/>to open such
+                a store + auction business here in this<lb/>building as you will surely
+                understand,<lb/>the place there would suit me very well indeed<lb/>and if you could
+                be of assistance to me in <lb/>purchasing this, I would be most gratefully
+                <lb/>indebted to you. <lb/>
+         </p>
+         <table>
+            <row>
+               <cell>I calculate 140 Itzebu c $ 10. ⁒ 5 %</cell>
+               <cell>1,330.-</cell>
+            </row>
+            <row>
+               <cell>as sold to Wyttenbach</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>The house cost him more but</cell>
+               <cell>1,500.-</cell>
+            </row>
+            <row>
+               <cell>can be built for 1500.-</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell/>
+               <cell>Total $ 2,830.-</cell>
+            </row>
+         </table>
+         <p>Accordingly, my offer of 3,500.- ⁒ 5% seems to me to <lb/>be a very reasonable one.
+                Everyone knows that he paid <lb/>too much for the land + house. As promised, before
+                you<lb/>decide in one way or another, I am expecting to hear from <lb/>you as I
+                really would very much like to purchase the place <lb/>in order to carry out my
+                above intentions. </p>
+         <pb facs="1869_07_13_Reddelien_n.a._von_W_Patow_Yokohama_2.tif" n="2"/>
+         <p>Best wishes<lb/>W<lb/>W Patow</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag George Brinton McClellan</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00093">
+               <persName>
+                  <forename>George Brinton</forename>
+                  <surname>McClellan</surname>
+               </persName>
+               <birth>
+                  <date when="1826-12-03"/>
+                  <placeName>Philadelphia</placeName>
+               </birth>
+               <death>
+                  <date when="1885-10-29"/>
+                  <placeName>Orange (New Jersey)</placeName>
+               </death>
+               <note> George B. McClellan war im US-amerikanischen Sezessionskrieg (1861-1865) von
+                  1862 bis 1863 Oberbefehlshaber der Nordstaaten. Auf ihn folgte Ambrose E.
+                  Burnside. Seine Erwähnung im Brief vom 17.1.1863 deutet an, dass der Bürgerkrieg
+                  in den USA ein Ereignis von weitreichendem Interesse gewesen sein musste. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">118865757</idno>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">5231446</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

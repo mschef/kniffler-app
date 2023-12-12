@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Telge, Nölting &amp; Co. in Shanghai an L. Kniffler &amp; Co. in Nagasaki am
+                    24. Januar 1866</title>
+            <title type="file">0068.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-67</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, zwei Seiten Anschreiben, auf der letzten Seite eine
+                            Eingangsnotiz. Auf der ersten Seite in der rechten oberen Ecke der
+                            Firmenname gedruckt. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01121">Telge, Nölting &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1866-01-24"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1866-01-27"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-09" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-07" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_1.tif" n="1"/>
+         <p>
+            <hi rend="print">
+               <orgName type="firm" ref="K01121">TELGE NÖLTING &amp; C<hi rend="superscript">O.</hi>
+               </orgName>
+               <lb/>
+               <placeName ref="K00503">SHANGHAI</placeName>.</hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>, <date when="1866-01-24">24
+                            Januar 1866</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler+C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir schrieben Ihnen am <date when="1866-01-22">22. <choice>
+                  <abbr>ds</abbr>
+                  <expan>desselben</expan>
+               </choice>
+            </date>
+            <lb/>
+            <hi rend="latintype">p<hi rend="superscript">r</hi>
+               <name type="ship" ref="K01813">Chusan</name>
+            </hi> und schickten <term type="logistic" ref="K01538">Copie</term> des Briefes <hi rend="latintype">p<hi rend="superscript">r</hi>
+               <choice>
+                  <abbr>St<hi rend="superscript">r</hi>
+                  </abbr>
+                  <expan>Steamer</expan>
+               </choice>
+               <name type="ship" ref="K01811">Promise</name>
+            </hi>
+            <lb/> Heute freut es uns Ihnen den Verkauf der resti-<lb/> renden <hi rend="latintype">c<hi rend="superscript">a</hi>
+               <measure type="volume" quantity="600" unit="picul" commodity="pigslead">600</measure>
+               <term type="measure" ref="K01504">Peculs</term>
+            </hi>
+            <term type="goods" ref="K01810">Blei</term> mit 3 Wochen Lieferzeit<lb/>
+            <hi rend="latintype">à <unclear>
+                  <hi rend="underline">U<hi rend="superscript">s</hi> 4„ 8„ 75.</hi>
+               </unclear>
+            </hi> anzeigen zu können. Wenngleich der<lb/> Begehr für <term type="goods" ref="K01810">Blei</term> zunimmt, wie es den Anschein hat,<lb/> so glauben wir
+                doch am Vortheilhaftesten für Sie ge-<lb/> handelt zu haben jetzt zu verkaufen, da
+                Metalle ge-<lb/> wöhnlich nach dem chinesischen Neujahr weniger in Frage<lb/> sind
+                als vor demselben und wir sehr bald eine gänz-<lb/> liche Stockung im Geschäfte
+                befürchten, überhaupt ist es<lb/> bis <hi rend="latintype">c<hi rend="superscript">a</hi>
+            </hi> 3 Wochen nach dem chin. Neujahr immer sehr still<lb/> im Geschäft und hätte
+                das <term type="goods" ref="1810">Blei</term> daher unverkauft<lb/> noch 2 Monate
+                liegen können.<lb/> Sollten Sie zum selben Preise noch<lb/> einige Parthien
+                auftreiben können, besonders <unclear>
+               <hi rend="latintype">Lacke<lb/> Blacketts</hi> oder <hi rend="latintype">W.R,</hi>
+            </unclear> da möchten wir Ihnen solches<lb/> entschieden anrathen und betheiligen
+                wir uns gern<lb/> zur Hälfte. Für <unclear>L. B.</unclear> wird jetzt ein Preis von<lb/>
+            <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="5.8" unit="mex$" commodity="unclear">5.
+                    80</measure> à <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="6" unit="mex$" commodity="unclear">6._.</measure>
+                in <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> unserer Ansicht nach auf<lb/> hier Marge lassen.-<lb/> Wir vermuthen, daß
+                unser Herr <hi rend="latintype">
+               <persName ref="K00102">Nölting</persName>
+            </hi>
+            <lb/> jetzt bei Ihnen eingetroffen ist und sollte es<lb/> uns sehr angenehm sein zu
+                vernehmen, daß das beabsichtigte </p>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_2.tif" n="2"/>
+         <p> Geschäft in <hi rend="latintype">
+               <term type="goods" ref="K01605">Enfield Rifles</term>
+            </hi> zu Stande gekommen ist und einen<lb/> guten Ausgang genommen hat.-<lb/> Über
+                die <term type="goods" ref="K01638">Gewehre</term> erwarten wir dieser Tage<lb/>
+                positive Antwort, der <hi rend="latintype">
+               <unclear>
+                  <name type="ship" ref="K01814">Zontag</name>
+               </unclear>
+            </hi> ist selbst nach <hi rend="latintype">
+               <placeName ref="K00595">Nankin</placeName>
+            </hi>
+            <lb/> gegangen und wird dieser Tage zurück erwartet und<lb/> jedenfalls wird
+                derselbe die Antwort bringen._<lb/> Wir hoffen daher Ihnen mit nächstem <hi rend="latintype">
+               <choice>
+                  <abbr>St<hi rend="superscript">r</hi>
+                  </abbr>
+                  <expan>Steamer</expan>
+               </choice>
+            </hi> mitthei-<lb/> len zu können, daß wir die Parthie nehmen._<lb/> Cours auf
+                    <placeName ref="K00523">London</placeName> etwas besser 6/3½<hi rend="superscript">d</hi> und<lb/> wird wohl noch höher steigen.-<lb/>
+            <seg rend="center">Mit achtungsvoller Ergebenheit:<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01121">TelgeNölting+Co.</orgName>
+               </hi>
+            </seg>
+            <lb/> Soeben erhielten wir Brief von Herrn <hi rend="latintype">
+               <persName ref="K00102">Nölting</persName>,</hi>
+            <lb/> aus welchem hervorgeht, daß Ihr <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> Haus das<lb/> zwischen Ihnen und Herrn <hi rend="latintype">
+               <persName ref="K00101">Möller</persName>
+            </hi> getroffene Arrange-<lb/> ment wegen Ankauf der <hi rend="latintype">
+               <term type="goods" ref="K01605">Enfield Rifles</term>
+            </hi> nicht acceptirt hat.<lb/> Herr <hi rend="latintype">
+               <persName ref="K00102">Nölting</persName>
+            </hi> hat den unverkauften Rest dennoch gekauft<lb/> ohne Ihre Betheiligung und sich
+                mit <hi rend="latintype">
+               <orgName type="firm" ref="K01137">Walsh &amp; Co.</orgName>
+            </hi> über den<lb/> Verkauf geeinigt. Nach Berichten war in <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi>
+            <lb/> am Platz in Folge lebhafter Nachfrage ein <term type="commercial" ref="K01815">Avanz</term> von <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="4" unit="mex$">4.-</measure>
+            <lb/> zu bedingen.- Es thut uns leid, daß die ursprüngliche<lb/> Ordre nicht
+                ausgeführt ist - aber wie Sie sehen <hi rend="underline">nicht an uns</hi>
+            <lb/> liegt die Schuld.<lb/>
+            <seg rend="center">
+               <unclear reason="illegible">
+                  <orgName type="firm" ref="K01121">TN+C<hi rend="superscript">o</hi>
+                  </orgName>
+               </unclear>
+            </seg>
+         </p>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <hi rend="underline">1866</hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01121">Telge Nölting +Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1866-01-24">Janr 24</date>
+                     <lb/>R<hi rend="underline">
+                        <date when="1866-01-27">Janr 27</date>
+                     </hi>
+                     <lb/>
+                     <date when="1866-02-02">2 Febr.</date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_1.tif" n="1"/>
+         <p>TELGE NÖLTING &amp; Co.<lb/>SHANGHAI.<lb/> Shanghai, 24th January 1866<lb/>Messrs. L.
+                Kniffler + Co.<lb/>Nagasaki<lb/>We wrote to you on 22nd of this month <lb/>per
+                “Chusan” and sent a copy of the letter per steamer “Promise”.<lb/>Today, we are
+                pleased to be able to announce to you<lb/>the sale of the remaining ca. 600 piculs
+                of lead at Us 4„ 8„ 75 <lb/>with a delivery time of 3 weeks. Although the
+                <lb/>demand for lead is growing as it seems, <lb/>we believe to have acted for you
+                in the most <lb/>beneficial way possible because metals are usually <lb/>less in
+                demand after Chinese New Year than <lb/>before, and we fear that business may come
+                to a<lb/>total halt soon, in general it is always very <lb/>quiet in the business
+                until approx. 3 weeks after Chinese <lb/>New Year and thus the lead might have lain
+                around <lb/>unsold for 2 months still. <lb/>Should you be able to get hold of some
+                more <lb/>lots at the same price, especially lacquers<lb/>Blacketts or W.R, we would
+                recommend <lb/>you do so, and we will be pleased to take a <lb/>half share. For L.
+                B. a price of $5.80 to $ 6._.<lb/>in Nagasaki will, in our opinion, leave a profit
+                <lb/>here.-<lb/>We suppose that our Mr. Nölting will have<lb/>arrived at yours by
+                now and we should <lb/>be very pleased to hear that the planned </p>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_2.tif" n="2"/>
+         <p>business regarding Enfield rifles has come about and <lb/>has led to a good
+                outcome.-<lb/>Concerning the rifles we are anticipating a positive <lb/>response in
+                the next few days, Zontag has gone to Nankin<lb/>and is expected back soon and he
+                will bring back <lb/>an answer with him._<lb/>We are hoping, therefore, that we will
+                be able to let you know<lb/>with the next steamer whether we are taking the
+                lot._<lb/>The rate in London was somewhat better at 6/3½d and<lb/>will probably
+                continue to climb.-<lb/>Yours sincerely and respectfully:<lb/>Telge Nölting +
+                Co.<lb/>We have just received the letter from Mr. Nölting<lb/>which informs us that
+                your Yokohama house did not <lb/>accept the arrangement agreed between you and Mr.
+                Möller<lb/>regarding the purchasing of the Enfield rifles. <lb/>Mr. Nölting
+                nonetheless bought the unsold remainders <lb/>without your participation and has
+                reached an agreement with<lb/>Walstet regarding their sale. It is reported that on
+                site in Yokohama<lb/>due to a lively demand a premium of $4.- could
+                be<lb/>achieved.- We are sorry that the original order has not <lb/>been fulfilled –
+                but as you can see the fault did not lie<lb/>with us.<lb/>TN+Co[?]</p>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_24_Kniffler_Nagasaki_von_Telge_Noelting_Shanghai_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

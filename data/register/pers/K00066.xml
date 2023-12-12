@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Karl Johann Georg Von Eisendecher</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00066">
+               <persName>
+                  <forename>Karl Johann Georg</forename>
+                  <surname>Von Eisendecher</surname>
+               </persName>
+               <birth>
+                  <date when="1841-06-23"/>
+                  <placeName>Oldenburg</placeName>
+               </birth>
+               <death>
+                  <date when="1934-08-19"/>
+                  <placeName>Baden-Baden</placeName>
+               </death>
+               <note>Der Seekadett Karl von Eisendecher kam zum ersten Mal als Teil der preußischen
+                  Ostasienexpedition am 6. September 1860 nach Edo. Mit dem Ende der Expedition
+                  verließ er Japan wieder und machte Karriere in der preußischen Marine. Ab 1871
+                  arbeitete er an der deutschen Gesandtschaft in Washington. Ab September 1875 hielt
+                  er sich in Tokyo auf, nachdem er zuvor zum Ministerresidenten und Generalkonsul
+                  ernannt worden war. Dieses Amt hatte er bis 1882 inne. Danach folgten weitere
+                  Ämter in der Diplomatie außerhalb Japans. </note>
+               <bibl>Peter Pantzer &amp; Sven Saaler: Japanische Impressionen eines Kaiserlichen
+                  Gesandten, München 2007</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">116426640</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

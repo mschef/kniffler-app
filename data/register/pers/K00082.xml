@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Julius Adrian</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00082">
+               <persName>
+                  <forename>Julius</forename>
+                  <surname>Adrian</surname>
+               </persName>
+               <birth>
+                  <date when="1835"/>
+                  <placeName>Gießen</placeName>
+               </birth>
+               <death>
+                  <date when="1878"/>
+                  <placeName>Otego</placeName>
+               </death>
+               <note>Julius Adrian war ein Sohn des Philologen Johann Valentin Adrian. Er ging 1858
+                  oder 1859 nach Japan und gründete die Firma Adrian &amp; Co. gemeinsam mit seinem
+                  Bruder Theodor. Die Firma fungierte u.a. als Agentur für Shanghaier Bankhäuser.
+                  Bis zu seiner Abreise aus Japan im Jahre 1872 bekleidete er immer wieder
+                  Konsularämter in Vertretung für verschiedene Nationen. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_a.html">Meiji-Portraits</bibl>
+               <bibl>Dietmar Rieger: Johann Valentin Adrian - Universitätsprofessor und "Homme de
+                  Lettres", Bonn 1993, S. 24</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

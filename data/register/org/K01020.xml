@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Nederlandsche Handel-Maatschappij</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01020">
+               <orgName type="firm">Nederlandsche Handel-Maatschappij</orgName>
+               <settlement>Amsterdam, Batavia</settlement>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1086199197</idno>
+               <note>Bedeutende Niederländische Handelsfirma, die bis 1850 als Agent des Gouvernements von Niederländisch-Indien zahlreiche Vorzugsrechte genoss und sich danach hierauf aufbauend eine
+                  Vormachtstellung in der Region erarbeitete. Als durch den niederländischen Staat legitimierter Quasi-Monopolist war es die Aufgabe der Maatschappij, die Produkte des durch die
+                  Kolonialverwaltung in Batavia betriebenen Zwangsanbaus (vor allem Tabak, Zucker &amp; Kaffee) auf den Markt zu bringen. Die NHM war zwischen 1850 und 1880 auch in Japan vertreten.
+                  Schon wenige Jahre nach Eröffnung des ersten Büros in Nagasaki, das zunächst von Albertus Bauduin (1829-1890) und Philipp Franz von Siebold (1796-1866) geleitet wurde, war das
+                  Unternehmen über Agenten oder eigene Niederlassungen in sämtlichen Vertragshäfen Japans in den Handel involviert. Über den Kontakt zur Firma Pandel &amp; Stiehaus wurde Kniffler
+                  regelmäßig über die Vorgänge bei der Maatschappij unterrichtet. Nach anhaltenden wirtschaftlichen Krisen in den 1870er Jahren zog die Maatschappij sich 1880 schließlich aus dem
+                  Japangeschäft zurück.</note>
+               <bibl>G. Roger Knight: Sugar, Steam and Steel, Adelaide 2014, S. 63-91</bibl>
+               <bibl>Ferry de Goey: A Case of Business Failure, in: Zeitschrift für Unternehmensgeschichte 58 (1), S. 105-125</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

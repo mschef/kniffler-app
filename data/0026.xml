@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 13. März 1862</title>
+            <title type="file">0026.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-27</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen und ein Blatt. Fünf Seiten Anschreiben. Eine
+                            Umschlagsseite mit Siegelresten und eine Seite mit Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-03-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-03-28"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-07" who="TS">diplomatische Transkription ohne inhaltliche
+                Auszeichnung</change>
+         <change when="2020-10-03" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">p <hi rend="underline">
+                        <name type="ship" ref="K01680">Eliza &amp; Mary</name>
+                     </hi>
+                     <lb/> Messrs.<orgName type="firm" ref="K01004"> L. Kniffler &amp; C<hi rend="superscript">o.</hi>
+                     </orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+                  <lb/>
+               </seg>
+            </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">- Per <hi rend="underline">
+                     <name type="ship" ref="K01680">Eliza + Mary</name>
+                  </hi>
+                  <lb/>
+                  <seg rend="right">
+                     <placeName ref="K00503">Shanghai</placeName> d: <date when="1862-03-13">13<hi rend="superscript">ten</hi> März 62</date>
+                  </seg>
+                  <lb/>
+               </hi>
+               <seg rend="center">Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>.</hi>
+                  <lb/>
+                  <lb/> Bezugnehmend an unser</seg>
+               <lb/> ergeb Jüngstes vom <date when="1862-03-05">5<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>ds.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> bekennen<lb/> wir uns dagegen zum richtigen Em-<lb/> fang Ihrer <choice>
+                  <abbr>w/.</abbr>
+                  <expan> werten</expan>
+               </choice> Zuschriften vom <date when="1862-02-26">26 <hi rend="latintype">Febr.</hi>
+               </date>
+               <lb/> + <date when="1862-03-04">4<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>ds.</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> deren Inhalt <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere</expan>
+               </choice> beste Aufmerk-<lb/> samkeit gefunden.-<lb/> Die aufgegebene <hi rend="latintype">
+                  <term type="commercial" ref="K01587">Assecuranz</term>
+               </hi> muß<lb/>
+               <measure type="volume" quantity="248" unit="box" commodity="graftingWax">248</measure>
+               <hi rend="latintype">Kisten <term type="goods" ref="K01657">Baumwachs</term>
+                        ex
+                        <name type="ship" ref="K01679">B. F. v Dambe-<lb/> noy</name>
+               </hi> an <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere</expan>
+               </choice>
+               <hi rend="latintype">
+                  <placeName ref="K00509">Hongkong</placeName>
+               </hi> Freunde verladen<lb/> haben wir hier zur <hi rend="latintype">Prämie</hi>
+                    von %<lb/> besorgt, konnten den <hi rend="latintype">Risiko</hi> indeß<lb/> nur
+                    bis <placeName ref="K00509">Hongkong</placeName> unterbringen + beauf-<lb/>
+                    tragten demgemäß <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere</expan>
+               </choice> Firma in <placeName ref="K00509">Hong-<lb/> kong</placeName> für die
+                    Dekung bis <hi rend="latintype">
+                  <placeName ref="K00500">Manila</placeName>
+               </hi> Sorge<lb/> zu tragen. Einliegend bedienen wir<lb/> Sie mit <hi rend="latintype">
+                  <term type="commercial" ref="K01587">Assecuranz</term> Nota</hi> deren
+                    Betrag<lb/> Sie uns mit <hi rend="underline">Ts. 37,-</hi>
+               <hi rend="latintype">per <date when="1862-03-05">5 März</date>
+               </hi> zu <hi rend="latintype">credi-<lb/>
+                  <add style="transformRotateZ(-45deg)" resp="other" place="inline">
+                     <term type="commercial" ref="K01536">Mem fol 97</term>
+                  </add>tiren</hi> belieben.<lb/> Die in Ihrem <choice>
+                  <abbr>w/.</abbr>
+                  <expan cert="medium"> werten</expan>
+               </choice> letzten Briefe er-<lb/> theilten Berichte erheischen <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unseren</expan>
+               </choice> besten<lb/> Dank- Herrn <hi rend="latintype">
+                  <persName ref="K00073">Capt. Bloem</persName>
+               </hi> von der<lb/>
+               <hi rend="latintype">Zwaluw</hi> werden wir die aufgegebene<lb/> Fracht <hi rend="latintype">de <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" unit="mex$" quantity="8">8</measure>
+               </hi> für eine <hi rend="latintype">Kiste lehren</hi>
+               <lb/> auskehren + diesen Betrag <choice>
+                  <abbr>s. Zt.</abbr>
+                  <expan>seiner Zeit</expan>
+               </choice> mit<lb/>
+               <unclear>U. Z. H.</unclear>
+               <hi rend="latintype">
+                  <persName ref="K00097">Spahn</persName>
+                  <placeName ref="K00561">Penang</placeName>
+               </hi> verrechnen<lb/> Betreffs <hi rend="latintype">
+                  <term type="goods" ref="K01681">Schwefel</term> + <term type="goods" ref="K01682">Salpeter</term>
+               </hi> bestä-<lb/> tigen wir die Ihnen früher ertheilte<lb/> Auskunft dahin daß
+                    wir uns mit<lb/> dem Verkauf dieser Artikel bis-<lb/> her nicht befassen + Ihnen
+                    nicht anem- </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>pfehlen können. Sendungen davon<lb/>
+               <unclear reason="eccentric_ductus">auß</unclear> machen Besagte Artikel
+                    ver-<lb/> kaufen sich zu Zeiten mit recht hüb-<lb/> schem Nutzen es wird Ihnen
+                    indeß<lb/> nicht unbekannt sein, daß dieselben<lb/>
+               <term type="logistic" ref="K01683">Contrebandegüter</term> + als solch nur<lb/>
+                    unter Foutais Permits gelandet wer-<lb/> den können- Die La<unclear reason="illegible">n</unclear>dung ist also stets<lb/> mit mancherlei
+                    Schwierigkeiten ver-<lb/> knüpft + bei einer flauen Lage<lb/> des Marktes, wenn
+                    eben das<lb/> chines. Gouvernement nicht kauft<lb/> dürfte dieselbe zu Zeiten
+                    fast zur<lb/> Unmöglichkeit werden + die Folge<lb/> wäre daß wir die Waaren
+                    noch<lb/> hätten womit Ihnen wenig gedient<lb/> sein könnte- Demgemäß
+                    rühren<lb/> Sie die Artikel lieber nicht an. nichts-<lb/> destoweniger werden
+                    wir übrigens<lb/> gerne bemüht sein Ihnen für Rech-<lb/> nung Dritter wenn Sie
+                    in solchem<lb/> Falle Neigungen haben sich der Unter-<lb/> nehmung <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unseres</expan>
+               </choice> Auftraggebers anzu-<lb/> schließen vermitteln wir dies Geschäft<lb/>
+                    mit größtem Vergnügen für Sie Ver-<lb/> meiden Sie bitte stets <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere</expan>
+               </choice>
+               <hi rend="latintype">Marke <figure>
+                     <figDesc>Marke Bourjau Hubener &amp; Co. In Schrägstriche gefasste Buchstaben mit ausgeprägten Serifen in der Zeile / BH+C /</figDesc>
+                  </figure>
+               </hi>
+               <lb/> + stellen <term type="logistic" ref="K01515">Connossemente</term> in dem
+                    er-<lb/> wähnten <hi rend="latintype">Falle</hi>
+               <choice>
+                  <abbr>gefl</abbr>
+                  <expan>gefällig</expan>
+               </choice>
+               <unclear reason="illegible" cert="low">numerau</unclear>
+               <hi rend="latintype"> Order</hi>
+               <lb/> aus.-<lb/> Den Verkauf Ihrer <choice>
+                  <abbr>gefl.</abbr>
+                  <expan>gefälligen</expan>
+               </choice>
+               <term type="logistic" ref="K01584">Consigna-<lb/> tion</term>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term> ex</hi>
+               <hi rend="latintype">
+                  <name type="ship" ref="K01684">St. Theodosius</name> à</hi>
+               <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts.</term>
+                  <measure type="currency" quantity="8" unit="tael">8.</measure> per<lb/>
+               </hi>
+               <measure type="volume" unit="kg" quantity="1000" commodity="coal">
+                  <term type="measure" ref="K01558">Ton</term>
+               </measure> von Schiffseite zu empfangen<lb/> zeigten wir Ihnen bereits in <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unserem</expan>
+               </choice> Jüngsten </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_5.tif" n="5"/>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_6.tif" n="6"/>
+            <p>an; wir schließen heute nach geschehener<lb/> Abrechnung <choice>
+                  <abbr>Verkaufrg</abbr>
+                  <expan cert="low">Verkaufsrechnung</expan>
+               </choice> bei. Deren <hi rend="latintype">Netto<lb/>
+                  <unclear reason="illegible">Praem</unclear>
+               </hi> wir Ihnen mit T<hi rend="underline">s <measure type="currency" quantity="756.86" unit="tael">7<del rend="overwritten">4</del>56,8,6</measure>
+               </hi>
+               <hi rend="latintype"> per</hi>
+               <lb/> heute <hi rend="latintype">creditiren.</hi> Wir können nicht um<lb/> hin
+                    bei <add resp="other" place="inline" style="transformRotateZ(-45deg)">
+                  <hi rend="latintype">
+                     <term type="commercial" ref="K01536">Memfol 97</term>
+                     <lb/>N3</hi>
+               </add> dieser Gelegenheit einer Sache<lb/> Erwähnung zu thun die wir Ihrer<lb/>
+                    besten Aufmerksamkeit empfehlen<lb/> Wie Sie ersehen werden belief sich<lb/> das
+                    in Wirklichkeit hier ausgelieferte<lb/> Gewicht der <hi rend="latintype">
+                  <term type="goods" ref="K01678">Kohlen</term>
+               </hi> nur auf <measure type="volume" unit="kg" quantity="270500" commodity="coal">270½</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01558">Tons</term>
+               </hi>
+               <lb/> während wir lt <hi rend="latintype">
+                  <term type="logistic" ref="K01515">Connessement</term>
+               </hi> min-<lb/> destens auf <measure unit="kg" commodity="coal" quantity="320000" type="volume">320</measure>
+               <hi rend="latintype">Tons</hi> Rechnung gemacht<lb/> hatten. Das Untergewicht
+                    ist<lb/> leider so bedeutend + <add style="textOrientation: straight" resp="writer" place="above">uns</add> unerklär-<lb/> lich daß wir nicht
+                    unterlassen<lb/> haben u/. <hi rend="latintype">Claim</hi> bei den
+                    Betreffen-<lb/> den einzureichen + nachdem ver-<lb/> schiedentliche
+                    Verhandlungen voran-<lb/> gegangen haben sich die hiesigen <hi rend="latintype">Char-<lb/> terer</hi> des <hi rend="latintype">Steamers</hi> schließlich
+                    dazu<lb/> bequemt denselben anzuerkennen<lb/> uns das Versprechung
+                    abnehmend<lb/> den Sachverhalt an Sie zu referiren<lb/> + im Falle ein Versehen
+                    Ihrerseits<lb/> ausgefunden würde. Die nöthige Zu-<lb/>
+               <unclear reason="eccentric_ductus" cert="medium">rükvergütung</unclear> zu
+                    machen. Wir er-<lb/> bitten uns somit von Ihnen einen<lb/>
+               <choice>
+                  <abbr>gefl.</abbr>
+                  <expan>gefälligen</expan>
+               </choice> Aufschluß allerdings nicht voraus-<lb/> setzend daß ein Versehen beim
+                    Wiegen<lb/> Ihrerseits vorliegt. = Das <term type="logistic" ref="K01515">Connessement</term>
+               <lb/> besagt <measure type="volume" quantity="5190" unit="picul">5190</measure>
+               <hi rend="latintype">
+                  <term type="measure" ref="K01504">Peculs</term>
+               </hi> mit der Clausel daß<lb/> 147 <hi rend="latintype">Pes in dispute</hi>
+                    gewesen worin uns<lb/> ganz evident der Beweis zu liegen scheint daß das Gewicht
+                    vom <hi rend="latintype">Mate</hi>
+               <lb/> des <name type="ship" ref="K01684">St. <choice>
+                     <abbr>Th.</abbr>
+                     <expan>Theodisius</expan>
+                  </choice>
+               </name> in Empfang genommen wurde. </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_7.tif" n="7"/>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_8.tif" n="8"/>
+            <p>wenn immerhin die <term type="logistic" ref="K01515">Connossement</term>clau-<lb/> sel <hi rend="latintype">‘Weight + Content
+                        unknown’</hi> die Sie<lb/> sich kaum hätten gefallen lassensollen<lb/>
+                    Hiermit geradezu in Widerspruch steht<lb/> Die Abfassung des <term type="logistic" ref="K01515">Connossements</term>
+               <lb/> läßt <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unserer</expan>
+               </choice> Ansicht nach eine Meinungs-<lb/> verschiedenheit entschieden zu +
+                    ist<lb/> es uns lieb daß <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere</expan>
+               </choice> Ansprüche be-<lb/> treffenden Orts anerkannt worden<lb/> sind,
+                    obgleich es zu bedauern daß<lb/> wir von einem etwaigen Ueberge-<lb/> wicht,
+                    worauf in der Regel gerechn-<lb/> net wird, nicht für Sie profitiren konn-<lb/>
+                    ten wie wir uns überdies gefallen<lb/> lassen mussten einen Abzug der<lb/>
+                    dubiosen
+                    <hi rend="latintype">Pes 147</hi> gutzuheißen - Wir<lb/> bedauern aufrichtig den
+                    Vorfall<lb/> + können uns wie gesagt das be-<lb/> deutende Untergewicht nicht
+                    erklären<lb/> hier ist jedenfalls kein Versehen beim<lb/> Wiegen möglich gewesen
+                    + wir<lb/> haben Alles was von <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> an<lb/> Bord war ausgeliefert bekommen<lb/> jetzt überlassen wir es Ihnen
+                    wei-<lb/> ter in die Sache <add style="textOrientation: straight" resp="writer" place="above">zu</add> forschen + uns <choice>
+                  <abbr>gefl.</abbr>
+                  <expan>gefällig</expan>
+               </choice>
+               <lb/> Bericht zukommen zu lassen-<lb/> Wir lassen uns Ihre Berichte über<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> bestens dienen + beantworten<lb/> Ihre <hi rend="latintype">Propositionen</hi> Zwecks Anbahnung<lb/> eines bedeutenderen Geschäfts in
+                    ein<lb/> liegenden Privatzeilen an Ihren H. <hi rend="latintype">
+                  <persName ref="K00001">Kniffler</persName>.</hi>
+               <lb/> Der Marktpreis ist nicht über <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts.</term>
+                  <measure type="currency" quantity="8" unit="tael">8</measure> per<lb/>
+                  <term type="measure" ref="K01558">
+                     <measure type="volume" unit="kg" quantity="1000" commodity="coal">Ton</measure>
+                  </term>
+               </hi> es sind mehrere Ladungen angeboten<lb/> + wir fürchten ein witeres Weichen
+                    der<lb/> Preise- In anderen <placeName ref="K00502">Japan</placeName>
+               <hi rend="latintype">Produkten</hi> ist </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_9.tif" n="9"/>
+            <p>
+               <seg rend="right">
+                  <add style="textOrientation: straight" resp="other">
+                     <hi rend="latintype">
+                        <hi rend="underline">1862<lb/>
+                           <placeName ref="K00503">Shanghai</placeName>
+                           <date when="1862-03-13">13 März</date>
+                           <lb/>
+                           <orgName type="firm" ref="K01011">Bourjau Hübener +
+                                        Co.</orgName>
+                           <lb/>r/<date when="1862-03-28">28/362</date>
+                           <lb/> b<date when="1862-04-01">1/462</date>
+                        </hi>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+            <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_10.tif" n="10"/>
+            <p>kaum eine Veränderung zu be-<lb/> richten + die hohen Frachten<lb/> sind
+                    Unternehmungen sehr im<lb/> Wege.-<lb/> Frachten halten sich gut + Schiffe<lb/>
+                    sind knapp.-<lb/> Wir empfehlen uns Ihnen<lb/>
+               <seg rend="right">Hochachtungsvoll<lb/>
+                  <choice>
+                     <abbr>pp</abbr>
+                     <expan>per Procura</expan>
+                  </choice>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01011">Bourjau Hüberner + C<hi rend="superscript">o</hi>
+                     </orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00071">Ernst Behre</persName>
+                     </hi>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>per Eliza &amp; Mary<lb/>Messrs. L. Kniffler &amp; Co.<lb/>Nagasaki<lb/>
+         </p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>- Per Eliza + Mary<lb/>Shanghai the 13th March 62<lb/>Messrs. L. Kniffler +
+                Co.<lb/>Nagasaki.<lb/>With reference to our most recent <lb/>respectful letter from
+                5th of this month we <lb/>acknowledge the correct receipt <lb/>of your esteemed
+                correspondence from 26th Feb.<lb/>+ 4th of this month, the contents of which
+                we<lb/>gave our best attention. –<lb/>The ordered insurance for 248 boxes of resin,
+                <lb/>which C. B. F. v Dambenay loaded to send <lb/>to our Hong Kong friends,<lb/>we
+                have procured here at a rate of %,<lb/>but could only accommodate the risk<lb/>until
+                Hong Kong + therefore<lb/>instructed our company in Hong<lb/>Kong to take care of
+                the cover to<lb/>Manila. Enclosed we are serving you<lb/>with the insurance
+                certificate, the amount<lb/>of which please oblige to credit us for<lb/>with Ts.
+                37,- per 5th March ⟨(Mem fol 97) ⟩.<lb/>The reports delivered in your
+                last<lb/>esteemed letter are met with our<lb/>sincere thanks – We will instruct
+                <lb/>Capt. Bloem of the Zwaluw<lb/> to unload the ordered cargo of $8 <lb/>per box +
+                will clear this amount<lb/>at the given time with U. Z. H.[?] Spahn Penang.
+                <lb/>Regarding sulphur + saltpetre we<lb/>confirm the information
+                already<lb/>provided to you earlier that we<lb/>have not so far dealt in
+                selling<lb/>this article + cannot recommend </p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>to you to make shipments of <lb/>this. Said articles do sell<lb/>at the moment with
+                quite a nice<lb/>profit, but you will not be unaware<lb/>that these are contraband
+                goods<lb/>+ as such can only be landed <lb/>under Foutais Permits – Debarkation
+                is<lb/>thus always subject to considerable<lb/>difficulty + in a sluggish market
+                <lb/>situation when the Chinese<lb/>government is not buying this<lb/>would become
+                almost a matter<lb/>of impossibility + the consequence <lb/>would be that we would
+                still have <lb/>the wares, which would not be beneficial<lb/>to you – Accordingly it
+                is better for<lb/>you not to touch these articles. <lb/>Nonetheless we will of
+                course<lb/>be happy to endeavour to negotiate<lb/>a deal for you with the
+                greatest<lb/>pleasure on account of a third<lb/>party, in the case that you feel
+                inclined<lb/>to join in the enterprise of our client.<lb/>Please always avoid using
+                our<lb/>sign </p>
+         <figure>
+            <figDesc>Sign Bourjau Hubener &amp; Co. Letters enclosed indiagonal slashes with distinct serifs in the line /BH+C/</figDesc>
+         </figure>
+         <p>
+            <lb/>+ be kind enough to issue bills of <lb/>lading in the said case in
+                number[?]<lb/>order. –<lb/>The sale of your agreeable shipment<lb/>of coal by means
+                of St. [?] Theodosius at Ts. 8. <lb/>per ton at quayside we have<lb/>already
+                notified you of in our most recent letter; </p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_5.tif" n="5"/>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_6.tif" n="6"/>
+         <p>today, after completing the accounts for it, we<lb/>enclose the sale invoice. The
+                net<lb/>premium[?] of this we credit to you with<lb/>Ts 7,<del rend="overstrike">4</del>
+            <hi rend="underline">56.8.6</hi> per today. We cannot but <lb/>mention on ⟨Memfol 97
+                N3⟩ this occasion<lb/>an incidence to which we would like<lb/>to direct your close
+                attention. <lb/>As you will see, the weight of the<lb/>coal that was delivered
+                here<lb/>in reality only amounted to 270½ tons<lb/>whereas according to the bill of
+                lading<lb/>we had made out the invoice for 320 <lb/>tons. This short weight is
+                unfortunately<lb/>so significant + inexplicable <lb/>to us that we have not omitted
+                to<lb/>hand our claim to the relevant<lb/>parties + after various<lb/>negotiations
+                took place<lb/>the local charterers of the steamer <lb/>eventually deigned to accept
+                this claim<lb/>but asked us to promise to <lb/>refer this subject matter to you
+                <lb/>+ in the case that a mistake on your part<lb/>was found to have happened, to
+                make the<lb/>necessary reimbursement. We therefore<lb/>ask you kindly to
+                investigate, <lb/>while not presuming that an error<lb/>did happen on your part in
+                the <lb/>weighing process. = The bill of lading <lb/>details 5190 peculs with the
+                proviso that <lb/>147 peculs were in dispute, which to us <lb/>seems to be evident
+                proof that the weight was<lb/>received by the mate of the St. Th. </p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_7.tif" n="7"/>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_8.tif" n="8"/>
+         <p>even if the clause ‘Weight + Content unknown’ <lb/>in the bill of lading, which
+                really you<lb/>should not have put up with is<lb/>rather in contradiction with this.
+                <lb/>The wording of the bill of lading<lb/>in our opinion definitely allows<lb/>for
+                a dispute + we are therefore<lb/>pleased that our demands<lb/>have been accepted in
+                the relevant place<lb/>although it is a pity that<lb/>we could not make a
+                profit<lb/>for you from a possible overweight,<lb/>which is what one normally
+                calculates<lb/>with, and we furthermore had to<lb/>acquiesce to accepting the
+                deduction<lb/>of the dubious Pes 147 – We<lb/>sincerely regret this incident <lb/>+
+                as we said we cannot understand<lb/>the significant short weight, <lb/>in this
+                regard a weighing error was<lb/>definitely not possible + we<lb/>had all of the coal
+                that was on<lb/>board turned over to us. <lb/>We now leave it to you to
+                investigate<lb/>further in this regard + to kindly<lb/>let us have the reports
+                –<lb/>We are putting your reports about<lb/>coal to the best possible use + are
+                answering <lb/>your proposition regarding initiating<lb/>a significant business deal
+                in the <lb/>enclosed private note to your Mr. Kniffler. <lb/>The market price is not
+                above Ts. 8 per<lb/>ton, there are several loads on offer <lb/>+ we fear the price
+                is going to drop <lb/>further – Regarding other Japanese products </p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_9.tif" n="9"/>
+         <p>⟨1862<lb/>Shanghai 13th March<lb/>Bourjau Hübener + Co.<lb/>r[eceived]
+                /28/362<lb/>a[nswered] 1/462⟩</p>
+         <pb facs="1862_03_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_10.tif" n="10"/>
+         <p>there are hardly any changes to be<lb/>seen + the large shipments are <lb/>very much
+                getting in the way of<lb/>business. –<lb/>Cargoes are holding up well +
+                ships<lb/>are scarce. –<lb/>We take our leave from you<lb/>respectfully <lb/>p.p.
+                Bourjau Hüberner + Co<lb/> Ernst Behre</p>
+      </body>
+   </text>
+</TEI>

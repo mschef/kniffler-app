@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Hans Conrad Morf</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00016">
+               <persName>
+                  <forename>Hans Conrad</forename>
+                  <surname>Morf</surname>
+               </persName>
+               <birth>
+                  <date/>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note>Händler in Yokohama. Nachdem Morf Louis Kniffler auf einer von Knifflers
+                  Europareisen kennengelernt hatte, wurde er im Januar 1862 Angestellter bei L.
+                  Kniffler &amp; Co. in Yokohama. Hier half er dabei, Knifflers Handelsgeschäft mit
+                  Seide aufzubauen. 1867 war er an der Gründung des Leipziger Handelshauses Gustav
+                  Spieß &amp; Co. beteiligt. 1869 Gründung einer eigenen Firma, H. C. Morf &amp;
+                  Co.</note>
+               <bibl>The Chronicle and Directory for China, Japan and the Philippines, Hongkong
+                  1869, S. 104</bibl>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S.
+                  352.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co., Hamburg 1959, S. 49.</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 32</bibl>
+               <bibl>Leipziger Zeitung: Amtsblatt des Königlichen Landgerichts und des Königlichen
+                  Amtsgerichts Leipzig sowie der Königlichen Amtshauptmannschaft Leipzig vom 1.11.1867</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

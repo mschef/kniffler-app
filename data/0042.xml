@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Lange Sohns Witwe &amp; Co. in Bremen an L. Kniffler &amp; Co. in
+                    Nagasaki am 9. Juli 1864</title>
+            <title type="file">0042.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-44</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Der Brief ist als Kopie dem Schreiben vom 25. Aug. 1864
+                            beigefügt. Insgesamt 3 Seiten Anschreiben und eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01021">Johann Lange Sohns Witwe &amp; Co.</orgName>
+               <settlement ref="K00524">Bremen</settlement>
+               <date when="1864-07-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1864-10-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-12-05" who="TP">diplomatische Transkription</change>
+         <change when="2018-12-10" who="TP">kleinere Korrekturen im Autorenmodus</change>
+         <change when="2020-11-02" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00503">SHANGHAI</placeName>
+                     <lb/>10<lb/>
+                     <gap quantity="7" unit="chars"/>
+                     <lb/>BAU FRANCAIS</stamp>
+                  <lb/>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00503">SHANGHAI</placeName>
+                     <lb/>
+                     <date when="1864-08-28">28<lb/>AOUT<lb/>6<gap quantity="1" unit="char"/>
+                     </date>
+                  </stamp>
+               </seg>
+               <lb/>
+               <seg rend="center">
+                  <hi rend="latintype">via <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00524">BREMEN</placeName>.TH.&amp;TX.<lb/>
+                     <date when="1864-08-25">25<lb/>8</date>
+                     <lb/>5-6 N</stamp>
+                  <lb/>
+                  <hi rend="latintype">Messr<orgName type="firm" ref="K01004"> L. Kniffler
+                                +Co</orgName>
+                  </hi>
+                  <stamp type="postal" style="round">TOURS<lb/>
+                     <date when="1864-08-27">27<lb/>AOUT<lb/>64</date>
+                     <lb/>
+                     <gap quantity="8" unit="char"/>
+                  </stamp>
+                  <stamp type="postal" style="rectangular">P.P.</stamp>
+                  <lb/>
+                  <add resp="unclear" style="textOrientation: straight" place="inline">p<hi rend="underline">aid</hi>
+                  </add>
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <lb/>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </seg>
+               <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1864<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00524">Bremen</placeName>
+                     <date when="1864-08-25">25 August</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01021">Joh: Lange Sohn's W<hi rend="superscript">w</hi> +Co</orgName>
+                     <lb/>R<hi rend="underline">
+                        <date when="1864-10-17">17 Octh</date>
+                        <lb/>
+                        <date when="1864-10-22">22 Octh</date>
+                     </hi>
+                     <lb/>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">
+                  <term type="logistic" ref="K01538">Copie</term>
+               </hi>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00524">Bremen</placeName> d. <date when="1864-07-09">9<hi rend="superscript">ten</hi> Juli 1864</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <watermark>
+                  <orgName type="firm" ref="K01021">JOH. LANGE SOHNS WWE &amp; CO</orgName>
+                  <lb/>
+                  <placeName ref="K00524">BREMEN</placeName>
+               </watermark>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + C</orgName>o</hi>
+               <lb/>
+               <seg rend="right">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </seg>
+               <lb/> Vorstehend finden Sie <hi rend="latintype">Copie</hi>
+               <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unseres</expan>
+               </choice> ergeb. Schreibens vom<lb/>
+               <date when="1864-06-25">25 <choice>
+                     <abbr>v. Mts</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date> &amp; hatten wir seitdem nicht das Vergnügen, von Ih-<lb/> nen zu
+                    hören.<lb/> Sehr angenehm wäre es uns, von Ihnen baldigst den<lb/> Verkauf <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unserer</expan>
+               </choice>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01638">Gewehre</term>
+               </hi> zu erfahren, damit dieses Geschäft end-<lb/> lich aus der Welt kommt.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi> ist seit <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unserem</expan>
+               </choice> letzten bedeutend flauer gegangen &amp;<lb/> sind Preise für <hi rend="latintype">
+                  <placeName ref="K00502">Japan</placeName> Sorten</hi> reichlich ½ -1°
+                    niedriger. Die<lb/> Frage für <hi rend="latintype">
+                  <placeName ref="K01571">America</placeName>
+               </hi> stockt für den Augenblick<del rend="overstrike">lich</del> gänzlich.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01531">Camphor</term>
+               </hi> unverändert still, 95 - 100 / ; hier bietet man<lb/> für <hi rend="latintype">Chin.</hi> Waare 20 gt. <lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01727">Fisch Oel</term>
+               </hi> flau; nomineller Werth <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="38.5" unit="britPound" commodity="blubber">38
+                        ½</measure>
+               <hi rend="latintype"> p tun</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01549">Taback</term>
+               </hi>
+               <unclear reason="eccentric_ductus">8</unclear>½ - 9 gt Werth. <hi rend="latintype">
+                  <term type="goods" ref="K01517">Wachs</term>
+               </hi> 13 - 15 gt. <hi rend="latintype">
+                  <term type="goods" ref="K01667">Gallen</term>
+               </hi> 22 rh,<lb/> Ihr Hr <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi> ist augenblicklich wieder hier anwe-<lb/> send.<lb/> Wir sehen Ihren
+                    ferneren Nachrichten entgegen &amp;<lb/> zeichnen freundschaftl.<lb/>
+               <seg rend="right">Ergebenst</seg>
+               <lb/>
+               <hi rend="latintype">d. <date when="1864-08-25">25<hi rend="superscript">ten</hi> Aug 1864</date>
+               </hi>
+               <lb/> Wir schrieben Ihnen zuletzt am <date when="1864-07-09">9: <choice>
+                     <abbr>v. Mts.</abbr>
+                     <expan>vorigen Monats</expan>
+                  </choice>
+               </date>
+               <lb/> + hatten seitdem das Vergnügen, Ihre <unclear reason="eccentric_ductus">geh.</unclear>
+               <lb/>
+               <choice>
+                  <abbr>Zs.</abbr>
+                  <expan> Zuschrift</expan>
+               </choice> vom <date when="1864-06-06">6 Juni</date> zu erhalten in deren </p>
+            <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_3.tif" n="3"/>
+            <p>Beantwortung wir für Ihre Berichte danken.<lb/> Wir haben Ihnen von hier auch
+                    wenig Neues<lb/> über <hi rend="latintype">Japan Producte</hi> mitzutheilen; <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi>
+               <lb/> ist in sehr geringer <unclear reason="eccentric_ductus">F</unclear>rage,
+                    da der Export nach<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00556">America</placeName>
+               </hi> ganz aufgehört hat in Folge der<lb/> bedeutenden Zoll Erhöhung; wir hören,
+                    daß<lb/> die Käufer <choice>
+                  <abbr>u./</abbr>
+                  <expan> unserer</expan>
+               </choice>
+               <measure type="volume" quantity="132" unit="box" commodity="tea">132</measure>
+               <hi rend="latintype"> Kisten</hi>
+               <unclear reason="eccentric_ductus"> p <name type="ship" ref="K01731">Dunmore</name>
+               </unclear>ein<lb/> sehr schlechtes Geschäft aus eben diesem Grunde<lb/> gemacht
+                    haben + bedauern wir daher nicht<lb/> die <unclear reason="eccentric_ductus">damalige</unclear> Frage zu Verkauf benutzt<lb/> zu haben. Sollten Sie sich
+                    zu einigen Ver-<lb/> schiffungen für <choice>
+                  <abbr>gemeinsch.</abbr>
+                  <expan>gemeinschaftliche</expan>
+               </choice> Rechnung entschließen<lb/> so hoffen wir, daß es zu recht billigen
+                    Preisen<lb/> sein wird.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01549">Taback</term>
+               </hi> ist hier unverändert &amp; sind Ihre<lb/> letzten Preise jedenfalls zu hoch.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01531">Campfor</term>
+               </hi> bleibt flau zu 92/6 <unclear reason="eccentric_ductus">+</unclear>; auf
+                    Grund<lb/> dieses Preises scheinen uns Ankäufe wenig<lb/>
+               <unclear reason="eccentric_ductus">
+                  <hi rend="latintype">Risico</hi>
+               </unclear> zu bieten &amp; wollen Sie den Artikel<lb/> im Auge behalten.<lb/>
+               <hi rend="latintype">
+                  <term type="goods" ref="K01667">Gallen</term>
+               </hi> sind 22 rh werth, doch wird sich
+                    dieser<lb/> Preis bei Ankunft größerer Zufuhren schwerlich<lb/> behaupten. <hi rend="latintype">
+                  <unclear reason="eccentric_ductus">Veget.</unclear>
+                  <term type="goods" ref="K01517">Wachs</term>
+               </hi> 13 - 15 gt.<lb/> von <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi> sind in letzter Zeit<lb/> einige Parthien <hi rend="latintype">
+                  <term type="goods" ref="K01571">Thee</term>
+               </hi> angekommen, die<lb/> ihrer schönen Bereitung wegen prompt Käufer<lb/>
+                    fanden: <table>
+                  <row>
+                     <cell>58/8</cell>
+                     <cell>Ks</cell>
+                     <cell>
+                        <term type="goods" ref="K01732">Young Haysan</term>
+                     </cell>
+                     <cell>à <measure type="currency" quantity="42" unit="unclear" commodity="tea">42</measure> gt</cell>
+                  </row>
+                  <row>
+                     <cell>16/8</cell>
+                     <cell>"</cell>
+                     <cell>
+                        <term type="goods" ref="K01733">Haysan</term>
+                     </cell>
+                     <cell>" <measure type="currency" quantity="44" unit="unclear" commodity="tea">44</measure> gt</cell>
+                  </row>
+                  <row>
+                     <cell>6/8</cell>
+                     <cell>"</cell>
+                     <cell>
+                        <term type="goods" ref="K01734">Gunpowder</term>
+                     </cell>
+                     <cell>" <measure type="currency" quantity="31" unit="unclear" commodity="tea">31</measure> gt</cell>
+                  </row>
+               </table>
+               <lb/>
+            </p>
+            <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_4.tif" n="4"/>
+            <p>Ihren Zuschriften über <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unsere </expan>
+               </choice>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <term type="goods" ref="K01638">Gewehre</term>,</hi>
+               </hi> die<lb/> Sie jetzt hoffentlich verkauft haben, entgegen<lb/> sehend,
+                    zeichnen wir<lb/>
+               <seg rend="right">Achtungsvoll<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01021">Joh. Lange Sohn's Wwe + Co.</orgName>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_1.tif" n="envelope"/>
+         <p>&gt;SHANGHAI<lb/>10<lb/>[...]<lb/>BAU
+                FRANCAIS<lb/>SHANGHAI<lb/>28<lb/>AOUT<lb/>6[...]<lb/>via Marseille
+                <lb/>BREMEN.TH.&amp;TX.<lb/>25<lb/>8<lb/>5-6 N<lb/>Messrs. L. Kniffler
+                +Co<lb/>TOURS<lb/>27<lb/>AOUT<lb/>64<lb/>[...] P.P.<lb/>⟨paid⟩
+                <lb/>Nagasaki<lb/>Japan<lb/>⟨1864<lb/>Bremen 25th August<lb/>Joh: Lange Sohn's Ww
+                +Co<lb/>R[eceived] 17th Oct.<lb/>22nd Oct⟩</p>
+         <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_2.tif" n="2"/>
+         <p>Copy<lb/> Bremen 9th July 1864<lb/> JOH. LANGE SOHNS WWE &amp; CO<lb/>BREMEN <lb/>
+                Messrs. L. Kniffler + Co<lb/>Nagasaki<lb/>Above you will find a copy of our
+                respectful letter from <lb/>25th of last month &amp; we have not since had the
+                pleasure of<lb/>hearing from you. <lb/>It would please us very much to be informed
+                as soon as possible<lb/>about the sale of our guns so that this business can
+                finally<lb/>be laid to rest. <lb/>Since our last letter, tea has become
+                significantly more sluggish &amp; <lb/>the prices for Japanese types at least ½ -1°
+                lower. The<lb/>demand for America has come to a total halt for the
+                momentarily.<lb/>Camphor quiet without change, 95 - 100 / ; here 20 gt. are
+                <lb/>being offered for Chin. wares, <lb/>fish oil is sluggish; nominal value £ 38 ½
+                p ton,<lb/>tobacco worth 8[?]½ - 9 gt., wax 13 - 15 gt., galls 22 rh,<lb/>your Mr.
+                Gildemeister is present here again at the <lb/>moment. <lb/>We are looking forward
+                to further news from you &amp;<lb/>sign off in devoted friendship<lb/>Yours<lb/>the
+                25th Aug 1864<lb/>We last wrote to you on the 9th of last month<lb/>+ have since had
+                the pleasure of receiving your<lb/>welcome letter from 6th June, in the answer to
+                which </p>
+         <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_3.tif" n="3"/>
+         <p>we thank you for your reports. <lb/>We have little news to tell you from here, too,
+                <lb/>about Japanese products; there is very little<lb/>demand for tea because the
+                export to America <lb/>has stopped in its entirety following the <lb/>significant
+                increase in customs duty; we hear that<lb/>the buyer of our 132 boxes on the Dunmore
+                <lb/>ended up doing very poor business for just this <lb/>reason + we therefore
+                regret not having used<lb/>the previous[?] demand to sell. <lb/>Should you decide to
+                undertake some<lb/>shipments on shared account, we hope <lb/>that it will be at
+                quite cheap prices. <lb/>Tobacco remains unchanged here &amp; your <lb/>latest
+                prices are definitely too high. <lb/>Camphor remains sluggish at 92/6 +[?]; due
+                to<lb/>this price, purchases seem to us to pose <lb/>little risk [?] &amp; will you
+                please keep an eye <lb/>on this article. <lb/>Galls are worth 22 rh, but this price
+                will <lb/>hardly last once larger shipments arrive. <lb/>Veget. wax 13 - 15
+                gt.,<lb/>from Yokohama some lots of tea <lb/>arrived recently, which promptly found
+                <lb/>buyers because of its nice quality: </p>
+         <table>
+            <row>
+               <cell>58/8</cell>
+               <cell>boxes</cell>
+               <cell>Young Haysan</cell>
+               <cell>at 42 gt</cell>
+            </row>
+            <row>
+               <cell>16/8</cell>
+               <cell>"</cell>
+               <cell>Haysan</cell>
+               <cell>" 44 gt</cell>
+            </row>
+            <row>
+               <cell>6/8</cell>
+               <cell>"</cell>
+               <cell>Gunpowder</cell>
+               <cell>" 31 gt</cell>
+            </row>
+         </table>
+         <pb facs="1864_07_09_Kniffler_Nagasaki_von_Johann_Lange_Sohns_Wwe_Co_Bremen_4.tif" n="4"/>
+         <p>We are looking forward to your letters about <lb/>our guns, which you have hopefully
+                sold now, <lb/>and sign<lb/>respectfully<lb/>Joh. Lange Sohn’s Wwe + Co.</p>
+      </body>
+   </text>
+</TEI>

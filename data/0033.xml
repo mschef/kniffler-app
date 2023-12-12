@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>E. L. Reimer (Reimer &amp; Co.) in Nagasaki an L. Kniffler &amp; Co. in
+                    Yokohama am 6. August 1862</title>
+            <title type="file">0033.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-34</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben, eine Umschlagsseite mit
+                            Siegelrest und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01023">Reimer &amp; Co.</orgName>
+               <persName ref="K00083">Reimer, E. L. </persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-08-06"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1862-08-18"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-14" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-18" who="MS">Korrektur der Transkription</change>
+         <change when="2020-10-23" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <foreign xml:lang="en-EN">
+                     <add style="textOrientation: upside-down" resp="unclear">
+                        <hi rend="latintype">This letter was brought by <unclear reason="eccentric_ductus">Mr <persName ref="K00084">Gray</persName>
+                           </unclear>
+                           <lb/> a passenger pr. “<name type="ship" ref="K01691">St
+                                        Louis</name>” + just given<lb/> some forward</hi>
+                     </add>
+                  </foreign>
+               </seg>
+               <seg rend="center">
+                  <hi rend="latintype">Mess<hi rend="superscript">rs.</hi>
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </seg>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="latintype">1862<lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <date when="1862-08-06">6 Aug</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01023">Reimer + Co.</orgName> in <choice>
+                        <abbr>liq.</abbr>
+                        <expan>Liquidation</expan>
+                     </choice>
+                     <lb/>R<hi rend="underline">
+                        <date when="1862-08-18">18 Aug</date>
+                     </hi>
+                     <lb/>
+                     <date when="1862-08-24">24 id.</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <date when="1862-08-06">6 Aug 1862</date>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herren <hi rend="latintype">Kniffler &amp; Co.<lb/>
+                     <placeName ref="K00521">Kanagawa</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wir erlauben uns Ihnen einliegend<lb/> einige Rechnungen zum in <hi rend="latintype"> Casso</hi>
+               <lb/> zu überreichen, und bitten Sie<lb/> uns die Summen nach Eingang<lb/> unter
+                    Aufgabe an Ihr hiesiges<lb/> Haus, <hi rend="latintype">creditiren</hi> zu wollen.<lb/>
+               <table rows="6" cols="5">
+                  <row>
+                     <cell>W<hi rend="superscript">m</hi>
+                     </cell>
+                     <cell>
+                        <persName ref="K00085">Aspinall</persName>
+                     </cell>
+                     <cell> </cell>
+                     <cell>$</cell>
+                     <cell>5.40.</cell>
+                  </row>
+                  <row>
+                     <cell>M<hi rend="superscript">r</hi>
+                     </cell>
+                     <cell>
+                        <persName ref="K00086">Keswick</persName>
+                     </cell>
+                     <cell> </cell>
+                     <cell>＂</cell>
+                     <cell>25.60.</cell>
+                  </row>
+                  <row>
+                     <cell>M<hi rend="superscript">r</hi>
+                     </cell>
+                     <cell>
+                        <persName ref="K00087">Lever</persName>
+                     </cell>
+                     <cell> </cell>
+                     <cell>＂</cell>
+                     <cell>60._.</cell>
+                  </row>
+                  <row>
+                     <cell>M<hi rend="superscript">r</hi>
+                     </cell>
+                     <cell>
+                        <persName ref="K00088">Crutchley</persName>
+                     </cell>
+                     <cell> </cell>
+                     <cell>＂</cell>
+                     <cell>48._.</cell>
+                  </row>
+                  <row>
+                     <cell>＂</cell>
+                     <cell>do</cell>
+                     <cell> </cell>
+                     <cell>＂</cell>
+                     <cell>
+                        <hi rend="underline">82.10</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell>＄ 221.-</cell>
+                     <cell/>
+                  </row>
+               </table> ferner haben wir die Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01065">Thorel &amp; Co.</orgName>
+               </hi>
+               <lb/> ersucht, Ihnen eine Summe für<lb/> uns auszuzahlen, womit Sie ebenso<lb/>
+                    verfahren wollen.<lb/> Die Herren <hi rend="latintype">
+                  <persName ref="K00087">Lever</persName> &amp;<persName ref="K00088">Crutchley</persName>
+               </hi>
+               <lb/> möchten möglicherweise Schwierigkeiten<lb/> machen wegen Bezahlung; in
+                    welchem<lb/> Fall wir Sie bitten, die Rechnungen<lb/> durch den Englischen <hi rend="latintype">Consul</hi> ein<lb/> treiben zu lassen; der
+                    einliegende<lb/>
+               <choice>
+                  <abbr>eng</abbr>
+                  <expan>englische</expan>
+               </choice> Brief, sagt das nöthige. </p>
+            <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_3.tif" n="3"/>
+            <p>
+               <seg rend="right">freundlichst grüßend<lb/> Ihre<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01023">Reimer &amp; Co</orgName> in <choice>
+                        <abbr>liq</abbr>
+                        <expan>Liquidation</expan>
+                     </choice>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00083">E L Reimer</persName>
+                     </hi>
+                  </hi>
+               </seg>
+            </p>
+            <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_4.tif" n="4"/>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+        <!-- from page 2 to 4, as the envelope contains only English text -->
+      <body>
+         <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_1.tif" n="envelope"/>
+         <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_2.tif" n="2"/>
+         <p>Nagasaki 6th Aug 1862<lb/>Messrs. Kniffler &amp; Co.<lb/>Kanagawa<lb/>We are so free
+                as to pass you <lb/> some invoices enclosed here for <lb/> cashing, and ask you to
+                credit us<lb/> the sums after receipt by sending<lb/> them to your local house. <lb/>
+            <lb/>
+            <table>
+               <row>
+                  <cell>W<hi rend="superscript">m</hi>.</cell>
+                  <cell>Aspinall</cell>
+                  <cell/>
+                  <cell>$</cell>
+                  <cell>5.40.</cell>
+               </row>
+               <row>
+                  <cell>M<hi rend="superscript">r</hi>.</cell>
+                  <cell>Keswick</cell>
+                  <cell/>
+                  <cell>＂</cell>
+                  <cell>25.60.</cell>
+               </row>
+               <row>
+                  <cell>M<hi rend="superscript">r</hi>.</cell>
+                  <cell>Lever</cell>
+                  <cell/>
+                  <cell>＂</cell>
+                  <cell>60._.</cell>
+               </row>
+               <row>
+                  <cell>M<hi rend="superscript">r</hi>.</cell>
+                  <cell>Crutchley</cell>
+                  <cell/>
+                  <cell>＂</cell>
+                  <cell>48._.</cell>
+               </row>
+               <row>
+                  <cell>＂</cell>
+                  <cell>do</cell>
+                  <cell/>
+                  <cell>＂</cell>
+                  <cell>
+                     <hi rend="underline">82.10</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>＄ 221.-</cell>
+                  <cell/>
+               </row>
+            </table> Furthermore, we have asked Messrs.<lb/> Thorel &amp; Co. to pay out to you
+                a sum <lb/> for us, with which please proceed<lb/> in the same way. <lb/>Messrs.
+                Lever &amp;Crutchley<lb/>might cause trouble regarding<lb/> payment; in which case
+                we ask you <lb/>to have the English consul collect the <lb/> invoice amounts; the
+                enclosed <lb/> Eng. letter states the necessary details. </p>
+         <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_3.tif" n="3"/>
+         <p>With most cordial greetings <lb/>Your<lb/>Reimer &amp; Co in liq<lb/>E L Reimer</p>
+         <pb facs="1862_08_06_Kniffler_Kanagawa_von_Reimer_Co_Nagasaki_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

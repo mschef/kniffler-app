@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aug. Seydoux, Sieber &amp; Cie. in Paris an L. Kniffler &amp; Co. in
+               Nagasaki</title>
+            <title type="file">0103.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-99</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt, erste Seite mit gedrucktem Briefkopf, zwei Seiten Anschreiben.
+                     Eingangsnotiz auf der letzten Seite.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01151">Aug. Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1869-09-30"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-11-23"/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-12-16" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-06" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+            Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_09_30_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Paris_1.tif" n="1"/>
+         <p> par st<hi rend="superscript">r</hi> des <orgName type="firm" ref="K01111">Messag.
+               Imp.</orgName> via <placeName ref="K00515">Marseille</placeName>
+            <lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01151">AUG. SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+                  <lb/> 23, Rue de Paradies-Poissonnière.<lb/> SUCCESSEURS DE<lb/>
+                  <orgName type="firm" ref="K01152">PATURLE-LUPIN,SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName>, le <date when="1869-09-30">30 Septembre
+                  1869</date>.</seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L<hi rend="superscript">s</hi> Kniffler &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">à <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Nous avons en le plaisir de<lb/> recevoir successivement vos lettres des<lb/>
+            <date when="1869-03-25">25 Mars</date>, <date when="1869-05-03">3 Mai</date>, <date when="1869-06-15">15 Juin</date>, <date when="1869-07-09">9 Juillet</date>, et<lb/>
+            <date when="1869-08-02">2 Août</date> d<hi rend="superscript">rs</hi>, et de retirer de
+            la dernière<lb/> compte de vente produisant net:<lb/> Iz 7640.-, que nous partons au
+            débit<lb/> de votre compte d'espéces.<lb/> Bonne note est prise, que vous<lb/> avez
+            chargé votre maison de <placeName ref="K00525">Yokohama</placeName>
+            <lb/> de nous remettre le montant de ce<lb/> compte de vente, et nous attendrons<lb/>
+            cette remise, pour nous rendre un<lb/> compte plus exact du résultat de cette<lb/>
+            première opération.<lb/> Mais nous prenons note des à présent<lb/> de ce que vous nous
+            dites au sujet de<lb/> la longuer et largeur des Meinos,<lb/> ainsi que de la manière
+            dont vous<lb/> désizeriez que nos pièces fussent mises<lb/> en papier.<lb/> Nous
+            apprenons avec plaisir, que vous<lb/> aviez réexpédieé aussitôt par steamer<lb/> à votre
+            maison de <placeName ref="K00545">Hiogo</placeName>, nos quatre caisses<lb/>
+         </p>
+         <pb facs="1869_09_30_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Paris_2.tif" n="2"/>
+         <p>
+            <figure>
+               <figDesc>Zeichen Kniffler Hiogo Großbuchstaben mit ausgeprägten Serifen. In der Zeile SSunter der Zeile KH</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 29 à 32, assurées contre les risques<lb/> de
+            mer pour la somme de $ 1400.-<lb/> Nous avons aussi pris bonne note<lb/> que vous aviez
+            vendu, au prix de<lb/> Iz.51¼, par pièce, (espèces d'or) nos quatre<lb/> caisses <figure>
+               <figDesc>Zeichen Kniffler Nagasaki Großbuchstaben mit ausgeprägten Serifen. In der Zeile SSunter der Zeile KN</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 9 à 12 ex „<name type="ship" ref="K01838">Deerfoot</name>”,<lb/> et que vous veniez de recevoir de Yoko-<lb/> hama les quatre caisses:<lb/>
+            <figure>
+               <figDesc>Zeichen Kniffler Nagasaki Großbuchstaben mit ausgeprägten Serifen. In der Zeile SSunter der Zeile KN</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 1. 2. 7 &amp; 8, Merinos &amp; Cach<hi rend="superscript">re</hi> d'Ecosse<lb/> ex „<name type="ship" ref="K01837">Niphon</name>, tandis que les 4 caisses<lb/> d<hi rend="superscript">o</hi> N<hi rend="superscript">o</hi> 3 à 6, Mousseline, ex „<name ref="K01837" type="ship">Niphon</name>”<lb/> allaient être vendues à <placeName ref="K00545">Hiogo</placeName>.<lb/> Nous comptons avoir el plaisir<lb/> de vous lire de nouveau
+            prochainement,<lb/> le steamer anglais étant attendu<lb/> à <placeName ref="K00515">Marseille</placeName> incessament.<lb/> Nous avons, Messieurs, l'honneur<lb/> de
+            vous salue avec toute considération<lb/>
+            <seg rend="right">
+               <hi rend="underline">
+                  <orgName type="firm" ref="K01151">Aug. Seydoux Sieber</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">
+                  <placeName ref="K00534">Paris</placeName>
+                  <date when="1869-09-30">30 Septbr</date>
+                  <lb/>
+                  <date when="1869-11-23">23 Novbr</date>
+                  <lb/> B <date when="1869-12-16">16 Dec</date>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

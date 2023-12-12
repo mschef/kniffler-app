@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag B. Telge / Telge, Nölting &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01121">
+               <orgName type="firm">B. Telge / Telge, Nölting &amp; Co.</orgName>
+               <settlement>Shanghai</settlement>
+               <note>Spätestens seit 1865 bestand dieses Handelshaus unter dem Namen B. Telge (nach dem Gründer Benjamin Telge) in Shanghai. Der Prokurist Joh. Nölting wurde später Teilhaber und die
+                  Firma wurde in "Telge, Nölting &amp; Co." umbenannt. Sie erzielten geschäftliche Erfolge mit dem Verkauf ausländischer Waffen an die chinesische Regierung.</note>
+               <bibl>Xu Kai: "Orden und Schärpe". In: Mechthild Leutner (Hrsg.): Preußen, Deutschland und China, Berlin 2014, S. 298-299</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

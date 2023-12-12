@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Escher-Pestalozzi</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01124">
+               <orgName type="firm">Escher-Pestalozzi</orgName>
+               <settlement>Zürich</settlement>
+               <note>Handelshaus der Schweizer Kaufleute Salomon Pestalozzi (1812-1886) und Hans Conrad (?) Escher. Eines der Geschäftsfelder war der Handel mit Rohseide. Sowohl Pestalozzi, als auch
+                  Escher stammten aus großen Züricher Unternehmerfamilien, die bedeutende Akteure in Seidenhandel und -industrie in der Schweiz waren.</note>
+               <bibl>Hans Pestalozzi-Keyser: Geschichte der Familie Pestalozzi, Zürich 1958, S. 163</bibl>
+               <bibl>J. Caspar Pfister: Verzeichnis der Bürger der Stadt Zürich im Jahr 1858, S. 46</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

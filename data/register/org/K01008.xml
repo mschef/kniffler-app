@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Bollenhagen &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01008">
+               <orgName type="firm">Bollenhagen &amp; Co.</orgName>
+               <settlement>Hamburg</settlement>
+               <note>Das Handelshaus Bollenhagen &amp; Co. war der erste Arbeitgeber Louis Knifflers im Jahre 1850. Jakob Bollenhagen hatte ursprünglich zusammen mit Friedrich Pandel "Bollenhagen
+                  &amp; Pandel" als Unternehmen in Hamburg betrieben. Nachdem Pandel und der später hinzugekommene Teilhaber Georg Stiehaus ihr eigenes Unternehmen gegründet hatten und damit in den
+                  Ostasienhandel eingestiegen waren, blieben sie weiterhin mit Bollenhagen in Hamburg verbunden, der wiederum mit seiner eigenen Firma den Einkauf seiner ehemaligen Kollegen übernahm.
+                  Nach dem Tode Jakob Bollenhagens brachen die Beziehungen zur Firma L. Kniffler &amp; Co. ab.</note>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959 (Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle e. V., Hamburg, 23), Hamburg 1959, S. 19-20, 52.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

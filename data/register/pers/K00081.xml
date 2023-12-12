@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Carl Wilhelm Heinrich Lehmann</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00081">
+               <persName>
+                  <forename>Carl Wilhelm Heinrich</forename>
+                  <surname>Lehmann</surname>
+               </persName>
+               <birth>
+                  <date when="1831-11-28"/>
+                  <placeName>Oldenburg</placeName>
+               </birth>
+               <death>
+                  <date when="1874-04-21"/>
+                  <placeName>Wiefelstede</placeName>
+               </death>
+               <note> Der Schiffsbauer Carl Lehmann aus Oldenburg kam zunächst 1862 nach Nagasaki,
+                  um an einer Stahlfabrik eine Schiffswerft einzurichten. 1865 endete sein Vertrag
+                  ohne die Fertigstellung der Werft und Lehmann ging nach Yokohama, wo er erfolglos
+                  eine Anstellung als Ingenieur anstrebte. Im Jahr darauf kehrte er zurück nach
+                  Nagasaki und gründete dort mit C. Hartmann die Handelsfirma "Lehmann, Hartmann
+                  &amp; Co.", in der auch sein Bruder Rudolph Lehmann angestellt war. Nach einer
+                  vorübergehenden Rückkehr nach Deutschland hatte Lehmann als Händler, ähnlich wie
+                  Louis Kniffler, vor allem in Geschäften mit der japanischen Regierung Erfolg. 1873
+                  kehrte er ein weiteres Mal nach Deutschland zurück, verstarb aber kurze Zeit
+                  später. </note>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1034939742</idno>
+               <bibl>Gerd Hoffmann: Die Brüder Carl und Rudolph Lehmann, in: Oldenburgische
+                  Familienkunde 48 (3), S. 567-608</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

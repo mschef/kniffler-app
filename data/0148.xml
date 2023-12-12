@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Yokohama am 24. Oktober
+                    1872</title>
+            <title type="file">0148.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-138</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            mehreren Poststempeln und einer Eingangsnotiz; an der oberen Kante wegen
+                            Siegel eingerissen.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1872-10-24"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1872-12-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-06" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-29" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_10_24_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="envelope"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>, <date when="1872-10-24">24
+                            October 1872</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> Mein Jüngstergebenes vom <date when="1872-10-10">10 <choice>
+                  <abbr>ds.</abbr>
+                  <expan> desselben</expan>
+               </choice>
+            </date>
+            <choice>
+               <abbr>höfl.</abbr>
+               <expan> höflich</expan>
+            </choice>
+            <lb/> bestätigend, bekenne ich mich zum Empfang<lb/> Ihres Geehrten vom <date when="1872-09-06">6 <choice>
+                  <abbr>p<hi rend="superscript">to.</hi>
+                  </abbr>
+                  <expan> passato</expan>
+               </choice>
+            </date>, dessen Inhalt<lb/> meine beste Aufmerksamkeit gefunden.<lb/> Indem ich die
+                übrigen Theile Ihres<lb/> Schreibens nicht speciell berühre, kann ich<lb/> nicht
+                umhin, Ihnen über das schlechte<lb/> Prognostikon, das Sie meinen grauen<lb/> &amp;
+                dunkelblauen <term type="goods" ref="K01528">Tuchen</term> stellen zu müssen<lb/>
+                glauben, mein lebhaftestes Bedauern<lb/> auszudrücken. Daß Sie jetzt schon<lb/> mich
+                mit dem mir sehr empfindlichen<lb/> Gedanken vertraut machen wollen<lb/> die auf
+                Ihre Empfehlung an Sie <hi rend="latintype">
+               <term type="logistic" ref="K01584">consig-<lb/> nirte</term>
+            </hi> Parthie von dem dortigen an einen<lb/> anderen Absatzplatz zum Verkaufe<lb/>
+                transferiren zu lassen, kommt mir<lb/> um so unerwarteter, als ich gerade<lb/> jetzt
+                die Nachricht erhalte, wie eben<lb/> diese Waaren von anderer Seite befrie-<lb/>
+                diegend realisirt wurden<lb/>
+            <seg rend="right">
+               <choice>
+                  <abbr>
+                     <hi rend="underline">W. S. g. u.</hi>
+                  </abbr>
+                  <expan> Wenden Sie gefälligst um</expan>
+               </choice>
+            </seg>
+         </p>
+         <pb facs="1872_10_24_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p> Wie mir, so sind auch Ihnen die Schwie-<lb/> rigkeiten nicht unbekannt, die
+                durch<lb/> das Ueberführen der <choice>
+               <abbr>fragl.</abbr>
+               <expan> fraglichen</expan>
+            </choice> Sendung<lb/> an einen anderen Hafen entstehen,<lb/> und welche mich daher
+                zwingen würden<lb/> dieselbe zur Vermeidung aller Weit-<lb/> läufigkeiten. Ihrem <hi rend="latintype">Concurrenten</hi> an<lb/> dortigem Platze ausliefern zu
+                lassen.<lb/> Ich hoffe aber zuversichtlich, daß<lb/> es Ihren <choice>
+               <abbr>gefl.</abbr>
+               <expan> gefälligen</expan>
+            </choice> Bemühungen in meinem<lb/> Interesse wohl gelingen wird, in Bälde<lb/> eine
+                    <hi rend="latintype">Chance</hi> zu gewinnen, die Reali-<lb/> sation meiner
+                    <term type="goods" ref="K01528">Tuche</term> herbeizuführen,<lb/> indem ich
+                hierbei das in meinem<lb/> letzten Briefe Ihnen gesagte Ihnen<lb/> wiederholt recht
+                ans Herz legen möchte.<lb/> Thun Sie <choice>
+               <abbr>gefl.</abbr>
+               <expan cert="medium"> gefälligst</expan>
+            </choice> das Ihrige, mir bald<lb/> Grund zu erfreulicheren Betrachtungen<lb/> zu
+                geben, als es meine Heutigen haben<lb/> sein können, &amp; empfangen Sie<lb/>
+                unterdessen meine freundschaftlichen<lb/>
+            <seg rend="right">Empfehlungen<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1872_10_24_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_24_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>
+                  <date when="1872-12-15">15<lb/>DEC.<lb/>72</date>
+                  <lb/>
+                  <placeName ref="K00502">JAPON</placeName>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">via <del rend="overstrike">
+                        <placeName ref="K00554">Brindisi</placeName>
+                     </del>
+                     <add style="textOrientation: straight" resp="writer" place="above">
+                        <placeName ref="K00515">Marseille</placeName>
+                     </add>
+                  </hi>
+               </hi>
+               <lb/>
+               <hi rend="latintype">Messrs.</hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/>F.<lb/>
+                  <date when="1872-10-24">2410<lb/>72</date>
+                  <lb/>N 1-2 1.</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <stamp style="round" type="postal">ALLEMAGNE<lb/>* <date when="1872-10-24">28<lb/>OCT</date>
+                  <lb/>ERQ. <placeName ref="K00534">PARIS</placeName>.</stamp>
+               <lb/>
+               <stamp style="rectangular" type="postal">P. D.</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">
+               <hi rend="underline">1872</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1872-10-24">24 October</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01064">H.C. Bock</orgName>
+                  <lb/> R<hi rend="underline">
+                     <date when="1872-12-15">15Dec</date>
+                  </hi>
+                  <lb/> Bt <date when="1872-12-23">23 Decb</date>
+                  <lb/> KC</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>Hamburg, 24th October 1872<lb/>Messrs. L. Kniffler &amp;
+                Co.<lb/>Yokohama<lb/>Politely confirming my respectful latest from 10th of <lb/>this
+                month, I acknowledge receiving your esteemed <lb/>letter from 6th of last month, the
+                content of which<lb/>have met with my utmost attention. <lb/>Although I am not going
+                into any special <lb/>detail about the rest of your letter, I cannot <lb/>but
+                express my most lively regrets about the <lb/>poor forecast that you believe you
+                have to<lb/>issue regarding my grey &amp; dark blue cloths. <lb/>That you already
+                feel the need to familiarise <lb/>me with the very painful thought <lb/>of having
+                the batch that had been <lb/>consigned to you at your recommendation
+                <lb/>transferred from there to some other <lb/>place of commerce to be sold
+                there,<lb/>appears to me to come even more <lb/>unexpectedly as I have just received
+                <lb/>a message about just such wares being <lb/>sold satisfactorily by a different
+                party. <lb/>(p.t.o.) </p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>Just as they are to me, the differences are<lb/>also known to you which arise
+                from<lb/>transferring the shipment in question <lb/>to a different port and which
+                would<lb/>therefore force me, in an effort to avoid <lb/>all these complications, to
+                have this <lb/>shipment passed over to your competitor <lb/>there. However, I am
+                confident in<lb/>my hope that your kind efforts on my <lb/>behalf will succeed in
+                soon <lb/>securing a chance to bring about the <lb/> selling of my cloths, and I
+                would in this <lb/>connection like to impress on you <lb/>once again what I said in
+                my last letter. <lb/>Kindly do your best to give me <lb/>cause for happier
+                considerations <lb/>soon than mine from today are able to <lb/>be &amp; in the
+                meantime accept <lb/>my friendly best wishes <lb/>H. C. Bock</p>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_10_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>YOKOHAMA<lb/>15<lb/>DEC.<lb/>72<lb/>JAPON<lb/>via <del rend="overstrike">Brindisi</del>Marseille<lb/>Messrs HAMBURG<lb/>F.<lb/>2410<lb/>72<lb/>N 1-2
+                1.<lb/>L. Kniffler ALLEMAGNE<lb/>* 28<lb/>OCT<lb/>ERO. PARIS.<lb/>P. D.<lb/>Yokohama
+                <lb/>⟨1872<lb/>Hamburg 24th October<lb/>H.C. Bock<lb/>R[eceived] 15th Dec.
+                <lb/>An[swered] 23rd Dec.<lb/>KC⟩</p>
+      </body>
+   </text>
+</TEI>

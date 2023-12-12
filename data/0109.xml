@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>George A. Schöttler (Norddeutsches Bundeskonsulat) in Nagasaki an Carl Illies
+                    in Nagasaki am 2. November 1869</title>
+            <title type="file">0109.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, davon eine Außen- und eine Innenseite beschrieben.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="K01039" type="gov">Norddeutsches Bundeskonsulat</orgName>
+               <persName ref="K00023">Schöttler, George A.</persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-11-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="K00018">Illies, Carl</persName>
+               <settlement ref="K00514" cert="high">Nagasaki</settlement>
+               <date notBefore="1869-11-02"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-12" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-11" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_11_02_Illies_Nagasaki_von_Schöttler_Nagasaki_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00514">Nagasaki</placeName> den <date when="1869-11-02">2<hi rend="superscript">.</hi>Novb. 69.</date>
+            </seg>
+            <lb/> Lieber Herr <hi rend="latintype">
+               <persName ref="K00018">Illies</persName>
+            </hi>
+            <lb/> Ich finde soeben Ihre Note vor<lb/> An <hi rend="latintype">
+               <persName ref="K00033">Boeddinghaus</persName>
+            </hi> sagte ich wenn<lb/> Ihre Streitsachen gegen ihn im Con<lb/> sulargericht zur
+                Verhandlung käme<lb/> würde die Sache nach Thatsachen und<lb/> vorliegenden Beweisen
+                entschieden<lb/> werden. Wie <del rend="overstrike">ihm</del> im Protest
+                aufgenom-<lb/> men, hat glaube ich <persName ref="K00033">
+               <choice>
+                  <abbr>B.</abbr>
+                  <expan>
+                        Boeddinghaus
+                    </expan>
+               </choice>
+            </persName> ein Recht auf<lb/> Beibringung solcher Beweise zu<lb/> dringen, oder
+                Certificate zu verlangen<lb/> die <add style="textOrientation: straight" resp="writer" place="above">die</add> Gründe angeben, daß derartige Be<lb/>
+                weise nicht an Ort und Stelle zu schaffen<lb/> sind. Der einfachste Beweis von
+                Ihnen<lb/> würde natürlich der sein können<lb/> eine Bescheinigung zu erhalten,<lb/>
+                daß die in Frage stehenden Beträge<lb/> von Ihnen bezahlt seien. Entweder<lb/>
+                Extracte aus den Büchern oder eine<lb/> Erklärung der Firma, vor einem<lb/> Consul
+                oder einer amtlichen Person<lb/>
+         </p>
+         <pb facs="1869_11_02_Illies_Nagasaki_von_Schöttler_Nagasaki_2.tif" n="2"/>
+         <p> abgelegt, daß die Beträge <unclear>so ehe</unclear>
+            <lb/> von ihr ausgelegt worden sind.<lb/> Ich habe heute den ganzen Nach-<lb/>
+                mittag Ihre Touche Affaire mit<lb/> den Commissioners + Vier Gouverneurs <lb/>
+                discutiert und bin zu der Entscheidung<lb/> gekommen, daß die Güter confiscirt<lb/>
+                werden können und dem <orgName ref="K01119" type="gov">chinesischen<lb/> Gouvernement</orgName> anheimfallen werden.<lb/> Alle
+                Vorschriften in Bestimmung 3<lb/> der Handelsbestimmungen enthaltend<lb/> Ausfuhr
+                Gegenstände betreffend, ver<lb/> zollbar oder nach fremden Häfen ver<lb/> boten,
+                sind übertreten worden. Milde<lb/> rungsgründe, wie Sie mir früher<lb/> schrieben,
+                sind nicht da. Ich versuche<lb/> die Leute zu bestimmen mit einer<lb/> Strafe die
+                Sache zu erledigen, jedoch<lb/> ihre Einwilligung war nicht zu er-<lb/> halten. Die
+                Leute haben das Recht<lb/> auf ihrer Seite, leider nur zu klar<lb/> für Ihren Fall.<lb/>
+            <seg rend="right">Ihr<lb/>
+               <persName ref="K00023">G. Schöttler</persName>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_11_02_Illies_Nagasaki_von_Schöttler_Nagasaki_1.tif" n="1"/>
+         <p>Nagasaki, 2nd Nov. 69.<lb/>Dear Mr. Illies<lb/>I have just received your note. <lb/>I
+                told Boeddinghaus that if <lb/>your case against him came to be <lb/>dealt with in
+                the consular court, <lb/>then the matter would be decided <lb/>based on facts and
+                the presented <lb/>evidence. As recorded <del rend="overstrike">him</del> in the
+                protest<lb/>B. has, I believe, a right to press <lb/>for such evidence to be
+                presented <lb/>or to demand certificates that <lb/>give the reasons why such
+                evidence <lb/>cannot be produced on the premises. <lb/>The easiest proof from your
+                part <lb/>would of course be if you could <lb/>get written confirmation <lb/>that
+                the amounts in question have <lb/>been paid by you. Either <lb/>extracts from the
+                books or a <lb/>declaration by the company, as <lb/>witnessed by the consul or an </p>
+         <pb facs="1869_11_02_Illies_Nagasaki_von_Schöttler_Nagasaki_2.tif" n="2"/>
+         <p>official, that the amounts had previously[?]<lb/>been disbursed by them.<lb/>I spent
+                the entire afternoon today<lb/>discussing your business with the<lb/>commissioners +
+                four governors <lb/>and have come to the decision that <lb/>the goods can be
+                confiscated <lb/>and will be forfeited to the <lb/>Chinese government.<lb/>All rules
+                in Clause 3 of the<lb/>trade regulations pertaining to <lb/>the export of goods that
+                are <lb/>dutiable or are prohibited from being shipped <lb/>to foreign ports have
+                been broken. As you<lb/>wrote to me earlier, there are no <lb/>extenuating causes. I
+                entreated <lb/>the people to conclude this <lb/>matter with a fine, but <lb/>their
+                agreement was not to be had. <lb/>The people have the law on their <lb/>side, only
+                too clearly, unfortunately, <lb/>for your case. <lb/>Your<lb/>G. Schöttler</p>
+      </body>
+   </text>
+</TEI>

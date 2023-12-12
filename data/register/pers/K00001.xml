@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Louis Kniffler</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00001">
+               <persName>
+                  <forename>Louis</forename>
+                  <surname>Kniffler</surname>
+               </persName>
+               <birth>
+                  <date when="1827-01-14"/>
+                  <placeName>Wetzlar</placeName>
+               </birth>
+               <death>
+                  <date when="1888-05-20"/>
+                  <placeName>Düsseldorf</placeName>
+               </death>
+               <note>Der Gründer des Unternehmens Louis Kniffler &amp; Co. stammte aus einem
+                  preußischen Beamtenhaushalt. 1850 trat Kniffler in das
+                  Hamburger Handelshaus Bollenhagen &amp; Co. ein, drei Jahre später wechselte er
+                  zum befreundeten Unternehmen Pandel &amp; Stiehaus, dessen Leitung er 1857
+                  übernahm. Zwei Jahre später ging Kniffler auf der Suche nach neuen
+                  Geschäftsmöglichkeiten zusammen mit dem Angestellten Martin Hermann Gildemeister
+                  nach Japan, um dort eine Niederlassung von Pandel &amp; Stiehaus aufzubauen. Dies
+                  wurde jedoch bald verworfen, stattdessen gründeten sie gemeinsam das Handelshaus
+                  L. Kniffler &amp; Co. Durch anhaltenden geschäftlichen Erfolg war Kniffler in den
+                  folgenden Jahren zu hohem Ansehen in der ausländischen Händlergemeinschaft in
+                  Japan gekommen, was ihm unter anderem den Titel eines preußischen Honorarkonsuls
+                  in Nagasaki einbrachte. 1872 stieg Kniffler offiziell aus der Leitung des
+                  Unternehmens aus, blieb aber mit den neuen Geschäftsführern Carl Illies &amp;
+                  Wilhelm Pardun bis weiterhin in Kontakt und beteiligte sich 1880 an der
+                  Finanzierung des Nachfolgeunternehmens C. Illies &amp; Co., mit dessen Gründung er
+                  sich gleichzeitig vollständig aus dem Geschäftsleben zurückzog.</note>
+               <bibl>Zielke, Erich: Konsul Louis Kniffler - Der Pionier des deutschen Japanhandels.
+                  1859 gründete er das erste deutsche Unternehmen in Japan, Zeitschrift Für
+                  Unternehmensgeschichte / Journal of Business History 25, no. 1 (1980):
+                  1-11.</bibl>
+               <bibl>Käthe Molsen: C. Illies &amp; Co. 1859-1959, Hamburg 1959, S. 50</bibl>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">137818645</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

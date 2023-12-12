@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 13. Februar 1862</title>
+            <title type="file">0019.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-21</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben und eine Seite mit
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-02-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-02-18"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-29" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-01" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Per<hi rend="underline">
+                        <choice>
+                           <abbr>St.</abbr>
+                           <expan>Steamer</expan>
+                        </choice>
+                        <name type="ship" ref="K01684">Theodosius</name>
+                     </hi>
+                  </hi>
+               </seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName> d: <date when="1862-02-13">13<hi rend="superscript">ten</hi>Febr. 62</date>
+                  </hi>
+                  <lb/> Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wir schrieben Ihnen zuletzt<lb/> am <date when="1862-02-10">10<hi rend="superscript">ten</hi>
+                  <choice>
+                     <abbr>dss</abbr>
+                     <expan>desselben</expan>
+                  </choice>
+               </date> + hatten seitdem nicht das<lb/> Vergnügen von Ihnen zu hören-<lb/> In
+                    der Lage <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unseres</expan>
+               </choice> Marktes hat sich<lb/> seitdem Nichts verändert, <hi rend="latintype">
+                  <placeName ref="K00502">japan</placeName>
+                  <lb/>
+                  <term type="goods" ref="K01501">Kohlen</term>
+               </hi> halten sich auf <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="9" unit="tael" commodity="coal">9,-</measure> per <term type="measure" ref="K01558">Ton</term>
+               </hi>
+               <lb/> + die nächsten Ankünfte werden<lb/> zweifelsohne zu diesem Preise<lb/>
+                    Nehmer finden.- bei bedeuten-<lb/> den Zufuhren wird sich dieser<lb/> Preis
+                    indeß nicht halten können<lb/> Wir haben wieder scharf auf<lb/> Schiffe vigilirt
+                    mehrfach Offerten<lb/> gemacht ohne indeß reüssiren<lb/> zu können_ Schiffe sind
+                    sehr knapp<lb/> + ausgezeichneter <hi rend="latintype">Raten</hi> werden<lb/>
+                    bezahlt + da mit Leichtigkeit<lb/> Monatscharters zu bekommen sind<lb/> so hören
+                        <hi rend="latintype">Capitaine</hi> gar nicht auf<lb/> andre gute Offerten.
+                    Wir könn-<lb/> ten jetzt <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="6" unit="mex$" commodity="coal">6</measure>
+               <hi rend="latintype">per <term type="measure" ref="K01558">Ton</term>
+               </hi> bezahlen<lb/> was eine sehr schöne Rate._ aber<lb/> was nützt es Alles,
+                    wenn man doch<lb/> nicht <hi rend="latintype">reussiren</hi> kann- Hoffent-<lb/>
+                    lich haben Sie in einem der vielen nach<lb/> drüben gegangenen Schiffe Platz
+                    für<lb/> eine Parthie bekommen- auf <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="8" unit="tael" commodity="coal">8</measure> per<lb/>
+                  <term type="measure" ref="K01558">Ton</term>
+               </hi> können Sie nach <choice>
+                  <abbr>u/.</abbr>
+                  <expan> unserem</expan>
+               </choice> Dafürhalten<lb/> für nächste Zeit mit ziemlicher Sicher-<lb/>
+            </p>
+            <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <p>heit machen.<lb/> Im Uebrigen ist es im Geschäft<lb/> sehr stille + in <hi rend="latintype">jap. Produkten</hi>
+               <lb/> geht Nichts um.- Mann ist<lb/> sehr gespannt auf die nächste<lb/>
+               <hi rend="latintype">Mail</hi> von <hi rend="latintype">
+                  <placeName ref="K00511">Europa</placeName>
+               </hi>, ob Krieg<lb/> oder Frieden.<lb/> Wir übersahen es Ihnen über<lb/> Ihre
+                        <hi rend="latintype">Drills</hi> weitere Auskunft<lb/> zu ertheilen- leider
+                    können<lb/> wir Ihnen nicht anempfehlen,<lb/> eine <term type="logistic" ref="K01584">Consignation</term> davon auf<lb/> hier zu machen. -es sind keine<lb/>
+               <hi rend="latintype">real <choice>
+                     <abbr>Americ</abbr>
+                     <expan>American</expan>
+                  </choice>
+                  <term type="goods" ref="K01741">Drills</term>
+               </hi> + wir würden<lb/> die größten Schwierigkeiten den<lb/> Artikel hier
+                    loszuwerden<lb/> Sie werden uns bestätigen müssen<lb/> daß die <hi rend="latintype">
+                  <term type="goods" ref="K01741">Drills</term> Imitations goods</hi>
+               <lb/> sind.<lb/> Ohne Sonstiges für heute empfehlen<lb/> wir uns Ihnen<lb/>
+               <seg rend="right">Hochachtungsvoll<lb/>
+                  <hi rend="latintype">
+                     <choice>
+                        <abbr>pp</abbr>
+                        <expan>per Procura</expan>
+                     </choice>
+                     <orgName type="firm" ref="K01011">Bourjau Hübener + Co</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00071">Ernst Behre</persName>
+                     </hi>
+                  </hi>
+               </seg> Soeben bietet<lb/> man uns noch die<lb/>
+               <hi rend="latintype">Brig <name type="ship" ref="K01796">Thomas</name>
+               </hi> die <date when="1862-02-15">am Sonnabend</date> nach<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi> versegelt <hi rend="latintype">à <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" quantity="7" unit="mex$">7</measure> per <term type="measure" ref="K01558">Ton</term>
+               </hi> für<lb/> die <hi rend="latintype">Retourladung</hi> auf hier an
+                    worauf<lb/> wir natürlich nicht eingehen können<lb/>
+               <term type="commercial" ref="K01558">$</term>
+               <measure type="currency" quantity="6.5" unit="mex$">6½.-</measure> schlug der
+                    Eigenthümer aus<lb/> schickt das Schiff jetzt auf Spekulation<lb/> hinüber wenn
+                    Frachten bei Ihnen ge-<lb/> wichen sind können Sie das Schiff vielleicht<lb/>
+                    doch noch <hi rend="latintype">à <term type="commercial" ref="K01508">$</term>
+                  <measure type="currency" quantity="6" unit="mex$">6</measure> per Ton</hi>
+                    bekommen<lb/> die äußerste <hi rend="latintype">Rate</hi> die man bei <hi rend="latintype">
+                  <term type="currency" ref="K01525">Ts</term>
+                  <measure type="currency" quantity="9" unit="tael">9,-</measure>
+               </hi> hiesigem<lb/> Preis bezahlen könnte wenn Ihnen <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="4.5" unit="mex$">4½</measure>
+               <hi rend="latintype">per <term type="measure" ref="K01558">Ton</term> Netto</hi>
+               <lb/>
+               <seg rend="right">bleiben soll</seg>
+            </p>
+            <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>
+               <seg rend="right">
+                  <add resp="other" style="textOrientation: straight">
+                     <hi rend="underline">1862</hi>
+                     <lb/>
+                     <hi rend="latintype">
+                        <placeName ref="K00503">Shanghai</placeName>
+                        <date when="1862-02-13">13 Feb</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01011">Bourjau HübenerCo</orgName>
+                        <lb/>r/<date when="1862-02-28">28/262</date>
+                        <lb/>b/ <date when="1862-02-19">19/262</date>
+                     </hi>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="1"/>
+         <p>Per St. Theodosius<lb/>Shanghai the 13th Feb. 62<lb/>Messrs. L. Kniffler + Co<lb/>Nagasaki<lb/>
+            <lb/>We last wrote to you on the<lb/> 10th of this month + have not had <lb/> the
+                pleasure of hearing from you since –<lb/>Regarding the situation of our market<lb/>
+                nothing has changed since, Japanese <lb/>coal is staying at Ts 9,- per ton<lb/>+ the
+                next arrivals will <lb/>without a doubt find takers at<lb/> that price. – For
+                substantial<lb/>deliveries, however, this price will<lb/> not be able to hold.
+                <lb/>We have again been keenly<lb/> searching for ships, made several <lb/> offers,
+                but without being able to secure<lb/> success _ Ships are very rare <lb/> + command
+                excellent rates <lb/> + because monthly charters <lb/> are so easy to get the<lb/>
+                captains do not even listen to<lb/> other good offers. We would be able<lb/> to pay
+                $ 6 per ton now, which<lb/> is a very nice rate. _ But what good<lb/> is all that if
+                one cannot bring<lb/> it to succeed. – Hopefully<lb/>you have managed to get space
+                for<lb/> one shipment in one of the many<lb/> ships going there – in our mind<lb/>
+                you will be able to make Ts 8 per<lb/>ton in the near future with quite a</p>
+         <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <p>degree of certainty.<lb/>Apart from that it is very quiet <lb/>in the business +
+                there is no movement<lb/> in Jap. products. – One is very<lb/> intent on the next
+                mail<lb/> from Europe, whether there will be<lb/> war or peace. <lb/>We overlooked
+                giving you <lb/> further information about your<lb/> drills – unfortunately we<lb/>
+                cannot recommend to you<lb/> to send a consignment of those<lb/> here. – They are
+                not <lb/>real Americ. drills + we would<lb/>face the utmost difficulty in
+                <lb/>shifting that article here. <lb/>You will have to confirm to us<lb/> that the
+                drills are imitation<lb/> goods. <lb/>Without anything further we take<lb/> our
+                leave from you for today.<lb/> Respectfully<lb/>p.p. Bourjau Hübener + Co<lb/>Ernst
+                Behre <lb/> Just now we have <lb/>been offered the brig<lb/>Thomas, which is sailing
+                to Nagasaki<lb/> on Saturday at $ 7 per ton for<lb/>a return shipment here, which
+                <lb/> of course we cannot accept. <lb/> $6½.- was declined by the owner, <lb/>he now
+                sends the ship over there<lb/> on specualtion. If freights at yours have<lb/>
+                dropped then perhaps you might be <lb/> able to get the ship for $ 6 per ton after
+                all, <lb/>the most extreme rate that one could pay<lb/> at a local price of Ts 9,-
+                if <lb/>you yourselves are to retain $ 4½ net <lb/>per ton.</p>
+         <pb facs="1862_02_13_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>⟨1862<lb/>Shanghai 13th Feb.<lb/>Bourjau Hübener
+                Co<lb/>r[eceived]/28/262<lb/>a[nswered]/ 19/262⟩</p>
+      </body>
+   </text>
+</TEI>

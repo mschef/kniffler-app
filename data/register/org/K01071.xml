@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Joh. Berenberg, Gossler &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01071">
+               <orgName type="firm">Joh. Berenberg, Gossler &amp; Co.</orgName>
+               <settlement>Hamburg</settlement>
+               <note>Seit 1590 bestehendes Handels- und Bankhaus, das bis ins frühe 20. Jahrhundert zumindest in Teilbesitz der niederländisch-stämmigen Kaufmannsfamilie Berenberg war. In den frühen
+                  1870er Jahren beteiligte sich das Bankhaus an zahlreichen Firmengründungen in Südamerika, Skandinavien und Russland. Aus der Kniffler-Korrespondenz erhalten sind neben einem Brief
+                  der Firma ein umfassender Marktbericht, der ihre umfassenden geschäftlichen Aktivitäten in zahlreichen Ländern und den Handel mit unterschiedlichsten Waren dokumentiert.</note>
+               <bibl>Clarita von Bernstorff et al.: Nur der Wandel ist beständig - Berenberg, Die Geschichte der ältesten Privatbank Deutschlands</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

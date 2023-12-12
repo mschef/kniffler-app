@@ -1,0 +1,49 @@
+{
+    "browse": {"date": "Date"},
+    "langs": {
+        "de": "German",
+        "en": "English",
+        "nl": "Dutch",
+        "fr": "French",
+        "ja": "Japanese"
+    },    "sender": {
+        "location": "Sender location",
+        "date": "Date (sent)",
+        "orgName": "Sender (Organization)",
+        "persName": "Sender (Person)"
+    },
+    "addressee": {
+        "location": "Addressee location",
+        "date": "Date (received)",
+        "orgName": "Addressee (Organisation)",
+        "persName": "Addressee (Person)"
+    },
+    "metadata": {
+        "self": "Metadata",
+        "title": "Title",
+        "edition": "Editing",
+        "translation": "Translation",
+        "sender": "Sender",
+        "datesent": "Date sent",
+        "addressee": "Addressee",
+        "datereceived": "Date received",
+        "repository": "Repository",
+        "physicaldesc": "Physical description",
+        "sourcelang": "Source language"
+    },
+    "menu": {
+        "back": "Back",
+        "about": "About",
+        "guidelines": "Editorial Guidelines (German only)",
+        "indices": "Indices",
+        "bibl": "Bibliography (Zotero)",
+        "org": "Organisations",
+        "place": "Places",
+        "pers": "Persons",
+        "termgood": "Terms and Goods",
+        "imprint": "Imprint",
+        "aboutKniffler":"About L. Kniffler & Co. (1859–1880)",
+        "aboutSources":"About the Sources"
+    },
+    "facets": {"showAll": "Show all"}
+}

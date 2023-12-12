@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Henry Mohns (Gildemeister, Mücke &amp; Co.) in San Francisco an L. Kniffler &amp;
+               Co. in Yokohama am 1. Juli 1871</title>
+            <title type="file">0131.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-124</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Auf der Umschlagsseite eine Eingangsnotiz. Innen eine Seite
+                     bedruckt, Anschrift und Unterschriften von Hand ergänzt.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01043">Gildemeister, Mücke &amp; Co.</orgName>
+               <persName ref="K00124">Mohns, Henry</persName>
+               <settlement ref="K00532">San Francisco</settlement>
+               <date when="1871-07-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1871-08-23"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-04" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-08" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+            Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1871_07_01_Kniffler_Yokohama_von_Gildemeister_Muecke_Co_San_Francisco_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">
+                  <hi rend="latintype">
+                     <hi rend="underline" n="2">Circulair.</hi>
+                     <lb/> 1871<lb/>
+                     <placeName ref="K00532">San Francisc</placeName>o <date when="1871-07">July</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01043">Gildemeister, Mücke+Co</orgName>
+                     <lb/>
+                     <choice>
+                        <abbr>B</abbr>
+                        <expan>Beantwortet</expan>
+                     </choice>
+                     <hi rend="underline">
+                        <date when="1871-08-23">23Aug</date>
+                     </hi>.<lb/>
+                     <date when="1871-09-11">11 Sept.</date>
+                     <lb/> E</hi>
+               </add>
+            </seg>
+         </p>
+         <pb facs="1871_07_01_Kniffler_Yokohama_von_Gildemeister_Muecke_Co_San_Francisco_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <hi rend="print">
+                  <placeName ref="K00532">San Francisco</placeName>, <date when="1871-07-01">July
+                     1st, 1871</date>.</hi>
+            </seg>
+            <lb/>
+            <hi rend="latintype">Mess<hi rend="superscript">rs</hi>. <orgName type="firm" ref="K01004">L Kniffler &amp; Co.</orgName>
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="print">Dear Sirs:</hi>
+            </seg>
+            <lb/>
+            <hi rend="print">We beg leave to inform you<lb/> that our Mr. <persName ref="K00125">H.
+                  A. Gildemeister</persName>, having entered<lb/> the House of Messrs. <orgName type="firm" ref="K01131">J. Gildemeister &amp; Co.</orgName>,<lb/>
+               <placeName ref="K00596">Lima</placeName>, <placeName ref="K00597">Peru</placeName>,
+               ceases to be an active partner of our<lb/> firm, but remains interested in the
+               same.<lb/> Mr. <persName ref="K00124">Henry Mohns</persName> is authorized to sign
+               our<lb/> firm name by procuration, and soliciting your at-<lb/> tention to his
+               signature at foot, we remain,<lb/>
+            </hi>
+            <seg rend="center">
+               <hi rend="print">Dear Sirs,<lb/> Your obedient servants</hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="print">GILDEMEISTER, MUECKE &amp; CO:</hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="print">Mr. <persName ref="K00124">Henry Mohns</persName> will sign:</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <choice>
+                     <abbr>ppa.</abbr>
+                     <expan>per procura autoritate</expan>
+                  </choice>
+                  <orgName type="firm" ref="K01043">Gildemeister Muecke+Co</orgName>
+                  <lb/>
+                  <persName ref="K00124">Henry Mohns</persName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1871_07_01_Kniffler_Yokohama_von_Gildemeister_Muecke_Co_San_Francisco_3.tif" n="3"/>
+         <pb facs="1871_07_01_Kniffler_Yokohama_von_Gildemeister_Muecke_Co_San_Francisco_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

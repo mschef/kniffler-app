@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Ambrose Everett Burnside</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00094">
+               <persName>
+                  <forename>Ambrose Everett</forename>
+                  <surname>Burnside</surname>
+               </persName>
+               <birth>
+                  <date when="1824-05-23"/>
+                  <placeName>Liberty (Indiana)</placeName>
+               </birth>
+               <death>
+                  <date when="1881-09-13"/>
+                  <placeName>Bristol (Rhode Island)</placeName>
+               </death>
+               <note> Ambrose E. Burnside war im US-amerikanischen Sezessionskrieg (1861-1865) als
+                  Nachfolger von George B. McClellan für einige Monate Oberbefehlshaber der
+                  Nordstaaten. Seine Erwähnung im Brief vom 17.1.1863 deutet an, dass der
+                  Bürgerkrieg in den USA ein Ereignis von weitreichendem Interesse gewesen sein
+                  musste. </note>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">8986952</idno>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">119088924</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

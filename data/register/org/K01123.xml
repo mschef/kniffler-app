@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Zuppinger, Siber &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01123">
+               <orgName type="firm">Zuppinger, Siber &amp; Co.</orgName>
+               <settlement>Zürich</settlement>
+               <note>Das Handelshaus Zuppinger, Siber &amp; Co. vereint die zwei Schweizer Industriellenfamilien Zuppinger &amp; Siber. Hans Heinrich Zuppinger (1789-1862) gründete 1836 die
+                  mechanische Seidenspinnerei Zuppinger &amp; Co. in Zürich mit Kapital, das er von Hans Conrad Pestalozzi und Hans Caspar Escher geliehen hatte. Aus seinem Umfeld stammte dann auch
+                  das Handelshaus Zuppinger, Siber &amp; Co. Gustav Siber (1827-1872) wiederum stammte bereits aus der zweiten Generation der Teilhaber des Handelshauses und hatte auch Verbindungen
+                  nach Ostasien, wo sein Bruder Hermann in Yokohama die Seidenhandelsfirma Siber &amp; Brennwald gründete, deren Nachfolgeunternehmen DKSH bis heute existiert.</note>
+               <bibl>Andreas Zangger: Koloniale Schweiz, Bielefeld 2014, S. 266.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

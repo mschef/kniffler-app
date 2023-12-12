@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html"
+view="page"?><?xml-model href="knifflerSchema/Ortsregister.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/Ortsregister.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ortsregister Kniffler-Briefe</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <place xml:id="K00500">
+               <placeName ref="http://www.geonames.org/1701668/manila.html">Manila</placeName>
+               <note> </note>
+            </place>
+            <place xml:id="K00501">
+               <placeName ref="http://www.geonames.org/1642911/jakarta.html">Batavia</placeName>
+               <note> </note>
+            </place>
+            <place xml:id="K00502">
+               <placeName ref="http://www.geonames.org/1861060/japan.html">Japan</placeName>
+               <note> </note>
+            </place>
+            <place xml:id="K00503">
+               <placeName ref="http://www.geonames.org/1796236/shanghai.html">Shanghai</placeName>
+               <note> </note>
+            </place>
+            <place xml:id="K00504">
+               <placeName ref="http://www.geonames.org/1814991/people-s-republic-of-china.html">China</placeName>
+               <note> </note>
+            </place>
+            <place xml:id="K00505">
+               <placeName ref="http://www.geonames.org/2653822/cardiff.html">Cardiff</placeName>
+               <note>Stadt in Wales, Großbritannien. Cardiff war im 19. Jahrhundert ein bedeutender Hafen für den Kohlehandel. </note>
+            </place>
+            <place xml:id="K00506">
+               <placeName ref="http://www.geonames.org/1642673/java.html">Java</placeName>
+               <note>Eine der Hauptinseln Indonesiens. Von den Niederländern wurde Java bereits Mitte des 16. Jahrhunderts kolonialisiert. </note>
+            </place>
+            <place xml:id="K00507">
+               <placeName ref="http://www.geonames.org/12041454/dejima-island-historical.html">Dejima</placeName>
+               <note>Künstliche Insel vor Nagasaki, die während der Edo-Zeit (1603-1868) als Handelsplatz
+               für niederländische Kaufleute in Japan diente.</note>
+               <bibl source="https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutKniffler.xml">Katja Schmidtpott: Über L. Kniffler &amp; Co. (1859–1880). In: Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.</bibl>
+            </place>
+            <place xml:id="K00508">
+               <placeName ref="http://www.geonames.org/1880251/republic-of-singapore.html">Singapur</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00509">
+               <placeName ref="http://www.geonames.org/1819729/hong-kong.html">Hongkong</placeName>
+               <note>Mit Errichtung der britischen Kronkolonie wurde Hongkong 1843 zu einem der bedeutendsten Handelsplätze in Asien.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00510">
+               <placeName ref="http://www.geonames.org/1269750/republic-of-india.html">Indien</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00511">
+               <placeName ref="https://www.geonames.org/6255148/europe.html">Europa</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00512">
+               <placeName ref="http://www.geonames.org/6269131/england.html">England</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00513">
+               <placeName ref="http://www.geonames.org/2747891/rotterdam.html">Rotterdam</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00514">
+               <placeName ref="http://www.geonames.org/1856152/nagasaki-shi.html">Nagasaki</placeName>
+               <note>Am 4. Juli 1859 wurde Nagasaki einer der zwei ersten für den internationalen Handel
+                  geöffneten Vertragshäfen Japans. Die Firma L. Kniffler &amp; Co. hatte hier bis 1866 ihren Stammsitz.
+               </note>
+               <bibl source="https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutKniffler.xml">Katja Schmidtpott: Über L. Kniffler &amp; Co. (1859–1880). In: Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.</bibl>
+            </place>
+            <place xml:id="K00515">
+               <placeName ref="http://www.geonames.org/2995469/marseille.html">Marseille</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00516">
+               <placeName ref="http://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Niederlande</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00517">
+               <placeName ref="http://www.geonames.org/2757347/delfshaven.html">Delfshaven</placeName>
+               <note>Hafenstadt nahe Rotterdam.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00518">
+               <placeName ref="http://www.geonames.org/2757915">Corle</placeName>
+               <note>Ort in den Niederlanden, heute Winterswijk. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00519">
+               <placeName ref="http://www.geonames.org/2996944/lyon.html">Lyon</placeName>
+               <note>Stadt in Frankreich. Im 19. Jahrhundert war Lyon das größte Seidenwebereizentrum Europas. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00520">
+               <placeName ref="http://www.geonames.org/6553025/krefeld.html">Krefeld</placeName>
+               <note>Stadt im Rheinland. Seit dem 17. Jahrhundert war Krefeld für seine Seidenweberei bekannt. Durch die Mennoniten im 17. Jahrhundert in der Stadt etabliert, erlebte das Krefelder
+                  Seidengewerbe seine größte Blüte zur Mitte der 1870er Jahre. Während der größte Teil der in Krefeld verarbeiteten Seide seit dem 17. Jahrhundert bis in das 19. Jahrhundert hinein aus
+                  den Nachbarländern Frankreich und Italien stammte, vergrößerte sich die Menge des aus Ostasien stammenden Rohstoffs langsam seit den Opiumkriegen. </note>
+               <bibl>Hans van der Upwich: Die Geschichte und die Entwicklung der Rheinischen Samt- und Seidenindustrie, Köln 1920</bibl>
+            </place>
+            <place xml:id="K00521">
+               <placeName ref="http://www.geonames.org/1860291/kanagawa.html">Kanagawa</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00522">
+               <placeName ref="http://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00523">
+               <placeName ref="http://www.geonames.org/2643743/london.html">London</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00524">
+               <placeName ref="http://www.geonames.org/2944388/bremen.html">Bremen</placeName>
+               <note> Die Hansestadt Bremen schaute im 19. Jahrhundert auf eine lange Tradition im Seehandel zurück. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00525">
+               <placeName ref="https://www.geonames.org/1848354/yokohama.html">Yokohama</placeName>
+               <note> Hafenstadt in der Präfektur Kanagawa nahe Tokyo, eine der zentralen Anlaufstellen für den Seehandel in Ostasien im 19. Jahrhundert. 
+               Bereits kurz nach der Eröffnung betrieb L. Kniffler &amp; Co. hier eine Filiale, die 1866 zum Stammsitz des Unternehmens wurde.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00526">
+               <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00527">
+               <placeName ref="https://www.geonames.org/2934246/duesseldorf.html">Düsseldorf</placeName>
+               <note>In Düsseldorf gründete Louis Kniffler im Jahre 1868 die erste Filiale von L. Kniffler &amp; Co. außerhalb Japans. Düsseldorf diente Kniffler zugleich als Wohnsitz während seiner
+                  Aufenthalte in Deutschland.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00528">
+               <placeName ref="https://www.geonames.org/2130188/hakodate.html">Hakodate</placeName>
+               <note>Hakodate war einer der japanischen Vertragshäfen, die Mitte des 19. Jahrhunderts für den internationalen Handel geöffnet wurden. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00529">
+               <placeName ref="https://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00530">
+               <placeName ref="https://www.geonames.org/2643123/manchester.html">Manchester</placeName>
+               <note>Großstadt im Nordwesten Englands, die im Zuge der industriellen Revolution einen Boom der Textilindustrie erlebte. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00531">
+               <placeName ref="https://www.geonames.org/5128581/new-york-city.html">New York</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00532">
+               <placeName ref="https://www.geonames.org/5391959/san-francisco.html">San Francisco</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00533">
+               <placeName ref="https://www.geonames.org/2998324/lille.html">Lille</placeName>
+               <note>Großstadt in Nordfrankreich nahe der belgischen Grenze. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00534">
+               <placeName ref="https://www.geonames.org/2988507/paris.html">Paris</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00535">
+               <placeName ref="https://www.geonames.org/2952539/barmen.html">Barmen</placeName>
+               <note>Ehemals bedeutsamer Standort der Textilindustrie in Westdeutschland. Gehört heute zur Stadt Wuppertal. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00537">
+               <placeName ref="https://www.geonames.org/1792947/tianjin.html">Tianjin</placeName>
+               <note>Bedeutende chinesische Hafenstadt in der Nähe von Peking. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00538">
+               <placeName ref="https://www.geonames.org/1566083/ho-chi-minh-city.html">Saigon</placeName>
+               <note>Größte Stadt Vietnams. Heutige Bezeichnung ist Ho-Chi-Minh-Stadt. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00539">
+               <placeName ref="https://www.geonames.org/1573261/cochin-china.html">Cochin-China</placeName>
+               <note>Bezeichnung für die französische Kolonie in Südvietnam im 19. und 20. Jahrhundert. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00540">
+               <placeName ref="https://www.geonames.org/1855431/niigata.html">Niigata</placeName>
+               <note>Hafenstadt im Nordwesten Japans. Ab 1.1.1868 für den Außenhandel geöffneter Vertragshafen Japans. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00541">
+               <placeName ref="https://www.geonames.org/8582413/san-blas.html">San Blas</placeName>
+               <note>Hafenstadt in Mexiko. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00542">
+               <placeName ref="https://www.geonames.org/1850147/tokyo.html">Tokyo (Edo)</placeName>
+               <note>Hauptstadt Japans seit 1868. Bis 1868 war Edo die Bezeichnung für Tokyo. Ab dem 1.1.1869 bestand ein Konzessionsgebiet im Stadtteil Tsukiji, das für den internationalen Handel
+                  geöffnet war. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00543">
+               <placeName ref="https://www.geonames.org/3165185/trieste.html">Trieste</placeName>
+               <note>Hafenstadt im Nordwesten Italiens. Durchgangsstation für Post aus Europa nach Ostasien, die von hier aus per Schiff über den1869 eröffneten Suezkanal weitergeleitet wurde. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00544">
+               <placeName ref="https://www.geonames.org/2637487/southampton.html">Southampton</placeName>
+               <note>Hafenstadt im Süden Englands. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00545">
+               <placeName ref="https://www.geonames.org/1859171/kobe.html">Hyōgo (heute: Kōbe)</placeName>
+               <note>Einer der für ausländische Schiffe offenen Vertragshäfen Japans. Die Öffnung erfolgte am 1.1.1868. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00546">
+               <placeName ref="https://www.geonames.org/2973783/strasbourg.html">Strasbourg</placeName>
+               <note>Große Stadt im Elsass. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00547">
+               <placeName ref="https://www.geonames.org/3017382/republic-of-france.html">Frankreich</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00548">
+               <placeName ref="https://www.geonames.org/2644210/liverpool.html">Liverpool</placeName>
+               <note>Hafenstadt im Nordwesten Englands. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00549">
+               <placeName ref="https://www.geonames.org/2750405/kingdom-of-the-netherlands.html">Niederlande</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00550">
+               <placeName ref="https://www.geonames.org/2129002/nanae-cho.html">Augustenfelde</placeName>
+               <note>Landwirtschaftliches Mustergut, das von den Gärtner-Brüdern im Dorf Nanae auf Hokkaidō im Auftrag der deutschen Botschaft errichtet wurde. Augustenfelde war Teil des vom deutschen
+                  Botschafter Max von Brandt lange gehegten Plans, auf Hokkaidō eine deutsche Kolonie zu errichten. Da von Brandts Einschätzung des wirtschaftlichen Potentials des Projekts als
+                  unrealistisch bewertet wurde und das Deutsche Reich nicht interessiert an Siedlungskolonien war, stieß das Vorhaben auf wenig politischen Rückhalt und wurde nie weiter in die Tat
+                  umgesetzt. </note>
+               <bibl>Rolf-Harald Wippich: Japan als Kolonie? Max von Brandts Hokkaidō-Projekt 1865/1867, Hamburg 1997</bibl>
+            </place>
+            <place xml:id="K00551">
+               <placeName ref="https://www.geonames.org/2930687/elsterberg.html">Elsterberg</placeName>
+               <note>Ortschaft in Sachsen. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00552">
+               <placeName ref="https://www.geonames.org/2984114/reims.html">Reims</placeName>
+               <note>Stadt in der französischen Region Champagne. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00553">
+               <placeName ref="https://www.geonames.org/2925533/frankfurt-am-main.html">Frankfurt am Main</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00554">
+               <placeName ref="https://www.geonames.org/3181528/brindisi.html">Brindisi</placeName>
+               <note>Hafenstadt im Süden Italiens. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00555">
+               <placeName ref="https://www.geonames.org/2798666/erquelinnes.html">Erquelinnes</placeName>
+               <note> Belgische Stadt am Grenzübergang zu Frankreich. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00556">
+               <placeName ref="https://www.geonames.org/6252001/united-states.html">USA</placeName>
+               <note>Die Bezeichnung Amerika kann auf den gesamten Doppelkontinent verweisen oder aber auf einen der beiden Teilkontinente. In den Kniffler-Briefen in der Regel als totum pro parte für
+                  die USA gebraucht. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00557">
+               <placeName ref="https://www.geonames.org/3164527/verona.html">Verona</placeName>
+               <note>Stadt in Norditalien. Durchgangsposten für Post nach Ostasien. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00558">
+               <placeName ref="https://www.geonames.org/1853909/osaka.html">Osaka</placeName>
+               <note>Kaufmännisches Zentrum Japans. Die Stadt Osaka wurde am 1.1.1868 für den Außenhandel geöffnet. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00559">
+               <placeName ref="https://www.geonames.org/1636629/moluccas.html">Molukken</placeName>
+               <note>Inselgruppe vor Neuguinea. Wegen der dort angebauten Gewürze auch als "Gewürzinseln" bezeichnet. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00560">
+               <placeName ref="https://www.geonames.org/1810821/fuzhou.html">Fuzhou</placeName>
+               <note>Hafenstadt im Südosten Chinas. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00561">
+               <placeName ref="https://www.geonames.org/1735107/pulau-pinang.html">Penang</placeName>
+               <note>Eine der malaysischen Inseln. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00562">
+               <placeName ref="https://www.geonames.org/2971041/valenciennes.html">Valenciennes</placeName>
+               <note>Stadt in Nordfrankreich am Grenzübergang zu Belgien. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00563">
+               <placeName ref="https://www.geonames.org/1790967/wusong.html">Wusong</placeName>
+               <note>Ehemaliger Vorort und heutiger Stadtteil von Shanghai. Wusong war ein bedeutender Anlegehafen für Dampfschiffe im Ostasienhandel. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00564">
+               <placeName ref="https://www.geonames.org/1809858/guangzhou.html">Kanton (Canton; heut. Guangzhou)</placeName>
+               <note>Wichtigster Seehafen Chinas im 19. Jahrhundert. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00565">
+               <placeName ref="https://www.geonames.org/1630634/probolinggo.html">Probolinggo</placeName>
+               <note>Hafenstadt im Osten der indonesischen Insel Java. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00566">
+               <placeName ref="https://www.geonames.org/1625822/surabaya.html">Surabaya</placeName>
+               <note>Hafenstadt im Osten der indonesischen Insel Java. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00567">
+               <placeName ref="https://www.geonames.org/2875601/luebeck.html">Lübeck</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00568">
+               <placeName ref="https://www.geonames.org/2623032/kingdom-of-denmark.html">Dänemark</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00569">
+               <placeName ref="https://www.geonames.org/2972191/tours.html">Tours</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00570">
+               <placeName ref="https://www.geonames.org/2562772/malta.html">Malta</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00571">
+               <placeName ref="https://www.geonames.org/3174659/livorno.html">Livorno</placeName>
+               <note>Engl. Leghorn. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00572">
+               <placeName ref="https://www.geonames.org/2658434/switzerland.html">Schweiz</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00573">
+               <placeName ref="https://www.geonames.org/2658761/schaffhausen.html">Schaffhausen</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00574">
+               <placeName ref="https://www.geonames.org/2017370/russian-federation.html">Russland</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00575">
+               <placeName ref="https://www.geonames.org/347712/suez-canal.html">Suezkanal</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00576">
+               <placeName ref="https://www.geonames.org/2911296/altona.html">Altona</placeName>
+               <note>Ehemalige Stadt in Norddeutschland. 1936 als Stadtbezirk nach Hamburg eingegliedert. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00577">
+               <placeName ref="https://www.geonames.org/2658042/wattwil.html">Wattwil</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00578">
+               <placeName ref="https://www.geonames.org/2661766/altstaetten.html">Altstätten</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00579">
+               <placeName ref="https://www.geonames.org/11494351/hankow.html">Hankou</placeName>
+               <note>Ehemalige eigenständige Hafenstadt am Yangtze in China, die heute Teil der Stadt Wuhan in der Provinz Hubei ist. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00580">
+               <placeName ref="https://www.geonames.org/2130038/hokkaido.html">Hokkaidō</placeName>
+               <note>Nördlichste der japanischen Hauptinseln. Bis 1869 als Ezo bezeichnet. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00581">
+               <placeName ref="https://www.geonames.org/3017805/forbach.html">Forbach</placeName>
+               <note>Ortschaft im Schwarzwald. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00582">
+               <placeName ref="https://www.geonames.org/1799397/ningbo.html">Ningbo</placeName>
+               <note>Hafenstadt an der Ostküste Chinas. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00583">
+               <placeName ref="https://www.geonames.org/4781708/richmond.html">Richmond</placeName>
+               <note>Stadt nahe der US-amerikanischen Ostküste. Zwischen 1861 und 1865 war Richmond die Hauptstadt der Südstaaten, einer der Konfliktparteien im amerikanischen Sezessionskrieg. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00584">
+               <placeName ref="https://www.geonames.org/2658822/sankt-gallen.html">St. Gallen</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00585">
+               <placeName ref="https://www.geonames.org/2659297/olten.html">Olten</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00586">
+               <placeName ref="https://www.geonames.org/12041447/oura-creek-historical.html">Ōura</placeName>
+               <note>Ortsteil der Stadt Nagasaki in unmittelbarer Nähe zu Dejima. In Ōura befand sich eine Villa, die ab Herbst 1863 von Louis Kniffler bewohnt wurde.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies &amp; Co.,
+                  München 2009, S. 38</bibl>
+            </place>
+            <place xml:id="K00587">
+               <placeName ref="https://www.geonames.org/3451190/rio-de-janeiro.html">Rio de Janeiro</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00588">
+               <placeName ref="https://www.geonames.org/1858421/kumamoto.html">Kumamoto</placeName>
+               <note>Stadt im Südwesten Japans </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00589">
+               <placeName ref="https://www.geonames.org/2638360/scotland.html">Schottland</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00590">
+               <placeName ref="https://www.geonames.org/1816670/beijing.html">Beijing</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00591">
+               <placeName ref="https://www.geonames.org/1821274/macau.html">Macau</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00592">
+               <placeName ref="https://www.geonames.org/1787093/yantai.html">Zhifu</placeName>
+               <note>Heutiger Name ist Yantai. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00593">
+               <placeName ref="https://www.geonames.org/3181554/brescia.html">Brescia</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00594">
+               <placeName ref="https://www.geonames.org/2657896/zuerich.html">Zürich</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00595">
+               <placeName ref="https://www.geonames.org/1799962/nanjing.html">Nanjing</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00596">
+               <placeName ref="https://www.geonames.org/3936456/lima.html">Lima</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00597">
+               <placeName ref="https://www.geonames.org/3932488/republic-of-peru.html">Peru</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00598">
+               <placeName ref="https://www.geonames.org/2650225/edinburgh.html">Edinburgh</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00599">
+               <placeName ref="https://www.geonames.org/2747596/schiedam.html">Schiedam</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00600">
+               <placeName ref="https://www.geonames.org/2158177/melbourne.html">Melbourne</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00601">
+               <placeName ref="https://www.geonames.org/2919763/glueckstadt.html">Glückstadt</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00602">
+               <placeName ref="https://www.geonames.org/2939658/cuxhaven.html">Cuxhaven</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00603">
+               <placeName ref="https://www.geonames.org/3657509/guayaquil.html">Guayaquil</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00604">
+               <placeName ref="https://www.geonames.org/3393129/para.html">Pará</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00605">
+               <placeName ref="https://www.geonames.org/3450554/salvador.html">Salvador (Bahia)</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00606">
+               <placeName ref="https://www.geonames.org/3492908/santo-domingo.html">Santo Domingo</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00607">
+               <placeName ref="https://www.geonames.org/3646738/caracas.html">Caracas</placeName>
+               <note> </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00608">
+               <placeName ref="https://www.geonames.org/2970838/valreas.html">Valréas</placeName>
+               <note>Ortschaft im französischen Département Vaucluse. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00609">
+               <placeName ref="https://www.geonames.org/2970554/vaucluse.html">Vaucluse</placeName>
+               <note>Verwaltungsbezirk im Südosten Frankreichs. </note>
+               <bibl/>
+            </place>
+            <place xml:id="K00610">
+               <placeName ref="https://www.geonames.org/2661604/basel.html">Basel</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00611">
+               <placeName ref="https://www.geonames.org/2980291/saint-etienne.html">Saint-Étienne</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00612">
+               <placeName ref="https://www.geonames.org/2510769/kingdom-of-spain.html">Spanien</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00613">
+               <placeName ref="https://www.geonames.org/2523118/sicily.html">Sizilien</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00614">
+               <placeName ref="https://www.geonames.org/3169068/romagna.html">Romagna</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00615">
+               <placeName ref="https://www.geonames.org/3170831/piemonte.html">Piemont</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00616">
+               <placeName ref="https://www.geonames.org/3174618/lombardia.html">Lombardei</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00617">
+               <placeName ref="https://www.geonames.org/3027487/chalons-en-champagne.html">Châlons sur Marne</placeName>
+               <note>Heutiger Name: Châlons sur Champagne</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00618">
+               <placeName ref="https://www.geonames.org/3449433/santos.html">Santos</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00619">
+               <placeName ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00620">
+               <placeName ref="https://www.geonames.org/3901865/valles.html">Valles</placeName>
+               <note>Grenzregion der Anden zwischen Bolivien, Argentinien und Peru.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00621">
+               <placeName ref="https://www.geonames.org/3637721/la-guaira.html">La Guayra</placeName>
+               <note>Bedeutender venezolanischer Seehafen.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00622">
+               <placeName ref="https://www.geonames.org/3457582/maruim.html">Maruim</placeName>
+               <note>Binnehafen Brasiliens, der im 19. Jahrhundert als Durchfahrtsstation für Dampfschiffe diente.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00623">
+               <placeName ref="https://www.geonames.org/3402362/ceara.html">Ceará</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00624">
+               <placeName ref="https://www.geonames.org/3395981/maceio.html">Maceió</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00625">
+               <placeName ref="https://www.geonames.org/1281789/bay-of-bengal.html">Bengalen</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00626">
+               <placeName ref="https://www.geonames.org/3595528/republic-of-guatemala.html">Guatemala</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00627">
+               <placeName ref="https://www.geonames.org/3531732/campeche.html">Campeche</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00628">
+               <placeName ref="https://www.geonames.org/3489941/jamaica.html">Jamaika</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00629">
+               <placeName ref="https://www.geonames.org/3633009/maracaibo.html">Maracaibo</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00630">
+               <placeName ref="https://www.geonames.org/3670458/sabanilla.html">Sabanilla</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00631">
+               <placeName ref="https://www.geonames.org/7626836/country-of-curacao.html">Curaçao</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00632">
+               <placeName ref="https://www.geonames.org/2803138/antwerpen.html">Antwerpen</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00633">
+               <placeName ref="https://www.geonames.org/2879139/leipzig.html">Leipzig</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00634">
+               <placeName ref="https://www.geonames.org/3467865/campinas.html">Campinas</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00635">
+               <placeName ref="https://www.geonames.org/3637721/la-guaira.html">La Guaira</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00636">
+               <placeName ref="https://www.geonames.org/4018691/altata.html">Altata</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00637">
+               <placeName ref="https://www.geonames.org/3562993/cuba.html">Kuba</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00638">
+               <placeName ref="https://www.geonames.org/3629706/puerto-cabello.html">Puerto Cabello</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00639">
+               <placeName ref="https://www.geonames.org/4347778/baltimore.html">Baltimore</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00640">
+               <placeName ref="https://www.geonames.org/4560349/philadelphia.html">Philadelphia</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00641">
+               <placeName ref="https://www.geonames.org/3451138/rio-grande.html">Rio Grande</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00642">
+               <placeName ref="https://www.geonames.org/3441575/montevideo.html">Montevideo</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00643">
+               <placeName ref="https://www.geonames.org/3645532/ciudad-bolivar.html">Angostura</placeName>
+               <note>Bedeutender Binnenhafen in Venezuela. Die Stadt trägt heute den Namen "Ciudad Bolívar".</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00644">
+               <placeName ref="https://www.geonames.org/3426221/rio-de-la-plata.html">Rio de la Plata</placeName>
+               <note>Bezeichnung für den Zusammenlauf der Flüsse Uruguay und Paranà in Südamerika und die diesen umgebende Region. Der Rio de la Plata fließt in den Atlantik, an seinen Ufern liegen
+                  bedeutende Hafenstädte wie Buenos Aires in Argentinien und Montevideo in Uruguay.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00645">
+               <placeName ref="https://www.geonames.org/3351879/republic-of-angola.html">Angola</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00646">
+               <placeName ref="https://www.geonames.org/2068734/kapunda.html">Kapunda</placeName>
+               <note>Ortschaft in Australien, die im 19. Jahrhundert zeitweise bedeutende Kupfervorkommen barg.</note>
+               <bibl/>
+            </place>
+            <place xml:id="K00647">
+               <placeName ref="https://www.geonames.org/3895114/republic-of-chile.html">Chile</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00648">
+               <placeName ref="https://www.geonames.org/1260086/patna.html">Patna</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00649">
+               <placeName ref="https://www.geonames.org/1298852/rakhine-state.html">Arakan</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00650">
+               <placeName ref="https://www.geonames.org/1298824/yangon.html">Rangun</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00651">
+               <placeName ref="https://www.geonames.org/1328421/pathein.html">Pathein</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00652">
+               <placeName ref="https://www.geonames.org/1605651/kingdom-of-thailand.html">Siam (Thailand)</placeName>
+               <note/>
+               <bibl/>
+            </place>
+            <place xml:id="K00653">
+               <placeName ref="https://www.geonames.org/3392268/pernambuco.html">Pernambuco</placeName>
+               <note/>
+               <bibl/>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>

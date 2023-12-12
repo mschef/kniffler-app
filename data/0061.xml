@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilkie &amp; Gärtner in Hakodate an L. Kniffler &amp; Co. in Nagasaki am 15. November 1865</title>
+            <title type="file">0061.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-60</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen (Papier in hellem Blauton) und eine eingeklebte Seite mit einer Rechnung (weißes Papier). Zwei Seiten Anschreiben und die Eingeklebte Rechnung, eine Seite
+                            mit einer Eingangsnotiz. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01103">Wilkie &amp; Gärtner</orgName>
+               <settlement ref="K00528">Hakodate</settlement>
+               <date when="1865-11-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1865-11-23"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-05" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-04" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">Per. „<name type="ship" ref="K01805">Danzig</name>”</hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00528">Hakodade</placeName> d. <date when="1865-11-15">15 Novemb. 1865</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir bestätigen den Inhalt unseres <lb/> Ergebenen vom <date when="1865-10-25">25<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>v. Mts.</abbr>
+                  <expan>vorigen Monats</expan>
+               </choice>
+            </date>, wovon<lb/> wir Ihnen eingeschlossen <term type="logistic" ref="K01538">Copie</term> überreichen<lb/> und können heute mit unseren Markt-<lb/> berichten fortfahren.<lb/> Für
+                die hier eingetroffenen <hi rend="latintype">„<name type="ship" ref="K01805">Danzig</name>”</hi>
+            <lb/> und <hi rend="latintype">„<name type="ship" ref="K01750">Lizzie Allen</name>”</hi> wurden <hi rend="latintype">ca <measure type="volume" quantity="8000" unit="picul" commodity="seaweed">8000</measure>
+               <lb/>
+               <term type="measure" ref="K01504">piculs</term>
+               <term type="goods" ref="K01675">long Seaweed</term> a <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="2.85" unit="mex$" commodity="seaweed">2<hi rend="superscript">85</hi>
+               </measure>
+               <term type="measure" ref="K01504">
+                  <choice>
+                     <abbr>ppic</abbr>
+                     <expan>per Picul</expan>
+                  </choice>
+               </term>
+            </hi> ge-<lb/> kauft, und einige kleine Parthien<lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01703">irico</term> a<term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="31" unit="mex$" commodity="trepang">31 .-</measure>
+               <term type="measure" ref="K01504">ppic</term>
+            </hi> und <hi rend="latintype">
+               <term type="goods" ref="K01806">Awabi</term>
+            </hi> zu <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="22" unit="mex$" commodity="awabi">22</measure>
+            <lb/> a <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="24" unit="mex$" commodity="awabi">24.-</measure>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">
+                  <choice>
+                     <abbr>ppic.</abbr>
+                     <expan>per Picul</expan>
+                  </choice>
+               </term>
+            </hi> Sonst ist hier weiter<lb/> nichts umgegangen. Es bleiben hier<lb/> augenblicklich noch ca <measure type="volume" quantity="5000" unit="picul" commodity="seaweed">5000</measure>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">piculs</term>
+            </hi> im<lb/> Markte wofür die Japaner <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="2.90" unit="mex$" commodity="seaweed">2<hi rend="superscript">90</hi>
+            </measure>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">
+                  <choice>
+                     <abbr>ppic</abbr>
+                     <expan>per Picul</expan>
+                  </choice>
+               </term>
+            </hi>
+            <lb/> und mehr fordern, ohne indessen Käufer<lb/> dafür zu finden. Die <hi rend="latintype">„<name type="ship" ref="K01761">Gazelle</name>”</hi> liegt<lb/> hier noch unbeschäftigt. Die
+                    <hi rend="latintype">„<name type="ship" ref="K01797">Akindo</name>”</hi>
+            <lb/> ladet <term type="goods" ref="K01757">Holz</term> und einige Hundert <hi rend="latintype">
+               <term type="measure" ref="K01504">Piculs</term>
+               <term type="goods" ref="K01675">long<lb/> Seaweed</term>
+            </hi> für <hi rend="latintype">
+               <placeName ref="K00503">Shanghai</placeName>
+            </hi> und wird höchst-<lb/> wahrscheinlich erst dort einlaufen.<lb/> Nach <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> gaben wir laut<lb/> eingeschlossener Copie der Verkaufrechnung<lb/> Abrechnung über<lb/>
+            <table>
+               <row>
+                  <cell>1000</cell>
+                  <cell>Stg</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <unclear>Schw.</unclear>
+                        <term type="goods" ref="K01519">Tafachellass</term>
+                     </hi>
+                  </cell>
+                  <cell>à <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="5" unit="mex$" commodity="taffachelassen">5.-</measure>pStg.</cell>
+               </row>
+               <row>
+                  <cell>1</cell>
+                  <cell>Ballen</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="goods" ref="K01807">Blankets</term>
+                     </hi>
+                  </cell>
+                  <cell>à <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="5" unit="mex$" commodity="blankets">5.-</measure> p<unclear>Pr.</unclear>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2</cell>
+                  <cell>Kisten</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="goods" ref="K01527">Turk. red.</term> Cloak <lb/>100 Stg.</hi>
+                  </cell>
+                  <cell>a <term type="commercial" ref="K01508">$</term>
+                     <measure type="currency" quantity="5" unit="mex$" commodity="cloaks">5.-</measure> pStg</cell>
+               </row>
+            </table> wofür wir <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName> Conto</hi> mit: </p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+         <p>
+            <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="5493.47" unit="mex$">5493.<hi rend="superscript">47</hi>
+            </measure>
+            <lb/> erkannten<lb/> Am bestmöglichsten Verkauf Ihres<lb/> hiesigen Lagers blieben wir eifrigst be-<lb/> müht, und werden, da wir mit dieser<lb/> Gelegenheit nicht verschiffen konnten,
+                mit<lb/> der <hi rend="latintype">„<name type="ship" ref="K01797">Akindo</name>”</hi> Die hier auf Lager haben-<lb/> den <hi rend="latintype">
+               <term type="goods" ref="K01638">Rifles</term>
+            </hi> und französischen Waffen<lb/> senden, da wir zum Verkauf derselben<lb/> leider gar keine Aussicht haben. Sie<lb/> können versichert sein, daß wir jede<lb/> Gelegenheit benutzen
+                werden, um Ihre<lb/> übrigen hier lagernden Waffen und<lb/> andere Güter versuchen zu verkaufen.<lb/> Wir bekennen uns noch zum<lb/> Empfang Ihres geehrten vom <date when="1865-10-26">26<hi rend="superscript">ten</hi>
+               <lb/>
+               <choice>
+                  <abbr>v. Mts</abbr>
+                  <expan>vorigen Monats</expan>
+               </choice>
+            </date>, und bemerken uns was Sie<lb/> über Ladung p <hi rend="latintype">„<name type="ship" ref="K01808">La vierge</name>”</hi> schreiben.<lb/>
+            <hi rend="latintype">Cours</hi> des <hi rend="latintype">
+               <term type="commercial" ref="K01508">Dollar</term>
+            </hi> 100 - 230 nom.<lb/>
+            <seg rend="right">Ohne mehr für heute zeichnen<lb/>Hochachtungsvollergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01103">Wilkie+Gaertner</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+         <!-- Das Digitalisat zeigt nur die Befestigung der Rechnung, es ist aber darüber hinaus
+         keine weitere Information vorhanden als auf der folgenden Rechnung-->
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>
+            <hi rend="latintype">
+               <hi rend="underline">Verkaufrechnung</hi>
+            </hi> über <hi rend="latintype">p. „<name type="ship" ref="K01755">Devina</name> + <name type="ship" ref="K01809">Fanny</name>”</hi>
+            <lb/> empfangene Güter auf Ordre und für Rechnung<lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>, <placeName ref="K00525">Yokohama</placeName>
+            </hi>
+            <lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. Bestehend aus Buchstaben mit sehr ausgeprägten Serifen. Auf der Hälfte der Zeile stehend C. K. darunter W B</figDesc>
+                     </figure>
+                     <lb/>38/49. <hi rend="superscript">1345</hi>/9.</cell>
+                  <cell>10 Kisten</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="goods" ref="K01519">Tafachelassen</term>
+                        <lb/>1000 Stg</hi>
+                  </cell>
+                  <cell>a<term type="currency" ref="K01508">$</term> <measure type="currency" unit="mex$" quantity="5">5</measure>.</cell>
+                  <cell><term type="currency" ref="K01508">$</term> <measure type="currency" quantity="5000" unit="mex$">5000</measure> .</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. Um einen rechtwinkligen Diamant, mit darin geschriebenen Buchstaben BA, gruppierte Buchstaben mit ausgeprägten Serifen. Oben links WBN unten rechts N unten links J</figDesc>
+                     </figure>
+                     <hi rend="superscript">17 8</hi>/9.</cell>
+                  <cell>1 <term type="logistic" ref="K01572">Ballen</term>
+                  </cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="goods" ref="K01807">Blankets</term>
+                        <lb/>50. Paar</hi>
+                  </cell>
+                  <cell>a<term type="currency" ref="K01508">$</term> <measure type="currency" quantity="5" unit="mex$">5</measure>.</cell>
+                  <cell>" 250 .</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Firmenzeichen. Um einen um 45° geneigten stilisierten Stockanker gruppierte Buchstaben mit ausgeprägten Serifen. Links des Schafts B, rechts des Schafts C, unter der linken Flunke S unter der rechten Flunke G</figDesc>
+                     </figure>
+                     <hi rend="superscript">153</hi>/9</cell>
+                  <cell>2 Kisten</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="goods" ref="K01527">Turk. Red.</term> Cloak<lb/>100 Stp</hi>
+                  </cell>
+                  <cell>a<term type="currency" ref="K01508">$</term> <measure type="currency" unit="mex$" quantity="5">5</measure>.</cell>
+                  <cell>a<term type="currency" ref="K01508">$</term> <measure type="currency" unit="mex$" quantity="5">5</measure>.</cell>
+                  <cell>
+                     <hi rend="underline">" 500 .<lb/>
+                        <term type="currency" ref="K01508">$</term> <measure type="currency" quantity="5750" unit="mex$">5750</measure> .</hi>
+                  </cell>
+               </row>
+            </table>
+            <hi rend="latintype">
+               <hi rend="underline">Unkosten</hi>
+            </hi>
+            <table>
+               <row>
+                  <cell>Permits zum Landen</cell>
+                  <cell>
+                     <term type="currency" ref="K01508">$</term>
+                  </cell>
+                  <cell><measure type="currency" quantity="3" unit="mex$">3</measure></cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>Rechte bezahlt dort.</cell>
+                  <cell>"</cell>
+                  <cell><measure type="currency" quantity="3" unit="mex$">"</measure></cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>Fracht p. <hi rend="latintype">„<name type="ship" ref="K01809">Fanny</name>”</hi>
+                  </cell>
+                  <cell>"</cell>
+                  <cell><measure type="currency" quantity="7.35" unit="mex$">7</measure></cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell>
+                     <unclear> Lodt a Rubte</unclear>lohn Empfang Ablies</cell>
+                  <cell>"</cell>
+                  <cell><measure type="currency" unit="mex$" quantity="11.50">11</measure></cell>
+                  <cell>50</cell>
+               </row>
+               <row>
+                  <cell>Lagermiethe</cell>
+                  <cell>"</cell>
+                  <cell><measure type="currency" unit="mex$" quantity="19.16">19</measure></cell>
+                  <cell>16</cell>
+               </row>
+               <row>
+                  <cell>
+                     <term type="commercial" ref="K01587">Assecuranz</term> 3 a 4 Mts ¾%</cell>
+                  <cell>"</cell>
+                  <cell><measure type="currency" unit="mex$" quantity="43.12">43</measure></cell>
+                  <cell>12</cell>
+               </row>
+               <row>
+                  <cell>Commission 3%</cell>
+                  <cell>"</cell>
+                  <cell>
+                     <hi rend="underline"><measure type="currency" unit="mex$" quantity="172.50">172</measure></hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">50 " <measure type="currency" unit="mex$" quantity="285.53">285 53</measure><lb/>
+                        <hi rend="underline" n="2">Men <term type="currency" ref="K01508">$</term> <measure type="currency" unit="mex$" quantity="5493.47">5493 47</measure></hi>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+            <seg rend="right">
+               <hi rend="latintype"><choice><abbr>S. E O.</abbr><expan>Salvo errore et Omissione</expan></choice><lb/>
+                  <placeName ref="K00528">Hakodade</placeName> d. <date when="1865-10-28">28<hi rend="superscript">ten</hi> Octob. 1865</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01103">Wilkie+Gaertner</orgName>.</hi>
+            </seg>
+         </p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_5.tif" n="5"/>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_6.tif" n="6"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">1865<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00528">Hakodade</placeName> 15 Nov<lb/>Wilkie + Gaertner<lb/>r/ 23/11 65<lb/>
+                  </hi>
+               </add>
+            </seg>
+            <seg rend="right">
+               <add style="transformRotateZ(-45deg)" resp="other">
+                  <unclear>NotGS</unclear>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>Per “Danzig”<lb/>Hakodate 15<hi rend="superscript">th</hi> November 1865<lb/>Messrs. L. Kniffler +Co.<lb/>Nagasaki<lb/>We confirm the content of our respectful <lb/>letter from 25th of
+                last month, of which <lb/>we present you with the enclosed copy, <lb/>and are today able to continue our<lb/>market reports. <lb/>For the “Danzig” and “Lizzie Allen” <lb/>that have
+                arrived here, ca. 8,000 piculs<lb/>of long seaweed have been purchased at<lb/>$ 285 per picul as well as some smaller batches <lb/>of irico at $31 .- per pic. and abalone at $22<lb/>to
+                $24.- per picul. Apart from that nothing <lb/>has happened. There are currently still approx. <lb/>5,000 piculs on the market here, for which<lb/>the Japanese demand $2<hi rend="superscript">90</hi> or more <lb/>per picul but without managing to find <lb/>buyers for it. The “Gazelle” is still anchored<lb/>here without engagement. The “Akindo”<lb/>is
+                loading wood and some hundred piculs of long<lb/>seaweed for Shanghai and will most probably<lb/>call there first.<lb/>To Yokohama we supplied, as per the <lb/>enclosed copy of the
+                sales invoice, <lb/>the calculation for <lb/>
+            <table>
+               <row>
+                  <cell>1000</cell>
+                  <cell>pcs.</cell>
+                  <cell>Swiss[?] Tafachellas</cell>
+                  <cell>at $ 5.-per item.</cell>
+               </row>
+               <row>
+                  <cell>1</cell>
+                  <cell>bundles</cell>
+                  <cell>Blankets</cell>
+                  <cell>at $ 5.- per Pr.[?]</cell>
+               </row>
+               <row>
+                  <cell>2</cell>
+                  <cell>boxes</cell>
+                  <cell>Turk. red. cloak<lb/>100 pcs.</cell>
+                  <cell>at $ 5.- per item</cell>
+               </row>
+            </table> for which we credited the Yokohama account with </p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_2.tif" n="2"/>
+         <p>$ 5493.47<lb/>We are still eagerly working on achieving <lb/>the best possible sale of your local stock<lb/>and, as we were unable to ship them on <lb/>this occasion, we will use the
+                “Akindo” to <lb/>send the rifles and French weapons stored <lb/>here, because we sadly have no prospect <lb/>at all of selling them. You can rest<lb/>assured that we will use every
+                opportunity <lb/>to attempt to sell your other weapons and <lb/>goods that are stored here. <lb/>We also acknowledge receipt of <lb/>your esteemed letter from 26th of last<lb/>month
+                and take note of what you wrote <lb/>about the shipment by means of “La vierge”.<lb/>The rate of the dollar is 100 - 230 nominally.<lb/>Without anything further we sign for today
+                <lb/>Yours sincerely and respectfully<lb/>Wilkie + Gaertner</p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_3.tif" n="3"/>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>
+            <hi rend="underline">Sales invoice</hi> for goods received on the <lb/>“Devina + Fanny” on order and for account of <lb/>Messrs. L. Kniffler +Co., Yokohama<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Company sign. Consisting of letters with very distinctive serifs. In the middle of the line the letters C. K. and underneath this the letters W B</figDesc>
+                     </figure>
+                     <lb/>38/49. <hi rend="superscript">1345</hi>/9. </cell>
+                  <cell>10 boxes</cell>
+                  <cell>Tafachelas<lb/>1000 pcs.</cell>
+                  <cell>at $ 5.</cell>
+                  <cell>$ 5000 .</cell>
+               </row>
+               <row>
+                  <cell rend="Figure_title">
+                     <figure>
+                        <figDesc>Company sign. A right-angled diamond with the letters BA inside, surrounded by groups of letters with distinctive serifs. At the top left the letters WBN, bottom right N and bottom left J</figDesc>
+                     </figure>
+                     <hi rend="superscript">17 8</hi>/9. </cell>
+                  <cell>1 bundle</cell>
+                  <cell>Blankets<lb/>50 pairs</cell>
+                  <cell>at $ 5.</cell>
+                  <cell>" 250 .</cell>
+               </row>
+               <row>
+                  <cell rend="Figure_title">
+                     <figure>
+                        <figDesc>Company sign. Groups of letters with distinctive serifs arranged around a stylised Admiralty anchor tilted at 45°. To the left of the shaft the letter B, to the right the letter C, under the left fluke the letter S, under the right fluke the letter G</figDesc>
+                     </figure>
+                     <hi rend="superscript">153</hi>/9 </cell>
+                  <cell>2 boxes</cell>
+                  <cell>Turk. Red. Cloak<lb/>100 pcs.</cell>
+                  <cell>at $ 5.</cell>
+                  <cell>at $ 5.</cell>
+                  <cell>
+                     <hi rend="underline">" 500 .</hi>
+                     <lb/>
+                     <hi rend="underline">$ 5750 .</hi>
+                  </cell>
+               </row>
+            </table>
+            <hi rend="underline">Expenditure</hi>
+            <table>
+               <row>
+                  <cell>Docking fees</cell>
+                  <cell>$</cell>
+                  <cell>3</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>Fees paid there.</cell>
+                  <cell>"</cell>
+                  <cell>"</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>Cargo per “Fanny”</cell>
+                  <cell>"</cell>
+                  <cell>7</cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell> […] Reception […]</cell>
+                  <cell>"</cell>
+                  <cell>11</cell>
+                  <cell>50</cell>
+               </row>
+               <row>
+                  <cell>Warehouse rent</cell>
+                  <cell>"</cell>
+                  <cell>19</cell>
+                  <cell>16</cell>
+               </row>
+               <row>
+                  <cell>Insurance 3 to 4 mths. ¾%</cell>
+                  <cell>"</cell>
+                  <cell>43</cell>
+                  <cell>12</cell>
+               </row>
+               <row>
+                  <cell>Commission 3%</cell>
+                  <cell>"</cell>
+                  <cell>
+                     <hi rend="underline">172</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">50 " 285 53</hi>
+                     <lb/>
+                     <hi rend="underline">Men $ 5493 47</hi>
+                  </cell>
+               </row>
+            </table> <choice><abbr>E&amp;OE</abbr><expan>Errors and omissions excepted</expan></choice><lb/>Hakodate 28<hi rend="superscript">th</hi> Oct. 1865<lb/>Wilkie + Gaertner.</p>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_5.tif" n="5"/>
+         <pb facs="1865_11_15_Kniffler_Nagasaki_von_Wilkie_Gaertner_Hakodate_6.tif" n="6"/>
+      </body>
+   </text>
+</TEI>

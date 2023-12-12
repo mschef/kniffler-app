@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Thorel &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01065">
+               <orgName type="firm">Thorel &amp; Co.</orgName>
+               <settlement>Yokohama</settlement>
+               <note>Handelshaus des Unternehmers Carl (auch: Charles) Thorel, das zwischen 1861 und 1874 in Yokohama bestand. Zwischenzeitlich firmierte das Unternehmen unter dem Namen Thorel, Ziegler
+                  &amp; Co. </note>
+               <bibl source="http://meiji-portraits.de/meiji_firms_t.html#20090527094016609_1_2_2_20_1">Meiji-Portraits</bibl>
+               <bibl>A. R. Weber, Kurt Meissner: Kontorrock und Konsulatsmütze, Tokyo 1981, S. 349.</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

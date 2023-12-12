@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Nagasaki am 23. April
+                    1862</title>
+            <title type="file">0029.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-30</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1862-04-23"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-07-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-12">diplomatische Transkription</change>
+         <change when="2020-10-21">Auszeichnung von Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <add resp="unclear" style="textOrientation: straight">
+                     <abbr>L. n. a.</abbr>
+                  </add>
+                  <lb/>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00509">HONG KONG</placeName>
+                     <lb/>C<lb/>
+                     <unclear reason="faded">JT</unclear>20<lb/>
+                     <date when="1862">62</date>
+                  </stamp>
+                  <lb/>
+                  <stamp type="postal" style="round">3 <placeName ref="K00515">MARSEILLE</placeName> 3<lb/>
+                     <date when="1862-05-02">2<lb/>MAY<lb/>62</date>
+                     <lb/>(12)</stamp>
+                  <lb/>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00515">MARSEILLE</placeName>
+                     <lb/>
+                     <date when="1862-04-27">27<lb/>AVRIL<lb/>62</date>
+                     <lb/>(12)</stamp>
+                  <lb/>
+                  <stamp type="commercial" style="oval">
+                     <orgName type="firm" ref="K01064">H. C. BOCK</orgName>
+                     <lb/>
+                     <placeName ref="K00522">Hamburg</placeName>
+                  </stamp>
+                  <stamp type="postal" style="rectangular">
+                     <choice>
+                        <abbr>P. P.</abbr>
+                        <expan>Per Procura</expan>
+                     </choice>
+                  </stamp>
+                  <lb/>
+                  <hi rend="latintype">p:<hi rend="underline">Overland Mail via <placeName ref="K00515">Marseille</placeName> &amp; <placeName ref="K00503">Shanghai</placeName>
+                     </hi>
+                  </hi>
+                  <stamp type="postal" style="round">TOUR-T<lb/>
+                     <date when="1862-04-26">26<lb/>AVRIL<lb/>62</date>
+                     <lb/>
+                     <placeName ref="K00562">VALENCIENNES</placeName>
+                  </stamp>
+                  <stamp type="postal" style="round">
+                     <placeName ref="K00522">HAMBURG</placeName> TH. &amp;
+                                T<unclear>X.</unclear>
+                     <lb/>
+                     <date when="1862-04-24">24<lb/>4</date>
+                     <gap quantity="2" unit="line"/>
+                  </stamp>
+                  <lb/>
+                  <hi rend="latintype">Mess<hi rend="superscript">rs.</hi>
+                     <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <lb/>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+                  <add resp="unclear" style="textOrientation: straight">
+                     <unclear>appt Erru</unclear>
+                     <lb/>AN: 1076</add>
+                  <lb/>
+               </seg>
+               <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+                  <hi rend="latintype">
+                     <hi rend="underline">1862<lb/>
+                        <placeName ref="K00522">Hamburg</placeName>
+                        <date when="1862-04-23">23 April</date>
+                        <lb/>
+                        <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                        <lb/>r/ <date when="1862-07-06">6/7 62</date>
+                        <lb/>b/ <date when="1862-12-22">22/12 62</date>
+                     </hi>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">
+                  <hi rend="underline">Per: Overland Mail<lb/>via <placeName ref="K00515">Marseilles</placeName> + <placeName ref="K00503">Shanghai</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00522">Hamburg</placeName> d. <date when="1862-04-23">23<hi rend="superscript">st</hi> April 1862</date>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">in <placeName ref="K00514">Nagasaki</placeName>,
+                                <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </seg>
+               <lb/> Wie ich Ihrem Herrn <hi rend="latintype">
+                  <persName ref="K00001">Kniffler</persName>
+               </hi> bei dessen Anwesenheit hier<lb/> in den mancherlei wegen Abschluß eines
+                    Geschäfts gehabten münd-<lb/> lichen Unterhaltungen mehrfach erklärt habe, ist
+                    es durchaus gegen<lb/> die in meinem Geschäft herrschenden Principien, <term type="logistic" ref="K01584">Consignationen</term> zu<lb/> machen, weßhalb
+                    ich den verschiedenen Aufforderungen des Herren <hi rend="latintype">
+                  <persName ref="K00007">Bollen-<lb/> hagen</persName>
+               </hi> bislang nicht Folge gegeben habe.-<lb/> Nach den verschiedenen Erfahrungen
+                    haben <hi rend="latintype">
+                  <term type="goods" ref="K01528">Tuchs</term>
+               </hi> in <hi rend="latintype">
+                  <placeName ref="K00502">Japan</placeName>
+               </hi> ganz gute<lb/> Aussichten, wie dies ja auch Ihr Herr <hi rend="latintype">
+                  <persName ref="K00001">Kniffler</persName>
+               </hi> mir versichert hat, und<lb/> deßhalb ist es mir um so weniger erklärlich,
+                    daß Sie sich zur Er-<lb/> theilung einer <hi rend="latintype">Ordre</hi> nicht
+                    haben entschließen können, da ich Ihnen in<lb/> dem Fall jedes mögliche
+                    Entgegenkommen zugesichert.<lb/> Um Ihnen indeß zu beweisen, daß ich selbst
+                    Vertrauen zu der Sache<lb/> habe, und um Ihnen eine Gelegenheit zur Sondirung
+                    des Terrains und<lb/> zu späterer <hi rend="latintype">Ordre</hi> zu geben, habe
+                    ich mich nach Absprache mit den<lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01008">Bollenhagen + Co.</orgName>
+               </hi> hier entschlossen, Ihnen einige Kleinigkeiten<lb/> zu <term type="logistic" ref="K01584">consigniren</term>. Die den genannten Freunden
+                    gemachten Aufgeben<lb/> sind viel zu spät gekommen, um die Waare rechtzeitig zum
+                    Versandt<lb/> bringen zu können, da sie wegen der Farben und Leisten
+                    besonders<lb/> gearbeitet werden müssen;- aus dem Grunde werde ich Ihnen
+                    inner-<lb/> halb der nächsten Monate um 50 Stp.
+                    schöne Waare mit breiten<lb/> Leisten, entsprechend sortirt senden können.- Da
+                    ich nun überzeugt<lb/> bin, daß auch andere Qualitäten verkauft sind, besonders wenn<lb/>
+               <add resp="writer" place="marginLeft" style="textOrientation: straight">
+                  <hi rend="underline">
+                     <term type="commercial" ref="K01574">factura</term>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+            <p> sie zu rechter Zeit dort sind, so habe ich für rath-<lb/> sam erachtet, den Ende
+                    dieses Monats von <hi rend="latintype">
+                  <placeName ref="K00516">Holland</placeName>
+               </hi> direct nach dort<lb/> gehenden „<hi rend="latintype">
+                  <name type="ship" ref="K01686">Copernicus</name>
+               </hi>” zu benutzen, um Ihnen eine kleine <hi rend="latintype">
+                  <term type="logistic" ref="K01584">Consig-<lb/> nation</term>
+               </hi> verschiedener Qualitäten zu machen, über welche Ihnen ein-<lb/> liegend
+                        <hi rend="latintype">
+                  <term type="commercial" ref="K01574">Facture</term>
+               </hi> behändige + <hi rend="latintype">
+                  <term type="logistic" ref="K01515">Conoissement</term>
+               </hi> mit nächster Post folgen<lb/> lasse. _<lb/> Der Ballen No 1 Enthält eine
+                    Kräftige <unclear reason="eccentric_ductus">schur</unclear> Waare, die <unclear reason="eccentric_ductus">soviel</unclear>
+               <lb/>
+               <unclear reason="eccentric_ductus">wie</unclear> thunlich nach Ihren Aufgaben
+                    für die breitleistigen <hi rend="latintype">
+                  <term type="goods" ref="K01528">Tuchs</term>
+               </hi> sortirt<lb/> habe.-<lb/> Die Ballen 2 + 3 enthalten nur <hi rend="latintype">Schwarz</hi> m. 2 verschiedenen Quali-<lb/> täten, die
+                    indessen auch in allen übrigen Farben zu liefern sind.-<lb/> Ich empfehle Ihnen
+                    nun mein Interesse beim Verkauf dieser kleinen<lb/> Sendung bestens
+                    wahrzunehmen, und mir baldmöglichst darüber zu<lb/> berichten; hoffentlich wird
+                    der rasche Verkauf Sie zur Ertheilung<lb/> fester Order veranlassen.-<lb/>
+                    Duplicat-Musterkarten lasse ich mit dieser <hi rend="latintype">Mail</hi> durch
+                    Vermitt-<lb/> lung der Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01006">Siemssen + Co</orgName> in <placeName ref="K00503">Shanghai</placeName>
+               </hi> an Sie abgehen,<lb/> damit Sie <unclear reason="eccentric_ductus">
+                  <hi rend="latintype">event</hi>
+               </unclear> nach Muster verkaufen + mir berichten können.-<lb/> Die notirten
+                    Preise sind die selbstkostenden was Sie beim Verkauf<lb/> berücksichtigen
+                    wollen.- Ich behalte mir weitere Mittheilungen vor<lb/> und empfehle mich Ihnen inzwischen<lb/>
+               <seg rend="right">achtungsvoll ergeben:<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_1.tif" n="envelope"/>
+         <p>⟨L. n. a.⟩<lb/> HONG KONG<lb/>C<lb/>JT[?]20<lb/>62<lb/> 3 MARSEILLE
+                3<lb/>2<lb/>MAY<lb/>62<lb/>(12)<lb/> MARSEILLE<lb/>27<lb/>APRIL<lb/>62<lb/>(12)<lb/>
+                H. C. BOCK<lb/>HamburgP. P.<lb/> per Overland Mail via Marseille &amp;
+                Shanghai<lb/>TOUR-T<lb/>26<lb/>AVRIL<lb/>62<lb/>VALENCIENNES<lb/>HAMBURG TH. &amp;
+                TX.<lb/>24<lb/>4[...]<lb/> Messrs. L. Kniffler + Co.<lb/> Nagasaki<lb/>
+                Japan<lb/>⟨appt Erru AN: 1076⟩<lb/>⟨1862<lb/>Hamburg 23rd April<lb/>H. C.
+                Bock<lb/>r[eceived] / 6/7 62<lb/>a[nswered] / 22/12 62⟩</p>
+         <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>Per: Overland Mail<lb/>via Marseilles + Shanghai<lb/>Hamburg the 23rd of April
+                1862<lb/>Messrs. L. Kniffler + Co<lb/>in Nagasaki, Japan<lb/>As I explained several
+                times to your Mr. Kniffler while he was<lb/> staying here and we were having a
+                number of conversations<lb/> about concluding a transaction, it is quite against the
+                principles<lb/> governing my trade to make consignations, which is why<lb/> I have
+                so far not complied with the suggestions made by<lb/> Mr. Bollenhagen.
+                –<lb/>According to various experiences, cloth has good <lb/> prospects in Japan, as
+                your Mr. Kniffler also assured me, and<lb/> therefore I am finding it even more
+                inexplicable that you have not<lb/> been able to decide to place an order, as I have
+                assured you that<lb/> in the case of an order I would oblige you in any way
+                possible. <lb/>In order to prove to you, however, that I myself have trust in<lb/>
+                the undertaking and to give you the chance to sound out the terrain<lb/> and to
+                place an order later, I have decided, after discussion with <lb/> Messrs.
+                Bollenhagen + Co. here, to consign a few small items<lb/> to you. The orders made
+                for the said friends came <lb/>much too late to be able to have the wares ready for
+                shipment<lb/> in time because they have to be wrought specially due to the<lb/>
+                colours and stripes; – for this reason I will be able to<lb/> send you around 50
+                pieces of pretty wares with wide stripes, <lb/> assorted accordingly, within the
+                next few months. – As I am<lb/> convinced that other qualities can be sold, too,
+                particularly if <lb/>⟨factura⟩</p>
+         <pb facs="1862_04_23_Kniffler_Nagasaki_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <p>they are there at the right time, I have considered it<lb/> advisable to use the
+                “Copernicus”, which will go directly there from <lb/> Holland at the end of this
+                month, to send you a small consignation<lb/> of different qualities, for which I am
+                supplying the invoice <lb/> enclosed here + will send the bill of lading with the
+                next<lb/> post. _<lb/>Bundle No. 1 contains strong virgin[?] wool wares, which I
+                sorted<lb/> as far[?] as[?] possible according to your instructions for wide-<lb/>
+                striped cloth. –<lb/>Bundles 2 + 3 contain only black of 2 different
+                qualities,<lb/>which, however, can also be delivered in all other colours. –<lb/>I
+                recommend you represent my interests to the best of your ability in<lb/> selling
+                this small shipment and to let me have your reports about it as soon<lb/> as
+                possible; hopefully the quick sale will prompt you to place a<lb/> definite order. –
+                <lb/>Duplicates of sample cards I will dispatch to you with this mail <lb/> through
+                intermediation of Messrs. Siemssen + Co in Shanghai,<lb/>so that you can possibly[?]
+                sell by the samples + report to me.–<lb/>The listed prices are the cost prices,
+                which you need to bear in <lb/>mind when selling. – I refrain from further notices
+                <lb/>and take my leave from you for the time being,<lb/> respectfully yours:<lb/> H.
+                C. Bock</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Oscar Heeren</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00054">
+               <persName>
+                  <forename>Oscar</forename>
+                  <surname>Heeren</surname>
+               </persName>
+               <birth>
+                  <date when="1840-01-27"/>
+                  <placeName>Hamburg</placeName>
+               </birth>
+               <death>
+                  <date when="1909-02-08"/>
+                  <placeName>Lima</placeName>
+               </death>
+               <note>Oscar Heeren war der Sohn einer Spanierin und eines Hamburger Händlers. 1866
+                  oder 1869 wurde er nach Vermittlung durch die Firma Bollenhagen &amp; Co.
+                  Angestellter bei L. Kniffler &amp; Co. in Yokohama, wechselte aber schon 1870 in
+                  die Selbständigkeit und ging nach Tokyo. Dort wirkte er u.a. als Vertreter für L.
+                  Kniffler &amp; Co. im Konzessionsgebiet im Stadtteil Tsukiji. 1874 verließ er
+                  Japan Richtung Peru. Dort beriet er japanische Geschäftsleute und wirkte als
+                  erster japanischer Konsul in Lima.</note>
+               <bibl>Katja Schmidtpott: L. Kniffler &amp; Co. / C. Illies &amp; Co. von den Anfängen
+                  bis zum ersten Weltkrieg. In: Bähr et al: Handel ist Wandel - 150 Jahre C. Illies
+                  &amp; Co., München 2009, S. 52-53</bibl>
+               <bibl>Kawasaki Seirō: Osukaru Heren to nihon, Tokyo 1986.</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">256241039</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

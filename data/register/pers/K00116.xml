@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag  Stewart</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00116">
+               <persName>
+                  <forename/>
+                  <surname>Stewart</surname>
+               </persName>
+               <birth>
+                  <date/>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note>Zwei Personen mit dem Nachnamen Stewart hielten sich zum Zeitpunkt der
+                  Erwähnung eines Herrn Stewarts im Brief vom 8.10.1865 in Japan auf. Gemeint sein
+                  könnten demnach: 1) Alexander Stewart, ab 1865 für die
+                  Seeversicherungsgesellschaft Lloyd in Yokohama tätig. 2) William J. E. Stewart,
+                  zwischen 1865 und 1866 Angestellter bei der Chartered Mercantile Bank in Yokohama. </note>
+               <bibl source="http://meiji-portraits.de/meiji_portraits_s.html">Meiji-Portraits</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

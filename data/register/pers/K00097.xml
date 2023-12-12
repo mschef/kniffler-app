@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Heinrich Spahn</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00097">
+               <persName>
+                  <forename>Heinrich</forename>
+                  <surname>Spahn</surname>
+               </persName>
+               <birth>
+                  <date/>
+                  <placeName>Schaffhausen</placeName>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note> Der Schweizer Kaufmann Heinrich Spahn kam zuerst 1865 nach Japan, nachdem er
+                  sich zuvor, wie aus den Kniffler-Briefen hervorgeht, seit spätestens 1862 in der
+                  britischen Kolonie Malaysia aufgehalten und als Kaufmann betätigt hatte. Offenbar
+                  beauftragte er 1865 die Londoner Firma von J. C. im Thurn mit einer Vermittlung an
+                  L. Kniffler &amp; Co., da er aber noch im selben Jahr an der Gründung von Schmidt,
+                  Spahn &amp; Co. beteiligt war, war er wahrscheinlich nie oder nur für kurze Zeit
+                  bei Kniffler angestellt. </note>
+               <bibl>Paul Akio Nakai: Das Verhältnis zwischen der Schweiz und Japan, Bern 1967, S.
+                  132.</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

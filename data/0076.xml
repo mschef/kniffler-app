@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scheibler &amp; Coenen in Lyon an L. Kniffler &amp; Co. in Yokohama am 26. Mai
+               1866</title>
+            <title type="file">0076.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC"/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben und eine Umschlagsseite, deren linke
+                     Hälfte nicht erhalten ist.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01149">Scheibler &amp; Coenen</orgName>
+               <settlement ref="K00519">Lyon</settlement>
+               <date when="1866-05-21"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-07-14"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-26" who="TP">Diplomatische Transkription</change>
+         <change when="2021-09-02" who="MS">Ergänzung der Transkription; Überarbeitung des
+            TEI-Headers; Auszeichnung von Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_05_26_Kniffler_Yokohama_von_Scheibler_Coenen_Lyon_1.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">Yokohama<lb/>Japon</hi>
+               </hi>
+            </seg>
+            <lb/>
+            <stamp style="round" type="postal">YOKOHAMA<lb/>14<lb/>JUIL.<lb/>66<lb/>BAU. F<unclear reason="illegible" cert="high">R</unclear>ANCAIS</stamp>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="latintype">1866<lb/> Scheibler + Coenen<lb/> Lyon Mai 21.<lb/> July
+                  14.<lb/> B<hi rend="superscript">an</hi>
+                  <hi rend="underline">27.</hi>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1866_05_26_Kniffler_Yokohama_von_Scheibler_Coenen_Lyon_2.tif" n="2"/>
+         <p> Messieurs <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00525">Yokohama</placeName>
+            </seg>
+            <lb/>
+            <seg rend="right">Lyon <date when="1866-05-26">26 Mai 1866</date>
+            </seg>
+            <lb/> Nous vous confirmons, Messieurs<lb/> notre lettre du <date when="1866-04-18">18
+               avril</date> avec deux ordres,<lb/> et accusons réception de <unclear>vos</unclear>
+            estimée<lb/> du <date when="1866-03-30">30 mars</date>.<lb/> Aujourd'hui nous avons
+            le<lb/> plaisir de remittre de nouveau<lb/> un petit ordre N<hi rend="superscript">o</hi> 4. que nous re-<lb/> commondons à vos bons soins.<lb/> Si les limites n'en
+            sont pas<lb/> très élevées, vous avez une compen-<lb/> sation dans le temps qu'on
+            vous<lb/> laisse parr l'éxécution.<lb/> Vous voyez, Messieurs, que nous<lb/> nous
+            donnons toute la peine pos-<lb/> sible pour vous <unclear>procurer</unclear> des
+            affaires,<lb/> et nous espérons que vous nous<lb/> en tiendrez compte soit en vous<lb/>
+            efforçant de contenter nos amis, sort<lb/> en nous adressant vos consignations.<lb/> Les
+            nouvelles sur la récolte<lb/> en Europe sont un peu moins<lb/> bonnes; c’est à dire que
+            le résultat<lb/> ne <unclear>parait</unclear> pas devoir être de beau-<lb/> coup
+            supérieur à celui de l’an der-<lb/> nier. Néanmoins avec l’incertitude<lb/> qui règne
+            dans les affaires politiques,<lb/> et la continuation de la <unclear/>
+            <pb facs="1866_05_26_Kniffler_Yokohama_von_Scheibler_Coenen_Lyon_3.tif" n="3"/>
+            Anglaise, on <unclear>paraît</unclear>
+            <unclear>vouloir</unclear> opérer<lb/> avec beaucoup de prudence, et on<lb/> espère
+            <unclear/> que ces événements<lb/> auront une heureuse influence sur<lb/> nos prix à
+            l’<unclear/> de la prochaine<lb/> campagne.<lb/> Les affaires dans le moment<lb/> sont
+            très calmes, et les prix faibles.<lb/> Agréez, Messieurs, nos salutations<lb/> distinguées.<lb/>
+            <seg rend="right">
+               <unclear/>
+               <orgName type="firm" ref="K01149">Scheibler + Coenen</orgName>
+               <lb/>
+               <unclear/>
+               <lb/>
+            </seg>
+            <add style="textOrientation: straight" resp="writer">L’<unclear/> remercie choisr
+                  <persName ref="K00042">W. Pardun</persName>
+               <lb/> de ses lignes parti entières, et il compte<lb/> sur lui pour recevoir de la
+               marchse<lb/> bien choisi et à bon marché !<lb/> L’ami qui nous a donné l’ordre<lb/>
+               No. 4 est assez difficile p. <unclear/> g.<lb/> Ne dépassez pas ses limites
+               s.v.p.<lb/> a moins qu’il ne s’agisse que de<lb/> fraction insignifiante.</add>
+            <pb facs="1866_05_26_Kniffler_Yokohama_von_Scheibler_Coenen_Lyon_4.tif" n="4"/>
+         </p>
+      </body>
+   </text>
+</TEI>

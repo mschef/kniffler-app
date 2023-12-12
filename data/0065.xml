@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benjamin Telge in Shanghai an L. Kniffler &amp; Co. in Nagasaki am 3. Januar
+                    1866</title>
+            <title type="file">0065.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-64</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Umschlagsseite mit
+                            Siegelausschnitt und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00100">Telge, Benjamin</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1866-01-03"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1866-01-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-09" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-07" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_1.tif" n="1"/>
+         <p>
+            <watermark>
+               <hi rend="print">
+                  <orgName type="firm" ref="K01121">B. TELGE</orgName>
+               </hi>
+            </watermark>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>, 3. Januar
+                            186<unclear>7</unclear>
+                  <!-- wahrscheinlich ein Fehler des Verfassers-->
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Ich erhielt Ihr Geehrtes vom<lb/>
+            <date when="1865-12-28">28 <hi rend="latintype">December </hi>
+            </date>
+            <unclear>mir</unclear>
+            <hi rend="latintype">parcel-ticket</hi>
+            <hi rend="superscript">u</hi>/ 2 <hi rend="latintype">
+               <unclear>Packg.</unclear>
+            </hi> be-<lb/> händigend, welche ich soeben richtig erhielt.<lb/> Ich glaube kaum,
+                daß mit den<lb/>
+            <term type="goods" ref="K01608">Gewehren</term> etwas anzufangen sein wird, ich<lb/>
+                will sie indessen dem <orgName type="gov" ref="K01119">Gouvernement</orgName>
+                anstellen<lb/> und kann dann ja Herrn <hi rend="latintype">
+               <persName ref="K00120">Sander</persName>
+            </hi> Näheres mit-<lb/> theilen. Leider ist es heute schon zu spät um<lb/> Ihnen
+                genaue Notirungen über verschie-<lb/> denen Proben <term type="goods" ref="K01816">Ginseng</term> aufgeben zu können,<lb/> solche erfolgen mit nächster
+                Gelegenheit.<lb/> Ihnen für Ihre freundlichen<lb/> Wünsche zum Jahreswechsel bestens
+                dankend<lb/> verbleibe ich dieselben bestens erwiedernd<lb/>
+            <seg rend="right">mit achtungsvoller Ergebenheit<lb/>
+               <hi rend="latintype">
+                  <persName ref="K00100">B. Telge</persName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_2.tif" n="2"/>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">p<hi rend="superscript">r </hi>„<name type="ship" ref="K01817">Pembroken</name>”</hi>
+                  <lb/> Messrs <orgName type="firm" ref="K01004">L. Kniffler+Co</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1866<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>
+                  <date when="1866-01-03">3 Jan</date>
+                  <lb/>
+                  <persName ref="K00100">B. Telge</persName>
+                  <lb/>R<hi rend="underline">n <date when="1866-01-06">6 Jan</date>
+                  </hi>
+                  <lb/>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_1.tif" n="1"/>
+         <p>B. TELGE<lb/> Shanghai, 3rd January 1867[?]<lb/>Messrs. L. Kniffler
+                +Co<lb/>Nagasaki<lb/>I received your esteemed letter from <lb/>28th December, which
+                handed me[?] a parcel-ticket and<lb/>2 packages[?], which I have just correctly
+                received. <lb/>I hardly think that anything can be done <lb/>with regard to the
+                rifles, but I will offer them to the <lb/>government and can then let Mr. Sander
+                know <lb/>more details. Unfortunately it is already too late today <lb/>to be able
+                to give you accurate rates for different<lb/>samples of ginseng, these will
+                follow<lb/>at the next opportunity. <lb/>With kindest thanks for your friendly
+                <lb/>wishes for the New Year <lb/>I return these best wishes wholeheartedly,
+                <lb/>Yours sincerely and respectfully <lb/>B. Telge</p>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_2.tif" n="2"/>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_03_Kniffler_Nagasaki_von_B_Telge_Shanghai_4.tif" n="envelope"/>
+         <p>per “Pembroken”<lb/>Messrs. L. Kniffler + Co<lb/>Nagasaki<lb/>⟨1866<lb/>Shanghai 3rd
+                Jan<lb/>B. Telge<lb/>R[eceived on] 6 Jan⟩</p>
+      </body>
+   </text>
+</TEI>

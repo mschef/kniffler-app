@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L. E. Amsinck &amp; Co. in New York an L. Kniffler &amp; Co. in Yokohama am
+                    5. Dezember 1868</title>
+            <title type="file">0084.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-84</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen (Papier in hellem Blauton). Zwei Seiten Anschreiben und
+                            eine Seite mit einer Eingangsnotiz. Auf der ersten Seite in der linken
+                            oberen Ecke, gedruckt, der Firmenname.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01034">L. E. Amsinck &amp; Co.</orgName>
+               <settlement ref="K00531">New York</settlement>
+               <date when="1868-12-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-03-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-03-24" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-16" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00531">New York</placeName>
+               <date when="1868-12-05">5 December 1868</date>
+            </seg>
+            <lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01034">L.E. AMSINCK &amp; Co</orgName>
+                  <placeName ref="K00531">NEW YORK</placeName>. P.O. Box 3,339</hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> Wir schrieben Ihnen zuletzt am<lb/>
+            <date when="1868-11-08">8<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>pto</abbr>
+                  <expan>passato</expan>
+               </choice>
+            </date> + befinden uns seitdem ohne die<lb/> Werthen Ihrigen. –<lb/> Unser <term type="goods" ref="K01571">Theemarkt</term> ist seitdem sehr<lb/> ruhig gewesen
+                und besonders für<hi rend="latintype">
+               <placeName ref="K00502">Japans</placeName>
+            </hi>
+            <lb/> zeigt sich nur geringe Frage da unsere<lb/> Händler im Ganzen nur wenig Lust
+                zeigen<lb/> etwas darin zu unternehmen. - Verkauft<lb/> sind seit den letzten 14
+                Tagen 5496 ½ <hi rend="latintype">
+               <term type="measure" ref="K01579">Chests</term>
+               <lb/> Japans</hi> und 4538 ½ <hi rend="latintype">chests</hi> grüner <term type="goods" ref="K01571">Thee</term>
+            <lb/> welche letzteren größtentheils von der neuen<lb/> Erndte sind und <hi rend="latintype">via <placeName ref="K00532">San Francisco</placeName>
+            </hi> hier<lb/> angebracht wurden. –<lb/> Unsere Preise für <hi rend="latintype">Japans +<lb/>
+               <term type="goods" ref="K01580">Oolongs</term>
+            </hi> sind nominell unverändert<lb/> doch würde es uns nicht wundern wenn<lb/>
+                solche etwas zurückgingen da wie gesagt<lb/> der Markt ganz ohne Leben ist. –<lb/>
+                Die einzigen Zufuhren welche wir<lb/> bekommen haben sind die per <hi rend="latintype">
+               <name type="ship" ref="K01581">Scrawfell</name>
+            </hi>
+            <lb/> gewesen, welches Schiff von dort hier ein-<lb/>
+            <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_2.tif" n="2"/>
+            <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_3.tif" n="3"/>
+                getroffen ist. –<lb/> Betreffend <choice>
+               <abbr>uns</abbr>
+               <expan>unseren</expan>
+            </choice> Vorrath erlauben<lb/> wir uns Sie auf <choice>
+               <abbr>einl.</abbr>
+               <expan>einliegendes</expan>
+            </choice>
+            <hi rend="latintype">Statement</hi> unserer<lb/> Makler zu verweisen. –<lb/>
+            <seg rend="center"> Course <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+               </hi> 60 <unclear reason="eccentric_ductus">W</unclear> 109. ¼<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+               </hi> a 35 ¾ 36<lb/>
+            </seg> Gold 135⅜ %<lb/>
+            <seg rend="right"> Hochachtungsvoll<lb/>
+            </seg>
+            <add style="transformRotateZ(-45deg)" resp="unclear">
+               <hi rend="underline">TeaReport</hi>
+            </add>
+            <seg rend="right">
+               <orgName type="firm" ref="K01034">LE Amsinck + Co.</orgName>
+            </seg>
+            <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_4.tif" n="4"/>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <date when="1868-12-05">1868<lb/>
+                     <placeName ref="K00531">New York</placeName> 5 Decbr</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01034">L.E. Amsinck + Co.</orgName>
+                  <lb/> empf. <date when="1868-03-10">10 März</date>
+                  <lb/> Btw <date when="1868-03-31">31 März</date>
+                  <lb/>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_1.tif" n="1"/>
+         <p> New York, 5th December 1868<lb/>L.E. AMSINCK &amp; Co <lb/>NEW YORK. <lb/>P.O. Box
+                3,339<lb/> Messrs. L. Kniffler + Co.<lb/>Yokohama<lb/>We last wrote to you on the
+                <lb/> 8th of last month + have since been without esteemed<lb/>letters from you.
+                –<lb/>Our tea market has been very quiet <lb/>since then and especially for Japanese
+                ones <lb/>there is only little demand because our traders<lb/>on the whole show
+                little enthusiasm for becoming <lb/>active in this. – Over the last 14
+                days<lb/>5,496 ½ chests of Japanese and <lb/>4,538 ½ chests of green tea have been
+                sold, <lb/>the latter of which are mostly of the new <lb/>harvest and have been
+                delivered here<lb/>via San Francisco. –<lb/>Our prices for Japanese +<lb/>oolongs
+                are unchanged nominally, <lb/>but we would not be surprised if <lb/>they dropped
+                somewhat because, as we <lb/>said, the market is entirely slack. –<lb/>The only
+                deliveries we have been getting <lb/>have been those by means of the
+                “Scrawfell”,<lb/>a ship which arrived here from there. –<lb/>
+         </p>
+         <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_2.tif" n="2"/>
+         <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_3.tif" n="3"/>
+         <p>Regarding the stock we are taking the liberty <lb/>of referring you to the enclosed
+                statement <lb/>by our brokers. –<lb/>Rates London 60 W[?] 109. ¼<lb/>Hamburg at 35 ¾
+                36<lb/> Gold 135⅜ %<lb/>Yours respectfully <lb/>⟨Tea Report⟩ LE Amsinck + Co. </p>
+         <pb facs="1868_12_05_Kniffler_Yokohama_von_Amsinck_Co_New_York_4.tif" n="4"/>
+         <p>⟨ 1868 <lb/>New York 5th Dec.<lb/>L.E. Amsinck + Co.<lb/>Rec[eived] 10th
+                March<lb/>Ans[wered] 31sh March⟩</p>
+      </body>
+   </text>
+</TEI>

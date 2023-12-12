@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bericht von John Batt &amp; Co., erstellt am 8. März 1872</title>
+            <title type="file">0138.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement ref="K00522">Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt, davon ein Teil ausgefüllter Vordruck.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+         <creation>
+            <date when="1872-03-08"/>
+         </creation>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-13" who="TP">diplomatische Transkription</change>
+         <change when="2021-06-09" who="MS">Anpassung des TEI-Headers</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_03_08_Bericht_von_John_Batt_Co_London_1.tif" n="1"/>
+         <p>
+            <seg rend="center">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01134">JOHN BATT &amp; CO.</orgName>, <placeName ref="K00523">London</placeName>.</hi> 8 March<hi rend="print">18</hi>72.</seg>
+            <lb/>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Stock</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">
+                        <term type="goods" ref="K01560">TSATLEE</term> ........... 1 and
+                                2</hi>
+                  </cell>
+                  <cell>1 78<lb/>2 193</cell>
+                  <cell>31/<lb/>30</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ............ 3 ＂ 3½</hi>
+                  </cell>
+                  <cell>3 3064</cell>
+                  <cell>27/ - 29/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ............ 4 ＂ 4½</hi>
+                  </cell>
+                  <cell>4 5870</cell>
+                  <cell>24/6 - 26/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ............5</hi>
+                  </cell>
+                  <cell>5 2009</cell>
+                  <cell>23/ 24/<lb/>25</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">
+                        <term type="goods" ref="K01561">RED PEACOCKS</term> ............</hi>
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">
+                        <term type="commercial" ref="K01844">HAENEEN</term> &amp; YUENFA
+                                ..1</hi>
+                  </cell>
+                  <cell>1 179</cell>
+                  <cell>25/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ＂ 2 and 3</hi>
+                  </cell>
+                  <cell>2 732</cell>
+                  <cell>24/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ＂ inferior</hi>
+                  </cell>
+                  <cell>3 410</cell>
+                  <cell>20/ 23/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">CHINUM &amp; TAIKAI .. 1, 2, 3</hi>
+                  </cell>
+                  <cell>
+                     <unclear>Taysaam</unclear>
+                     <lb/>1 141<lb/>2 330</cell>
+                  <cell>
+                     <lb/>27/<lb/>25/ 25/6 26/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">KAHING TAYSAAM ...... 1</hi>
+                  </cell>
+                  <cell>3 711</cell>
+                  <cell>22/ 22/4</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> 2, 3, and inferior</hi>
+                  </cell>
+                  <cell>4 1088</cell>
+                  <cell>19/ 21/.</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">LONGREEL TAYSAAM .......</hi>
+                  </cell>
+                  <cell> 344</cell>
+                  <cell>19/6 21/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">SKEINS<gap quantity="2" unit="char"/>.....................</hi>
+                  </cell>
+                  <cell> 194</cell>
+                  <cell>18/ 18/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">HA<gap quantity="3" unit="char"/>CHOWS</hi>..............</cell>
+                  <cell> 274</cell>
+                  <cell>23/ 24/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">RE-REELED HAENEEN ....1</hi>
+                  </cell>
+                  <cell rows="2">707</cell>
+                  <cell rows="2">27/ 28/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ＂ 2, 3</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ TSATLEES 1 &amp; 2</hi>
+                  </cell>
+                  <cell>
+                     <unclear>Scezchuan</unclear> 1271</cell>
+                  <cell>14/ 16/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">THROWNS ..................</hi>
+                  </cell>
+                  <cell>53</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">CANTONS.</hi>
+                  </cell>
+                  <cell>
+                     <unclear>Mandha</unclear> Scechuan</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">LOONKONG .................1</hi>
+                  </cell>
+                  <cell>Short Reel 4071</cell>
+                  <cell>17/ 23/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ 2 and inferior</hi>
+                  </cell>
+                  <cell>Ko<unclear>r</unclear>el 37</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">RE-REEled CUMCHUCK</hi>
+                  </cell>
+                  <cell>Sundries 511</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">CANTONS, loose ends ......</hi>
+                  </cell>
+                  <cell>Cochin 491</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">
+                        <term type="commercial" ref="K01845">JAPANS</term>.</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">MYBASH ..............1 best</hi>
+                  </cell>
+                  <cell rows="3">
+                     <lb/>6565</cell>
+                  <cell> 28/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ .............. 2 &amp; 3</hi>
+                  </cell>
+                  <cell>23/ 25/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ............inferior</hi>
+                  </cell>
+                  <cell>19/ 22/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">IDA.................... 1, 2, 3</hi>
+                  </cell>
+                  <cell>56</cell>
+                  <cell>22/6 28/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">SODAI.....................1</hi>
+                  </cell>
+                  <cell rows="2">
+                     <lb/>365</cell>
+                  <cell>24/6 25/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ .......... 2 and inferior</hi>
+                  </cell>
+                  <cell>21/6 23/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">OSHU.............. 1 16/24d.</hi>
+                  </cell>
+                  <cell rows="2">
+                     <lb/>495</cell>
+                  <cell>27/6 28/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ .......... 2 and inferior</hi>
+                  </cell>
+                  <cell>22/6 25/</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">KOSHU....................1</hi>
+                  </cell>
+                  <cell rows="2">
+                     <lb/>337</cell>
+                  <cell>24/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print"> ＂ ........ 2 and inferior</hi>
+                  </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">MASHTAHS</hi>
+                  </cell>
+                  <cell>Skeins 30<lb/> 41</cell>
+                  <cell>20/ 23/6<lb/>21/ 22/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">AECHEZAN</hi>
+                  </cell>
+                  <cell> 484</cell>
+                  <cell>20/ 24/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">HATZOGHEE</hi>
+                  </cell>
+                  <cell> 34</cell>
+                  <cell>21/ 21/6</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">TAMA</hi>
+                  </cell>
+                  <cell> 10</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell> Longreel</cell>
+                  <cell> 176</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell> Sundries</cell>
+                  <cell> 162</cell>
+                  <cell>-</cell>
+               </row>
+               <row>
+                  <cell> TOTAL</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>1 March</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">STOCK</hi>1 March 72</cell>
+                  <cell>
+                     <hi rend="print">SOLD.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="print">UNSOLD.</hi>
+                  </cell>
+                  <cell>
+                     <hi rend="print">DELIVERIES.</hi> in Febry</cell>
+               </row>
+               <row>
+                  <cell> Bengals</cell>
+                  <cell>2598</cell>
+                  <cell>4169</cell>
+                  <cell>392</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">CHINA......................</hi>
+                  </cell>
+                  <cell>9<unclear>22</unclear>9</cell>
+                  <cell>8254</cell>
+                  <cell>2345</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">CANTON..................</hi>
+                  </cell>
+                  <cell>4005</cell>
+                  <cell>3034</cell>
+                  <cell>845</cell>
+               </row>
+               <row>
+                  <cell>
+                     <hi rend="print">JAPANS....................</hi>
+                  </cell>
+                  <cell>5529</cell>
+                  <cell>3940</cell>
+                  <cell>702</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>21581</cell>
+                  <cell>19397</cell>
+                  <cell>4263</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">19397</hi>
+                  </cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>40978</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+         </p>
+         <pb facs="1872_03_08_Bericht_von_John_Batt_Co_London_2.tif" n="2"/>
+      </body>
+   </text>
+</TEI>

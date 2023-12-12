@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Emil Brunckow in Hongkong an Martin Hermann Gildemeister (L. Kniffler &amp;
+                    Co.) in Nagasaki am 5. Dezember 1860</title>
+            <title type="file">0007.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-8</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, eine Seite Anschreiben. Eine Umschlagsseite mit
+                            Siegelresten und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00012">Brunckow, Emil</persName>
+               <settlement ref="K00509">Hongkong</settlement>
+               <date when="1860-12-05"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <persName ref="K00011">Gildemeister, Martin Hermann</persName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1861-01-13"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE">german</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-10-09" who="TP">diplomatische Transkription</change>
+         <change when="2019-07-02" who="TP">Schemaanpassung und refvergabe</change>
+         <change when="2021-01-25" who="MS"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <persName ref="K00011">M. H. Gildemeister</persName>
+                     <lb/>
+                     <orgName type="firm" ref="K01004"> Mess L. Kniffler + Co</orgName>
+                     <lb/> Nagasaki</hi>
+               </seg>
+               <add style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight" resp="other">
+                  <hi rend="latintype"> 1860<lb/>
+                     <placeName ref="K00509">Hong Kong</placeName>
+                     <date when="1860-12-05">5 Debr.</date>
+                     <lb/>
+                     <persName ref="K00012">E Brunckow</persName>
+                     <lb/> R<hi rend="underline">
+                        <date when="1861-01-13">13 Jan.</date>
+                     </hi>
+                     <lb/>
+                     <date when="1861-01-17">17 " 61</date>
+                  </hi>
+               </add>
+            </p>
+         </div>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_2.tif" n="2"/>
+         <div>
+            <p>
+               <seg rend="right">
+                  <placeName ref="K00509">Hong Kong</placeName>
+                  <date when="1860-12-05">5 Decbr. 1860</date>
+               </seg>
+               <lb/>
+               <seg rend="center">Lieber Herr <persName ref="K00011">Gildemeister</persName>,</seg>
+            </p>
+            <p> Ich habe mich noch zum Empfang<lb/> Ihres lieben Briefes vom <date when="1860-10-12">12 Oct</date> zu bekennen,<lb/> für dessen Mittheilungen
+                    ich Ihnen danke, obgleich<lb/> ich daraus mit Bedauern ersehe, daß es mit<lb/>
+                    dem Verkauf des <hi rend="latintype">
+                  <term type="goods" ref="K01537">Chinin's</term>
+               </hi> sowie des <term type="goods">Grüns</term>
+               <lb/> noch immer nicht vorwärts will. <lb/> Der dortige
+                    Markt scheint jetzt<lb/> in der That für Importe aller Art nur einen<lb/> sehr
+                    schlechten Absatz zu bieten + müste ich<lb/> Ihnen anempfehlen, wenn anders Sie
+                    es<lb/> für richtig halten, von <choice>
+                  <abbr>u/</abbr>
+                  <expan cert="high">unseren</expan>
+               </choice>Waaren nach den<lb/> nördlichen größeren Märkten <placeName ref="K00502">Japans</placeName> z. B. <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00521">Kanagawa</placeName>
+               </hi> zu verschiffen.<lb/> Daß es mit dem Verkauf <choice>
+                  <abbr>u/</abbr>
+                  <expan cert="high">unserer</expan>
+               </choice>Waaren<lb/> so unerwartet langsam geht ist natürlich <del rend="overstrike">sehr</del>
+               <add place="above" style="textOrientation: straight" resp="writer">umso
+                        mehr</add>
+               <lb/> zu bedauern, als uns dadurch die Mittel zu<lb/> anderweitigen
+                    Unternehmungen entzogen werden<lb/> ein prompter Verkauf, selbst etwas unter
+                        <measure type="currency" quantity="2.50" unit="peso">
+                  <term type="commercial" ref="K01508">$</term> 2<hi rend="superscript">50</hi>
+               </measure>
+               <lb/> würde daher angenehm sein.<lb/> Vielleicht hätte ich noch in andern
+                    Ar-<lb/> tikeln mit Ihnen etwas gemacht, wenn Sie mir<lb/> solche genannt + auf
+                    einen <hi rend="underline">prompten</hi> + guten<lb/> Verkauf hätten Aussicht
+                    machen können. Hof-<lb/> fentlich bietet sich im nächsten Jahr Gelegen-<lb/>
+                    heit zu guten Geschäften zwischen uns. <lb/> Ihren angenehmen Nachrichten
+                    entgegen-<lb/> sehend<lb/>
+               <seg rend="center">Freundschaftlichst</seg>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <persName ref="K00012">E Brunckow</persName>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_3.tif" n="3"/>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_4.tif" n="4"/>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_1.tif" n="envelope"/>
+         <p>M. H. Gildemeister<lb/> Messrs L. Kniffler + Co<lb/> Nagasaki<lb/>⟨1860 <lb/>Hong
+                Kong 5thDec.<lb/>E Brunckow<lb/>R[eceived]13th Jan.<lb/>17 " 61</p>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_2.tif" n="2"/>
+         <p>Hong Kong5th Dec. 1860<lb/>Dear Mr. Gildemeister,<lb/> I am writing to let you know I
+                received <lb/>your nice letter from 12th Oct.,<lb/>for which notices I thank you
+                although <lb/>I am sorry to see that with regard to <lb/>selling the quinine as well
+                as the green tea <lb/> there is still no progress. <lb/>The market there right now
+                seems <lb/>indeed to offer only poor sales for imports <lb/>of all sorts + I would
+                have to<lb/>recommend to you, if you think it right,<lb/>to ship of our wares to the
+                <lb/>larger, northern markets of Japan <lb/>such as Kanagawa. <lb/>That the sale of
+                our wares is going <lb/>so unexpectedly slowly is of course <del rend="overstrike">very</del> even more <lb/>regrettable as we are thus deprived <lb/>of the means
+                for other ventures,<lb/>a prompt sale, even for a little under $250<lb/>would
+                therefore be welcome to us. <lb/>Maybe I could have dealt with you <lb/>regarding
+                other wares if you had told me of such + could have given me hope of<lb/>a prompt +
+                good sale. Hopefully the<lb/> opportunity will arise next year for<lb/>good business
+                between us. <lb/>Awaiting your pleasant news <lb/>Your sincere friend<lb/>E
+                Brunckow</p>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_3.tif" n="4"/>
+         <pb facs="1860_12_05_Gildemeister_Nagasaki_von_Brunckow_Hongkong_3.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

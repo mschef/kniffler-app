@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. H. Mumm &amp; Co. in Reims an Kniffler &amp; Co. in Yokohama am 28. Juni
+                    1871</title>
+            <title type="file">0130.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-123</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen.Eine Seite Anschreiben. Eine halbe Seite verloren (vom
+                            Umschlag), halbe Umschlagsseite mit 2 Stempeln, halbem Adressfeld sowie
+                            einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01069">G. H. Mumm &amp; Co.</orgName>
+               <settlement ref="K00552">Reims</settlement>
+               <date when="1871-06-28"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1871-08-25"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-11" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-24" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01069">G.H. MUMM &amp; C<hi rend="superscript">o</hi>
+                  </orgName>.<lb/>
+                  <placeName ref="K00552">REIMS</placeName>
+                  <lb/>
+                  <orgName type="firm" ref="K01070">PETER ARNOLD MUMM</orgName>
+                  <lb/>
+                  <placeName ref="K00553">FRANKFURT <hi rend="superscript">a</hi>/M.</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00552">Reims</placeName> den <date when="1871-06-28">28.
+                            Juni 1871</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o</hi>
+                  </orgName>in <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>!</hi>
+               </hi>
+            </seg>
+            <lb/> Ihre Geehrten vom <hi rend="latintype">
+               <date when="1870-12-31">31 Dezemb <choice>
+                     <abbr>v. J.</abbr>
+                     <expan> vorigen Jahres</expan>
+                  </choice>
+               </date>
+               <date when="1871-02-21">21 Febr</date> +<lb/>
+               <date when="1870-03-23">23 März</date>
+               <choice>
+                  <abbr>d. J</abbr>
+                  <expan> diesen Jahres</expan>
+               </choice>
+            </hi> sind uns <choice>
+               <abbr>s. Zt.</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> richtig geworden + ver-<lb/> nehmen wir gerne die Ankunft der Ihnen <hi rend="latintype">
+               <term type="logistic" ref="K01584">consignirten</term>
+            </hi>
+            <lb/> 25 Kisten <hi rend="latintype">
+               <term type="goods" ref="K01641">Champagner</term>
+            </hi>.<lb/> Was die vorgeschriebenen
+                Limite von <unclear>fl</unclear> 16 + 17½ anbe-<lb/> langt, die Sie etwas hoch
+                finden so erlauben wir Ihnen<lb/> darauf zu erwidern, daß wir diese Preise <choice>
+               <abbr>s. Zt</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> mit<lb/> Ihrem <hi rend="latintype">Chef</hi> Herrn <hi rend="latintype">
+               <persName ref="K00001">L. Kniffler</persName>
+            </hi> festgesetzt haben welcher<lb/> uns versicherte, daß untadelhafte <term type="goods" ref="K01642">Weine</term> zu den<lb/> besagten Preisen leicht
+                abzusetzen seien.<lb/> Die <hi rend="latintype">Qualität</hi> der Ihnen gesandten
+                    <term type="goods" ref="K01642">Weine</term> ist eine<lb/> ausgezeichnete + kann
+                nicht verfehlen dorten Beifall<lb/> zu finden, weßhalb wir hoffen, daß es Ihnen
+                leicht<lb/> möglich sein<add style="textOrientation: straight" resp="writer" place="above">wird</add> die kleine Parthie zu den bezeichneten<lb/> Preisen
+                abzusetzen, umsomehr, da große Zufuhren<lb/> auf den dortigen Markt während des
+                Krieges bei den<lb/> schwierigen Transportverhältnissen hierzuland nicht<lb/>
+                stattgefunden haben können.<lb/> Immerhin belieben Sie zu trachten die kleine
+                Sendung ehestens<lb/> +zu bestmöglichen Preisen abzusetzen +indem wir<lb/> Ihrer
+                Verkaufsrechnung <choice>
+               <abbr>s. Zt.</abbr>
+               <expan> seiner Zeit</expan>
+            </choice> entgegensehen, zeichnen<lb/> mit aller Achtung <hi rend="latintype">
+               <orgName type="firm" ref="K01069">G. H. Mumm&amp;Co.</orgName>
+            </hi>
+         </p>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_2.tif" n="2"/>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_3.tif" n="3"/>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="rectangular" type="postal">PD</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00525">Y<hi rend="underline">okohama</hi>
+                  </placeName>
+                  <lb/>
+                  <placeName ref="K00502">Japon</placeName>
+               </hi>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>24<lb/>
+                  <lb/>71<lb/>
+                  <placeName ref="K00502">JAPON</placeName>
+               </stamp>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1871<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00552">Reims</placeName>
+                  <date when="1871-06-28">28 Juni</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01069">G. H. Mumm&amp;Co</orgName>
+                  <lb/>
+                  <choice>
+                     <abbr>R</abbr>
+                     <expan>Received</expan>
+                  </choice>
+                  <hi rend="underline">
+                     <date when="1871-08-25">25 Aug</date>
+                  </hi>
+                  <lb/>
+                  <date when="1871-09-03">3 Sept.</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_1.tif" n="1"/>
+         <p>G.H. MUMM &amp; Co.<lb/>REIMS<lb/>PETER ARNOLD MUMM<lb/>FRANKFURT a/M.<lb/>Reims,
+                28th June 1871<lb/>Messrs. L. Kniffler + Co. in Yokohama!<lb/>We correctly received
+                your esteemed letters from 31st Dec. of last year, <lb/>21st Feb. + 23rd March of
+                this year at the time + and are<lb/>pleased to hear of the arrival of the 25 crates
+                of champage <lb/>consigned to you.<lb/>As far as the prescribed limits of fl[?] 16 +
+                17½ are concerned, <lb/>which you are finding a bit high, we are taking the liberty
+                of <lb/>replying to you that we agreed these prices at the time <lb/>with your boss
+                Mr. L. Kniffler, who assured us <lb/>that impeccable wines could always be sold
+                <lb/>easily at the mentioned prices. <lb/>The quality of the wines sent to you is
+                excellent <lb/>+ surely cannot fail but meet with approval there, <lb/>which is why
+                we hope that you will easily be able <lb/>to sell the small batch at the arranged
+                prices, <lb/>especially as large shipments to the <lb/>market there cannot have
+                taken place during <lb/>the war due to the difficult transport conditions <lb/>in
+                this country. <lb/>Anyhow kindly endeavour to sell the small <lb/>shipment as soon +
+                at the best price possible + looking <lb/>forward to your sales calculation at the
+                given time, we sign<lb/>Yours most respectfully <lb/>G. H. Mumm &amp; Co.</p>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_2.tif" n="2"/>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_3.tif" n="3"/>
+         <pb facs="1871_06_28_Kniffler_Yokohama_von_Mumm_Co_Reims_4.tif" n="envelope"/>
+         <p>PD<lb/>Yokohama<lb/>Japan<lb/>YOKOHAMA<lb/>24<lb/>
+            <lb/>71<lb/>JAPAN<lb/>⟨1871 <lb/>Reims 28th June<lb/>G. H.
+                Mumm&amp;Co<lb/>R[eceived] 25th Aug.<lb/>3rd Sep.⟩</p>
+      </body>
+   </text>
+</TEI>

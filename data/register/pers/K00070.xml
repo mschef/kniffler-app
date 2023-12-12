@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Johannes Lydius Catharinus Pompe van Meerdervoort</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00070">
+               <persName>
+                  <forename>Johannes Lydius Catharinus</forename>
+                  <surname>Pompe van Meerdervoort</surname>
+               </persName>
+               <birth>
+                  <date when="1829"/>
+                  <placeName>Brügge</placeName>
+               </birth>
+               <death>
+                  <date when="1908"/>
+                  <placeName>Brüssel</placeName>
+               </death>
+               <note>Niederländischer Arzt, der 1857 als Chirurg der niederländischen Marine nach
+                  Dejima kam und sich dort bis 1863 aufhielt. Pompe wird eine große Bedeutung für
+                  die Lehre westlicher Medizin in Japan zugeschrieben, da er nicht nur praktizierte,
+                  sondern auch eine eigene Medizinschule in Nagasaki eröffnete, an der viele später
+                  berühmt gewordene japanische Mediziner studierten. Nach seinem Aufenthalt
+                  publizierte er seine Aufzeichnungen, die er während seiner Zeit in Japan
+                  angefertigt hatte.</note>
+               <bibl>Elizabeth P. Wittermans &amp; John Z. Bowers: Doctor on Desima, Tokyo
+                  1970.</bibl>
+               <idno type="GND" xml:base="https://d-nb.info/gnd/">1012329836</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

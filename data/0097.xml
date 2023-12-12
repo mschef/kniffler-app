@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aug. Seydoux, Sieber &amp; Cie. in Paris an L. Kniffler &amp; Co in Nagasaki am
+               13. Mai 1869</title>
+            <title type="file">0097.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion
+               Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-94</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Blatt. Erste Seite mit gedrucktem Briefkops und Anschreiben. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01151">Aug. Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1869-05-13"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L.
+               Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-14" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-03" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+            Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_05_13_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_1.tif" n="1"/>
+         <p> par paquetbot français de <placeName ref="K00515">Marseille</placeName> du 15 court.<lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01151">AUG. SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+                  <lb/> 23, Rue de Paradies-Poissonnière.<lb/> SUCCESSEURS DE<lb/>
+                  <orgName type="firm" ref="K01152">PATURLE-LUPIN,SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <seg rend="right">Paris, le 13 Mai 1869</seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">à <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Nous vous remettons sous ce<lb/> pli xopie de notre dernière du <date when="1869-04-15">14 Avril</date>, que<lb/> nous vous confirmons, et depuis
+            laquelle<lb/> nous n'avons pas en le plaisir de vous lire.<lb/> Suivant le bulletin ci
+            inclus vous<lb/> recevrez par le paquebot, parteur de la présente<lb/> un paquet à votre
+            adresse, contenant les<lb/> échantillons de qualité aux quatre caisses<lb/>
+            <figure>
+               <figDesc>Zeichen Kniffler Nagasaki Großbuchstaben mit ausgeprägten Serifen. In der Zeile SSunter der Zeile KN</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 13 à 16, parties du Hâvre le <date when="1869-04-21">21 Avril</date> d<hi rend="superscript">r</hi>,<lb/> à bord de la
+            „Clarisse” pour <placeName ref="K00525">Yokohama</placeName>.<lb/> Nous y avons joint un
+            autre petit<lb/> paquet, que nous vous prions de vouloir<lb/> bien réexpédier par
+            première occasion à<lb/> votre maison de <placeName ref="K00545">Hiogo</placeName>.<lb/>
+            Votre Sieur <persName ref="K00001">Kniffler</persName> vient de nous<lb/> demander pour vous:<lb/>
+            <table>
+               <row>
+                  <cell>100 p<hi rend="superscript">ces</hi>
+                  </cell>
+                  <cell>Merimos</cell>
+                  <cell>4/4 bleu de ciel, et</cell>
+               </row>
+               <row>
+                  <cell>50 ＂</cell>
+                  <cell>d<hi rend="superscript">o</hi>
+                  </cell>
+                  <cell>4/4 blanc, sur les quelles</cell>
+               </row>
+            </table>
+            <lb/> nous pourrons vous envoyer une partie<lb/> (environ 50 p<hi rend="superscript">ces</hi> en tout), frès promptement<lb/> par la mulle. Les autres ne pas
+               <unclear>aions prestas</unclear> que fin Juine-<lb/> En attendant nous vous
+            saluons,<lb/> Messieurs, de coeur.<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01151">Aug. <hi rend="underline">SeydouxSieber</hi>
+               </orgName>
+            </seg>
+         </p>
+         <pb facs="1869_05_13_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_2.tif" n="2"/>
+      </body>
+   </text>
+</TEI>

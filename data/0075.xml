@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fritze &amp; Gerdes in Bremen an L. Kniffler &amp; Co. in Yokohama am 25. Mai
+                    1866</title>
+            <title type="file">0075.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-76</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eigentlich schreiben vom 4. Juni 1866 dem das Schreiben
+                            vom 25. Mai als Kopie vorangestellt ist. Insgesamt zwei Seiten
+                            Anschreiben und eine Umschlagsseite mit mehreren Stempeln und einer
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01024">Fritze &amp; Gerdes</orgName>
+               <settlement ref="K00524">Bremen</settlement>
+               <date when="1866-05-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1866-08-02"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-25" who="TP">Diplomatische Transkription</change>
+         <change when="2020-08-28" who="MS">Auszeichnung von Personen, Orten,
+                Organisationen</change>
+         <change when="2021-01-26" who="MS">Ergänzende Auszeichnung</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_1.tif" n="1"/>
+         <p>
+            <hi rend="print">
+               <orgName type="firm" ref="K01024">Fritze &amp; Gerdes</orgName>
+               <lb/>
+               <placeName ref="K00524">Bremen</placeName>
+            </hi>
+            <hi rend="latintype">
+               <term type="logistic" ref="K01538">dupl.</term>
+            </hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00524">Bremen</placeName> d. <date when="1855-05-25">25 Mai
+                            1866</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir bestätigen vorstehende Zeilen und haben<lb/> Ihnen heute Mitzutheilen daß
+                Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01025">Birtner &amp; Co.</orgName>
+            </hi> fernere <measure type="volume" quantity="10" unit="boxes" commodity="cloth">10</measure>
+            <hi rend="latintype">Kisten <lb/>
+               <term type="goods" ref="K01528">Tuche</term>
+            </hi> nach <hi rend="latintype">
+               <placeName ref="K00523">London</placeName>
+            </hi> zur Verladung an Sie gesandt haben, welche wahr-<lb/> scheinlich<choice>
+               <abbr>pr.</abbr>
+               <expan>per</expan>
+            </choice>
+            <hi rend="latintype">Heroes of Alma</hi> an Sie nach <hi rend="latintype">
+               <placeName ref="K00521">Kanagawa</placeName>
+            </hi> befördert werden<lb/> und worauf wir zurückkommen sobald <term type="logistic" ref="K01515">Conossemente</term> ein<del rend="overstrike">t</del>gegangen<lb/>
+                sind und wir den gewöhnlichen Vorschuß lt. Auftrag d. H. <orgName type="firm" ref="K01008">
+               <hi rend="latintype">Bollenhagen<lb/> &amp; Co. </hi>
+            </orgName> für Sie geleistet haben.-<lb/> Die deutschen Verhältnisse sind noch
+                verwickelt und<lb/> wir fürchten sehr, es wird zum Kriege kommen, dabei nimmt die Geld<lb/>
+            <hi rend="latintype">Calamität</hi> zu, so daß wir vor der Hand keine neuen
+                Verpflichtungen<lb/> eingehen mögen.-<lb/>
+            <seg rend="right">Mit Hochachtung zeichnen</seg>
+            <lb/>
+            <lb/>
+            <seg rend="right">den <date when="1866-06-09">9. Juni 1866</date>
+            </seg>
+            <lb/> Gegen vorstehende Zeilen vom <date when="1866-05-25">25. Mai</date> empfingen
+                wir Ihr<lb/> Geehrtes vom <date when="1866-03-31">31 März</date> und werden mit
+                Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01025">Birtner &amp; Co.</orgName>
+            </hi>
+            <lb/> Ihre vorjährige <hi rend="latintype">Conto Courant</hi>
+            <unclear reason="illegible"> ordnen</unclear> sobald Sie uns den letzten<lb/> darin
+                erwähnten Vorschuß remittirt haben-<lb/> Einliegend finden Sie das <term type="logistic" ref="K01515">Conossement</term> über die erwähnten 10 Kisten und
+                1 Probepacket Tuche der genannten <unclear reason="illegible" cert="high">Freunde</unclear> von<lb/>
+            <hi rend="latintype">London + <name type="ship" ref="K01554">Heroes of Alma</name>
+            </hi> verladen wogegen dieselben als<lb/> Vorschuß, vom <date when="1866-05-30">30
+                    Mai</date> 6 <choice>
+               <abbr>Mt</abbr>
+               <expan>Monate</expan>
+            </choice> dato, <unclear cert="low">Gold rt</unclear> 4900„-<lb/> auf uns für Ihre
+                werthe Rechnung entnahmen<lb/> die wir zuzüglich unserer Commission <hi rend="underline">3%„ 147„</hi>
+            <lb/>
+            <add style="transformRotateZ(-45deg)" resp="other">
+               <unclear reason="faded">sfll bal</unclear>
+            </add>
+            <seg rend="right">
+               <choice>
+                  <abbr>pr</abbr>
+                  <expan>per</expan>
+               </choice>
+               <date when="1866-11-30">30 Novbr</date>
+               <hi rend="underline"> quit <unclear>Gold rt</unclear> 5047„</hi>
+            </seg>
+            <lb/> zu Ihren Lasten buchen.- </p>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_2.tif" n="2"/>
+         <p> Die Versicherung haben wir hier, jede Kiste <unclear>Gold rt</unclear> 725„<lb/>
+                taxirt, mit <unclear>Gold rt</unclear> 7250„ besorgt was Sie <choice>
+               <abbr>gefl</abbr>
+               <expan>gefällig</expan>
+            </choice> bemerken wollen.<lb/> Wir empfehlen uns Ihnen achtungsvoll<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01024">Fritze + Gerdes</orgName>
+            </seg>
+            <lb/>
+            <placeName ref="K00523">London</placeName> 611-600<lb/>
+            <placeName ref="K00522">Hambg</placeName> 137¾ - 134½ </p>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_3.tif" n="3"/>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>
+                  <date when="1866-08-02">2<lb/>AOUT<lb/>66</date>
+                  <lb/>BAU FRANCAIS</stamp>
+               <lb/>
+            </seg>
+            <seg rend="center">
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01024">FRITZE &amp; GERDES</orgName>
+                  <lb/>
+                  <placeName ref="K00524">BREMEN</placeName>
+               </stamp>
+               <hi rend="latintype">
+                  <hi rend="underline">via <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+               </hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00524">BREMEN</placeName> TH. &amp;
+                        TX.<lb/>9/6<lb/>1N-6N</stamp>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               </hi>
+               <stamp style="round" type="postal">TOUR-T<lb/>11<lb/>JUIN<lb/>
+                  <gap quantity="7" unit="char" agent="illegible"/>
+               </stamp>
+               <lb/>
+               <stamp style="rectangular" type="postal">P.P.</stamp>
+               <lb/>
+               <add style="textOrientation: straight" resp="other">21</add>
+               <lb/> frei <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other">
+               <hi rend="latintype">1866<lb/>
+                  <orgName type="firm" ref="K01024">Fritze + Gerdes</orgName>
+                  <lb/>
+                  <placeName ref="K00524">Bremen</placeName>
+                  <date when="1866-06-09">9 Juni</date>
+                  <lb/>E <date when="1866-08-02">2 August</date>
+                  <lb/>BA 11 A</hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_1.tif" n="1"/>
+         <p>Fritze &amp; Gerdes<lb/>Bremen dupl.<lb/> Bremen, 25<hi rend="superscript">th</hi>
+                May 1866<lb/>Messrs. L. Kniffler &amp; Co.<lb/>Yokohama<lb/>We confirm the above
+                lines and want to inform you today <lb/>that Messrs. Birtner &amp; Co have sent a
+                further 10 boxes of cloth <lb/>to London for transshipping to you, which will
+                probaby be<lb/>transported to you on the “Heroes of Alma” to Kanagawa and<lb/>which
+                we will refer back to once the bills of lading have been<lb/>received and once we
+                have paid the usual advance for you <lb/>as per the instructions of Mr. Bollenhagen
+                &amp; Co.-<lb/>The situation in Germany is still complicated and we very<lb/>much
+                fear that the will be a war soon, meanwhile the financial<lb/>calamity is increasing
+                so much that we do not want to take on <lb/>any new obligations for the time being.
+                -<lb/>Yours sincerely <lb/> 9th June 1866<lb/>Following our above lines from 25th
+                May we received your <lb/>esteemed letter from 31st March and will put your current
+                account <lb/>from last year in order[?] with Messrs. Birtner &amp; Co. as soon as
+                you have <lb/>remitted to us the last advance mentioned in this -<lb/>Please find
+                enclosed the bill of lading for the mentioned 10 boxes and <lb/> 1 sample packet of
+                cloth from the mentioned friends [?] in<lb/>London + loaded on the “Heroes of Alma”,
+                for which these same friends, <lb/>took as an advance, dated at 6 months from 30th
+                May, gold rh f[?] 4900„-<lb/>from us at your esteemed account,<lb/>which we booked
+                at your expense, with the addition of our <lb/> commission 3%„ 147„<lb/>⟨sfll
+                bal⟩per 30 Nov. invoiced as gold rh[?] 5047„.- </p>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_2.tif" n="2"/>
+         <p>We have arranged the insurance here with gold rh[?] 7250„,<lb/>each box of Gold[?]
+                valued at 725„, which we ask you to kindly take note of.<lb/>We take our respectful
+                leave,<lb/> Yours sincerely <lb/>Fritze + Gerdes<lb/> London 611-600<lb/> Hambg 137¾
+                - 134½ </p>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_3.tif" n="3"/>
+         <pb facs="1866_05_25_Kniffler_Yokohama_von_Fritze_Gerdes_Bremen_4.tif" n="envelope"/>
+         <p>YOKOHAMA<lb/>2<lb/>AOUT<lb/>66<lb/>BAU FRANCAIS<lb/>FRITZE &amp; GERDES<lb/>BREMEN
+                via Maseille BREMEN TH. &amp; TX.<lb/>9/6<lb/>1N-6N<lb/>Messrs. L. Kniffler &amp;
+                Co.TOUR-T<lb/>11<lb/>JUIN<lb/>[...]<lb/> P.P.<lb/>⟨21⟩<lb/>free
+                Yokohama<lb/>Japan<lb/>⟨1866<lb/>Fritze + Gerdes<lb/>Bremen 9th June<lb/>R[eceived]
+                2nd August<lb/>A[nswered] 11th A⟩</p>
+      </body>
+   </text>
+</TEI>

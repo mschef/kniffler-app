@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Yokohama am 28. Mai
+                    1872</title>
+            <title type="file">0140.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-133</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit vier
+                            Stempeln und einem dreieckigen Siegelausschnitt, sowie einer
+                            Empfangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1872-05-28"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1872-07-13"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-17" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-28" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="envelope"/>
+         <p>
+            <seg rend="left">
+               <hi rend="latintype">via <placeName ref="K00543">Triest</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>. <date when="1872-05-28">28. Mai
+                            1872</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">Kniffler &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> Im Wechsel mit meinem Ergebenen vom<lb/>
+            <date when="1872-05-13">13. <hi rend="latintype">Mai</hi>
+            </date> empfing ich Ihre <choice>
+               <abbr>w/</abbr>
+               <expan> werte</expan>
+            </choice> Zuschrift vom <date when="1872-04-08">8. <choice>
+                  <abbr>v. M.</abbr>
+                  <expan> vorigen Monats</expan>
+               </choice>
+            </date>
+            <lb/> woraus ich mir bemerkte, daß Sie 16 Kisten<lb/>
+            <hi rend="latintype">
+               <choice>
+                  <abbr>dk</abbr>
+                  <expan> dark</expan>
+               </choice>blue Cloth</hi> nach <hi rend="latintype">
+               <placeName ref="K00545">Hiogo</placeName>
+            </hi> zum Verkauf verschiffen<lb/> und erwarte, daß sich Ihre Hoffnungen ver-<lb/>
+                wirtklichen und endlich diese, sowie die Ihnen von<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00514">Nagasaki</placeName>
+            </hi> aus zugegangenen <choice>
+               <abbr>
+                  <hi rend="latintype">assort.</hi>
+               </abbr>
+               <expan> assortierten</expan>
+            </choice>
+            <unclear> Tuche</unclear> lohnend<lb/> realisirt werden.<lb/> Unter der Falte
+                behändige ich Ihnen<lb/> Duplicat- <term type="logistic" ref="K01515">Conossammente</term> nebst <term type="logistic" ref="K01538">Preßcopieen</term> der<lb/>
+            <term type="commercial" ref="K01574">Facturen</term> über<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen für L. Kniffler Co. Zweiteiliges Symbol für Firma Kniffler, oben Lettern mit starken Serifen L. K. &amp; C darunter mit einem Strich getrennt und Ebenfalls mit starken Serifen B</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>306_309. 311. 306/311.</cell>
+                  <cell rows="2">⅌ <hi rend="latintype">
+                        <choice>
+                           <abbr>Str.</abbr>
+                           <expan> Steamer</expan>
+                        </choice>
+                        <name type="ship" ref="K01647">Atalanta</name>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>-do-</cell>
+                  <cell>310. 312</cell>
+               </row>
+               <row>
+                  <cell>-do-</cell>
+                  <cell>313- 315 313/315</cell>
+                  <cell>⅌ <hi rend="latintype">
+                        <orgName type="firm" ref="K01060">
+                           <choice>
+                              <abbr>P. O.</abbr>
+                              <expan> Peninsular &amp; Oriental </expan>
+                           </choice>
+                        </orgName>
+                        <choice>
+                           <abbr>Str.</abbr>
+                           <expan> Steamer</expan>
+                        </choice> (<name type="ship" ref="K01648">Indus</name>)</hi>
+                  </cell>
+               </row>
+            </table>
+            <lb/> zur <choice>
+               <abbr>gef.</abbr>
+               <expan> gefälligen</expan>
+            </choice> eventuellen Bedienung.-<lb/> Für Spesen auf Musterpackete von <lb/>
+            <hi rend="latintype">
+               <placeName ref="K00508">Singapore</placeName>-<placeName ref="K00525">Yokohama</placeName> &amp; <placeName ref="K00545">Hiogo</placeName>
+            </hi> wollen Sie<lb/>
+            <lb/>
+            <seg rend="right"> verte</seg>
+            <lb/>
+            <seg rend="left">
+               <add place="marginBottom" resp="other" style="textOrientation: straight">
+                  <hi rend="latintype">3 B/L<lb/>2 <term type="logistic" ref="K01538">Preßcop.</term>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p> mich mit<lb/>
+            <table>
+               <row>
+                  <cell> B<hi rend="superscript">
+                        <term type="currency" ref="K01830">co</term>
+                     </hi>₻ <measure type="currency" unit="mbanco" quantity="6.5">6. 5. _
+                                .</measure>
+                  </cell>
+                  <cell>für Ihre <choice>
+                        <abbr>w</abbr>
+                        <expan> werte</expan>
+                     </choice> Rechnung</cell>
+               </row>
+               <row>
+                  <cell>Rrs. 3. 5. _ .</cell>
+                  <cell>＂ Rechnung Ihres Hauses in <placeName ref="K00545">Hiogo</placeName>
+                  </cell>
+               </row>
+            </table>
+            <lb/>
+            <add style="transformRotateZ(-45deg)" resp="other" place="marginLeft">
+               <term type="commercial" ref="K01536">m 433</term>
+            </add>⅌ <hi rend="underline">
+               <date when="1872-05-14">14 <hi rend="latintype">Mai <choice>
+                        <abbr>a. c.</abbr>
+                        <expan> anni currentis</expan>
+                     </choice>
+                  </hi>
+               </date>
+            </hi> gut erkennen lassen.__<lb/>
+            <seg rend="right">Mit freundschaftl Gruß:<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">HONG KONG</placeName>
+                  <lb/>C<lb/>
+                  <date when="1872-07-06">JY 6<lb/>72</date>
+               </stamp>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00543">TRIEST</placeName>
+                  <lb/>
+                  <unclear reason="illegible">81<lb/>
+                     <lb/>72</unclear>
+               </stamp>
+               <lb/>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">via <placeName ref="K00543">Triest</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/>F.<lb/>
+                  <date when="1872-05-28">28 5<lb/>72</date>
+                  <lb/>N 5-6N 1.</stamp>
+               <lb/>
+               <hi rend="latintype">Messrs.<lb/>
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>A<lb/>
+                  <date when="1872-07-13">JY 13<lb/>72</date>
+               </stamp>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1872<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1872-05-28">28 May</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01064"> H. C. Bock</orgName>
+                  <lb/> R<hi rend="underline">
+                     <date when="1872-07-13">13 July</date>
+                  </hi>
+                  <lb/>
+                  <date when="1872-08-06">Aug 6</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="envelope"/>
+         <p>via Trieste Hamburg. 28th May 1872<lb/>Messrs. Kniffler &amp; Co.<lb/>Yokohama
+                Japan<lb/>In exchange for my respectful letter from 13th May <lb/>I received your
+                esteemed letter from the 8th of last month, <lb/>from which I noted that you are
+                shipping 16 crates<lb/>of dark blue cloth to Hiogo for selling <lb/>and I expect
+                that your hopes will come true<lb/>and that finally these, as well as the assorted
+                cloth <lb/>sent to you from Nagasaki, will be sold at a <lb/>profit. <lb/>Enclosed I
+                supply you with duplicate<lb/>bills of lading as well as press copies of the
+                invoices <lb/>for <lb/>
+            <table rend="rules">
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Sign of L. Kniffler Co. Two-part symbol for the Kniffler company, at the top letters L. K. &amp; C with strong serifs, below that, divided by a line, the letter B, also with strong serifs</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>306_309. 311. 306/311.</cell>
+                  <cell>⅌ <expan>Steamer</expan> Atalanta</cell>
+               </row>
+               <row>
+                  <cell>-as above-</cell>
+                  <cell>310. 312</cell>
+               </row>
+               <row>
+                  <cell>-as above-</cell>
+                  <cell>313- 315 313/315</cell>
+                  <cell> ⅌ Peninsular &amp; Oriental steamer (Indus)</cell>
+               </row>
+            </table>
+            <lb/>for your kind possible servicing.-<lb/>For the expenses for sample packets from
+                <lb/>Singapore-Yokohama &amp; Hiogo will you please <lb/>
+            <lb/> p.t.o.<lb/>⟨3 B/L2 <lb/>Press copy⟩</p>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <p>credit me with <lb/>
+            <table rend="rules">
+               <row>
+                  <cell>Bco₻ 6. 5. _ .</cell>
+                  <cell>for your esteemed account</cell>
+               </row>
+               <row>
+                  <cell>Rrs. 3. 5. _ .</cell>
+                  <cell>＂ for account of your house in Hiogo</cell>
+               </row>
+            </table>
+            <lb/>⟨m 433⟩⅌ 14th May of the current year.__<lb/>Yours cordially<lb/>H. C. Bock</p>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_05_28_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>HONG KONG<lb/>C<lb/>JY 6<lb/>72 TRIEST<lb/>8172[?]<lb/>
+            <lb/>via Triest<lb/>HAMBURG<lb/>F.<lb/>28 5<lb/>72<lb/>N 5-6N 1.<lb/>Messrs.<lb/>L.
+                Kniffler &amp; Co.<lb/>Yokohama<lb/>Japan<lb/>YOKOHAMA<lb/>A<lb/>JY
+                13<lb/>72<lb/>⟨1872 <lb/>Hamburg 28th May<lb/>H. C. Bock<lb/>R[eceived] 13th
+                July<lb/>Aug 6th⟩</p>
+      </body>
+   </text>
+</TEI>

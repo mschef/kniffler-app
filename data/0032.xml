@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rosenburger &amp; Cie. in Marseille an L. Kniffler &amp; Co. in Yokohama am 11. Juli 1862</title>
+            <title type="file">0032.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Online-Edition der Knifflerbriefe</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-33</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, auf der ersten und der dritten Seite in der oberen linken Ecke gedruckt das Firmenlogo. Eine Umschlagsseite mit Firmenstempel und
+                            Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01143">Rosenburger &amp; Cie.</orgName>
+               <settlement ref="K00515">Marseille</settlement>
+               <date when="1862-07-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1862-09-07"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-03-20" who="TP">diplomatische Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1862_07_11_Kniffler_Yokohama_von_Rosenburger_Cie_Marseille_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00515">Marseille</placeName> le <date when="1862-07-11">11 Juillet 1862</date>
+            </seg>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01143">ROSENBURGER &amp; C<hi rend="superscript">ie</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00515">Marseille</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">ie</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="underline">
+                  <placeName ref="K00525">Yokuhama</placeName>.</hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="writer" place="marginLeft">La malle est attendue demain.</add>
+            <lb/> Nous vous confirmons <choice>
+               <abbr>n/</abbr>
+               <expan> notre</expan>
+            </choice> lettre du 26 ecoulé<lb/> ainsi que nous vous l’avons di<del rend="overwritten">h</del>t nous nous<lb/> sommes empressés de débarquer vos 25 B/<lb/> soie et de les réexpédier
+                aux destinataires<lb/> respectifs, moins les 2 B/ N<hi rend="superscript">os</hi> 148 + 152<lb/> qui se sont trouvées avariées<lb/> Ignorant quelle n’ait la C<hi rend="superscript">ie</hi> qui vous<lb/> soigne vos assurances nous avons immédiate<lb/> ment prévenu<lb/> Me<hi rend="superscript">rs </hi>
+            <orgName type="firm" ref="K01144">Cesare Bozzotti &amp; C<hi rend="superscript">ie</hi>
+            </orgName> pour la by 152.<lb/> Me. <orgName type="firm" ref="K01145">Albert Reller + Co.</orgName> „ 148.<lb/> pour leur demander leurs instructions<lb/> et nous indiquer le nom de la
+                Cie qui<lb/> avait assuré leur marchandise. Ces Messieurs<lb/> viennent de nous répondre qu’ils l’ignor <unclear>leur</unclear>
+            <lb/> complètement &amp; que vous avez avis de<lb/> la leur indiquer ainsi qu’a nous.<lb/> Cependant ils supposent tant bien que<lb/> l’autre que si ce n’est pas lamaison<lb/>
+            <orgName type="firm" ref="K01008">Bollenhagen</orgName>
+            <del rend="overwritten">de</del> &amp; C de <placeName ref="K00522">Hambourg</placeName> avec<lb/> Laquelle vous êtes liés d’intérêt qui en a été<lb/>
+         </p>
+         <pb facs="1862_07_11_Kniffler_Yokohama_von_Rosenburger_Cie_Marseille_2.tif" n="2"/>
+         <p> chargée malgré cela elle doit connaître les<lb/> assureurs que croient-ils sont de la place<lb/> à <placeName ref="K00522">Hambourg</placeName>. Ils ont immédiatement écrit<lb/> à ces
+                Messieurs qui doivent nous passer<lb/> leurs instructions; de notre côté nous leur<lb/> avons donné des détails <unclear>circonstanciès</unclear> en les<lb/> avisant que nous étions
+                chargés de votre part<lb/> de la réexpedition des 25 B/ en question.<lb/> Nous attendons encore leur réponse.<lb/> En attendant vous pouvez être<lb/> tranquilles, nous venons de faire
+                constater l’avarce<lb/> par un expert que nous avons fait nommes<lb/> par notre tribunal de commerce et vos<lb/> intérêts sont parfaitement sauvegardés.<lb/> Nos amis Me<hi rend="superscript">rs </hi>
+            <orgName type="firm" ref="K01146">Trey &amp; Steiner</orgName> de<lb/>
+            <placeName ref="K00594">Zurich</placeName> qui nous ont remis C<hi rend="superscript">nt</hi> pour leur<lb/> d’ébarquer &amp; expédier.<lb/>
+            <table>
+               <row>
+                  <cell rows="2">
+                     <figure>
+                        <figDesc>Firmenzeichen Louis Kniffler &amp; Co. Kobe. In den Räumen eines Andreaskreuz vier Buchstaben mit ausgeprägten Serife links K, oben L, rechts C und unten K</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>72/6<lb/> 106/10</cell>
+                  <cell rows="2">10 B/</cell>
+               </row>
+            </table> ont aussi en une <unclear>ley</unclear> atarieé N<hi rend="superscript">o</hi> 75 &amp; se<lb/> trouvent dans le même cas que les 2<lb/> maisons citées plus haut c.a.d.
+                ignorent<lb/> par quelle C<hi rend="superscript">ie</hi> vous avait fait assurer<lb/> leurs soies. Nous avons également soigne<lb/>
+            <unclear>leuccessauer pour</unclear> cette by et prévenu Me<hi rend="superscript">rs</hi>
+            <lb/>
+            <orgName type="firm" ref="K01008">Bollenhagen + C<hi rend="superscript">ie.</hi>
+            </orgName>
+            <lb/> Les affaires sont mulles sur ny place<lb/> + nos prix en l’aisse pensonsible mais constante<lb/>
+            <add resp="writer" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginLeft">pour le surplus nous vous référons a notre circulaire du 1/3 ct Agréez,
+                    Messieurs, nos amicales salutations. <orgName type="firm" ref="K01143">Rosenburger + C<hi rend="superscript">ie</hi>
+               </orgName>
+            </add>
+         </p>
+         <pb facs="1862_07_11_Kniffler_Yokohama_von_Rosenburger_Cie_Marseille_3.tif" n="3"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01143">ROSENBURGER &amp; C<hi rend="superscript">ie</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00515">Marseille</placeName>
+               </hi>
+            </seg>
+            <lb/>
+         </p>
+         <pb facs="1862_07_11_Kniffler_Yokohama_von_Rosenburger_Cie_Marseille_4.tif" n="4"/>
+         <p>
+            <seg rend="center">
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01143">ROSENBURGER &amp; C<hi rend="superscript">ie</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00515">MARSEILLE</placeName>
+               </stamp> Messieurs <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+               <hi rend="underline">
+                  <placeName ref="K00525">Yokuhama</placeName>
+               </hi> (<placeName ref="K00502">Japon</placeName>)</seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight" resp="other"> 1862<lb/>
+               <placeName ref="K00515">Marseille</placeName>
+               <date when="1862-07-11">11 Juli</date>
+               <lb/>
+               <orgName type="firm" ref="K01143">Rosenburger + Co.</orgName>
+               <lb/> R <hi rend="underline">
+                  <date when="1862-09-07">7 Sept.</date>
+               </hi>
+               <lb/>
+               <date when="1862-09-16">16 <choice>
+                     <abbr>id:</abbr>
+                     <expan>idem</expan>
+                  </choice>
+               </date>
+            </add>
+         </p>
+      </body>
+   </text>
+</TEI>

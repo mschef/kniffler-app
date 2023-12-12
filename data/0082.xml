@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zirkular von Siemssen &amp; Co. in Hongkong an L. Kniffler &amp; Co. Yokohama
+                    vom 12. Mai 1868</title>
+            <title type="file">0082</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-80</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Rundschreiben. Ein Doppelbogen, eine Seite Anschreiben, auf der ersten Seite eine
+                     Eingangsnotiz. Anschreiben besteht zum größten Teil aus vorgedrucktem Text.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01006">Siemssen &amp; Co.</orgName>
+               <settlement ref="K00509">Hongkong</settlement>
+               <date when="1868-05-12"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="en-EN"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-07-31" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-07" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1868_05_12_Kniffler_Yokohama_von_Siemssen_Co_Hongkong_1.tif" n="1"/>
+         <p>
+            <add style="textOrientation: straight" resp="other" place="marginRight">
+               <hi rend="latintype">1868<lb/>
+                  <placeName ref="K00509">Hongkong</placeName>
+                  <date when="1868-05-12">12 May</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01006">Siemssen &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/> circular</hi>
+            </add>
+         </p>
+         <pb facs="1868_05_12_Kniffler_Yokohama_von_Siemssen_Co_Hongkong_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00509">HONGKONG</placeName>, <date when="1868-05-25">12th May,
+                        1868</date>.</seg>
+            <seg rend="center">
+               <add style="textOrientation: straight" resp="writer">Mess<hi rend="superscript">r</hi>
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co</orgName>
+                  <lb/>
+                  <placeName ref="K00525">Yokohama</placeName>
+               </add>
+            </seg>
+            <lb/>
+            <hi rend="print">Dear Sir</hi>
+            <add style="textOrientation: straight" resp="writer" place="inline">s</add>
+            <lb/>
+            <hi rend="print">
+               <seg rend="right">We beg to inform you that Mr. <persName ref="K00121">FERDINAND
+                            NISSEN</persName> and Mr. <persName ref="K00122">HEINRICH
+                            HOPPIUS</persName> have been<lb/>
+               </seg> authorized to sign our firm here and in <placeName ref="K00504">China</placeName> from this date.<lb/> Asking your Reference to signatures
+                    at foot,<lb/>
+            </hi>
+            <seg rend="center">
+               <hi rend="print">We remain,<lb/> Dear Sir</hi>
+               <add style="textOrientation: straight" resp="writer">s</add>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="print">Your most obedient Servants,</hi>
+               <lb/>
+               <add style="textOrientation: straight" resp="writer">
+                  <orgName type="firm" ref="K01006">Siemssen+Co.</orgName>
+               </add>
+            </seg>
+            <lb/>
+            <hi rend="print">Signature of Mr. <persName ref="K00121">FERD: NISSEN</persName>
+            </hi>
+            <add style="textOrientation: straight" resp="writer">
+               <orgName type="firm" ref="K01006">Siemssen+Co</orgName>
+            </add>
+            <lb/>
+            <hi rend="print">
+               <choice>
+                  <abbr>＂ ＂</abbr>
+                  <expan>Signature of</expan>
+               </choice>Mr. <persName ref="K00122">H. HOPPIUS</persName>
+            </hi>
+            <add style="textOrientation: straight" resp="writer">
+               <orgName type="firm" ref="K01006">Siemssen+Co</orgName>
+            </add>
+         </p>
+         <pb facs="1868_05_12_Kniffler_Yokohama_von_Siemssen_Co_Hongkong_3.tif" n="3"/>
+         <pb facs="1868_05_12_Kniffler_Yokohama_von_Siemssen_Co_Hongkong_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

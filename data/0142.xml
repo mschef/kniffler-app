@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pandel &amp; Stiehaus Nachfolger in Batavia an L. Kniffler &amp; Co in
+                    Yokohama am 3. Juli 1872</title>
+            <title type="file">0142.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-134</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, Umschlagsseite mit vier
+                            Stempeln, einer Eingangsnotiz und Siegelrest.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus Nachfolger</orgName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1872-07-03"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1872-07-24"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-17" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-28" who="MS">Auszeichnung von Personen, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01001">PANDEL &amp; STIEHAUS Nachfolger</orgName>
+                  <lb/>
+                  <placeName ref="K00501">BATAVIA</placeName>
+                  <lb/>
+                  <placeName ref="K00506">JAVA</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00501">Batavia</placeName>, <date when="1872-07-03">3July
+                            1872</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler + Co</orgName>
+               <placeName ref="K00525">Yokohama</placeName>
+               <lb/>
+               <seg rend="right">(<placeName ref="K00502">Japan</placeName>)</seg>
+            </hi>
+            <lb/> Uns seit geraumer Zeit ohne Ihre <choice>
+               <abbr>
+                  <hi rend="superscript">w</hi>/</abbr>
+               <expan> werten</expan>
+            </choice> Nachrichten<lb/> befindend, erlauben wir uns heute Ihnen<lb/> einliegend
+                zu behändigen einen kleineren<lb/> Wechsel<lb/>
+            <add style="transformRotateZ(-45deg)" resp="other" place="marginLeft">
+               <hi rend="underline">
+                  <term type="commercial" ref="K01536">M440</term>
+               </hi>
+            </add> von <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" unit="mex$">17.50</measure> auf die <hi rend="latintype">Agenten</hi> der <orgName type="firm" ref="K01060">P &amp; O Co</orgName>
+            <add style="textOrientation: straight" resp="writer" place="below">Dort</add>
+            <lb/> welchen wir Sie bitten <choice>
+               <abbr>gefl.</abbr>
+               <expan> gefällig</expan>
+            </choice>
+            <unclear> indossiren</unclear> zu wollen;<lb/> nach Eingang wird es uns angenehm
+                sein das<lb/>
+            <unclear>Netto-<term type="commercial" ref="K01529">Provenu</term>
+            </unclear> unter Abzug Ihrer Kosten in<lb/> einem Appoint auf <hi rend="latintype">
+               <placeName ref="K00508">Singapore</placeName>
+            </hi> zu empfangen,<lb/> und sagen wir Ihnen zum Voraus besten<lb/> Dank für die
+                Ihnen zu verursachende Mühe<lb/> In unsrem Markt ist es für Importe<lb/> ruhiger wie
+                wir es sonst um diese Jahreszeit<lb/> gewohnt sind. Vorräthe von <hi rend="latintype">Stapels</hi> sind wenn<lb/> auch nicht übermäßig, doch ziemlich
+                reichlich und<lb/> fällt es daher schwer, Erlöse dafür höher zu<lb/> bringen<lb/>
+                Wir verkauften dieser Tage<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <gap quantity="3" unit="char"/>
+                  </cell>
+                  <cell>
+                     <hi rend="latintype">grey <term type="goods" ref="K01569">Shirtings</term>
+                     </hi> zu </cell>
+                  <cell>
+                     <unclear reason="illegible">
+                        <hi rend="latintype">fl</hi> 6 ¾ %</unclear>
+                  </cell>
+               </row>
+               <row>
+                  <cell>d<hi rend="superscript">o</hi>
+                     <unclear>¼</unclear>
+                  </cell>
+                  <cell>＂ ＂ </cell>
+                  <cell>7 ¾ ＂</cell>
+               </row>
+            </table>
+            <lb/> und ist trotz der hohen Preise für diese Artikel<lb/> in <hi rend="latintype">
+               <placeName ref="K00511">Europa</placeName>
+            </hi>
+            <unclear> Vorderhand</unclear> keine Aussicht vor-<lb/> handen, um höher zu kommen.<lb/>
+            <gap unit="char" quantity="5"/>
+            <unclear>
+               <hi rend="latintype"> Turkish</hi>
+            </unclear> findet einzig <del rend="overstrike">Nach</del> einige Be-<lb/> achtung
+                doch gehen Gebote dafür nicht über<lb/>
+            <term type="measure" ref="K01512">fl</term>
+            <measure type="currency" unit="gulden" quantity="390">390.-</measure> ⅌ <hi rend="latintype">
+               <term type="logistic" ref="K01572">Ballen</term>
+            </hi> sowohl die erste wie die<lb/> zweite Stand sind noch gut mit dem <hi rend="latintype">Artikel</hi>
+            <lb/> versehen, und ist ein Höhergehen der Preise<lb/>
+         </p>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_2.tif" n="2"/>
+         <p> noch nicht so rasch zu erwarten.<lb/> Von <term type="goods" ref="K01649">Wollenewaaren</term> bleibt <hi rend="latintype">Black &amp; Blue<lb/>
+               <term type="goods" ref="K01650">Minon Cloth</term>
+            </hi> von guter Qualität lebhaft begehrt<lb/> und je nach Qualität zu <term type="measure" ref="K01512">fl</term>
+            <measure type="currency" unit="gulden" quantity="1.50">1.50.</measure>- <measure type="currency" unit="gulden" quantity="1.99">1.99</measure> pr <term type="measure" ref="K01651">Elle</term>
+            <lb/> verkäuflich. auch <hi rend="latintype">Marsurdt Imitation Lastings</hi>
+            <lb/> sind wieder in besserer Nachfrage.<lb/>
+            <hi rend="underline">
+               <term type="goods" ref="K01502">Reis</term>.</hi> Die diesjährige Ernte ist im
+                Allgemeinen<lb/> nicht sehr günstig aus gefallen, in Folge der im<lb/> Frühjahre
+                stattgehabten Ueberschwemmungen, und<lb/> unterliegt es keinem Zweifel, daß
+                Preise<lb/> dafür höher gehen werden.<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <unclear>1<hi rend="superscript">a</hi>
+                     </unclear>
+                     <hi rend="latintype">
+                        <placeName ref="K00501">Batavia</placeName>
+                     </hi>
+                     <term type="goods" ref="K01502">Reis</term> holt</cell>
+                  <cell>
+                     <term type="measure" ref="K01512">fl</term>
+                     <measure type="currency" unit="gulden" quantity="200">200</measure> -
+                                <measure type="currency" unit="gulden" quantity="210">210</measure>._ p <name type="ship" ref="K01832">Kogang</name>
+                  </cell>
+               </row>
+               <row>
+                  <cell>2<hi rend="superscript">a</hi>
+                     <choice>
+                        <abbr>＂</abbr>
+                        <expan>Batavia Reis holt fl</expan>
+                     </choice>
+                  </cell>
+                  <cell>
+                     <measure type="currency" unit="gulden" quantity="190">180</measure>-<measure type="currency" unit="gulden" quantity="195">195</measure>
+                     <choice>
+                        <abbr>＂</abbr>
+                        <expan>p Kogang</expan>
+                     </choice>
+                  </cell>
+               </row>
+            </table>
+            <lb/> Course Flau<lb/>6 Mn <unclear>d</unclear>
+            <hi rend="latintype">Holland Bank</hi> 103½<unclear>%</unclear>
+            <lb/> 6 ＂ S<hi rend="latintype"> England <choice>
+                  <abbr>＂</abbr>
+                  <expan>Bank</expan>
+               </choice>
+            </hi> 11.50<lb/> Wir grüßen Sie<lb/>
+            <seg rend="right">mit aller Achtung ergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01001">Pandel+Stiehaus<lb/> Nachf</orgName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_3.tif" n="3"/>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">pr Steamer</hi>
+               </hi>
+               <lb/>
+               <stamp style="polygonal" type="postal">POSS NEER<lb/>
+                  <date when="1872-07-04">4<lb/>JUIL.<lb/>72</date>
+                  <lb/>
+                  <unclear reason="faded"/>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">Messrs</hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00501">BATAVIA</placeName>
+                  <lb/>
+                  <date when="1872-07-03">3<lb/>7<lb/>
+                     <unclear reason="faded">18</unclear>72</date>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler+ C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01001">PANDEL &amp; STIEHAUS</orgName>
+                  <lb/>
+                  <placeName ref="K00501">BATAVIA</placeName>.<lb/>NACHFOLGER</stamp>
+               <hi rend="latintype">
+                  <placeName ref="K00525">Yokohama</placeName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00502">Japan</placeName>
+                  </hi>
+               </hi>
+               <lb/>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>
+                  <date when="1872-07-24">24<lb/>J<unclear reason="faded">UIL.</unclear>
+                     <lb/>72</date>
+                  <lb/>B<hi rend="superscript">AU</hi> FRANCAIS</stamp>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">1872<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00501">Batavia</placeName>
+                  <date when="1872-07-03">3 July</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01001">Pandel + Stiehaus <hi rend="underline">Nachf</hi>
+                  </orgName>
+                  <lb/> R<hi rend="underline">24 <unclear reason="eccentric_ductus">et.</unclear>
+                  </hi>
+                  <lb/>
+                  <date when="1872-08-06">Aug 6</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_1.tif" n="1"/>
+         <p>PANDEL &amp; STIEHAUS Successors<lb/>BATAVIA<lb/>JAVA Batavia, 3rd July
+                1872<lb/>Messrs. L. Kniffler + Co Yokohama<lb/>(Japan)<lb/>Having been without
+                esteemed news from you for <lb/>some time, we are today taking the liberty of
+                supplying <lb/>you with the enclosed small bill of exchange <lb/>⟨M440⟩ over $ 17.50
+                on the agents of the P &amp; O Co there<lb/>which we ask you kindly to
+                endorse;<lb/>after receipt we will be pleased to receive <lb/>the net provenues[?],
+                having deducted your <lb/>costs, in a bill of exchange in Singapore,<lb/>and we give
+                you our warmest thanks in advance<lb/>for the effort this is going to cause you.
+                <lb/>In our market it is calmer with regard to imports <lb/>than we are used to at
+                this time of year. <lb/>Stocks of staple goods are, though not <lb/>excessive,
+                rather ample and therefore <lb/> it is difficult to increase the proceeds <lb/>for
+                these. <lb/>We sold in recent days <lb/>
+         </p>
+         <table rend="rules">
+            <row>
+               <cell>
+                        [...]
+                    </cell>
+               <cell>grey shirtings at </cell>
+               <cell>fl 6 ¾ %[?]</cell>
+            </row>
+            <row>
+               <cell>d<hi rend="superscript">o</hi>¼[?]</cell>
+               <cell>＂ ＂ </cell>
+               <cell>7 ¾ ＂</cell>
+            </row>
+         </table>
+         <p>
+            <lb/>and despite the high prices for these articles <lb/>in Europe there is for the
+                time being no prospect<lb/>of achieving more. <lb/>[...] Turkish[?] alone is getting
+                    <del rend="overstrike">after</del> some<lb/> attention, but offers for it do not
+                exceed <lb/> fl 390.- ⅌ bale, both the producers and the <lb/>wholesalers are still
+                well stocked with this <lb/>article, and therefore a rise in the prices is</p>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_2.tif" n="2"/>
+         <p>not to be expected yet any time soon. <lb/>In terms of woolen wares, black &amp;
+                blue<lb/>minon cloth of a good quality remains in lively demand<lb/>and can be sold,
+                depending on quality, for fl 1.50.- 1.99 <lb/>per cubit. Marsurdt imitation
+                lastings<lb/>are also in higher demand again. <lb/>Rice. The harvest this year has
+                overall <lb/>not been very good, which is a result of the <lb/>floods that happened
+                in spring, and<lb/>there cannot be any doubt that the prices <lb/>for this are going
+                to rise.<lb/>
+            <table>
+               <row>
+                  <cell> 1a[?] Batavia rice fetches</cell>
+                  <cell> fl 200 - 210._ p Kogang</cell>
+               </row>
+               <row>
+                  <cell>2<hi rend="superscript">a</hi> ＂</cell>
+                  <cell>180-195 ＂ </cell>
+               </row>
+            </table>
+            <lb/>Rates are subdued 6 month d[?]Holland Bank 103½%[?] 6 ＂ S England ＂
+                11.50<lb/>We send your our cordial greetings, <lb/>Yours
+                respectfully<lb/>Pandel+Stiehaus<lb/>Successors</p>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_3.tif" n="3"/>
+         <pb facs="1872_07_03_Kniffler_Yokohama_von_Pandel_Stiehaus_Nachfolger_Batavia_4.tif" n="envelope"/>
+         <p>per steamer<lb/>POSS NEER<lb/>4<lb/>JUIL.<lb/>72<lb/>[?]<lb/>Messrs
+                BATAVIA<lb/>3<lb/>7<lb/>18[?]72<lb/>L. Kniffler+ Co.<lb/>PANDEL &amp;
+                STIEHAUS<lb/>BATAVIA.<lb/>SUCCESSORS Yokohama<lb/>Japan<lb/>
+                YOKOHAMA<lb/>24<lb/>JUIL.[?]<lb/>72<lb/>BAU FRANCAIS<lb/>⟨1872<lb/>Batavia 3rd
+                July<lb/>Pandel + Stiehaus Successors<lb/>R[eceived] 24th et.<lb/>Aug 6th ⟩</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="documentation.html"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Impressum</title>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>
+                    <name>Online-Edition der Knifflerbriefe</name> Fakultät für
+                    Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                        <addrLine>Ruhr-Universität Bochum</addrLine>
+                        <addrLine>Universitätsstraße 150</addrLine>
+                        <addrLine>44801 Bochum</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="MS" when="2021-06-17">Mockup angelegt</change>
+            <change who="MS" when="2021-09-21">Inhaltliche Überarbeitung</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="de">
+                <div>
+                    <head>Herausgeber</head>
+                    <p>
+                        <address>
+                            <addrLine>Ruhr-Universität Bochum</addrLine>
+                            <addrLine>Fakultät für Ostasienwissenschaften</addrLine>
+                            <addrLine>Sektion Geschichte Japans</addrLine>
+                            <addrLine>Universitätsstraße 150</addrLine>
+                            <addrLine>44801 Bochum</addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div>
+                    <head>Kooperationspartner</head>
+                    <p>
+                        <address>
+                            <addrLine>Universitätsbibliothek Bochum</addrLine>
+                            <addrLine>Digital Humanities Center</addrLine>
+                            <addrLine>Universitätsstraße 150</addrLine>
+                            <addrLine>44801 Bochum</addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div>
+                    <head>Projektverantwortlichkeit</head>
+                    <p>Die Edition "Die internationale Geschäftskorrespondenz von L. Kniffler &amp;
+                        Co., 1859 – 1876" wird herausgegeben von der <ref target="https://www.ruhr-uni-bochum.de/gj/index.html">Sektion Geschichte
+                            Japans</ref> der Fakultät für Ostasienwissenschaften an der
+                        Ruhr-Universität Bochum.</p>
+                </div>
+                <div>
+                    <head>Projektleitung</head>
+                    <p>Prof. Dr. Katja Schmidtpott<lb/>email: Katja.Schmidtpott[at]rub.de</p>
+                </div>
+                <div>
+                    <head>Projektbearbeitung</head>
+                    <p>Dr. MATSUI Hiroe 柗居宏枝, Geschichte (2018)<lb/>Tristan Pfeil, M.A., Geschichte
+                        (2018-2020)<lb/>Marc Scheffer, M.A., Ostasienwissenschaften/Japanologie
+                        (2020-2021)</p>
+                </div>
+                <div>
+                    <head>Übersetzungen</head>
+                    <p>Maren Barton</p>
+                </div>
+                <div>
+                    <head>Partner</head>
+                    <p>Die Originalquellen stellte der Rechtsnachfolger von L. Kniffler &amp; Co.,
+                        das Hamburger Handelsunternehmen <ref target="https://www.illies.de/">C.
+                            Illies &amp; Co.</ref>, mit freundlicher Genehmigung zur Verfügung.
+                        Wissenschaftlich und organisatorisch begleitet wurde das Projekt durch die
+                            <ref target="https://unternehmensgeschichte.de/">Gesellschaft für
+                            Unternehmensgeschichte</ref>. Das <ref target="https://www.mkw.nrw/">Ministerium für Kultur und Wissenschaft</ref> des Landes NRW leistete
+                        von August 2018 bis März 2021 die finanzielle Förderung, ergänzt durch die
+                            <ref target="https://www.ruhr-uni-bochum.de/oaw/de/index.shtml">Fakultät
+                            für Ostasienwissenschaften an der Ruhr-Universität Bochum</ref> und
+                        deren Sektion Geschichte Japans. An der Ruhr-Universität Bochum wurde das
+                        Projekt technisch unterstützt durch das <ref target="https://dh.ub.rub.de/de/">Digital Humanities Center</ref> der
+                            <ref target="https://www.ub.ruhr-uni-bochum.de/">Universitätsbibliothek</ref> sowie durch die <ref target="https://www.ruhr-uni-bochum.de/researchdata/de/">AG
+                            Forschungsdatenmanagement</ref>. Viele hilfreiche Hinweise verdanken wir
+                            <ref target="https://ceres.rub.de/de/personen/frederik-elwert/">Dr.
+                            Frederik Elwert (CERES)</ref>.</p>
+                </div>
+                <div>
+                    <head>Zitationsempfehlung</head>
+                    <p>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876).
+                        Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte
+                        Japans. https://kniffler.ub.rub.de</p>
+                    <p>Beispiel Einzeldokument:<lb/> Eugster, Labhart &amp; Co. in Manila an Louis
+                        Kniffler (Pandel &amp; Stiehaus) in Batavia am 9. Februar 1859. In:
+                        Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876).
+                        Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte
+                        Japans. https://kniffler.ub.rub.de/exist/apps/Kniffler/0000.xml</p>
+                </div>
+                <div>
+                    <head>Verwendete Technologien</head>
+                    <p>Für die Edition wurden Briefe aus der Geschäftskorrespondenz der Firma L.
+                        Kniffler &amp; Co. digitalisiert, transkribiert und annotiert.</p>
+                    <p>Die Briefe aus dem Firmenarchiv C. Illies &amp; Co. wurden durch einen
+                        externen Dienstleister digitalisiert. Die Darstellung der Digitalisate in
+                        der Webansicht erfolgt durch den freien Imageviewer <ref target="https://openseadragon.github.io/">OpenSeadragon</ref>. Die
+                        Faksimiles werden mit dem <ref target="https://iiif.io/">IIIF</ref>-kompatiblen Bildserver <ref target="https://cantaloupe-project.github.io/">Cantaloupe</ref>
+                        bereitgestellt.</p>
+                    <p>Die Codierung der Transkriptionen erfolgt im <ref target="https://tei-c.org/">TEI-XML-Format</ref>, wodurch Daten und Metadaten in einem für
+                        Maschinen lesbaren Format gespeichert und dauerhaft plattformübergreifend
+                        verfügbar gemacht werden.</p>
+                    <p>Die XML-Dateien der Transkriptionen werden mit der freien XML-Datenbank <ref target="http://exist-db.org/exist/apps/homepage/index.html">eXist-DB</ref> gespeichert. Die Darstellung basiert auf einer an die
+                        Bedürfnisse der Edition angepassten Version des <ref target="https://teipublisher.com/index.html">TEI Publisher</ref>.</p>
+
+                    <p>Die in den verschiedenen Registern erfassten Personen, Firmen etc. enthalten,
+                        soweit vorhanden, Verweise auf Normdateien. Zu Rate gezogen wurden die <ref target="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsame Normdatei</ref> (GND) der deutschen Nationalbibliothek, der
+                        Normdatendienst <ref target="http://viaf.org/">VIAF</ref> sowie die
+                        Datenbank <ref target="https://id.ndl.go.jp/auth/ndla/">NDL
+                            Authorities</ref> der japanischen Parlamentsbibliothek. </p>
+                </div>
+                <div>
+                    <head>Weiternutzung der Daten</head>
+                    <p>Alle Transkriptionen und Faksimiles unterliegen der Lizenz <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
+                            4.0</ref>. Das bedeutet, dass eine Bearbeitung
+                        und Weiterverbreitung ausschließlich für nicht-kommerzielle Zwecke erlaubt
+                        ist.</p>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <div>
+                    <head>Publisher</head>
+                    <p>
+                        <address>
+                            <addrLine>Ruhr University Bochum</addrLine>
+                            <addrLine>Faculty of East Asian Studies</addrLine>
+                            <addrLine>Department of Japanese History</addrLine>
+                            <addrLine>Universitätsstraße 150</addrLine>
+                            <addrLine>44801 Bochum</addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div>
+                    <head>Cooperation Partner</head>
+                    <p>
+                        <address>
+                            <addrLine>Universitätsbibliothek Bochum</addrLine>
+                            <addrLine>Digital Humanities Center</addrLine>
+                            <addrLine>Universitätsstraße 150</addrLine>
+                            <addrLine>44801 Bochum</addrLine>
+                        </address>
+                    </p>
+                </div>
+                <div>
+                    <head>Project Responsibility</head>
+                    <p>The edition "The International Business Correspondence of L. Kniffler &amp;
+                        Co., 1859 - 1876" is published by the <ref target="https://www.ruhr-uni-bochum.de/gj/index.html">Department of
+                            Japanese History</ref> of the Faculty of East Asian Studies at the Ruhr
+                        University Bochum.</p>
+                </div>
+                <div>
+                    <head>Project Management</head>
+                    <p>Prof. Dr. Katja Schmidtpott<lb/>email: Katja.Schmidtpott[at]rub.de</p>
+                </div>
+                <div>
+                    <head>Project Staff</head>
+                    <p>Dr. MATSUI Hiroe 柗居宏枝, History (2018)<lb/>Tristan Pfeil, M.A., History
+                        (2018-2020)<lb/>Marc Scheffer, M.A., Japanese Studies (2020-2021)</p>
+                </div>
+                <div>
+                    <head>Translations</head>
+                    <p>Maren Barton</p>
+                </div>
+                <div>
+                    <head>Stakeholders</head>
+                    <p>The original sources were kindly provided by the legal successor of L.
+                        Kniffler &amp; Co., the trading company <ref target="https://www.illies.de/">C. Illies &amp; Co.</ref>, Hamburg. The project was accompanied
+                        academically and organisationally by the <ref target="https://unternehmensgeschichte.de/">Gesellschaft für
+                            Unternehmensgeschichte</ref> (Society for Corporate History). The <ref target="https://www.mkw.nrw/">Ministry of Culture and Science</ref> of
+                        the State of North Rhine-Westphalia provided financial support from August
+                        2018 to March 2021, supplemented by the <ref target="https://www.ruhr-uni-bochum.de/oaw/de/index.shtml">Faculty of
+                            East Asian Studies</ref> at the Ruhr University Bochum and its
+                        Department of Japanese History. At the Ruhr University Bochum, the project
+                        was technically supported by the <ref target="https://dh.ub.rub.de/de/">Digital Humanities Center</ref> of the <ref target="https://www.ub.ruhr-uni-bochum.de/">University Library</ref> and
+                        by the <ref target="https://www.ruhr-uni-bochum.de/researchdata/de/">AG
+                            Forschungsdatenmanagement</ref> (Working Group Research Data
+                        Management). We owe many helpful hints to <ref target="https://ceres.rub.de/de/personen/frederik-elwert/">Dr. Frederik
+                            Elwert (CERES)</ref>. </p>
+                </div>
+                <div>
+                    <head>Citation Recommendation</head>
+                    <p>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876).
+                        Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte
+                        Japans. https://kniffler.ub.rub.de</p>
+                    <p>Citation Example:<lb/> Eugster, Labhart &amp; Co. in Manila an Louis Kniffler
+                        (Pandel &amp; Stiehaus) in Batavia am 9. Februar 1859. In: Internationale
+                        Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876).
+                        Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte
+                        Japans. https://kniffler.ub.rub.de/exist/apps/Kniffler/0000.xml</p>
+                </div>
+                <div>
+                    <head>Technologies in Use</head>
+                    <p>For the edition, letters from the business correspondence of L. Kniffler
+                        &amp; Co. were digitised, transcribed and annotated.</p>
+                    <p>The letters from the company archive C. Illies &amp; Co. were digitised by an
+                        external service provider. The presentation of the digitised documents in
+                        the web view is done by the free image viewer <ref target="https://openseadragon.github.io/">OpenSeadragon</ref>. The
+                        facsimiles are provided via the <ref target="https://iiif.io/">IIIF</ref>-compatible image server <ref target="https://cantaloupe-project.github.io/">Cantaloupe</ref>.</p>
+                    <p> The transcriptions are encoded in <ref target="https://tei-c.org/">TEI XML
+                            format</ref>, which stores data and metadata in a machine-readable
+                        format and makes them permanently available across platforms.</p>
+                    <p>The XML files of the transcriptions are stored using the free XML database
+                            <ref target="http://exist-db.org/exist/apps/homepage/index.html">eXist-DB</ref>.</p>
+                    <p>The presentation is based on a version of <ref target="https://teipublisher.com/index.html">TEI Publisher</ref> adapted
+                        to the needs of the edition.</p>
+                    <p> The persons, companies etc. recorded in the various registers contain
+                        references to authority files where available. The <ref target="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsame Normdatei</ref> (GND) of the German National Library, the
+                            <ref target="http://viaf.org/">Virtual International Authority
+                            File</ref>, and the <ref target="https://id.ndl.go.jp/auth/ndla/">NDL
+                            Authorities database</ref> of the Japanese National Diet Library were
+                        consulted. </p>
+                </div>
+                <div>
+                    <head>Data Licensing</head>
+                    <p> All data is licensed under the <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref> licence. This means
+                        that editing and redistribution is permitted for non-commercial purposes
+                        only. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

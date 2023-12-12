@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rosenburger &amp; Cie. in Marseille an L. Kniffler &amp; Co. in Yokohama am
+                    26. Juni 1862</title>
+            <title type="file">0031.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Online-Edition der Knifflerbriefe</name> Fakultät für
+                    Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-32</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben auf der ersten und der dritten
+                            Seite in der linken oberen Ecke gedruckt der Firmenname. Eine
+                            Umschlagsseite mit Firmenstempel und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="K01143" type="firm">Rosenburger &amp; Cie.</orgName>
+               <settlement ref="K00515">Marseille</settlement>
+               <date when="1862-06-26"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="K01004" type="firm">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1862-08-30"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-03-20" who="TP">diplomatische Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1862_06_26_Kniffler_Yokohama_von_Rosenburger_Marseille_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <placeName ref="K00515">Marseille</placeName>, le <date when="1862-06-26">26.
+                        Juin 1862</date>.</seg>
+            <lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01143">ROSENBURGER</orgName> &amp; C<hi rend="superscript">ie<lb/>
+                     <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center"> Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp;
+                            C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>. <seg rend="right">
+               <hi rend="underline">
+                  <placeName ref="K00525">Yokuhama</placeName>.</hi>
+            </seg> Nous avons bien recu vos deux estimés<lb/> lettres des <date when="1862-04-05">5</date> &amp; <date when="1862-04-09">9 Avril</date> pe. nous
+                annoncant<lb/> l’envoi de 27 By de soie par l’entremise de<lb/> MM <orgName type="firm" ref="K01011">Bourjau Hubener &amp; Co</orgName> de <placeName ref="K00503">Shanghai</placeName>
+            <lb/> pour rompte des diverses maisons de l´Europe<lb/> MM <orgName type="firm" ref="K01011">Bourjau H &amp; Co</orgName> nous remettent par la<lb/> même malle
+                connaissement à 25 By de ces 27 By.<lb/> En attendant les 2 restantes, nous
+                allons<lb/> débarquer ces 25 By &amp; suivre à leur agent les<lb/> instructions des
+                destinataires respectifs que<lb/> nous avons immédiatement avisés de votre<lb/>
+                envoi. Nous vous remercions sincèrement de<lb/> cette preuve de confiance; vous
+                pouvez du reste<lb/> être persuadés que vous n’avez su vous<lb/> adresser à de
+                meilleurs mains nous savons<lb/> soigner parfaitement vos intérêts &amp; ceux<lb/>
+                de vos amis. Il nous sera fort agréable<lb/> de recevoir des consignations de votre
+                part;<lb/> nous les rendions toujours aux plus hauts<lb/> prix possible &amp;
+                choisirons les meilleurs moments<lb/> de rente, ce qui sera chose facile pour<lb/>
+                nous, ou notre organisation. Nous sommes<lb/> parfaitement d’accord avec vous
+                que<lb/> nous vous représenterons sur notre marché<lb/>
+         </p>
+         <pb facs="1862_06_26_Kniffler_Yokohama_von_Rosenburger_Marseille_2.tif" n="2"/>
+         <p> &amp; ailleurs même, si vous n’avez pas déjà des agents<lb/> à <placeName ref="K00534">Paris</placeName>, à <placeName ref="K00519">Lyon</placeName> &amp;
+                dans d’autres villes de l’intérior<lb/> de la place. Dès que les affaires en soies
+                seront<lb/> rentrées dans une position plus normale &amp;<lb/> plus rassurante, nous
+                pensons pouvoir obtenir<lb/> des <unclear>arches</unclear> assez importants pour
+                vous, <unclear>entant</unclear>
+            <lb/> si gràce à quelques consignations nous sommes<lb/> à même de pouvoir <unclear reason="eccentric_ductus">prauner</unclear> à nos amis, tous<lb/> les avantages
+                que vous leur offrez. Nous<lb/> pensons que cous serez d’accord avec nous<lb/> que
+                nous <unclear>jauivons</unclear> sur ces ordres ainsi que<lb/> sur ceux que vos amis
+                pourrant vous trans-<lb/> mettre directement d’une ramission de<lb/> un pour cent.
+                Nous pourrons aussi vous être très<lb/> utils pour la réexpedition des soies à
+                envoyer<lb/> dans d’autres pays, pour l’intervention<lb/> en cas de difficultés ou
+                des laissés pour rompte<lb/> soit en aplanissant les premières soit en acceptant
+                vos<lb/> traites &amp; soignant la vente des soies,<lb/> si toute fois ce dernier
+                cas peut peut jamais se<lb/> présenter.<lb/> Les affaires sont dans un calme plat en
+                    <placeName ref="K00511">Europe</placeName>. <placeName ref="K00611">St.
+                    Etienne</placeName>, <placeName ref="K00610">Bâle</placeName> etc &amp;, en
+                somme, les<lb/> places de <unclear>udeauerie</unclear> jouissent seules d’une<lb/>
+                activité assez satisfaisante. Les prix baissent<lb/> cependant les soies de
+                    <placeName ref="K00504">Chine</placeName> résistent assez<lb/> bien sous
+                l’influence des avis défavorables<lb/> de <placeName ref="K00503">Shanghai</placeName>. Cette inactivité se maintiendra<lb/> tant que <placeName ref="K00556">l’Amérique</placeName> restera en guerre. mal-<lb/>
+         </p>
+         <pb facs="1862_06_26_Kniffler_Yokohama_von_Rosenburger__3.tif" n="3"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01143">ROSENBURGER</orgName> &amp; C<hi rend="superscript">ie<lb/>
+                     <placeName ref="K00515">Marseille</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/> heureusement on ne prévoit pas une<lb/> fin prochaine à cette lutte
+                gigantesque.<lb/> La récolte a été mauvaise en <placeName ref="K00612">Espagne</placeName>,<lb/> dans les deux <placeName ref="K00613">Siciles</placeName>, dans la <placeName ref="K00614">Romagne</placeName>
+            <lb/> en <unclear>Cascone</unclear> &amp; en partie dans le <placeName ref="K00615">Piémont</placeName> &amp;<lb/> dans les provinces autrichiennes. Les
+                cocons<lb/> nouveaux ont été payés jusqu’à f 7<hi rend="superscript">60</hi>
+                dans<lb/> ces pays, ce qui est beaucoup trop cher. On<lb/> a été plus sago en
+                    <placeName ref="K00616">Lombardie</placeName> qui a eu une<lb/> assez bonne
+                récolte &amp; n’a payé que de f 4 à 5<hi rend="superscript">50</hi>
+            <lb/> &amp; en <placeName ref="K00547">France</placeName> où les prix ont varié de f
+                4,, fs 6-.<lb/> Le resultat en <placeName ref="K00547">France</placeName> n’est
+                guére supérieur<lb/> à celui de l’an dernier comme quantité mais<lb/> la qualité des
+                cocons s’est améliorée &amp; la graine<lb/> a mieux rendu malheureusement on en
+                a<lb/> mis peu a <unclear>lape</unclear>.<lb/> Nous vous <unclear>picudans</unclear>
+                désormais toujours<lb/> exactement renseignés sur le marche des<lb/> affaires, tant
+                par circulaires que par<lb/> lettres.<lb/>
+            <seg rend="center">Recevez, Messieurs, nos bien</seg>
+            <lb/> sincères salutations.<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01143">Rosenburger + C<hi rend="superscript">o</hi>
+               </orgName>.</seg>
+            <add resp="writer" style="textOrientation: straight">Nous vous écrivons en francais
+                    pour des raisons de bureau, mais si vous le désirez, nous écrivons en
+                    allemand.</add>
+         </p>
+         <pb facs="1862_06_26_Kniffler_Yokohama_von_Rosenburger_Marseille_4.tif" n="envelope"/>
+         <p>
+            <stamp style="oval" type="commercial">ROSENBURGER &amp; C<hi rend="superscript">ie<lb/>
+                  <placeName ref="K00515">Marseille</placeName>
+               </hi>
+            </stamp> Messieurs <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+            <placeName ref="K00525">Yokuhama</placeName>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight"> 1862<lb/>
+               <placeName ref="K00515">Marseille</placeName>
+               <date when="1862-06-26">26 Juni</date>
+               <lb/>
+               <orgName type="firm" ref="K01143">Rosenburger + Co.</orgName>
+               <lb/>
+               <hi rend="underline">R <date when="1862-08-30">30 August</date>
+               </hi>
+               <date when="1862-09-16">16 Septb</date>
+            </add>
+         </p>
+      </body>
+   </text>
+</TEI>

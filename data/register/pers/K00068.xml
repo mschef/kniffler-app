@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag Jan Karel De Wit</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00068">
+               <persName>
+                  <forename>Jan Karel</forename>
+                  <surname>De Wit</surname>
+               </persName>
+               <birth>
+                  <date when="1819"/>
+               </birth>
+               <death>
+                  <date when="1884"/>
+               </death>
+               <note>Jan Karel de Wit kam im Januar 1860 nach Japan und war bis 1863 erster
+                  niederländischer Generalkonsul. Bis zur Unterzeichnung des preußisch-japanischen
+                  Handelsvertrags im Jahre 1861 war er auch für die Belange von Louis Kniffler
+                  zuständig, der, wie viele Deutsche, zunächst unter der Vorgabe in Japan arbeitete,
+                  Niederländer zu sein. </note>
+               <bibl>Michael R. Auslin: Negotiating with Imperialism, Cambridge (MA) 2006, S.
+                  213</bibl>
+               <idno type="VIAF" xml:base="http://viaf.org/viaf/">288011434</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Firmenregister-Eintrag Rautenberg, Schmidt &amp; Co.</title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="K01019">
+               <orgName type="firm">Rautenberg, Schmidt &amp; Co.</orgName>
+               <settlement>Singapur</settlement>
+               <note>Das Unternehmen wurde 1849 in Singapur von Henry Charles Rautenberg und Frederick George Schmidt, beide aus Hamburg, gegründet. Sie importierten und exportierten diverse Güter
+                  zwischen Asien und Amerika. Daneben waren Rautenberg, Schmidt &amp; Co. Agenten der Austrian Lloyd Steam Navigation Company und für verschiedene Kunden in Bremen und Antwerpen.
+                  Bereits zwei Jahre nach Gründung des Unternehmens, am 17. April 1851, verstarb Rautenberg bei einer Bootsfahrt mit Hurtlaus, einem Juniorpartner von Behn, Meyer &amp; Co. In den
+                  folgenden Jahren führte Schmidt das Unternehmen zunächst alleine weiter und expandierte nach Malaysia. 1863 wurde die Firma nach dem Einstieg Franz Küstermanns in Schmidt, Küstermann
+                  &amp; Co. umbenannt und bestand bis zum ersten Weltkrieg fort.</note>
+               <bibl>Khoo Salma Nasution: More than Merchants, Penang 2006, S. 120</bibl>
+               <bibl>Arnold Wright: Twentieth century impressions of British Malaya, London 1908, S. 676</bibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>

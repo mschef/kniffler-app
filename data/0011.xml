@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Johann Konrad Sonderegger (E. Moormann &amp; Co.) in Batavia an L. Kniffler
+                    &amp; Co. auf Dejima am 16. Januar 1861</title>
+            <title type="file">0011.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-12</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Umschlagsseite mit
+                            Eingangsnotiz und mehreren Stempeln.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01117">E. Moormann &amp; Co.</orgName>
+               <persName ref="K00113">Sonderegger, Johann Konrad</persName>
+               <settlement ref="K00501">Batavia</settlement>
+               <date when="1861-01-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1861-03-20"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-10-09" who="TP">Transkription ohne Auszeichnung</change>
+         <change when="2020-02-19" who="MS">Schemaanpassung und kleine Korrekturen</change>
+         <change when="2020-11-27" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+         <change when="2021-01-25" who="MS">Korrektur der Transkription; Verbindung der
+                Faksimiles</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_1.tif" n="envelope"/>
+         <p>
+            <stamp style="round" type="postal">
+               <placeName ref="K00509">HONG KONG</placeName> P.O.</stamp>
+            <hi rend="latintype">p Mail via <placeName ref="K00508">Singapore</placeName>
+               <lb/> &amp; <placeName ref="K00503">Shanghai</placeName>
+               <lb/> Herren<lb/>
+               <orgName type="firm" ref="K01004">L Kniffler &amp; C</orgName>
+               <lb/>
+               <placeName ref="K00514">Nagazaki</placeName>
+               <lb/>
+               <stamp type="commercial" style="rectangular">
+                  <orgName type="firm" ref="K01117">E. Moormann &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00501">Batavia</placeName>
+               </stamp>
+               <placeName ref="K00502">Japan</placeName>
+            </hi>
+            <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+               <hi rend="latintype">
+                  <date when="1861">1861</date>
+                  <lb/>
+                  <placeName ref="K00501">Batavia</placeName>
+                  <date when="1861-01-16">16 Janr. 1861</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01117">E. Moormann &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/> R <hi rend="underline">
+                     <date when="1861-03-20">20 Maerz</date> „<name type="ship" ref="K01668">Syrian</name>”</hi>
+                  <lb/>
+                  <date when="1861-03-25">25/3</date>
+               </hi>
+            </add>
+         </p>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_2.tif" n="2"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00501">Batavia</placeName>
+                  <date when="1861-01-16">16 Jan. 1861</date>
+               </hi>
+            </seg> Herren<lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg> Wir bekennen uns zum angenehmen<lb/> Empfange Ihrer verehrten Zuschrift vom
+                    <date when="1860-12-01">1 <hi rend="latintype">Dec.</hi>
+            </date>
+            <lb/> woraus wir Ihre Verkaufrechnung über<lb/> 1 K <term type="goods" ref="K01790">Einhorn</term> mit einer <term type="commercial" ref="K01529">
+               <choice>
+                  <abbr>Prov.</abbr>
+                  <expan>Provenue</expan>
+               </choice>
+            </term> von <hi rend="underline">
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="1023.75" unit="mex$" commodity="unicorn">1023.75</measure>„</hi>
+            <lb/> entnehmen, wogegen wir Ihnen die uns über-<lb/> lassene <term type="commercial" ref="K01523">Remesse</term> von gleichem Betrag auf die<lb/>
+                hiesigen Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01001">Pandel &amp; Stiehaus</orgName>
+            </hi> unter üb-<lb/> lichem Vorbehalt creditierten<lb/> Sobald wir wieder Einiges
+                von diesem Artikel<lb/> empfangen, sind wir gern bereit, Ihnen frische<lb/>
+            <term type="logistic" ref="K01584">Consignationen</term> davon zugehen zu lassen,
+                sowie<lb/> auch von anderen Artikeln, welche eine Chance<lb/> für Aussicht auf
+                Gewinn lassen &amp; werden wir<lb/> darüber näher mit Ihrem werthen Hause<lb/> hier berathschlagen<lb/>
+            <seg rend="right">Inzwischen empfehlen wir</seg>
+            <lb/> uns Ihnen mit<lb/>
+            <seg rend="right">achtungsvoller Ergebenheit<lb/>
+               <choice>
+                  <abbr>pp</abbr>
+                  <expan>per Procura</expan>
+               </choice>
+               <orgName type="firm" ref="K01117">E Moormann Co</orgName>
+               <lb/>
+               <hi rend="underline">
+                  <persName ref="K00113">C Sonderegger</persName>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_3.tif" n="3"/>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_4.tif" n="4"/>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_1.tif" n="envelope"/>
+         <p>HONG KONG P.O. By mail via Singapore<lb/> &amp; Shanghai<lb/> Mr.<lb/> L Kniffler
+                &amp; C<lb/> Nagasaki<lb/> E. Moormann &amp; Co<lb/>Batavia Japan ⟨1861<lb/> Batavia
+                16 Jan. 1861<lb/>E. Moormann &amp; Co<lb/>R[eceived] 20 March“Syrian”<lb/> 25/3⟩</p>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_2.tif" n="2"/>
+         <p>Batavia 16th Jan. 1861<lb/> Mr.<lb/>L. Kniffler &amp; C<lb/>Nagasaki<lb/> We
+                acknowledge the pleasant <lb/>receipt of your esteemed letter from 1st
+                Dec.,<lb/>from which we have received your sales invoice <lb/>for 1 box of rhino
+                horns with a commission of $ 1,023,75„,<lb/> for which we credited for you the
+                remittance given to us for the same amount<lb/> with the local Messrs. Pandel &amp;
+                Stiehaus<lb/> under the usual caveats. <lb/>Once we receive some more of this
+                article,<lb/> we will be kindly willing to let you have fresh<lb/> consignations of
+                these as well as<lb/>of other articles which have a chance of the prospect of profit
+                &amp; we will <lb/>confer further in this regard with your <lb/>esteemed house.
+                <lb/>In the meantime we<lb/> take our leave from you<lb/> with devoted respect <lb/>
+                pp E Moormann Co<lb/>C Sonderegger </p>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_3.tif" n="3"/>
+         <pb facs="1861_01_16_Kniffler_Nagasaki_von_Moormann_Co_Batavia_4.tif" n="4"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a beta for the digital scholarly edition "Die
+                                internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                                (1859-1876) based on TEI
+                                Publisher 7.1.0 and eXist
+                                5.2.0. The project was funded by the Ministry of Culture and Science of
+                                Northrhine-Westphalia. Version: September 2021. Ruhr-Universität
+                            Bochum, Faculty of East Asian Studies.--><html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <title data-template="config:app-title"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/kniffler_theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <custom-style>
+            <style>
+
+            main {
+                margin: 0 20px 0 20px;
+            }
+            
+            pb-page{
+            background-image: url('resources/images/kniffler_hintergrund_index.jpg');
+    background-attachment: fixed;
+            
+            }
+            
+            @media (max-width: 1023px) {
+                main {
+                    margin: 0 8px 0 8px;
+                }
+                .doclist {
+                    margin-bottom: 20px;
+                    background-color:transparent; 
+                }
+
+                .documents {
+                    padding-left: 10px;
+                }
+                .documents .label {
+                    display: none;
+                }
+                .toolbar pb-search {
+                    padding-left: 0;
+                }
+                #facets {
+                    display: none;
+                }
+            }
+            
+            .tp-title {
+                font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                font-size: 36px;
+                font-weight: 400;
+                color:white;
+                text-shadow: 0 0 3px #003560;
+            }
+
+            .tp-title span {
+                color: #9e9e9e;
+                font-size: 26px;
+                margin-top: 12px;
+            }
+                        .tp-title-en{
+                                            font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                font-size: 22px;
+                font-weight: 400;
+                color:#003560;
+                text-shadow: 0 0 1.5px white;
+                        }
+                        
+            pb-results {
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 128px);
+            }
+            
+            @media (min-width: 1024px) {
+                .toolbar {
+                    display: none;
+                }
+                .panels {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .panels .doclist {
+                    flex: 2 auto;
+                    margin-right: 20px;
+                }
+            }
+            
+            .panels {
+                margin-bottom: 40px;
+            }
+            
+            .panels .doclist {
+                --paper-tabs-selection-bar-color: #607D8B;
+                --paper-tab-content: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-weight: 400;
+                }
+                ;
+                --paper-card-header: {
+                    background-color: #d1dae0;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin: auto;
+                }
+                ;
+            }
+            
+            .panels .doclist .card-content {
+                padding: 0;
+            }
+             pb-browse-docs{
+                    --justify-toolbar-content: space-between;
+                    --paper-input-container-color: black ;
+                    --paper-input-container-input-color: black;
+                    --paper-input-container-focus-color: #003560;
+                }
+                footer {
+                    display: block;
+                    background: #F0F0F0 !important;
+                    width:100%;
+                    height:auto;
+                    
+                }
+                footer p {
+                display: block;
+  color: #000;
+                    width:60%;
+                    height:auto;
+                    margin-block:0px;
+                     font-size:smaller;
+                     padding-left:10px;
+}
+                footer a {
+                    color: #003560;
+                                        width:100%;
+                    height:auto;
+                    text-decoration:none
+
+                }
+                footer  img{
+                  max-height:78px;
+                  margin: 10px;
+                }
+                 .logos {
+  display: inline-block;
+  max-width: 20%;´
+  padding:10px
+            }
+            .panels .doclist .browse {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0;
+            }
+            
+            #document-list {
+                flex: 2;
+                margin-right: 20px;
+                
+            }
+            
+            .upload-panel {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                min-width: 360px;
+            }
+            
+            aside .upload {
+                --paper-card-header: {
+                    background-color: #607D8B;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                ;
+            }
+            
+            aside .upload {
+                width: 100%;
+            }
+            
+            .parent-link iron-icon {
+                padding-right: 4px;
+            }
+
+            .parent-link {
+                display: block;
+                margin-bottom: 10px;
+                margin-top: 16px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+
+            .documents ul {
+                list-style: none;
+            }
+            
+            .documents app-toolbar {
+                @apply --layout-start-justified;
+                font-size: 14px;
+                margin-top: 10px;
+                padding-left: 0;
+                
+            }
+            
+            .documents div {
+                margin: 0;
+            }
+            
+            .documents a,
+            .documents a:visited {
+                color: #303F9F;
+                text-decoration: none;
+            }
+            
+            .documents li {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+                padding: 6px 0;
+            }
+            
+            .documents li:last-child {
+                border: none;
+            }
+            
+            .documents .document-select {
+                flex: 0 0;
+                margin-right: 20px;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                font-weight: 400 !important;
+                line-height: 1.2;
+            }
+            
+            h5 {
+                font-size: 20px;
+                margin: 0;
+                color:#003560;
+            }
+            
+            
+            
+
+
+
+              .doclist {
+	background: transparent;
+            }
+            #filterS    elect{
+            background-color:red;
+            }
+            div .document{
+                display:block;
+            background-color:white;
+            border-radius: 4px;
+            box-shadow: 4px 4px 2px grey;
+            padding: 30px;
+            color:#709108;
+            height:auto;
+            max-width: 60%;
+            }
+                       
+             .tei-title1:nth-of-type(2){
+            display:none;
+            }
+
+             .tei-title1:nth-of-type(2){
+            display:none;
+            }
+            .tei-titleStmt5, .tei-titleStmt6 {
+                display:none;
+            }
+                .splash {
+                    background-image: url(resources/images/Kniffler_Nagasaki_mid_1860s.jpg);
+                }
+                #facets {
+                flex: 0;
+                min-width: 250px;
+                margin-right: 20px;
+                background-color: #F0F0F0;
+                padding: 0 10px;
+            }
+            
+            #facets h3 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            #facets h3 paper-checkbox {
+                margin-left: 16px;
+                font-size: 11px;
+            }
+            
+            #facets table {
+                font-size: 14px;
+            }
+            
+            #facets table table {
+                padding-left: 16px;
+                width: 100%;
+            }
+            
+            #facets table td {
+                padding: 4px 0;
+            }
+            
+            #facets table td:nth-child(2) {
+                color: #808080;
+                text-align: right;
+                padding-left: 1em;
+                vertical-align: middle;
+            }
+        </style>
+        </custom-style>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="${app}/resources/i18n/{{ns}}/{{lng}}.json" language="de">
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer slot="drawer" align="right">
+                    <div class="drawer-content">
+                        <pb-media-query query="(max-width: 1023px)">
+                            <!-- language selector -->
+                           <!-- <pb-lang name="lang" data-template="pages:languages"/> -->
+                        </pb-media-query>
+                    </div>
+                </app-drawer>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar class="menubar">
+                            <a href="index.html">Start </a>
+                            <pb-media-query query="(min-width: 1024px)">
+                                <paper-menu-button>
+                                    <a href="#" slot="dropdown-trigger">
+                                        <pb-i18n key="menu.about">Über die Edition</pb-i18n>
+                                    </a>
+                                    <paper-listbox slot="dropdown-content">
+                                        <paper-item>
+                                            <a href="${app}/documentation/aboutKniffler.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.aboutKniffler">Über L. Kniffler &amp; Co. (1859–1880)</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/documentation/aboutSources.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.aboutSources">Über die
+                                                  Quellen</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/documentation/richtlinien.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.guidelines">Editionsrichtlinien</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                    </paper-listbox>
+                                </paper-menu-button>
+                                <paper-menu-button>
+                                    <a href="#" slot="dropdown-trigger">
+                                        <pb-i18n key="menu.indices">Register</pb-i18n>
+                                    </a>
+                                    <paper-listbox slot="dropdown-content">
+                                        <paper-item>
+                                            <a href="https://www.zotero.org/groups/4386100/kniffler/library">
+                                                <pb-i18n key="menu.bibl">Literaturverzeichnis
+                                                  (Zotero)</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/register/KnifflerFirmenregisterDat.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.org">Organisationsregister</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/register/OrtsregisterDat.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.place">Ortsregister</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/register/KnifflerPersonenregisterDat.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.pers">Personenregister</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                        <paper-item>
+                                            <a href="${app}/register/WarenUndSachregisterDat.xml" data-template="pages:parse-params">
+                                                <pb-i18n key="menu.termgood">Waren- und
+                                                  Sachregister</pb-i18n>
+                                            </a>
+                                        </paper-item>
+                                    </paper-listbox>
+                                </paper-menu-button>
+                                <a href="${app}/documentation/imprint.xml" data-template="pages:parse-params">
+                                    <pb-i18n key="menu.imprint">Impressum</pb-i18n>
+                                </a>
+                                <pb-restricted login="login" group="tei">
+                                    <paper-menu-button>
+                                        <a href="#" slot="dropdown-trigger">
+                                            <pb-i18n key="menu.admin.title">Admin</pb-i18n>
+                                        </a>
+                                        <paper-listbox slot="dropdown-content">
+                                            <paper-item>
+                                                <pb-download url="modules/lib/app-download.xql">
+                                                  <pb-i18n key="appgen.xar-download">Download App as
+                                                  .xar</pb-i18n>
+                                                </pb-download>
+                                            </paper-item>
+                                        </paper-listbox>
+                                    </paper-menu-button>
+                                </pb-restricted>
+                                <!-- Search input -->
+                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+                                <!-- language selector -->
+                                <pb-lang name="lang" data-template="pages:languages"/>
+                            </pb-media-query>
+                          <!--  <pb-login id="login" group="tei">
+                                <iron-icon slot="icon" icon="account-circle"/>
+                            </pb-login> -->
+                            <pb-progress indeterminate="indeterminate" bottom-item="bottom-item" subscribe="docs"/>
+                        </app-toolbar>
+                        <pb-media-query query="(max-width: 1023px)">
+                            <app-toolbar class="toolbar" sticky="sticky">
+                                <!-- Search input -->
+                                <pb-search action="${app}/search.html" data-template="pages:parse-params" value="${query}" redirect="redirect"/>
+                                <paper-icon-button icon="icons:menu" drawer-toggle="drawer-toggle"/>
+                            </app-toolbar>
+                        </pb-media-query>
+                    </app-header>
+                    <main>
+                        <section>
+                            <h1 class="tp-title" data-template="config:app-title"/>
+                            <h2 class="tp-title-en">The international business correspondence of L.
+                                Kniffler &amp; Co. (1859-1876)・L. クニフラー商会(L. Kniffler &amp;
+                                Co.)の国際的商業書簡(1859-1876)</h2>
+                        </section>
+                        <section class="panels">
+                            <paper-card class="doclist" data-i18n="[heading]browse.documents" heading="documents">
+                                <div class="card-content">
+                                    <div class="browse" slot="page">
+                                        <pb-custom-form id="facets" url="modules/facets.xql" event="pb-results-received" subscribe="docs" emit="docs"/>
+                                        <pb-browse-docs id="document-list" url="collection/" sort-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;}, {&#34;label&#34;: &#34;browse.date&#34;, &#34;value&#34;: &#34;date&#34;}]" sort-by="date" filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;}]" filter-by="title" auto="auto" history="history" login="login" emit="docs" subscribe="docs">
+                                            <pb-paginate slot="toolbar" id="paginate" per-page="15" range="5" emit="docs" subscribe="docs"/>
+                                        </pb-browse-docs>
+                                    </div>
+                                </div>
+                            </paper-card>
+                            <!--                            <pb-restricted class="upload-panel" login="login">
+                                <aside>
+                                    <paper-card class="upload" data-i18n="[heading]upload.upload" heading="Upload">
+                                        <div class="card-content">
+                                            <pb-upload id="upload" emit="docs" accept=".xml, .tei, .odd, .docx"/>
+                                        </div>
+                                    </paper-card>
+                                </aside>
+                            </pb-restricted>-->
+                        </section>
+                    </main>
+                    <footer>
+                        <a href="https://www.ruhr-uni-bochum.de/oaw/de/index.shtml">
+                            <img src="resources/images/OAW_Logo.png" alt="Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum" class="logos"/>
+                        </a>
+                        <a href="https://www.mkw.nrw/">
+                            <img src="resources/images/mkwlogo.jpg" alt="Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen" class="logos" style="border-left-style: 20px;border-right-style: solid;border-right-width: 0px;margin-left: 5%;"/>
+                        </a>
+                        <a href="https://unternehmensgeschichte.de/">
+                            <img src="resources/images/GUG_logo_eV_lang.png" alt="Gesellschaft für Unternehmensgeschichte" class="logos"/>
+                        </a>
+                        <a href="https://www.illies.de/">
+                            <img src="resources/images/illiesLogo.jpg" alt="C. Illies &amp; Co." class="logos"/>
+                        </a>
+                        <a href="https://www.ub.ruhr-uni-bochum.de/">
+                            <img src="resources/images/ub_logo.png" alt="Universitätsbibliothek Bochum" class="logos" style="margin-top: 20px;margin-bottom: 20px;width: 270px;"/>
+                        </a>
+                        <a href="https://e-editiones.org">
+                            <img src="resources/images/powered-by-e-editiones-logo-color.svg" alt="Member of e-editiones" class="logos" style="height: 50px;padding-bottom: 0px;padding-top: 0px;margin-top: 25px;margin-bottom: 25px;"/>
+                        </a>
+                    </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+            <paper-dialog id="downloadDialog">
+                <h2>
+                    <pb-i18n key="dialogs.generatingFile">Generating File...</pb-i18n>
+                </h2>
+                <paper-dialog-scrollable>
+                    <pb-i18n key="dialogs.downloadMessage"/>
+                </paper-dialog-scrollable>
+                <div class="buttons">
+                    <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                        <pb-i18n key="dialogs.close">Close</pb-i18n>
+                    </paper-button>
+                </div>
+            </paper-dialog>
+            <paper-dialog id="errorDialog">
+                <h2>
+                    <pb-i18n key="dialogs.error">Error</pb-i18n>
+                </h2>
+                <paper-dialog-scrollable/>
+                <div class="buttons">
+                    <paper-button dialog-confirm="dialog-confirm" autofocus="autofocus">
+                        <pb-i18n key="dialogs.close">Close</pb-i18n>
+                    </paper-button>
+                </div>
+            </paper-dialog>
+        </pb-page>
+        <div class="splash"/>
+        <script>
+        const facets = document.getElementById('facets');
+        if (facets) {
+            facets.addEventListener('pb-custom-form-loaded', function(ev) {
+                const elems = ev.detail.querySelectorAll('.facet');
+                elems.forEach(facet =&gt; {
+                    facet.addEventListener('change', () =&gt; {
+                        const table = facet.closest('table');
+                        if (table) {
+                            const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
+                                if (nested != facet) {
+                                    nested.checked = false;
+                                }
+                            });
+                        }
+                        facets.submit();
+                    });
+                });
+            });
+        }
+    </script>
+    </body>
+
+</html>

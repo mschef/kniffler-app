@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. H. Mumm &amp; Co. in Reims an L. Kniffler &amp; Co. Nagasaki am 11. Januar
+                    1872</title>
+            <title type="file">0135.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-129</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben und eine Umschlagsseite mit
+                            einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01069">G. H. Mumm &amp; Co.</orgName>
+               <settlement ref="K00552">Reims</settlement>
+               <date when="1872-01-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1872-03-21"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-12-12" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-25" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01069">G.H. MUMM &amp; C<hi rend="superscript">o</hi>
+                  </orgName>.<lb/>
+                  <placeName ref="K00552">REIMS</placeName>
+                  <lb/>
+                  <orgName type="firm" ref="K01070">PETER ARNOLD MUMM</orgName>
+                  <lb/>
+                  <placeName ref="K00553">FRANKFURT <hi rend="superscript">a/</hi>M.</placeName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00552">Reims</placeName> den <date when="1872-01-11">11
+                            Januar 1872</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <hi rend="underline">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>!</hi>
+            </seg>
+            <lb/> Wir bekennen uns zum Besitze Ihres<lb/> Geehrten vom <date when="1871-11-13">13. <hi rend="latintype">November</hi>
+               <choice>
+                  <abbr> v. J.</abbr>
+                  <expan> vorigen Jahres</expan>
+               </choice>
+            </date> mit verkaufs<lb/> Rechnung über die bei Ihnen <hi rend="latintype">
+               <term type="logistic" ref="K01584">consignirte</term>
+            </hi> Parthie<lb/>
+            <term type="goods" ref="K01642">Weine</term> im Betrage von <hi rend="latintype">Netto</hi>
+            <lb/>
+            <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="285" unit="mex$">285</measure>. <choice>
+               <abbr>u</abbr>
+               <expan> und</expan>
+            </choice> werden wir solche prüfen +nach richtigem<lb/> Befunde mit den uns von
+                Ihrem Hause in<lb/>
+            <hi rend="latintype">
+               <placeName ref="K00525">Yokohama</placeName>
+            </hi> übermachten<lb/>
+            <term type="commercial" ref="K01522">₤</term>
+            <measure type="currency" unit="britPound" quantity="63.107">63.10.7</measure>
+            <hi rend="latintype">
+               <hi rend="superscript"> ex</hi>
+               <placeName ref="K00523">London</placeName>
+            </hi> zum <hi rend="latintype">Course</hi> von 4.5½<lb/> unter üblichem Vorbehalte
+                begleichen.<lb/> Obgleich wir mit <add style="textOrientation: straight" resp="writer" place="above"> dem</add> Verkaufsresultat gerade nicht<lb/>
+                unzufrieden sind, so können wir uns doch nicht<lb/> entschließen fernere Sendung in
+                    <hi rend="latintype">
+               <term type="logistic" ref="K01584">Consignation</term>
+            </hi>
+            <lb/> zu geben, erlauben uns dagegen Ihnen unsere<lb/>
+            <term type="goods" ref="K01642">Weine</term> für feste Rechnung zum Preise von<lb/>
+            <unclear>
+               <term type="commercial" ref="K01646">Fs</term>
+            </unclear>
+            <measure type="currency" quantity="4.5" unit="franc">4.50</measure> p<hi rend="superscript">r</hi> Flasche, hier genommen in der Qualität<lb/> wie letzte
+                Sendung anzubieten; es ist dieser<lb/> ein Ausnahmspreis den wir Ihnen stellen
+                um<lb/> Sie zu einem Geschäfte zu veranlassen &amp; unsere<lb/> angeknüpfte
+                Geschäftsverbindung zu einer<lb/> dauernden zu machen. Unser gewöhnlicher<lb/>
+         </p>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_2.tif" n="2"/>
+         <p> Preis für die gehabte Qualität ist <term type="commercial" ref="K01646">Fs</term>
+            <measure type="currency" quantity="5" unit="franc">5.＂</measure> p<term type="logistic" ref="K01644">
+               <choice>
+                  <abbr>
+                     <hi rend="latintype"> B<hi rend="superscript">lle</hi>
+                     </hi>
+                  </abbr>
+                  <expan cert="medium">Bouteille</expan>
+               </choice>
+            </term>
+            <lb/>
+            <hi rend="latintype">
+               <unclear>Franco</unclear>
+               <placeName ref="K00552">Reims</placeName>
+            </hi> + hoffen wir, daß die <hi rend="latintype">
+               <term type="commercial" ref="K01645">Bonification</term>
+            </hi>
+            <lb/> von 5<measure type="currency" unit="franc" quantity="0.5">0</measure>
+            <term type="commercial" ref="K01646">
+               <choice>
+                  <abbr>Ct<hi rend="superscript">s.</hi>
+                  </abbr>
+                  <expan> Centimes</expan>
+               </choice>
+            </term> p <choice>
+               <abbr>
+                  <hi rend="latintype">B<hi rend="superscript">lle.</hi>
+                  </hi>
+               </abbr>
+               <expan cert="medium">
+                  <term type="logistic" ref="K01644">Bouteille</term>
+               </expan>
+            </choice> Sie veranlassen werde uns<lb/> mit einem Auftrage für feste Rechnung
+                zu<lb/> erfreuen.<lb/> In dieser Entgegensehung zeichnen mit<lb/>
+            <seg rend="right">aller Achtung<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01069">G. Hl. Mumm+C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="textOrientation: straight" resp="writer" place="inline">Der Erlös Ihrer
+                    Verkauf-Rechnung ist<lb/> c<hi rend="superscript">a</hi> Fs <measure type="currency" quantity="4.6">4.60.</measure> ⅌ <choice>
+                  <abbr>
+                     <hi rend="latintype">B<hi rend="superscript">e</hi>
+                     </hi>
+                  </abbr>
+                  <expan cert="medium">
+                     <term type="logistic" ref="K01644">Bouteille</term>
+                  </expan>
+               </choice>
+               <hi rend="latintype">
+                  <choice>
+                     <abbr>Fo</abbr>
+                     <expan> Franco</expan>
+                  </choice>
+                  <placeName ref="K00552">Reims</placeName>
+               </hi> wir sind aber gegen alle<lb/>
+               <hi rend="latintype">
+                  <term type="logistic" ref="K01584">Consignationen</term>,</hi> wie wir <choice>
+                  <abbr>s. Z.</abbr>
+                  <expan> seiner Zeit</expan>
+               </choice> Ihrem <hi rend="latintype">Chef</hi> auch sagten<lb/> und haben uns
+                    nur zu der nun realisirten Sendung <lb/> auf dessen Anrathen entschlossen, um
+                    Ihnen zu<lb/> zeigen, was wir liefern <lb/>
+               <orgName type="firm" ref="K01069"> M&amp;C<hi rend="superscript">o</hi>
+               </orgName>
+            </add>
+         </p>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_3.tif" n="3"/>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <hi rend="latintype">Messr<hi rend="superscript">s</hi>. <orgName type="firm" ref="K01004">L. Kniffler + C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="underline">1872.</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00552">Reims</placeName>, <date when="1872-01-11">11.
+                                Jan<hi rend="superscript">r</hi>
+                  </date>
+                  <lb/>
+                  <orgName type="firm" ref="K01069"> G. H. Mumm+C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <hi rend="underline">Rec. <date when="1872-03-21">Maerz 21</date>.<lb/>
+                            Antw. -</hi>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_1.tif" n="1"/>
+         <p>G.H. MUMM &amp; Co.<lb/>REIMS<lb/>PETER ARNOLD MUMM<lb/>FRANKFURT a/M.<lb/> Reims,
+                11th January 1872<lb/>Dear Messrs. L. Kniffler &amp; Co. Nagasaki!<lb/>We
+                acknowledge receiving your esteemed <lb/>letter from 13th November of last year with
+                the <lb/>sales calculation for the batch of wine consigned <lb/>at yours to the
+                amount of $ 285 net<lb/>and we will check this and after finding <lb/>it correct we
+                will pay this under the <lb/> usual conditions with the<lb/> ₤63.10.7 ex London at
+                the rate of 4.5½<lb/>which your house in Yokohama has <lb/>transferred to
+                us.<lb/>Although we are not particularly dissatisfied with <lb/>the result of the
+                sale, we cannot quite resolve <lb/>to make a further shipment as a
+                consignment,<lb/>but we are taking the liberty of offering <lb/>you our wines at a
+                fixed price of <lb/>Fs[?] 4.50 per bottle, available here at the same <lb/>quality
+                as the last shipment; this is an exceptional <lb/>offer price, which we are
+                extending to you in order<lb/>to encourage you to take on this transaction &amp; to
+                <lb/>turn our initiated business connection into a<lb/>permanent one. Our usual
+                price for the quality</p>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_2.tif" n="2"/>
+         <p>you had is Fs 5.＂ per bottle <lb/>Franco[?] Reims + we hope that the discount<lb/>of
+                50 <expan>Centimes</expan> per bottle will induce you to <lb/>indulge us by placing
+                an order at a fixed <lb/>price. <lb/>We are looking forward to hearing from you and
+                sign <lb/>Yours most respectfully <lb/>G. Hl. Mumm + Co.<lb/>⟨The revenue from your
+                sales calculation is <lb/>ca. Fs 4.60. ⅌ per bottle Franco Reims, but we are against
+                all <lb/>consignments, as we also told your boss at the time, <lb/>and only decided
+                to make the now implemented shipment <lb/>on his advice, in order to demonstrate to
+                you <lb/>what we can deliver. <lb/>M&amp;Co⟩</p>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_3.tif" n="3"/>
+         <pb facs="1872_01_11_Kniffler_Nagasaki_von_Mumm_Co_Reims_4.tif" n="envelope"/>
+         <p>Messrs. L. Kniffler + Co.<lb/>Nagasaki<lb/>⟨1872.<lb/>Reims, 11th Jan. <lb/>G. H.
+                Mumm+Co<lb/>Rec[eived]. March 21st<lb/>Ans[wered]. -⟩</p>
+      </body>
+   </text>
+</TEI>

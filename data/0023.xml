@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ernst Behre (Bourjau, Hubener &amp; Co.) in Shanghai an L. Kniffler &amp; Co.
+                    in Nagasaki am 1. März 1862</title>
+            <title type="file">0023.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-24</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Zwei Seiten Anschreiben, eine Umschlagsseite mit
+                            Siegelrest und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01011">Bourjau, Hubener &amp; Co.</orgName>
+               <persName ref="K00071">Behre, Ernst</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1862-03-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1862-03-09"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-27" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-01" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">
+                     <hi rend="underline">per <name type="ship" ref="K01794">Caimir</name>
+                     </hi>
+                     <lb/>Messs. <orgName type="firm" ref="K01004">L. Kniffler +
+                                Co.</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <placeName ref="K00514">Nagasaki</placeName>
+                     </hi>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">
+                  <hi rend="underline">1862</hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1862-03-01">1 März</date>
+                     <lb/>
+                     <orgName type="firm" ref="K01011">Bourjau Hübener + Co.</orgName>
+                     <lb/> r/ <date when="1862-03-09">
+                        <unclear reason="eccentric_ductus">9</unclear>/3 62</date>
+                     <lb/>b/ <date when="1862-03-13">13/3 62</date>
+                  </hi>
+               </add>
+               <lb/>
+            </p>
+            <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+            <p>
+               <hi rend="latintype">p <name type="ship" ref="K01794">Caimir</name>
+               </hi>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00503">Shanghae</placeName> 1 Merz 1862</hi>
+               </seg>
+               <lb/>
+               <seg rend="center">Herren <hi rend="latintype">
+                     <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                     </orgName>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                     <lb/>
+                  </hi>
+               </seg>
+            </p>
+            <p>Wir beziehen uns an unser Jüngstes vom <date when="1862-02-25">25 Fbr.</date>
+                    &amp;<lb/> gelangten dagegen i. Besitz Ihrer Werthen vom <date when="1862-02-14">14.</date>
+               <date when="1862-02-14">19.</date> &amp;<lb/>
+               <date when="1862-02-23">23</date>
+               <choice>
+                  <abbr>id</abbr>
+                  <expan>idem</expan>
+               </choice>. Mit Intereße haben wir Ihre Marktberichte ge<lb/> lesen &amp; werden
+                    nach Ihrem Wunsche mit nächster <hi rend="latintype">Mail</hi> an<lb/> H <hi rend="latintype">
+                  <orgName type="firm" ref="K01008">Bollenhagen+ Co.</orgName> i <placeName ref="K00522">Hamburg</placeName>
+                  <unclear>Conts</unclear> hints</hi> über<lb/>
+               <term type="goods" ref="K01501">Steinkohlen</term> ertheilen. Hauptzweck des
+                        Gege<hi rend="underline">nwärti</hi>gen<lb/> ist, Sie davon zu
+                    benachrichtigen daß der Steamer <hi rend="latintype">
+                  <name type="ship" ref="K01684">Theodo<lb/> sius</name>
+               </hi> gestern spät eingekommen ist.- Wir haben gleich<lb/> bei Empfang Ihres
+                    Werthen vom <date when="1862-02-19">19 Feb</date> per das<lb/> leider auch erst
+                    gestern Nachmittag uns wurde, die nöthigen<lb/> Schritte zum Verkauf der <term type="goods" ref="K01501">Kohlen</term> gethan leider aber<lb/> hat die
+                    Nachricht von dem Abgang so vieler Kohlenschiffe aus<lb/> Ihrem Platz den
+                    Artikel sehr hinuntergedrückt &amp; wir<lb/> erfahren soeben daß unser Nachbar
+                        <orgName type="firm" ref="K01118">
+                  <choice>
+                     <abbr>R<hi rend="superscript">l</hi>
+                     </abbr>
+                     <expan cert="medium">Russell</expan>
+                  </choice> &amp; Co.</orgName> eine<lb/> Ladung <hi rend="latintype">
+                  <term type="goods" ref="K01501">Japankohlen</term>
+               </hi> überall anbieten &amp; gerne <hi rend="latintype">
+                  <term type="currency" ref="K01525">T<hi rend="superscript">s</hi>
+                  </term>. <measure type="currency" quantity="8" unit="tael" commodity="coal">8 ½</measure>
+               </hi>
+               <lb/> dafür annehmen würden bis jetzt aber mit dem<lb/> Verkauf nicht reüßirt
+                    haben:-<lb/> Bei dieser Lage der Dinge glauben wir am Besten<lb/> für Ihr
+                    Interesse zu handeln wenn wir die Ladung<lb/> so bald nur möglich an den Mann
+                    bringen &amp; sollte<lb/> es auch etwas unter obigem Preise sein. Auf jeden<lb/>
+                    Fall aber müßen wir Sie bitten für's Erste keine<lb/> weiteren Sendungen zu
+                    machen da unser Markt in<lb/> der nächsten Zeit überführt sein wird.<lb/> Was
+                        <hi rend="latintype">
+                  <term type="goods" ref="K01682">Salpeter</term>
+               </hi> anbetrifft so ist es uns bei den<lb/> jetzigen unruhigen Zeiten lieber,
+                    wenn Sie uns nichts </p>
+            <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+            <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+            <p>davon senden. Es gehört zur Einfuhr eine <hi rend="latintype">
+                  <unclear>tontai</unclear> permission</hi>
+               <lb/> &amp; es sind noch sonstige Unannehmlichkeiten damit verbunden<lb/> die
+                    das Geschäft selbst schwirig machen- Mit dem<hi rend="latintype">
+                  <orgName type="gov" ref="K01119">Chin.<lb/> Gouvernement</orgName>
+               </hi> sind nicht leicht Verkäufe abzuschließen sollten<lb/> wir oder der andere
+                    unserer Freunde auf unsere Anregung<lb/> hin etwas bestellen so würden wir Ihnen
+                    die Ordre überschreiben<lb/> &amp; es dem Chinesen überlassen sich mit dem <hi rend="latintype">Costomhouse</hi> ab-<lb/> zufinden<lb/> Sonst Nichts Neues.
+                    Für <hi rend="latintype">Japanartikel</hi> immer<lb/> gleich wenig Nachfrage-<lb/>
+               <seg rend="right">Ohne Anlaß zu Mehr für heute, grüßen wir<lb/> Sie freundschaftlichst<lb/>
+                  <hi rend="latintype">
+                     <choice>
+                        <abbr>pp</abbr>
+                        <expan>per Procura</expan>
+                     </choice>
+                     <orgName type="firm" ref="K01011">Bourjau Hubener + Co.</orgName>
+                     <lb/>
+                     <hi rend="underline">
+                        <persName ref="K00071">Ernst Behre</persName>
+                     </hi>
+                  </hi>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_1.tif" n="envelope"/>
+         <p>per Caimir<lb/>Messs. L. Kniffler + Co.<lb/>Nagasaki<lb/>⟨1862<lb/>Shanghai 1st
+                March<lb/>Bourjau Hübener + Co.<lb/>r[eceived]/ 9/3 62<lb/>a[nswered]/ 13/3 62⟩</p>
+         <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_2.tif" n="2"/>
+         <p>Per Caimir Shanghai 1stMarch 1862<lb/>Messrs. L. Kniffler &amp; Co Nagasaki<lb/>
+            <lb/> We refer to our most recent letter from 25th Feb. &amp;<lb/>came into
+                possession of your esteemed letters from 14th, 19 th &amp;<lb/> 23rd of the same. We
+                have read your market reports<lb/> interest &amp; will mail hints about stone coal
+                quotas to <lb/> H Bollenhagen + Co. in Hamburg with the next mail <lb/> in
+                accordance with your wishes. Main purpose of the current<lb/> letter is to notify
+                you that the steamer Theodosius<lb/> arrived late yesterday. – We immediately
+                upon<lb/> receipt of your esteemed letter from 19th Feb per that, <lb/> which
+                unfortunately also only happened yesterday afternoon,<lb/> took the necessary steps
+                for selling the coal, but sadly<lb/> the notice of so many coal ships leaving
+                from<lb/> your place heavily pushed down the price of the article &amp;<lb/> we just
+                learnt that our neighbours Rl &amp; Co. are<lb/>offering a shipment of Japan coal
+                everywhere &amp; would<lb/> love to accept Ts. 8 ½<lb/>for it, but have so far not
+                had success with<lb/> the sale: –<lb/>With the situation being what it is we believe
+                ourselves to be<lb/> acting in your best interest if we sell the shipment <lb/> as
+                soon as possible &amp; even if this should be<lb/>a little below the price given
+                above. In any case <lb/> we must ask you for the time being not<lb/> to make further
+                consignments because our market<lb/> will be overloaded for the time being. <lb/>As
+                far as saltpetre is concerned we prefer in<lb/> these uncertain times if you did not </p>
+         <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_3.tif" n="3"/>
+         <pb facs="1862_03_01_Kniffler_Nagasaki_von_Bourjau_Hubener_Co_Shanghai_4.tif" n="4"/>
+         <p>send us any more of it. For imports a tontai[?] permission is needed<lb/>&amp; there
+                are further inconveniences connected with it <lb/>which make business difficult – It
+                is not easy to<lb/> conduct sales with the Chinese government, should<lb/> we or
+                others of our friends at your suggestion decide<lb/> to order something then we
+                would sign the order over to you <lb/>&amp; leave it to the Chinese to deal with the
+                customs house. <lb/>Otherwise no further news. For Japanese articles <lb/>always the
+                same, small demand –<lb/>As there is no need to write more today, we send you<lb/>
+                our dearest greetings <lb/>p.p. Bourjau Hubener + Co.<lb/> Ernst Behre</p>
+      </body>
+   </text>
+</TEI>

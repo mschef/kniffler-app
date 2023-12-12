@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Telge, Nölting &amp; Co. in Shanghai an L. Kniffler &amp; Co. in Nagasaki am
+                    10. Januar 1866</title>
+            <title type="file">0066.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-65</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen, eine Seite Anschreiben, auf der letzten Seite eine
+                            Eingangsnotiz. Auf der ersten Seite in der rechten oberen Ecke der
+                            Firmenname gedruckt.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01121">Telge, Nölting &amp; Co.</orgName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date cert="high" when="1866-01-10"/>
+               <!-- Das Eingangsdatum ist, vermutlich aufgrund des kurz zuvor erfolgten Jahreswechsels, auf der Umschlagseite falsch notiert worden. Richtig ist der 10.01.1866, nicht, wie dort angegeben, 1865. -->
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1866-01-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-08" who="TP">diplomatische Transkription</change>
+         <change when="2020-12-04" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_1.tif" n="1"/>
+         <p>
+            <hi rend="print">
+               <orgName type="firm" ref="K01121">TELGE NÖLTING &amp; CO</orgName>:<lb/>
+               <placeName ref="K00503">SHANGHAI</placeName>
+            </hi>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghai</placeName>
+                  <date when="1866-01-10">10 Jan 1866</date>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="left">
+               <hi rend="latintype">per „<name type="ship" ref="K01680">Eliza Mary</name>”</hi>
+                    Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler + Co.</orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Unser Ergebenes vom <date when="1865-12-30">30 <hi rend="latintype">Decbr</hi>
+               <lb/> 1865</date> bestätigend, dessen <term type="logistic" ref="K01538">Copie</term> wir Ihnen einliegend senden, erhielten<lb/> wir inzwischen von
+                Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01127">Smith, Kennedy +C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> hier Frachtrechnung<lb/> von <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="10" unit="mex$" commodity="piglead">10„_„</measure> für <hi rend="latintype">
+               <measure quantity="3" commodity="piglead">3</measure>
+               <term type="goods" ref="K01127">pigslead</term> + 1 parcel,</hi> welche wir <hi rend="latintype">pr „<name type="ship" ref="K01811">Promise</name>”</hi>
+            <lb/> empfingen. Da uns diese Forderung <hi rend="latintype">exorbitant</hi>
+                erschien und<lb/> diese Herren dieselbe nicht ermäßigen wollten erbaten<lb/> wir uns
+                denselben einen Brief für Ihre <choice>
+               <abbr>
+                  <hi rend="superscript">w</hi>/</abbr>
+               <expan> werte</expan>
+            </choice> Firma zu geben<lb/> um dieselbe durch Sie mit Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01128">Alt + C<hi rend="superscript">o</hi>
+               </orgName>.,</hi> dort, als<lb/> Agenten des <hi rend="latintype">
+               <name type="ship" ref="K01811">Promise</name>,</hi> ordnen zu lassen, dies
+                Anerbieten<lb/> wurde jedoch nicht acceptirt und werden wir es jetzt auf<lb/> eine
+                Klage ankommen lassen.<lb/> Von <hi rend="latintype">
+               <placeName ref="K00509">Hongkong</placeName>
+            </hi> erhielten heute die Nach-<lb/> richt daß Ihre Ordre auf <measure type="volume" quantity="200" unit="picul" commodity="saltpeter">200</measure>
+            <hi rend="latintype">
+               <term type="measure" ref="K01504">picl</term>
+               <term type="goods" ref="K01682">Salpeter</term>
+            </hi> zu <measure type="currency" quantity="7.5" unit="mex$" commodity="saltpeter">7<term type="commercial" ref="K01504">$</term>50 cts</measure>
+            <lb/> ausgeführt sei und derselbe bereits <hi rend="latintype">pr „<name type="ship" ref="K01812">Child of the Ocean</name>”</hi>
+            <lb/> direct nach dort verladen; wir hoffen mit nächster Gelegenheit<lb/> mit <term type="commercial" ref="K01574">Factura</term> etc. darüber aufwarten zu können.
+                Die<lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01126">Arnemann + C<hi rend="superscript">o</hi>
+               </orgName>
+            </hi> werden für den Betrag auf uns<lb/> zinsen und werden wir deren <term type="commercial" ref="K01534">Tratte</term> für Ihre <choice>
+               <abbr>
+                  <hi rend="superscript">w</hi>/</abbr>
+               <expan> werte</expan>
+            </choice> Rechnung<lb/> acceptiren.<lb/> Für <term type="goods" ref="K01772">Blei</term> haben wir eine Offerte von <term type="currency" ref="K01525">Tls.</term>
+            <measure type="currency" quantity="5" unit="tael" commodity="lead">5 „_„</measure>
+                in Aussicht,<lb/> erhalten wir dieselbe so werden zu diesem Preise fortgeben,<lb/>
+                wenn nicht, so sehen erst Ihre<del rend="overstrike">m</del>n Berichte<add style="textOrientation: straight" place="inline" resp="writer">n</add>
+                entgegen.<lb/> Unser Markt unverändert nur in Folge des Heran-<lb/> nahen des
+                chinesischen Neujahrs stiller.<lb/>
+            <seg rend="right">Hochachtungsvoll + ergebenst <lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01121">TelgeNölting+Co.</orgName>
+               </hi>
+            </seg>
+            <lb/> Wegen des kurz bevorstehenden chin. Neujahrs wollen Chinesen keine neuen<lb/>
+                Einleitungen mehr machen_ Obige in Aussicht stehende Offerte ist von<lb/> einem <add style="textOrientation: straight" resp="writer" place="above">
+               <choice>
+                  <abbr>engl.</abbr>
+                  <expan>englischen</expan>
+               </choice>
+            </add> Speculanten.<lb/>
+            <seg rend="center">
+               <mentioned>
+                  <orgName type="firm" ref="K01121">Die Obigen</orgName>
+               </mentioned>
+            </seg>
+         </p>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_2.tif" n="2"/>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <hi rend="underline">1865</hi>
+                  <lb/>
+                  <!-- Das Eingangsdatum ist, vermutlich aufgrund des kurz zuvor erfolgten Jahreswechsels, auf der Umschlagseite falsch notiert worden. Richtig ist der 10.01.1866, nicht, wie dort angegeben, 1865. -->
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01121">Telge Nölting+Co.</orgName>
+                     <lb/>
+                     <placeName ref="K00503">Shanghai</placeName>
+                     <date when="1866-01-10">Janr 10</date>
+                     <lb/>R <date when="1866-01-17">
+                        <hi rend="underline">Janr</hi> 17</date>
+                     <hi rend="superscript">th</hi>
+                     <lb/>
+                     <date when="1866-01-26">2<hi rend="underline">6 Janr</hi>
+                     </date>
+                  </hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_1.tif" n="1"/>
+         <p>TELGE NÖLTING &amp; CO:<lb/>SHANGHAI<lb/>Shanghai 10th Jan. 1866<lb/>per “Eliza Mary”
+                Messrs. L. Kniffler + Co.<lb/>Nagasaki<lb/>Confirming our respectful letter from
+                30th Dec. 1865,<lb/>a copy of which we send you enclosed, we have
+                meanwhile<lb/>received from Messrs. Smith, Kennedy + Co. here the freight
+                note<lb/>of $10„_„ for 3 lead pigs + 1 parcel, which we received by means of<lb/>the
+                “Promise”. Because this demand seemed excessive to us and <lb/>the gentlemen were
+                not willing to reduce it, we asked to <lb/>give them a letter for your esteemed
+                company <lb/>in order have this sorted there by you with Messrs. Alt + Co. <lb/>as
+                agents of the “Promise”, but this request was <lb/>not accepted and we wil now take
+                our chances with<lb/>suing them. <lb/>From Hong Kong we received news today<lb/>that
+                your order for 200 piculs of saltpetre at 7$50 cts<lb/>has been executed and that it
+                has already been loaded on the<lb/>“Child of the Ocean” directly to there; we hope
+                to be able to <lb/>supply the invoice etc. for this at the next opportunity.
+                <lb/>Messrs. Arnemann + Co. will charge us interest for this amount <lb/>and we will
+                accept their bill of exchange for your esteemed <lb/>invoice. <lb/>For lead we have
+                the prospect of an offer of Tls. 5 „_„ and<lb/>if we achieve this offer, we will
+                sell it at this price,<lb/>if we don’t, we will await your report⟨s⟩ first. <lb/>Our
+                market is unchanged, just quieter due to the nearing <lb/>of Chinese New Year.
+                <lb/>Yours sincerely + respectfully <lb/>Telge Nölting + Co.<lb/>Because Chinese New
+                Year is so close the Chinese do not want to <lb/>make any new introductions any more
+                _ The abovementioned offer <lb/>is by an Engl. speculator.<lb/>The above</p>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_2.tif" n="2"/>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_3.tif" n="3"/>
+         <pb facs="1866_01_10_Kniffler_Nagasaki_von_Telge_Nölting_Shanghai_4.tif" n="4"/>
+         <p>⟨1865 <lb/>Telge Nölting + Co.<lb/>Shanghai Jan. 10th<lb/>R[eceived] Jan.
+                17th<lb/>26th Jan.⟩</p>
+      </body>
+   </text>
+</TEI>

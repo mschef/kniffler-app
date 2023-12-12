@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Duplikat des Schreibens von Aug. Seydoux Sieber &amp; Cie. an L. Kniffler
+                    &amp; Co. in Nagasaki &amp; Osaka am 31. Dezember 1868 mit einliegender
+                    Korrekturnotiz</title>
+            <title type="file">0087.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-88</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Zwei Doppelbögen, davon zwei Seiten beschrieben. Kein
+                            Eingangsvermerk.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01151">Aug. Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1868-12-31"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <settlement ref="K00558">Osaka</settlement>
+               <date/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-13" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-03" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von
+                Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_1.tif" n="1"/>
+         <p> Duplicata<lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01151">AUG. SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+                  <lb/> 23, Rue de Paradis-Poissonière.<lb/> SUCCESSEURS DE<lb/>
+                  <orgName type="firm" ref="K01152">PATURLE-LUPIN, SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <seg rend="right">„L'Original” par Steamer de <placeName ref="K00515">Marseille</placeName> du 3 Janv<hi rend="superscript">e</hi>
+               <lb/>
+               <placeName ref="K00534">Paris</placeName>: Le <date when="1868-12-31">31
+                        Decembre 1868</date>
+            </seg>
+            <lb/>
+            <seg rend="center">Messieur <orgName type="firm" ref="K01004">Kniffler &amp; C<hi rend="superscript">ie</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">à <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/> Nous avons l'honneur, messieurs, de vous confirmer notre<lb/> lettre du 19
+                court, et de vous remttre ci-inclus copie des<lb/> notes de consignation aux
+                marchandises que nous vous<lb/> avons adressées par le marine “<name type="ship" ref="K01837">Niphon</name>” pour vos deux<lb/> maisons de <placeName ref="K00545">Hiogo</placeName> et de <placeName ref="K00558">Osakka</placeName>.<lb/> Vous trouverez aussi sous a pli une note de rectificat<hi rend="superscript">ou</hi>
+            <lb/> pour l'assurance de als caisse <figure>
+               <figDesc>Zeichen Kniffler Osaka Mit ausgeprägten Serifen und dicker in der Zeile SS unter der ZeileKO</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 6 dout la raleur<lb/> assurée u
+                    <unclear>bst</unclear> que de<lb/>
+            <seg rend="center">
+               <table>
+                  <row>
+                     <cell/>
+                     <cell>f<hi rend="superscript">r</hi> 3500</cell>
+                  </row>
+                  <row>
+                     <cell>au bien de</cell>
+                     <cell>＂ 3950</cell>
+                  </row>
+               </table>
+               <lb/> Nous vous saluons, Messieurs, de coeur<lb/> Aug Sedo<hi rend="underline">uxSieber</hi>
+               <lb/>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName>
+               <date when="1868-12-31">31 Decembre 1868</date>
+            </seg>
+            <lb/> Note de Rectification pour Messieurs <orgName type="firm" ref="K01004">Kniffler &amp; C<hi rend="superscript">ie</hi>
+            </orgName>
+            <lb/>
+            <seg rend="right">à <placeName ref="K00514">Nagasaki</placeName>
+            </seg>
+            <lb/>
+            <table>
+               <row>
+                  <cell>Par erreur la caisse <figure>
+                        <figDesc>Zeichen Kniffler Osaka Mit ausgeprägten Serifen und dicker in der Zeile SS unter der ZeileKO</figDesc>
+                     </figure>
+                     <unclear reason="illegible" cert="low">+</unclear> „ 6 fut assurée pour </cell>
+                  <cell>f 3950„˜„</cell>
+               </row>
+               <row>
+                  <cell>apendant elle ne vaut que</cell>
+                  <cell>3500„˜„</cell>
+               </row>
+               <row>
+                  <cell>Différence à déduire d<hi rend="underline">e la somme assurée</hi>
+                     <lb/> par <hi rend="underline">“Niphon”</hi>
+                  </cell>
+                  <cell>f <hi rend="underline" n="2">450„-</hi>
+                  </cell>
+               </row>
+            </table>
+         </p>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_2.tif" n="2"/>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_3.tif" n="3"/>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_4.tif" n="4"/>
+         <p>
+            <seg rend="center">„'Original”</seg>
+         </p>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_5.tif" n="5"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01151">AUG. SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+                  <lb/> 23, Rue de Paradis-Poissonière.<lb/> SUCCESSEURS DE<lb/>
+                  <orgName type="firm" ref="K01152">PATURLE-LUPIN, SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName>
+               <date when="1868-12-31">31 Decembre 1868</date>
+            </seg>
+            <lb/> Note de rectification pour messiuers <orgName type="firm" ref="K01004">Kniffler + C<hi rend="superscript">ie</hi>
+            </orgName>
+            <lb/>
+            <seg rend="center">à <placeName ref="K00558">Osakka</placeName>.</seg>
+            <lb/>
+            <table>
+               <row>
+                  <cell>Par erreur la caisse <figure>
+                        <figDesc>Zeichen Kniffler Osaka Mit ausgeprägten Serifen und dicker in der Zeile SS unter der ZeileKO</figDesc>
+                     </figure>
+                     <unclear reason="illegible" cert="low">⅌</unclear>„ 6 fût assurée
+                            pour</cell>
+                  <cell>f 3950„-</cell>
+               </row>
+               <row>
+                  <cell>cependant elle ne vaut que</cell>
+                  <cell>
+                     <hi rend="underline">3500</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Differénce à déduire <hi rend="underline">de la somme assurée</hi> par
+                                „<hi rend="underline">
+                        <name type="ship" ref="K01837">Niphon</name>
+                     </hi>”</cell>
+                  <cell>f<hi rend="underline" n="2">450„-</hi>
+                  </cell>
+               </row>
+            </table>
+         </p>
+         <pb facs="1868_12_31_Kniffler_Nagasaki_Osaka_von Seydoux_Sieber_Co_Paris_6.tif" n="6"/>
+      </body>
+   </text>
+</TEI>

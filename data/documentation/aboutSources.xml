@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="documentation.html"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über die Quellen</title>
+                <author>Katja Schmidtpott</author>
+                <editor>Marc Scheffer</editor>
+                <editor>Jan Wiemann</editor>
+                <editor role="translator">Maren Barton</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-10</date>
+                    <date>2021-11-29</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                        <addrLine>Ruhr-Universität Bochum</addrLine>
+                        <addrLine>Universitätsstraße 150</addrLine>
+                        <addrLine>44801 Bochum</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:lang="de"> Katja Schmidtpott: Über die Quellen. In: Internationale
+                    Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Ruhr-Universität
+                    Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.
+                    https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutSources.xml </bibl>
+               <bibl xml:lang="en"> Katja Schmidtpott: About the Sources. In: Internationale
+                    Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Ruhr-Universität
+                    Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.
+                    https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutSources.xml
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+                <language ident="en-EN"/>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2021-12-10T11:41:00Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+                <change>
+                    <date>2021-09-28T19:33:13Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+                <change>
+                    <date>2021-11-21T18:27:00Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+                <change>
+                    <date>2021-11-29T15:24:00Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="de">
+                <head>Über die Quellen</head>
+                <p>Die hier edierten 156 Dokumente aus den Jahren 1859 bis 1876 bilden in ihrer
+                    Gesamtheit die internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.,
+                    wie sie im Archiv der Rechtsnachfolgerin C. Illies &amp; Co. erhalten ist. Sie
+                    wird nun in Form dieser Edition erstmals veröffentlicht.</p>
+                <p>Den Anstoß zu diesem Vorhaben gaben wiederholte Anfragen aus der
+                    Fachöffentlichkeit, die durch die Publikation der 150-jährigen
+                    Unternehmensgeschichte von C. Illies &amp; Co.<note>Bähr, Johannes / Lesczenski,
+                        Jörg / Schmidtpott, Katja (2009): <hi rend="italic">Handel ist Wandel: 150
+                            Jahre C. Illies &amp; Co</hi>. München: Piper. [Engl. translation: <hi rend="italic">Winds of change: On the 150</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic" xml:space="preserve"> anniversary of C. Illies &amp; Co.</hi>]</note>
+                    auf die Existenz dieser seltenen Unternehmensüberlieferung aufmerksam wurde.
+                    Unter den bisher edierten Quellen zur Geschichte des Japanhandels
+                    euroamerikanischer Unternehmen während der Zeit der Vertragshäfen (1859–1899)
+                    sind Geschäftskorrespondenzen tatsächlich Ausnahmen.</p>
+                <p>Ein großer Teil der bisher veröffentlichten Quellen von deutschen sowie auch
+                    Kaufleuten anderer Nationalität, die in den japanischen Vertragshäfen aktiv
+                    waren, fällt in die Kategorie der Selbstzeugnisse. Diese umfasst vor allem
+                    Memoiren, die nach der Rückkehr in die Heimat oder nach Eintritt in den
+                    Ruhestand veröffentlicht wurden und sich teilweise mit dem Genre der
+                    Reiseschriftstellerei überschneiden. Das populärste Beispiel im deutschen
+                    Sprachraum, der mehrfach wiederaufgelegte Schlüsselroman „Kontorrock und
+                    Konsulatsmütze“, stammt von Arthur Richard Weber (1841–1920), einem Angestellten
+                    von L. Kniffler &amp; Co.<note>Weber, A.R. (1981): <hi rend="italic">Kontorrock
+                            und Konsulatsmütze</hi>. Tokyo: Deutsche Gesellschaft für Natur- und
+                        Völkerkunde Ostasiens (Nachdruck der Neuausgabe von 1973. Erste Neuauflage
+                        1939. Erstmals erschienen 1886).</note> Auch Martin Hermann Gildemeister
+                    hinterließ Memoiren, die er allerdings im Vergleich zu Weber kurz und sachlich
+                        hielt.<note>Glade, Dieter (Hrsg.) (1985): „Die Lebenserinnerungen des Martin
+                        Hermann Gildemeister: Herausgegeben und kommentiert von Dieter Glade“, in:
+                            <hi rend="italic">Rotenburger Schriften</hi> 62, S. 69–92.</note> Unter
+                    den Memoiren von Kaufleuten anderer Nationalität, die in den letzten Jahren
+                    veröffentlicht wurden, sind diejenigen des Niederländers Cornelis Theodoor
+                    Assendelft de Coningh (1821–1890) erwähnenswert.<note>Chaiklin, Martha (2012):
+                            <hi rend="italic">A Pioneer in Yokohama: A Dutchman’s Adventures in the
+                            New Treaty Port.</hi> Indianapolis, Cambridge: Hackett Publishing
+                        Company (From <hi rend="italic">Ontmoetingen ter Zee en te Land</hi>, 1879,
+                        ed., transl., intr. by Martha Chaiklin)</note> Auch Tagebücher liegen in
+                    publizierter Form vor, etwa die des Schweizer Kaufmanns Caspar Brennwald
+                    (1838–1899), Gründer von Siber &amp; Brennwald (heute: DKSH),<note>YFRZ =
+                        Yokohamashi Furusato Rekishi Zaidan / Burenwarudo Nikki Kenkyūkai (Hrsg.)
+                        (2020): <hi rend="italic">Suisu shisetsudan ga mita Bakumatsu no Nihon:
+                            Burenwarudo nikki 1862–1867</hi> [Japan gegen Ende der Edo-Zeit in
+                        Beobachtungen der Schweizer Japan-Mission: Die Tagebücher von Brennwald,
+                        1862–1867]. Tokyo: Bensei Shuppan.</note>
+                    <note>YKS = Yokohama Kaikō Shiryōkan<hi rend="italic"> </hi>(Yokohama Archives
+                        of History) (Hrsg.) (2015): <hi rend="italic">Burenwarudo no Bakumatsu•Meiji
+                            Nippon nikki: Shirarezaru Suisu•Nihon no kōryūshi</hi> [Brennwald Diary
+                        in Bakumatsu-Meiji Japan: Unknown History of Exchange between Switzerland
+                        and Japan]. Tokyo: Nikkei BPsha.</note> oder die des US-Amerikaners Francis
+                    Hall (1822–1902), der als Kaufmann bei Walsh, Hall &amp; Co. sowie als
+                    Korrespondent für die <hi rend="italic">New York Tribune</hi> tätig
+                        war.<note>Notehelfer, F.G. (2001): <hi rend="italic">Japan Through American
+                            Eyes: The Journal of Francis Hall, 1859–1866</hi>. Boulder: Westview
+                        Press (ed., ann., abr. by F.G. Notehelfer).</note> Private Briefe wiederum
+                    bilden die Grundlage für die Biographie des norddeutschen Kaufmanns Hinrich
+                    Ahrens (1842–1886), dessen Unternehmen H. Ahrens &amp; Co. ähnlich strukturiert
+                    war wie C. Illies &amp; Co.<note>Reimers, Carolin (2010): <hi rend="italic">„Zeit ist Geld“: Der Kaufmann Hinrich Ahrens und die Anfänge des
+                            deutschen Handels in Japan</hi>. Münster: Monsenstein und
+                        Vannerdat.</note>
+                </p>
+                <p>Die inhaltlichen Schwerpunkte vieler dieser Selbstzeugnisse liegen auf
+                    Beschreibungen des gesellschaftlichen Lebens innerhalb der euroamerikanischen
+                        <hi rend="italic">communities</hi>, Betrachtungen der wechselhaften innen-
+                    und außenpolitischen Lage Japans zur Zeit der bewaffneten Konflikte, die der
+                    Meiji-Restauration 1868 vorausgingen, sowie Beobachtungen der japanischen
+                    Umgebung und ihrer Menschen. Die eigentliche Handelstätigkeit wird darin jedoch
+                    vergleichsweise oberflächlich behandelt, über Inhalt und Umfang konkreter
+                    Geschäfte erfahrt man wenig.</p>
+                <p>Zu den edierten Quellen deutscher Kaufleute in Japan aus der Mitte des 19.
+                    Jahrhunderts gehören darüber hinaus einige Briefe von Louis Kniffler und Martin
+                    Hermann Gildemeister aus Beständen der Staatsarchive in Hamburg und Bremen, die
+                    die Bemühungen der beiden Hansestädte um den Abschluß von Handelsverträgen mit
+                    der japanischen Regierung in den Jahren 1855 bis 1867
+                        dokumentieren.<note>Mathias, Regine / Pauer, Erich (Hrsg.) (1992): <hi rend="italic">Die Hansestädte und Japan, 1855–1867: Ausgewählte
+                            Dokumente</hi> [Marburger Japan-Reihe, Bd. 7]. Marburg: Förderverein
+                        Marburger Japan-Reihe.</note> Sie erweitern die Forschung zum Beginn der
+                    deutsch-japanischen Beziehungen, indem sie die wirtschaftspolitischen
+                    Aktivitäten der Kaufleute beleuchten, die diese zu ihrer Anbahnung
+                    unternahmen.</p>
+                <p>Im Vergleich zu den oben genannten Quellen wurden Geschäftskorrespondenzen aus
+                    der Zeit der japanischen Vertragshäfen, seien sie von deutschen, seien sie von
+                    Unternehmen anderer Nationalität, relativ selten überliefert oder gar
+                    veröffentlicht. Bekannte Ausnahmen sind zum einen das Archiv des britischen
+                    Unternehmens Jardine Matheson &amp; Co. (gegr. 1832 in China, heute: Jardine
+                    Matheson Holdings Ltd.) in der Universität Cambridge, das – der Größe und
+                    Tradition des Unternehmens entsprechend – das umfangreichste seiner Art sein
+                    dürfte und in der wirtschaftshistorischen Forschung bereits vielfach Verwendung
+                    gefunden hat. Zum anderen liegt die Geschäfts- und Privatkorrespondenz des
+                    ebenfalls britischen Unternehmens Aspinall, Cornes &amp; Co. (gegr. 1861 in
+                    Yokohama, heute: Cornes &amp; Co.), die von den 1860er Jahren bis 1910 reicht,
+                    in edierter Form vor.<note>Davies, Peter N. (2008): <hi rend="italic">The
+                            Business, Life and Letters of Frederick Cornes: Aspects of the Evolution
+                            of Commerce in Modern Japan, 1861–1910</hi>. Folkestone: Global
+                        Oriental.</note> Von deutschsprachigen Unternehmen wie dem Schweizer
+                    Handelshaus Siber &amp; Brennwald (gegr. 1865 in Yokohama, heute: DKSH) und dem
+                    Hamburger Unternehmen Simon, Evers &amp; Co. (gegr. 1873 in Hamburg, heute:
+                    SECO) ist Geschäftsmaterial überliefert, das für Veröffentlichungen zur
+                    Verfügung gestellt,<note>YFRZ (2020): <hi rend="italic">Burenwarudo nikki
+                            1862–1867</hi> (s. FN 5).</note>
+                    <note>YKS (2015): <hi rend="italic">Burenwarudo no Bakumatsu•Meiji Nippon
+                            nikki</hi> (s. FN 6).</note>
+                    <note>Molsen, Käthe (1973):
+                        <hi rend="italic" xml:space="preserve">Simon, Evers &amp; Co. G.m.b.H. 1873–1973 </hi>[Veröffentlichungen
+                        der Wirtschaftsgeschichtlichen Forschungsstelle e.V., Hamburg, Bd. 35].
+                        Hamburg: Hanseatischer Merkur.</note> jedoch bisher nicht ediert wurde. Die
+                    vorliegende Edition ist somit die erste, die sich der Geschäftskorrespondenz
+                    eines deutschen Unternehmens aus der Zeit der Vertragshäfen widmet.</p>
+                <p>Sie birgt vielfältiges Potential für die historische Forschung.</p>
+                <p>Hier richtet sich der Blick zunächst auf die Geschichte des Unternehmens selbst,
+                    für die einzelne Briefe bereits ausgewertet wurden. Erschienen sind bisher die
+                    150-jährige Unternehmensgeschichte von C. Illies &amp; Co.<note>Bähr et al.
+                        (2009): <hi rend="italic">Handel ist Wandel</hi> (s. FN 1). </note> samt
+                    einer japanischen Variante<note>Kikkawa Takeo (2009): <hi rend="italic">Irisu
+                            150nen – Reimeiki no kioku / C. Illies &amp; Co. – Die Anfänge in
+                            Japan</hi>. Tokyo: C. Illies &amp; Co., Ltd. (übers. Hannelore
+                        Eisenhofer-Halim).</note> und bereits früher die 100-jährige Geschichte des
+                        Unternehmens<note>Molsen, Käthe (1959): <hi rend="italic">C. Illies &amp;
+                            Co. 1859–1959: Ein Beitrag zur Geschichte des deutsch-japanischen
+                            Handels</hi> [Veröffentlichungen der Wirtschaftsgeschichtlichen
+                        Forschungsstelle e.V., Hamburg, Bd. 23]. Hamburg: Hanseatischer
+                        Merkur.</note>. Wie für die meisten Handelsunternehmen jener Zeit gilt auch
+                    für L. Kniffler &amp; Co., dass die genaue Natur vieler Handelsgeschäfte unklar
+                    ist, d.h. ob und in welchem Umfang jeweils etwa Kommissionsgeschäfte getätigt
+                    wurden, ob im Rahmen von Agenturen für europäische Industrieunternehmen Importe
+                    gegen Provision vermittelt wurden oder ob auf eigene Rechnung gehandelt wurde,
+                    was eine gewisse Kapitalstärke voraussetzte, aber auch die größten Gewinne
+                        ermöglichte.<note>Davies (2008): <hi rend="italic">The Business, Life and
+                            Letters of Frederick Cornes</hi> (s. FN 10), S. 40.</note>
+                </p>
+                <p>Im größeren Rahmen der deutsch-japanischen Beziehungen kann das Material die
+                    wirtschaftshistorische Dimension ihrer Aufarbeitung stärken, die in ihrer
+                    Gesamtheit immer noch diplomatie- und kulturhistorisch geprägt ist.</p>
+                <p>Ähnliches gilt für die Geschichte der japanischen Vertragshäfen. Nachdem sie in
+                    der älteren Forschung primär als Orte von Konflikten betrachtet wurden, die sich
+                    aus den ungleichen Machtverhältnissen ergaben, unter denen sie eingerichtet
+                    wurden und häufig juristische Fragen im Zusammenhang mit den Ungleichen
+                    Verträgen im Vordergrund standen, hat sich das Erkenntnisinteresse in jüngster
+                    Zeit auf kultur- und alltagshistorische Themen verschoben. Die Vertragshäfen im
+                    gesamten ostasiatischen <hi rend="italic">treaty-port</hi>-System werden nun
+                    vermehrt als Kontaktzonen gesehen, die von Angehörigen verschiedener Kulturen
+                    bevölkert wurden, deren Interaktion und gegenseitige Wahrnehmung untersucht
+                        wird.<note>Brunero, Donna / Villalta Puig, Stephanie (Hrsg.) (2018): <hi rend="italic">Life in Treaty Port China and Japan</hi>. Singapore:
+                        Palgrave Macmillan.</note>
+                </p>
+                <p>Betrachtet man demgegenüber die Wirtschaftsgeschichte der Vertragshafenzeit, so
+                    wurde die Makrogeschichte der Industrialisierung und Einbindung Japans in den
+                    Welthandel während der zweiten Hälfte des 19. Jahrhunderts bereits gut
+                    erforscht, insbesondere durch die japanischen Wirtschaftshistoriker Sugihara
+                    Kaoru, Sugiyama Shinya und Ishii Kanji, die zum Teil auch auf Englisch
+                    publiziert haben. Im Sinne einer Mikrogeschichte der Globalisierung wurde die
+                    Rolle einzelner Unternehmen in diesem Prozess bisher jedoch weniger intensiv
+                    aufgearbeitet, erst recht, was nicht-britische Unternehmen anbelangt. So
+                    erlauben es Geschäftskorrespondenzen wie diejenige von L. Kniffler &amp; Co. zum
+                    einen, beispielhaft die globale Vernetzung des europäischen, insbesondere jedoch
+                    des deutschen Asienhandels Mitte des 19. Jahrhunderts nachzuvollziehen. Zum
+                    anderen helfen die darin enthaltenen detaillierten Angaben über Umfänge,
+                    Zusammensetzungen und Richtungen einzelner Warenlieferungen sowie über die
+                    Entwicklung von Preisen nicht nur das Alltagsgeschäft eines solchen
+                    Handelshauses, sondern letztlich auch seinen Beitrag zur Industrialisierung und
+                    Modernisierung Japans fassbar zu machen – wie es in der 150jährigen
+                    Unternehmensgeschichte von 2009 bereits versucht wurde.</p>
+                <p>Die Möglichkeiten, die die Edition bietet, werden durch die Lückenhaftigkeit der
+                    Überlieferung begrenzt. Die ursprüngliche Geschäftskorrespondenz von L. Kniffler
+                    &amp; Co. war fraglos sehr viel umfangreicher, der Verbleib der fehlenden
+                    Dokumente ist jedoch ungeklärt. Möglicherweise gingen sie verloren, als die
+                    Niederlassung in Yokohama, die von 1866 bis 1898 Hauptsitz des Unternehmens war,
+                    durch das Große Kantō-Erdbeben im Jahr 1923 vollständig zerstört wurde. Ob eine
+                    systematische Archivierung von Geschäftsunterlagen bis dahin überhaupt betrieben
+                    wurde, ist freilich nicht bekannt.</p>
+                <p>Auch über die besonderen Umstände, die dazu führten, dass die vorliegenden
+                    Dokumente erhalten sind, während die meisten anderen verlorengingen, kann
+                    lediglich spekuliert werden. Es ist kein innerer Zusammenhang erkennbar, der auf
+                    eine gezielte Auswahl hindeuten würde. Eine Ausnahme in dieser Hinsicht könnte
+                    allenfalls eine kleine Gruppe von Briefen bilden, die L. Kniffler &amp; Co. aus
+                    den deutschen diplomatischen Vertretungen in Nagasaki, Yokohama und Tokyo bekam.
+                    Da es darin um rechtliche Belange ging, könnten sie für eventuelle gerichtliche
+                    Auseinandersetzungen archiviert worden sein.</p>
+                <p>Es ist bedauerlich, dass in der Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                    kein einziger Brief von japanischen Kaufleuten oder japanischen Behörden
+                    überliefert ist und die japanseitige Korrespondenz somit völlig fehlt. Dies
+                    könnte damit zusammenhängen, dass europäische und US-amerikanische Handelshäuser
+                    in Japan üblicherweise zwei Kontore unterhielten: eines für die internationale
+                    Korrespondenz, die in europäischen Sprachen mit Partnern in Europa, den USA und
+                    darüber hinaus geführt wurde, und ein zweites für die inländische Korrespondenz
+                    mit japanischen Geschäftspartnern, die anfänglich von chinesischen Angestellten
+                        (<hi rend="italic">compradors</hi>) in chinesischer Schrift und später von
+                    japanischen Geschäftsführern (<hi rend="italic">bantō</hi>) auf Japanisch
+                    geführt wurde. Die inländische Korrespondenz wurde somit an einem anderen Ort
+                    abgewickelt – und möglicherweise auch an einem anderen Ort archiviert – als die
+                    internationale. Man kann vermuten, daß viele europäische oder US-amerikanische
+                    Inhaber der Handelshäuser, die das Japanische in der Regel nicht beherrschten,
+                    kaum mit ihr in Berührung gekommen sein dürften oder zumindest wenig Sinn darin
+                    sahen, sie zu archivieren oder gar in die Heimat zu überführen, wie es mit der
+                    Kniffler-Korrespondenz zu einem unbekannten Zeitpunkt geschehen sein muss.</p>
+                <p>Was die Zusammensetzung des hier edierten Quellenkonvolutes anbelangt, so besteht
+                    die große Mehrheit der Dokumente aus klassischen Geschäftsbriefen, die sich auf
+                    konkrete Handelsgeschäfte beziehen. Darüber hinaus enthält die Korrespondenz
+                    noch einige andere Materialien, beispielsweise Rundschreiben über
+                    Personalveränderungen, Marktberichte oder auch Briefe aus deutschen
+                    diplomatischen Vertretungen in Japan.</p>
+                <p>Als Besonderheit ist hervorzuheben, dass L. Kniffler und Co., Louis Kniffler
+                    selbst oder andere Unternehmensangehörige Empfänger sämtlicher Briefe waren.
+                    Etwaige Kopien von Briefen, die von L. Kniffler &amp; Co. abgesandt wurden, oder
+                    gar Originale mit dem Absender L. Kniffler &amp; Co. sind in der
+                    Unternehmensüberlieferung hingegen nicht erhalten. Es lassen sich daher keine
+                    vollständigen Briefwechsel rekonstruieren.</p>
+                <p>Die meisten Briefe waren an das Stammhaus von L. Kniffler &amp; Co. in Nagasaki
+                    gerichtet, gefolgt von der aufstrebenden Niederlassung in Yokohama, die 1866
+                    Hauptsitz des Unternehmens wurde. Die Absender saßen zu ungefähr gleichen Teilen
+                    in Asien und Europa, einige wenige in den USA. Unter ihnen überwiegen
+                    Handelsunternehmen deutlich gegenüber Versicherungen und Banken, deren
+                    Funktionen in der fraglichen Zeit freilich in vielen Fällen ebenfalls von
+                    Handelsunternehmen ausgeübt wurden. Auch sind nur wenige Schreiben von
+                    Reedereien und Industrieunternehmen in dem Quellenkonvolut enthalten.</p>
+                <p>Dem Inhalt vieler Briefe ist zu entnehmen, dass ihnen ursprünglich Rechnungen,
+                    Frachtbriefe oder auch Versicherungen beigelegt waren, die nicht erhalten sind.
+                    Dennoch lassen sich anhand der Briefe zahlreiche einzelne Geschäfte detailliert
+                    nachvollziehen, da sie auf die fehlenden Dokumente Bezug nehmen. So enthalten
+                    viele Briefe Bestätigungen über empfangene Lieferungen von L. Kniffler &amp;
+                    Co., Bestätigungen über eingegangene Zahlungen von L. Kniffler &amp; Co.,
+                    Beschreibungen aktueller Lieferungen an L. Kniffler &amp; Co. samt Bitte um
+                    Empfangsbestätigung und Zahlung sowie schließlich auch Bestellungen.</p>
+                <p>In vielen Briefen wird die aktuelle Preisentwicklung wichtiger Handelsgüter am
+                    Absenderort beschrieben und es werden Neuigkeiten über die internationale
+                    Geschäftslage mitgeteilt. Solche Marktinformationen waren für international
+                    tätige Handelsunternehmen wie L. Kniffler &amp; Co. von zentraler Bedeutung, da
+                    sie zunächst wesentlich vom Arbitrage-Handel lebten und das Wissen über
+                    Preisdifferenzen zwischen den verschiedenen Marktplätzen in den japanischen
+                    Vertragshäfen und in Übersee es ihnen ermöglichte zu beurteilen, welche
+                    Geschäfte sich lohnen mochten. Da sich die Preise jedoch mitunter rasch in die
+                    eine oder andere Richtung entwickelten, kam es darauf an, dass die Informationen
+                    möglichst aktuell waren. Die Schiffspost zwischen Shanghai und Nagasaki war der
+                    schnellste internationale Kommunikationsweg, bevor Japan im Jahr 1872 per
+                    Unterseekabel zwischen diesen beiden Städten an das globale Telegraphennetz
+                    angeschlossen wurde. Bis zur Etablierung der Telegraphie im Alltagsgeschäft
+                    spielte der Briefwechsel zwischen befreundeten Unternehmen die wichtigste Rolle
+                    in der Informationsübermittlung. Aus der Geschäftskorrespondenz lässt sich
+                    ablesen, dass L. Kniffler &amp; Co. Teil eines Informationsnetzwerks war, zu dem
+                    unter anderem auch Siemssen &amp; Co. in China und Pandel &amp; Stiehaus in
+                    Batavia gehörten.</p>
+                <p>Eine Ergänzung der lückenhaften Unternehmensüberlieferung wäre in gewissem Maße
+                    sicherlich noch möglich, jedoch auch sehr aufwendig. Dazu müssten Dokumente aus
+                    dem Besitz von Geschäftspartnern von L. Kniffler &amp; Co. beschafft werden, wie
+                    es zum Teil für die 150-jährige Unternehmensgeschichte von C. Illies &amp; Co.
+                    bereits geschehen ist. Dabei stellt sich die Herausforderung, dass die
+                    Geschäftskontakte von L. Kniffler &amp; Co. – abgesehen von den Namen, die in
+                    der Korrespondenz erwähnt werden – größtenteils unbekannt sind, da entsprechende
+                    Listen oder Adressbücher nicht erhalten sind. Bei der Suche nach möglichen
+                    Geschäftspartnern von L. Kniffler &amp; Co. ist wiederum zu bedenken, dass die
+                    meisten Handelsunternehmen, die Mitte des 19. Jahrhunderts aktiv waren, heute
+                    nicht mehr existieren, so dass sich die Hoffnung auf Firmenarchive nur selten
+                    erfüllen wird. Aussichtsreichere, da langlebigere Anlaufstellen sind deutsche
+                    und andere europäische Industrieunternehmen, deren Produkte L. Kniffler und Co.
+                    nach Japan verkauften oder die in umgekehrter Richtung von L. Kniffler &amp; Co.
+                    mit japanischen Waren, insbesondere Rohseide, beliefert wurden. Über den
+                    geschäftlichen Kontext hinaus kommt schließlich noch die Überlieferung aus den
+                    niederländischen, deutschen und anderen Konsulaten in Japan in Betracht, mit
+                    denen das Unternehmen korrespondierte.</p>
+                <p>Um an Überreste der japanseitigen Korrespondenz oder auch an andere japanische
+                    Quellen über L. Kniffler &amp; Co. zu gelangen, wäre spiegelbildlich ebenso in
+                    Japan vorzugehen. Erste Anlaufstellen sind die Lokalarchive in den früheren
+                    Vertragshäfen. Im Rahmen des Projektes konnten am Gründungssitz des Unternehmens
+                    in Nagasaki im dortigen Nagasaki Rekishi Bunka Hakubutsukan (Nagasaki Museum of
+                    History and Culture) bereits zahlreiche Behördendokumente, die L. Kniffler &amp;
+                    Co. betreffen, digitalisiert werden. Ihre inhaltliche Erschließung ist Teil
+                    einer geplanten Fortsetzung dieser Edition. Auch Akten der ehemaligen Lehnstümer
+                        (<hi rend="italic">han</hi>) sowie der Meiji-Regierung, die im Zuge des
+                    sogenannten „Regierungsgeschäfts“ von L. Kniffler &amp; Co. beliefert wurden
+                    sowie Unternehmensüberlieferungen japanischer Handelshäuser und
+                    Industrieunternehmen, mit denen L. Kniffler &amp; Co. Geschäfte machten, müssten
+                    ausfindig gemacht werden.</p>
+                <p>Zum Teil kann auch auf die zumeist japanische Sekundärliteratur zurückgegriffen
+                    werden, die sich mit den japanischen Kaufleuten in den Vertragshäfen befasst.
+                    Insbesondere im Umfeld des Yokohama Kaikō Shiryōkan (Yokohama Archives of
+                    History) sind bereits zahlreiche Einzelstudien auf diesem Gebiet entstanden. Auf
+                    Englisch ist Simon Partners<note>Partner, Simon (2018): <hi rend="italic">The
+                            Merchant’s Tale: Yokohama and the Transformation of Japan</hi>. New
+                        York: Columbia University Press.</note>
+                    <note>Partner, Simon (2020): „Small Town, Big Dreams: A Yokohama Merchant and
+                        the Transformation of Japan“, in: Hellyer, Robert / Fuess, Harald (Hrsg.):
+                            <hi rend="italic">The Meiji Restoration: Japan as a Global Nation</hi>.
+                        Cambridge: Cambridge University Press, S. 62–82.</note> exzellente,
+                    ebenfalls auf der Grundlage einer Geschäftskorrespondenz verfasste Biographie
+                    des Kaufmanns Shinohara Chūemon (1809–1891) hervorzuheben, der zur Zeit des
+                    Bestehens der Firma L. Kniffler &amp; Co. mit ausländischen Kaufleuten in
+                    Yokohama Geschäfte machte.</p>
+                <p>Die Forschungsstränge zu den euroamerikanischen, japanischen und chinesischen
+                    Kaufleuten in den Vertragshäfen zusammenzuführen und Verbindungen zwischen ihnen
+                    offenzulegen, wäre ein lohnendes Unterfangen, das zur Mikrogeschichte der
+                    Einbindung Japans in den Welthandel und somit der wirtschaftlichen
+                    Globalisierung in der zweiten Hälfte des 19. Jahrhunderts beitrüge.</p>
+                <div>
+                    <div>
+                        <head>Literaturverzeichnis</head>
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>About the Sources</head>
+                <p>The 156 documents edited here, dating from 1859 to 1876, in their entirety form
+                    the international business correspondence of L. Kniffler &amp; Co., as it has
+                    been preserved in the archive of its legal successor company C. Illies &amp; Co.
+                    It is now being published for the first time in the shape of this edition.</p>
+                <p>The impulse for this undertaking came from repeated requests from the expert
+                    community who had been made aware of the existence of these rare company records
+                    by the publication of the company history of C. Illies &amp; Co. on its 150th
+                        anniversary.<note>Bähr, Johannes / Lesczenski, Jörg / Schmidtpott, Katja
+                        (2009): <hi rend="italic">Handel ist Wandel: 150 Jahre C. Illies &amp;
+                            Co</hi>. Munich: Piper. [Engl. translation: <hi rend="italic">Winds of
+                            change: On the 150</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic" xml:space="preserve"> anniversary of C. Illies &amp; Co.</hi>]</note>
+                    Among the sources edited so far on the history of the Japanese trade of European
+                    and American companies during the time of the treaty ports (1859–1899), business
+                    correspondence is indeed a rarity.</p>
+                <p>A large part of the sources published thus far, both of German merchants as well
+                    as merchants of other nationalities who were active in the Japanese treaty
+                    ports, falls in the category of personal testimonies. This is made up mostly of
+                    memoirs, which were published after a person’s return to the home country or
+                    after they retired and which partly overlap with the genre of travel writing.
+                    The most popular example in the German-speaking area, the <hi rend="italic">roman à clef</hi> “Kontorrock und Konsulatsmütze”, was written by Arthur
+                    Richard Weber (1841–1920), who was an employee at L. Kniffler &amp;
+                        Co.<note>Weber, A.R. (1981): <hi rend="italic">Kontorrock und
+                            Konsulatsmütze</hi> [Office Frock Coat and Consulate Cap]. Tokyo:
+                        Deutsche Gesellschaft für Natur- und Völkerkunde Ostasiens (reprint of the
+                        new 1973 edition. First new edition 1939. First published 1886).</note>
+                    Martin Hermann Gildemeister, too, left behind memoirs, which unlike Weber, he
+                    kept short and factual.<note>Glade, Dieter (ed.) (1985): “Die Lebenserinnerungen
+                        des Martin Hermann Gildemeister: Herausgegeben und kommentiert von Dieter
+                        Glade” [The Memoirs of Martin Hermann Gildemeister: Edited and annotated by
+                        Dieter Glade], in: <hi rend="italic">Rotenburger Schriften</hi> 62, pp.
+                        69–92.</note> Among the memoirs of merchants from other countries published
+                    in recent years, those of the Dutchman Cornelis Theodoor Assendelft de Coningh
+                    (1821–1890) are worth mentioning here.<note>Chaiklin, Martha (2012): <hi rend="italic">A Pioneer in Yokohama: A Dutchman’s Adventures in the New
+                            Treaty Port.</hi> Indianapolis, Cambridge: Hackett Publishing Company
+                        (From <hi rend="italic">Ontmoetingen ter Zee en te Land</hi>, 1879, ed.,
+                        transl., intr. by Martha Chaiklin).</note> Diaries, too, are available in
+                    published form, for example those of the Swiss merchant Caspar Brennwald
+                    (1838–1899), the founder of Siber &amp; Brennwald (today: DKSH),<note>YFRZ =
+                        Yokohamashi Furusato Rekishi Zaidan / Burenwarudo Nikki Kenkyūkai (ed.)
+                        (2020): <hi rend="italic">Suisu shisetsudan ga mita Bakumatsu no Nihon:
+                            Burenwarudo nikki 1862-1867</hi> [Japan towards the End of the
+                        Edo-Period in Observations of the Swiss Mission to Japan: The Diaries of
+                        Brennwald, 1862–1867]. Tokyo: Bensei Shuppan.</note>
+                    <note>YKS = Yokohama
+                        Kaikō Shiryōkan (Yokohama Archives of History) (ed.) (2015): <hi rend="italic">Burenwarudo no Bakumatsu•Meiji Nippon nikki: Shirarezaru
+                            Suisu•Nihon no kōryūshi</hi> [Brennwald Diary in Bakumatsu-Meiji Japan:
+                        Unknown History of Exchange between Switzerland and Japan]. Tokyo: Nikkei
+                        BPsha.</note> or those of the US citizen Francis Hall (1822–1902), who
+                    worked as a merchant at Walsh, Hall &amp; Co. and as a correspondent for the <hi rend="italic">New York Tribune</hi>.<note>Notehelfer, F.G. (2001): <hi rend="italic">Japan Through American Eyes: The Journal of Francis Hall,
+                            1859–1866</hi>. Boulder: Westview Press (ed., ann., and abr. by F.G.
+                        Notehelfer).</note> Private letters, on the other hand, form the basis for
+                    the biography of the Northern German merchant Hinrich Ahrens (1842–1886), whose
+                    company H. Ahrens &amp; Co. was structured in a similar way to C. Illies &amp;
+                        Co.<note>Reimers, Carolin (2010): <hi rend="italic">“Zeit ist Geld”: Der
+                            Kaufmann Hinrich Ahrens und die Anfänge des deutschen Handels in
+                            Japan</hi> [“Time is Money”: The Merchant Hinrich Ahrens and the
+                        Beginnings of Trade in Japan]. Münster: Monsenstein und
+                    Vannerdat.</note>
+                </p>
+                <p>In terms of their content, the focus of many of these personal testimonials is on
+                    descriptions of the social life within the European and American communities,
+                    portrayals of the changeable situation in Japan regarding domestic and foreign
+                    policy at the time of the armed conflicts that preceded the Meiji Restoration in
+                    1868, as well as on observations of the Japanese environment and its people. The
+                    trading activities themselves, however, are only dealt with relatively
+                    superficially, and we get to know very little about the contents and the extent
+                    of actual business deals.</p>
+                <p>The edited sources from German merchants in Japan in the mid-19th century
+                    furthermore feature a number of letters by Louis Kniffler and Martin Hermann
+                    Gildemeister from the holdings of the state archives of Hamburg und Bremen.
+                    These letters document the efforts made by these two Hanseatic cities to draw up
+                    trade deals with the Japanese government in the period from 1855 to
+                        1867.<note>Mathias, Regine / Pauer, Erich (eds.) (1992): <hi rend="italic">Die Hansestädte und Japan, 1855–1867: Ausgewählte Dokumente</hi> [The
+                        Hanseatic Cities and Japan, 1855–1867: Selected Documents] [Marburger
+                        Japan-Reihe, vol. 7]. Marburg: Förderverein Marburger Japan-Reihe.</note>
+                    They widen the research basis regarding the beginnings of the German-Japanese
+                    relationship by shining a light on the politico-economic activities that the
+                    merchants undertook to initiate it.</p>
+                <p>Compared to the sources mentioned above, business correspondence from the time of
+                    the Japanese treaty ports, whether from German companies or from those of other
+                    nationalities, has been preserved or even published to a much lesser extent.
+                    Well-known exceptions are, firstly, the archive of the British company Jardine
+                    Matheson &amp; Co. (founded in China in 1832, today: Jardine Matheson Holdings
+                    Ltd.) at Cambridge University. This archive – in keeping with the size and the
+                    tradition of the company – may well be the most extensive of its kind and
+                    consequently has already been frequently used for politico-economic research.
+                    Secondly, the business and private correspondence of another British company,
+                    Aspinall, Cornes &amp; Co. (founded in Yokohama in 1861, today: Cornes &amp;
+                    Co.), which spans the period from the 1860s until 1910, is available in an
+                    edited form.<note>Davies, Peter N. (2008): <hi rend="italic">The Business, Life
+                            and Letters of Frederick Cornes: Aspects of the Evolution of Commerce in
+                            Modern Japan, 1861–1910</hi>. Folkestone: Global Oriental.</note> As
+                    concerns German-language companies such as the Swiss trading house Siber &amp;
+                    Brennwald (founded in Yokohama in 1865, today: DKSH) and the Hamburg firm Simon,
+                    Evers &amp; Co. (founded in Hamburg in 1873, today: SECO) there is extant
+                    business material that has been made available for publications<note>YFRZ
+                        (2020): <hi rend="italic">Burenwarudo nikki 1862–1867</hi> (cf. n.
+                        5).</note>
+                    <note>YKS (2015): <hi rend="italic">Burenwarudo no Bakumatsu•Meiji
+                            Nippon nikki</hi> (cf. n. 6).</note>
+                    <note>Molsen, Käthe (1973): <hi rend="italic">Simon, Evers &amp; Co. G.m.b.H. 1873–1973
+                        </hi>[Veröffentlichungen der Wirtschaftsgeschichtlichen Forschungsstelle
+                        e.V., Hamburg, vol. 35]. Hamburg: Hanseatischer Merkur.</note> but has not
+                    yet been edited. This present edition is thus the first dedicated to the
+                    business correspondence of a German company during the treaty port period.</p>
+                <p>This edition harbours significant potential for historical research in many
+                    ways.</p>
+                <p>In the first instance, the focus is on the history of the company itself, in
+                    which regard individual letters have already been studied. Publications in this
+                    regard so far include the company history on the event of the 150th anniversary
+                    of C. Illies &amp; Co.<note>Bähr et al. (2009): <hi rend="italic">Handel ist
+                            Wandel</hi> (cf. n. 1).</note> and its Japanese version<note>Kikkawa
+                        Takeo (2009): <hi rend="italic">Irisu 150nen – Reimeiki no kioku / C. Illies
+                            &amp; Co. – Die Anfänge in Japan</hi> [C. Illies &amp; Co. – The
+                        Beginnings in Japan]. Tokyo: C. Illies &amp; Co., Ltd. (transl. Hannelore
+                        Eisenhofer-Halim).</note> as well as the earlier company history occasioned
+                    by the 100th anniversary<note>Molsen, Käthe (1959): <hi rend="italic">C. Illies
+                            &amp; Co. 1859–1959: Ein Beitrag zur Geschichte des deutsch-japanischen
+                            Handels</hi> [C. Illies Co. 1859–1959: A Contribution to the History of
+                        German-Japanese Trade] [Veröffentlichungen der Wirtschaftsgeschichtlichen
+                        Forschungsstelle e.V., Hamburg, vol. 23]. Hamburg: Hanseatischer
+                        Merkur.</note>. Similar to most other trading companies of that era, with
+                    regard to L. Kniffler &amp; Co., too, it holds true that the precise nature of
+                    many of its business undertakings are unclear. This means we do not know
+                    whether, and to what extent, commission business was conducted, whether the
+                    companies dealt in an agency capacity on behalf of European manufacturing
+                    companies on a commission basis or whether they traded on their own account,
+                    with the latter requiring a certain amount of financial strength but also
+                    enabling much larger profits.<note>Davies (2008): <hi rend="italic">The
+                            Business, Life and Letters of Frederick Cornes</hi> (cf. n. 10), p.
+                        40.</note>
+                </p>
+                <p>Within the wider context of German-Japanese relations, the material can lead to a
+                    stronger focus on economic history in the analysis of the nations’ relationship,
+                    as generally the angle there still tends to be very much on diplomatic and
+                    cultural history.</p>
+                <p>Something similar can be said for the history of the Japanese treaty ports.
+                    Having been viewed in older research primarily as the site of conflicts that
+                    resulted from the unequal balance of power they were set up under and thus often
+                    having been considered with a focus on legal matters connected to the Unequal
+                    Treaties, the research interest more recently shifted towards topics related to
+                    the history of culture and everyday life. The treaty ports in the entire East
+                    Asian treaty port system are now increasingly seen as areas of contact inhabited
+                    by members of different cultures, whose interaction and perception of each other
+                    is being investigated.<note>Brunero, Donna / Villalta Puig, Stephanie (eds.)
+                        (2018): <hi rend="italic">Life in Treaty Port China and Japan</hi>.
+                        Singapore: Palgrave Macmillan.</note>
+                </p>
+                <p>If we look at the economic history of the treaty port period, we find that the
+                    macrohistory of the industrialisation and integration of Japan into world trade
+                    during the second half of the 19th century has already been extensively
+                    researched, especially by the Japanese historians of economics Sugihara Kaoru,
+                    Sugiyama Shinya and Ishii Kanji, some of whose works have been published in
+                    English. However, with regard to researching the microhistory of globalisation,
+                    the role of individual companies has so far been studied much less intensively,
+                    especially when it comes to non-British firms. Thus, business correspondence
+                    such as that of L. Kniffler &amp; Co. on the one hand enables us, based on this
+                    company’s specific example, to form a picture of the global entanglement of the
+                    European, and especially the German, trade with Asia in the mid-19th century. On
+                    the other hand, it contains detailed information about the size, content and
+                    destination of individual shipments of goods as well as about price trends. This
+                    information illustrates not only the day-to-day business of such a trading house
+                    but also provides a tangible impression of the contribution the company
+                    ultimately made to the industrialisation and modernisation of Japan – which is
+                    what the company history published on the occasion of the 150 anniversary in
+                    2009 already attempted to achieve. </p>
+                <p>The possibilities opened up by this edition are, nonetheless, limited by gaps in
+                    the written records. Without a doubt the business correspondence of L. Kniffler
+                    &amp; Co. will originally have been much more extensive, and the fate of the
+                    missing documents is unknown. It is possible that they were lost when the
+                    Yokohama office, the company’s headquarters from 1866 until 1898, was completely
+                    destroyed during the Great Kantō Earthquake in 1923. However, it is also unknown
+                    whether there had in fact been any systematic archiving prior to this event.</p>
+                <p>With regard to the special circumstances that led to the survival of the
+                    documents presented here while most of the others were lost we are, again,
+                    reduced to speculation. There is no discernible connection between the documents
+                    that would suggest they were deliberately selected to be preserved. One possible
+                    exception in this regard, if at all, might be formed by a small group of letters
+                    that L. Kniffler &amp; Co. received from the German diplomatic missions in
+                    Nagasaki, Yokohama and Tokyo. As these letters concerned legal matters, it may
+                    be that they were archived in the case of potential court hearings.</p>
+                <p>It is regrettable that in the business correspondence of L. Kniffler &amp; Co.
+                    not a single letter from Japanese merchants or the Japanese authorities has been
+                    preserved, which means that the Japanese correspondence is missing in its
+                    entirety. This may be due to the fact that it was usual practice for European
+                    and US trading houses in Japan to maintain two separate offices: one dealing
+                    with international correspondence conducted in European languages with their
+                    partners in Europe, the USA and further afield, and a second dealing with
+                    domestic correspondence with their Japanese business partners, which was
+                    initially conducted by Chinese employees (<hi rend="italic">compradors</hi>)
+                    using Chinese characters and later on by Japanese managers (<hi rend="italic">bantō</hi>) writing in Japanese script. The domestic correspondence was
+                    thus dealt with at a different place – and therefore possibly archived at a
+                    different place – than the international correspondence. It is a reasonable
+                    assumption that many European or American owners of the trading houses, who
+                    generally did not know Japanese, will have had little contact with the Japanese
+                    documents or, if they did, may not have considered it expedient to archive them
+                    or even transport to the home countries, as the surviving Kniffler
+                    correspondence must have been at some unknown point in time.</p>
+                <p>Regarding the composition of the set of sources edited here, the vast majority of
+                    the documents consist of classic business letters dealing with specific business
+                    deals. Furthermore, the correspondence also features some other material, such
+                    as circulars informing the readers about staff changes, market reports as well
+                    as letters from diplomatic missions in Japan.</p>
+                <p>It should be stressed as a unique characteristic here that L. Kniffler &amp; Co.,
+                    Louis Kniffler or other members of the company were the recipients of all of
+                    these letters. Copies of letters, if they existed, sent by L. Kniffler &amp; Co.
+                    or any original letters with the sender’s address given as L. Kniffler &amp; Co.
+                    have not been preserved at all in the company records that were passed down.
+                    This makes it impossible to reconstruct any letter exchanges in their
+                    entirety.</p>
+                <p>Most of the letters were addressed to the principal office of L. Kniffler &amp;
+                    Co. in Nagasaki, followed by the up and coming subsidiary in Yokohama, which in
+                    1866 was elevated to become the headquarters. The senders were located in
+                    roughly equal measure in Asia and Europe, with a few also in the USA. Among
+                    them, trading companies significantly outweigh insurance companies and banks. At
+                    the time, it was in fact frequently other trading companies that also undertook
+                    the function of banks and insurances. There is also a scarcity of letters from
+                    shipowning companies and industrial enterprises preserved as part of the set of
+                    sources.</p>
+                <p>The content of many letters suggests that originally they would have contained
+                    enclosed invoices, bills of lading or insurance papers, which have not survived.
+                    Nonetheless, by means of the letters it is possible to reconstruct various
+                    individual business undertakings because the letter text made reference to the
+                    missing documents. Thus, many letters contain confirmations of deliveries
+                    received from L. Kniffler &amp; Co., confirmations of payments received from L.
+                    Kniffler &amp; Co., descriptions of current shipments to L. Kniffler &amp; Co.
+                    with the request for notification of receipt and for payment, and, last but not
+                    least, they also feature purchase orders. </p>
+                <p>Many letters describe the current price trends for important trading goods at the
+                    sender’s location and provide news about the state of the market
+                    internationally. Such market information was of crucial importance to
+                    international trading companies like L. Kniffler &amp; Co. because they
+                    initially depended hugely on arbitrage. Consequently, having knowledge about the
+                    differences in price between the different marketplaces in the Japanese treaty
+                    ports and overseas enabled them to make a judgment call on which business
+                    undertakings might be lucrative. As the prices, however, could quickly either
+                    drop or rise, it was essential that the information was as up-to-date as
+                    possible. Sending post by ship between Shanghai and Nagasaki was the fastest way
+                    to communicate internationally until Japan got linked to the global telegraph
+                    network with an undersea cable between these two cities. Before telegraphy took
+                    over as the established means of communication in everyday business, exchanging
+                    letters between companies that were in contact with each other was therefore the
+                    most important way of communicating information. From the business
+                    correspondence of L. Kniffler &amp; Co. we can see that the company formed part
+                    of an information network that also included, amongst others, Siemssen &amp; Co.
+                    in China and Pandel &amp; Stiehaus in Batavia.</p>
+                <p>Filling the gaps in the surviving company records would, to some extent,
+                    certainly be possible, though it would also be very time-consuming. It would
+                    require documents to be procured from the holdings of the business partners of
+                    L. Kniffler &amp; Co., which was partly already done for the purpose of the
+                    company history on the 150th anniversary of C. Illies &amp; Co. However, this is
+                    a challenging task because the business contacts of L. Kniffler &amp; Co. –
+                    apart from those named in the correspondence – are largely unknown due to the
+                    fact that relevant lists or address books are not extant. When searching for
+                    possible business partners of L. Kniffler &amp; Co., it furthermore has to be
+                    factored in that most trading companies active in the mid-19th century do not
+                    exist any more, which means that the hope of finding company archives very
+                    rarely comes true. More promising points of contact due to their longevity are
+                    German and other European manufacturing companies whose products L. Kniffler
+                    &amp; Co. sold in Japan or whom L. Kniffler &amp; Co., in turn, supplied with
+                    Japanese goods, particularly raw silk. Beyond the business context it would also
+                    be possible to consult the records of the Dutch, German and any other consulates
+                    that the company was in correspondence with.</p>
+                <p>To gain access to the company’s Japan-internal correspondence as well as to other
+                    Japanese sources about L. Kniffler &amp; Co., a similar approach would be
+                    necessary. Initial points of contact are the local archives in the former treaty
+                    ports. As part of the present project, numerous official bureaucratic documents
+                    concerning L. Kniffler held at the Nagasaki Rekishi Bunka Hakubutsukan (Nagasaki
+                    Museum of History and Culture) have already been successfully digitised as this
+                    city was where the company’s original headquarters were founded. The analysis of
+                    their contents forms part of a planned follow-up volume to this edition. It
+                    would also be necessary to locate the records of the former fiefdoms (<hi rend="italic">han</hi>) as well as of the Meiji government, which was
+                    supplied by L. Kniffler &amp; Co. as part of the company’s so-called
+                    “governmental business”. Similarly, the company records of Japanese trading
+                    houses and manufacturing businesses that L. Kniffler &amp; Co. had dealings with
+                    will have to be located.</p>
+                <p>In parts it will also be possible to make use of the, mostly Japanese, secondary
+                    literature dealing with Japanese merchants at the treaty ports. Especially at
+                    the Yokohama Kaikō Shiryōkan (Yokohama Archives of History) a number of
+                    individual studies have already been conducted in this field of study. Among the
+                    English-language literature, we should draw particular attention to Simon
+                        Partner’s<note>Partner, Simon (2018): <hi rend="italic">The Merchant’s Tale:
+                            Yokohama and the Transformation of Japan</hi>. New York: Columbia
+                        University Press.</note>
+                    <note>Partner, Simon (2020): “Small Town, Big
+                        Dreams: A Yokohama Merchant and the Transformation of Japan”, in: Hellyer,
+                        Robert / Fuess, Harald (eds.): <hi rend="italic">The Meiji Restoration:
+                            Japan as a Global Nation</hi>. Cambridge: Cambridge University Press,
+                        pp. 62–82.</note> excellent biography of the merchant Shinohara Chūemon
+                    (1809–1891), which was also written on the basis of a body of business
+                    correspondence. At the time that the company L. Kniffler &amp; Co. existed,
+                    Shinohara was in the business of trading with foreign merchants.</p>
+                <p>Bringing together the various strands of research regarding the European,
+                    American, Japanese and Chinese merchants who operated at the treaty ports and
+                    revealing the connections between these merchants would be a rewarding
+                    undertaking, which would contribute to the microhistory of Japan’s integration
+                    into the world trade and thus of the economic globalisation in the second half
+                    of the 19th century.</p>
+                <div>
+                    <div>
+                        <head>References</head>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

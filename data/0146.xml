@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>H. C. Bock in Hamburg an L. Kniffler &amp; Co. in Yokohama am 2. Oktober
+                    1872</title>
+            <title type="file">0146.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-136</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben sowie eine Umschlagsseite mit
+                            mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+               <settlement ref="K00522">Hamburg</settlement>
+               <date when="1872-10-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1872-11-24"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-06" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-29" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">
+               <hi rend="underline">via <placeName ref="K00554">Brindisi</placeName>.</hi>
+            </hi>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>, <date when="1872-10-02">2. Oct.
+                            1872</date>.</hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co</orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>,</hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>.</hi>
+            </seg>
+            <lb/> Ich schrieb Ihnen zuletzt am <date when="1872-08-01">1. August <choice>
+                  <abbr>d<hi rend="superscript">s</hi>.</abbr>
+                  <expan> desselben</expan>
+               </choice>
+            </date>, wel-<lb/> ches Schreiben ich in ihren Händen hoffe und dessen Inhalt<lb/>
+                ich Ihnen hiermit bestätige. Seit Abgang jenes Schreibens<lb/> hatte ich das
+                Vergnügen Ihre geehrten Zuschriften vom <date when="1872-06-11">11.<lb/>
+                Juni</date>, <date when="1872-07-06">6 Juli</date> und zwei vom <date when="1872-08-06">6. August</date>
+            <date when="1872">
+               <choice>
+                  <abbr>d. J.</abbr>
+                  <expan> dieses Jahres</expan>
+               </choice>
+            </date> zu empfangen.<lb/> den letztgenannten Schreiben entfaltete ich Ihre <term type="commercial" ref="K01523">Rimesse</term> de<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <term type="currency" ref="K01846">Rrth</term> 45,000＂-</cell>
+                  <cell>
+                     <hi rend="latintype">
+                        <term type="commercial" ref="K01652">à vista</term>
+                     </hi>- auf die <hi rend="latintype">
+                        <orgName type="firm" ref="K01073">Deutsche Bank, Aktien<lb/>
+                           <choice>
+                              <abbr>Ges.</abbr>
+                              <expan>Gesellschaft</expan>
+                           </choice>
+                        </orgName>
+                        <placeName ref="K00526">Berlin</placeName>,</hi> welche ich Ihnen
+                            nach Abzug von<lb/>
+                     <term type="currency" ref="K01846">Rthl.</term>
+                     <measure type="currency" unit="taler" quantity="22.15">22„ 15</measure>
+                     <term type="currency" ref="K01653">Sgr-</term> für Stempel und<lb/>
+                  </cell>
+               </row>
+               <row>
+                  <cell>
+                     <measure type="currency" unit="taler" quantity="67.15">
+                        <hi rend="underline"> 67.15</hi>
+                     </measure>
+                  </cell>
+                  <cell>
+                     <hi rend="underline">＂ <measure type="currency" unit="taler" quantity="45">45„ _„</measure>
+                     </hi> für Maklergebühr</cell>
+               </row>
+               <row>
+                  <cell>mit <hi rend="underline">
+                        <term type="currency" ref="K01846">Rrth</term>
+                        <measure type="currency" unit="taler" quantity="44932.15">44,932„ 15</measure>
+                        <term type="commercial" ref="K01653">Sgr</term>
+                     </hi> dankend creditirten nämlich</cell>
+               </row>
+            </table>
+            <add style="transformRotateZ(-45deg)" resp="other" place="marginRight">
+               <hi rend="underline">
+                  <term type="commercial" ref="K01536">M116</term>
+               </hi>
+            </add>
+            <lb/>
+            <table>
+               <row>
+                  <cell>auf <hi rend="latintype">
+                        <hi rend="underline">Thaler-Conto</hi>
+                     </hi>. . . . . . . </cell>
+                  <cell>Rrth <measure type="currency" unit="taler" quantity="32932.15">32,932.15.-</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>＂ <hi rend="latintype">Banco-Conto:</hi>
+                     <term type="currency">B<hi rend="superscript">o</hi>₻</term>
+                     <measure type="currency" unit="mBanco" quantity="21110.8">21,110„8</measure> à 149 5/16 % </cell>
+                  <cell>＂ <measure type="currency" unit="mBanco" quantity="12000">12,000„-</measure>
+                  </cell>
+               </row>
+            </table>
+            <add style="textOrientation: straight" resp="other" place="marginLeft">soll<hi rend="underline">
+                  <term type="currency">B<hi rend="superscript">o</hi>₻</term>
+                  <measure type="currency" unit="mBanco" quantity="24110.8">24110,8</measure> sein</hi>
+            </add>
+            <lb/>
+            <lb/> und bitte ich um gleichlautende Buchung.<lb/> Der Inhalt Ihrer werthen übrigen
+                Schreiben bedarf, weil<lb/> geordnet, keiner näheren Erwiderung.<lb/> Indem ich noch
+                die Hoffnung ausspreche, daß es Ihnen<lb/> bei Empfang dieser Zeilen gelungen sein
+                möge, von meinem<lb/> Lager zu realisiren, empfehle ich mich Ihnen, ohne
+                Veranlas-<lb/> sung zu weiteren Mittheilungen, <seg rend="right">Hochachtungsvoll<lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <orgName type="firm" ref="K01064">H. C. Bock</orgName>
+                  </hi>
+               </hi>
+            </seg>
+            <lb/>
+            <seg rend="left">P. S.<lb/> Realisiren Sie meine Lager, mit <hi rend="latintype">
+                  <placeName ref="K00545">Hiogo</placeName>
+               </hi>
+               <lb/> + <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi> jedenfalls vor Schluss des Jahres.<lb/>
+               <unclear>HB</unclear>
+            </seg>
+         </p>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>A<lb/>
+                  <date when="1872-11-24">N<unclear>O</unclear> 24<lb/>72</date>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00509">HONG-KONG</placeName>
+                  <lb/> C<lb/>
+                  <date when="1872-11-14">NO 14<lb/>72</date>
+               </stamp>
+               <stamp style="round" type="postal">ALA-<unclear>VERONA</unclear>
+                  <lb/>5<gap quantity="2" unit="line"/>
+                  <unclear>CAMBULLE</unclear>
+               </stamp>
+               <lb/>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00554">BRINDISI</placeName>
+                  <lb/>6<lb/>O<unclear>FT.</unclear>
+                  <lb/>72<lb/>*</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">via <placeName ref="K00554">Brindisi</placeName>
+                  </hi>
+               </hi>
+               <stamp style="round" type="postal">
+                  <placeName ref="K00522">HAMBURG</placeName>
+                  <lb/>F.<lb/>
+                  <date when="1872-10-02">210<lb/>72</date>
+                  <lb/>N 5-6N 1</stamp>
+               <lb/>
+               <hi rend="latintype">Messrs<lb/>
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <stamp style="rectangular" type="postal">P. D.</stamp>
+               <lb/>
+               <hi rend="latintype">
+                  <hi rend="underline">
+                     <placeName ref="K00525">Yokohama</placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+            </seg>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <hi rend="underline">1872</hi>
+               <lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+                  <date when="1872-10-02">2<hi rend="superscript">t</hi> October</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01064">H,C, Bock</orgName>
+                  <lb/>
+                  <hi rend="underline">R2<unclear>4</unclear>Nov</hi>
+                  <lb/>
+                  <date when="1872-12-16">16 Decb</date>
+               </hi>
+               <lb/> KC</add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_1.tif" n="1"/>
+         <p>via Brindisi. Hamburg, 2nd Oct. 1872.<lb/>Messrs. L. Kniffler &amp;
+                Co.<lb/>Yokohama,<lb/>Japan.<lb/>I last wrote to you on 1st August of this month, a
+                letter that <lb/>I hope you have in your hands and I am hereby <lb/>confirming its
+                contents. Since sending that letter<lb/>I have had the pleasure of receiving your
+                esteemed<lb/>letters from 11th June, 6th July and two from 6th August of this year.
+                <lb/>From the last-mentioned missive I gathered your remittance of <lb/>
+            <table>
+               <row>
+                  <cell>Rrth 45,000＂-</cell>
+                  <cell>à vista - on Deutsche Bank, Aktien Ges.
+                            Berlin,<lb/>for which I gratefully credited you after deducting
+                            <lb/>Rthl. 22„ 15 Sgr- for stamps and</cell>
+               </row>
+               <row>
+                  <cell>67.15</cell>
+                  <cell>＂ 45„ _„ for broker’s fees</cell>
+               </row>
+               <row>
+                  <cell>with Rrth 44,932„ 15 Sgr </cell>
+               </row>
+            </table> ⟨M116⟩<lb/>
+            <table>
+               <row>
+                  <cell>on Thaler-Account. . . . . . . </cell>
+                  <cell>Rrth 32,932.15.-</cell>
+               </row>
+               <row>
+                  <cell>＂ Banco-Account: Bo₻ 21,110„8 à 149 5/16 % </cell>
+                  <cell>＂ 12,000„-</cell>
+               </row>
+            </table> ⟨shall be Bo₻ 24,110.8⟩<lb/>
+            <lb/>and ask you to book this conformly. <lb/>The contents of the remainder of your
+                esteemed letters <lb/>do not need any further reply as they have been dealt with.
+                <lb/>Expressing my hope that by the time you receive these <lb/>lines you will have
+                succeeded in selling from my <lb/>warehouse, I am taking my leave as there is no
+                need<lb/>for further notices, Yours sincerely<lb/>H. C. Bock<lb/>P.
+                S.<lb/>Definitely liquidate my warehouses, with Hiogo<lb/>+ Nagasaki, before the end
+                of the year. <lb/>HB[?]</p>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_2.tif" n="2"/>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_3.tif" n="3"/>
+         <pb facs="1872_10_02_Kniffler_Yokohama_von_H_C_Bock_Hamburg_4.tif" n="envelope"/>
+         <p>YOKOHAMA<lb/>A<lb/>NC 24<lb/>72<lb/>HONG-KONG<lb/>C<lb/>NO |
+                4<lb/>72ALA-VERONA<lb/>5[...]CAMBULLE[?]<lb/>BRINDISI<lb/>6<lb/>OFT.[?]<lb/>72<lb/>*<lb/>via
+                Brindisi HAMBURG<lb/>F.<lb/>210<lb/>72<lb/>N 5-6N 1<lb/>Messrs.<lb/>L. Kniffler
+                &amp; Co<lb/>P. D.<lb/>Yokohama<lb/>Japan<lb/>⟨1872<lb/>Hamburg 2nd October<lb/>H,C,
+                Bock<lb/>R[eceived] 2nd Nov.<lb/>16th Dec.<lb/>KC⟩</p>
+      </body>
+   </text>
+</TEI>

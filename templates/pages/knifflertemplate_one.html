@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a beta for the digital scholarly edition "Die
+                                internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                                (1859-1876) based on TEI
+                                Publisher 7.1.0 and eXist
+                                5.2.0. The project was funded by the Ministry of Culture and Science of
+                                Northrhine-Westphalia. Version: September 2021. Ruhr-Universität
+                            Bochum, Faculty of East Asian Studies.--><html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Kniffler-Template"/>
+        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&amp;display=swap"/>
+        <link rel="stylesheet" href="{$app}/resources/css/theme.css"/>
+        <link rel="stylesheet" href="{$app}/resources/css/kniffler_theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <style>
+            body {
+                --pb-view-height: calc(100vh - 212px);
+            }
+            
+            #view1 {
+                flex: 1 1;
+                height: var(--pb-view-height);
+                overflow: auto;
+            }
+            
+            .content-body {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                padding: 0 20px;
+            }
+            
+            .content-body pb-navigation {
+                --paper-fab-background: #709108
+            }
+            
+            .content-body pb-navigation[direction = backward] {
+                left: 20px;
+            }
+            
+            .content-body pb-navigation[direction = forward] {
+                right: 20px;
+            }
+            
+            .content-body pb-facsimile {
+                flex: 1 1;
+                height: var(--pb-view-height);
+            }
+            
+            footer {
+                display: flex;
+                background: #F0F0F0 !important;
+                padding: 10px 20px;
+            }
+            footer p {
+                color: #000;
+            }
+            footer a {
+                color: #003560;
+            }
+            #view2 {
+                flex: 1 1;
+                height: var(--pb-view-height);
+                overflow: auto;
+            }</style>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" locales="${app}/resources/i18n/{{ns}}/{{lng}}.json">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" fixed="fixed">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
+                    </app-header>
+                    <pb-drawer toggle="tocToggle" class="tocDrawer" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                            <h3>
+                                <pb-i18n key="metadata.self">Metadata</pb-i18n>
+                            </h3>
+                            <pb-view id="commentary" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                                <pb-param name="mode" value="commentary"/>
+                            </pb-view>
+                        </div>
+                    </pb-drawer>
+                    <section class="breadcrumbs">
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt" view="single">
+                            <pb-param name="mode" value="title"/>
+                        </pb-view>
+                    </section>
+                    <main class="content-body">
+                        <pb-navigation direction="backward" unit="page" emit="transcription" subscribe="transcription">
+                            <paper-fab icon="icons:chevron-left"/>
+                        </pb-navigation>
+                        <pb-view id="view1" src="document1" xpath="//text[1]" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription" disable-history="true"/>
+                        <pb-view id="view2" src="document1" not-found="" xpath="//text[@type='translation']" column-seperator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" disable-history="true"/>
+                        <pb-facsimile id="facsimile" base-uri="https://cantaloupe.ub.rub.de/iiif/2/" default-zoom-level="0" show-navigator="show-navigator" show-navigation-control="show-navigation-control" show-full-page-control="show-full-page-control" show-home-control="show-home-control" show-rotation-control="show-rotation-control" subscribe="transcription"/>
+                        <pb-navigation direction="forward" unit="page" emit="transcription" subscribe="transcription">
+                            <paper-fab icon="icons:chevron-right"/>
+                        </pb-navigation>
+                    </main>
+                    <footer>
+                        <pb-view id="footer" src="document1" xpath="//title[1]" view="single">
+                            <pb-param name="mode" value="footer"/>
+                        </pb-view>
+                    </footer>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+
+</html>

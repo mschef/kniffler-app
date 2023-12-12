@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Scheibler Brothers &amp; Co. in London an L. Kniffler &amp; Co. in Yokohama am 24. Januar 1869</title>
+            <title type="file">0089.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-89</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben, eine Umschlagsseite mit mehreren Stempeln und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01032">Scheibler Brothers &amp; Co.</orgName>
+               <settlement ref="K00523">London</settlement>
+               <date when="1869-01-21"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1869-03-14"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-08-05" who="TP">Diplomatische Transkription</change>
+         <change when="2020-09-08" who="MS">Auszeichnung von Personen-, Orts- und Sachbezeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">p<hi rend="superscript">r</hi>
+               <hi rend="underline">French</hi> Mail</hi>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>, <date when="1869-01-21">21. Janr. 1869</date>.</hi>
+            </seg>
+            <lb/>
+            <hi rend="print">
+               <orgName type="firm" ref="K01032">SCHEIBLER BROTHERS&amp; C<hi rend="superscript">o</hi>
+               </orgName>
+               <lb/> 19. Old Broad St.<lb/>
+               <placeName ref="K00523">LONDON</placeName>, E.C.</hi>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                  </orgName>, Yokohama.</hi>
+            </seg>
+            <lb/> Unser Ergebenes v. <date when="1869-01-15" cert="medium">15. <choice>
+                  <abbr>d<hi rend="superscript">s</hi>
+                  </abbr>
+                  <expan> desselben</expan>
+               </choice>
+            </date> bestätigend, haben<lb/> wir von <choice>
+               <abbr>uns.</abbr>
+               <expan> unserem</expan>
+            </choice>, <hi rend="underline">Seidenmarkte</hi> zu berichten,<lb/> daß Umsätze wieder geringfügiger gewor-<lb/> den; nur billige Preise reizen zum<lb/> Kaufen, so wurde <choice>
+               <abbr>z. Bl:</abbr>
+               <expan> zum Beispiel</expan>
+            </choice>
+            <lb/>
+            <table>
+               <row>
+                  <cell>ganz hübsche</cell>
+                  <cell>N<hi rend="superscript">o</hi> 2 @ 2½ <term type="goods" ref="K01564">Sinchew</term>... @ 30/</cell>
+               </row>
+               <row>
+                  <cell>und gute</cell>
+                  <cell>N<hi rend="superscript">o</hi> 2½ @ 3 <term type="goods" ref="K01565">Maybash</term>.. ＂ 29/</cell>
+               </row>
+            </table>
+            <lb/> abgegeben.<lb/> Vom Continent schreibt man uns, daß<lb/>
+            <hi rend="latintype">
+               <term type="commercial" ref="K01566">Satin</term>
+            </hi> u. <hi rend="latintype">
+               <term type="goods" ref="K01567">Velvets</term>
+            </hi> neuerdings eine bedeutende<lb/> Rolle spielen werden; im Fall dürften<lb/> schöne, feine <hi rend="latintype">
+               <term type="goods" ref="K01562">Japan „Grègen</term>
+            </hi> eine regere<lb/> Nachfrage erfahren; selbstredend thun wir<lb/> für Ihre Waaren unser Aeußerstes.<lb/>
+            <hi rend="latintype">Chinas</hi> verfolgen noch eine Tendenz <hi rend="latintype">à<lb/> la baisse,</hi> besonders ordinaire Qualitäten.-<lb/> Der <hi rend="latintype">Japan:</hi>
+                Seidensaamen wird in lau-<lb/> fender Saison Anlaß zu großen Entäuschungen<lb/> bieten; die schwachen Transactionen darin<lb/> haben Erlöse, welche den <hi rend="latintype">Importers</hi> ernstlichen<lb/> Verlust lassen.- </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_2.tif" n="2"/>
+         <p> In <hi rend="latintype">
+               <hi rend="underline">
+                  <term type="commercial" ref="K01570">Manchester Goods</term>
+               </hi>
+            </hi> ist es ruhiger, man<lb/>
+            <table>
+               <row>
+                  <cell>verlangt</cell>
+                  <cell>16¼ @ 16½ für 28/32 <hi rend="latintype">
+                        <term type="goods" ref="K01568">Twist</term>
+                     </hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>10/6@ 10/9 ＂ <unclear>℔</unclear> 8¼ <term type="goods" ref="K01569">Grey Shirtings</term>
+                  </cell>
+               </row>
+            </table>
+            <term type="goods" ref="K01571">Thee</term> liegt sehr unbefriedigend.<lb/> Bank=<hi rend="latintype">Disconto</hi> 3% <hi rend="latintype">Minimum</hi> für 1@3 Mts <hi rend="latintype">Bills.</hi>
+            <lb/>
+         </p>
+         <p> Wir behändigen Ihnen umstehend <hi rend="latintype">Insurance-<lb/> Nota</hi> von <figure>
+               <figDesc>Firmenzeichen Heynssen Martienssen &amp; Co. In der Zeile ein ✡ (Davidstern) darin die Buchstaben H M Co, unterhalb des Davidsterns und zwischen den Zeilen Yokohama</figDesc>
+            </figure> 6075/6134=60 <term type="commercial" ref="K01572">Ballen</term>
+            <lb/>
+            <hi rend="latintype">
+               <term type="goods" ref="K01569">Grey Shirt<hi rend="superscript">s</hi>
+               </term>
+            </hi>, die Seitens der Herren<lb/>
+            <hi rend="latintype">
+               <orgName type="firm" ref="K01033">Heynssen Martienssen +C<hi rend="superscript">o</hi>
+               </orgName>, <placeName ref="K00530">Manchester</placeName>,</hi>
+            <lb/> auf Ordre Ihrers Herren <hi rend="latintype">
+               <persName ref="K00001">L. Kniffler</persName>
+            </hi> hin, an<lb/> Sie <choice>
+               <abbr>p<hi rend="superscript">r</hi>
+               </abbr>
+               <expan>per</expan>
+            </choice>
+            <hi rend="latintype">
+               <hi rend="underline">
+                  <name type="ship" ref="K01573">Empress</name>
+               </hi>
+            </hi> verladen worden sind, be-<lb/> tragend: <hi rend="underline">
+               <term type="measure" ref="K01522">£</term>
+               <measure type="currency" unit="Pfund" quantity="80.5">80„5„-</measure>
+            </hi>V<hi rend="superscript">a</hi>
+            <date when="1869-01-08">8. <hi rend="latintype">Janr.</hi> 1869</date>
+            <lb/> zu Ihren Lasten; gegen dieses <hi rend="latintype">Shipment</hi>
+            <lb/>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-left" resp="other" place="marginLeft">
+               <term type="commercial" ref="K01536">Mem 86</term>
+            </add>
+            <hi rend="latintype"> acceptirten</hi> wir die <term type="commercial" ref="K01534">Tratte</term> jenes Hauses von<lb/>
+            <seg rend="center">
+               <hi rend="underline">
+                  <term type="measure" ref="K01522">£</term>
+                  <measure type="currency" unit="Pfund" quantity="1582.9">1582„9„-</measure>
+               </hi> p<hi rend="superscript">r</hi>12/15. <date when="1869-07">
+                  <hi rend="latintype">July</hi>69</date>,</seg>
+            <lb/> wofür Sie uns erkennen wollen; ferner<lb/> belieben Sie uns die <unclear>Bank-Comm</unclear> hierauf à<lb/> 1½% ....<hi rend="underline">
+               <term type="measure" ref="K01522">£</term>
+               <measure type="currency" unit="Pfund" quantity="23.416"/>23„14„6</hi> p<hi rend="superscript">r</hi>
+            <date when="1869-01-21">heute</date>,<lb/> zu creditiren. Wie üblich, halten wir da-<lb/> durch den <unclear>Lien</unclear> auf obige 60 <term type="commercial" ref="K01572">Ballen</term> + sind<lb/> uns demzufolge <choice>
+               <abbr>s. Ztl.</abbr>
+               <expan> sehr Zeitlich</expan>
+            </choice>
+            <choice>
+               <abbr>Rim<unclear>ss</unclear>
+               </abbr>
+               <expan>
+                  <term type="commercial" ref="K01523">Rimessen</term>
+               </expan>
+            </choice> von Ihnen behufs<lb/> Deckung zu machen. Die <hi rend="latintype">Hl. <orgName type="firm" ref="K01008">Bollenhagen +C<hi rend="superscript">o</hi>
+               </orgName>,<lb/>
+               <placeName ref="K00522">Hamburg</placeName>
+            </hi>, senden Ihnen <hi rend="latintype">
+               <term type="commercial" ref="K01574">Factura</term>
+            </hi> und<lb/>
+            <choice>
+               <abbr>B/L</abbr>
+               <expan>
+                  <term type="commercial" ref="K01515">Bill of Lading</term>
+               </expan>
+            </choice>; sie schrieben uns, daß bei Verfall gedachter<lb/>
+            <term type="measure" ref="K01522">£</term>
+            <measure type="currency" unit="Pfund" quantity="1582.9">1582„9„-</measure> auf weitere 6 Monate </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_3.tif" n="3"/>
+         <p> prolongirt wird._<lb/>
+            <seg rend="right">Hoffentlich hören wir von Ihnen</seg>
+            <lb/> mit der vom 25<hi rend="superscript">ten</hi>
+            <choice>
+               <abbr>dss</abbr>
+               <expan> desselben</expan>
+            </choice> anlangenden <hi rend="latintype">Mail;</hi>
+            <lb/> inzwischen grüßen Sie<lb/>
+            <seg rend="right">Freundschaftlichst<lb/>
+               <orgName type="firm" ref="K01032">Scheibler Brothers +Co.</orgName>
+            </seg>
+            <lb/>
+            <seg rend="center">Insur<hi rend="underline">ance„No</hi>te.</seg>
+            <lb/>
+            <figure>
+               <figDesc>Firmenzeichen Heynssen Martienssen &amp; Co. In der Zeile ein ✡ (Davidstern) darin die Buchstaben H M Co unterhalb des Davidsterns und zwischen den Zeilen Yokohama</figDesc>
+            </figure> 6075/6134= 60 <hi rend="latintype">Bales Cotton Goods,<lb/> against alls risks</hi>
+            <lb/>
+            <table>
+               <row>
+                  <cell>
+                     <term type="measure" ref="K01522">£</term>
+                     <measure type="currency" unit="Pfund" quantity="2000">2000-„-„</measure> @ 80/%</cell>
+                  <cell>....</cell>
+                  <cell>
+                     <term type="measure" ref="K01522">£</term>
+                     <measure type="currency" unit="Pfund" quantity="80">80-„-„</measure>
+                  </cell>
+               </row>
+               <row>
+                  <cell>Stamp @ 3<hi rend="superscript">d</hi>%</cell>
+                  <cell>......</cell>
+                  <cell>
+                     <hi rend="underline">＂ 5-„</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     <hi rend="underline">
+                        <term type="measure" ref="K01522">£</term>
+                        <measure type="currency" unit="Pfund" quantity="80.5">80„5-„</measure>
+                     </hi>
+                  </cell>
+               </row>
+            </table>
+         </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <stamp style="round" type="postal">
+                  <placeName ref="K00525">YOKOHAMA</placeName>
+                  <lb/>
+                  <date when="1869-03-13">MA 13<lb/>69</date>
+               </stamp>
+               <lb/>
+               <hi rend="latintype">P<hi rend="superscript">r</hi>Mess: Impériales<lb/> Steamer <hi rend="underline">viâ <placeName ref="K00515">Marseilles</placeName>.</hi>
+                  <stamp style="round" type="postal">LOMBARD-STREET<lb/>F.O.<lb/>
+                     <date when="1869-01-21">JA 21<lb/>69</date>
+                     <lb/>PAID</stamp>
+                  <lb/>
+                  <hi rend="latintype">Messrs. <orgName type="firm" ref="K01004">L. Kniffler +C<hi rend="superscript">o</hi>
+                     </orgName>
+                  </hi>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00525">Y<hi rend="underline">okohama</hi>
+                     </placeName>
+                  </hi>
+                  <lb/>
+                  <placeName ref="K00502">Japan</placeName>
+               </hi>
+               <lb/>
+               <stamp style="oval" type="commercial">
+                  <orgName type="firm" ref="K01032">SCHEIBLERBROTHERS+CO</orgName>
+                  <lb/>
+                  <placeName ref="K00523">LONDON</placeName>
+               </stamp>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight">
+               <date when="1869-01-21">1869<lb/>
+                  <placeName ref="K00523">London</placeName> 21 Janr.</date>
+               <lb/>
+               <orgName type="firm" ref="K01032"> Scheibler Broth +Co</orgName>.<lb/> empf. <date when="1869-03-14">14März</date>
+               <lb/>
+               <date when="1869-03-24">24 März</date>
+               <lb/> Rz<lb/> Ro<lb/>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_1.tif" n="1"/>
+         <p>Per French Mail<lb/>London, 21st Jan. 1869.<lb/>SCHEIBLER BROTHERS &amp; Co<lb/>19 Old Broad St.<lb/>LONDON, E.C.<lb/>Messrs. L. Kniffler +Co., Yokohama.<lb/>We confirm our respectful
+                letter from 15th of this month and<lb/>report from our silk market that<lb/>turnover has dropped again; <lb/>only cheap prices tempt people into <lb/>purchases, so that e.g. <lb/>
+            <table rend="rules">
+               <row>
+                  <cell rend="left">very nice</cell>
+                  <cell rend="left">No 2 @ 2½ Sinchew... @ 30/</cell>
+               </row>
+               <row>
+                  <cell rend="left">and good</cell>
+                  <cell rend="left">No 2½ @ 3 Maybash.. ＂ 29/</cell>
+               </row>
+            </table> got sold. <lb/>From the continent we have had news that <lb/>satin and velvets are about to start playing a <lb/>significant role; in that case nice, fine Japanese <lb/>grèges
+                may experience far stronger <lb/>demand; naturally we are doing our<lb/>utmost for your wares.<lb/>Chinas are still following a downward trend, <lb/>especially ordinary
+                qualities.-<lb/>Japanese silkworm eggs will give rise to big<lb/>disappointments in the current season; <lb/>the weak transactions in this produce <lb/>revenues that cause the
+                importers <lb/>serious losses.- </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_2.tif" n="2"/>
+         <p> In Manchester Goods it is quieter, the price <lb/>
+            <table rend="rules">
+               <row>
+                  <cell rend="left">demanded is</cell>
+                  <cell rend="left">16¼ @ 16½ for 28/32 twist</cell>
+               </row>
+               <row>
+                  <cell rend="left"/>
+                  <cell rend="left">10/6@ 10/9 ＂ ℔[?] 8¼ grey shirtings</cell>
+               </row>
+            </table> Tea is very unsatisfactory. <lb/>Bank discount 3% minimum for 1to 3 months’ bills. We deliver to you overleaf the insurance note for <figure>
+               <figDesc>Company sign Heynssen Martienssen &amp; Co. On the line sits a ✡ (Star of David) containing the letters H M Co , and below the Star of David and between the lines the word Yokohama</figDesc>
+            </figure> 6075/6134=60 bales of<lb/>grey shirts, which have been shipped to you <lb/>on the Empress by Messrs. Heynssen Martienssen <lb/>+Co., Manchester, by order of your Mr. L.
+                Kniffler, <lb/>amounting to:<lb/>£ 80„5„-Ca 8th Jan. 1869<lb/>against you; for this shipment<lb/>⟨Mem 86⟩ we accepted the bill of exchange by that house for<lb/>£ 1582„9„- per12/15th
+                July 69,<lb/>for which we ask you to credit us; furthermore <lb/>please oblige us by crediting the Bank-Comm[?]<lb/>for this at 1½% ....£23„14„6 per today. <lb/> As usual, we are thus
+                holding the lien[?]<lb/>for the abovementioned 60 bales + consequently<lb/>remittances are to be made to us by you very quickly <lb/>with a view to providing cover. Messrs. Bollenhagen
+                +Co.,<lb/> Hamburg, are sending you the invoice and bill of<lb/>lading; they wrote to us that in the case of the expiry of <lb/>intended £ 1582„9„- there will be an extension of a
+                further </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_3.tif" n="3"/>
+         <p>6 months. _<lb/>Hopefully we will hear from you by the <lb/>mail arriving here on the 25th of this month;<lb/>in the meantime we send you our most <lb/>cordial greetings<lb/>Scheibler
+                Brothers +Co.<lb/>Insurance„Note.<lb/>
+            <figure>
+               <figDesc>Company sign Heynssen Martienssen &amp; Co. On the line sits a ✡ (Star of David) containing the letters H M Co , and below the Star of David and between the lines the word Yokohama</figDesc>
+            </figure> 6075/6134= 60 bales cotton goods,<lb/> against all risks<lb/>
+            <table rend="rules">
+               <row>
+                  <cell rend="left">£ 2000-„-„ @ 80/%</cell>
+                  <cell rend="left">....</cell>
+                  <cell rend="left">£80-„-„</cell>
+               </row>
+               <row>
+                  <cell rend="left">Stamp @ 3<hi rend="superscript">d</hi>%</cell>
+                  <cell rend="left">......</cell>
+                  <cell rend="left">
+                     <hi rend="underline">＂ 5-„</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell rend="left"/>
+                  <cell rend="left"/>
+                  <cell rend="left">
+                     <hi rend="underline">£ 80„5-„</hi>
+                  </cell>
+               </row>
+            </table>
+         </p>
+         <pb facs="1869_01_21_Kniffler_Yokohama_von_Scheibler_Brothers_London_4.tif" n="envelope"/>
+         <p>YOKOHAMA<lb/>MA 13<lb/>69<lb/>Per Mess: Impériales<lb/>Steamer via Marseilles. LOMBARD-STREET<lb/>F.O.<lb/>JA 21<lb/>69<lb/>PAID<lb/>Messrs. L. Kniffler
+                +Co<lb/>Yokohama<lb/>Japan<lb/>SCHEIBLERBROTHERS+CO<lb/>LONDON <lb/>⟨1869<lb/>London 21st Jan.<lb/>Scheibler Bros + Co.<lb/>rec[eived]. 14th March<lb/>24th March<lb/>Rz<lb/>Ro ⟩</p>
+      </body>
+   </text>
+</TEI>

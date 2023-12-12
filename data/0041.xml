@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gildemeister &amp; Ries in Bremen an L. Kniffler &amp; Co. in Nagasaki am 9.
+                    Februar 1864</title>
+            <title type="file">0041.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-41</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Drei Seiten Anschreiben und eine Umschlagsseite mit
+                            Siegelrest, Firmenstempel und einer Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01095">Gildemeister &amp; Ries</orgName>
+               <settlement ref="K00524">Bremen</settlement>
+               <date when="1864-02-09"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1864-04-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change when="2018-11-30" who="TP">Diplomatische Transkription</change>
+         <change when="2020-10-31" who="MS">Auszeichnung von Personen-, Orts- und Sachnamen;
+                Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_1.tif" n="envelope"/>
+            <p>
+               <seg rend="center">
+                  <stamp type="commercial" style="oval">
+                     <orgName type="firm" ref="K01095">GILDEMEISTER<gap quantity="1" unit="char"/>
+                        <unclear reason="faded">RIES<lb/>
+                           <placeName ref="K00524">BREMEN</placeName>
+                        </unclear>
+                     </orgName>
+                  </stamp>
+               </seg>
+               <lb/>
+            </p>
+            <p>
+               <seg rend="center">
+                  <hi rend="latintype">Messrs. <orgName type="firm" ref="K01004">L. Kniffler
+                                +Co</orgName>
+                     <lb/>
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/>
+               <add resp="other" style="writingMode: vertical-lr; textOrientation: sideways-right" place="marginRight">1864<lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00524">Bremen</placeName>
+                     <date when="1864-02-09">9 Februar</date>.<lb/>
+                     <orgName type="firm" ref="K01095">Gildemeister Ries</orgName>
+                     <lb/>
+                            Rec <hi rend="underline">
+                        <date when="1864-04-10">10 April</date>
+                     </hi>
+                     <lb/>
+                     <date when="1864-05-01">1 May</date>
+                  </hi>
+               </add>
+            </p>
+            <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_2.tif" n="2"/>
+            <p>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00524">Bremen</placeName>
+                     <date when="1864-02-09">Februar 9. 1864</date>
+                  </hi>
+               </seg>
+               <lb/> Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">Kniffler + C<hi rend="superscript">o</hi>
+                  </orgName>
+               </hi>
+               <lb/>
+               <seg rend="right">
+                  <hi rend="latintype">
+                     <placeName ref="K00514">Nagasaki</placeName>
+                  </hi>
+               </seg>
+               <lb/> Gegen unser ergebenes jüngsten Schreiben<lb/> vom <date when="1864-01-25">25 <choice>
+                     <abbr>po</abbr>
+                     <expan> passato</expan>
+                  </choice>
+               </date> empfingen wir Ihre geehrte<lb/> Zuschrift von <date when="1863-11-30">30 <hi rend="latintype">Nov. <choice>
+                        <abbr>a.p.</abbr>
+                        <expan>anno passati</expan>
+                     </choice>
+                  </hi>
+               </date> von deren<lb/> Inhalt wir bestens Anmerkung nahmen.<lb/> Wir ersahen
+                    daran, daß die Fracht<lb/>
+               <unclear reason="illegible">
+                  <hi rend="latintype">p</hi>
+               </unclear>
+               <hi rend="latintype">
+                  <name type="ship" ref="K01726">Trave</name>
+               </hi>
+               <term type="commercial" ref="K01522">£</term>
+               <measure type="currency" quantity="4.10" unit="britPound">4.10.</measure>
+                   p <measure type="volume" quantity="50" unit="cubicFeet">50</measure>
+               <choice>
+                  <abbr>Cbfß</abbr>
+                  <expan> Kubikfuß</expan>
+               </choice> ist, u. daß<lb/> für dieses Schiff in <hi rend="latintype">
+                  <placeName ref="K00528">Hakodadi</placeName>
+               </hi>
+               <hi rend="latintype">
+                  <table>
+                     <row>
+                        <cell>
+                           <choice>
+                              <abbr>c</abbr>
+                              <expan cert="medium">circa</expan>
+                           </choice>
+                           <measure type="volume" quantity="400" unit="ballen" commodity="tobacco">400</measure>
+                        </cell>
+                        <cell>
+                           <term type="logistic" ref="K01572">Ballen</term>
+                        </cell>
+                        <cell>
+                           <term type="goods" ref="K01549">Taback</term>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <choice>
+                              <abbr>c</abbr>
+                              <expan cert="medium">circa</expan>
+                           </choice>
+                           <measure type="volume" quantity="1400" unit="tub" commodity="blubber">1400</measure>
+                        </cell>
+                        <cell>
+                           <term type="measure" ref="K01542">Tubben</term>
+                        </cell>
+                        <cell>
+                           <term type="goods" ref="K01727">Thran</term>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <choice>
+                              <abbr>c</abbr>
+                              <expan cert="medium">circa</expan>
+                           </choice>
+                           <measure type="volume" quantity="600" unit="batch" commodity="deerHide">600</measure>
+                        </cell>
+                        <cell>
+                           <term type="logistic" ref="K01729">Bündel</term>
+                        </cell>
+                        <cell>
+                           <term type="goods" ref="K01728">Hirschfelle</term>
+                        </cell>
+                     </row>
+                  </table>
+               </hi> bereit lagen. Es ist schade, daß wir von<lb/> der Beschaffenheit des <hi rend="latintype">
+                  <term type="goods" ref="K01727">Thran's</term>
+               </hi> gar keine<lb/> Idee haben u. müssen wir jetzt schon<lb/> bis zur
+                    Realisation der Parthie, <unclear reason="illegible">nach</unclear>
+               <lb/> Ankunft der <hi rend="latintype">
+                  <name type="ship" ref="K01726">Trave</name>
+               </hi>, warten, ehe wir Sie<lb/> zu neuen Abladungen dieses Artikels<lb/>
+                    ersuchen können. Wir hören hier näm-<lb/> lich, daß früher schon einmal
+                    chinesi-<lb/> sches oder japanisches (der Makler wußte<lb/> den Ursprung nicht
+                        genau)<add resp="writer" style="textOrientation: straight" place="above">
+                  <hi rend="latintype">
+                     <term type="goods" ref="K01727">fisch-oil</term>
+                  </hi>
+               </add> an unsern<lb/> Platz angebracht worden, aber wenig<lb/> Liebhaberei dafür
+                    ist, u. jene frühere<lb/> Zufuhren nur zu schlechtem Preis Nehmer fand.<lb/> Wir
+                    zweifeln nun zwar nicht daſ das<lb/> von Ihnen eingekaufte <hi rend="latintype">
+                  <term type="goods" ref="K01727">Fisch Oél</term>
+               </hi> von guter<lb/> Qualität sein wird, u. hoffen dafür<lb/> auf ein
+                    befriedigendes Resultat<lb/> halten es indeß fur durchaus räthlich,<lb/> daß Sie
+                    neue Unternehmungen in dem<lb/> Artikel für gemeinschaftliche Rechnung </p>
+            <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_3.tif" n="3"/>
+            <p>nicht eher in Angriff nehmen, bis<lb/> wir wissen wie sich die Abladung <hi rend="latintype">p<lb/>
+                  <name type="ship" ref="K01726">Trave</name>
+               </hi> bezahlt.<lb/> Was <hi rend="latintype">
+                  <hi rend="underline">
+                     <term type="goods" ref="K01549">Taback</term>
+                  </hi>
+               </hi> angeht, so bestäti<lb/> gen wir das darüber in unserem letz-<lb/> ten
+                    Briefe Gesagte u. soll es uns freu-<lb/> en, wenn Sie davon etwas recht
+                    Bil-<lb/> liges für gemeinschaftliche Rechnung auf<lb/> den Weg bringen können.
+                    - Ob sich<lb/> die <hi rend="latintype">
+                  <hi rend="underline">
+                     <term type="goods" ref="K01728">Hirschfelle</term>
+                  </hi>
+               </hi> bezahlen werden, das<lb/> mögen wir, da Sie uns über deren<lb/>
+                    Einkaufspreis &amp; Gewicht nichts sagen, nicht<lb/> zu beurtheilen. <hi rend="latintype">
+                  <term type="goods" ref="K01728">Hirschfelle</term>
+               </hi> werden<lb/> hier jetzt mit c. 43 <unclear reason="eccentric_ductus">gt</unclear>
+               <hi rend="latintype"> pr</hi>
+               <term type="measure" ref="K01543">℔</term> für kräftige<lb/> Waare bezahlt, u.
+                    wenn dieselben r<hi rend="underline">ech</hi>t<lb/> g<hi rend="underline">roß</hi> u <hi rend="underline">
+                  <unclear reason="illegible"> oder </unclear>kräftig</hi> sind, so daß
+                    Beinklei-<lb/> der daraus gemacht werden können,<lb/> bedingen sie noch bessere
+                    Preise.<lb/> Wir machten unserem <term type="commercial" ref="K01587">Assecuradeur</term>
+               <lb/> Mittheilung davon daß Ihrem Briefe<lb/> zufolge die <hi rend="latintype">
+                  <name type="ship" ref="K01726">Trave</name>
+               </hi> eine englische<lb/> Bark sei, doch war ein solches<lb/>
+               <hi rend="underline">englisches</hi> Schiff in <term type="commercial" ref="K01730">
+                  <hi rend="latintype">Lloyds</hi> Listen</term> nicht<lb/> zu finden;
+                    vermuthlich ist es ein<lb/> früheres <placeName ref="K00522">Hamburger</placeName> Schiff- in <placeName ref="K00567">Lübeck</placeName>
+               <lb/> gekauft- welches in Ihren Gewässern<lb/> etwa unter englische Flagge
+                    gebracht<lb/> ist. Aus der <unclear reason="eccentric_ductus">Charts</unclear>partie, welche<lb/> wir ehestens von Ihnen zu erhalten<lb/>
+                    hoffen, werden wir ja ersehen ob<lb/> die <hi rend="latintype">
+                  <name type="ship" ref="K01726">Trave</name>
+               </hi> wirklich ein englisches Schiff<lb/> ist + dann die entsprechenden
+                    Erkund-<lb/> digungen in <hi rend="latintype">
+                  <placeName ref="K00522">Hamburg</placeName>
+               </hi> einziehen. Ver<lb/> sichert sind wir natürlich vorläu-<lb/> fig, mag das
+                    Schiff Flagge haben welche<lb/>
+               <seg rend="right">es wolle</seg>
+            </p>
+            <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_4.tif" n="4"/>
+            <p>u ist eventuelles Laden in <hi rend="latintype">
+                  <placeName ref="K00514">Naga<lb/> saki</placeName>
+               </hi> natürlich ebenfalls vorgesehen.<lb/> Ihr Herr <hi rend="latintype">
+                  <persName ref="K00011">Gildemeister</persName>
+               </hi> meldete<lb/> gestern telegraphisch nach hier seine <lb/> in <hi rend="latintype">
+                  <placeName ref="K00543">Triest</placeName>
+               </hi> erfolgte glückliche An<lb/> kunft u. werden wir also ehestens<lb/> das
+                    Vergnügen haben, denselben<lb/> hier zu sehen.<lb/> Die <hi rend="underline">schleswig holsteinische Ange-<lb/> legenheit</hi> ist inzwischen in ein
+                    neues<lb/> Stadium getreten; Preußen + Oester-<lb/> reicher haben das <placeName ref="K00568">Daenemark</placeName> ange-<lb/> griffen, die <orgName type="gov" ref="K01096">dänische Armee</orgName> zum Rück-<lb/> zuge
+                    gezwungen u. scheint es, daß<lb/> die <orgName type="gov" ref="K01096">dänische
+                        Armee</orgName> zum Theil abge-<lb/> schnitten + gefangen genommen
+                    werden<lb/> wird. Wir sind in diesem Augen-<lb/> blik hier gänzlich im Unklaren
+                    über<lb/> den weiteren Verlauf der Ding<unclear reason="faded">e</unclear>
+               <lb/> vielleicht bringen Ihnen die mit dieser<lb/> Post hinaus gesandten
+                    Zeitungen in<lb/> ihren Telegramms schon weiteres<lb/> neues. Die verschiedenen
+                    , bei Erthei<lb/> lung unserer Ordre auf <hi rend="latintype">
+                  <term type="goods" ref="K01549">Taback</term>
+               </hi>
+               <lb/> ausgeschlossenen Flaggen müssen<lb/> unter diesen Umständen selbstver<lb/>
+                    ständlich bis zur Klärung der<lb/> Situation ausgeschlossen bleiben<lb/>
+               <seg rend="center">Wir begrüßen Sie mit<lb/>freundschaftlicher</seg>
+               <lb/>
+               <seg rend="right">Ergebenheit<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01095">Gildemeister &amp; Ries</orgName>
+                  </hi>
+               </seg>
+               <add resp="writer" place="marginLeft" style="transformRotateZ(-45deg)">Duplicat</add>
+            </p>
+         </div>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_1.tif" n="envelope"/>
+         <p>GILDEMEISTER[...]RIES<lb/>BREMEN[?]<lb/>Messrs. L. Kniffler
+                +Co<lb/>Nagasaki<lb/>⟨1864<lb/>Bremen 9th February.<lb/>Gildemeister
+                Ries<lb/>Rec[eived] 10 th April<lb/>1 st May⟩</p>
+         <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_2.tif" n="2"/>
+         <p>Bremen February 9th 1864<lb/>Messrs. Kniffler + Co<lb/>Nagasaki<lb/>After our
+                respectful latest letter<lb/>from 25th of last month we received your esteemed
+                <lb/>from 30th Nov. of last year, the content of <lb/>which we noted with great
+                interest. <lb/>We gathered from it that the cargo <lb/>per[?] Trave is £4.10. p 50
+                cubic feet, and that<lb/>for this ship <table>
+               <row>
+                  <cell>ca. 400</cell>
+                  <cell>bundles</cell>
+                  <cell>tobacco</cell>
+               </row>
+               <row>
+                  <cell>ca. 1400</cell>
+                  <cell>tubs</cell>
+                  <cell>fish oil</cell>
+               </row>
+               <row>
+                  <cell>ca. 600</cell>
+                  <cell>bundles</cell>
+                  <cell>deer skin</cell>
+               </row>
+            </table> were ready in Hakodadi. It is a shame that <lb/>we have no idea of the
+                quality of the <lb/>fish oil and now have to wait <lb/>until the sale of this batch
+                after[?]<lb/>the Trave has arrived, before we can <lb/>ask you make new shipments of
+                this <lb/>article. This is because we have heard<lb/>here that at some point
+                previously Chinese<lb/>or Japanese fish oil (the trader was not <lb/>quite sure of
+                its origin) was brought <lb/>to our place, but that there was little <lb/>enthusiasm
+                for it and that those earlier <lb/>deliveries found takers only at a poor price.
+                <lb/>Now while we of course do not doubt <lb/>that the fish oil purchased by you
+                will <lb/>be of good quality and hope to achieve <lb/>a satisfying result, we do
+                consider it <lb/>advisable that you do not initiate <lb/>new ventures with this
+                article on </p>
+         <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_3.tif" n="3"/>
+         <p>shared account until we know how<lb/>profitable the shipment on the Trave <lb/>turns
+                out to be. <lb/>As far as tobacco is concerned, we <lb/>confirm what we said about
+                this in our<lb/>last letter and we will be delighted<lb/>if you can send some on its
+                way, quite<lb/>cheaply, on shared account. - Whether<lb/>the deer skins will pay
+                well for themselves, <lb/>we are not able to judge as you told us <lb/>nothing about
+                the purchase price &amp; <lb/>weight. Deer skins are currently traded <lb/>here at
+                ca. 43 gt[?] each ℔ for strong <lb/>goods, and if they are reasonably <lb/>large and
+                or[?]strong, so that they are<lb/>suitable for making into trousers, <lb/>then they
+                command even better prices. <lb/>We informed our insurer that<lb/>according to your
+                letter the Trave<lb/>is an English boat, but in the Lloyds lists<lb/>an English ship
+                of this name was not to <lb/>be found; she probably is a formerly <lb/>Hamburg-based
+                ship – bought in Lübeck –<lb/>which has been brought into<lb/>your waters under an
+                English flag. <lb/>From the charter papers[?], which we are<lb/>hoping to receive
+                from you as soon as <lb/>possible, we will be able to see if <lb/>the Trave really
+                is an English ship <lb/> + will then make the necessary<lb/>enquiries in Hamburg. We
+                are, of <lb/>course, insured for the moment,<lb/>whatever flag the ship may be
+                <lb/>sailing under</p>
+         <pb facs="1864_02_09_Kniffler_Nagasaki_von_Gildemeister_Ries_Bremen_4.tif" n="4"/>
+         <p>and a possible loading in Nagasaki<lb/>is of course also planned.<lb/>Your Mr.
+                Gildemeister let us know<lb/>here by telegram yesterday <lb/>that he arrived safely
+                in Triest <lb/>and so we will very soon have <lb/>the pleasure of seeing him
+                <lb/>here. <lb/>The Schleswig-Holstein affair<lb/>has now entered into a new
+                <lb/>stage; Prussia and Austrians <lb/>attacked Denmark, forced<lb/>the Danish army
+                to retreat <lb/>and it appears that parts <lb/>of the Danish army will be<lb/>cut
+                off + taken prisoner. <lb/>We are here at the moment <lb/>utterly unclear about the
+                <lb/>further course of the matter[?],<lb/>maybe the newspapers that were<lb/>sent
+                out with this post will <lb/>already bring you some news in their <lb/>telegrams.
+                The various flags that <lb/>we excluded when we placed our <lb/>order for tobacco
+                therefore, under <lb/>these circumstances, naturally have <lb/>to remain excluded
+                until this <lb/>situation has been settled. <lb/>We send our greetings to you
+                <lb/>in most devoted <lb/>friendship<lb/>Gildemeister &amp; Ries<lb/>⟨Duplicate⟩</p>
+      </body>
+   </text>
+</TEI>

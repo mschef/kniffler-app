@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>G. H. &amp; J. F. Wulff in London an L. Kniffler &amp; Co. in Nagasaki am 10.
+                    März 1865</title>
+            <title type="file">0048.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-48</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Vier Seiten Anschreiben, auf der letzten Seite kopfüber
+                            eine Eingangsnotiz.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01009">G. H. &amp; J. F. Wulff</orgName>
+               <settlement ref="K00523">London</settlement>
+               <date when="1865-03-10"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Nagasaki</settlement>
+               <date when="1865-05-04"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-04-08" who="TP">diplomatische Transkription</change>
+         <change when="2020-11-03" who="MS">erste Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+         <change when="2020-12-04" who="MS">weitere Auszeichnung</change>
+         <change when="2021-05-17" who="MS">Korrektur der Transkription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1865_03_10_Kniffler_Nagasaki_von_Wulff_London_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName> a: <date when="1865-03-10">10<hi rend="superscript">ten</hi> Maerz 1865</date>.</hi>
+            </seg>
+            <lb/>
+            <seg rend="left">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>
+                  <lb/>
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Gegen unser Ergebenes vom <date when="1865-02-27">27<hi rend="superscript">ten</hi>
+               <choice>
+                  <abbr>vM</abbr>
+                  <expan>vorigen Monats</expan>
+               </choice>
+            </date>
+            <lb/> dessen Inhalt wir bestätigen, empfingen wir Ihre<lb/>
+            <choice>
+               <abbr>w/</abbr>
+               <expan> werte</expan>
+            </choice> Zuschrift vom <date when="1864-12-28">28<hi rend="superscript">ten</hi>
+               <hi rend="latintype"> Decb</hi>
+            </date> und danken Ihnen für<lb/> Ihre <choice>
+               <abbr>gefl.</abbr>
+               <expan cert="high">gefälligen</expan>
+            </choice> brieflichen Mittheilungen. __<lb/> -<hi rend="latintype">Ja<hi rend="underline">pan <term type="goods" ref="K01549">Taback</term>
+               </hi>
+            </hi> bleibt in gutem Begehr und<lb/> wir glauben, dass die Parthien <unclear reason="eccentric_ductus">ex</unclear>
+            <hi rend="latintype">„<name type="ship" ref="K01726">Trave</name>”</hi> bereits<lb/>
+                gänzlich verkauft sind <hi rend="latintype">ca. <measure type="volume" quantity="1000" unit="ballen" commodity="tobacco">1000</measure> Ballen</hi>
+                werden<lb/> kürzlich an den Markt kommen. __<lb/> Gutes gesundes Blatt, bei gutem
+                Geschmack<lb/> und <hi rend="latintype">„well batted”</hi> ist leicht
+                verkäuflich.__<lb/> Von <hi rend="underline">
+               <term type="goods" ref="K01571">Thee</term>
+            </hi> sind weitere grosse Quantitäten<lb/>
+            <hi rend="latintype">per Auction „without reserve” </hi> ausgeboten und<lb/> Preise
+                sind für die meisten Sorten wieder<lb/> eher niedriger._ Auctionen mit 36000<unclear reason="eccentric_ductus">Kc</unclear>
+         </p>
+         <pb facs="1865_03_10_Kniffler_Nagasaki_von_Wulff_London_2.tif" n="2"/>
+         <p> und 29500<unclear reason="eccentric_ductus">Kc</unclear> begannen <hi rend="latintype">(without reserve) </hi>
+            <lb/> am <date when="1865-03-07">7<hi rend="superscript">ten-</hi>
+               <choice>
+                  <abbr>dM</abbr>
+                  <expan cert="medium">desselben Monats</expan>
+               </choice>
+            </date> und nehmen jetzt <unclear reason="eccentric_ductus">a<add style="textOrientation: straight" resp="writer" place="above">cc</add>ess</unclear> erst<lb/> schleppend ihren Fortgang. Ungefärbte<lb/>
+            <hi rend="latintype">Japans</hi> halten 1/- ¼ / <hi rend="latintype">ex „ <name type="ship" ref="K01737">Amos</name>” c <placeName ref="K00525">Yokohama</placeName>
+            </hi>
+            <lb/> Die Vorräthe in <placeName ref="K00512">Großbritannien</placeName> sind jetzt<lb/>
+                ca. <measure type="currency" quantity="20000000" unit="britPound">20 Millionen</measure>
+            <term type="measure" ref="K01522">Pfund</term> grösser als <date when="1864">im
+                    vorigen<lb/> Jahre</date>, das schwimmend Quantum ist dagegen<lb/> ca 6
+                Millionen kleiner. Sollten die Zufuhren<lb/> von <hi rend="latintype">
+               <placeName ref="K00504">China</placeName>
+            </hi> geringer werden, so dürfte zu<lb/> den gegenwärtigen niedrigen Preisen
+                wohl<lb/> bald Neigung zur Speculation auftauchen<lb/> Der Begehr für den Export
+                bleibt sehr beschränkt,<lb/> und für <term type="goods" ref="K01738">
+               <hi rend="latintype">
+                  <choice>
+                     <abbr>flow</abbr>
+                     <expan>flowery</expan>
+                  </choice> Pekau</hi>
+            </term> zeigte sich eine kleine Nach-<lb/> frage; letzteres wohl in Erwartung
+                einer<lb/> kleinen Zollreduction für diese Sorte in Russ-<lb/> land._ Wegen Notirung
+                &amp; sonstigen<lb/> Details beziehen wir uns auf heutigen<lb/> Druckbericht._ </p>
+         <pb facs="1865_03_10_Kniffler_Nagasaki_von_Wulff_London_3.tif" n="3"/>
+         <p> In <hi rend="underline">
+               <term type="goods" ref="K01531">Camphor</term>
+            </hi> war das Geschäft geringer und<lb/> Preise etwas niedriger. Zu Anfang des
+                Mo-<lb/> nats fanden kleine Umsätze zu 95 / statt;<lb/> seitdem sind 200 K in Blei
+                zu 92/6 verkauft-<lb/> Vorrath 5900 K gegen 5840 K im Vorjahre-<lb/> Für <hi rend="underline">
+               <term type="goods" ref="K01667">Gallen</term>
+            </hi> fand sich plötzlich lebhafte Nach-<lb/> frage zur <hi rend="latintype">Speculation</hi> +Preise, welche schon<lb/> auf 58-58/6 gewichen waren, konnten
+                sich<lb/> wieder erheblich erholen. Die für gut <hi rend="latintype">
+               <placeName ref="K00504">China</placeName>
+            </hi>
+            <lb/> zuletzt bezahlten Preise sind 71-72/- Eine Par-<lb/> thie war 180 Kisten <hi rend="latintype">ex „<name type="ship" ref="K01739">Southern Cross</name>”
+                        <placeName ref="K00503">Shanghai</placeName>
+            </hi>
+            <lb/> von aussergewöhnlicher Qualität fand sehr<lb/> schnell zu 65/6 &amp; darüber
+                Nehmer; ein<lb/>
+                 kleiner Theil
+                davon holte 74-74/6 <hi rend="latintype">Japan 57/6-61/-</hi>
+            <lb/>
+            <hi rend="underline">Wachs</hi> 376 <hi rend="latintype">Boxes Japan</hi> zum Theil
+                ver-<lb/> kauft: gut +fein <hi rend="latintype">Saucers</hi> c 68/-70/ mittel<lb/>
+                65/6-66/- ord. 60/--<lb/>
+            <hi rend="underline">Geld</hi> willig zur Bankrate; doch erregten </p>
+         <pb facs="1865_03_10_Kniffler_Nagasaki_von_Wulff_London_4.tif" n="4"/>
+         <p> der Umschwung der <choice>
+               <abbr>Amerk.</abbr>
+               <expan>Amerikanischen</expan>
+            </choice> Angelegenheiten+ <lb/> der erhebliche Fall der <term type="goods" ref="K01559">Baumwollen</term> Preise einige<lb/> Befürchtungen._ Englische wie
+                fremde Fonds<lb/> sind bedeutend gefallen._<lb/>
+            <hi rend="underline">
+               <term type="commercial" ref="K01508">Dollars</term>
+            </hi> mit 60 bez. Silber 61¼°_<lb/>
+            <seg rend="center">Wir begrüssen Sie</seg>
+            <lb/>
+            <seg rend="right">Mit Hochachtung, ergebenst<lb/>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01009">G H. &amp; J. F. Wulff</orgName>
+               </hi>
+            </seg>
+         </p>
+         <p>
+            <add style="textOrientation: upside-down" resp="other" place="marginBottom">1865<lb/>
+               <hi rend="latintype">
+                  <placeName ref="K00523">London</placeName>
+                  <date when="1865-03-10"> 10/3</date>
+                  <lb/>
+                  <orgName type="firm" ref="K01009">G. H. + Jf. Wulff</orgName>
+                  <lb/>R <date when="1865-05-04">
+                     <hi rend="underline">4</hi> Mai</date>
+                  <lb/>S<hi rend="underline">At</hi>
+                  <date when="1865-09-07">7. Sept.</date>
+               </hi>
+            </add>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="3865_03_30_Kniffler_Nagasaki_von_Wulff_London_3.tif" n="3"/>
+         <p>London 30th March 3865.<lb/>Messrs. L. Kniffler +Co.<lb/>Nagasaki<lb/>Following our
+                respectful letter from 27th of last month, <lb/>the contents of which we confirm, we
+                received your <lb/>esteemed letter from 28th Dec. and thank you for <lb/>your
+                pleasing written notices. __<lb/> -Japanese tobacco remains in good demand and
+                <lb/>we believe that the lots from the “Trave” have already <lb/>all been sold, ca.
+                1,000 bundles will soon go on<lb/>the market. __<lb/>Good, healthy leaf with a good
+                taste <lb/>and “well batted” is easy to sell.__<lb/>Regarding tea further large
+                quantities were <lb/>offered at auction “without reserve” and<lb/>prices for most
+                kinds are rather lower <lb/>again. _ Auctions with 36,000 kc[?]</p>
+         <pb facs="3865_03_30_Kniffler_Nagasaki_von_Wulff_London_2.tif" n="2"/>
+         <p> and 29,500 kc[?] started (without reserve)<lb/>on the 7th of this month and are only
+                progressing access[?]<lb/>sluggishly. Undyed Japanese<lb/>are staying at 3/- ¼ /
+                from the “Amos” c Yokohama.<lb/>The reserves in Great Britain are now<lb/>ca. 20
+                million Pounds larger than last year,<lb/>the shipped quantity, however, is<lb/>ca.
+                6 million smaller. Should deliveries from<lb/>China therefore decrease then at
+                the<lb/>current low prices a tendency towards <lb/>speculation may soon appear.
+                <lb/>The demand for export remains very limited,<lb/>and for flowery Pekoe a small
+                demand could be<lb/>noticed; the last was probably in the expectation<lb/>of a small
+                reduction in customs duty for this kind in<lb/>Russia._ Regarding rates &amp; other
+                details<lb/>we refer to today’s printed report. _ </p>
+         <pb facs="3865_03_30_Kniffler_Nagasaki_von_Wulff_London_3.tif" n="3"/>
+         <p>For Camphor business was less and <lb/>prices a little lower. At the beginning of the
+                <lb/>month there was some small turnover at 95 /;<lb/>since then 200 boxes of lead
+                were sold at 92/6 -<lb/>Stock is 5,900 boxes as opposed to 5,840 boxes last year
+                -<lb/> For galls there was suddenly lively demand<lb/>for speculation + prices,
+                which had already<lb/>dropped to 58-58/6, managed to recover<lb/>significantly
+                again. The prices paid for good <lb/>Chinese ones most recently were 73-72/- One
+                lot<lb/>of 380 boxes shipped in the “Southern Cross” Shanghai<lb/>was of
+                extraordinary quality and found a taker <lb/>very quickly at 65/6 &amp; more;
+                a<lb/>small part of this achieved 74-74/6 or in Japan 57/6-63/-<lb/>Wax 376 boxes,
+                Japanese, partially sold:<lb/>good + fine saucers c 68/-70/ medium<lb/> 65/6-66/-
+                decent 60/--<lb/>Money easy at bank rates; however, the change</p>
+         <pb facs="4865_03_40_Kniffler_Nagasaki_von_Wulff_London_4.tif" n="4"/>
+         <p>in the American circumstances + the considerable <lb/>fall in cotton prices raised
+                some <lb/>concerns._ English as well as foreign funds<lb/>have fallen
+                significantly._<lb/>Dollars at 60 and silver 63¼° respectively_ <lb/>We send our
+                respectful greetings, Yours sincerely <lb/>G H. &amp; J. F. Wulff ⟨3865<lb/>London
+                30/3<lb/>G. H. + Jf. Wulff<lb/>R[eceived] 4th May<lb/>Sat7. Sept.⟩</p>
+      </body>
+   </text>
+</TEI>

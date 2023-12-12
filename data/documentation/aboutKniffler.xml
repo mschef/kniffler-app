@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="documentation.html"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Über L. Kniffler &amp; Co. (1859–1880)</title>
+                <author>Katja Schmidtpott</author>
+                <author>Test</author>
+                <editor>Jan Wiemann</editor>
+                <editor>Marc Scheffer</editor>
+                <editor role="translator">Maren Barton</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                        <addrLine>Ruhr-Universität Bochum</addrLine>
+                        <addrLine>Universitätsstraße 150</addrLine>
+                        <addrLine>44801 Bochum</addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:lang="de"> Katja Schmidtpott: Über L. Kniffler &amp; Co. (1859–1880).
+                    In: Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876).
+                    Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.
+                    https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutKniffler.xml </bibl>
+                <bibl xml:lang="en"> Katja Schmidtpott: About L. Kniffler &amp; Co. (1859–1880).
+                    In: Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co. (1859-1876). Translated by Maren Barton.
+                    Ruhr-Universität Bochum, Fakultät für Ostasienwissenschaften, Geschichte Japans.
+                    https://kniffler.ub.rub.de/exist/apps/Kniffler/documentation/aboutKniffler.xml
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE"/>
+                <language ident="en-EN"/>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+            </projectDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2021-12-10T11:41:00Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+                <change>
+                    <date>2021-11-29T15:24:00Z</date>
+                    <name>Katja Schmidtpott</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="de">
+                <head>Über L. Kniffler &amp; Co. (1859–1880)<note> Dieser Abriss der Geschichte von L. Kniffler &amp; Co. basiert auf dem ersten Kapitel der
+                        150-jährigen Unternehmensgeschichte von C. Illies &amp; Co. (Bähr, Johannes
+                        / Lesczenski, Jörg / Schmidtpott, Katja (2009): <hi rend="italic">Handel ist
+                            Wandel: 150 Jahre C. Illies &amp; Co</hi>. München: Piper [Engl.
+                        translation: <hi rend="italic">Winds of change: On the 150</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic" xml:space="preserve"> anniversary of C. Illies &amp; Co.</hi>],
+                        S. 19–61).</note>
+                </head>
+                <p>Das Handelsunternehmen L. Kniffler &amp; Co. wurde 1859 durch den preußischen
+                    Kaufmann Louis Kniffler (1827–1888) in Nagasaki gegründet. Es war eines der
+                    ersten euroamerikanischen Handelshäuser, die sich nach der Aufgabe der
+                    Isolationspolitik des Shogunats in Japan niederließen, und es entwickelte sich
+                    innerhalb weniger Jahre zu einem der größeren. Im Jahr 1880 wurde das
+                    Unternehmen durch den Teilhaber Carl Illies (1840–1910) übernommen und in C.
+                    Illies &amp; Co. umbenannt. Dieses Handelsunternehmen, Rechtsnachfolgerin von L.
+                    Kniffler &amp; Co., existiert bis heute. Es hat seinen Sitz in Hamburg, ist nach
+                    wie vor im Asienhandel engagiert und kann auf eine ungewöhnlich lange Tradition
+                    von insgesamt mehr als 160 Geschäftsjahren zurückblicken.</p>
+                <div>
+                    <div>
+                        <head>1. Anfänge im Import- und Exportgeschäft (1859–1865)</head>
+                        <p>Die Zeit von L. Kniffler &amp; Co. fällt in die erste Phase der
+                            Integration Japans in den Welthandel. Dieser Prozess begann mit den
+                            sogenannten Ungleichen Verträgen, zu deren Unterzeichnung das Shogunat
+                            ab den 1850er Jahren von einer Reihe europäischer Staaten und den USA
+                            gedrängt wurde. </p>
+                        <p>Eingebettet in asymmetrische Machtverhältnisse zwischen Japan und den
+                            euroamerikanischen Staaten zielten diese Handelsverträge darauf ab,
+                            ausländischen Handelsunternehmen unter möglichst günstigen Bedingungen,
+                            darunter Extraterritorialität und niedrige Zölle, Zugang zum japanischen
+                            Markt zu verschaffen. Auf ihrer Grundlage wurden zwischen 1859 und 1869
+                            die fünf Häfen von Hakodate, Nagasaki, Yokohama, Niigata und Kōbe für
+                            internationale Kaufleute geöffnet. Dadurch wurde Japan Teil des
+                            ostasiatischen <hi rend="italic">treaty-port</hi>-Systems, das 1842 in
+                            China begründet worden war und 1876 auch auf Korea ausgedehnt wurde. Bis
+                            1879 wurde der gesamte japanische Außenhandel durch die ausländischen
+                            Unternehmen in den Vertragshäfen abgewickelt, bevor ihnen ab den 1880er
+                            Jahren Konkurrenz durch einheimische Unternehmen erwuchs.<note>Phipps,
+                                Catherine L. (2015): <hi rend="italic">Empires on the Waterfront:
+                                    Japan’s Ports and Power, 1858–1899</hi>. Cambridge (Mass.),
+                                London: Harvard University Press, S. 57–58.</note>
+                        </p>
+                        <p>Diese erste Entwicklungsphase des japanischen Außenhandels nach
+                            Inkrafttreten der Ungleichen Verträge ist nahezu deckungsgleich mit der
+                            sogenannten „Kniffler-Zeit“ von C. Illies &amp; Co., in der Louis
+                            Kniffler das Unternehmen unter seinem Namen führte.</p>
+                        <p>Einige Monate bevor im Juli 1859 Nagasaki, Yokohama und Hakodate als
+                            erste der fünf Vertragshäfen für den internationalen Handel geöffnet
+                            wurden, hatte sich L. Kniffler &amp; Co. als erstes deutsches
+                            Handelshaus in Japan niedergelassen.<note>OAV = Ostasiatischer Verein
+                                (1960): <hi rend="italic">Ostasiatischer Verein Hamburg – Bremen zum
+                                    60jährigen Bestehen</hi>. Hamburg: Kühn, S. 75.</note> Zum
+                            Zeitpunkt der Gründung bestand das Unternehmen lediglich aus Louis
+                            Kniffler selbst und seinem Angestellten, dem späteren Teilhaber Martin
+                            Hermann Gildemeister (1836–1918), der mit ihm aus Batavia gekommen war,
+                            wo beide für das Handelsunternehmen Pandel &amp; Stiehaus tätig gewesen
+                            waren. Neben dem Stammsitz von L. Kniffler &amp; Co. in Nagasaki wurde,
+                            ebenfalls noch im Gründungsjahr, eine Filiale in Yokohama eröffnet, das
+                            sich in kurzer Zeit zum größten internationalen Hafen Japans
+                            entwickelte. In Hakodate wurde hingegen lediglich eine Vertretung
+                            unterhalten, da sich dort vergleichsweise wenige Möglichkeiten für
+                            lohnende Geschäfte boten.<note>vgl. Ivings, Steven (2017): „Trade and
+                                Conflict at the Japanese Frontier: Hakodate as a Treaty Port,
+                                1854–1884“, in: <hi rend="italic">Transcultural Studies</hi>, 2, S.
+                                103–137.</note> Nach und nach wurde europäisches und auch
+                            nicht-europäisches Personal eingestellt, darunter bereits im
+                            Gründungsjahr auch ein japanischer <hi rend="italic">bantō</hi>
+                            (Geschäftsführer).</p>
+                        <p>Die neue Umgebung hielt für die ausländischen Unternehmen zahlreiche
+                            Risiken bereit. Dazu gehörte zunächst die instabile politische
+                            Situation. Zwischen dem Shogunat, das die Ungleichen Verträge mit dem
+                            Ausland unterzeichnet hatte und gegnerischen Parteien, die das Shogunat
+                            aus diesem Grunde stürzen und die politische Macht auf den Kaiser
+                            übertragen wollten, brachen wiederholt bewaffnete Konflikte aus. Im Zuge
+                            dessen wurden vereinzelt Anschläge auf Ausländer verübt, so dass die
+                            Kaufleute um ihre Sicherheit besorgt waren. Auch waren die Bedingungen
+                            der Ungleichen Verträge nicht nur vorteilhaft für sie: hinderlich war
+                            aus ihrer Sicht vor allem die räumliche Beschränkung ihres
+                            Aktionsradius’ auf die Vertragshäfen, während ihnen das Hinterland, wo
+                            sich die Produktionsgebiete wertvoller Exportwaren wie Tee und Seide
+                            befanden, versperrt blieb. Die ausländischen Kaufleute waren daher stets
+                            auf japanische Zwischenhändler, deren Vertrauenswürdigkeit sie
+                            anfänglich nicht beurteilen konnten, angewiesen, um japanische Waren für
+                            den Export einzukaufen. Schließlich war für kleine, junge Unternehmen
+                            wie das von Louis Kniffler die Konkurrenz durch weitaus größere, vor
+                            allem britische und US-amerikanische Handelshäuser wie Jardine Matheson,
+                            Dent &amp; Co., Sassoon, Walsh &amp; Co. und Augustine Heard, von denen
+                            einige bereits länger im Asienhandel etabliert waren, nicht zu
+                            unterschätzen. Sie dominierten den Handel im Wirtschaftsraum <hi rend="italic">transmarine East Asia</hi>, der sich über die
+                            Japansee, das Gelbe Meer sowie das Ost- und Südchinesische Meer
+                            erstreckte und dessen Haupthandelsplätze die Vertragshäfen in China,
+                            Japan und später auch Korea sowie die Häfen in den kolonisierten
+                            Küstenzonen Südostasiens bildeten.<note>Phipps (2015): <hi rend="italic">Empires on the Waterfront</hi> (s. FN 2), S. 11.</note> Dennoch
+                            gelang es L. Kniffler &amp; Co., in Japan Fuß zu fassen und zu
+                            wachsen.</p>
+                        <p>Durch die globale Verflochtenheit des Handels zur Mitte des 19.
+                            Jahrhunderts herrschten – ungeachtet der risikoreichen Lage in Japan
+                            selbst – auf dem Weltmarkt zum Zeitpunkt der Hafenöffnungen aus mehreren
+                            Gründen günstige Bedingungen für den Japanhandel. Erstens war der Handel
+                            mit China wegen Unruhen im Zusammenhang mit dem Taiping-Aufstand
+                            (1851–1864) und dem Zweiten Opiumkrieg („Arrow War“, 1856–1860)
+                            erschwert. Da begehrte chinesische Exportwaren wie Tee und Seide in
+                            Japan ebenfalls produziert wurden, konnte der Japanhandel in diese Lücke
+                            vorstoßen. Zweitens gingen durch den US-amerikanischen Bürgerkrieg
+                            (1861–1865) zu Beginn der 1860er Jahre die Baumwollexporte aus dem Süden
+                            der USA in Richtung Europa zurück, wo infolgedessen die Nachfrage an
+                            japanischer Baumwolle stieg.<note>Partner, Simon (2020): „Small Town,
+                                Big Dreams: A Yokohama Merchant and the Transformation of Japan“,
+                                in: Hellyer, Robert / Fuess, Harald (Hrsg.): <hi rend="italic">The
+                                    Meiji Restoration: Japan as a Global Nation</hi>. Cambridge:
+                                Cambridge University Press, S. 62–82, hier S. 71.</note> Drittens
+                            kam hinzu, dass in den Jahren um 1860 die Seidenproduktion in Europa
+                            aufgrund der Pébrine-Krankheit, die die europäischen Seidenraupen
+                            dahinraffte, am Boden lag, wodurch auf dem Weltmarkt eine starke
+                            Nachfrage nach Rohseide entstand, die durch japanische Seide befriedigt
+                            werden konnte.<note>Davies, Peter N. (2008): <hi rend="italic">The
+                                    Business, Life and Letters of Frederick Cornes: Aspects of the
+                                    Evolution of Commerce in Modern Japan, 1861–1910</hi>.
+                                Folkestone: Global Oriental, S. 52.</note> Um 1860 wurden daher auf
+                            dem Weltmarkt für japanische Exportwaren wie Baumwolle oder Rohseide
+                            hohe Preise erzielt und es wird geschätzt, dass sich der Wert der
+                            japanischen Exporte zwischen 1861 und 1865 vervierfachte.<note>Metzler,
+                                Mark (2020): „Japan and the World Conjuncture of 1866“, in: Hellyer,
+                                Robert / Fuess, Harald (Hrsg.): <hi rend="italic">The Meiji
+                                    Restoration: Japan as a Global Nation</hi>. Cambridge: Cambridge
+                                University Press, S. 15–39, hier S. 16, 19.</note> So konnte sich
+                            der Japanhandel, insbesondere das Exportgeschäft, in kurzer Zeit gut
+                            entwickeln.</p>
+                        <p>Auch Louis Kniffler engagierte sich im Exportgeschäft, obwohl dies nicht
+                            der Vision entsprach, die er ursprünglich für sein Unternehmen
+                            entwickelt hatte. Sein geplantes Geschäftsmodell legte im Gegenteil den
+                            Schwerpunkt auf den Import von europäischen Industrieprodukten, vor
+                            allem Textilien, aber auch Halbfertigprodukten und Investitionsgütern
+                            aller Art sowie Rüstungsgütern. </p>
+                        <p>Schon bald nach ihrer Ankunft hatten Kniffler und Gildemeister
+                            festgestellt, dass die Nachfrage nach europäischen Industrieprodukten in
+                            Japan eng begrenzt war. Ohnehin fehlten ihnen noch die nötigen Kontakte
+                            zu europäischen Industrie- und Handelsunternehmen, um eine breite
+                            Palette europäischer Waren in Japan anbieten zu können. Zur Ausweitung
+                            der Geschäftskontakte und um weiteres Personal anzuwerben, reiste
+                            Kniffler daher im Jahr 1861 nach Europa, wo er sich bei dieser
+                            Gelegenheit im preußischen Außenministerium in Berlin als künftiger
+                            Honorarkonsul für Japan empfahl – ein Schachzug, mit dem er seinem
+                            Unternehmen eine bevorzugte Position verschaffen wollte. Nach Knifflers
+                            Rückkehr machte sich Gildemeister 1863 ebenfalls auf den Weg nach Europa
+                            und verbrachte dort anderthalb Jahre. </p>
+                        <p>1862 wurde Louis Kniffler, wie von ihm ein Jahr zuvor selbst angeregt,
+                            preußischer Honorarkonsul in Japan. Er bekam dadurch die Möglichkeit,
+                            sein Unternehmen in mehrfacher Weise zu fördern. Ein Honorarkonsul kam
+                            qua Amt in häufigen, direkten Kontakt mit japanischen Behörden. Er
+                            konnte so nicht nur einen Informationsvorsprung gegenüber anderen
+                            Unternehmen erlangen, sondern den japanischen Behördenvertretern auch
+                            seine Dienste als Importeur europäischer Güter direkt anbieten, vor
+                            allem in den Bereichen Rüstung und Infrastruktur. Darüber hinaus
+                            erschienen Unternehmen, die von einem Honorarkonsul geleitet wurden, als
+                            besonders vertrauenswürdig. Der Titel hob die Reputation eines
+                            Unternehmens und verbesserte dadurch dessen Geschäftschancen.</p>
+                        <p>Gleichzeitig wurde der Eintritt ins lukrative Rüstungsgeschäft offiziell
+                            möglich, da der Handelsvertrag, den Preußen 1861 mit Japan abgeschlossen
+                            hatte, in Kraft trat und L. Kniffler &amp; Co. sich als preußische Firma
+                            zu erkennen geben konnte, die als solche die rechtlichen Voraussetzungen
+                            besaß, um mit der japanischen Regierung Geschäfte zu machen. </p>
+                        <p>Als Ergebnis der Ausweitung des Kontaktnetzwerks in Europa kam das
+                            Exportgeschäft mit Rohseide nach Frankreich ab 1862 in Gang, Tee wurde
+                            nach Bremen und in die USA verkauft. Tuche und Gewehre wurden aus
+                            Hamburg und Bremen importiert. </p>
+                        <p>Auch in <hi rend="italic">transmarine East Asia</hi> engagierte sich L.
+                            Kniffler &amp; Co. Wichtige Geschäftspartner saßen unter anderem in
+                            Batavia, Shanghai und Hongkong. Auch in den Export von japanischen
+                            Meeresprodukten nach China, der zum damaligen Zeitpunkt bereits eine
+                            lange Tradition hatte,<note>s. Matsuura Akira (2016): „The Trade in
+                                Dried Marine Products from Nagasaki to China during the Edo Period“,
+                                in: Nagase-Reimer, Keiko (Hrsg.): <hi rend="italic">Copper in the
+                                    Early Modern Sino-Japanese Trade</hi>. Leiden, Boston: Brill, S.
+                                118–156.</note> stieg Kniffler ein. In der Geschäftskorrespondenz
+                            findet sich dazu ein Beleg über eine größere Lieferung des in China
+                            beliebten Nahrungsmittels Seetang (<hi rend="italic">konbu</hi>) nach
+                            Shanghai im Jahr 1865.</p>
+                        <p>Vier Jahre nach der Unternehmensgründung galt L. Kniffler &amp; Co. 1863
+                            dem ersten preußischen Konsul in Japan, Max von Brandt (1835–1920), als
+                            das größte deutsche und insgesamt als eines der bedeutendsten
+                            ausländischen Handelshäuser in Japan.</p>
+                    </div>
+                    <div>
+                        <head>2. Das Krisenjahr 1866 und die Gründung des Einkaufshauses in
+                            Düsseldorf</head>
+                        <p>Das Krisenjahr 1866 brachte eine erste Zäsur in der Entwicklung der
+                            euroamerikanischen Handelsunternehmen in Japan. Infolge einer
+                            internationalen Bankenkrise, die durch einen weltweiten Zusammenbruch
+                            der Baumwollpreise ausgelöst wurde, musste mehr als die Hälfte der
+                            euroamerikanischen Handelshäuser in Yokohama den Betrieb
+                                einstellen.<note>Metzler (2020): <hi rend="italic">Japan and the
+                                    World Conjuncture of 1866</hi> (s. FN 8), S. 21–25.</note>
+                        </p>
+                        <p>Bereits seit dem Vorjahr 1865 entwickelte sich das Exportgeschäft sehr
+                            wechselhaft. Einerseits fielen die Preise für einige lukrative
+                            japanische Exportgüter,<note>Metzler (2020): <hi rend="italic">Japan and
+                                    the World Conjuncture of 1866</hi> (s. FN 8), S. 16.</note>
+                            darunter, bedingt durch das herannahende Ende des Bürgerkriegs in den
+                            USA, insbesondere die Baumwollpreise, die im Frühjahr 1865 zeitweise auf
+                            50 % des Vorjahrsniveaus sanken, um nach einer kurzen Erholung auch
+                            langfristig weiter nachzulassen. Der damit einhergehende Rückgang der
+                            Baumwollexporte konnte andererseits jedoch durch einen gleichzeitigen
+                            Boom im Seidenhandel aufgefangen werden.<note>Metzler (2020): <hi rend="italic">Japan and the World Conjuncture of 1866</hi> (s.
+                                FN 8), S. 21–22.</note> Dies betraf neben der Rohseide auch
+                            Seidenraupeneier, deren Export das Shogunat ab 1865
+                                erlaubte.<note>Partner (2020): <hi rend="italic">Small Town, Big
+                                    Dreams</hi> (s. FN 6), S. 73.</note>
+                        </p>
+                        <p>Möglicherweise als Reaktion auf die Krise im Jahr 1866 scheint L.
+                            Kniffler &amp; Co. eine Strategie der Diversifizierung verfolgt zu
+                            haben. Ähnlich wie andere internationale Handelsunternehmen, die neben
+                            dem Handelsgeschäft Einnahmen aus der Vermietung von Immobilien sowie
+                            aus der Übernahme von Agenturen insbesondere für Versicherungen und
+                            Reedereien erzielten,<note>Davies (2008): <hi rend="italic">The
+                                    Business, Life and Letters of Frederick Cornes</hi> (s. FN 7),
+                                S. 42.</note> sind für L. Kniffler &amp; Co. ab dem Jahr 1866 eine
+                            Teerösterei und andere Produktionsstätten in Nagasaki überliefert, eine
+                            weitere Teerösterei in Kōbe, eine Lederfabrik in Yokohama sowie
+                            Finanzdienstleistungen und Versicherungsvertretungen. Während das
+                            Engagement im produzierenden Gewerbe wohl nach wenigen Jahren wieder
+                            eingestellt wurde, blieben Finanz- und Vertretungsgeschäfte in den
+                            folgenden Jahrzehnten wichtig für das Unternehmen.</p>
+                        <p>Andererseits scheint L. Kniffler &amp; Co. von der Bankenkrise nicht sehr
+                            stark betroffen gewesen zu sein. Im Gegenteil erweiterte Louis Kniffler
+                            das Unternehmen im September 1866 um ein Einkaufshaus in Düsseldorf, das
+                            die Kontakte zu europäischen Industrieunternehmen koordinierte. Einiges
+                            spricht dafür, dass dieser Schritt dadurch motiviert wurde, dass wenige
+                            Wochen vor seiner Abreise in der zweiten Jahreshälfte 1865 bekannt
+                            geworden war, dass, vor dem Hintergrund der andauernden innerjapanischen
+                            Konflikte, japanische Delegationen nach Europa gereist waren, um mit
+                            französischen Rüstungsherstellern direkte Kaufabschlüsse zu tätigen. Die
+                            Annahme liegt nahe, dass Louis Kniffler in dieser Situation versucht
+                            haben wird, Rüstungskäufe bei deutschen Herstellern zu vermitteln, wozu
+                            seine Anwesenheit in Deutschland erforderlich war. In jedem Fall wurde
+                            mit dem Einkaufshaus in Düsseldorf ein tragfähiges Fundament für das
+                            Importgeschäft mit europäischen Industrieprodukten gelegt; gleichzeitig
+                            konnte Louis Kniffler von dort aus den Seidenexport in Richtung
+                            europäischer Textilunternehmen vorantreiben. </p>
+                        <p>Nachdem Louis Kniffler Japan verlassen hatte, wurde das Unternehmen dort
+                            von dem erfahrenen Teilhaber Gustav Reddelien (1839–1912) und dem
+                            späteren Unternehmensinhaber Carl Illies (1840–1910) geleitet, der im
+                            Jahr 1866 eben erst in die Firma eingetreten war und sogleich Prokura
+                            erhalten hatte.</p>
+                        <p>Unter ihrer Leitung kam, wiederum begünstigt durch externe Ereignisse,
+                            das Importgeschäft allmählich ins Rollen. Zum einen wurde die japanische
+                            Regierung im Krisenjahr 1866 gezwungen, die Zollsätze für Im- und
+                            Exporte auf 5 % zu senken. Dies beeinflusste insbesondere das
+                            Importgeschäft, da die Importzölle von den ursprünglich festgelegten 20
+                            % auf ein Viertel sanken und nun deutlich unter dem international
+                            üblichen Niveau von 10 % lagen. Zum anderen gab das Shogunat seinen bis
+                            dahin exklusiven Anspruch auf den Außenhandel auf. Ab 1866 wurde es
+                            allen japanischen Kaufleuten sowie <hi rend="italic">daimyō</hi>
+                            (Lehnsfürsten) und ihren Vasallen erlaubt, mit Ausländern Handel zu
+                                treiben.<note>Phipps (2015): <hi rend="italic">Empires on the
+                                    Waterfront</hi> (s. FN 2), S. 66–67.</note> Diese neuen
+                            Rahmenbedingungen, die auf Preissenkungen für Importgüter bei
+                            gleichzeitiger Erweiterung des Kundenkreises hinausliefen, belebten das
+                            Importgeschäft. </p>
+                        <p>Für L. Kniffler &amp; Co. scheint dies ein spürbares Wachstum vor allem
+                            im Rüstungsgeschäft mit sich gebracht zu haben. Aus den Jahren 1866 und
+                            1867 sind zahlreiche größere Rüstungsgeschäfte mit verschiedenen
+                            Lehnstümern belegt, darunter ab 1867 auch der Import von
+                            Krupp-Kanonen.</p>
+                    </div>
+                    <div>
+                        <head>3. Aufschwung und Konsolidierung in den 1870er Jahren</head>
+                        <p>Nach der Meiji-Restauration 1868 setzte sich der Aufschwung im
+                            Importgeschäft weiter fort. Gemäß dem Motto der neuen Regierung: <hi rend="italic">fukoku kyōhei</hi> („wehrhafte Industrienation“), trat
+                            der japanische Staat immer häufiger als Auftraggeber für große Rüstungs-
+                            und Infrastrukturprojekte auf, um die militärisch-wirtschaftliche
+                            Modernisierung des Landes voranzubringen. Nun konnte das von Louis
+                            Kniffler ursprünglich geplante Importgeschäft in großem Stil ausgebaut
+                            werden, vorausgesetzt, das Unternehmen verfügte über die nötigen
+                            Kontakte zu japanischen Regierungsmitgliedern und hochrangigen
+                            Behördenvertretern, die über derartige Aufträge entschieden. L. Kniffler
+                            &amp; Co. versuchte vor allem über das Amt des Honorarkonsuls, das unter
+                            den großen Handelsunternehmen rotierte und mit dem sowohl deren Inhaber
+                            als auch leitende Angestellte betraut wurden, solche Kontakte
+                            herzustellen. Auf diesem Wege wurde Carl Illies beispielsweise bekannt
+                            mit Mutsu Munemitsu (1844–1897), einem der einflussreichsten japanischen
+                            Staatsmänner der Meiji-Zeit. Das früheste belegte Geschäft zwischen L.
+                            Kniffler &amp; Co. und der Meiji-Regierung ist der Verkauf von Gewehren
+                            im Auftrag des Ministeriums für militärische Angelegenheiten (Hyōbushō)
+                            im Jahr 1871. An die Kolonisierungsbehörde von Hokkaidō (Kaitakushi)
+                            wurden unter anderem ebenfalls Rüstungsgüter geliefert. Ein erstes
+                            Infrastrukturgeschäft war der Import von Siemens-Telegraphenanlagen im
+                            Jahr 1870. </p>
+                        <p>Auch in Deutschland führte Louis Kniffler weiterhin den Titel Konsul und
+                            konnte ihn gewinnbringend zur Anbahnung von Geschäften einsetzen. Ein
+                            herausragendes Ereignis in diesem Zusammenhang war seine Begleitung der
+                            sogenannten Iwakura-Mission, einer Sondergesandtschaft hochrangiger
+                            japanischer Regierungsvertreter unter Leitung des Vize-Premierministers
+                            von Japan, Iwakura Tomomi (1825–1883), die zwischen 1871 und 1873 mit
+                            einer umfangreichen Entourage aus Beamten und Wissenschaftlern die USA
+                            und verschiedene europäische Länder bereisten, wo sie sich ein Bild vom
+                            Ausmaß der militärischen, technischen und wirtschaftlichen Überlegenheit
+                            der westlichen Länder machen konnten. Vom 7. bis 29. März 1873 hielt
+                            sich die Gesandtschaft in Deutschland auf und besichtigte zunächst die
+                            Produktionsstätten von Krupp in Essen, bevor sie nach Berlin weiterfuhr.
+                            Als „Konsul“ wurde Louis Kniffler als einziger Kaufmann Mitglied der
+                            vierköpfigen Ehrenbegleitung der Iwakura-Mission und erhielt auf diese
+                            Weise direkten Zugang zu mehreren der mächtigsten japanischen
+                            Staatsmänner. Dass sich aus dieser Begegnung lohnende Geschäftskontakte
+                            zur japanischen Regierung ergaben, wurde im Unternehmen noch Jahrzehnte
+                            später tradiert. </p>
+                        <p>Gleichzeitig sorgten verbesserte internationale Rahmenbedingungen dafür,
+                            dass der direkte Warenaustausch zwischen Deutschland und Japan zunahm.
+                            1867 wurde der preußische Handelsvertrag auf die Staaten des
+                            Norddeutschen Bundes ausgedehnt, wodurch die Schiffe der großen
+                            hanseatischen Handelsflotte japanische Häfen offiziell anlaufen durften.
+                            Zwei Jahre später halbierte die Eröffnung des Suezkanals 1869 die
+                            Transportwege zwischen Ostasien und Europa nahezu und es wurden direkte
+                            Schiffsverbindungen zwischen Deutschland und Ostasien eingerichtet. Ab
+                            1871 verkehrten die Fracht- und Passagierschiffe der Deutschen
+                            Dampfschiffs-Rhederei (Kingsin-Linie) zwischen Hamburg und China, deren
+                            Alleinvertretung für Japan L. Kniffler &amp; Co. 1873 übertragen
+                            bekam.</p>
+                        <p>Neben den Importen wurden auch die Exporte angekurbelt. Japan importierte
+                            zwar in den 1870er Jahren stets mehr als es exportierte, was auch auf
+                            die mangelnde Qualität und den hohen Preis vieler japanischer Waren
+                            zurückzuführen war. Erstmals im Jahr 1869 und abermals 1876 wurden
+                            jedoch Exportverbote für eine Reihe japanischer Waren aufgehoben und
+                            Exportzölle reduziert mit dem Ziel, durch den Export von
+                            landwirtschaftlichen Produkten Einnahmen zu erzielen, die für die
+                            Industrieförderung im Inland eingesetzt werden konnten. Dies belebte das
+                            Exportgeschäft, das in den 1870er Jahren zu zwei Dritteln aus Tee und
+                            Rohseide bestand.<note>Phipps (2015): <hi rend="italic">Empires on the
+                                    Waterfront</hi> (s. FN 2), S. 68–69, 73.</note> Auch hier
+                            spielten globale Entwicklungen eine Rolle: infolge der Niederlage
+                            Frankreichs gegen Preußen 1870/71 brach der französische Markt für
+                            Seidenstoffe ein,<note>Partner (2020): <hi rend="italic">Small Town, Big
+                                    Dreams</hi> (s. FN 6), S. 75.</note> was den Verkauf japanischer
+                            Seide auf dem Weltmarkt beförderte.</p>
+                        <p>Mitte der 1870er Jahre erreichte L. Kniffler &amp; Co. seine größte
+                            Ausdehnung. Anlässlich der für 1868 geplanten Öffnung der zwei übrigen
+                            Vertragshäfen Niigata und Kōbe richtete L. Kniffler &amp; Co. eine
+                            Vertretung in Niigata ein, wo jedoch nur wenig Geschäftstätigkeit
+                            herrschte, sowie eine Niederlassung in Kōbe, das sich neben Yokohama zum
+                            größten internationalen Hafen Japans entwickelte. Im Stadtgebiet von
+                            Osaka wurde für einige Jahre ebenfalls eine Niederlassung unterhalten
+                            sowie in Tokyo 1870 eine Vertretung eröffnet. Im Jahr 1866 wechselte der
+                            Hauptsitz des Unternehmens von Nagasaki nach Yokohama, über dessen Hafen
+                            mittlerweile jährlich zwischen 70 bis 90 % des gesamten japanischen
+                            Außenhandels abgewickelt wurden.<note>Makimura Yasuhiro (2017): <hi rend="italic">Yokohama and the Silk Trade: How Eastern Japan
+                                    Became the Primary Economic Region of Japan, 1843–1893</hi>.
+                                Lanham, Boulder, New York, London: Lexington Books, S. 116.</note>
+                            Der Hauptsitz des Unternehmens blieb bis 1898 in Yokohama, während der
+                            Standort Nagasaki, wo mittlerweile nur noch wenig Handel stattfand,
+                            Mitte der 1870er Jahre ganz aufgegeben wurde. Bis dahin besaß das
+                            Unternehmen vier Niederlassungen und drei Vertretungen in Japan, hinzu
+                            kam das Einkaufshaus in Düsseldorf. Über die Personalstärke des
+                            Unternehmens ist jedoch lediglich bekannt, dass es zu dieser Zeit 13
+                            deutsche bzw. europäische sowie eine unbekannte Anzahl japanischer und
+                            chinesischer Angestellter beschäftigte. </p>
+                        <p>Parallel zur Ausdehnung des Unternehmens in Japan expandierte dessen
+                            internationales Handelsnetzwerk in Europa, Asien sowie Nord- und
+                            Südamerika. Neben Rüstungsgütern bildeten nach wie vor der Export von
+                            Seide und der Import von Baumwolltuchen Schwerpunkte im Geschäft. </p>
+                        <p>Im Jahr 1880 zog sich Louis Kniffler aus dem Geschäft zurück,
+                            möglicherweise aufgrund schlechter Gesundheit. Am 1. April 1880 übernahm
+                            Carl Illies das Unternehmen und begründete das Familienunternehmen C.
+                            Illies &amp; Co. Obwohl die Ära Kniffler damit formal beendet war, blieb
+                            Louis Kniffler – zusammen mit Gustav Reddelien – Mitinhaber des
+                            Unternehmens. Das Einkaufshaus in Düsseldorf führte weiterhin seinen
+                            Namen, bevor es einige Jahre später, am 1. Januar 1888, ebenfalls in C.
+                            Illies &amp; Co. umbenannt wurde. Kurze Zeit darauf, am 20. März 1888,
+                            starb Louis Kniffler im Alter von 61 Jahren. Die Düsseldorfer
+                            Niederlassung wurde anschließend am 1. Juli 1888 von Gustav Reddelien
+                            nach Hamburg verlegt. Im Jahr 1898 wurde daraus der Hauptsitz von C.
+                            Illies und Co. und ist dies bis heute.</p>
+                    </div>
+                    <div>
+                        <head>Literaturverzeichnis</head>
+
+                    </div>
+                </div>
+            </div>
+            <div xml:lang="en">
+                <head>About L. Kniffler &amp; Co. (1859–1880)<note>This overview of L.
+                        Kniffler &amp; Co. is based on chapter 1 of the corporate history of C.
+                        Illies &amp; Co., published on the occasion of the company’s 150th
+                        anniversary (Bähr, Johannes / Lesczenski, Jörg / Schmidtpott, Katja (2009):
+                            <hi rend="italic">Handel ist Wandel: 150 Jahre C. Illies &amp; Co</hi>.
+                        Munich: Piper [Engl. translation: <hi rend="italic">Winds of change: On the
+                            150</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic" xml:space="preserve"> anniversary of C. Illies &amp; Co.</hi>],
+                        pp. 19-61).</note>
+                </head>
+                <p>The trading company L. Kniffler &amp; Co. was founded in Nagasaki by the Prussian
+                    merchant Louis Kniffler (1827–1888) in 1859. It was one of the first European or
+                    American trading houses established in Japan after the Shogunate dropped its
+                    isolationist policy, and within just a few years it grew into one of the
+                    largest. In 1880 the partner Carl Illies (1840–1910) took over the company, at
+                    which point it was renamed C. Illies &amp; Co. This trading firm, in legal terms
+                    the successor company of L. Kniffler &amp; Co., is still in existence today.
+                    Headquartered in Hamburg and still active in trade with Asia, it has an
+                    unusually long company history of, in total, more than 160 years in business to
+                    look back on.</p>
+                <div>
+                    <div>
+                        <head>1. Starting out in the Import and Export Business (1859–1865)</head>
+                        <p>The foundation of L. Kniffler &amp; Co. took place during the first phase
+                            of Japan’s integration into world trade. This process began with the
+                            ‘Unequal Treaties’, which the Shogunate was urged into signing by a
+                            number of European countries and the USA from the 1850s onwards.</p>
+                        <p>Embedded into an asymmetrical power structure between Japan and these
+                            European and American nation states, these trade treaties aimed at
+                            securing access to the Japanese market for foreign trading companies
+                            with the best conditions possible, including exterritoriality and low
+                            customs duties. It was on the basis of these treaties that the five
+                            ports of Hakodate, Nagasaki, Yokohama, Niigata and Kōbe were opened up
+                            to international merchants between 1859 and 1869. As a consequence,
+                            Japan became part of the East Asian ‘treaty port’ system, which had been
+                            established in China in 1842 and was extended to include Korea, too, in
+                            1876. By 1879 the entirety of Japan’s international trade was conducted
+                            by the foreign companies at the treaty ports, until 1882 when
+                            competition arose in the form of local businesses.<note>Phipps,
+                                Catherine L. (2015): <hi rend="italic">Empires on the Waterfront:
+                                    Japan’s Ports and Power, 1858–1899</hi>. Cambridge (Mass.),
+                                London: Harvard University Press, pp. 57–58.</note>
+                        </p>
+                        <p>This first phase in the development of Japanese foreign trade after the
+                            Unequal Treaties came into effect is virtually identical to the
+                            so-called “Kniffler era” of C. Illies &amp; Co., during which Louis
+                            Kniffler ran the business under his own name.</p>
+                        <p>A few months before the first of the five treaty ports – Nagasaki,
+                            Yokohama and Hakodate – were opened up to international trade in 1859,
+                            L. Kniffler &amp; Co. had established itself in Japan, the first German
+                            trading house to do so.<note>OAV = Ostasiatischer Verein (1960): <hi rend="italic">Ostasiatischer Verein Hamburg – Bremen zum
+                                    60jährigen Bestehen</hi> [East Asian Association of
+                                Hamburg-Bremen on the 60<hi rend="superscript">th</hi> Anniversary
+                                of Its Foundation]. Hamburg: Kühn, p. 75.</note> When it was
+                            founded, the company consisted of just Louis Kniffler himself and a
+                            single employee, Martin Hermann Gildemeister (1836–1918), who later
+                            became a partner. Gildemeister and Kniffler had arrived from Batavia
+                            together, where they had both worked for the trading house Pandel &amp;
+                            Stiehaus. During the same year as the main base of L. Kniffler &amp; Co.
+                            was founded in Nagasaki, a subsidiary was set up in Yokohama as this
+                            port was quickly developing into Japan’s largest. By contrast, in
+                            Hakodate Kniffler was only represented by an agency because that port
+                            offered comparatively few opportunities for profitable business
+                                undertakings.<note>cf. Ivings, Steven (2017): “Trade and Conflict at
+                                the Japanese Frontier: Hakodate as a Treaty Port, 1854–1884”, in:
+                                    <hi rend="italic">Transcultural Studies</hi>, 2, pp.
+                                103–137.</note> Gradually, the company employed more staff, both
+                            European and non-European, amongst them already in its first year of
+                            existence a Japanese <hi rend="italic">bantō</hi> (manager).</p>
+                        <p>The new environment presented numerous risks for the foreign companies.
+                            Armed conflict broke out repeatedly between the Shogunate, which had
+                            signed the Unequal Treaties with the foreign powers, and opposition
+                            parties which, in rebellion against the treaties, wanted to overthrow
+                            the Shogunate and transfer political power to the Emperor. These armed
+                            conflicts on occasion led to isolated attacks on foreigners, which
+                            caused the merchants to be concerned for their own safety. Furthermore,
+                            the conditions set out in the Unequal Treaties were not entirely
+                            beneficial for the merchants: In their view, especially the fact that
+                            their sphere of action was geographically restricted to the treaty ports
+                            was an impediment as the inland areas, where the production of valuable
+                            export goods such as tea and silk took place, were barred to them.
+                            Consequently, when buying Japanese wares for export purposes, the
+                            foreign merchants were always forced to rely on Japanese intermediaries,
+                            whose trustworthiness they were initially unable to verify. In addition,
+                            for small, new businesses such as Louis Kniffler’s there was
+                            considerable competition from larger, mostly British and US trading
+                            houses like Jardine Matheson, Dent &amp; Co., Sassoon, Walsh &amp; Co.
+                            and Augustine Heard, several of which had been established in the Asian
+                            trade for quite some time. They dominated the trade in the economic area
+                            of transmarine East Asia, which stretched from the Sea of Japan and the
+                            Yellow Sea to the East and South China Seas and whose main trading
+                            centres were the treaty ports in China, Japan and later on also Korea as
+                            well as the ports in the colonial coastal areas of South East
+                                Asia.<note>Phipps (2015): <hi rend="italic">Empires on the
+                                    Waterfront</hi> (cf. n. 2), p. 11.</note> Nonetheless, L.
+                            Kniffler &amp; Co. successfully managed to establish itself and to
+                            expand in Japan.</p>
+                        <p>Due to the global entanglements of trade in the mid-19<hi rend="superscript">th</hi> century, the conditions on the world
+                            market at the time of the port openings were favourable to Japanese
+                            trade – despite the high-risk situation in Japan itself – for several
+                            reasons. Firstly, trade with China had become more difficult as a result
+                            of unrest connected to the Taiping Rebellion (1851–1864) and the Second
+                            Opium War (“Arrow War”, 1856–1860). This enabled Japan to step in and
+                            fill the gap because sought-after export goods such as tea and silk were
+                            also being produced in Japan. Secondly, the American Civil War
+                            (1861–1865) caused a reduction in cotton exports from the southern USA
+                            to Europe in the early 1860s, which led to increased European demand for
+                            Japanese cotton.<note>Partner, Simon (2020): “Small Town, Big Dreams: A
+                                Yokohama Merchant and the Transformation of Japan”, in: Hellyer,
+                                Robert / Fuess, Harald (eds.): <hi rend="italic">The Meiji
+                                    Restoration: Japan as a Global Nation</hi>. Cambridge: Cambridge
+                                University Press, pp. 62–82, here p. 71.</note> A third factor was
+                            that in the years around 1860 silk production in Europe was on its knees
+                            after the illness pébrine had decimated the silkworm population there.
+                            This caused high demand for raw silk on the world market, which the
+                            trade in Japanese silk was able to fulfil.<note>Davies, Peter N. (2008):
+                                    <hi rend="italic">The Business, Life and Letters of Frederick
+                                    Cornes: Aspects of the Evolution of Commerce in Modern Japan,
+                                    1861–1910</hi>. Folkestone: Global Oriental, p. 52.</note>
+                            Around 1860, Japanese export goods like cotton or raw silk commanded
+                            high prices on the world market, and the value of Japanese exports is
+                            estimated to have quadrupled in the period between 1861 and
+                                1865.<note>Metzler, Mark (2020): “Japan and the World Conjuncture of
+                                1866”, in: Hellyer, Robert / Fuess, Harald (eds.): <hi rend="italic">The Meiji Restoration: Japan as a Global Nation</hi>.
+                                Cambridge: Cambridge University Press, pp. 15–39, here p. 19.</note>
+                            Consequently, Japanese trade, and especially the export business,
+                            developed very favourably very quickly. </p>
+                        <p>Louis Kniffler, too, took part in the export trade, even though this was
+                            not actually part of the vision he had originally developed for his
+                            company. His intended business model had instead focused on importing
+                            European industrial products, mainly textiles as well as semi-finished
+                            products and all kinds of investment goods, in addition to
+                            munitions.</p>
+                        <p>However, soon after their arrival, Kniffler and Gildemeister realised
+                            that in Japan the demand for European industrial goods was very limited.
+                            Furthermore, they lacked the contacts with European manufacturing or
+                            trading companies that would have been necessary to be able to offer a
+                            wide portfolio of European goods in Japan. In order to broaden his
+                            business connections and to recruit further staff, Kniffler therefore
+                            travelled to Europe in 1861. While there, he took the opportunity to
+                            introduce himself at the Foreign Ministry in Berlin as a possible future
+                            honorary consul for Japan – a strategic move which he hoped would secure
+                            a privileged position for his company. After Kniffler’s return to Japan,
+                            Gildemeister, too, made the journey to Europe, spending one and a half
+                            years there.</p>
+                        <p>In 1862, as he had himself initiated the previous year, Louis Kniffler
+                            became the Prussian honorary consul in Japan. This provided him with the
+                            opportunity to advance his business in a variety of ways. By the nature
+                            of the office, an honorary consul came into frequent, direct contact
+                            with the Japanese authorities. This not just gave him an edge on
+                            information over other companies but also enabled him to offer his
+                            services as an importer of European goods directly to representatives of
+                            the Japanese authorities, especially with regard to munitions and
+                            infrastructure. Furthermore, a company run by an honorary consul gave
+                            the appearance of being especially trustworthy. The title elevated the
+                            company’s reputation, thus improving its business opportunities. </p>
+                        <p>At the same time, entering the lucrative munitions business became an
+                            officially sanctioned possibility, as the trade treaty that Prussia had
+                            concluded with Japan in 1861 came into force. Consequently, L. Kniffler
+                            &amp; Co. could reveal themselves to be a Prussian company, which was
+                            therefore furnished with all the legal requirements necessary to do
+                            business with the Japanese government.</p>
+                        <p>Resulting from the widening of the company’s network of contacts in
+                            Europe, the trade in exporting silk to France got under way from 1862
+                            onwards, and tea was delivered to Bremen and to the USA. In return,
+                            cloth and guns were imported from Hamburg and Bremen.</p>
+                        <p>L. Kniffler &amp; Co. was also involved in trading with the region of
+                            transmarine East Asia. Important business partners were located in
+                            Batavia, Shanghai and Hong Kong, among others. Kniffler also joined in
+                            the business of exporting Japanese seafood products to China, which
+                            already had a long tradition by then.<note>cf. Matsuura Akira (2016):
+                                “The Trade in Dried Marine Products from Nagasaki to China during
+                                the Edo Period”, in: Nagase-Reimer, Keiko (ed.): <hi rend="italic">Copper in the Early Modern Sino-Japanese Trade</hi>. Leiden,
+                                Boston: Brill, pp. 118–156.</note> His business correspondence
+                            features records of a large delivery of seaweed (<hi rend="italic">konbu</hi>), a foodstuff that was popular in China, to Shanghai in
+                            1865.</p>
+                        <p>Four years after the company had been founded, L. Kniffler &amp; Co. had
+                            the reputation with the first Prussian Consul in Japan, Max von Brandt
+                            (1835–1920) of being the largest German trading house in Japan and one
+                            of the most important foreign trading companies there overall.</p>
+                    </div>
+                    <div>
+                        <head>2. The 1866 Crisis and the Foundation of the Purchasing House in
+                            Düsseldorf</head>
+                        <p>The year of crisis in 1866 led to a first rupture in the development of
+                            the European and American trading companies in Japan. Following an
+                            international banking crisis caused by a worldwide collapse in cotton
+                            prices, more than half of the European and American trading houses in
+                            Yokohama were forced to shut down.<note>Metzler (2020): <hi rend="italic">Japan and the World Conjuncture of 1866</hi> (cf.
+                                n. 8), pp. 21–25.</note>
+                        </p>
+                        <p>Already in the previous year, 1865, the export trade had performed
+                            extremely variably. On the one hand, prices for some lucrative Japanese
+                            export goods dropped,<note>Metzler (2020): <hi rend="italic">Japan and
+                                    the World Conjuncture of 1866</hi> (cf. n. 8), p. 16.</note>
+                            especially the cotton prices, which in the spring of 1865 temporarily
+                            dropped to as low as 50% of the previous year’s level due to the US
+                            civil war approaching its end, and then, after rallying briefly,
+                            proceeded to drop even further in the long term. However, the
+                            concomitant reduction in cotton exports could be cushioned by means of a
+                            simultaneous boom in silk trading.<note>Metzler (2020): <hi rend="italic">Japan and the World Conjuncture of 1866</hi> (cf.
+                                n. 8), pp. 21–22.</note> This covered both raw silk and silkworm
+                            eggs, whose export the Shogunate permitted starting from
+                                1865.<note>Partner (2020): <hi rend="italic">Small Town, Big
+                                    Dreams</hi> (cf. n. 6), p. 73.</note>
+                        </p>
+                        <p>Possibly as a reaction to the crisis that erupted in 1866, L. Kniffler
+                            &amp; Co. appears to have followed a strategy of diversification.
+                            Similar to other international trading companies which beside their
+                            trading activities achieved income from renting out real estate as well
+                            as from becoming agents especially for insurance and shipping
+                                companies,<note>Davies (2008): <hi rend="italic">The Business, Life
+                                    and Letters of Frederick Cornes</hi> (cf. n. 7), p. 42.</note>
+                            L. Kniffler &amp; Co. are documented to have had, from 1866 onwards, a
+                            tea roasting plant and other production sites in Nagasaki, a further tea
+                            roasting plant in Kōbe, a tannery in Yokohama, as well as financial
+                            services companies and insurance agencies. While the involvement in the
+                            manufacturing side of things was wound down after a few years, the
+                            financial and insurance business remained an important aspect of the
+                            company for decades to come.</p>
+                        <p>As a matter of fact, L. Kniffler &amp; Co. seems not to have been
+                            affected very much by the banking crisis. On the contrary, Louis
+                            Kniffler actually expanded his business in September 1866 by means of a
+                            purchasing house in Düsseldorf, which then co-ordinated the contact with
+                            European manufacturing companies. There is some evidence for this step
+                            having been motivated by the fact that, a few weeks before his departure
+                            in the second half of the year 1865, it became known that, as a result
+                            of the ongoing Japan-internal conflicts, Japanese delegations had
+                            travelled to Europe to make direct purchases with French munitions
+                            manufacturers. It is therefore reasonable to assume that Louis Kniffler
+                            at that point will have attempted to act as a broker for munitions
+                            purchases from German producers, for which his presence in Germany would
+                            have been required. In any case, establishing the purchasing house in
+                            Düsseldorf laid a solid foundation for the import business for European
+                            industrial products; while at the same time it enabled Louis Kniffler to
+                            push ahead in exporting silk to European textile businesses.</p>
+                        <p>After Louis Kniffler had left Japan, the company there was led by the
+                            experienced partner Gustav Reddelien (1839–1912) and the later owner
+                            Carl Illies (1840–1910), who in 1866 had only just started at the
+                            company and immediately received commercial proxy (Prokura).</p>
+                        <p>Under their leadership, the import business gradually gained momentum,
+                            once again aided by favourable external events. Firstly, the 1866 crisis
+                            forced the Japanese government to lower the customs duties on imports
+                            and exports to 5%. This particularly impacted the import business as the
+                            import duties sank to a mere quarter of the original 20% rate and thus
+                            were now lower than the usual international level of 10%. Secondly, the
+                            Shogunate rescinded its up to then exclusive claim to conducting foreign
+                            trade. From 1866 onwards, all Japanese merchants as well as the liege
+                            lords (<hi rend="italic">daimyō</hi>) and their vassals were allowed to
+                            conduct trade with foreigners.<note>Phipps (2015): <hi rend="italic">Empires on the Waterfront</hi> (cf. n. 2), pp. 66–67.</note>
+                            This new economic environment, which resulted in lower prices for
+                            imported goods while simultaneously widening the customer base,
+                            significantly enlivened the import business.</p>
+                        <p>With regard to L. Kniffler &amp; Co. this appears to have led to
+                            noticeable growth particularly in the munitions business. For the years
+                            1866 and 1867 several large munitions deals with differing fiefdoms are
+                            on record, including the import of Krupp-produced cannons from 1867
+                            onwards.</p>
+                    </div>
+                    <div>
+                        <head>3. Upturn and Consolidation in the 1870s</head>
+                        <p>After the Meiji Restoration in 1868, the upturn in the import business
+                            continued. True to the new government’s motto <hi rend="italic">fukoku
+                                kyōhei</hi> (“rich nation, strong army”) the Japanese state
+                            increasingly featured as the customer for large munitions and
+                            infrastructure projects with the aim of driving forward the military and
+                            economic modernisation of the country. At this point, the import
+                            business that Louis Kniffler had originally envisaged could be expanded
+                            in a big way, provided that the company had the necessary contacts with
+                            members of the Japanese government and with high-ranking officials who
+                            made the decisions about handing out such contracts. L. Kniffler &amp;
+                            Co. particularly endeavoured to build these contacts by using the office
+                            of honorary consul, which rotated between the large trading firms and
+                            was conferred on their owners as well as senior employees. It was in
+                            this way, for example, that Carl Illies became acquainted with Mutsu
+                            Munemitsu (1844–1897), one of the most influential Japanese statesmen of
+                            the Meiji period. The earliest deal on record between L. Kniffler &amp;
+                            Co. and the Meiji government concerns the buying of guns on behalf of
+                            the Ministry for Military Affairs (Hyōbushō) in 1871. The colonisation
+                            agency of Hokkaidō (Kaitakushi) also received deliveries of munitions.
+                            An early infrastructure deal in 1870 involved the import of Siemens
+                            telegraph machinery.</p>
+                        <p>In Germany, Louis Kniffler continued to use the title of consul,
+                            successfully employing this to solicit business deals. A stand-out event
+                            in this respect was his accompanying the so-called Iwakura Mission, a
+                            special delegation of high-ranking Japanese government representatives
+                            headed by the Vice Prime Minister of Japan, Iwakura Tomomi (1825–1883).
+                            Between 1871 and 1873 this mission, featuring an extensive entourage of
+                            civil servants and scientists, travelled around the USA and a number of
+                            European countries, where they gained an impression of the extent of the
+                            military, technological and economic superiority of the Western nations.
+                            The mission spent the period from 7 to 29 March 1873 in Germany,
+                            visiting the production sites of Krupp in Essen before moving on to
+                            Berlin. As “consul”, Louis Kniffler was the only merchant member of the
+                            four-strong honorary escort of the Iwakura Mission and thus gained
+                            direct access to Japan’s most powerful statesmen. Decades later it was
+                            still part of the company lore that these meetings resulted in lucrative
+                            business contacts with the Japanese government.</p>
+                        <p>At the same time, improved international conditions resulted in an
+                            increase in the direct exchange of goods between Germany and Japan. In
+                            1867, the Prussian trade agreement was extended to cover also the states
+                            of the North German Confederation, which meant that ships of the large
+                            Hanseatic merchant fleet were officially permitted to call at Japanese
+                            ports. Two years later, in 1869, the opening of the Suez Canal almost
+                            halved the distance of the transport routes between East Asia and
+                            Europe, enabling direct shipping between Germany and East Asia. From
+                            1871 onwards, freight and passenger ships of the German Steamship
+                            Company, the Deutsche Dampfschiffs-Rhederei (Kingsin Line), sailed
+                            between Hamburg and China, and it was L. Kniffler &amp; Co. which was
+                            appointed the exclusive agency for this.</p>
+                        <p>In addition to the imports, the exports also gained steam. In the 1870s,
+                            Japan consistently imported more than it exported, a fact that was due
+                            also to the low quality and the high price of many Japanese goods.
+                            However, in 1869 for the first time and then again in 1876, the ban on
+                            exports for a number of Japanese goods was lifted and the export duties
+                            were reduced. The aim of these measures was to use the export of
+                            agricultural products to achieve revenue that could be used to stimulate
+                            industrial development within the country. This enlivened the export
+                            business, two thirds of which consisted of tea and silk in the
+                                1870s.<note>Phipps (2015): <hi rend="italic">Empires on the
+                                    Waterfront</hi> (cf. n. 2), pp. 68–69, 73.</note> In this
+                            regard, too, global developments played a part: As a result of Prussia’s
+                            defeat of France in 1870/71, the French market for silk cloth
+                                collapsed,<note>Partner (2020): <hi rend="italic">Small Town, Big
+                                    Dreams</hi> (cf. n. 6), p. 75.</note> which boosted sales of
+                            Japanese silk on the global market.</p>
+                        <p>In the mid-1870s L. Kniffler &amp; Co. reached its largest size. Sparked
+                            by the opening of the remaining two treaty ports, Niigata and Kōbe, that
+                            was planned to happen in 1868, L. Kniffler &amp; Co. opened an agency in
+                            Niigata, where only little business activity actually took place,
+                            however. It also opened a subsidiary office in Kōbe, which then grew
+                            into Japan’s largest international port apart from Yokohama. The city
+                            area of Osaka for a few years was also home to a subsidiary, and in
+                            Tokyo an agency opened in 1870. In 1866, the company’s headquarters
+                            moved from Nagasaki to Yokohama, the port town that by then was handling
+                            between 70 and 90% of the entire Japanese foreign trade.<note>Makimura
+                                Yasuhiro (2017): <hi rend="italic">Yokohama and the Silk Trade: How
+                                    Eastern Japan Became the Primary Economic Region of Japan,
+                                    1843–1893</hi>. Lanham, Boulder, New York, London: Lexington
+                                Books, p. 116.</note> The headquarters remained in Yokohama until
+                            1898, but Nagasaki was dropped completely as a business location in the
+                            1870s as only very little trade was still conducted there. Until then,
+                            the company consisted of four offices and three agencies, as well as the
+                            purchasing house in Düsseldorf. The only known fact regarding the
+                            company’s staffing is that it employed at that time 13 German or
+                            European employees as well as an unknown number of Japanese and Chinese
+                            staff.</p>
+                        <p>In parallel to the company expanding in Japan, it also grew its
+                            international trading network in Europe, Asia and North and South
+                            America. Besides munitions goods, the company’s core business was, and
+                            remained, the export of silk and the import of cotton fabrics. </p>
+                        <p>In 1880, Louis Kniffler withdrew from the business, possibly due to
+                            health problems. On 1 April 1880, Carl Illies took over the company,
+                            thus founding the family firm C. Illies &amp; Co. Although strictly
+                            speaking this marked the end of the Kniffler era, Louis Kniffler –
+                            together with Gustav Reddelien – remained a co-owner of the company. The
+                            purchasing house in Düsseldorf continued to operate under his name until
+                            it, too, was renamed C. Illies &amp; Co. a few years later on 1 January
+                            1888. Shortly afterwards, on 20 March 1888, Louis Kniffler passed away
+                            at the age of 61. Gustav Reddelien subsequently moved the Düsseldorf
+                            branch to Hamburg on 1 July 1888. Having become the headquarters of C.
+                            Illies &amp; Co. in 1898, it has remained so ever since.</p>
+                    </div>
+                    <div>
+                        <head>References</head>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

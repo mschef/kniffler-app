@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aug. Seydoux, Sieber &amp; Cie. in Paris an L. Kniffler &amp; Co. in Nagasaki am 17. Dezember 1868</title>
+            <title type="file">0085.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-85</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Umschlagsseite mit Siegelrest, mehreren Stempeln und einer Eingangsnotiz. Zwei Stempel bis zur Unleserlichkeit verblichen,
+                            daher nicht erfasst.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01151">Aug. Seydoux, Sieber &amp; Cie.</orgName>
+               <settlement ref="K00534">Paris</settlement>
+               <date when="1868-12-17"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1869-01-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="fr-FR"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-01-07" who="TP">diplomatische Transkription</change>
+         <change when="2021-09-02" who="MS">Überarbeitung des TEI-Headers; Auszeichnung von Personen-, Orts- und Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1868_12_17_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_1.tif" n="1"/>
+         <p> par steamer française d <placeName ref="K00515">Marseille</placeName> du 19 court<lb/>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01151">AUG. SEYDOUX,SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+                  <lb/> 23, Rue de Paradis-Poissonnière.<lb/> SUCCESSEURS DE<lb/>
+                  <orgName type="firm" ref="K01152">PATURLE-LUPIN, SEYDOUX, SIEBER &amp; C<hi rend="superscript">IE</hi>
+                  </orgName>
+               </hi>
+            </seg>
+            <seg rend="right">
+               <placeName ref="K00534">Paris</placeName>, le <date when="1868-12-17">17 Décembre 1868</date>
+            </seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp; C<hi rend="superscript">o</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">à <placeName ref="K00514">Nagasaki</placeName>.</seg>
+            <lb/>
+            <lb/> A la demande de M<hi rend="superscript">r</hi>
+            <persName ref="K00001">L. Kniffler</persName> de<lb/>
+            <placeName ref="K00527">Dusseldorf</placeName>, qui vous aura sans doute déjà<lb/> écrit à ce sujet, nous nous sommes<lb/> décidés à vous envoyer, à titre de con-<lb/> signation,
+                quelques produits de notre<lb/> fabrication.<lb/> Le marine „<name type="ship" ref="K01837">Niphon</name>”, qui a du partir<lb/> d'<placeName ref="K00529">Amsterdam</placeName> ces
+                jours ci, vous portera<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen Kniffler Nagasaki Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KN</figDesc>
+                     </figure>
+                  </cell>
+                  <cell> N<hi rend="superscript">o</hi> 1à8-</cell>
+                  <cell>huit caisses, s'élevant à</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>
+                     <hi rend="superscript">fr 21976.60,</hi>
+                  </cell>
+                  <cell>met, suivant notes de<lb/> consignation ci jointes.</cell>
+               </row>
+            </table> Les prix, que nous vous cotons, s'entendent<lb/> par yard de <unclear>c/</unclear>1½ <hi rend="superscript">c</hi>/m, et sont exactement<lb/> les mêmes, que ceux, auxquels
+                nous livresrions<lb/> ici <hi rend="latintype">sur banque</hi>, contre reglement <hi rend="underline">à 3 mois<lb/> sans escompte.</hi>
+            <lb/> A ces prix viendront donc nécessairement<lb/> s'ajouter tous les frais quelconques tombant<lb/> à la charge de la marchandise, soit à titre<lb/> de frêt,- d'assurance, commission
+                de vente,<lb/> change etc. etc et perte d'intérêts<lb/> Et nous espérons bien que le résultat<lb/> des ventes couvrira non seulement le montant<lb/> de nos notes de consignation, et de
+                ces diver<unclear>s</unclear>es </p>
+         <pb facs="1868_12_17_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_2.tif" n="2"/>
+         <p> charges, mais nous offrira un exédant, qui<lb/> soit de nature à nous engager à aborder ces<lb/> affaires sur une plus grande échelle, ce que<lb/> nous serions tout disposés à faire,
+                si nous<lb/> devons y Arouver notre compte.<lb/> En attendant, et si nous premiers envois<lb/> ne devaient pas réaliser no espérances pour<lb/> un motif quelconque nous tenons à ce
+                que<lb/> vous n'en opériez <hi rend="underline">pas moins la réalisation<lb/> à l'occasion de la <hi rend="underline" n="2">première</hi> saison de vente<lb/> au mieux de nos
+                    intérêts,</hi>
+            <unclear>c</unclear>ar ce que nous<lb/> tenons à éviter avant tout c'est de garder<lb/> de la marchandise d'une amiée à<lb/> l'autre. Cette latitude èventuelle que<lb/> nous vous
+                donnons vous prouve toute la<lb/> confiance que nous inspire votre honorable<lb/> maison, et ses procédés en affaires.<lb/> L'assurance maritime a été faite ici<lb/> par nos soins, et
+                nous avons payé pour<lb/> prime, à raison de 2¾%, la somme de<lb/> fr. 665.50, pour les huit caisses<figure>
+               <figDesc>Zeichen Kniffler Nagasaki. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KN</figDesc>
+            </figure>N<hi rend="superscript">o</hi>1à8.<lb/> En vos de sinistre sur mer, vous<lb/> auriez à vous adresser au consul français,<lb/> qui est autorisé à représenter les interêts
+                de<lb/> la compagnie. Voici ce que porte notre polices<lb/> „En cas d'avaries ou d'abandon régle-<lb/> ment séparé sur chaque caisse. Les avaries<lb/>
+         </p>
+         <pb facs="1868_12_17_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_3.tif" n="3"/>
+         <p> grosses ou communes, ainsi que celles<lb/> en frais, servant remboursées intégralement;<lb/> il en sera de même des avaries matérielles<lb/> franchise (de3%) atteinte.”<lb/> Nous vous
+                adressons aussi par le<lb/> marine „Niphon”<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen Kniffler Osaka. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KO</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>N<hi rend="superscript">No</hi>1 à 6,</cell>
+                  <cell>six caisses,</cell>
+               </row>
+               <row>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen Kniffler Hiogo. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KH</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>＂ 1 à 7,</cell>
+                  <cell>sept caisses,</cell>
+               </row>
+            </table>
+            <lb/> que nous vous prions de vouloir bien<lb/> réexpédier, par première occasion,<lb/> les premières à votre maison d'<placeName ref="K00558">Osakka</placeName>, et<lb/> les dernières
+                à votre maison d'<placeName ref="K00545">Hiogo</placeName>.<lb/> Nous avons payé pour prime d'assurance<lb/>
+            <table>
+               <row>
+                  <cell>fr 552.75, pour</cell>
+                  <cell>les six caisses</cell>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen Kniffler Osaka. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KO</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>N<hi rend="superscript">o 1 à 6, et</hi>
+                  </cell>
+               </row>
+               <row>
+                  <cell>＂ 606.35, ＂</cell>
+                  <cell>les sept ＂</cell>
+                  <cell>
+                     <figure>
+                        <figDesc>Zeichen Kniffler Hiogo. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KH</figDesc>
+                     </figure>
+                  </cell>
+                  <cell>＂ 1 à 7 </cell>
+               </row>
+            </table>
+            <lb/> Les deux paquets cires, quise<lb/> trouvent à bord du „<name type="ship" ref="K01837">Niphon</name>” accompagnons<lb/> la marchandise, contennent les échant ons<lb/> afférents à
+                cet envoi.<lb/> Nous vous prions de prendre not, que<lb/> nous avons payé à M<hi rend="superscript">rs</hi>
+            <orgName type="firm" ref="K01153">de Coningh &amp;C<hi rend="superscript">o.</hi>
+            </orgName>.<lb/>
+            <figure>
+               <figDesc>Oberhalb der Zeile stärker geschrieben und mit ausgeprägten Serifen PB</figDesc>
+            </figure>f 409.15, pour frais de transport de <placeName ref="K00534">Paris</placeName> à<lb/>
+            <placeName ref="K00529">Amsterdam</placeName>, et frais à <placeName ref="K00529">Amsterdam</placeName>.<lb/> Suivant bulletins ci joints vous<lb/> recevrez par le steamer, porteur de
+                la présente<lb/> deux paquets cirés à votre adresse, contenant<lb/> les types de qualité et de couleurs.<lb/>
+         </p>
+         <pb facs="1868_12_17_Kniffler_Nagasaki_von_Aug_Seydoux_Sieber_Co_Paris_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1869<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01151">Aug SeydouxSieber+C</orgName>
+                     <lb/>
+                     <placeName ref="K00534">Paris</placeName>
+                     <date when="1868-12-17">17 Decembre 68</date>
+                  </hi>
+               </add>
+            </seg>
+            <lb/> Nous pouvons encore vous remettre<lb/> not de consignation s'élevant à: <add style="textOrientation: straight" resp="other" place="above">12 Januley</add>
+            <lb/>
+            <hi rend="underline">f<hi rend="superscript">r</hi> 13449.8.5</hi> net, à <figure>
+               <figDesc>Zeichen Kniffler Nagasaki. Buchstaben mit stark ausgeprägten Serifen in der Zeile SS unter der Zeile KN</figDesc>
+            </figure> N<hi rend="superscript">o</hi> 9 à 12 - quatre caisses,<lb/> qui contiennent le solde de toutes les<lb/> commissions remises par M<hi rend="superscript">r</hi>
+            <persName ref="K00001">Kniffler</persName>; et que<lb/> nous adressons par le marine „<name type="ship" ref="K01838">Deerfoot</name>” on autre<lb/> partant de Londres, à votre maison
+                de <placeName ref="K00525">Yokohama</placeName>,<lb/> avec prière de vous les réexpédien par première<lb/> occasion. Notre prochaine vous portera le <lb/> connaissement, et la
+                marchandise <unclear>est</unclear>
+            <lb/> accompagnée d'un paquet contenant les<lb/> échant<hi rend="superscript">ons</hi> yrelatifs. Les types<add style="transformRotateZ(-45deg)" resp="other" place="inline">B
+                        <unclear>11</unclear> Februar</add> de qualité et de<lb/> nuances de ces quatre caiseses vous parviendront,<lb/> suivant bulletin ci-inclus, en un paquet par<lb/> le premier
+                vapeur français, et vous recevrez<lb/> en même temps deux autres paquets, les trois<lb/> récuris en un seul, que vous vendrez bien<lb/> faire parvenir à vos maisons d'Osakka et de<lb/>
+                Hiogo.<lb/> Nous prenons la liberté de vous remettre<lb/> deux incluses, que nous vous prions de vouloir<lb/> bien faire parvenies à leur adresse.<lb/> Recevez, Messieurs, nos
+                salutations bien<lb/> empressées.<lb/>
+            <seg rend="right">
+               <orgName type="firm" ref="K01151">Aug <hi rend="underline">Seydoux Sieber</hi>
+               </orgName>
+            </seg>
+         </p>
+      </body>
+   </text>
+</TEI>

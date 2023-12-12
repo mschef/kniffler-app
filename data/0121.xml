@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reinhold Gärtner in Hakodate an L. Kniffler &amp; Co. in Yokohama am 29.
+                    September 1870</title>
+            <title type="file">0121.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-115</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben und eine Eingangsnotiz auf der
+                            letzten Seite.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="K00019">Gärtner, Reinhold</persName>
+               <settlement ref="K00528">Hakodate</settlement>
+               <date when="1870-09-29"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1870-10-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-25" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-16" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00528">Hakodade</placeName> d. <date when="1870-09-29">29.
+                            Septemr. 1870</date>.</hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Herren <hi rend="latintype">
+                  <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+                  <placeName ref="K00525">Yokohama</placeName>.</hi>
+            </seg>
+            <lb/> Seit meinem ergebenen Letzten vom <date when="1870-09-16">16. <choice>
+                  <abbr>d.Mts.</abbr>
+                  <expan> desselben Monats</expan>
+               </choice>
+            </date> pr. „<hi rend="latintype">
+               <name type="ship" ref="K01612">Ariel</name>
+            </hi>”<lb/> bekenne ich mich zum richtigen Empfange Ihres Geehrten vom <date when="1870-09-23">23. <choice>
+                  <abbr>d.Mts.</abbr>
+                  <expan> desselben Monats</expan>
+               </choice>
+            </date> und<lb/> danke für die prompte Beförderung des Restes meiner Güter <hi rend="latintype">ex„<name type="ship" ref="K01613">Parwan</name>”</hi>.<lb/>
+            <seg rend="center">
+               <measure quantity="83" commodity="beer" unit="boxes">83</measure> Kisten <term type="goods" ref="K01614">Bier</term>
+               <lb/>
+               <measure quantity="1" commodity="instruments" unit="boxes">1</measure>. <choice>
+                  <abbr>do.</abbr>
+                  <expan>detto</expan>
+               </choice>
+               <term type="goods" ref="K01616">Instrumente</term>.</seg>
+            <lb/> Die mir pr. „<hi rend="latintype">
+               <name type="ship" ref="K01615">Yangtze</name>
+            </hi>” richtig zugekommen sind. Nach Ihrer Nota erken-<lb/> ne ich Sie dankend mit <lb/>
+            <seg rend="center">
+               <term type="commercial" ref="K01508">$</term>
+               <measure type="currency" quantity="1084.25" unit="mex$">1084.25</measure>.</seg>
+            <lb/> für verschiedene Auslagen und Spesen, und habe die Aufstellung meiner<lb/>
+                Rechnung mit meinem Saldo zu Ihren Gunsten von <term type="commercial" ref="K01508">$</term>
+            <measure type="currency" quantity="2569" unit="mex$">2569._.</measure> richtig
+                be-<lb/> funden, zu deren Deckung ich ehestens schreiten werde.<lb/>
+            <seg rend="center">Mit Hochachtung und Ergebenheit</seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <persName ref="K00019">R. Gaertner</persName>.</hi>
+            </seg>
+            <lb/>
+            <hi rend="latintype">P. S. </hi>
+            <lb/>
+            <seg rend="center">Um gütige Beförderung der Einlagen bittet</seg>
+            <lb/>
+            <seg rend="right">derselbe</seg>
+         </p>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_2.tif" n="2"/>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_3.tif" n="3"/>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add resp="other" style="textOrientation: straight">
+                  <date when="1870">1870</date>
+                  <lb/>
+                  <hi rend="latintype">
+                     <placeName ref="K00528">Hakodade</placeName>
+                     <date when="1870-09-29">29 Sept.</date>
+                     <lb/>
+                     <persName ref="K00019">R. Gärtner</persName>
+                     <lb/>
+                     <choice>
+                        <abbr>Empf</abbr>
+                        <expan>Empfangen</expan>
+                     </choice>
+                     <date when="1870-10-17">17 Octob</date>
+                     <lb/>
+                     <choice>
+                        <abbr>bean</abbr>
+                        <expan>beantwortet</expan>
+                     </choice>
+                  </hi>
+                  <lb/>
+                  <unclear>BM</unclear>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_1.tif" n="1"/>
+         <p>Hakodate 29th September 1870.<lb/>Messrs. L. Kniffler &amp; Co. Yokohama.<lb/>Since
+                my respectful last letter from 16th of this month per “Ariel”<lb/>I am now
+                acknowledging correct receipt of your esteemed letter from 23rd of the<lb/>same
+                month and thank you for the prompt shipping of the rest of my goods from the
+                “Parwan”.<lb/> 83 crates of beer<lb/> 1 crate of instruments<lb/>which I have
+                correctly received by means of “Yangtze”. In line with your note<lb/>I am gratefully
+                crediting you with <lb/> $ 1,084.25.<lb/>for various expenses and charges and have
+                verified the listing in my <lb/>invoice with my balance of $2,569. _. in your
+                favour, <lb/>which I will immediately take steps to cover. <lb/>Yours sincerely and
+                respectfully <lb/>R. Gaertner.<lb/>P. S. <lb/>The same <lb/>is asking you kindly to
+                forward the inserts.</p>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_2.tif" n="2"/>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_3.tif" n="3"/>
+         <pb facs="1870_09_29_Kniffler_Yokohama_von_R_Gaertner_Hakodate_4.tif" n="4"/>
+         <p>⟨1870<lb/>Hakodate 29th Sep. <lb/>R. Gärtner <lb/>Rec[eived] 17th
+                Oct.<lb/>ans[wered]<lb/>BM⟩</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>J. J. Clausen (Eduard Schellhass &amp; Co.) in Shanghai an L. Kniffler &amp;
+                    Co. in Nagasaki am 8. Juni 1870</title>
+            <title type="file">0119.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <editor role="translator">Maren Barton</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+                    Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-112</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen (Papier in leichtem Blauton). Eine Seite Anschreiben, in
+                            der oberen linken Ecke der Firmenstempel (stark verblasst). Eine
+                            Eingangsnotiz auf der letzten Seite.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName type="firm" ref="K01049">Eduard Schellhass &amp; Co.</orgName>
+               <persName ref="K00040">Clausen, J. J.</persName>
+               <settlement ref="K00503">Shanghai</settlement>
+               <date when="1870-06-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName type="firm" ref="K01004">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00514">Nagasaki</settlement>
+               <date when="1870-06-14"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="de-DE"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2019-11-22" who="TP">diplomatische Transkription</change>
+         <change when="2020-09-15" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_ 1.tif" n="1"/>
+         <p>
+            <hi rend="latintype">
+               <hi rend="underline">per <name type="ship" ref="K01610">Tapanguyo</name>
+               </hi>
+            </hi>
+            <lb/>
+            <seg rend="left">
+               <stamp style="rectangular" type="commercial">
+                  <orgName type="firm" ref="K01049">EDUARD SCHELLHASS &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00509">HONGKONG</placeName> &amp; <placeName ref="K00503">SHANGHAE</placeName>
+               </stamp>
+            </seg>
+            <seg rend="right">
+               <hi rend="latintype">
+                  <placeName ref="K00503">Shanghae</placeName>
+                  <date when="1870-06-08">8 Juni 1870</date>
+               </hi>
+            </seg>
+            <lb/> Herren <hi rend="latintype">
+               <orgName type="firm" ref="K01004">L. Kniffler +Co.</orgName>
+            </hi>
+            <lb/>
+            <seg rend="center">
+               <hi rend="latintype">
+                  <placeName ref="K00514">Nagasaki</placeName>
+               </hi>
+            </seg>
+            <lb/> Wir bekennen uns zum Empfang Ihrer<lb/>
+            <choice>
+               <abbr>w/</abbr>
+               <expan> werten</expan>
+            </choice> Zuschriften vom <hi rend="latintype">
+               <date when="1870-04-14">14 April</date> &amp; <date when="1870-05-28">28
+                        May</date>
+            </hi> und<lb/> danken bestens für darin enthaltene interessante<lb/> Berichte<lb/>
+                Von blauen Tuchen senden Ihnen mit heutiger<lb/> Gelegenheit Muster und stellen
+                Ihnen die<lb/> verschiedenen Parthien freibleibend wie folgt<lb/> an.<lb/>
+            <table>
+               <row>
+                  <cell>N<hi rend="superscript">o.</hi> 1.</cell>
+                  <cell>Vorrath.</cell>
+                  <cell>c<hi rend="superscript">a</hi> 80 Stück </cell>
+                  <cell>65/66 Tuch.</cell>
+                  <cell>27/28 yds.</cell>
+                  <cell>à Tls 1”-”</cell>
+               </row>
+               <row>
+                  <cell>＂ 2</cell>
+                  <cell>＂</cell>
+                  <cell>＂ 120 ＂</cell>
+                  <cell> 65/66 ＂</cell>
+                  <cell>60pr23/24＂<lb/>60.27/28＂</cell>
+                  <cell>à＂ 1„30.</cell>
+               </row>
+               <row>
+                  <cell>＂ 3.</cell>
+                  <cell>＂</cell>
+                  <cell>unlimitirt</cell>
+                  <cell>＂ ＂</cell>
+                  <cell>28/29＂</cell>
+                  <cell>à ＂ 1. 03.</cell>
+               </row>
+               <row>
+                  <cell>＂ 4</cell>
+                  <cell>＂</cell>
+                  <cell>ca 120 Stück</cell>
+                  <cell>＂ ＂</cell>
+                  <cell>25/26＂</cell>
+                  <cell>à ＂ 1. 03.</cell>
+               </row>
+               <row>
+                  <cell>＂ 5.</cell>
+                  <cell>＂</cell>
+                  <cell>＂ 50 ＂</cell>
+                  <cell>66/88 ＂</cell>
+                  <cell>26/28 ＂</cell>
+                  <cell>à ＂ 1. 80.</cell>
+               </row>
+            </table>
+            <lb/> Es soll uns angenehm sein, wenn es Ihnen<lb/> gelingt Etwas von diesen
+                Parthien zu placiren<lb/>
+            <choice>
+               <abbr>u</abbr>
+               <expan> und</expan>
+            </choice> sehen wir Ihren <choice>
+               <abbr>gefl.</abbr>
+               <expan> gefälligen</expan>
+            </choice> Nachrichten darüber<lb/> entgegen.<lb/> Im Geschäft des hohen <term type="commercial" ref="K01611">Zinsfußes</term>
+            <add style="textOrientation: straight" resp="writer" place="above">unter Chinesen (3
+                    ½ à 4% p Mt)</add> halber nicht<lb/> das geringste Leben. Indem noch auf letzten<lb/>
+            <hi rend="latintype">Chamber of Commerces Report</hi> Bezug nehmen<lb/> zeichnen<lb/>
+            <seg rend="right">Hochachtend<lb/>
+               <choice>
+                  <abbr>ppa</abbr>
+                  <expan>per procura autoritate</expan>
+               </choice>
+               <hi rend="latintype">
+                  <orgName type="firm" ref="K01049">Eduard Schellhass+Co</orgName>
+                  <lb/>
+                  <hi rend="underline">
+                     <persName ref="K00040">J.J. Clausen</persName>
+                  </hi>
+               </hi>
+            </seg>
+            <seg rend="left">
+               <hi rend="latintype">Mex $ 76_.<lb/>
+                  <placeName ref="K00523">London</placeName> 6 m/52
+                            <unclear>Bk</unclear>6/0½<hi rend="superscript">c</hi>
+               </hi>
+            </seg>
+         </p>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_2.tif" n="2"/>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_3.tif" n="3"/>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_4.tif" n="4"/>
+         <p>
+            <seg rend="right">
+               <add style="textOrientation: straight" resp="other">1870<lb/>
+                  <hi rend="latintype">
+                     <orgName type="firm" ref="K01049">Ed Schellhass C<hi rend="superscript">o</hi>
+                     </orgName>
+                     <lb/> 14 a<lb/> B 21.</hi>
+               </add>
+            </seg>
+         </p>
+      </body>
+   </text>
+   <text type="translation">
+      <body>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_ 1.tif" n="1"/>
+         <p>per Tapanguyo<lb/>EDUARD SCHELLHASS &amp; Co.<lb/>HONGKONG &amp; SHANGHAE<lb/> Shanghai
+                8th June 1870<lb/>Messrs. L. Kniffler + Co.<lb/>Nagasaki<lb/>We acknowledge receipt
+                of your esteemed <lb/>letters from 14th April &amp; 28th May and give <lb/>you our
+                profound thanks for the interesting <lb/>reports contained within. <lb/>We are using
+                today’s occasion to send you <lb/>samples of blue cloth and can offer you the
+                <lb/>various available lots as follows.<lb/>
+            <table>
+               <row>
+                  <cell>No. 1.</cell>
+                  <cell>in stock</cell>
+                  <cell>ca. 80 items </cell>
+                  <cell>65/66 cloth.</cell>
+                  <cell>27/28 yds.</cell>
+                  <cell>at Tls 1”-”</cell>
+               </row>
+               <row>
+                  <cell>＂ 2</cell>
+                  <cell>＂</cell>
+                  <cell>＂ 120 ＂</cell>
+                  <cell> 65/66 ＂</cell>
+                  <cell>60pr23/24＂<lb/>60.27/28＂</cell>
+                  <cell>at＂ 1„30.</cell>
+               </row>
+               <row>
+                  <cell>＂ 3.</cell>
+                  <cell>＂</cell>
+                  <cell>unlimited</cell>
+                  <cell>＂ ＂</cell>
+                  <cell>28/29＂</cell>
+                  <cell>at ＂ 1. 03.</cell>
+               </row>
+               <row>
+                  <cell>＂ 4</cell>
+                  <cell>＂</cell>
+                  <cell>ca 120 items</cell>
+                  <cell>＂ ＂</cell>
+                  <cell>25/26＂</cell>
+                  <cell>at ＂ 1. 03.</cell>
+               </row>
+               <row>
+                  <cell>＂ 5.</cell>
+                  <cell>＂</cell>
+                  <cell>＂ 50 ＂</cell>
+                  <cell>66/88 ＂</cell>
+                  <cell>26/28 ＂</cell>
+                  <cell>at ＂ 1. 80.</cell>
+               </row>
+            </table>
+            <lb/>It would please us if you could manage <lb/>to place some part of these lots
+                <lb/>and we are looking forward to your <lb/>esteemed news in this regard. <lb/>In
+                the business there is no activity at all <lb/>due to the high rate among Chinese (3½
+                to 4% per mth).<lb/>Referring also to the latest Chamber of Commerce <lb/>report, we
+                sign <lb/>Mex $ 76_.<lb/>London 6 m/52 Bk[?]6/0½c<lb/>Yours respectfully<lb/>(p.p.)
+                Eduard Schellhass + Co<lb/>J.J. Clausen</p>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_2.tif" n="2"/>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_3.tif" n="3"/>
+         <pb facs="1870_06_08_Kniffler_Nagasaki_von_Eduard_Schellhass_Shanghai_4.tif" n="4"/>
+         <p>⟨1870<lb/>Ed Schellhass Co<lb/>14th rec[eived] <lb/>an[swered] 21st.⟩</p>
+      </body>
+   </text>
+</TEI>

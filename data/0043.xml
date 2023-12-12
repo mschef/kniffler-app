@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="knifflerSchema/knifflerSchema_odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stone &amp; Co. in Marseille an L. Kniffler &amp; Co. in Yokohama am 12. Juli
+                    1864</title>
+            <title type="file">0043.xml</title>
+            <editor>Tristan Pfeil, Marc Scheffer</editor>
+            <funder> Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen <address>
+                  <addrLine>Völklinger Straße 49</addrLine>
+                  <addrLine>40221 Düsseldorf</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Online-Edition der Knifflerbriefe</name> Fakultät für
+                    Ostasienwissenschaften der Ruhr-Universität Bochum Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Hamburg</settlement>
+                  <repository>FA CIC (Firmenarchiv Carl Illies &amp; Co.)</repository>
+                  <idno type="FA-CIC">LKC-42</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Ein Doppelbogen. Eine Seite Anschreiben. Eine Hälfte der Umschlagsseite
+                            verloren.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="K01147" type="firm">Stone &amp; Co</orgName>
+               <settlement ref="K00515">Marseille</settlement>
+               <date when="1864-07-12"/>
+            </correspAction>
+            <correspAction type="received">
+               <orgName ref="K01004" type="firm">L. Kniffler &amp; Co.</orgName>
+               <settlement ref="K00525">Yokohama</settlement>
+               <date when="1864-08-21"/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Die Kniffler-Briefe: Online-Edition der internationalen Geschäftskorrespondenz
+                    von L. Kniffler &amp; Co., 1859 – 1876</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2020-03-20" who="TP">Diplomatische Transkription</change>
+         <change when="2021-09-02" who="MS">Auszeichnung von Personen-, Orts- und
+                Sachnamen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="1864_07_12_Kniffler_Yokohama_von_Stone_Co_Marseile_1.tif" n="1"/>
+         <p>
+            <seg rend="left">
+               <hi rend="print">
+                  <orgName type="firm" ref="K01147">Stone &amp; Co</orgName>
+                  <placeName ref="K00515">Marseille</placeName> 12 Juillet 1864<lb/>
+                  <placeName ref="K00523">London</placeName>, 53, Old Broad St. E.C.<lb/>
+                  <placeName ref="K00515">Marseille</placeName>,46, rue Montgrand.</hi>
+            </seg>
+            <lb/>
+            <seg rend="center">Messieurs <orgName type="firm" ref="K01004">L. Kniffler &amp;
+                            C<hi rend="superscript">o.</hi>
+               </orgName>
+            </seg>
+            <lb/>
+            <seg rend="right">
+               <hi rend="underline">
+                  <placeName ref="K00525">Yokohama</placeName>
+               </hi>
+            </seg> Depuis nos derniers avis du <date when="1864-06-28">28 Juin</date> que <choice>
+               <abbr>
+                  <hi rend="superscript">n</hi>/</abbr>
+               <expan> nous</expan>
+            </choice>
+            <choice>
+               <abbr>
+                  <hi rend="superscript">v</hi>/</abbr>
+               <expan> vous</expan>
+            </choice> confirmons Messieurs,<lb/> les affaires ont continue a jaunir d’un assez
+                bon courant, les soies fines ont de nouveau<lb/> Les soies de <placeName ref="K00547">France</placeName> se paient de f 90 à 94 soit f 10 de plus que
+                l’an passé les<lb/> Brousse ne sont pas encore au niveau.<lb/> Les Japons fins
+                valent f 75 pareté de 72/ &amp; on croit qu’ils vont a f 80/82<lb/> pareté de 27/ a
+                30/.<lb/> Les soies fermes sont également très recherchés &amp; en hausse les
+                qualités qui conviennent<lb/> le mieux a notre marché sont :<lb/>
+            <table>
+               <row>
+                  <cell>
+                     <term type="goods" ref="K01768">Taysaam</term> 3<hi rend="superscript">e</hi> &amp; 4<hi rend="superscript">e</hi>
+                  </cell>
+                  <cell>
+                     <placeName ref="K00564">Canton</placeName> fermes</cell>
+               </row>
+               <row>
+                  <cell> SKein</cell>
+                  <cell>
+                     <term type="goods" ref="K01835">Atchezan</term> &amp; tous les
+                                <placeName ref="K00502">Japon</placeName> fermes.</cell>
+               </row>
+               <row>
+                  <cell>Setchuess</cell>
+               </row>
+            </table> Les cocons du <placeName ref="K00502">Japon</placeName> beau blanc
+                randraient f 16 à 20 pareté de 6/ à 7/ s.<lb/> Les Dichets de toutes sortes tels que
+                frisons, cocons percés, baurres seront tres<lb/> recherchés &amp; a de bons prix
+                pendant toute la campagne &amp; vous deviez profiter<lb/> de qques occasions que <choice>
+               <abbr>
+                  <hi rend="superscript">v</hi>/</abbr>
+               <expan> vous</expan>
+            </choice> avez pour nous en consigner.<lb/> Nous <choice>
+               <abbr>
+                  <hi rend="superscript">v</hi>/</abbr>
+               <expan> vous</expan>
+            </choice> referons, Messieurs a notre dernier prix courant &amp; vous salutons<lb/>
+            <seg rend="right"> Bien Sincerement<lb/> JJon <orgName type="firm" ref="K01147">Stone + C<hi rend="superscript">o</hi>.</orgName>
+               <lb/>
+               <persName ref="K00133">Réné Lynach</persName>
+               <lb/>
+            </seg>
+            <seg rend="left">
+               <table>
+                  <row>
+                     <cell>Carolus</cell>
+                     <cell>Ṁ ME</cell>
+                     <cell>f 5.80</cell>
+                  </row>
+                  <row>
+                     <cell>Piastres</cell>
+                     <cell>
+                        <unclear>mycains</unclear>
+                     </cell>
+                     <cell>＂ 5.65 à 5.70</cell>
+                  </row>
+               </table> Argent fm f. 27 ‰ <unclear>srime</unclear>
+            </seg>
+         </p>
+         <pb facs="1864_07_12_Kniffler_Yokohama_von_Stone_Co_Marseile_2.tif" n="2"/>
+         <pb facs="1864_07_12_Kniffler_Yokohama_von_Stone_Co_Marseile_3.tif" n="3"/>
+         <pb facs="1864_07_12_Kniffler_Yokohama_von_Stone_Co_Marseile_4.tif" n="envelope"/>
+         <p>
+            <seg rend="center">
+               <placeName ref="K00525">Yokohama</placeName>
+               <placeName ref="K00502">Japon</placeName>
+               <stamp style="rectangular" type="commercial">
+                  <orgName type="firm" ref="K01147">STONE &amp; C<hi rend="superscript">o</hi>
+                  </orgName>
+                  <lb/>
+                  <placeName ref="K00515">Marseille</placeName>
+               </stamp>
+            </seg>
+            <add style="writingMode: vertical-lr; textOrientation: sideways-right" resp="other" place="marginRight"> 1864<lb/>
+               <placeName ref="K00515">Marseille</placeName>
+               <date when="1864-07-11">11 Juli</date>
+               <lb/>
+               <orgName type="firm" ref="K01147">Stone + Co.</orgName>
+               <lb/> r/ <hi rend="underline">
+                  <date when="1864-08-31">
+                     <hi rend="superscript">31</hi>/8 64</date>
+                  <lb/>
+               </hi>
+               <date when="1865-01-17">17 Janr</date>
+            </add>
+         </p>
+      </body>
+   </text>
+</TEI>

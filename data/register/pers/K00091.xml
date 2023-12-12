@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="register.html" view="page"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Personenregister-Eintrag </title>
+            <!-- Die IDs werden im Format K00000 fortlaufend nach ihrem Vorkommen in den Briefen vergeben. Bei K00001 beginnend bis 
+            K00499 handelt es sich um Personen. Für Orte sind es die IDs K00500 bis K00999. Firmen werden mit K01000 bis K01499 bezeichnet. 
+            Ab K01500 stehen die IDs für technische Terme und Waren.
+            -->
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Internationale Geschäftskorrespondenz von L. Kniffler &amp; Co.
+                  (1859-1876)</name> Fakultät für Ostasienwissenschaften der Ruhr-Universität Bochum
+               Sektion Geschichte Japans <address>
+                  <addrLine>Ruhr-Universität Bochum</addrLine>
+                  <addrLine>Universitätsstraße 150</addrLine>
+                  <addrLine>44801 Bochum</addrLine>
+               </address>
+            </distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="K00091">
+               <persName>
+                  <roleName>Capitain</roleName>
+               </persName>
+               <birth>
+                  <date/>
+               </birth>
+               <death>
+                  <date/>
+               </death>
+               <note> Kapitän des Schiffs "Alfred Ray". Erwähnung im Brief vom 1.11.1862. Im Jahre
+                  1866 hieß der Kapitän des Schiffs David Alexander, ob es sich dabei um denselben
+                  wie im 1862 handelt, ist nicht belegt. Offenbar sollte er für eine Weile
+                  Unterkunft bei Kniffler &amp; Co. in Nagasaki finden. </note>
+               <bibl source="http://marinersandships.com.au/1866/02/078alf.htm">Mariners and ships
+                  in Australian Waters</bibl>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
